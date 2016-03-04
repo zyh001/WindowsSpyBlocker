@@ -10,11 +10,11 @@ You can use the [HostsMan](http://www.abelhadigital.com/hostsman) freeware to ke
 I have created a git hook to publish the hosts file to my personal website.<br />
 Add this url to HostsMan : [http://www.crazyws.fr/HostsWindowsBlocker.txt](http://www.crazyws.fr/HostsWindowsBlocker.txt)<br /><br />
 
-Some hosts are not blocked and required a top level application.
+Some hosts are not blocked and required a top level application.<br />
 For example you can use [Proxifier](https://www.proxifier.com/) software to block Microsoft spy.<br />
 Copy the content of the ```proxifier.txt``` file in a blocked rule :
 
-![](https://raw.github.com/crazy-max/HostsWindowsBlocker/master/proxifier_rule.png)
+![](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/proxifier_rule.png)
 
 ## Sources
 
