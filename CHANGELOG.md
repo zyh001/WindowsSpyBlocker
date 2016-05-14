@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1 (2016/05/14)
+
+* New firewall rules since Microsoft Patch Tuesday May 2016
+
 ## 2.0 (2016/05/14)
 
 * Update hosts Windows Extra
