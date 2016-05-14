@@ -4,8 +4,8 @@ TITLE WindowsSpyBlocker - Firewall rules
 
 SET firewallRulesPrefix=windowsSpyBlocker-
 SET firewallRulesFile=firewallBlockWindowsSpy.txt
-::SET firewallRulesUrl=https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/%firewallRulesFile%
-SET firewallRulesUrl=http://localhost/%firewallRulesFile%
+SET firewallRulesUrl=https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/%firewallRulesFile%
+::SET firewallRulesUrl=http://localhost/%firewallRulesFile%
 SET tmpVbs=%TEMP%\firewallBlockWindowsSpy.vbs
 
 CLS
