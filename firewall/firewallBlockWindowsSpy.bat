@@ -38,7 +38,7 @@ EXIT
 :START
 
 CLS
-ECHO ### WindowsSpyBlocker - Firewall rules 1.5
+ECHO ### WindowsSpyBlocker - Firewall rules
 ECHO ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 :: Remove old rules

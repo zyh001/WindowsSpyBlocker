@@ -24,7 +24,9 @@ I have created a git hook to publish the hosts files to my personal website :
 ### Firewall
 
 Download and execute `firewallBlockWindowsSpy.bat`<br />
-This script will download the latest `firewallBlockWindowsSpy.txt` containing ip addresses to block.
+This script will download the latest `firewallBlockWindowsSpy.txt` containing ip addresses to block and add outbound firewall rules :
+
+![](firewall/firewallRules.png)
 
 ### Proxifier
 
