@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.3 (2016/05/15)
+
+* New firewall rules
+* New hosts
+* Add extra firewall rules in a separate file
+* Add test IPs menu in firewall script
+
 ## 2.2 (2016/05/15)
 
 * New firewall rules

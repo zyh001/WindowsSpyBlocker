@@ -23,8 +23,11 @@ I have created a git hook to publish the hosts files to my personal website :
 
 ### Firewall
 
-Download and execute `firewallBlockWindowsSpy.bat`<br />
-This script will download the latest `firewallBlockWindowsSpy.txt` containing ip addresses to block and add outbound firewall rules :
+[Download](archive/master.zip) or clone the repository, execute `firewall\firewallBlockWindowsSpy.bat` and choose an option :<br />
+
+![](firewall/firewallMenu.png)
+
+IPs are added in the Windows Firewall as outbound rules :<br />
 
 ![](firewall/firewallRules.png)
 
