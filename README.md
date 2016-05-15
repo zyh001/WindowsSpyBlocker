@@ -23,7 +23,7 @@ I have created a git hook to publish the hosts files to my personal website :
 
 ### Firewall
 
-[Download](archive/master.zip) or clone the repository, execute `firewall\firewallBlockWindowsSpy.bat` and choose an option :<br />
+[Download](https://github.com/crazy-max/WindowsSpyBlocker/archive/master.zip) or clone the repository, execute `firewall\firewallBlockWindowsSpy.bat` and choose an option :<br />
 
 ![](firewall/firewallMenu.png)
 
