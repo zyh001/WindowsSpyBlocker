@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2 (2016/05/15)
+
+* New firewall rules
+* Add logo (credit to DWS)
+
 ## 2.1 (2016/05/14)
 
 * New firewall rules since Microsoft Patch Tuesday May 2016

@@ -1,4 +1,6 @@
-# Windows Spy Blocker
+# Windows Spy Blocker [![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/crazyws)
+
+![](logo.png)
 
 Rules to block Windows spy / telemetry.<br />
 I use Wireshark to make these rules every Windows Update on a virtual machine (Windows 10 Pro 64bits).
@@ -38,4 +40,5 @@ See `CHANGELOG.md`.
 
 ## License
 
-LGPL. See `LICENSE` for more details.
+LGPL. See `LICENSE` for more details.<br />
+Icon credit to DWS.
