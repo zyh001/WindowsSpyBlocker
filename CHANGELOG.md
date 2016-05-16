@@ -1,11 +1,17 @@
 # Changelog
 
+## 2.5 (2016/05/16)
+
+* Add instructions to use blacklist domains with DNSCrypt (Issue #5)
+* Add DNSCrypt blacklisted domains files
+* Rename firewall and proxifier files according to operating system
+
 ## 2.4 (2016/05/16)
 
 * New firewall rules
 * New extra hosts
 * Move `204.79.197.200` to extra firewall rules (Bing)
-* Add relative information about firewall IP addresses in `firewallTestIPs.csv` file.
+* Add relative information about firewall IP addresses in `firewallTestIPs.csv` file
 
 ## 2.3 (2016/05/15)
 

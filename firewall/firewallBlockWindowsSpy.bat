@@ -4,7 +4,7 @@ TITLE WindowsSpyBlocker - Firewall rules
 
 SET firewallRulesPrefix=windowsSpyBlocker-
 SET firewallTestIPsCSV=firewallTestIPs.csv
-SET firewallRulesUrl=https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/firewallBlockWindowsSpy.txt
+SET firewallRulesUrl=https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/windows10_spy.txt
 SET tmpVbs=%TEMP%\firewallBlockWindowsSpy.vbs
 
 
@@ -78,7 +78,7 @@ GOTO START
 ::::::::::::::::::::::::::::::::::::::::
 :DOWNLOAD_GITHUB
 ::::::::::::::::::::::::::::::::::::::::
-SET firewallRulesFile=firewallBlockWindowsSpyGithub.txt
+SET firewallRulesFile=windows10_spy_github.txt
 ECHO - Download rules from GitHub...
 ECHO WScript.StdOut.Write "Download " ^& "%firewallRulesUrl%" ^& " " >%tmpVbs%
 ECHO Dim objHttp : Set objHttp = CreateObject("WinHttp.WinHttpRequest.5.1") >>%tmpVbs%
@@ -107,7 +107,7 @@ IF %task% == 4 (
 ::::::::::::::::::::::::::::::::::::::::
 :LOCAL
 ::::::::::::::::::::::::::::::::::::::::
-SET firewallRulesFile=firewallBlockWindowsSpy.txt
+SET firewallRulesFile=windows10_spy.txt
 GOTO REMOVE_RULES
 
 

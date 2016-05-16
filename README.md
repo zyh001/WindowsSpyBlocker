@@ -1,21 +1,31 @@
 # Windows Spy Blocker [![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/crazyws)
 
-![](logo.png)
+Rules to block Windows spy / telemetry.
 
-Rules to block Windows spy / telemetry.<br />
-I use Wireshark to make these rules every Windows Update on a virtual machine (Windows 10 Pro 64bits).
+![](logo.png)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [How ?](#how)
 - [Usage](#usage)
   - [Hosts](#hosts)
   - [Firewall](#firewall)
+  - [DNSCrypt](#dnscrypt)
   - [Proxifier](#proxifier)
 - [Changelog](#changelog)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## How ?
+
+I use a QEMU virtual machine on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on Windows 10 Pro 64bits with automatic updates enabled.<br />
+I clean traffic dumps every day and compare results with the current rules to add / remove some hosts or firewall rules.
+
+Tools i used to capture traffic :
+* qemu -net dump
+* Wireshark
 
 ## Usage
 
@@ -45,6 +55,18 @@ IPs are added in the Windows Firewall as outbound rules :<br />
 
 ![](firewall/firewallRules.png)
 
+### DNSCrypt
+
+[DNSCrypt](https://dnscrypt.org/) is a protocol for securing communications between a client and a DNS resolver. With this tool you can blacklist some domains with the plugin [libdcplugin_example_ldns_blocking](https://github.com/jedisct1/dnscrypt-proxy#plugins) and add domains with leading and trailing wildcards.<br />
+To install DNSCrypt on Windows, read the [README-WINDOWS](https://github.com/jedisct1/dnscrypt-proxy/blob/master/README-WINDOWS.markdown) on the official GitHub repository.<br />
+Copy the content of the dnscrypt files in the repository in a file called for example `C:\blacklisted-domains.txt` and enter this command :
+
+```
+dnscrypt-proxy -R <name> --plugin=libdcplugin_example_ldns_blocking.dll,--domains=C:\blacklisted-domains.txt
+```
+
+Replace `<name>` with a [public DNS resolvers supporting DNSCrypt](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv) you want to use. Note its name, in the first column (for example: `dnscrypt.org-fr`).
+
 ### Proxifier
 
 Some hosts are not blocked and required a top level application.<br />
@@ -52,6 +74,7 @@ For example you can use [Proxifier](https://www.proxifier.com/) software to bloc
 Copy the content of the proxifier files in the repository in a blocked rule :
 
 ![](proxifier/rule.png)
+
 
 ## Changelog
 
