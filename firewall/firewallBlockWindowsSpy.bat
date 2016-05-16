@@ -250,7 +250,7 @@ ECHO     ipNetName = Replace(ipNetName, ",", ".") >>%tmpVbs%
 ECHO     ipOrganization = Replace(ipOrganization, ",", ".") >>%tmpVbs%
 ECHO     ipCountry = Replace(ipCountry, ",", ".") >>%tmpVbs%
 ECHO     ipResolvesTo = Replace(ipResolvesTo, ",", ".") >>%tmpVbs%
-ECHO     objTestIPsCSV.Write ipAddress ^& ";" ^& ipNetName ^& ";" ^& ipOrganization ^& ";" ^& ipCountry ^& ";" ^& ipResolvesTo ^& vbCrLf >>%tmpVbs%
+ECHO     objTestIPsCSV.Write ipAddress ^& "," ^& ipNetName ^& "," ^& ipOrganization ^& "," ^& ipCountry ^& "," ^& ipResolvesTo ^& vbCrLf >>%tmpVbs%
 ECHO   End If >>%tmpVbs%
 ECHO Loop >>%tmpVbs%
 ECHO objTestIPsCSV.Close >>%tmpVbs%
