@@ -2,7 +2,7 @@
 
 Rules to block Windows spy / telemetry.
 
-![](logo.png)
+![](../../wiki/img/logo-20160516.png)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -49,11 +49,11 @@ Some queries use IP addresses but you can stop them with your Firewall.<br />
 All relative information about these IP addresses are listed in the CSV file [firewallTestIPs.csv](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/firewallTestIPs.csv).<br />
 [Download](https://github.com/crazy-max/WindowsSpyBlocker/archive/master.zip) or clone the repository, execute `firewall\firewallBlockWindowsSpy.bat` and choose an option :<br />
 
-![](firewall/firewallMenu.png)
+![](../../wiki/img/firewallMenu-20160516.png)
 
 IPs are added in the Windows Firewall as outbound rules :<br />
 
-![](firewall/firewallRules.png)
+![](../../wiki/img/firewallRules-20160516.png)
 
 ### DNSCrypt
 
@@ -73,8 +73,7 @@ Some hosts are not blocked and required a top level application.<br />
 For example you can use [Proxifier](https://www.proxifier.com/) software to block Microsoft spy.<br />
 Copy the content of the proxifier files in the repository in a blocked rule :
 
-![](proxifier/rule.png)
-
+![](../../wiki/img/proxifierRules-20160516.png)
 
 ## Changelog
 
