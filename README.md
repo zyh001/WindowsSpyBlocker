@@ -7,7 +7,7 @@ Rules to block Windows spy / telemetry.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [How ?](#how)
+- [How ?](#how-)
 - [Usage](#usage)
   - [Hosts](#hosts)
   - [Firewall](#firewall)
