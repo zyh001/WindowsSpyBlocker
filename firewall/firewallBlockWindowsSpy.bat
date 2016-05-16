@@ -5,7 +5,6 @@ TITLE WindowsSpyBlocker - Firewall rules
 SET firewallRulesPrefix=windowsSpyBlocker-
 SET firewallTestIPsCSV=firewallTestIPs.csv
 SET firewallRulesUrl=https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/firewallBlockWindowsSpy.txt
-::SET firewallRulesUrl=http://localhost/%firewallRulesFile%
 SET tmpVbs=%TEMP%\firewallBlockWindowsSpy.vbs
 
 
@@ -83,7 +82,7 @@ SET firewallRulesFile=firewallBlockWindowsSpyGithub.txt
 ECHO - Download rules from GitHub...
 ECHO WScript.StdOut.Write "Download " ^& "%firewallRulesUrl%" ^& " " >%tmpVbs%
 ECHO Dim objHttp : Set objHttp = CreateObject("WinHttp.WinHttpRequest.5.1") >>%tmpVbs%
-ECHO dim objStream : Set objStream = CreateObject("Adodb.Stream") >>%tmpVbs%
+ECHO Dim objStream : Set objStream = CreateObject("Adodb.Stream") >>%tmpVbs%
 ECHO objHttp.Open "GET", "%firewallRulesUrl%", True >>%tmpVbs%
 ECHO objHttp.Send >>%tmpVbs%
 ECHO While objHttp.WaitForResponse(0) = 0 >>%tmpVbs%
@@ -117,14 +116,10 @@ GOTO REMOVE_RULES
 ::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO - Remove rules...
-ECHO Dim objFwPolicy2 >%tmpVbs%
-ECHO Dim objCurrentProfiles >>%tmpVbs%
-ECHO Dim objRules >>%tmpVbs%
-ECHO Dim objRule >>%tmpVbs%
-ECHO. >>%tmpVbs%
-ECHO Set objFwPolicy2 = CreateObject("HNetCfg.FwPolicy2") >>%tmpVbs%
-ECHO objCurrentProfiles = objFwPolicy2.CurrentProfileTypes >>%tmpVbs%
-ECHO Set objRules = objFwPolicy2.Rules >>%tmpVbs%
+ECHO Dim objRule >%tmpVbs%
+ECHO Dim objFwPolicy2 : Set objFwPolicy2 = CreateObject("HNetCfg.FwPolicy2") >>%tmpVbs%
+ECHO Dim objCurrentProfiles : Set objCurrentProfiles = objFwPolicy2.CurrentProfileTypes >>%tmpVbs%
+ECHO Dim objRules : Set objRules = objFwPolicy2.Rules >>%tmpVbs%
 ECHO For Each objRule In objRules >>%tmpVbs%
 ECHO   If objRule.Profiles And objCurrentProfiles Then >>%tmpVbs%
 ECHO     If InStr(1, objRule.Name, "%firewallRulesPrefix%") = 1 Then >>%tmpVbs%
@@ -166,29 +161,93 @@ GOTO END
 ECHO.
 ECHO - Test IPs...
 ECHO Dim ipAddress >%tmpVbs%
-ECHO Dim Result >>%tmpVbs%
 ECHO Dim objShell : Set objShell = WScript.CreateObject("WScript.Shell") >>%tmpVbs%
 ECHO Dim objFso : Set objFso = CreateObject("Scripting.FileSystemObject") >>%tmpVbs%
 ECHO Dim objTestIPsCSV : Set objTestIPsCSV = objFSO.CreateTextFile("%~dp0\%firewallTestIPsCSV%", True) >>%tmpVbs%
 ECHO Dim objRules : Set objRules = objFso.OpenTextFile("%~dp0\%firewallRulesFile%") >>%tmpVbs%
 ECHO Dim objIE : Set objIE = CreateObject("InternetExplorer.Application") >>%tmpVbs%
 ECHO objIE.Visible = False >>%tmpVbs%
-ECHO objTestIPsCSV.Write "IP;DNS RESOLVE" ^& vbCrLf >>%tmpVbs%
+ECHO objTestIPsCSV.Write "IP;NETNAME;ORGANIZATION;COUNTRY;DNS RESOLVE" ^& vbCrLf >>%tmpVbs%
 ECHO Do Until objRules.AtEndOfStream >>%tmpVbs%
 ECHO   ipAddress = Trim(objRules.ReadLine) >>%tmpVbs%
-ECHO   If Not InStr(1, ipAddress, "#") = 1 And Len(ipAddress) Then >>%tmpVbs%
-ECHO     WScript.StdOut.Write "Checking " ^& ipAddress ^& " " >>%tmpVbs%
+ECHO   If Len(ipAddress) And Not InStr(1, ipAddress, "#") = 1 And InStr(ipAddress, "-") = 0 Then >>%tmpVbs%
+ECHO     WScript.StdOut.Write "Checking " ^& ipAddress >>%tmpVbs%
+ECHO     objIE.Navigate "https://dnsquery.org/ipwhois,request/" ^& ipAddress >>%tmpVbs%
+ECHO     Do Until objIE.ReadyState = 4 >>%tmpVbs%
+ECHO       WScript.StdOut.Write "." >>%tmpVbs%
+ECHO       WScript.Sleep 500 >>%tmpVbs%
+ECHO     Loop >>%tmpVbs%
+ECHO     rawIpData = objIE.Document.Body.innerText >>%tmpVbs%
+ECHO     rawIpDataSp = Split(Trim(objIE.Document.getElementsByTagName("pre").item(0).innerText), vbNewLine) >>%tmpVbs%
+ECHO     ipNetName = "" >>%tmpVbs%
+ECHO     ipOrganization = "" >>%tmpVbs%
+ECHO     ipCountry = "" >>%tmpVbs%
+ECHO     For Each ipData In rawIpDataSp >>%tmpVbs%
+ECHO       ''' whois.arin.net >>%tmpVbs%
+ECHO       If InStr(rawIpData, "whois.arin.net") ^> 0 Then >>%tmpVbs%
+ECHO         If InStr(1, ipData, "NetName:") = 1 Then >>%tmpVbs%
+ECHO           ipNetName = Trim(Replace(ipData, "NetName:        ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If InStr(1, ipData, "Organization:") = 1 Then >>%tmpVbs%
+ECHO           ipOrganization = Trim(Replace(ipData, "Organization:   ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If InStr(1, ipData, "Country:") = 1 Then >>%tmpVbs%
+ECHO           ipCountry = Trim(Replace(ipData, "Country:        ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO       End If >>%tmpVbs%
+ECHO       ''' whois.ripe.net >>%tmpVbs%
+ECHO       If InStr(rawIpData, "whois.ripe.net") ^> 0 Then >>%tmpVbs%
+ECHO         If InStr(1, ipData, "netname:") = 1 Then >>%tmpVbs%
+ECHO           ipNetName = Trim(Replace(ipData, "netname:        ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If Len(ipOrganization) = 0 And InStr(1, ipData, "descr:") = 1 Then >>%tmpVbs%
+ECHO           ipOrganization = Trim(Replace(ipData, "descr:          ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If InStr(1, ipData, "country:") = 1 Then >>%tmpVbs%
+ECHO           ipCountry = Trim(Replace(ipData, "country:        ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO       End If >>%tmpVbs%
+ECHO       ''' whois.lacnic.net >>%tmpVbs%
+ECHO       If InStr(rawIpData, "whois.lacnic.net") ^> 0 Then >>%tmpVbs%
+ECHO         If InStr(1, ipData, "aut-num:") = 1 Then >>%tmpVbs%
+ECHO           ipNetName = Trim(Replace(ipData, "aut-num:     ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If InStr(1, ipData, "owner:") = 1 Then >>%tmpVbs%
+ECHO           ipOrganization = Trim(Replace(ipData, "owner:       ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If InStr(1, ipData, "country:") = 1 Then >>%tmpVbs%
+ECHO           ipCountry = Trim(Replace(ipData, "country:     ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO       End If >>%tmpVbs%
+ECHO       ''' whois.apnic.net >>%tmpVbs%
+ECHO       If InStr(rawIpData, "whois.apnic.net") ^> 0 Then >>%tmpVbs%
+ECHO         If InStr(1, ipData, "netname:") = 1 Then >>%tmpVbs%
+ECHO           ipNetName = Trim(Replace(ipData, "netname:        ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If Len(ipOrganization) = 0 And InStr(1, ipData, "descr:") = 1 Then >>%tmpVbs%
+ECHO           ipOrganization = Trim(Replace(ipData, "descr:          ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO         If InStr(1, ipData, "country:") = 1 Then >>%tmpVbs%
+ECHO           ipCountry = Trim(Replace(ipData, "country:        ", "")) >>%tmpVbs%
+ECHO         End If >>%tmpVbs%
+ECHO       End If >>%tmpVbs%
+ECHO     Next >>%tmpVbs%
 ECHO     objIE.Navigate "http://www.webyield.net/cgi-bin/ipwhois.cgi?addr=" ^& ipAddress >>%tmpVbs%
 ECHO     Do Until objIE.ReadyState = 4 >>%tmpVbs%
 ECHO       WScript.StdOut.Write "." >>%tmpVbs%
 ECHO       WScript.Sleep 500 >>%tmpVbs%
 ECHO     Loop >>%tmpVbs%
-ECHO     Result = Trim(Replace(objIE.Document.getElementsByTagName("p").item(1).innerText, "Resolves to: ", "")) >>%tmpVbs%
-ECHO     objTestIPsCSV.Write ipAddress ^& ";" ^& Result ^& vbCrLf >>%tmpVbs%
-ECHO     WScript.Echo " resolves to: " ^& Result >>%tmpVbs%
+ECHO     ipResolvesTo = Trim(Replace(objIE.Document.getElementsByTagName("p").item(1).innerText, "Resolves to: ", "")) >>%tmpVbs%
+ECHO     ipResolvesTo = Replace(ipResolvesTo, "no reverse DNS for this IP", "") >>%tmpVbs%
+ECHO     Wscript.Echo vbNewLine ^& "  NetName: " ^& ipNetName >>%tmpVbs%
+ECHO     Wscript.Echo "  Organization: " ^& ipOrganization >>%tmpVbs%
+ECHO     Wscript.Echo "  Country: " ^& ipCountry >>%tmpVbs%
+ECHO     Wscript.Echo "  Resolves to: " ^& ipResolvesTo >>%tmpVbs%
+ECHO     objTestIPsCSV.Write Replace(ipAddress ^& ";" ^& ipNetName ^& ";" ^& ipOrganization ^& ";" ^& ipCountry ^& ";" ^& ipResolvesTo, ",", "") ^& vbCrLf >>%tmpVbs%
 ECHO   End If >>%tmpVbs%
 ECHO Loop >>%tmpVbs%
 ECHO objTestIPsCSV.Close >>%tmpVbs%
+ECHO objIE.Quit >>%tmpVbs%
 cscript.exe /NoLogo %tmpVbs%
 GOTO END
 

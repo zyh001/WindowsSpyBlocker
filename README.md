@@ -5,6 +5,18 @@
 Rules to block Windows spy / telemetry.<br />
 I use Wireshark to make these rules every Windows Update on a virtual machine (Windows 10 Pro 64bits).
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Usage](#usage)
+  - [Hosts](#hosts)
+  - [Firewall](#firewall)
+  - [Proxifier](#proxifier)
+- [Changelog](#changelog)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Usage
 
 ### Hosts
@@ -23,6 +35,8 @@ I have created a git hook to publish the hosts files to my personal website :
 
 ### Firewall
 
+Some queries use IP addresses but you can stop them with your Firewall.<br />
+All relative information about these IP addresses are listed in the CSV file [firewallTestIPs.csv](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/firewallTestIPs.csv).<br />
 [Download](https://github.com/crazy-max/WindowsSpyBlocker/archive/master.zip) or clone the repository, execute `firewall\firewallBlockWindowsSpy.bat` and choose an option :<br />
 
 ![](firewall/firewallMenu.png)
