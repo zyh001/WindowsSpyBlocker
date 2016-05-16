@@ -46,7 +46,7 @@ I have created a git hook to publish the hosts files to my personal website :
 ### Firewall
 
 Some queries use IP addresses but you can stop them with your Firewall.<br />
-All relative information about these IP addresses are listed in the CSV file [firewallTestIPs.csv](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/firewall/firewallTestIPs.csv).<br />
+All relative information about these IP addresses are listed in the CSV file [firewallTestIPs.csv](https://github.com/crazy-max/WindowsSpyBlocker/blob/master/firewall/firewallTestIPs.csv).<br />
 [Download](https://github.com/crazy-max/WindowsSpyBlocker/archive/master.zip) or clone the repository, execute `firewall\firewallBlockWindowsSpy.bat` and choose an option :<br />
 
 ![](../../wiki/img/firewallMenu-20160516.png)

@@ -170,7 +170,7 @@ ECHO Dim objTestIPsCSV : Set objTestIPsCSV = objFSO.CreateTextFile("%~dp0\%firew
 ECHO Dim objRules : Set objRules = objFso.OpenTextFile("%~dp0\%firewallRulesFile%") >>%tmpVbs%
 ECHO Dim objIE : Set objIE = CreateObject("InternetExplorer.Application") >>%tmpVbs%
 ECHO objIE.Visible = False >>%tmpVbs%
-ECHO objTestIPsCSV.Write "IP;NETNAME;ORGANIZATION;COUNTRY;DNS RESOLVE" ^& vbCrLf >>%tmpVbs%
+ECHO objTestIPsCSV.Write "IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE" ^& vbCrLf >>%tmpVbs%
 ECHO Do Until objRules.AtEndOfStream >>%tmpVbs%
 ECHO   ipAddress = Trim(objRules.ReadLine) >>%tmpVbs%
 ECHO   If Len(ipAddress) And Not InStr(1, ipAddress, "#") = 1 And InStr(ipAddress, "-") = 0 Then >>%tmpVbs%
@@ -246,7 +246,11 @@ ECHO     Wscript.Echo vbNewLine ^& "  NetName: " ^& ipNetName >>%tmpVbs%
 ECHO     Wscript.Echo "  Organization: " ^& ipOrganization >>%tmpVbs%
 ECHO     Wscript.Echo "  Country: " ^& ipCountry >>%tmpVbs%
 ECHO     Wscript.Echo "  Resolves to: " ^& ipResolvesTo >>%tmpVbs%
-ECHO     objTestIPsCSV.Write Replace(ipAddress ^& ";" ^& ipNetName ^& ";" ^& ipOrganization ^& ";" ^& ipCountry ^& ";" ^& ipResolvesTo, ",", "") ^& vbCrLf >>%tmpVbs%
+ECHO     ipNetName = Replace(ipNetName, ",", ".") >>%tmpVbs%
+ECHO     ipOrganization = Replace(ipOrganization, ",", ".") >>%tmpVbs%
+ECHO     ipCountry = Replace(ipCountry, ",", ".") >>%tmpVbs%
+ECHO     ipResolvesTo = Replace(ipResolvesTo, ",", ".") >>%tmpVbs%
+ECHO     objTestIPsCSV.Write ipAddress ^& ";" ^& ipNetName ^& ";" ^& ipOrganization ^& ";" ^& ipCountry ^& ";" ^& ipResolvesTo ^& vbCrLf >>%tmpVbs%
 ECHO   End If >>%tmpVbs%
 ECHO Loop >>%tmpVbs%
 ECHO objTestIPsCSV.Close >>%tmpVbs%
