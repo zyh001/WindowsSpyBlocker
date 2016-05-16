@@ -5,6 +5,8 @@
 * Add instructions to use blacklist domains with DNSCrypt (Issue #5)
 * Add DNSCrypt blacklisted domains files
 * Rename firewall and proxifier files according to operating system
+* New firewall rules
+* Move rules to extra for Proxifier and DNSCrypt
 
 ## 2.4 (2016/05/16)
 
