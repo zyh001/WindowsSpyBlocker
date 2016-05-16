@@ -116,10 +116,13 @@ GOTO REMOVE_RULES
 ::::::::::::::::::::::::::::::::::::::::
 ECHO.
 ECHO - Remove rules...
-ECHO Dim objRule >%tmpVbs%
-ECHO Dim objFwPolicy2 : Set objFwPolicy2 = CreateObject("HNetCfg.FwPolicy2") >>%tmpVbs%
-ECHO Dim objCurrentProfiles : Set objCurrentProfiles = objFwPolicy2.CurrentProfileTypes >>%tmpVbs%
-ECHO Dim objRules : Set objRules = objFwPolicy2.Rules >>%tmpVbs%
+ECHO Dim objFwPolicy2 >%tmpVbs%
+ECHO Dim objCurrentProfiles >>%tmpVbs%
+ECHO Dim objRules >>%tmpVbs%
+ECHO Dim objRule >>%tmpVbs%
+ECHO Set objFwPolicy2 = CreateObject("HNetCfg.FwPolicy2") >>%tmpVbs%
+ECHO objCurrentProfiles = objFwPolicy2.CurrentProfileTypes >>%tmpVbs%
+ECHO Set objRules = objFwPolicy2.Rules >>%tmpVbs%
 ECHO For Each objRule In objRules >>%tmpVbs%
 ECHO   If objRule.Profiles And objCurrentProfiles Then >>%tmpVbs%
 ECHO     If InStr(1, objRule.Name, "%firewallRulesPrefix%") = 1 Then >>%tmpVbs%
