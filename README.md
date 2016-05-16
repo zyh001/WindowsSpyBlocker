@@ -21,9 +21,9 @@ Rules to block Windows spy / telemetry.
 ## How ?
 
 I use a QEMU virtual machine on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on Windows 10 Pro 64bits with automatic updates enabled.<br />
-I clean traffic dumps every day and compare results with the current rules to add / remove some hosts or firewall rules.
+I clean traffic dumps every day and compare results with the current rules to add / remove some hosts or firewall rules (need to automate the process...).
 
-Tools i used to capture traffic :
+Tools used to capture traffic :
 * qemu -net dump
 * Wireshark
 
