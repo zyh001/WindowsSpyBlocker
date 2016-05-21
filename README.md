@@ -2,7 +2,7 @@
 
 Rules to block Windows spy / telemetry.
 
-![](../../wiki/img/logo-20160516.png)
+![](../../wiki/img/logo-20160521.png)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -31,17 +31,17 @@ Tools used to capture traffic :
 
 ### Hosts
 
-* `hostsBlockWindowsSpy.txt` : Block Windows Spy / Telemetry
-* `hostsBlockWindowsUpdate.txt` : Block Windows Update
-* `hostsBlockWindowsExtra.txt` : Block third party applications
+* `windowsX_spy.txt` : Block Windows Spy / Telemetry
+* `windowsX_update.txt` : Block Windows Update
+* `windowsX_extra.txt` : Block third party applications
 
 Copy / paste the content of the above files in your Windows hosts file located in `C:\Windows\System32\drivers\etc\hosts`.<br />
 
 You can use the [HostsMan](http://www.abelhadigital.com/hostsman) freeware to keep update your hosts file.<br />
 I have created a git hook to publish the hosts files to my personal website :
-* [http://www.crazyws.fr/hostsBlockWindowsSpy.txt](http://www.crazyws.fr/hostsBlockWindowsSpy.txt)
-* [http://www.crazyws.fr/hostsBlockWindowsUpdate.txt](http://www.crazyws.fr/hostsBlockWindowsUpdate.txt)
-* [http://www.crazyws.fr/hostsBlockWindowsExtra.txt](http://www.crazyws.fr/hostsBlockWindowsExtra.txt)
+* [http://www.crazyws.fr/WindowsSpyBlocker/hosts/windows10_spy.txt](http://www.crazyws.fr/WindowsSpyBlocker/hosts/windows10_spy.txt)
+* [http://www.crazyws.fr/WindowsSpyBlocker/hosts/windows10_update.txt](http://www.crazyws.fr/WindowsSpyBlocker/hosts/windows10_update.txt)
+* [http://www.crazyws.fr/WindowsSpyBlocker/hosts/windows10_extra.txt](http://www.crazyws.fr/WindowsSpyBlocker/hosts/windows10_extra.txt)
 
 ### Firewall
 
@@ -81,5 +81,4 @@ See `CHANGELOG.md`.
 
 ## License
 
-LGPL. See `LICENSE` for more details.<br />
-Icon credit to DWS.
+LGPL. See `LICENSE` for more details.

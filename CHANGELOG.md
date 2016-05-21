@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.6 (2016/05/22)
+
+* New firewall rules
+* New extra host
+* Add check on IP range
+* Rename hosts files
+
 ## 2.5 (2016/05/16)
 
 * Add instructions to use blacklist domains with DNSCrypt (Issue #5)
