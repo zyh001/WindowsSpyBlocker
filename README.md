@@ -81,4 +81,4 @@ See `CHANGELOG.md`.
 
 ## License
 
-LGPL. See `LICENSE` for more details.
+MIT. See `LICENSE` for more details.
