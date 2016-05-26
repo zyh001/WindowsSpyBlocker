@@ -61,7 +61,7 @@ IPs are added in the Windows Firewall as outbound rules :<br />
 
 Windows check a Microsoft site for connectivity, using the Network Connectivity Status Indicator site.<br />
 NCSI performs a DNS lookup on `www.msftncsi.com` and sends a DNS lookup request for `dns.msftncsi.com`.<br />
-You can block this probe by adding the content of the `windowsX_extra.txt` hosts file.<br /><br />
+You can block this probe by adding the content of the `windowsX_extra.txt` hosts file.<br />
 
 But you will have ["No Internet access" warning in your system tray](../../wiki/FAQ#no-internet-access-on-my-network-card).<br />
 To solve this problem you can use the alternative WindowsSpyBlocker NCSI by executing `ncsi\ncsi.bat` :<br />
