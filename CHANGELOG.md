@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.7 (2016/05/26)
+
+* Allow Network Connectivity Status Indicator (Issue #8)
+* Windows Update was blocked unintentional. (Issue #7)
+* New firewall rules
+* Add Windows Update firewall rules
+* New hosts
+* Add IPs to Proxifier rules (copy from firewall rules)
+* Remove reverse DNS lookup hosts
+* Update [FAQ](../../wiki/FAQ)
+
 ## 2.6 (2016/05/22)
 
 * New firewall rules

@@ -13,7 +13,6 @@ Rules to block Windows spy / telemetry.
   - [Firewall](#firewall)
   - [DNSCrypt](#dnscrypt)
   - [Proxifier](#proxifier)
-- [Changelog](#changelog)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -75,9 +74,10 @@ Copy the content of the proxifier files in the repository in a blocked rule :
 
 ![](../../wiki/img/proxifierRules-20160516.png)
 
-## Changelog
+## Projects using WindowsSpyBlocker
 
-See `CHANGELOG.md`.
+* [pi-hole](https://pi-hole.net/) : A black hole for Internet advertisements (designed for Raspberry Pi).
+* [StopAd](http://stopad.generate.club/) : Service for MikroTik routers made to block "advertising" and more.
 
 ## License
 
