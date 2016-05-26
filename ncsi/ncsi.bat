@@ -132,7 +132,6 @@ ECHO     if( (Invoke-Webrequest ("http://{0}/{1}" -f (Get-ItemProperty HKLM:\SYS
 ECHO                                                 (Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet).ActiveWebProbePath)>>%tmpPs1%
 ECHO         ).Content -eq (Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet).ActiveWebProbeContent ) {>>%tmpPs1%
 ECHO         Write-Host 'IPv4 web probe succeeded.'>>%tmpPs1%
-ECHO         return $true>>%tmpPs1%
 ECHO    }>>%tmpPs1%
 ECHO } catch { # Ignore errors>>%tmpPs1%
 ECHO    Write-Host 'IPv4 web probe failed.'>>%tmpPs1%
