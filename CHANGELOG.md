@@ -1,7 +1,8 @@
 # Changelog
 
-## 2.7 (2016/05/26)
+## 2.7 (2016/05/27)
 
+* Add NCSI alternative probe (Issue #9)
 * Allow Network Connectivity Status Indicator (Issue #8)
 * Windows Update was blocked unintentional. (Issue #7)
 * New firewall rules

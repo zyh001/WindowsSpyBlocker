@@ -7,10 +7,12 @@ Rules to block Windows spy / telemetry.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [How ?](#how-)
 - [Usage](#usage)
   - [Hosts](#hosts)
   - [Firewall](#firewall)
+  - [NCSI (Network Connectivity Status Indicator)](#ncsi-network-connectivity-status-indicator)
   - [DNSCrypt](#dnscrypt)
   - [Proxifier](#proxifier)
 - [Projects using WindowsSpyBlocker](#projects-using-windowsspyblocker)
@@ -54,6 +56,17 @@ All relative information about these IP addresses are listed in the CSV file [fi
 IPs are added in the Windows Firewall as outbound rules :<br />
 
 ![](../../wiki/img/firewallRules-20160516.png)
+
+### NCSI (Network Connectivity Status Indicator)
+
+Windows check a Microsoft site for connectivity, using the Network Connectivity Status Indicator site.<br />
+NCSI performs a DNS lookup on `www.msftncsi.com` and sends a DNS lookup request for `dns.msftncsi.com`.<br />
+You can block this probe by adding the content of the `windowsX_extra.txt` hosts file.<br /><br />
+
+But you will have ["No Internet access" warning in your system tray](../../wiki/FAQ#no-internet-access-on-my-network-card).<br />
+To solve this problem you can use the alternative WindowsSpyBlocker NCSI by executing `ncsi\ncsi.bat` :<br />
+
+![](../../wiki/img/ncsiMenu-20160527.png)
 
 ### DNSCrypt
 
