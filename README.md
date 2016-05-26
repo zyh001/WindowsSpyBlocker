@@ -13,6 +13,7 @@ Rules to block Windows spy / telemetry.
   - [Firewall](#firewall)
   - [DNSCrypt](#dnscrypt)
   - [Proxifier](#proxifier)
+- [Projects using WindowsSpyBlocker](#projects-using-windowsspyblocker)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
