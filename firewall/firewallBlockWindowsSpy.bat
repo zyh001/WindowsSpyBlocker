@@ -70,7 +70,7 @@ ECHO.
 IF %task% == 1 GOTO DOWNLOAD_GITHUB
 IF %task% == 2 GOTO LOCAL
 IF %task% == 3 GOTO REMOVE_RULES
-IF %task% == 4 GOTO LOCAL
+IF %task% == 4 GOTO DOWNLOAD_GITHUB
 IF %task% == 9 GOTO EXIT
 GOTO START
 
@@ -176,7 +176,7 @@ ECHO objTestIPsCSV.Write "IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE" ^& vbCrLf
 ECHO Do Until objRules.AtEndOfStream >>%tmpVbs%
 ECHO   ipAddressOr = Trim(objRules.ReadLine) >>%tmpVbs%
 ECHO   ipAddress = ipAddressOr >>%tmpVbs%
-ECHO   If Len(ipAddress) And Not InStr(1, ipAddress, "#") = 1 And Not InStr(ipAddress, "-") ^> 0 Then >>%tmpVbs%
+ECHO   If Len(ipAddress) And Not InStr(1, ipAddress, "#") = 1 Then >>%tmpVbs%
 ECHO     If InStr(ipAddress, "-") ^> 0 Then >>%tmpVbs%
 ECHO       ipAddressAr = Split(Split(ipAddress, "-")(0), ".") >>%tmpVbs%
 ECHO       For i = 1 To 254 Step 1 >>%tmpVbs%
