@@ -67,8 +67,8 @@ ECHO.
 ::::::::::::::::::::::::::::::::::::::::
 :ACTION
 ::::::::::::::::::::::::::::::::::::::::
-IF %task% == 1 GOTO APPLY
-IF %task% == 2 GOTO APPLY
+IF %task% == 1 GOTO DOWNLOAD_GITHUB
+IF %task% == 2 GOTO DOWNLOAD_MSFTNCSI
 IF %task% == 3 GOTO TEST
 IF %task% == 9 GOTO EXIT
 GOTO START
@@ -78,22 +78,24 @@ GOTO START
 :DOWNLOAD_GITHUB
 ::::::::::::::::::::::::::::::::::::::::
 SET ncsiFile=%ncsiGithub%
+GOTO DOWNLOAD
 
 
 ::::::::::::::::::::::::::::::::::::::::
 :DOWNLOAD_MSFTNCSI
 ::::::::::::::::::::::::::::::::::::::::
 SET ncsiFile=%ncsiMsftncsi%
+GOTO DOWNLOAD
 
 
 ::::::::::::::::::::::::::::::::::::::::
 :DOWNLOAD
 ::::::::::::::::::::::::::::::::::::::::
 ECHO - Download .reg...
-ECHO WScript.StdOut.Write "Download " ^& "%firewallRulesUrl%" ^& " " >%tmpVbs%
+ECHO WScript.StdOut.Write "Download " ^& "%ncsiUrl%/%ncsiFile%" ^& " " >%tmpVbs%
 ECHO Dim objHttp : Set objHttp = CreateObject("WinHttp.WinHttpRequest.5.1") >>%tmpVbs%
 ECHO Dim objStream : Set objStream = CreateObject("Adodb.Stream") >>%tmpVbs%
-ECHO objHttp.Open "GET", "%firewallRulesUrl%", True >>%tmpVbs%
+ECHO objHttp.Open "GET", "%ncsiUrl%/%ncsiFile%", True >>%tmpVbs%
 ECHO objHttp.Send >>%tmpVbs%
 ECHO While objHttp.WaitForResponse(0) = 0 >>%tmpVbs%
 ECHO   WScript.StdOut.Write "." >>%tmpVbs%
@@ -113,11 +115,9 @@ GOTO APPLY
 ::::::::::::::::::::::::::::::::::::::::
 :APPLY
 ::::::::::::::::::::::::::::::::::::::::
-SET ncsiFile=%ncsiGithub%
 ECHO.
 ECHO - Apply NCSI %ncsiFile%...
 regedit /s "%~dp0\%ncsiFile%"
-ECHO Restart your computer to apply changes...
 GOTO END
 
 
