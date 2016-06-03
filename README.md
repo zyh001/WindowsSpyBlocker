@@ -62,7 +62,7 @@ I have created a git hook to publish the hosts files to my personal website :
 
 Some queries use IP addresses but you can stop them with your Firewall.<br />
 All relative information about these IP addresses are listed in the CSV files `firewall-` in the [logs folder](tree/master/firewall/logs).<br />
-To add / remove firewall rules or test IPs, read the instructions in [scripts/firewall folder](tree/master/scripts/firewall).
+To add / remove firewall rules or test IPs, read the instructions in [scripts/firewall folder](scripts/firewall).
 
 ### NCSI (Network Connectivity Status Indicator)
 
@@ -71,7 +71,7 @@ NCSI performs a DNS lookup on `www.msftncsi.com` and sends a DNS lookup request 
 You can block this probe by adding the content of the `windowsX_extra.txt` hosts file.<br />
 
 But you will have a ["No Internet access" warning in your system tray](../../wiki/FAQ#no-internet-access-on-my-network-card).<br />
-To solve this problem read the instructions in [scripts/ncsi folder](tree/master/scripts/ncsi).
+To solve this problem read the instructions in [scripts/ncsi folder](scripts/ncsi).
 
 ### DNSCrypt
 
