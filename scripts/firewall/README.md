@@ -1,6 +1,6 @@
 Execute `firewall.bat` and choose an option :
 
-![](../../../../wiki/img/firewall/menu-20160516.png)
+![](../../../../wiki/img/firewall/menu-20160603.png)
 
 IPs are added in the Windows Firewall as outbound rules :
 
