@@ -8,6 +8,7 @@
 
 - [About](#about)
 - [How ?](#how-)
+- [Requirements](#requirements)
 - [Usage](#usage)
   - [Hosts](#hosts)
   - [Firewall](#firewall)
@@ -36,6 +37,10 @@ Tools used to capture traffic :
 * **[Proxifier](../../wiki/captureProxifier)** : logs
 
 All traffic logs are available in the `logs` folder.
+
+## Requirements
+
+* Scripts required [Visual C++ Redistributable for Visual Studio 2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679) (vcredist_x86.exe).
 
 ## Usage
 
