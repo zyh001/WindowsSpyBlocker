@@ -6,28 +6,75 @@ $currentPath = formatUnixPath(realpath(''));
 $basePath = formatUnixPath(realpath('../..'));
 $logsPath = $basePath . '/logs';
 
+// exit codes
+// 0 > ok
+// 1-90 > tasks
+// 97 > unknown task
+// 98 > previous
+// 99 > exit
+// 254 > error
+// 255 > fatal error
+
 try {
     $config = loadConfig($currentPath . '/proxifier.conf');
-    if (count($argv) < 2) {
-        throw new Exception('Missing main arg');
+    $task = null;
+    if (count($argv) == 2 && $argv[1] >= 1 && $argv[1] <= 90) {
+        $task = intval($argv[1]);
     }
-    call_user_func('process' . ucfirst($argv[1]));
-    exit(0);
+    menu($task);
+    exit(99);
 } catch (Exception $ex) {
     echo 'Error: ' . $ex->getMessage() . PHP_EOL;
-    exit(1);
+    exit(255);
 }
 
 ///////////////////////////////////////////////
 ///////////////////////////////////////////////
 
-function processExtractLog() {
+function menu($task, $display = true) {
+    if ($display) {
+        echo PHP_EOL . '# WindowsSpyBlocker - Proxifier';
+        echo PHP_EOL . '# https://github.com/crazy-max/WindowsSpyBlocker';
+        echo PHP_EOL;
+        echo PHP_EOL . '  1  - Extract log';
+        echo PHP_EOL . '  99 - Exit';
+        echo PHP_EOL . PHP_EOL;
+    }
+
+    $task = prompt('Choose a task: ');
+
+    try {
+        switch ($task) {
+            case 1:
+                procExtractLog();
+                exit(0);
+                break;
+            case 99:
+                exit(99);
+                break;
+            default:
+                echo 'Unknown task...';
+                exit(97);
+                break;
+        }
+    } catch (Exception $ex) {
+        echo 'Error: ' . $ex->getMessage();
+        exit(254);
+    }
+}
+
+function procExtractLog() {
     global $logsPath, $config;
+    echo PHP_EOL . 'Extract log...';
+
+    if (!file_exists($config['logPath'])) {
+        throw new Exception('Log file not found in: ' . $config['logPath']);
+    }
 
     $nbLines = 0;
     $excluded = array();
     $results = array();
-    $handle = fopen($config['logPath'], "r");
+    $handle = fopen($config['logPath'], 'r');
     if ($handle) {
         while (($line = fgets($handle)) !== false) {
             $nbLines++;
@@ -54,18 +101,20 @@ function processExtractLog() {
                 'exe' => $lineAr[2],
                 'pid' => intval($lineAr[3]),
                 'account' => count($lineAr) == 6 ? $lineAr[4] : null,
-                'host' => $host,
+                'host' => strtolower($host),
             );
         }
         fclose($handle);
     }
 
-    echo 'Lines: ' . $nbLines . PHP_EOL;
-    echo 'To process: ' . count($results) . ' (' . count($excluded) . ' excluded)' . PHP_EOL . PHP_EOL;
+    echo PHP_EOL . 'Lines: ' . $nbLines ;
+    echo PHP_EOL . 'To process: ' . count($results) . ' (' . count($excluded) . ' excluded)' . PHP_EOL;
 
-    $csvAll = 'From: ' . $results[0]['date'] . PHP_EOL;
-    $csvAll .= 'To: ' . $results[count($results) - 1]['date'] . PHP_EOL;
-    $csvAll .= PHP_EOL . 'DATE,EXE,PID,ACCOUNT,HOST';
+    if (count($results) == 0) {
+        throw new Exception('No log to process...');
+    }
+
+    $csvAll = 'DATE,EXE,PID,ACCOUNT,HOST';
     $csvUnique = $csvAll;
     $dups = array();
     foreach ($results as $result) {
@@ -102,27 +151,35 @@ function processExtractLog() {
     }
 
     arsort($hosts);
-    $csvHostsCount = 'From: ' . $results[0]['date'] . PHP_EOL;
-    $csvHostsCount .= 'To: ' . $results[count($results) - 1]['date'] . PHP_EOL;
-    $csvHostsCount .= PHP_EOL . 'HOST,COUNT';
+    $csvHostsCount = 'HOST,COUNT';
     foreach ($hosts as $host => $count) {
         $csvHostsCount .= PHP_EOL . $host . ',' . $count;
     }
 
-    echo 'Write proxifier-hosts-count.csv...'. PHP_EOL;
-    file_put_contents($logsPath . '/proxifier-hosts-count.csv', $csvHostsCount);
-    echo 'Write proxifier-unique.csv...'. PHP_EOL;
-    file_put_contents($logsPath . '/proxifier-unique.csv', $csvUnique);
-    echo 'Write proxifier-all.csv...'. PHP_EOL;
-    file_put_contents($logsPath . '/proxifier-all.csv', $csvAll);
+    $csvHostsCountsFile = $logsPath . '/proxifier-hosts-count.csv';
+    echo PHP_EOL . 'Write ' . $csvHostsCountsFile . '...';
+    file_put_contents($csvHostsCountsFile, $csvHostsCount);
+
+    $csvUniqueFile = $logsPath . '/proxifier-unique.csv';
+    echo PHP_EOL . 'Write ' . $csvUniqueFile . '...';
+    file_put_contents($csvUniqueFile, $csvUnique);
+
+    $csvAllFile = $logsPath . '/proxifier-all.csv';
+    echo PHP_EOL . 'Write ' . $csvAllFile . '...';
+    file_put_contents($csvAllFile, $csvAll);
 }
 
 function cleanLine($line) {
     $line = trim(preg_replace('/matching(.*?)rule/i', '', $line));
-    $line = trim(preg_replace('/:\sdirect\sconnection/i', '', $line));
-    $line = trim(preg_replace('/:\sconnection\sblocked/i', '', $line));
+    $line = trim(preg_replace('/open\sdirectly/i', '', $line));
+    $line = trim(preg_replace('/\:\sdirect\sconnection/i', '', $line));
+    $line = trim(preg_replace('/\:\sconnection\sblocked/i', '', $line));
+    $line = trim(preg_replace('/\serror\s\:\sA\sconnection\srequest\swas\scanceled(.*?)$/i', '', $line));
+    $line = trim(preg_replace('/\serror\s\:\sCould\snot\sconnect(.*?)$/i', '', $line));
     $line = trim(preg_replace('/:\sDNS/i', '', $line));
     $line = trim(preg_replace('/\(According\sto\sRules\)/i', '', $line));
+    $line = trim(preg_replace('/GetSockName\s\:(.*?)$/i', '', $line));
+    $line = trim(preg_replace('/close(.*?)bytes(.*?)sent(.*?)received(.*?)lifetime(.*?)$/i', '', $line));
     $line = trim(preg_replace('/resolve\s/i', '', $line));
     $line = trim(preg_replace('/\*64\s/i', '', $line));
     $line = trim(preg_replace('/\s-\s/i', ' ', $line));
@@ -136,15 +193,19 @@ function isValidLine($line) {
         && !contains($line, 'Profile saved as')
         && !contains($line, 'Log file enabled')
         && !contains($line, 'Traffic log enabled')
+        && !contains($line, 'Traffic file disabled')
         && !contains($line, 'Verbose output enabled')
         && !contains($line, 'Log Directory is set to')
+        && !contains($line, 'Local CMOS Clock')
         && !contains($line, 'Automatic DNS mode detection')
         && !contains($line, '(IPv6)')
+        && !contains($line, 'source socket not found')
+        && !contains($line, 'Connections do not originate from the applications')
         && !endWith($line, 'loaded.');
 }
 
 function getHost($lineAr) {
-    global $config;
+    global $config, $logsPath;
 
     $elt = rtrim($lineAr[count($lineAr) - 1], '.');
     if (contains($elt, ':')) {
@@ -155,12 +216,18 @@ function getHost($lineAr) {
     }
     foreach ($config['exclude']['ips'] as $ipExpr) {
         if (isIpExpr($elt, $ipExpr)) {
-            return false;
+            return null;
+        }
+    }
+    if (filter_var($elt, FILTER_VALIDATE_IP)) {
+        $ipWhois = getResolvedIp($elt, $logsPath);
+        if ($ipWhois != null) {
+            $elt = $ipWhois;
         }
     }
     foreach ($config['exclude']['hosts'] as $hostExpr) {
         if (isHostExpr($elt, $hostExpr)) {
-            return false;
+            return null;
         }
     }
 

@@ -4,6 +4,10 @@ $dnsQueryUrl = 'https://dnsquery.org/ipwhois,request/';
 $ipWhoisUrl = 'http://www.webyield.net/cgi-bin/ipwhois.cgi?addr=';
 
 function loadConfig($path) {
+    if (!file_exists($path)) {
+        throw new Exception('Conf file not found in ' . $path);
+    }
+
     $config = json_decode(file_get_contents($path), true);
     //var_dump($config);
 
@@ -162,6 +166,55 @@ function parseIpWhois($html) {
     }
 }
 
+function getResolvedIp($ip, $logsPath) {
+    global $ipWhoisUrl;
+
+    $resolvedIps = array();
+    $resolvedFile = $logsPath . '/resolved.tmp';
+    $currentTime = time();
+
+    if (file_exists($resolvedFile)) {
+        $diffTime = $currentTime - filectime($resolvedFile);
+        if ($diffTime > 172800) {
+            echo 'resolvedIps file expired...' . PHP_EOL;
+            unlink($resolvedFile);
+        } else {
+            $handle = fopen($resolvedFile, 'r');
+            if ($handle) {
+                while (($line = fgets($handle)) !== false) {
+                    $line = trim($line);
+                    if (empty($line)) {
+                        continue;
+                    }
+                    $lineAr = explode(' ', $line);
+                    $resolvedIps[$lineAr[0]] = count($lineAr) == 2 ? $lineAr[1] : null;
+                }
+                fclose($handle);
+            }
+            if (array_key_exists($ip, $resolvedIps)) {
+                return $resolvedIps[$ip];
+            }
+        }
+    }
+
+    $resolvedIps[$ip] = parseIpWhois(getUrlContent($ipWhoisUrl . $ip));
+
+    uksort($resolvedIps, 'cmpIp');
+    $resolvedIpsStr = '';
+    foreach ($resolvedIps as $aIp => $aResolved) {
+        $resolvedIpsStr .= $aIp . ' ' . $aResolved . PHP_EOL;
+    }
+    file_put_contents($resolvedFile, $resolvedIpsStr);
+
+    return $resolvedIps[$ip];
+}
+
+function cmpIp($a, $b) {
+    $aip = sprintf('%u', ip2long($a));
+    $bip = sprintf('%u', ip2long($b));
+    return $aip > $bip;
+}
+
 function isIpExpr($ip, $expr) {
     $ips = array();
     if (contains($expr, '-')) {
@@ -182,7 +235,7 @@ function isIpExpr($ip, $expr) {
 }
 
 function isHostExpr($host, $expr) {
-    return preg_match('/^' . str_replace('*', '(.*)', $expr) . '$/i', $host, $matches) === 1;
+    return preg_match('/^' . str_replace('*', '(.*?)', $expr) . '$/i', $host, $matches) === 1;
 }
 
 function contains($string, $search) {
@@ -215,4 +268,10 @@ function formatWindowsPath($path) {
 
 function formatUnixPath($path) {
     return str_replace('\\', '/', $path);
+}
+
+function prompt($prompt) {
+    echo $prompt;
+    $handle = fopen('php://stdin', 'r');
+    return trim(fgets($handle));
 }

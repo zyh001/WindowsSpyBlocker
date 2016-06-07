@@ -1,0 +1,24 @@
+DATE,PROCESS,USER,PROTOCOL,SRC_IP,SRC_PORT,SRC_PORT_NAME,DEST_IP,DEST_PORT,DEST_PORT_NAME
+2016-06-04 17:22:52.980,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49304,,65.55.252.93,443,https
+2016-06-04 17:22:53.638,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49310,,2.17.234.96,80,http
+2016-06-04 17:22:54.020,System,AUTORITE NT\Syst�me,udp,local,137,netbios-ns,65.55.252.93,137,netbios-ns
+2016-06-04 17:31:53.600,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,68,bootpc,255.255.255.255,67,bootps
+2016-06-04 17:31:53.634,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE R�SEAU,udp,local,54455,,224.0.0.252,5355,llmnr
+2016-06-04 17:41:16.221,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57701,,239.255.255.250,1900,ssdp
+2016-06-04 17:41:16.221,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57702,,239.255.255.250,1900,ssdp
+2016-06-04 17:41:41.291,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49318,,2.17.234.96,80,http
+2016-06-04 17:57:20.576,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,1900,ssdp,239.255.255.250,1900,ssdp
+2016-06-04 17:57:20.577,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,1900,ssdp,239.255.255.250,1900,ssdp
+2016-06-04 18:16:31.061,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,68,bootpc,255.255.255.255,67,bootps
+2016-06-04 18:16:31.452,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE R�SEAU,udp,local,58722,,224.0.0.252,5355,llmnr
+2016-06-04 18:19:33.530,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,1900,ssdp,239.255.255.250,1900,ssdp
+2016-06-04 18:19:33.530,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,1900,ssdp,239.255.255.250,1900,ssdp
+2016-06-04 18:39:58.221,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,68,bootpc,255.255.255.255,67,bootps
+2016-06-04 18:39:58.304,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE R�SEAU,udp,local,49262,,224.0.0.252,5355,llmnr
+2016-06-04 18:41:30.957,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57701,,239.255.255.250,1900,ssdp
+2016-06-04 18:41:30.958,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57702,,239.255.255.250,1900,ssdp
+2016-06-04 18:47:47.379,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49336,,65.55.252.71,80,http
+2016-06-04 18:47:50.034,System,AUTORITE NT\Syst�me,udp,local,137,netbios-ns,65.55.252.71,137,netbios-ns
+2016-06-04 18:47:50.665,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49339,,65.55.252.71,443,https
+2016-06-04 18:48:10.980,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49342,,2.17.234.96,80,http
+2016-06-04 18:50:48.435,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE R�SEAU,tcp,local,49343,,a23-67-99-241.deploy.static.akamaitechnologies.com,80,http

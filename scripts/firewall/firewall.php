@@ -8,147 +8,165 @@ $dataPath = $basePath . '/data/firewall';
 $logsPath = $basePath . '/logs';
 $rulesPrefix = 'windowsSpyBlocker';
 
+// exit codes
+// 0 > ok
+// 1-90 > tasks
+// 97 > unknown task
+// 98 > previous
+// 99 > exit
+// 254 > error
+// 255 > fatal error
+
 try {
     $config = loadConfig($currentPath . '/firewall.conf');
-    if (count($argv) < 2) {
-        throw new Exception('Missing main arg');
+    $task = null;
+    if (count($argv) == 2 && $argv[1] >= 1 && $argv[1] <= 90) {
+        $task = intval($argv[1]);
     }
-    call_user_func('process' . ucfirst($argv[1]));
-    exit(0);
+    menu($task);
+    exit(99);
 } catch (Exception $ex) {
     echo 'Error: ' . $ex->getMessage() . PHP_EOL;
-    exit(1);
+    exit(255);
 }
 
 ///////////////////////////////////////////////
 ///////////////////////////////////////////////
 
-function processTestIps() {
-    global $argv, $currentPath, $basePath, $dataPath, $logsPath, $config, $dnsQueryUrl, $ipWhoisUrl;
+function menu($task = null, $display = true) {
+    global $config;
 
-    if (count($argv) != 3) {
-        throw new Exception('Missing args');
-    }
-
-    $remoteIps = true;
-    $ipsFiles = array();
-    if ($argv[2] == 'local') {
-        $remoteIps = false;
-        foreach ($config['rules']['local'] as $name => $path) {
-            $ipsFiles[$name] = $basePath . $path;
-            if (!file_exists($ipsFiles[$name])) {
-                throw new Exception('Rule file not found in ' . ipsFiles[$name]);
-            }
-        }
-    } else {
+    if ($display) {
+        echo PHP_EOL . '# WindowsSpyBlocker - Firewall';
+        echo PHP_EOL . '# https://github.com/crazy-max/WindowsSpyBlocker';
         echo PHP_EOL;
-        foreach ($config['rules']['remote'] as $name => $url) {
-            $ipsFiles[$name] = $logsPath . '/' . preg_replace('/\..+$/', '.tmp', basename($url));
-            echo 'Download ' . basename($url) . '.';
-            if (download($url, $ipsFiles[$name])) {
-                echo ' OK' . PHP_EOL;
-            } else {
-                throw new Exception('Download failed');
-            }
-            if (!file_exists(ipsFiles[$name])) {
-                throw new Exception('Rule file not found in ' . ipsFiles[$name]);
-            }
+        $i = 1;
+        foreach ($config['os'] as $key => $name) {
+            echo PHP_EOL . '  ' . $i . '  - ' . $name;
+            $i++;
         }
+        echo PHP_EOL;
+        echo PHP_EOL . '  10 - Remove rules';
+        echo PHP_EOL;
+        echo PHP_EOL . '  99 - Exit';
+        echo PHP_EOL . PHP_EOL;
     }
 
-    foreach ($ipsFiles as $name => $ipsFile) {
-        $ips = array();
-        $handle = fopen($ipsFile, 'r');
-        if ($handle) {
-            while (($line = fgets($handle)) !== false) {
-                $line = trim($line);
-                if (contains($line, '-')) {
-                    $lineAr = explode('-', $line);
-                    if (count($lineAr) != 2) {
-                        continue;
-                    }
-                    if (!filter_var($lineAr[0], FILTER_VALIDATE_IP) || !filter_var($lineAr[1], FILTER_VALIDATE_IP)) {
-                        continue;
-                    }
-                    //TODO: Manage ip range
-                    //$ips = array_merge($ips, array_map('long2ip', range(ip2long($lineAr[0]), ip2long($lineAr[1]))));
-                    //$ips[] = $line;
-                } else if (!filter_var($line, FILTER_VALIDATE_IP)) {
-                    continue;
-                } else {
-                    $ips[] = $line;
-                }
+    if ($task == null) {
+        $task = prompt('Choose a task: ');
+    }
+    
+    try {
+        $i = 1;
+        foreach ($config['os'] as $key => $name) {
+            if ($task == $i) {
+                menuAddRules($i, $key);
+                return;
             }
-            fclose($handle);
+            $i++;
         }
-
-        $results = array();
-        echo PHP_EOL . 'Process ' . $name . ' (' . count($ips) . ' IPs)' . PHP_EOL;
-        foreach ($ips as $ip) {
-            echo 'Checking ' . $ip . '...' . PHP_EOL;
-            if (contains($ip, '-')) {
-                $ipRangeAr = explode('-', $ip);
-                $ipsRange = array_map('long2ip', range(ip2long($ipRangeAr[0]), ip2long($ipRangeAr[1])));
-
-                $dnsQueryContents = getMultiUrlContent($dnsQueryUrl, $ipsRange);
-                $ipWhoisContents = getMultiUrlContent($ipWhoisUrl, $ipsRange);
-                foreach ($ipsRange as $ipRange) {
-                    $results[$ipRange] = getTestIpsResult($dnsQueryContents[$ipRange], $ipWhoisContents[$ipRange]);
-                }
-            } else {
-                $dnsQueryContent = getUrlContent($dnsQueryUrl . $ip);
-                $ipWhoisContent = getUrlContent($ipWhoisUrl . $ip);
-                $results[$ip] = getTestIpsResult($dnsQueryContent, $ipWhoisContent);
-
-                echo '  NetName: ' . $results[$ip]['netName'] . PHP_EOL;
-                echo '  Organization: ' . $results[$ip]['organization'] . PHP_EOL;
-                echo '  Country: ' . $results[$ip]['country'] . PHP_EOL;
-                echo '  Resolves to: ' . $results[$ip]['resolveTo'] . PHP_EOL;
-            }
+        switch ($task) {
+            case 10:
+                procRemoveRules();
+                exit(0);
+                break;
+            case 99:
+                exit(99);
+                break;
+            default:
+                echo 'Unknown task...';
+                exit(97);
+                break;
         }
-
-        echo 'Write firewall-test-' . $name . '.csv...'. PHP_EOL;
-        $csv = 'IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE';
-        foreach ($results as $ip => $result) {
-            $csv .= PHP_EOL . $ip .
-                ',' . str_replace(',', '.', $result['netName']) .
-                ',' . str_replace(',', '.', $result['organization']) .
-                ',' . str_replace(',', '.', $result['country']) .
-                ',' . str_replace(',', '.', $result['resolveTo']);
-        }
-        file_put_contents($logsPath . '/firewall-test-' . $name . '.csv', $csv);
-
-        if ($remoteIps) {
-            unlink($ipsFile);
-        }
+    } catch (Exception $ex) {
+        echo 'Error: ' . $ex->getMessage() . PHP_EOL;
+        exit(254);
     }
 }
 
-function processAddRules() {
-    global $argv, $basePath, $dataPath, $config;
+function menuAddRules($prevTask, $os, $display = true) {
+    global $config;
+    echo PHP_EOL;
 
-    if (count($argv) != 4) {
-        throw new Exception('Missing args');
+    if ($display) {
+        echo '# Firewall rules for ' . $config['os'][$os];
+        echo PHP_EOL;
+        $i = 1;
+        foreach ($config['rules']['local'][$os] as $rulePath) {
+            $type = pathinfo($rulePath, PATHINFO_FILENAME);
+            echo PHP_EOL . '  ' . $i . '  - Add ' . $type . ' rules (local)';
+            $i++;
+        }
+        echo PHP_EOL;
+        foreach ($config['rules']['remote'][$os] as $ruleUrl) {
+            $type = pathinfo($ruleUrl, PATHINFO_FILENAME);
+            echo PHP_EOL . '  ' . $i . '  - Add ' . $type . ' rules (remote)';
+            $i++;
+        }
+        echo PHP_EOL;
+        echo PHP_EOL . '  20 - Test IPs (local)';
+        echo PHP_EOL . '  21 - Test IPs (remote)';
+        echo PHP_EOL;
+        echo PHP_EOL . '  98 - Previous';
+        echo PHP_EOL . '  99 - Exit';
+        echo PHP_EOL . PHP_EOL;
     }
 
-    $rule = $argv[2];
-    $ruleExp = explode('_', $rule, 2);
-    $rulePath = null;
-    $remote = $argv[3] == 'remote';
+    $task = prompt('Choose a task: ');
 
-    if ($argv[3] == 'local') {
-        if (!isset($config['rules']['local'][$rule])) {
-            throw new Exception('Unknown rule ' . $rule);
+    try {
+        $i = 1;
+        foreach ($config['rules']['local'][$os] as $rule) {
+            if ($task == $i) {
+                procAddRules($os, $rule, false);
+                exit($prevTask);
+            }
+            $i++;
         }
-        $rulePath = $basePath . '/' . $config['rules']['local'][$rule];
+        foreach ($config['rules']['remote'][$os] as $rule) {
+            if ($task == $i) {
+                procAddRules($os, $rule, true);
+                exit($prevTask);
+            }
+            $i++;
+        }
+        switch ($task) {
+            case 20:
+                procTestIps($os, false);
+                exit($prevTask);
+                break;
+            case 21:
+                procTestIps($os, true);
+                exit($prevTask);
+                break;
+            case 98:
+                exit(98);
+            case 99:
+                exit(99);
+                break;
+            default:
+                echo 'Unknown task...';
+                exit($prevTask);
+                break;
+        }
+    } catch (Exception $ex) {
+        echo 'Error: ' . $ex->getMessage() . PHP_EOL;
+        exit($prevTask);
+    }
+}
+
+function procAddRules($os, $pathOrUrl, $remote = true) {
+    global $basePath, $dataPath;
+    echo PHP_EOL;
+
+    $type = pathinfo($pathOrUrl, PATHINFO_FILENAME);
+    if (!$remote) {
+        $rulePath = $basePath . $pathOrUrl;
         if (!file_exists($rulePath)) {
             throw new Exception('Rule file not found in ' . $rulePath);
         }
-    } elseif ($argv[3] == 'remote') {
-        if (!isset($config['rules']['remote'][$rule])) {
-            throw new Exception('Unknown rule ' . $rule);
-        }
-        $ruleUrl = $config['rules']['remote'][$rule];
+    } else {
+        $ruleUrl = $pathOrUrl;
         $rulePath = $dataPath . '/' . preg_replace('/\..+$/', '.tmp', basename($ruleUrl));
         echo 'Download ' . basename($ruleUrl) . '.';
         if (download($ruleUrl, $rulePath)) {
@@ -159,12 +177,10 @@ function processAddRules() {
         if (!file_exists($rulePath)) {
             throw new Exception('Rule file not found in ' . $rulePath);
         }
-    } else {
-        throw new Exception('Unknown type ' . $argv[3]);
     }
 
     // Remove rules
-    removeRules($ruleExp[0], $ruleExp[1]);
+    removeRules($os, $type);
 
     // Add rules
     $ips = array();
@@ -194,12 +210,11 @@ function processAddRules() {
     }
 
     if (empty($ips)) {
-        echo PHP_EOL . 'WARNING: No IPs found';
-        return;
+        throw new Exception('No IPs found in ' . $rulePath);
     }
 
     echo PHP_EOL . 'Add ' . count($ips) . ' rules...';
-    $prefix = getPrefix($ruleExp[0], $ruleExp[1]);
+    $prefix = getPrefix($os, $type);
     foreach ($ips as $ip) {
         echo PHP_EOL . '  ' . $prefix . $ip;
         $netsh = 'netsh advfirewall firewall add rule';
@@ -214,8 +229,114 @@ function processAddRules() {
     }
 }
 
-function processRemoveRules() {
+function procRemoveRules() {
+    echo PHP_EOL;
     removeRules();
+}
+
+function procTestIps($os, $remote = true) {
+    global $basePath, $logsPath, $config, $dnsQueryUrl, $ipWhoisUrl;
+
+    if (!file_exists($logsPath . '/' . $os)) {
+        mkdir($logsPath . '/' . $os);
+    }
+
+    $ipsFiles = array();
+    if (!$remote) {
+        foreach ($config['rules']['local'][$os] as $rulePath) {
+            $type = pathinfo($rulePath, PATHINFO_FILENAME);
+            $finalPath = $basePath . $rulePath;
+            if (!file_exists($finalPath)) {
+                echo 'Rule file not found in ' . $finalPath . PHP_EOL;
+            } else {
+                $ipsFiles[$type] = $finalPath;
+            }
+        }
+    } else {
+        foreach ($config['rules']['remote'][$os] as $ruleUrl) {
+            $type = pathinfo($ruleUrl, PATHINFO_FILENAME);
+            $finalPath = $logsPath . '/' . $os . '/' . preg_replace('/\..+$/', '.tmp', basename($ruleUrl));
+            echo 'Download ' . $type . '.';
+            if (download($ruleUrl, $finalPath)) {
+                echo ' OK' . PHP_EOL;
+            } else {
+                throw new Exception('Download failed');
+            }
+            if (!file_exists($finalPath)) {
+                echo 'Rule file not found in ' . $finalPath . PHP_EOL;
+            } else {
+                $ipsFiles[$type] = $finalPath;
+            }
+        }
+    }
+
+    foreach ($ipsFiles as $ipsFile) {
+        $ips = array();
+        $type = pathinfo($ipsFile, PATHINFO_FILENAME);
+
+        $handle = fopen($ipsFile, 'r');
+        if ($handle) {
+            while (($line = fgets($handle)) !== false) {
+                $line = trim($line);
+                if (contains($line, '-')) {
+                    $lineAr = explode('-', $line);
+                    if (count($lineAr) != 2) {
+                        continue;
+                    }
+                    if (!filter_var($lineAr[0], FILTER_VALIDATE_IP) || !filter_var($lineAr[1], FILTER_VALIDATE_IP)) {
+                        continue;
+                    }
+                    //TODO: Manage ip range
+                    //$ips = array_merge($ips, array_map('long2ip', range(ip2long($lineAr[0]), ip2long($lineAr[1]))));
+                    //$ips[] = $line;
+                } else if (!filter_var($line, FILTER_VALIDATE_IP)) {
+                    continue;
+                } else {
+                    $ips[] = $line;
+                }
+            }
+            fclose($handle);
+        }
+
+        $results = array();
+        echo PHP_EOL . 'Process ' . $type . ' (' . count($ips) . ' IPs)' . PHP_EOL;
+        foreach ($ips as $ip) {
+            echo '  Checking ' . $ip . '...' . PHP_EOL;
+            if (contains($ip, '-')) {
+                $ipRangeAr = explode('-', $ip);
+                $ipsRange = array_map('long2ip', range(ip2long($ipRangeAr[0]), ip2long($ipRangeAr[1])));
+
+                $dnsQueryContents = getMultiUrlContent($dnsQueryUrl, $ipsRange);
+                foreach ($ipsRange as $ipRange) {
+                    $results[$ipRange] = getTestIpsResult($dnsQueryContents[$ipRange], $ipRange);
+                }
+            } else {
+                $dnsQueryContent = getUrlContent($dnsQueryUrl . $ip);
+                $results[$ip] = getTestIpsResult($dnsQueryContent, $ip);
+
+                echo '    NetName: ' . $results[$ip]['netName'] . PHP_EOL;
+                echo '    Organization: ' . $results[$ip]['organization'] . PHP_EOL;
+                echo '    Country: ' . $results[$ip]['country'] . PHP_EOL;
+                echo '    Resolves to: ' . $results[$ip]['resolveTo'] . PHP_EOL;
+            }
+        }
+
+        $csvFile = $logsPath . '/' . $os . '/firewall-test-' . $type . '.csv';
+        echo 'Write ' . $csvFile . '...'. PHP_EOL;
+        $csv = 'IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE';
+        foreach ($results as $ip => $result) {
+            $csv .= PHP_EOL . $ip .
+                ',' . str_replace(',', '.', $result['netName']) .
+                ',' . str_replace(',', '.', $result['organization']) .
+                ',' . str_replace(',', '.', $result['country']) .
+                ',' . str_replace(',', '.', $result['resolveTo']);
+        }
+        file_put_contents($csvFile, $csv);
+
+        if ($remote) {
+            unlink($ipsFile);
+        }
+    }
 }
 
 ///////////////////////////////////////////////
@@ -253,9 +374,11 @@ function removeRules($os = null, $type = null) {
     return true;
 }
 
-function getTestIpsResult($dnsQuery, $ipWhois) {
+function getTestIpsResult($dnsQuery, $ip) {
+    global $logsPath;
+
     $dnsQuery = parseDnsQuery($dnsQuery);
-    $ipWhois = parseIpWhois($ipWhois);
+    $ipWhois = getResolvedIp($ip, $logsPath);
 
     return array(
         'netName' => $dnsQuery['netName'],

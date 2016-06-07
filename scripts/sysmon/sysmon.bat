@@ -3,6 +3,7 @@ SETLOCAL EnableDelayedExpansion
 TITLE WindowsSpyBlocker - Sysmon
 
 SET binPath=%~dp0..\.bin
+SET phpExitCode=0
 
 CLS
 IF "%1"=="" GOTO CHECK_UAC
@@ -45,55 +46,22 @@ EXIT
 :START
 ::::::::::::::::::::::::::::::::::::::::
 CLS
+"%binPath%\php.exe" -c "%binPath%\php.ini" "%~dp0sysmon.php" "%phpExitCode%"
+SET phpExitCode=%ERRORLEVEL%
+IF "%phpExitCode%" EQU "98" (
+    GOTO START
+)
+IF "%phpExitCode%" EQU "99" (
+    GOTO EXIT
+)
 ECHO.
-ECHO # WindowsSpyBlocker - Sysmon
-ECHO # https://github.com/crazy-max/WindowsSpyBlocker
 ECHO.
-
-ECHO  1 - Install
-ECHO  2 - Uninstall
-ECHO  3 - Extract event log
-ECHO  9 - Exit
-ECHO.
-SET /P task="Choose a task: "
-ECHO.
-
-
-::::::::::::::::::::::::::::::::::::::::
-:ACTION
-::::::::::::::::::::::::::::::::::::::::
-IF %task% == 1 GOTO INSTALL
-IF %task% == 2 GOTO UNINSTALL
-IF %task% == 3 GOTO EXTRACT
-IF %task% == 9 GOTO EXIT
-GOTO START
-
-
-::::::::::::::::::::::::::::::::::::::::
-:INSTALL
-::::::::::::::::::::::::::::::::::::::::
-ECHO.
-ECHO ### Install Sysmon...
-"%binPath%\php.exe" -c "%binPath%\php.ini" "%~dp0sysmon.php" "install"
-GOTO END
-
-
-::::::::::::::::::::::::::::::::::::::::
-:UNINSTALL
-::::::::::::::::::::::::::::::::::::::::
-ECHO.
-ECHO ### Uninstall Sysmon...
-"%binPath%\php.exe" -c "%binPath%\php.ini" "%~dp0sysmon.php" "uninstall"
-GOTO END
-
-
-::::::::::::::::::::::::::::::::::::::::
-:EXTRACT
-::::::::::::::::::::::::::::::::::::::::
-ECHO.
-ECHO ### Extract event log...
-"%binPath%\php.exe" -c "%binPath%\php.ini" "%~dp0sysmon.php" "extractEventLog"
-GOTO END
+PAUSE
+IF "%phpExitCode%" EQU "255" (
+    GOTO EXIT
+) ELSE (
+    GOTO START
+)
 
 
 ::::::::::::::::::::::::::::::::::::::::

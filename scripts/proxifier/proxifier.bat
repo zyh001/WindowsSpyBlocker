@@ -3,6 +3,7 @@ SETLOCAL EnableDelayedExpansion
 TITLE WindowsSpyBlocker - Proxifier
 
 SET binPath=%~dp0..\.bin
+SET phpExitCode=0
 
 CLS
 IF "%1"=="" GOTO CHECK_UAC
@@ -45,40 +46,22 @@ EXIT
 :START
 ::::::::::::::::::::::::::::::::::::::::
 CLS
+"%binPath%\php.exe" -c "%binPath%\php.ini" "%~dp0proxifier.php" "%phpExitCode%"
+SET phpExitCode=%ERRORLEVEL%
+IF "%phpExitCode%" EQU "98" (
+    GOTO START
+)
+IF "%phpExitCode%" EQU "99" (
+    GOTO EXIT
+)
 ECHO.
-ECHO # WindowsSpyBlocker - Proxifier
-ECHO # https://github.com/crazy-max/WindowsSpyBlocker
-ECHO.
-
-ECHO  1 - Extract log
-ECHO  9 - Exit
-ECHO.
-SET /P task="Choose a task: "
-ECHO.
-
-
-::::::::::::::::::::::::::::::::::::::::
-:ACTION
-::::::::::::::::::::::::::::::::::::::::
-IF %task% == 1 GOTO EXTRACT
-IF %task% == 9 GOTO EXIT
-GOTO START
-
-
-::::::::::::::::::::::::::::::::::::::::
-:EXTRACT
-::::::::::::::::::::::::::::::::::::::::
-ECHO ### Extract log...
-"%binPath%\php.exe" -c "%binPath%\php.ini" "%~dp0proxifier.php" "extractLog"
-GOTO END
-
-
-::::::::::::::::::::::::::::::::::::::::
-:END
-::::::::::::::::::::::::::::::::::::::::
 ECHO.
 PAUSE
-GOTO START
+IF "%phpExitCode%" EQU "255" (
+    GOTO EXIT
+) ELSE (
+    GOTO START
+)
 
 
 ::::::::::::::::::::::::::::::::::::::::
