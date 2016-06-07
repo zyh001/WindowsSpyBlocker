@@ -79,7 +79,7 @@ I have created a git hook to publish the hosts files to my personal website :
 #### Firewall
 
 Some queries use IP addresses but you can stop them with your Firewall.<br />
-All relative information about these IP addresses are listed in the CSV files `firewall-` in the [logs folder](firewall/logs).<br />
+All relative information about these IP addresses are listed in the CSV files `firewall-` in the [logs folder](logs).<br />
 To add / remove firewall rules or test IPs, read the instructions in [scripts/firewall folder](scripts/firewall).
 
 #### NCSI (Network Connectivity Status Indicator)
@@ -113,7 +113,7 @@ Copy the content of the proxifier files in `data/proxifier` in a blocked rule :
 
 ### Logs
 
-Logs of tools used to capture traffic and resolution of firewall rules in CSV format available in the [logs folder](firewall/logs).
+Logs of tools used to capture traffic and resolution of firewall rules in CSV format available in the [logs folder](logs).
 * `*-all.csv` : all events
 * `*-hosts-count.csv` : number of events per host
 * `*-unique.csv` : first trigger of an event per host / process / destination port
