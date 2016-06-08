@@ -230,6 +230,12 @@ function getHost($lineAr) {
             return null;
         }
     }
+    /*if (!filter_var($elt, FILTER_VALIDATE_IP)) {
+        $ipReverse = getIpFromReverse($elt);
+        if ($ipReverse != null) {
+            $elt = $ipReverse;
+        }
+    }*/
 
     return $elt;
 }

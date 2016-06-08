@@ -1,0 +1,66 @@
+# /etc/firewall.user
+# https://github.com/crazy-max/WindowsSpyBlocker/tree/master/data/firewall/win10/extra.txt
+
+# enforce router DNS
+iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
+iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
+
+# rules
+iptables -I FORWARD -j DROP -d 23.2.118.135
+iptables -I FORWARD -j DROP -d 23.33.2.154
+iptables -I FORWARD -j DROP -d 23.35.118.135
+iptables -I FORWARD -j DROP -d 23.38.7.222
+iptables -I FORWARD -j DROP -d 23.55.155.27
+iptables -I FORWARD -j DROP -d 23.62.137.113
+iptables -I FORWARD -j DROP -d 23.64.38.237
+iptables -I FORWARD -j DROP -d 23.74.86.135
+iptables -I FORWARD -j DROP -d 23.199.215.48
+iptables -I FORWARD -j DROP -d 23.211.173.218
+iptables -I FORWARD -j DROP -d 23.212.203.149
+iptables -I FORWARD -j DROP -d 23.214.64.233
+iptables -I FORWARD -j DROP -d 23.214.143.15
+iptables -I FORWARD -j DROP -d 23.216.245.248
+iptables -I FORWARD -j DROP -d 23.217.8.40
+iptables -I FORWARD -j DROP -d 64.4.54.22
+iptables -I FORWARD -j DROP -d 65.52.100.11
+iptables -I FORWARD -j DROP -d 65.52.100.93
+iptables -I FORWARD -j DROP -d 65.52.108.33
+iptables -I FORWARD -j DROP -d 65.55.108.23
+iptables -I FORWARD -j DROP -d 65.52.108.29
+iptables -I FORWARD -j DROP -d 65.52.108.153
+iptables -I FORWARD -j DROP -d 65.52.108.154
+iptables -I FORWARD -j DROP -d 65.55.252.43
+iptables -I FORWARD -j DROP -d 88.221.117.42
+iptables -I FORWARD -j DROP -d 88.221.117.72
+iptables -I FORWARD -j DROP -d 92.122.51.10
+iptables -I FORWARD -j DROP -d 92.122.51.17
+iptables -I FORWARD -j DROP -d 92.122.51.57
+iptables -I FORWARD -j DROP -d 92.122.51.58
+iptables -I FORWARD -j DROP -d 92.122.51.72
+iptables -I FORWARD -j DROP -d 92.122.152.223
+iptables -I FORWARD -j DROP -d 104.69.55.114
+iptables -I FORWARD -j DROP -d 104.71.115.140
+iptables -I FORWARD -j DROP -d 104.71.200.228
+iptables -I FORWARD -j DROP -d 104.96.43.242
+iptables -I FORWARD -j DROP -d 104.96.147.3
+iptables -I FORWARD -j DROP -d 104.101.172.250
+iptables -I FORWARD -j DROP -d 104.101.178.203
+iptables -I FORWARD -j DROP -d 104.101.180.163
+iptables -I FORWARD -j DROP -d 104.107.11.74
+iptables -I FORWARD -j DROP -d 184.30.100.215
+iptables -I FORWARD -j DROP -d 184.87.220.86
+iptables -I FORWARD -j DROP -d 191.232.139.2
+iptables -I FORWARD -j DROP -d 191.232.139.7
+iptables -I FORWARD -j DROP -d 191.232.139.49
+iptables -I FORWARD -j DROP -d 191.232.139.56
+iptables -I FORWARD -j DROP -d 191.232.139.74
+iptables -I FORWARD -j DROP -d 191.232.139.141
+iptables -I FORWARD -j DROP -d 191.232.139.170
+iptables -I FORWARD -j DROP -d 191.232.139.182
+iptables -I FORWARD -j DROP -d 191.232.139.253
+iptables -I FORWARD -j DROP -d 207.46.194.14
+iptables -I FORWARD -j DROP -d 207.46.194.25
+iptables -I FORWARD -j DROP -d 207.46.194.33
+iptables -I FORWARD -j DROP -d 207.46.223.94
+iptables -I FORWARD -j DROP -d 207.68.166.254
+iptables -I FORWARD -j DROP -d 213.198.96.195

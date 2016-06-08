@@ -15,6 +15,7 @@
     - [NCSI (Network Connectivity Status Indicator)](#ncsi-network-connectivity-status-indicator)
     - [DNSCrypt](#dnscrypt)
     - [Proxifier](#proxifier)
+    - [OpenWrt](#openwrt)
   - [Logs](#logs)
   - [Scripts](#scripts)
 - [Projects using WindowsSpyBlocker](#projects-using-windowsspyblocker)
@@ -110,6 +111,16 @@ For example you can use [Proxifier](https://www.proxifier.com/) software to bloc
 Copy the content of the proxifier files in `data/proxifier` in a blocked rule :
 
 ![](../../wiki/img/proxifierRules-20160516.png)
+
+#### OpenWrt
+
+DNS/IP block rules using dnsmasq / iptables are available in `data/openwrt` folder.<br />
+These rules are focused on latest OpenWrt release (Chaos Calmer 15.05.1).<br />
+
+Requires package "iptables-mod-nat-extra" for port 53 (DNS) redirect rule from dnsmasq.conf.<br />
+dnsmasq.conf is bypassed if you use DNSCrypt on client machine (recommended) so use hosts before DNSCrypt exit point.<br />
+
+DNSCrypt is also available in OpenWrt repo, but may be slow and CPU hungry on average routers, stay with the PC client as recommended.
 
 ### Logs
 

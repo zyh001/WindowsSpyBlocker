@@ -1,6 +1,13 @@
 IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
+2.17.228.231,AKAMAI-PA,Akamai Technologies,EU,
 2.18.213.40,AKAMAI-PA,Akamai Technologies,EU,
+2.18.213.42,AKAMAI-PA,Akamai Technologies,EU,
 2.18.213.58,AKAMAI-PA,Akamai Technologies,EU,
+2.18.213.48,AKAMAI-PA,Akamai Technologies,EU,
+2.18.213.64,AKAMAI-PA,Akamai Technologies,EU,
+2.18.213.152,AKAMAI-PA,Akamai Technologies,EU,
+2.18.213.201,AKAMAI-PA,Akamai Technologies,EU,
+2.19.53.152,AKAMAI-PA,Akamai Technologies,EU,
 2.19.182.135,AKAMAI-PA,Akamai Technologies,EU,
 2.21.137.175,AKAMAI-PA,Akamai Technologies,EU,
 2.22.22.138,EU-AKAMAI-20100910,Akamai Technologies,EU,
@@ -11,9 +18,6 @@ IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
 13.107.3.128,MSFT,Microsoft Corporation (MSFT),US,
 13.107.4.50,MSFT,Microsoft Corporation (MSFT),US,
 13.107.5.88,MSFT,Microsoft Corporation (MSFT),US,
-23.57.107.27,AIBV,Akamai International. BV (AIB-17),NL,a23-57-107-27.deploy.static.akamaitechnologies.com
-23.57.107.163,AIBV,Akamai International. BV (AIB-17),NL,a23-57-107-163.deploy.static.akamaitechnologies.com
-23.57.101.163,AIBV,Akamai International. BV (AIB-17),NL,a23-57-101-163.deploy.static.akamaitechnologies.com
 23.97.178.173,MSFT,Microsoft Corporation (MSFT),US,
 23.97.209.97,MSFT,Microsoft Corporation (MSFT),US,
 23.99.10.11,MSFT,Microsoft Corporation (MSFT),US,
@@ -22,8 +26,6 @@ IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
 23.102.21.4,MSFT,Microsoft Corporation (MSFT),US,
 23.102.155.140,MSFT,Microsoft Corporation (MSFT),US,
 23.103.182.126,MSFT,Microsoft Corporation (MSFT),US,
-23.218.212.69,AKAMAI,Akamai Technologies. Inc. (AKAMAI),US,a23-218-212-69.deploy.static.akamaitechnologies.com
-23.223.20.82,AIBV,Akamai International. BV (AIB-17),NL,a23-223-20-82.deploy.static.akamaitechnologies.com
 40.69.40.157,MSFT,Microsoft Corporation (MSFT),US,
 40.83.189.49,MSFT,Microsoft Corporation (MSFT),US,
 40.113.8.255,MSFT,Microsoft Corporation (MSFT),US,
@@ -32,8 +34,7 @@ IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
 40.114.241.141,MSFT,Microsoft Corporation (MSFT),US,
 40.117.151.29,MSFT,Microsoft Corporation (MSFT),US,
 40.118.103.7,MSFT,Microsoft Corporation (MSFT),US,
-64.4.6.100,MICROSOFT,Microsoft Corporation (MSFT),US,windowskylight-int.com
-64.4.54.22,MICROSOFT,Microsoft Corporation (MSFT),US,msnbot-64-4-54-22.search.msn.com
+64.4.6.100,MICROSOFT,Microsoft Corporation (MSFT),US,cloudos.com.tw
 64.4.54.32,MICROSOFT,Microsoft Corporation (MSFT),US,
 64.4.54.253,MICROSOFT,Microsoft Corporation (MSFT),US,
 64.4.54.254,MICROSOFT,Microsoft Corporation (MSFT),US,
@@ -44,11 +45,6 @@ IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
 65.52.100.91,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,reports.wes.df.telemetry.microsoft.com
 65.52.100.92,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,services.wes.df.telemetry.microsoft.com
 65.52.100.94,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,sqm.df.telemetry.microsoft.com
-65.52.108.33,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,msnbot-65-52-108-33.search.msn.com
-65.55.108.23,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,msnbot-65-55-108-23.search.msn.com
-65.52.108.29,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,msnbot-65-52-108-29.search.msn.com
-65.52.108.153,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,msnbot-65-52-108-153.search.msn.com
-65.52.108.154,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,msnbot-65-52-108-154.search.msn.com
 65.52.161.64,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
 65.55.29.238,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
 65.55.39.10,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,xnacreators.net
@@ -65,7 +61,6 @@ IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
 65.55.138.126,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
 65.55.138.186,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
 65.55.176.90,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
-65.55.252.43,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,msnbot-65-55-252-43.search.msn.com
 65.55.252.63,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
 65.55.252.71,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
 65.55.252.92,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
@@ -79,9 +74,6 @@ IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
 104.43.237.169,MSFT,Microsoft Corporation (MSFT),US,
 104.45.214.112,MSFT,Microsoft Corporation (MSFT),US,
 104.46.50.125,MSFT,Microsoft Corporation (MSFT),US,
-104.96.147.3,AIBV,Akamai International. BV (AIB-17),NL,a104-96-147-3.deploy.static.akamaitechnologies.com
-104.101.172.250,AIBV,Akamai International. BV (AIB-17),NL,a104-101-172-250.deploy.static.akamaitechnologies.com
-104.101.180.163,AIBV,Akamai International. BV (AIB-17),NL,a104-101-180-163.deploy.static.akamaitechnologies.com
 104.210.4.77,MSFT,Microsoft Corporation (MSFT),US,
 104.214.35.244,MSFT,Microsoft Corporation (MSFT),US,
 111.221.29.177,Microsoft,Microsoft Corp. Singapore,US,
@@ -154,6 +146,7 @@ IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
 207.46.101.29,MICROSOFT-GLOBAL-NET,Microsoft Corporation (MSFT),US,
 207.46.114.58,MICROSOFT-GLOBAL-NET,Microsoft Corporation (MSFT),US,
 207.46.114.61,MICROSOFT-GLOBAL-NET,Microsoft Corporation (MSFT),US,
+207.46.153.155,MICROSOFT-GLOBAL-NET,Microsoft Corporation (MSFT),US,
 207.68.166.254,MICROSOFT-CORP-MSN-BLK,Microsoft Corporation (MSFT),US,survey.watson.microsoft.com
 212.30.134.204,Akamai-in-MTS-node,Moscow. Russia,RU,
 212.30.134.205,Akamai-in-MTS-node,Moscow. Russia,RU,

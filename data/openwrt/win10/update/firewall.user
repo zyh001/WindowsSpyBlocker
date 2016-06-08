@@ -1,0 +1,16 @@
+# /etc/firewall.user
+# https://github.com/crazy-max/WindowsSpyBlocker/tree/master/data/firewall/win10/update.txt
+
+# enforce router DNS
+iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
+iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
+
+# rules
+iptables -I FORWARD -j DROP -d 23.103.189.158
+iptables -I FORWARD -j DROP -d 134.170.58.0/24
+iptables -I FORWARD -j DROP -d 157.56.77.138
+iptables -I FORWARD -j DROP -d 157.56.77.139
+iptables -I FORWARD -j DROP -d 191.232.139.254
+iptables -I FORWARD -j DROP -d 191.234.72.183
+iptables -I FORWARD -j DROP -d 191.234.72.186
+iptables -I FORWARD -j DROP -d 191.234.72.190

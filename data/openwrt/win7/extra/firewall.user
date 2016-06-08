@@ -1,0 +1,28 @@
+# /etc/firewall.user
+# https://github.com/crazy-max/WindowsSpyBlocker/tree/master/data/firewall/win7/extra.txt
+
+# enforce router DNS
+iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
+iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
+
+# rules
+iptables -I FORWARD -j DROP -d 2.17.234.96
+iptables -I FORWARD -j DROP -d 2.20.195.54
+iptables -I FORWARD -j DROP -d 23.62.124.108
+iptables -I FORWARD -j DROP -d 23.64.45.149
+iptables -I FORWARD -j DROP -d 23.65.47.118
+iptables -I FORWARD -j DROP -d 23.74.125.199
+iptables -I FORWARD -j DROP -d 23.211.173.218
+iptables -I FORWARD -j DROP -d 23.214.150.169
+iptables -I FORWARD -j DROP -d 104.69.55.114
+iptables -I FORWARD -j DROP -d 104.94.186.245
+iptables -I FORWARD -j DROP -d 104.98.138.69
+iptables -I FORWARD -j DROP -d 104.98.152.139
+iptables -I FORWARD -j DROP -d 104.101.175.67
+iptables -I FORWARD -j DROP -d 104.106.251.185
+iptables -I FORWARD -j DROP -d 104.107.194.210
+iptables -I FORWARD -j DROP -d 104.107.216.152
+iptables -I FORWARD -j DROP -d 104.107.216.161
+iptables -I FORWARD -j DROP -d 184.87.216.50
+iptables -I FORWARD -j DROP -d 191.232.139.253
+iptables -I FORWARD -j DROP -d 207.46.194.14

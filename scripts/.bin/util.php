@@ -166,6 +166,17 @@ function parseIpWhois($html) {
     }
 }
 
+function getIpFromReverse($host) {
+    if (preg_match('/\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}/i', $host, $matches) !== 1) {
+        return null;
+    }
+    $ip = str_replace('-', '.', $matches[0]);
+    if (!filter_var($ip, FILTER_VALIDATE_IP)) {
+        return null;
+    }
+    return $ip;
+}
+
 function getResolvedIp($ip, $logsPath) {
     global $ipWhoisUrl;
 
@@ -176,7 +187,6 @@ function getResolvedIp($ip, $logsPath) {
     if (file_exists($resolvedFile)) {
         $diffTime = $currentTime - filectime($resolvedFile);
         if ($diffTime > 172800) {
-            echo 'resolvedIps file expired...' . PHP_EOL;
             unlink($resolvedFile);
         } else {
             $handle = fopen($resolvedFile, 'r');
@@ -213,6 +223,26 @@ function cmpIp($a, $b) {
     $aip = sprintf('%u', ip2long($a));
     $bip = sprintf('%u', ip2long($b));
     return $aip > $bip;
+}
+
+function sortHosts($hosts) {
+    if (empty($hosts)) {
+        return array();
+    }
+
+    $resultIps = array();
+    $resultDomains = array();
+    foreach ($hosts as $host) {
+        if (filter_var($host, FILTER_VALIDATE_IP)) {
+            $resultIps[] = $host;
+        } else {
+            $resultDomains[] = $host;
+        }
+    }
+
+    usort($resultIps, 'cmpIp');
+    sort($resultDomains);
+    return array_merge($resultIps, $resultDomains);
 }
 
 function isIpExpr($ip, $expr) {

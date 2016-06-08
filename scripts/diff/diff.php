@@ -133,20 +133,48 @@ function menuDiff($prevTask, $os, $display = true) {
 function procAll($os) {
     global $logsPath;
 
+    $resultsFile = $logsPath . '/' . $os . '/diff-all.log';
+    $reverseResultsFile = $logsPath . '/' . $os . '/diff-all-reverse.log';
+
+    if (!file_exists($logsPath . '/' . $os)) {
+        mkdir($logsPath . '/' . $os);
+    } else {
+        @unlink($resultsFile);
+        @unlink($reverseResultsFile);
+    }
+
     $diffs = getDiffs($os);
     $result = array();
     $result = array_unique(array_merge($result, procSysmon($os, $diffs)));
     $result = array_unique(array_merge($result, procProxifier($os, $diffs)));
     $result = array_unique(array_merge($result, procWireshark($os, $diffs)));
 
-    sort($result);
-    $resultsFile = $logsPath . '/' . $os . '/diff-all.log';
-    if (!file_exists($logsPath . '/' . $os)) {
-        mkdir($logsPath . '/' . $os);
+    if (empty($result)) {
+        echo PHP_EOL . 'No diff found...';
+        return;
     }
+
+    $result = sortHosts($result);
 
     echo PHP_EOL . 'Write results to ' . $resultsFile . '...';
     file_put_contents($resultsFile, implode(PHP_EOL, $result));
+
+    $reverseResult = array();
+    foreach ($result as $host) {
+        $ipReverse = getIpFromReverse($host);
+        if ($ipReverse != null && !in_array($ipReverse, $diffs)) {
+            $reverseResult[] = $ipReverse;
+        }
+    }
+
+    if (empty($reverseResult)) {
+        echo PHP_EOL . 'No reverse diff found...';
+        return;
+    }
+
+    $reverseResult = sortHosts($reverseResult);
+    echo PHP_EOL . 'Write reverse results to ' . $reverseResultsFile . '...';
+    file_put_contents($reverseResultsFile, implode(PHP_EOL, $reverseResult));
 }
 
 function procSysmon($os, $diffs = null) {
@@ -165,6 +193,13 @@ function hostsCountCsv($os, $name, $diffs = null) {
     global $logsPath;
     $all = $diffs != null;
     $diffs = $diffs != null ? $diffs : getDiffs($os);
+
+    $resultsFile = $logsPath . '/' . $os . '/diff-' . strtolower($name) . '.log';
+    if (!file_exists($logsPath . '/' . $os)) {
+        mkdir($logsPath . '/' . $os);
+    } else {
+        @unlink($resultsFile);
+    }
 
     $csv = $logsPath . '/' . $os . '/' . strtolower($name) . '-hosts-count.csv';
     if (!file_exists($csv)) {
@@ -190,13 +225,12 @@ function hostsCountCsv($os, $name, $diffs = null) {
     if ($all || count($result) == 0) {
         return $result;
     }
-
-    sort($result);
-    $resultsFile = $logsPath . '/' . $os . '/diff-' . strtolower($name) . '.log';
-    if (!file_exists($logsPath . '/' . $os)) {
-        mkdir($logsPath . '/' . $os);
+    if (empty($result)) {
+        echo PHP_EOL . 'No diff found...';
+        return null;
     }
 
+    $result = sortHosts($result);
     echo PHP_EOL . 'Write results to ' . $resultsFile . '...';
     file_put_contents($resultsFile, implode(PHP_EOL, $result));
 }

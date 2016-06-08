@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.2.0 (2016/06/08)
+
+* Add third digit to release version for rules updates only
+* New hosts and firewall rules
+* Better diffs order
+* Update and separate OpenWrt dnsmasq / iptables files
+
 ## 3.1 (2016/06/07)
 
 * Add Windows 7 and Windows 8.1 hosts and firewall rules (Issue #1)

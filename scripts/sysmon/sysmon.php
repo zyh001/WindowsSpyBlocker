@@ -273,6 +273,12 @@ function getHost($destIp, $destHost) {
             return null;
         }
     }
+    /*if (!empty($destHost)) {
+        $ipReverse = getIpFromReverse($destHost);
+        if ($ipReverse != null) {
+            $destHost = null;
+        }
+    }*/
 
     return !empty($destHost) ? $destHost : $destIp;
 }

@@ -1,386 +1,483 @@
 DATE,PROCESS,USER,PROTOCOL,SRC_IP,SRC_PORT,SRC_PORT_NAME,DEST_IP,DEST_PORT,DEST_PORT_NAME
-2016-06-04 20:00:15.145,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49229,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 20:30:15.451,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49253,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 20:30:16.182,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49256,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 21:00:15.139,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49265,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 21:30:15.254,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49277,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 21:30:15.412,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49280,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 21:30:15.877,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-04 21:30:15.877,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-04 21:30:21.044,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49283,,a23-214-120-76.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 21:36:10.318,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49286,,191.237.208.126,443,https
-2016-06-04 21:36:11.243,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,191.237.208.126,137,netbios-ns
-2016-06-04 22:00:15.201,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49295,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 22:08:30.577,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49893,,239.255.255.250,3702,ws-discovery
-2016-06-04 22:08:30.577,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49893,,239.255.255.250,3702,ws-discovery
-2016-06-04 22:08:30.579,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49895,,239.255.255.250,3702,ws-discovery
-2016-06-04 22:08:30.579,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49895,,239.255.255.250,3702,ws-discovery
-2016-06-04 22:08:52.762,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49304,,93.184.220.29,80,http
-2016-06-04 22:08:52.924,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49307,,191.232.139.182,443,https
-2016-06-04 22:08:53.023,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,191.232.139.182,137,netbios-ns
-2016-06-04 22:08:53.047,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,93.184.220.29,137,netbios-ns
-2016-06-04 22:08:53.192,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49310,,93.184.220.29,80,http
-2016-06-04 22:30:15.275,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49325,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 22:30:15.535,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49328,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 22:51:25.847,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49331,,msnbot-64-4-54-22.search.msn.com,80,http
-2016-06-04 23:00:18.114,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49336,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:30:15.366,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49350,,a104-101-178-203.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:30:15.521,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49355,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:34:15.452,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49893,,239.255.255.250,3702,ws-discovery
-2016-06-04 23:34:15.452,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49893,,239.255.255.250,3702,ws-discovery
-2016-06-04 23:34:15.454,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49895,,239.255.255.250,3702,ws-discovery
-2016-06-04 23:34:15.454,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49895,,239.255.255.250,3702,ws-discovery
-2016-06-04 23:35:18.917,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49376,,191.232.139.253,443,https
-2016-06-04 23:37:17.631,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49382,,a104-96-27-71.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:37:18.917,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49385,,104.43.237.169,443,https
-2016-06-04 23:37:19.082,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49388,,134.170.53.29,443,https
-2016-06-04 23:37:19.261,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49391,,93.184.220.20,80,http
-2016-06-04 23:37:19.539,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,134.170.53.29,137,netbios-ns
-2016-06-04 23:37:19.559,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,93.184.220.20,137,netbios-ns
-2016-06-04 23:37:19.566,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,104.43.237.169,137,netbios-ns
-2016-06-04 23:37:22.717,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49394,,191.232.139.253,443,https
-2016-06-04 23:37:22.916,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49397,,a104-96-27-71.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:37:23.106,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49400,,a104-96-23-164.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:45:21.926,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49403,,msnbot-65-52-108-153.search.msn.com,80,http
-2016-06-04 23:52:23.277,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49406,,131.253.61.66,80,http
-2016-06-04 23:52:23.566,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49409,,a104-96-27-71.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:52:23.853,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49412,,a23-55-152-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-04 23:52:24.135,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49415,,131.253.61.66,443,https
-2016-06-04 23:52:24.186,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,131.253.61.66,137,netbios-ns
-2016-06-04 23:52:24.643,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49418,,eu.vortex.data.microsoft.com,443,https
-2016-06-05 00:00:15.279,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49427,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 00:30:15.436,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49439,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 00:30:15.626,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49442,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 01:00:15.344,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49451,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 01:11:14.622,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49454,,65.55.252.190,443,https
-2016-06-05 01:11:15.416,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,65.55.252.190,137,netbios-ns
-2016-06-05 01:11:15.478,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49457,,191.239.52.100,80,http
-2016-06-05 01:11:16.411,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,191.239.52.100,137,netbios-ns
-2016-06-05 01:11:28.783,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49460,,msnbot-65-52-108-29.search.msn.com,443,https
-2016-06-05 01:11:55.585,C:\Program Files\Windows Defender\MpCmdRun.exe,AUTORITE NT\SERVICE Rï¿½SEAU,tcp,local,49461,,191.237.208.126,443,https
-2016-06-05 01:12:10.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49464,,msnbot-65-52-108-29.search.msn.com,443,https
-2016-06-05 01:29:32.265,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49893,,239.255.255.250,3702,ws-discovery
-2016-06-05 01:29:32.265,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49893,,239.255.255.250,3702,ws-discovery
-2016-06-05 01:29:32.266,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49895,,239.255.255.250,3702,ws-discovery
-2016-06-05 01:29:32.266,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,49895,,239.255.255.250,3702,ws-discovery
-2016-06-05 01:30:15.249,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49487,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 01:30:15.274,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49494,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 02:00:15.501,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49533,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 02:30:15.375,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49542,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 02:30:15.405,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49548,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 03:00:15.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49557,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 03:30:15.490,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49569,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 03:30:15.600,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49572,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 04:00:15.433,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49579,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 04:30:15.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49591,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 04:30:15.905,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49596,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 05:00:15.428,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49603,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 05:30:15.629,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49615,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 05:30:15.804,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49620,,a23-38-101-30.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 06:00:15.562,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49627,,a23-38-101-30.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 06:30:15.557,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49639,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 06:30:15.703,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49644,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 06:30:16.046,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-05 06:30:16.046,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-05 06:30:16.083,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49647,,a104-94-163-2.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 07:00:15.507,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49657,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 07:30:15.761,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49670,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 07:30:15.799,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49674,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 07:30:16.128,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49677,,a23-214-105-44.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 07:30:19.413,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-05 07:30:19.413,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-05 08:00:15.558,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49684,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 08:00:15.940,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49689,,a23-214-105-44.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 08:30:15.702,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49702,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 08:30:15.786,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49704,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 09:00:15.790,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49713,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 09:16:55.727,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49716,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-05 09:16:56.254,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49719,,a104-101-175-67.deploy.static.akamaitechnologies.com,443,https
-2016-06-05 09:16:56.436,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49722,,a23-214-150-169.deploy.static.akamaitechnologies.com,443,https
-2016-06-05 09:16:59.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49725,,a104-101-175-67.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 09:17:00.011,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49731,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-05 09:30:15.511,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49734,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 09:30:15.867,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49746,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 09:45:59.469,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49749,,157.56.194.72,80,http
-2016-06-05 09:46:00.374,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,157.56.194.72,137,netbios-ns
-2016-06-05 09:46:00.588,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49752,,157.56.194.72,443,https
-2016-06-05 09:46:15.554,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49755,,157.56.194.72,443,https
-2016-06-05 10:00:15.745,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49764,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 10:30:15.634,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49767,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 10:30:15.816,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49777,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 10:30:16.105,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-05 10:30:16.105,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-05 10:30:16.147,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49782,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 11:00:15.817,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49791,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 11:30:15.694,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49800,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 11:30:15.759,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49804,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 11:30:16.190,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49809,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 11:58:08.633,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49818,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 12:30:15.782,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49822,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 12:30:15.942,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49833,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 13:00:02.233,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49836,,65.55.252.93,443,https
-2016-06-05 13:00:03.013,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,65.55.252.93,137,netbios-ns
-2016-06-05 13:00:15.708,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49845,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 13:30:15.853,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49857,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 13:30:16.047,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49860,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 13:30:16.216,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-05 13:30:16.216,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-05 13:30:16.254,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49863,,a23-214-105-44.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 14:00:15.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49872,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 14:30:16.052,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49887,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 14:30:16.327,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49890,,a23-214-105-44.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 14:30:16.364,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49884,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 15:00:15.797,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49899,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 15:00:16.192,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49902,,a23-214-105-44.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 15:09:56.730,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49905,,157.55.240.220,443,https
-2016-06-05 15:09:57.568,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,157.55.240.220,137,netbios-ns
-2016-06-05 15:09:58.324,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49908,,65.55.138.126,443,https
-2016-06-05 15:09:58.604,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49911,,65.55.242.254,443,https
-2016-06-05 15:09:58.622,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,65.55.138.126,137,netbios-ns
-2016-06-05 15:09:59.602,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,65.55.242.254,137,netbios-ns
-2016-06-05 15:10:03.971,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49914,,8.253.82.30,80,http
-2016-06-05 15:10:04.652,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,8.253.82.30,137,netbios-ns
-2016-06-05 15:10:40.495,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49917,,65.55.138.126,443,https
-2016-06-05 15:10:41.711,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49920,,https-87-248-214-1.lon.llnw.net,80,http
-2016-06-05 15:10:41.852,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49923,,cds827.lon.llnw.net,80,http
-2016-06-05 15:10:45.969,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49926,,https-87-248-214-1.lon.llnw.net,80,http
-2016-06-05 15:10:46.043,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49929,,cds827.lon.llnw.net,80,http
-2016-06-05 15:18:59.220,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49932,,msnbot-64-4-54-22.search.msn.com,80,http
-2016-06-05 15:18:59.639,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49935,,msnbot-65-52-108-153.search.msn.com,80,http
-2016-06-05 15:30:15.900,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49947,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 15:30:16.091,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49950,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 16:00:15.851,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49971,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 16:30:15.956,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49983,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 16:30:16.146,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49986,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 17:00:15.844,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49995,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 17:30:15.969,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50007,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 17:30:16.109,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50010,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 17:30:16.326,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-05 17:30:16.327,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-05 17:30:20.384,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50013,,a23-214-120-76.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 18:00:15.905,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50022,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 18:30:15.980,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50034,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 18:30:16.186,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50037,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 19:00:15.901,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50046,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 19:30:16.049,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50058,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 19:30:16.120,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50061,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 19:30:19.476,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-05 19:30:19.476,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-05 20:00:16.000,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50070,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 20:30:16.259,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50083,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 20:30:16.302,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50085,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 20:56:51.187,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50088,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-05 20:56:51.675,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50091,,a104-69-55-114.deploy.static.akamaitechnologies.com,443,https
-2016-06-05 20:56:51.839,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50094,,a184-87-216-50.deploy.static.akamaitechnologies.com,443,https
-2016-06-05 20:56:53.639,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50097,,a104-69-55-114.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 20:56:53.981,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50103,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-05 21:00:15.961,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50112,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 21:30:16.041,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50118,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 21:30:16.195,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50127,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 21:30:16.547,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-05 21:30:16.547,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-05 21:30:16.575,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50130,,a184-87-220-153.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 22:00:16.006,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50139,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 22:30:16.114,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50187,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 22:30:16.314,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50190,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 23:00:16.058,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50199,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 23:00:30.475,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50202,,a92-122-51-72.deploy.akamaitechnologies.com,80,http
-2016-06-05 23:20:46.782,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50205,,191.232.139.253,443,https
-2016-06-05 23:21:42.499,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50208,,a104-69-55-114.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 23:21:43.340,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50211,,104.43.237.169,443,https
-2016-06-05 23:21:43.455,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50214,,134.170.58.189,443,https
-2016-06-05 23:21:44.395,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,134.170.58.189,137,netbios-ns
-2016-06-05 23:21:46.636,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50217,,a104-69-55-114.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 23:29:45.871,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50220,,msnbot-65-52-108-153.search.msn.com,80,http
-2016-06-05 23:30:16.137,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50232,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 23:30:16.186,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50235,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-05 23:36:46.999,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50238,,eu.vortex.data.microsoft.com,443,https
-2016-06-06 00:00:16.079,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50247,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 00:30:16.137,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50259,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 00:30:16.337,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50262,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 01:00:16.071,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50271,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 01:30:16.262,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50282,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 01:30:16.397,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50286,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 02:00:16.152,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50289,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 02:30:16.390,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50307,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 02:30:16.454,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50310,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 02:46:46.387,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50313,,65.55.252.190,443,https
-2016-06-06 02:46:47.692,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50316,,191.239.50.77,80,http
-2016-06-06 02:46:48.222,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,191.239.50.77,137,netbios-ns
-2016-06-06 02:46:49.139,C:\Windows\System32\svchost.exe,AUTORITE NT\Systï¿½me,tcp,local,50317,,131.253.61.96,80,http
-2016-06-06 02:46:49.241,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,131.253.61.96,137,netbios-ns
-2016-06-06 02:46:49.557,C:\Windows\System32\svchost.exe,AUTORITE NT\Systï¿½me,tcp,local,50318,,131.253.61.96,443,https
-2016-06-06 02:46:50.412,C:\Program Files\Windows Defender\MpCmdRun.exe,AUTORITE NT\SERVICE Rï¿½SEAU,tcp,local,50319,,191.237.208.126,443,https
-2016-06-06 03:00:16.162,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50322,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 03:30:16.480,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50341,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 03:30:16.501,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50343,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 04:00:16.195,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50346,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 04:30:16.426,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50365,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 04:30:16.476,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50367,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 05:00:16.213,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50370,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 05:30:16.489,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50386,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
-2016-06-06 05:30:16.491,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50389,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 05:30:16.577,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50391,,a95-101-195-103.deploy.akamaitechnologies.com,80,http
-2016-06-06 05:30:16.819,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-06 05:30:16.820,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-06 05:30:16.853,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50394,,a104-94-163-2.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 06:00:16.271,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50397,,a95-101-195-103.deploy.akamaitechnologies.com,80,http
-2016-06-06 06:30:16.369,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50415,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 06:30:16.519,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50418,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 06:30:16.844,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50421,,a104-94-111-44.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 07:00:16.300,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50430,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 07:30:16.487,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50442,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 07:30:16.587,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50445,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 07:30:19.537,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-06 07:30:19.537,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-06 07:59:56.898,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50448,,157.56.194.73,80,http
-2016-06-06 07:59:57.705,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,157.56.194.73,137,netbios-ns
-2016-06-06 07:59:58.319,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50451,,157.55.240.220,443,https
-2016-06-06 07:59:59.518,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50454,,157.56.194.73,443,https
-2016-06-06 08:00:05.663,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50457,,65.55.252.93,443,https
-2016-06-06 08:00:16.237,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50466,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 08:00:23.295,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50469,,65.55.252.93,443,https
-2016-06-06 08:17:50.770,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50472,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-06 08:17:51.129,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50475,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-06 08:17:51.263,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50478,,a104-101-175-67.deploy.static.akamaitechnologies.com,443,https
-2016-06-06 08:17:51.480,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50481,,a23-214-150-169.deploy.static.akamaitechnologies.com,443,https
-2016-06-06 08:17:53.475,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50484,,a104-101-175-67.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 08:17:54.019,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50490,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-06 08:30:16.464,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50502,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 08:30:16.662,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50505,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:00:16.408,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50514,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:00:16.742,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57376,,239.255.255.250,1900,ssdp
-2016-06-06 09:00:16.742,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,57377,,239.255.255.250,1900,ssdp
-2016-06-06 09:00:16.785,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50517,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:29:01.376,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50527,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:29:01.509,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50532,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:29:27.274,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50535,,8.254.218.126,80,http
-2016-06-06 09:29:27.940,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50538,,8.254.218.126,80,http
-2016-06-06 09:29:28.106,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50541,,8.254.218.126,80,http
-2016-06-06 09:29:28.125,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,8.254.218.126,137,netbios-ns
-2016-06-06 09:31:42.538,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50544,,8.254.218.126,80,http
-2016-06-06 09:31:42.778,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50547,,8.254.218.126,80,http
-2016-06-06 09:31:42.798,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50550,,8.254.218.126,80,http
-2016-06-06 09:37:51.621,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50556,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:37:58.199,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50559,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:41:08.235,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50569,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:41:08.241,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,50564,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:46:27.055,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,61556,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:46:27.055,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,61556,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:47:17.298,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,58306,,239.255.255.250,1900,ssdp
-2016-06-06 09:47:18.318,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,55135,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:47:18.318,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,55135,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:47:18.377,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,239.255.255.250,137,netbios-ns
-2016-06-06 09:47:18.618,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52076,,239.255.255.250,1900,ssdp
-2016-06-06 09:47:18.731,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,54852,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:47:18.731,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,54852,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:47:18.741,C:\Windows\System32\svchost.exe,AUTORITE NT\Systï¿½me,tcp,local,49158,,131.253.61.68,443,https
-2016-06-06 09:47:18.793,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,54854,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:47:18.793,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,54854,,239.255.255.250,3702,ws-discovery
-2016-06-06 09:47:19.693,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,131.253.61.68,137,netbios-ns
-2016-06-06 09:47:19.788,C:\Windows\System32\svchost.exe,AUTORITE NT\Systï¿½me,tcp,local,49163,,191.232.139.253,443,https
-2016-06-06 09:47:20.363,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,191.232.139.253,137,netbios-ns
-2016-06-06 09:47:36.274,C:\Windows\explorer.exe,,tcp,local,49173,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:47:36.517,C:\Windows\explorer.exe,,tcp,local,49176,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:50:05.875,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49179,,65.55.252.93,443,https
-2016-06-06 09:50:06.619,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,65.55.252.93,137,netbios-ns
-2016-06-06 09:51:41.335,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,224.0.0.252,137,netbios-ns
-2016-06-06 09:57:21.006,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49209,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 09:57:21.057,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49215,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 10:17:03.616,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49224,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 10:17:08.288,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49227,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 10:47:03.871,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49243,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 10:47:03.922,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49245,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 11:17:03.702,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49251,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 11:47:03.861,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49273,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 11:47:03.976,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49275,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 12:17:03.759,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49287,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 12:17:04.052,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52076,,239.255.255.250,1900,ssdp
-2016-06-06 12:17:04.052,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52077,,239.255.255.250,1900,ssdp
-2016-06-06 12:17:04.085,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49290,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 12:39:13.178,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49306,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 12:39:13.233,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49308,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 13:04:01.910,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49314,,157.56.96.58,443,https
-2016-06-06 13:04:02.782,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,157.56.96.58,137,netbios-ns
-2016-06-06 13:04:04.341,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49317,,134.170.165.251,443,https
-2016-06-06 13:04:04.816,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,134.170.165.251,137,netbios-ns
-2016-06-06 13:04:04.974,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49320,,65.55.242.254,443,https
-2016-06-06 13:04:05.928,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,65.55.242.254,137,netbios-ns
-2016-06-06 13:04:18.319,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49326,,134.170.165.251,443,https
-2016-06-06 13:04:19.647,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49329,,13.107.4.50,80,http
-2016-06-06 13:04:19.999,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,13.107.4.50,137,netbios-ns
-2016-06-06 13:12:39.614,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49332,,msnbot-64-4-54-22.search.msn.com,80,http
-2016-06-06 13:12:40.248,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49335,,msnbot-65-52-108-153.search.msn.com,80,http
-2016-06-06 13:17:03.822,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49344,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 13:32:03.877,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49350,,213.198.96.177,80,http
-2016-06-06 13:32:04.747,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,213.198.96.177,137,netbios-ns
-2016-06-06 13:47:03.864,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49354,,2.18.213.59,80,http
-2016-06-06 13:47:03.864,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49356,,2.18.213.59,80,http
-2016-06-06 13:47:03.892,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49359,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 13:47:04.311,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49362,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 13:47:04.852,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,2.18.213.59,137,netbios-ns
-2016-06-06 14:02:03.721,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49365,,2.18.213.59,80,http
-2016-06-06 14:17:03.867,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49368,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 14:47:04.008,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49393,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 14:47:04.037,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49395,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 14:47:04.159,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52076,,239.255.255.250,1900,ssdp
-2016-06-06 14:47:04.159,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52077,,239.255.255.250,1900,ssdp
-2016-06-06 14:47:08.226,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49398,,a23-214-142-8.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 15:17:03.820,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49410,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 15:17:04.171,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49413,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 15:47:03.939,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49425,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 15:47:03.939,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49423,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 16:17:03.905,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49443,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 16:32:04.172,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52076,,239.255.255.250,1900,ssdp
-2016-06-06 16:32:04.172,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52077,,239.255.255.250,1900,ssdp
-2016-06-06 16:32:04.206,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49452,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 16:47:04.113,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49462,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 16:47:04.193,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49464,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 17:17:03.920,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49482,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 17:47:04.019,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49504,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 17:47:04.019,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49506,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 18:17:03.904,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49518,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 18:17:04.232,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52076,,239.255.255.250,1900,ssdp
-2016-06-06 18:17:04.232,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52077,,239.255.255.250,1900,ssdp
-2016-06-06 18:17:04.285,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49521,,a23-33-9-208.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 18:47:04.162,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49537,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 18:47:04.217,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49539,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 19:17:03.979,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49545,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 19:47:04.147,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49567,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 19:47:04.221,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49569,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 20:17:03.991,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49581,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 20:17:04.388,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52076,,239.255.255.250,1900,ssdp
-2016-06-06 20:17:04.388,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52077,,239.255.255.250,1900,ssdp
-2016-06-06 20:17:04.425,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49584,,a23-214-142-8.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 20:47:04.233,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49600,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 20:47:04.284,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49602,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 20:47:04.655,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49605,,a23-214-120-76.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 21:17:04.036,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49623,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 21:17:04.424,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49632,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 21:47:04.265,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49648,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 21:47:04.312,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49650,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 21:47:04.914,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52076,,239.255.255.250,1900,ssdp
-2016-06-06 21:47:04.914,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,52077,,239.255.255.250,1900,ssdp
-2016-06-06 22:17:04.054,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49662,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 22:42:24.987,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49683,,64.4.54.253,443,https
-2016-06-06 22:42:25.796,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,64.4.54.253,137,netbios-ns
-2016-06-06 22:42:52.497,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49686,,134.170.51.190,443,https
-2016-06-06 22:42:52.779,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49689,,a104-101-175-67.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 22:42:53.386,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,134.170.51.190,137,netbios-ns
-2016-06-06 22:42:55.656,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49692,,a104-101-175-67.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 22:47:04.205,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49701,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 22:47:04.218,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49704,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 22:50:54.864,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49707,,msnbot-65-52-108-153.search.msn.com,80,http
-2016-06-06 22:57:56.195,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49710,,131.253.61.84,443,https
-2016-06-06 22:57:56.737,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49713,,eu.vortex.data.microsoft.com,443,https
-2016-06-06 22:57:57.062,System,AUTORITE NT\Systï¿½me,udp,local,137,netbios-ns,131.253.61.84,137,netbios-ns
-2016-06-06 23:16:21.133,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,62865,,239.255.255.250,3702,ws-discovery
-2016-06-06 23:16:21.133,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,62865,,239.255.255.250,3702,ws-discovery
-2016-06-06 23:16:21.134,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,62867,,239.255.255.250,3702,ws-discovery
-2016-06-06 23:16:21.134,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,local,62867,,239.255.255.250,3702,ws-discovery
-2016-06-06 23:17:04.039,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49728,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 23:32:05.580,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49758,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-06 23:32:05.749,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49761,,a104-69-55-114.deploy.static.akamaitechnologies.com,443,https
-2016-06-06 23:32:05.914,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49764,,a23-38-13-199.deploy.static.akamaitechnologies.com,443,https
-2016-06-06 23:32:07.444,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49767,,a104-69-55-114.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 23:32:07.995,C:\Program Files (x86)\Proxifier\Proxifier.exe,,tcp,local,49773,,msnbot-207-46-194-14.search.msn.com,80,http
+2016-06-07 01:23:52.582,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 01:23:52.582,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 01:23:52.608,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57714,,239.255.255.250,3702,ws-discovery
+2016-06-07 01:23:52.608,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57714,,239.255.255.250,3702,ws-discovery
+2016-06-07 01:23:53.052,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57716,,239.255.255.250,3702,ws-discovery
+2016-06-07 01:23:53.052,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57716,,239.255.255.250,3702,ws-discovery
+2016-06-07 01:23:53.158,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,239.255.255.250,137,netbios-ns
+2016-06-07 01:23:53.277,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,50591,,239.255.255.250,3702,ws-discovery
+2016-06-07 01:23:53.277,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,50591,,239.255.255.250,3702,ws-discovery
+2016-06-07 01:24:03.701,C:\Windows\explorer.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49171,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 01:24:03.796,C:\Windows\explorer.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49172,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 01:27:41.727,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,224.0.0.252,137,netbios-ns
+2016-06-07 01:36:54.591,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49181,,msnbot-65-52-108-29.search.msn.com,443,https
+2016-06-07 01:38:40.201,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49189,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 01:38:40.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49193,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 02:08:40.231,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49203,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 02:22:02.063,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49208,,a184-87-220-153.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 02:38:40.334,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49236,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 02:38:40.335,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49238,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 02:54:49.905,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49244,,msnbot-65-52-108-153.search.msn.com,80,http
+2016-06-07 03:00:02.353,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49247,,65.55.252.93,443,https
+2016-06-07 03:00:03.085,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,65.55.252.93,137,netbios-ns
+2016-06-07 03:00:59.526,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49250,,msnbot-65-52-108-153.search.msn.com,80,http
+2016-06-07 03:08:40.222,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49259,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 03:38:40.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49275,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 03:38:40.503,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49277,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 04:08:40.305,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49283,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 04:38:40.527,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49305,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 04:38:40.537,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49307,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 04:53:40.553,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 04:53:40.553,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 04:53:44.607,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49313,,a184-87-220-153.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 05:08:40.319,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49322,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 05:38:40.586,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49338,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 05:38:40.606,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49340,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 05:38:40.696,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49343,,a104-94-163-2.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 06:02:23.382,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49349,,msnbot-207-46-194-14.search.msn.com,80,http
+2016-06-07 06:02:23.775,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49352,,a104-101-175-67.deploy.static.akamaitechnologies.com,443,https
+2016-06-07 06:02:23.952,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49355,,a23-214-150-169.deploy.static.akamaitechnologies.com,443,https
+2016-06-07 06:02:25.596,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49358,,a104-101-175-67.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 06:02:26.061,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49364,,msnbot-207-46-194-14.search.msn.com,80,http
+2016-06-07 06:08:40.335,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49370,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 06:38:40.520,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49392,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 06:38:40.564,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49394,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 06:38:40.730,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49397,,a104-94-111-44.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 06:40:01.391,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49400,,157.56.194.73,80,http
+2016-06-07 06:40:02.401,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,157.56.194.73,137,netbios-ns
+2016-06-07 06:40:02.401,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49403,,157.56.194.73,443,https
+2016-06-07 06:40:02.822,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49406,,a23-214-150-169.deploy.static.akamaitechnologies.com,443,https
+2016-06-07 07:08:40.363,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49430,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 07:23:40.424,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49434,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 07:23:40.427,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49436,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 07:38:40.453,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49439,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 07:38:40.475,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49442,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 07:38:40.484,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49445,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 07:38:40.624,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49448,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 07:53:40.373,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49451,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 08:08:40.417,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49454,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 08:08:40.777,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 08:08:40.777,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 08:08:40.815,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49463,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 08:23:40.470,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49469,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 08:38:40.765,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49481,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 08:38:40.765,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49478,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 08:53:40.457,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49484,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 09:08:40.482,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49493,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 09:08:40.514,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49491,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 09:08:40.515,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49489,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 09:23:40.495,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49497,,a92-122-51-59.deploy.akamaitechnologies.com,80,http
+2016-06-07 09:23:40.497,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49499,,a92-122-51-59.deploy.akamaitechnologies.com,80,http
+2016-06-07 09:38:40.556,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49503,,a92-122-51-59.deploy.akamaitechnologies.com,80,http
+2016-06-07 09:38:40.559,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49511,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 09:38:40.560,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49509,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 09:38:40.562,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49505,,a92-122-51-59.deploy.akamaitechnologies.com,80,http
+2016-06-07 09:38:40.919,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 09:38:40.919,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 09:38:40.958,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49514,,a23-214-105-44.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 09:53:40.433,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49517,,a92-122-51-59.deploy.akamaitechnologies.com,80,http
+2016-06-07 10:08:40.455,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49520,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 10:08:40.837,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49529,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 10:38:40.596,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49541,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 10:38:40.597,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49543,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 11:08:40.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49559,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 11:38:40.742,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49575,,a92-122-152-223.deploy.akamaitechnologies.com,80,http
+2016-06-07 11:38:40.782,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49577,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 12:08:40.538,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49583,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 12:23:40.679,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49595,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 12:38:40.766,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49605,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 12:38:40.818,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49607,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 12:53:40.598,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49610,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
+2016-06-07 13:08:40.616,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49619,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 13:08:40.654,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49617,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
+2016-06-07 13:08:43.668,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49615,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
+2016-06-07 13:23:40.497,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 13:23:40.497,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 13:23:40.676,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49622,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 13:38:40.705,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49631,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 13:38:40.706,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49629,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 13:38:40.709,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49634,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 13:38:40.716,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49637,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 13:53:40.595,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49640,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 14:08:40.611,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49643,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 14:38:40.799,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49665,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 14:38:40.823,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49667,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 14:38:41.098,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 14:38:41.098,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 14:38:41.150,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49670,,a23-33-9-208.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 15:08:40.699,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49682,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 15:38:40.907,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49698,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 15:38:40.932,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49700,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 16:08:40.681,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49706,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 16:23:41.037,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 16:23:41.037,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 16:23:41.087,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49721,,a23-33-9-208.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 16:38:40.809,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49726,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 16:38:40.830,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49733,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 17:04:44.281,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49745,,ocsp.comodoca.com,80,http
+2016-06-07 17:04:44.606,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49748,,ocsp.comodoca.com,80,http
+2016-06-07 17:04:44.726,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49751,,ocsp.comodoca.com,80,http
+2016-06-07 17:08:40.680,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49758,,a23-33-68-131.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 17:23:40.714,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49763,,2.18.213.59,80,http
+2016-06-07 17:23:41.037,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.213.59,137,netbios-ns
+2016-06-07 17:38:40.951,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49776,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 17:38:40.959,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49778,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 18:08:40.750,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49784,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 18:08:40.784,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49788,,2.18.213.73,80,http
+2016-06-07 18:08:40.784,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49790,,2.18.213.73,80,http
+2016-06-07 18:08:41.734,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.213.73,137,netbios-ns
+2016-06-07 18:23:40.723,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49793,,2.18.213.73,80,http
+2016-06-07 18:23:40.748,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49796,,2.18.213.59,80,http
+2016-06-07 18:38:40.886,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49799,,a104-96-8-236.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 18:38:40.938,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49803,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 18:38:40.948,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49805,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 18:38:41.009,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49808,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 18:38:41.216,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 18:38:41.216,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 18:38:41.254,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49811,,a23-214-142-8.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 18:53:40.734,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49814,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 19:08:40.813,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49823,,a104-96-8-236.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 19:08:40.828,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49821,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 19:08:40.829,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49819,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-07 19:20:40.581,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49826,,157.56.77.138,443,https
+2016-06-07 19:20:41.383,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,157.56.77.138,137,netbios-ns
+2016-06-07 19:20:42.282,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49829,,65.55.138.114,443,https
+2016-06-07 19:20:42.392,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,65.55.138.114,137,netbios-ns
+2016-06-07 19:20:43.122,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49832,,157.55.240.126,443,https
+2016-06-07 19:20:43.419,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,157.55.240.126,137,netbios-ns
+2016-06-07 19:20:45.647,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49835,,2.18.213.32,80,http
+2016-06-07 19:20:46.406,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.213.32,137,netbios-ns
+2016-06-07 19:20:50.995,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49838,,65.55.138.114,443,https
+2016-06-07 19:20:52.317,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49841,,2.18.212.74,80,http
+2016-06-07 19:20:52.523,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.212.74,137,netbios-ns
+2016-06-07 19:23:40.727,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49845,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 19:23:40.729,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49847,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 19:29:13.050,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49850,,msnbot-65-52-108-153.search.msn.com,80,http
+2016-06-07 19:29:13.499,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49853,,msnbot-65-52-108-153.search.msn.com,80,http
+2016-06-07 19:38:40.852,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49862,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 19:38:40.852,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49857,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 19:38:40.852,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49859,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 19:38:40.858,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49865,,2.19.182.135,80,http
+2016-06-07 19:38:41.820,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.19.182.135,137,netbios-ns
+2016-06-07 19:53:40.794,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49880,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 20:08:40.798,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49889,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 20:08:40.823,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49885,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 20:08:40.823,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49887,,a92-122-51-80.deploy.akamaitechnologies.com,80,http
+2016-06-07 20:23:40.840,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49892,,a92-122-51-50.deploy.akamaitechnologies.com,80,http
+2016-06-07 20:23:40.850,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49895,,a92-122-51-50.deploy.akamaitechnologies.com,80,http
+2016-06-07 20:38:40.917,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49899,,a92-122-51-50.deploy.akamaitechnologies.com,80,http
+2016-06-07 20:38:40.926,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49904,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 20:38:40.945,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49907,,2.19.182.135,80,http
+2016-06-07 20:38:41.187,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49901,,a92-122-51-50.deploy.akamaitechnologies.com,80,http
+2016-06-07 20:38:41.309,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-07 20:38:41.309,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-07 20:38:45.397,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49910,,a23-213-143-70.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 20:53:40.814,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49913,,a92-122-51-50.deploy.akamaitechnologies.com,80,http
+2016-06-07 21:08:40.845,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49928,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 21:08:40.880,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49932,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-07 21:08:40.880,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49934,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-07 21:23:40.819,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49937,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-07 21:23:40.847,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49940,,2.18.213.73,80,http
+2016-06-07 21:38:40.975,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49946,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 21:38:40.980,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49944,,2.19.182.135,80,http
+2016-06-07 21:38:40.985,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49950,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-07 21:38:40.986,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49952,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-07 21:38:41.424,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49955,,a23-64-21-225.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 21:53:40.805,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49958,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-07 22:08:40.896,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49966,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-07 22:08:40.896,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49968,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-07 22:08:40.896,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49970,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 22:23:40.927,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49973,,2.18.213.73,80,http
+2016-06-07 22:38:41.074,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49986,,2.19.182.135,80,http
+2016-06-07 22:38:41.168,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49988,,a23-211-145-23.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 23:08:40.926,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49994,,a23-211-145-23.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 23:08:40.991,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,49998,,2.18.213.73,80,http
+2016-06-07 23:08:41.026,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50000,,2.18.213.73,80,http
+2016-06-07 23:23:40.924,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50003,,2.18.213.73,80,http
+2016-06-07 23:23:40.955,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50006,,2.18.213.73,80,http
+2016-06-07 23:33:24.179,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50009,,msnbot-207-46-194-14.search.msn.com,80,http
+2016-06-07 23:33:24.548,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50012,,a23-211-173-218.deploy.static.akamaitechnologies.com,443,https
+2016-06-07 23:33:24.737,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50015,,a23-74-125-199.deploy.static.akamaitechnologies.com,443,https
+2016-06-07 23:33:26.418,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50018,,a23-211-173-218.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 23:33:26.759,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50024,,msnbot-207-46-194-14.search.msn.com,80,http
+2016-06-07 23:36:37.648,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50027,,191.232.139.253,443,https
+2016-06-07 23:36:38.624,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,191.232.139.253,137,netbios-ns
+2016-06-07 23:37:19.381,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50030,,a23-211-173-218.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 23:37:20.767,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50033,,134.170.58.189,443,https
+2016-06-07 23:37:21.352,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,134.170.58.189,137,netbios-ns
+2016-06-07 23:37:23.531,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50036,,a104-69-55-114.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 23:38:40.946,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50040,,2.18.213.73,80,http
+2016-06-07 23:38:40.956,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50042,,2.18.213.73,80,http
+2016-06-07 23:38:40.995,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50045,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 23:38:40.995,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50048,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-07 23:45:22.931,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50051,,msnbot-65-52-108-153.search.msn.com,80,http
+2016-06-07 23:52:24.085,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50054,,131.253.61.100,80,http
+2016-06-07 23:52:24.431,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50057,,131.253.61.100,443,https
+2016-06-07 23:52:24.908,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50060,,eu.vortex.data.microsoft.com,443,https
+2016-06-07 23:52:24.968,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,131.253.61.100,137,netbios-ns
+2016-06-07 23:53:40.913,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50063,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 00:08:40.984,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50067,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 00:08:40.984,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50069,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 00:08:41.062,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50072,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 00:23:41.002,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50075,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 00:38:41.220,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50088,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 00:38:41.279,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50090,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 01:08:41.037,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50096,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 01:08:41.088,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50102,,2.18.213.59,80,http
+2016-06-08 01:08:41.088,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50100,,2.18.213.59,80,http
+2016-06-08 01:22:48.669,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50105,,65.55.252.190,443,https
+2016-06-08 01:22:49.446,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50108,,23.99.49.121,80,http
+2016-06-08 01:22:49.491,C:\Windows\System32\svchost.exe,AUTORITE NT\Système,tcp,CRAZY-WIN8,50109,,131.253.61.66,80,http
+2016-06-08 01:22:49.544,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,65.55.252.190,137,netbios-ns
+2016-06-08 01:22:49.576,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,23.99.49.121,137,netbios-ns
+2016-06-08 01:22:49.926,C:\Windows\System32\svchost.exe,AUTORITE NT\Système,tcp,CRAZY-WIN8,50110,,131.253.61.66,443,https
+2016-06-08 01:22:50.545,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,131.253.61.66,137,netbios-ns
+2016-06-08 01:22:51.339,C:\Program Files\Windows Defender\MpCmdRun.exe,AUTORITE NT\SERVICE RÉSEAU,tcp,CRAZY-WIN8,50111,,137.117.235.16,443,https
+2016-06-08 01:22:51.533,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,137.117.235.16,137,netbios-ns
+2016-06-08 01:23:40.575,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-08 01:23:40.576,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-08 01:23:40.914,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50114,,2.18.213.59,80,http
+2016-06-08 01:23:40.934,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50117,,2.18.213.59,80,http
+2016-06-08 01:38:41.022,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50123,,2.18.213.59,80,http
+2016-06-08 01:38:41.022,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50121,,2.18.213.59,80,http
+2016-06-08 01:38:41.051,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50126,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 01:38:41.096,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50129,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 01:53:40.991,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50132,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 02:08:41.043,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50141,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 02:08:41.056,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50137,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 02:08:41.056,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50139,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 02:23:41.033,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50144,,2.18.213.73,80,http
+2016-06-08 02:23:41.034,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50147,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 02:38:41.078,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50150,,2.18.213.73,80,http
+2016-06-08 02:38:41.169,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50154,,2.18.213.73,80,http
+2016-06-08 02:38:41.258,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50156,,a23-211-145-23.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 02:38:41.328,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50159,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 02:53:40.983,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50162,,2.18.213.73,80,http
+2016-06-08 03:08:41.034,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50165,,a23-211-145-23.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 03:23:41.181,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50177,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 03:38:41.314,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50187,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 03:38:41.354,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50189,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 04:08:41.084,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50201,,a184-87-220-165.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 04:23:41.158,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50207,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-08 04:23:42.632,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50204,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-08 04:38:41.183,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50210,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-08 04:38:41.222,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50213,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-08 04:38:41.333,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50217,,a23-211-145-23.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 04:38:41.373,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50219,,a104-101-178-203.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 04:53:41.114,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50222,,a92-122-51-74.deploy.akamaitechnologies.com,80,http
+2016-06-08 04:53:41.505,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-08 04:53:41.505,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-08 04:53:41.556,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50225,,a173-223-169-167.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 05:08:41.111,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50228,,a23-211-145-23.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 05:08:41.131,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50232,,2.18.213.59,80,http
+2016-06-08 05:08:41.131,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50234,,2.18.213.59,80,http
+2016-06-08 05:23:41.101,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50237,,2.18.213.59,80,http
+2016-06-08 05:23:41.130,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50240,,2.18.213.59,80,http
+2016-06-08 05:38:41.193,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50244,,2.18.213.73,80,http
+2016-06-08 05:38:41.213,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50246,,2.18.213.73,80,http
+2016-06-08 05:38:41.317,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50250,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 05:38:41.358,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50252,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 05:38:41.579,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50255,,a173-223-169-167.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 05:53:41.079,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50258,,2.18.213.73,80,http
+2016-06-08 06:08:41.151,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50267,,a104-101-181-183.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 06:08:41.162,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50265,,2.18.213.73,80,http
+2016-06-08 06:08:41.501,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50270,,a23-65-37-164.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 06:08:44.162,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50263,,2.18.213.73,80,http
+2016-06-08 06:23:41.159,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50276,,2.18.213.59,80,http
+2016-06-08 06:23:41.160,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50274,,2.18.213.73,80,http
+2016-06-08 06:38:41.240,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50282,,2.18.213.73,80,http
+2016-06-08 06:38:41.240,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50280,,2.18.213.73,80,http
+2016-06-08 06:38:41.269,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50285,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 06:38:41.314,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50288,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 06:53:41.128,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50291,,2.18.213.73,80,http
+2016-06-08 07:08:41.245,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50294,,a104-101-165-168.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 07:08:41.310,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50298,,2.18.213.73,80,http
+2016-06-08 07:08:41.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50300,,2.18.213.73,80,http
+2016-06-08 07:23:41.146,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50303,,2.18.213.73,80,http
+2016-06-08 07:23:41.177,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50306,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 07:38:41.226,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50312,,2.18.213.73,80,http
+2016-06-08 07:38:41.226,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50310,,2.18.213.73,80,http
+2016-06-08 07:38:41.264,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50315,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 07:38:41.397,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50318,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 07:53:41.182,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50321,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 08:08:41.233,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50330,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 08:08:41.238,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50328,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 08:08:44.238,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50326,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 08:08:44.363,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-08 08:08:44.363,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-08 08:08:44.408,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50333,,a23-64-21-225.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 08:23:41.198,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50336,,2.18.213.59,80,http
+2016-06-08 08:38:41.405,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50349,,a23-65-44-170.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 08:38:41.445,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50351,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 09:08:41.270,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50357,,a23-65-44-170.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 09:08:41.444,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50361,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 09:08:41.444,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50363,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 09:23:41.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50366,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 09:23:41.238,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50369,,2.18.213.73,80,http
+2016-06-08 09:38:41.297,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50373,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 09:38:41.307,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50375,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 09:38:41.484,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50379,,a23-195-69-11.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 09:38:41.517,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50381,,2.19.53.152,80,http
+2016-06-08 09:38:41.597,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-08 09:38:41.597,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-08 09:38:41.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50384,,a23-65-37-164.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 09:38:42.307,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.19.53.152,137,netbios-ns
+2016-06-08 09:53:41.236,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50387,,2.18.213.59,80,http
+2016-06-08 10:08:41.286,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50396,,a23-195-69-11.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 10:08:41.287,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50392,,2.18.213.59,80,http
+2016-06-08 10:08:41.287,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50394,,2.18.213.59,80,http
+2016-06-08 10:23:41.277,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50399,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 10:23:41.294,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50402,,2.18.213.59,80,http
+2016-06-08 10:25:23.628,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50405,,msnbot-207-46-194-14.search.msn.com,80,http
+2016-06-08 10:25:23.882,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50408,,a23-195-51-28.deploy.static.akamaitechnologies.com,443,https
+2016-06-08 10:25:24.084,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50411,,a23-214-150-169.deploy.static.akamaitechnologies.com,443,https
+2016-06-08 10:25:26.071,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50414,,a23-195-51-28.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 10:25:26.188,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50417,,2.18.213.82,80,http
+2016-06-08 10:25:26.588,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50420,,msnbot-207-46-194-14.search.msn.com,80,http
+2016-06-08 10:25:26.590,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.213.82,137,netbios-ns
+2016-06-08 10:38:41.333,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50424,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 10:38:41.343,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50426,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 10:38:41.363,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50429,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 10:38:41.484,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50432,,2.23.44.185,80,http
+2016-06-08 10:38:41.714,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50435,,a23-214-105-44.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 10:38:42.333,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.23.44.185,137,netbios-ns
+2016-06-08 10:53:41.224,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50438,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 11:08:41.306,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50441,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 11:08:41.328,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50447,,2.18.213.59,80,http
+2016-06-08 11:08:41.328,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50445,,2.18.213.59,80,http
+2016-06-08 11:23:41.272,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50450,,2.18.213.59,80,http
+2016-06-08 11:23:41.302,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50453,,2.18.213.73,80,http
+2016-06-08 11:38:41.395,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50462,,a23-195-69-11.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 11:38:41.396,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50458,,2.18.213.59,80,http
+2016-06-08 11:38:41.397,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50460,,2.18.213.59,80,http
+2016-06-08 11:38:41.413,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50465,,a23-2-118-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 11:53:41.256,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50468,,2.18.213.59,80,http
+2016-06-08 12:08:41.365,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50477,,a23-195-69-11.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 12:08:41.366,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50475,,2.18.213.59,80,http
+2016-06-08 12:08:44.366,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50473,,2.18.213.59,80,http
+2016-06-08 12:23:41.330,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50483,,2.18.213.81,80,http
+2016-06-08 12:23:41.331,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50481,,2.18.213.81,80,http
+2016-06-08 12:23:42.305,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.213.81,137,netbios-ns
+2016-06-08 12:38:41.423,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50487,,2.18.213.81,80,http
+2016-06-08 12:38:41.433,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50489,,2.18.213.81,80,http
+2016-06-08 12:38:41.441,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50492,,a23-195-69-11.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 12:38:41.501,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50495,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 12:53:41.298,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50498,,2.18.213.81,80,http
+2016-06-08 13:08:41.412,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50501,,a23-195-69-11.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 13:08:41.493,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50505,,2.18.213.59,80,http
+2016-06-08 13:08:41.493,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50507,,2.18.213.59,80,http
+2016-06-08 13:23:40.645,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-08 13:23:40.645,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-08 13:23:41.343,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50510,,2.18.213.59,80,http
+2016-06-08 13:23:41.378,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50513,,2.18.213.59,80,http
+2016-06-08 13:38:41.428,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50517,,2.18.213.59,80,http
+2016-06-08 13:38:41.437,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50519,,2.18.213.59,80,http
+2016-06-08 13:38:41.507,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50523,,a104-111-238-232.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 13:38:41.665,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50525,,a23-206-166-70.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 13:48:00.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50528,,134.170.30.204,80,http
+2016-06-08 13:48:01.341,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,134.170.30.204,137,netbios-ns
+2016-06-08 13:48:02.370,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50531,,134.170.30.204,443,https
+2016-06-08 13:48:03.227,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50534,,a23-206-187-4.deploy.static.akamaitechnologies.com,443,https
+2016-06-08 13:48:03.495,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50537,,198.41.215.183,80,http
+2016-06-08 13:48:04.418,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,198.41.215.183,137,netbios-ns
+2016-06-08 13:48:30.816,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50561,,2.18.213.201,80,http
+2016-06-08 13:48:31.861,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.213.201,137,netbios-ns
+2016-06-08 13:48:32.986,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50564,,2.18.213.201,80,http
+2016-06-08 13:53:41.391,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50567,,2.18.213.59,80,http
+2016-06-08 14:08:41.452,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50574,,2.18.213.59,80,http
+2016-06-08 14:08:41.462,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50576,,a104-111-238-232.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 14:08:44.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50572,,2.18.213.59,80,http
+2016-06-08 14:23:41.417,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50582,,2.18.212.161,80,http
+2016-06-08 14:23:41.419,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50580,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 14:23:42.445,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.212.161,137,netbios-ns
+2016-06-08 14:38:41.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50586,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 14:38:41.516,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50588,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 14:38:41.539,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50591,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 14:38:41.632,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50594,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 14:38:41.881,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-08 14:38:41.882,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-08 14:38:41.922,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50597,,a23-65-37-164.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 14:53:41.381,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50600,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 14:59:32.902,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50603,,157.55.133.204,443,https
+2016-06-08 14:59:33.800,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,157.55.133.204,137,netbios-ns
+2016-06-08 14:59:34.534,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50606,,134.170.115.62,443,https
+2016-06-08 14:59:34.810,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,134.170.115.62,137,netbios-ns
+2016-06-08 14:59:35.481,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50609,,157.55.240.126,443,https
+2016-06-08 14:59:37.714,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50612,,2.18.213.27,80,http
+2016-06-08 14:59:37.835,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.213.27,137,netbios-ns
+2016-06-08 15:00:22.404,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50615,,134.170.115.62,443,https
+2016-06-08 15:00:23.441,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50618,,a95-101-39-50.deploy.akamaitechnologies.com,80,http
+2016-06-08 15:08:41.451,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50621,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 15:08:41.487,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50625,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 15:08:41.497,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50627,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 15:08:42.606,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50630,,msnbot-64-4-54-22.search.msn.com,80,http
+2016-06-08 15:09:25.942,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50633,,msnbot-65-52-108-153.search.msn.com,80,http
+2016-06-08 15:23:41.426,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50636,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 15:23:41.445,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50639,,2.18.213.73,80,http
+2016-06-08 15:38:41.565,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50648,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 15:38:41.565,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50643,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 15:38:41.565,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50645,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 15:38:41.572,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50651,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 15:38:46.014,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50654,,a23-64-21-225.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 15:53:41.398,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50657,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 16:08:41.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50662,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 16:08:41.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50664,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 16:08:41.513,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50666,,a23-64-21-71.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 16:23:41.493,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50690,,2.18.213.73,80,http
+2016-06-08 16:23:41.553,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50688,,65.158.47.113,80,http
+2016-06-08 16:23:41.761,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50693,,a23-65-37-164.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 16:23:42.443,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,65.158.47.113,137,netbios-ns
+2016-06-08 16:38:41.590,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50720,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 16:38:41.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50715,,65.158.47.113,80,http
+2016-06-08 16:38:41.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50717,,65.158.47.113,80,http
+2016-06-08 16:38:41.679,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50723,,a184-50-214-14.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 16:53:41.477,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50726,,65.158.47.113,80,http
+2016-06-08 17:00:01.014,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50729,,65.55.252.93,443,https
+2016-06-08 17:08:41.483,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50738,,2.18.213.59,80,http
+2016-06-08 17:08:41.483,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50736,,2.18.213.59,80,http
+2016-06-08 17:08:41.531,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50732,,a184-50-214-14.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 17:23:41.452,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50741,,2.18.213.59,80,http
+2016-06-08 17:23:41.489,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50744,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
+2016-06-08 17:38:41.589,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50756,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 17:38:41.599,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50753,,2.19.182.135,80,http
+2016-06-08 17:38:41.656,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50748,,65.158.47.113,80,http
+2016-06-08 17:38:41.656,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50750,,65.158.47.113,80,http
+2016-06-08 17:48:11.572,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,58980,,239.255.255.250,3702,ws-discovery
+2016-06-08 17:48:11.572,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,58980,,239.255.255.250,3702,ws-discovery
+2016-06-08 17:48:11.574,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,58982,,239.255.255.250,3702,ws-discovery
+2016-06-08 17:48:11.574,C:\Windows\System32\dasHost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,58982,,239.255.255.250,3702,ws-discovery
+2016-06-08 17:53:41.514,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50786,,65.158.47.113,80,http
+2016-06-08 18:08:41.581,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50795,,a23-214-141-237.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 18:08:41.659,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50791,,65.158.47.113,80,http
+2016-06-08 18:08:41.659,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50793,,65.158.47.113,80,http
+2016-06-08 18:08:41.969,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57712,,239.255.255.250,1900,ssdp
+2016-06-08 18:08:41.969,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN8,57713,,239.255.255.250,1900,ssdp
+2016-06-08 18:08:42.016,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50798,,a23-64-21-225.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 18:23:41.553,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50802,,2.18.213.81,80,http
+2016-06-08 18:23:41.554,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50804,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 18:38:41.644,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50808,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 18:38:41.653,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50810,,a88-221-117-56.deploy.akamaitechnologies.com,80,http
+2016-06-08 18:38:41.670,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50813,,a23-195-69-11.deploy.static.akamaitechnologies.com,80,http
+2016-06-08 18:38:41.707,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50816,,2.19.182.135,80,http
+2016-06-08 18:46:25.133,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50817,,a-0001.a-msedge.net,80,http
+2016-06-08 18:46:25.429,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50818,,a-0001.a-msedge.net,80,http
+2016-06-08 18:46:26.349,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50819,,a92-122-163-125.deploy.akamaitechnologies.com,80,http
+2016-06-08 18:46:26.592,C:\Windows\System32\BackgroundTransferHost.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50820,,23.98.49.14,443,https
+2016-06-08 18:46:26.984,C:\Windows\System32\BackgroundTransferHost.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50821,,93.184.220.20,80,http
+2016-06-08 18:46:27.036,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,23.98.49.14,137,netbios-ns
+2016-06-08 18:46:27.057,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,93.184.220.20,137,netbios-ns
+2016-06-08 18:46:27.445,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50823,,2.18.212.11,80,http
+2016-06-08 18:46:27.445,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50825,,2.18.212.11,80,http
+2016-06-08 18:46:27.445,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50822,,2.18.212.11,80,http
+2016-06-08 18:46:27.454,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50828,,2.18.212.11,80,http
+2016-06-08 18:46:27.455,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50826,,2.18.212.11,80,http
+2016-06-08 18:46:27.455,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50832,,2.18.212.11,80,http
+2016-06-08 18:46:27.455,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50834,,2.18.212.11,80,http
+2016-06-08 18:46:27.455,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50836,,2.18.212.11,80,http
+2016-06-08 18:46:27.455,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50829,,2.18.212.11,80,http
+2016-06-08 18:46:27.455,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50831,,2.18.212.11,80,http
+2016-06-08 18:46:27.533,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50838,,2.18.212.11,80,http
+2016-06-08 18:46:28.049,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,2.18.212.11,137,netbios-ns
+2016-06-08 18:46:28.619,C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.3230.2048_x64__8wekyb3d8bbwe\Map.exe,CRAZY-WIN8\crazy,tcp,CRAZY-WIN8,50839,,65.52.108.59,80,http
+2016-06-08 18:46:29.085,System,AUTORITE NT\Système,udp,CRAZY-WIN8,137,netbios-ns,65.52.108.59,137,netbios-ns

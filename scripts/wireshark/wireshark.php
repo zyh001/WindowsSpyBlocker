@@ -149,6 +149,12 @@ function getHost($destIp) {
             return null;
         }
     }
+    /*if (!filter_var($destIp, FILTER_VALIDATE_IP)) {
+        $ipReverse = getIpFromReverse($destIp);
+        if ($ipReverse != null) {
+            $destIp = $ipReverse;
+        }
+    }*/
 
     return $destIp;
 }
