@@ -30,7 +30,7 @@ To be notified of new releases you can subscribe to this [Atom feed](https://git
 
 ## How ?
 
-I use a QEMU virtual machines on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
+I use QEMU virtual machines on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
 
 * Windows 10 Pro 64bits with automatic updates enabled.
 * Windows 8.1 Pro 64bits with automatic updates enabled.
@@ -90,7 +90,7 @@ NCSI performs a DNS lookup on `www.msftncsi.com` and sends a DNS lookup request 
 You can block this probe by adding the content of the `data/<type>/winX/extra.txt` hosts file.<br />
 
 But you will have a ["No Internet access" warning in your system tray](../../wiki/FAQ#no-internet-access-on-my-network-card).<br />
-To solve this problem you can use the alternative WindowsSpyBlcoker NCSI. Read the instructions in [scripts/ncsi folder](scripts/ncsi).
+To solve this problem you can use the alternative WindowsSpyBlocker NCSI. Read the instructions in [scripts/ncsi folder](scripts/ncsi).
 
 #### DNSCrypt
 
