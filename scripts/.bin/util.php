@@ -1,8 +1,5 @@
 <?php
 
-$dnsQueryUrl = 'https://dnsquery.org/ipwhois,request/';
-$ipWhoisUrl = 'http://www.webyield.net/cgi-bin/ipwhois.cgi?addr=';
-
 function loadConfig($path) {
     if (!file_exists($path)) {
         throw new Exception('Conf file not found in ' . $path);
@@ -97,18 +94,138 @@ function download($src, $dest) {
     return true;
 }
 
-function parseDnsQuery($text) {
-    $result = array(
-        'netName' => null,
-        'organization' => null,
-        'country' => null
-    );
+function getIpFromReverse($host) {
+    if (preg_match('/\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}/i', $host, $matches) !== 1) {
+        return null;
+    }
+    $ip = str_replace('-', '.', $matches[0]);
+    if (!filter_var($ip, FILTER_VALIDATE_IP)) {
+        return null;
+    }
+    return $ip;
+}
 
-    if (empty($text) || $text === false) {
+function getWhois($ipOrDomain, $logsPath) {
+    $res = array();
+    $resFile = $logsPath . '/whois.tmp';
+    $cacheTime = 172800;
+    $currentTime = time();
+    $isIp = filter_var($ipOrDomain, FILTER_VALIDATE_IP);
+
+    if (file_exists($resFile)) {
+        $diffTime = $currentTime - filectime($resFile);
+        if ($diffTime > $cacheTime) {
+            unlink($resFile);
+        } else {
+            $handle = fopen($resFile, 'r');
+            if ($handle) {
+                while (($line = fgets($handle)) !== false) {
+                    $line = trim($line);
+                    if (empty($line)) {
+                        continue;
+                    }
+                    $lineAr = explode(' ', $line, 2);
+                    $res[$lineAr[0]] = count($lineAr) == 2 ? $lineAr[1] : null;
+                }
+                fclose($handle);
+            }
+            if (array_key_exists($ipOrDomain, $res)) {
+                return json_decode($res[$ipOrDomain], true);
+            }
+        }
+    }
+
+    $whoisRes = null;
+    if ($isIp) {
+        // IpInfo
+        $tmp = parseIpInfo($ipOrDomain);
+        if (!isset($tmp['org']) || empty($tmp['org'])) {
+            // DnsQuery
+            $tmp = parseDnsQuery($ipOrDomain);
+            if (!isset($tmp['org']) || empty($tmp['org'])) {
+                // WhoisXmlApi
+                // FIXME: WhoisXmlApi limited to 50 requests per IP
+                $tmp = parseWhoisXmlApi($ipOrDomain);
+                if (isset($tmp['org']) && !empty($tmp['org'])) {
+                    $whoisRes = array(
+                        'src' => 'WhoisXmlApi',
+                        'org' => str_replace(',', '.', $tmp['org']),
+                        'country' => $tmp['country']
+                    );
+                }
+            } else {
+                $whoisRes = array(
+                    'src' => 'DnsQuery',
+                    'org' => str_replace(',', '.', $tmp['org']),
+                    'country' => $tmp['country']
+                );
+            }
+        } else {
+            $whoisRes = array(
+                'src' => 'IpInfo',
+                'org' => str_replace(',', '.', $tmp['org']),
+                'country' => $tmp['country']
+            );
+        }
+    } else {
+        // DnsQuery
+        $tmp = parseDnsQuery($ipOrDomain);
+        if (!isset($tmp['org']) || empty($tmp['org'])) {
+            // WhoisXmlApi
+            // FIXME: WhoisXmlApi limited to 50 requests per IP
+            $tmp = parseWhoisXmlApi($ipOrDomain);
+            if (isset($tmp['org']) && !empty($tmp['org'])) {
+                $whoisRes = array(
+                    'src' => 'WhoisXmlApi',
+                    'org' => str_replace(',', '.', $tmp['org']),
+                    'country' => $tmp['country']
+                );
+            }
+        } else {
+            $whoisRes = array(
+                'src' => 'DnsQuery',
+                'org' => str_replace(',', '.', $tmp['org']),
+                'country' => $tmp['country']
+            );
+        }
+    }
+
+    if (!empty($whoisRes)) {
+        $res[$ipOrDomain] = json_encode($whoisRes);
+    } else {
+        $res[$ipOrDomain] = null;
+    }
+
+    $res = sortHostsByKey($res);
+    $resStr = '';
+    foreach ($res as $aIpOrDomain => $json) {
+        $resStr .= $aIpOrDomain . ' ' . $json . PHP_EOL;
+    }
+    file_put_contents($resFile, $resStr);
+
+    return json_decode($res[$ipOrDomain], true);
+}
+
+function parseDnsQuery($ipOrDomain) {
+    $result = null;
+    if (empty($ipOrDomain)) {
         return $result;
     }
 
-    $lines = explode("\n", $text);
+    $url = 'https://dnsquery.org/ipwhois,request/' . $ipOrDomain;
+    $content = getUrlContent($url);
+    if (empty($content) || $content === false) {
+        return $result;
+    }
+
+    if (preg_match('/\sresolving\sto(.*?)(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})"/i', $content, $matches) === 1) {
+        if (isset($matches[2])) {
+            return parseDnsQuery($matches[2]);
+        }
+    }
+
+    $result['ip'] = $ipOrDomain;
+    $lines = explode("\n", $content);
     foreach ($lines as $line) {
         $line = trim($line);
 
@@ -118,16 +235,14 @@ function parseDnsQuery($text) {
         }
 
         $lineKey = trim(strtoupper($lineExp[0]));
-        if ($lineKey == 'NETNAME') {
-            $result['netName'] = trim($lineExp[1]);
-        } elseif ($lineKey == 'AUT-NUM') {
-            $result['netName'] = trim($lineExp[1]);
-        } elseif ($lineKey == 'ORGANIZATION') {
-            $result['organization'] = trim($lineExp[1]);
-        } elseif ($lineKey == 'DESCR') {
-            $result['organization'] = trim($lineExp[1]);
-        } elseif ($lineKey == 'OWNER') {
-            $result['organization'] = trim($lineExp[1]);
+        if ($lineKey == 'NAME') {
+            $result['org'] = trim($lineExp[1]);
+        } elseif (!isset($result['org']) && $lineKey == 'ORGANIZATION') {
+            $result['org'] = trim($lineExp[1]);
+        } elseif (!isset($result['org']) && $lineKey == 'DESCR') {
+            $result['org'] = trim($lineExp[1]);
+        } elseif (!isset($result['org']) && $lineKey == 'OWNER') {
+            $result['org'] = trim($lineExp[1]);
         } elseif ($lineKey == 'COUNTRY') {
             $result['country'] = trim($lineExp[1]);
         }
@@ -136,14 +251,239 @@ function parseDnsQuery($text) {
     return $result;
 }
 
-function parseIpWhois($html) {
-    if (empty($html) || $html === false) {
-        return null;
+function parseWhoisXmlApi($ipOrDomain) {
+    $result = null;
+    if (empty($ip)) {
+        return $result;
+    }
+
+    $url = 'http://www.whoisxmlapi.com/whoisserver/WhoisService?outputFormat=JSON&domainName=' . $ipOrDomain;
+    $content = getUrlContent($url);
+    if (empty($content) || $content === false) {
+        return $result;
+    }
+
+    $jsonDec = json_decode($content, true);
+    $jsonError = json_last_error();
+    if ($jsonError > 0) {
+        $jsonErrorStr = '  WhoisXmlApi json error - ';
+        switch ($jsonError) {
+            case JSON_ERROR_DEPTH:
+                $jsonErrorStr .= ' Maximum stack depth exceeded';
+                break;
+            case JSON_ERROR_STATE_MISMATCH:
+                $jsonErrorStr .= ' Underflow or the modes mismatch';
+                break;
+            case JSON_ERROR_CTRL_CHAR:
+                $jsonErrorStr .= ' Unexpected control character found';
+                break;
+            case JSON_ERROR_SYNTAX:
+                $jsonErrorStr .= ' Syntax error, malformed JSON';
+                break;
+            case JSON_ERROR_UTF8:
+                $jsonErrorStr .= ' Malformed UTF-8 characters, possibly incorrectly encoded';
+                break;
+            default:
+                $jsonErrorStr .= ' Unknown error';
+                break;
+        }
+        throw new Exception($jsonErrorStr);
+    }
+
+    if (isset($jsonDec['ErrorMessage']) || !isset($jsonDec['WhoisRecord']) || !isset($jsonDec['WhoisRecord']['registrant'])) {
+        return $result;
+    }
+
+    $org = $jsonDec['WhoisRecord']['registrant']['organization'];
+    if (isset($jsonDec['WhoisRecord']['registrant']['name'])) {
+        $org = $jsonDec['WhoisRecord']['registrant']['name'];
+    }
+
+    return array(
+        'org' => $org,
+        'country' => $jsonDec['WhoisRecord']['registrant']['country']
+    );
+}
+
+function getResolutions($ipOrDomain, $logsPath) {
+    $res = array();
+    $resFile = $logsPath . '/resolutions.tmp';
+    $cacheTime = 172800;
+    $currentTime = time();
+
+    if (file_exists($resFile)) {
+        $diffTime = $currentTime - filectime($resFile);
+        if ($diffTime > $cacheTime) {
+            unlink($resFile);
+        } else {
+            $handle = fopen($resFile, 'r');
+            if ($handle) {
+                while (($line = fgets($handle)) !== false) {
+                    $line = trim($line);
+                    if (empty($line)) {
+                        continue;
+                    }
+                    $lineAr = explode(' ', $line, 2);
+                    $res[$lineAr[0]] = count($lineAr) == 2 ? $lineAr[1] : null;
+                }
+                fclose($handle);
+            }
+            if (array_key_exists($ipOrDomain, $res)) {
+                return json_decode($res[$ipOrDomain], true);
+            }
+        }
+    }
+
+    $resolutionsRes = array();
+    if (filter_var($ipOrDomain, FILTER_VALIDATE_IP)) {
+        // IpInfo
+        $tmp = parseIpInfo($ipOrDomain);
+        if (!isset($tmp['hostname']) || empty($tmp['hostname'])) {
+            // WebYield Resolve IP
+            $tmp = parseWebYieldResolveIp($ipOrDomain);
+            if (!empty($tmp)) {
+                $tmp = array(
+                    'src' => 'WebYield',
+                    'date' => null,
+                    'ipOrDomain' => $tmp
+                );
+            }
+        } else {
+            $tmp = array(
+                'src' => 'IpInfo',
+                'date' => null,
+                'ipOrDomain' => $tmp['hostname']
+            );
+        }
+
+        if (!empty($tmp)) {
+            $resolutionsRes[] = $tmp;
+        }
+
+        $tcRes = parseThreatCrowd($ipOrDomain);
+        if (!empty($tcRes)) {
+            foreach ($tcRes as $resIpOrDomain => $resDate) {
+                if (isset($tmp['ipOrDomain']) && $tmp['ipOrDomain'] == $resIpOrDomain) {
+                    continue;
+                }
+                $resolutionsRes[] = array(
+                    'src' => 'ThreatCrowd',
+                    'date' => $resDate,
+                    'ipOrDomain' => $resIpOrDomain
+                );
+            }
+        }
+    } else {
+        // DnsQuery
+        $tmp = parseDnsQuery($ipOrDomain);
+        if (isset($tmp['ip']) && !empty($tmp['ip'])) {
+            $tmp = array(
+                'src' => 'DnsQuery',
+                'date' => null,
+                'ipOrDomain' => $tmp['ip']
+            );
+        }
+
+        if (!empty($tmp)) {
+            $resolutionsRes[] = $tmp;
+        }
+
+        $tcRes = parseThreatCrowd($ipOrDomain);
+        if (!empty($tcRes)) {
+            foreach ($tcRes as $resIpOrDomain => $resDate) {
+                if (isset($tmp['ipOrDomain']) && $tmp['ipOrDomain'] == $resIpOrDomain) {
+                    continue;
+                }
+                $resolutionsRes[] = array(
+                    'src' => 'ThreatCrowd',
+                    'date' => $resDate,
+                    'ipOrDomain' => $resIpOrDomain
+                );
+            }
+        }
+    }
+
+    if (!empty($resolutionsRes)) {
+        $res[$ipOrDomain] = json_encode($resolutionsRes);
+    } else {
+        $res[$ipOrDomain] = null;
+    }
+
+    $res = sortHostsByKey($res);
+    $resStr = '';
+    foreach ($res as $aIpOrDomain => $json) {
+        $resStr .= $aIpOrDomain . ' ' . $json . PHP_EOL;
+    }
+    file_put_contents($resFile, $resStr);
+
+    return json_decode($res[$ipOrDomain], true);
+}
+
+function parseIpInfo($ip) {
+    $result = null;
+    if (empty($ip)) {
+        return $result;
+    }
+
+    $url = 'http://ipinfo.io/' . $ip . '/json';
+    $content = getUrlContent($url);
+    if (empty($content) || $content === false) {
+        return $result;
+    }
+
+    $jsonDec = json_decode($content, true);
+    $jsonError = json_last_error();
+    if ($jsonError > 0) {
+        $jsonErrorStr = '  IpInfo json error - ';
+        switch ($jsonError) {
+            case JSON_ERROR_DEPTH:
+                $jsonErrorStr .= ' Maximum stack depth exceeded';
+                break;
+            case JSON_ERROR_STATE_MISMATCH:
+                $jsonErrorStr .= ' Underflow or the modes mismatch';
+                break;
+            case JSON_ERROR_CTRL_CHAR:
+                $jsonErrorStr .= ' Unexpected control character found';
+                break;
+            case JSON_ERROR_SYNTAX:
+                $jsonErrorStr .= ' Syntax error, malformed JSON';
+                break;
+            case JSON_ERROR_UTF8:
+                $jsonErrorStr .= ' Malformed UTF-8 characters, possibly incorrectly encoded';
+                break;
+            default:
+                $jsonErrorStr .= ' Unknown error';
+                break;
+        }
+        throw new Exception($jsonErrorStr);
+    }
+
+    if (!isset($jsonDec['ip'])) {
+        return $result;
+    }
+
+    return array(
+        'hostname' => $jsonDec['hostname'] != 'No Hostname' ? $jsonDec['hostname'] : null,
+        'country' => isset($jsonDec['country']) ? $jsonDec['country'] : null,
+        'org' => isset($jsonDec['org']) ? $jsonDec['org'] : null,
+    );
+}
+
+function parseWebYieldResolveIp($ip) {
+    $result = null;
+    if (empty($ip)) {
+        return $result;
+    }
+
+    $url = 'http://www.webyield.net/cgi-bin/ipwhois.cgi?addr=' . $ip;
+    $content = getUrlContent($url);
+    if (empty($content) || $content === false) {
+        return $result;
     }
 
     try {
         $dom = new DOMDocument;
-        $dom->loadHTML($html);
+        $dom->loadHTML($content);
 
         $p = $dom->getElementsByTagName('p');
         if (!$p instanceof DOMNodeList) {
@@ -161,62 +501,71 @@ function parseIpWhois($html) {
         $result = str_replace('no reverse DNS for this IP', '', trim($resolveTo[1]));
         return !empty($result) ? $result : null;
     } catch (Exception $ex) {
-        echo 'Error: ' . $ex->getMessage() . PHP_EOL;
         return null;
     }
 }
 
-function getIpFromReverse($host) {
-    if (preg_match('/\d{1,3}-\d{1,3}-\d{1,3}-\d{1,3}/i', $host, $matches) !== 1) {
-        return null;
+function parseThreatCrowd($ipOrDomain) {
+    $result = null;
+    if (empty($ipOrDomain)) {
+        return $result;
     }
-    $ip = str_replace('-', '.', $matches[0]);
-    if (!filter_var($ip, FILTER_VALIDATE_IP)) {
-        return null;
+
+    $isIp = filter_var($ipOrDomain, FILTER_VALIDATE_IP);
+
+    $url = 'https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=' . $ipOrDomain;
+    if (!$isIp) {
+        $url = 'https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=' . $ipOrDomain;
     }
-    return $ip;
-}
 
-function getResolvedIp($ip, $logsPath) {
-    global $ipWhoisUrl;
+    $content = getUrlContent($url);
+    if (empty($content) || $content === false) {
+        return $result;
+    }
 
-    $resolvedIps = array();
-    $resolvedFile = $logsPath . '/resolved.tmp';
-    $currentTime = time();
-
-    if (file_exists($resolvedFile)) {
-        $diffTime = $currentTime - filectime($resolvedFile);
-        if ($diffTime > 172800) {
-            unlink($resolvedFile);
-        } else {
-            $handle = fopen($resolvedFile, 'r');
-            if ($handle) {
-                while (($line = fgets($handle)) !== false) {
-                    $line = trim($line);
-                    if (empty($line)) {
-                        continue;
-                    }
-                    $lineAr = explode(' ', $line);
-                    $resolvedIps[$lineAr[0]] = count($lineAr) == 2 ? $lineAr[1] : null;
-                }
-                fclose($handle);
-            }
-            if (array_key_exists($ip, $resolvedIps)) {
-                return $resolvedIps[$ip];
-            }
+    $jsonDec = json_decode($content, true);
+    $jsonError = json_last_error();
+    if ($jsonError > 0) {
+        $jsonErrorStr = '  ThreatCrowd json error - ';
+        switch ($jsonError) {
+            case JSON_ERROR_DEPTH:
+                $jsonErrorStr .= ' Maximum stack depth exceeded';
+                break;
+            case JSON_ERROR_STATE_MISMATCH:
+                $jsonErrorStr .= ' Underflow or the modes mismatch';
+                break;
+            case JSON_ERROR_CTRL_CHAR:
+                $jsonErrorStr .= ' Unexpected control character found';
+                break;
+            case JSON_ERROR_SYNTAX:
+                $jsonErrorStr .= ' Syntax error, malformed JSON';
+                break;
+            case JSON_ERROR_UTF8:
+                $jsonErrorStr .= ' Malformed UTF-8 characters, possibly incorrectly encoded';
+                break;
+            default:
+                $jsonErrorStr .= ' Unknown error';
+                break;
         }
+        throw new Exception($jsonErrorStr);
     }
 
-    $resolvedIps[$ip] = parseIpWhois(getUrlContent($ipWhoisUrl . $ip));
-
-    uksort($resolvedIps, 'cmpIp');
-    $resolvedIpsStr = '';
-    foreach ($resolvedIps as $aIp => $aResolved) {
-        $resolvedIpsStr .= $aIp . ' ' . $aResolved . PHP_EOL;
+    if (intval($jsonDec['response_code']) != 1) {
+        return $result;
     }
-    file_put_contents($resolvedFile, $resolvedIpsStr);
 
-    return $resolvedIps[$ip];
+    foreach ($jsonDec['resolutions'] as $resolutions) {
+        $key = !$isIp ? $resolutions['ip_address'] : $resolutions['domain'];
+        if ($key == '-') {
+            continue;
+        }
+        $result[$key] = $resolutions['last_resolved'];
+    }
+    if (is_array($result)) {
+        arsort($result);
+    }
+
+    return $result;
 }
 
 function cmpIp($a, $b) {
@@ -245,6 +594,26 @@ function sortHosts($hosts) {
     return array_merge($resultIps, $resultDomains);
 }
 
+function sortHostsByKey($hosts) {
+    if (empty($hosts)) {
+        return array();
+    }
+
+    $resultIps = array();
+    $resultDomains = array();
+    foreach ($hosts as $host => $value) {
+        if (filter_var($host, FILTER_VALIDATE_IP)) {
+            $resultIps[$host] = $value;
+        } else {
+            $resultDomains[$host] = $value;
+        }
+    }
+
+    uksort($resultIps, 'cmpIp');
+    ksort($resultDomains);
+    return array_merge($resultIps, $resultDomains);
+}
+
 function isIpExpr($ip, $expr) {
     $ips = array();
     if (contains($expr, '-')) {
@@ -265,7 +634,8 @@ function isIpExpr($ip, $expr) {
 }
 
 function isHostExpr($host, $expr) {
-    return preg_match('/^' . str_replace('*', '(.*?)', $expr) . '$/i', $host, $matches) === 1;
+    $preg = preg_match('/^' . str_replace('*', '(.*?)', $expr) . '$/i', $host, $matches);
+    return $preg === 1;
 }
 
 function contains($string, $search) {

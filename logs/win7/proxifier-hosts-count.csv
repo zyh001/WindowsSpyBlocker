@@ -1,20 +1,24 @@
-HOST,COUNT
-teredo.ipv6.microsoft.com,4083
-wpad,998
-settings-win.data.microsoft.com,416
-vortex-win.data.microsoft.com,332
-www.microsoft.com,153
-crl.microsoft.com,143
-go.microsoft.com,84
-au.download.windowsupdate.com,65
-fe2.update.microsoft.com,57
-g.bing.com,54
-download.windowsupdate.com,47
-ds.download.windowsupdate.com,42
-wscont.apps.microsoft.com.edgesuite.net,30
-wscont.apps.microsoft.com,30
-isatap,20
-ctldl.windowsupdate.com,12
-watson.microsoft.com,9
-001f90-1.l.windowsupdate.com,6
-time.windows.com,3
+HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
+001f90-1.l.windowsupdate.com,6,Limelight Networks. Inc. (LLNW),US,,
+au.download.windowsupdate.com,98,Akamai Technologies. Inc. (AKAMAI),US,,
+crl.comodoca.com,6,CloudFlare. Inc. (CLOUD14),US,,
+crl.microsoft.com,419,Akamai Technologies. Inc. (AKAMAI),US,,
+ctldl.windowsupdate.com,32,Akamai Technologies. Inc. (AKAMAI),US,,
+download.windowsupdate.com,47,Akamai Technologies. Inc. (AKAMAI),US,,
+ds.download.windowsupdate.com,106,Akamai Technologies. Inc. (AKAMAI),US,,
+fe2.update.microsoft.com,123,Microsoft Corp (MSFT-Z),US,,
+g.bing.com,150,Microsoft Corporation (MSFT),US,,
+go.microsoft.com,180,Akamai Technologies. Inc. (AKAMAI),US,,
+isatap,30,,,,
+ocsp.comodoca.com,6,Comodo CA,GB,,
+ocsp.usertrust.com,12,Comodo CA,GB,,
+settings-win.data.microsoft.com,1234,Microsoft Corporation (MSFT),US,,
+teredo.ipv6.microsoft.com,12133,,,,
+time.windows.com,6,Microsoft Corporation (MSFT),US,,
+vortex-win.data.microsoft.com,935,Microsoft Corporation (MSFT),US,,
+watson.microsoft.com,9,Microsoft Corporation (MSFT),US,,
+wpad,2903,,,,
+wscont.apps.microsoft.com,78,Akamai Technologies. Inc. (AKAMAI),US,,
+wscont.apps.microsoft.com.edgesuite.net,84,Akamai Technologies. Inc. (AKAMAI),US,,
+www.download.windowsupdate.com,4,Akamai Technologies. Inc. (AKAMAI),US,,
+www.microsoft.com,433,Akamai Technologies. Inc. (AKAMAI),US,,

@@ -64,7 +64,7 @@ function menu($task, $display = true) {
 }
 
 function procExtractLog() {
-    global $logsPath, $config, $logsPaths;
+    global $logsPath, $config;
 
     if (!file_exists($config['pcapngPath'])) {
         throw new Exception("pcapng file not found in: " . $config['pcapngPath']);
@@ -94,7 +94,13 @@ function procExtractLog() {
                 $excluded[] = strtolower($lineExp[0]);
                 continue;
             }
-            $results[$ip] = $lineExp[1];
+            $resolutions = getResolutions($ip, $logsPath);
+            $whois = getWhois($ip, $logsPath);
+            $results[$ip] = array(
+                'count' => $lineExp[1],
+                'resolutions' => $resolutions,
+                'whois' => $whois
+            );
         }
         fclose($handle);
     }
@@ -105,10 +111,28 @@ function procExtractLog() {
         throw new Exception('No log to process...');
     }
 
-    arsort($results);
-    $csv = 'HOST,COUNT';
-    foreach ($results as $host => $count) {
-        $csv .= PHP_EOL . $host . ',' . $count;
+    $results = sortHostsByKey($results);
+    $csv = 'HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN';
+    foreach ($results as $host => $data) {
+        $csv .= PHP_EOL . $host . ',' . $data['count'];
+        if (is_array($data['whois'])) {
+            $csv .= ',' . $data['whois']['org'] . ',' . $data['whois']['country'];
+        } else {
+            $csv .= ',,';
+        }
+        if (is_array($data['resolutions'])) {
+            $i = 0;
+            foreach ($data['resolutions'] as $resolution) {
+                if ($i == 0) {
+                    $csv .= ',' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                } else {
+                    $csv .= PHP_EOL . ',,,,' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                }
+                $i++;
+            }
+        } else {
+            $csv .= ',,';
+        }
     }
 
     $csvFile = $logsPath . '/wireshark-hosts-count.csv';
@@ -138,14 +162,15 @@ function getHost($destIp) {
             return null;
         }
     }
+    $host = $destIp;
     if (filter_var($destIp, FILTER_VALIDATE_IP)) {
-        $ipWhois = getResolvedIp($destIp, $logsPath);
-        if ($ipWhois != null) {
-            $destIp = $ipWhois;
+        $resolutions = getResolutions($destIp, $logsPath);
+        if (is_array($resolutions)) {
+            $host = $resolutions[0]['ipOrDomain'];
         }
     }
     foreach ($config['exclude']['hosts'] as $hostExpr) {
-        if (isHostExpr($destIp, $hostExpr)) {
+        if (isHostExpr($host, $hostExpr)) {
             return null;
         }
     }

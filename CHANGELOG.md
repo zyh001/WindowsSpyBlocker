@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.3.0 (2016/06/12)
+
+* New hosts and firewall rules
+* Resolve domains history via ThreatCrowd
+* Manage CDNs
+* Diffs reports in CSV format
+* Add additional whois and resolutions API
+
 ## 3.2.0 (2016/06/08)
 
 * Add third digit to release version for rules updates only

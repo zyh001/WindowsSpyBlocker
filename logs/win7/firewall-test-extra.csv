@@ -1,21 +1,26 @@
-IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
-2.17.234.96,AKAMAI-PA,Akamai Technologies,EU,
-2.20.195.54,AKAMAI-PA,Akamai Technologies,EU,
-23.62.124.108,AKAMAI,Akamai Technologies. Inc. (AKAMAI),US,a23-62-124-108.deploy.static.akamaitechnologies.com
-23.64.45.149,AIBV,Akamai International. BV (AIB-17),NL,a23-64-45-149.deploy.static.akamaitechnologies.com
-23.65.47.118,AIBV,Akamai International. BV (AIB-17),NL,a23-65-47-118.deploy.static.akamaitechnologies.com
-23.74.125.199,AKAMAI,Akamai Technologies. Inc. (AKAMAI),US,a23-74-125-199.deploy.static.akamaitechnologies.com
-23.211.173.218,AIBV,Akamai International. BV (AIB-17),NL,a23-211-173-218.deploy.static.akamaitechnologies.com
-23.214.150.169,AKAMAI,Akamai Technologies. Inc. (AKAMAI),US,a23-214-150-169.deploy.static.akamaitechnologies.com
-104.69.55.114,AKAMAI,Akamai Technologies. Inc. (AKAMAI),US,a104-69-55-114.deploy.static.akamaitechnologies.com
-104.94.186.245,AIBV,Akamai International. BV (AIB-17),NL,a104-94-186-245.deploy.static.akamaitechnologies.com
-104.98.138.69,AIBV,Akamai International. BV (AIB-17),NL,a104-98-138-69.deploy.static.akamaitechnologies.com
-104.98.152.139,AIBV,Akamai International. BV (AIB-17),NL,a104-98-152-139.deploy.static.akamaitechnologies.com
-104.101.175.67,AIBV,Akamai International. BV (AIB-17),NL,a104-101-175-67.deploy.static.akamaitechnologies.com
-104.106.251.185,AKAMAI,Akamai Technologies. Inc. (AKAMAI),US,a104-106-251-185.deploy.static.akamaitechnologies.com
-104.107.194.210,AKAMAI,Akamai Technologies. Inc. (AKAMAI),US,a104-107-194-210.deploy.static.akamaitechnologies.com
-104.107.216.152,AIBV,Akamai International. BV (AIB-17),NL,a104-107-216-152.deploy.static.akamaitechnologies.com
-104.107.216.161,AIBV,Akamai International. BV (AIB-17),NL,a104-107-216-161.deploy.static.akamaitechnologies.com
-184.87.216.50,AIBV,Akamai International. BV (AIB-17),NL,a184-87-216-50.deploy.static.akamaitechnologies.com
-191.232.139.253,AS8075,Microsoft Informatica Ltda,BR,
-207.46.194.14,MICROSOFT-GLOBAL-NET,Microsoft Corporation (MSFT),US,msnbot-207-46-194-14.search.msn.com
+IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
+40.118.103.7,AS8075 Microsoft Corporation,NL,2016-05-21,time.windows.com
+207.46.194.14,AS8075 Microsoft Corporation,US,,msnbot-207-46-194-14.search.msn.com
+,,,2014-11-09,msn.co.uk
+,,,2014-10-17,g.msn.co.kr
+,,,2014-10-15,g.microsoftonline.com
+,,,2014-10-15,g.bing.com
+,,,2014-10-15,bat.r.msn.com
+,,,2014-10-14,bat.bing.com
+,,,2014-10-14,g.microsoft.com
+,,,2014-10-14,g.msn.com
+,,,2014-09-16,g.msn.co.uk.nsatc.net
+,,,2014-09-16,g.msn.co.jp.nsatc.net
+,,,2014-09-15,g.msn.com.nsatc.net
+,,,2014-06-24,g.live.com
+,,,2014-03-19,g.msn.ch
+,,,2014-03-11,g.msn.de
+,,,2014-03-11,g.msn.nl
+,,,2014-03-04,g.msn.fr
+,,,2014-03-04,g.uk.msn.com
+,,,2014-03-03,g.de.msn.com
+,,,2014-02-23,g.nl.msn.com
+,,,2014-02-21,g.msn.co.uk
+,,,2014-01-20,g.msn.com.hk
+,,,2014-01-13,g.msn.com.tw
+,,,2014-01-10,g.jp.msn.com

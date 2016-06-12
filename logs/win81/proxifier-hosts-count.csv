@@ -1,38 +1,56 @@
-HOST,COUNT
-fr-fr.appex-rf.msn.com,946
-finance.services.appex.bing.com,371
-foodanddrink.tile.appex.bing.com,301
-wpad,249
-service.weather.microsoft.com,205
-img.stb.s-msn.com,198
-isatap,41
-go.microsoft.com,40
-fe2.update.microsoft.com,36
-au.v4.download.windowsupdate.com,31
-wscont1.apps.microsoft.com,30
-g.bing.com,30
-fe2.ws.microsoft.com,26
-wscont.apps.microsoft.com,25
-statsfe2.update.microsoft.com,20
-next-services.apps.microsoft.com,20
-wscont2.apps.microsoft.com,18
-ctldl.windowsupdate.com,16
-wscont.apps.microsoft.com.edgesuite.net,15
-statsfe2.ws.microsoft.com,15
-v4.download.windowsupdate.com,15
-sls.update.microsoft.com,14
-login.live.com,12
-sqm.telemetry.microsoft.com,11
-ocsp.usertrust.com,10
-watson.telemetry.microsoft.com,8
-img.s-msn.com,6
-vortex-win.data.microsoft.com,5
-telecommand.telemetry.microsoft.com,5
-ocsp.msocsp.com,5
-tele.trafficmanager.net,5
-ocsp.comodoca.com,5
-settings-win.data.microsoft.com,5
-fg.v4.download.windowsupdate.com,5
-a184-87-220-165.deploy.static.akamaitechnologies.com,4
-a23-35-118-135.deploy.static.akamaitechnologies.com,4
-fe2.wq.microsoft.com,1
+HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
+2.18.213.81,16,AS20940 Akamai International B.V.,EU,,
+2.19.182.135,4,AS20940 Akamai International B.V.,EU,2015-08-11,static-health-eus.s-msn.com
+,,,,2015-04-13,e7070.g.akamaiedge.net.0.1.cn.akamaiedge.net
+,,,,2014-10-14,sin.stb.s-msn.com
+,,,,2014-09-16,e7070.g.akamaiedge.net
+,,,,2013-09-05,db3.stc.s-msn.com
+,,,,2013-09-05,db2.stb00.s-msn.com
+,,,,2013-09-05,db2.stc.s-msn.com
+,,,,2013-09-05,db2.stj.s-msn.com
+,,,,2013-09-05,db2.stb01.s-msn.com
+23.2.118.135,4,AS20940 Akamai International B.V.,NL,,a23-2-118-135.deploy.static.akamaitechnologies.com
+,,,,2015-03-17,e7070.g.akamaiedge.net
+23.35.118.135,4,AS20940 Akamai International B.V.,NL,,a23-35-118-135.deploy.static.akamaitechnologies.com
+,,,,2015-01-31,e7070.g.akamaiedge.net
+88.221.117.72,16,AS20940 Akamai International B.V.,EU,,a88-221-117-72.deploy.akamaitechnologies.com
+104.111.238.232,12,AS20940 Akamai International B.V.,US,,a104-111-238-232.deploy.static.akamaitechnologies.com
+184.87.220.165,4,AS20940 Akamai International B.V.,NL,,a184-87-220-165.deploy.static.akamaitechnologies.com
+au.v4.download.windowsupdate.com,148,Akamai Technologies. Inc. (AKAMAI),US,,
+ctldl.windowsupdate.com,44,Akamai Technologies. Inc. (AKAMAI),US,,
+fe2.update.microsoft.com,121,Microsoft Corp (MSFT-Z),US,,
+fe2.wq.microsoft.com,1,,,,
+fe2.ws.microsoft.com,46,Microsoft Corporation (MSFT),US,,
+fg.v4.download.windowsupdate.com,13,Akamai Technologies. Inc. (AKAMAI),US,,
+finance.services.appex.bing.com,1089,Akamai Technologies. Inc. (AKAMAI),US,,
+foodanddrink.tile.appex.bing.com,842,TATA COMMUNICATIONS (AMERICA) INC (TCA-51),US,,
+fr-fr.appex-rf.msn.com,2850,Akamai Technologies. Inc. (AKAMAI),US,,
+g.bing.com,130,Microsoft Corporation (MSFT),US,,
+go.microsoft.com,160,Akamai Technologies. Inc. (AKAMAI),US,,
+img.s-msn.com,28,Akamai Technologies. Inc. (AT-80),US,,
+img.stb.s-msn.com,552,Akamai Technologies. Inc. (AT-80),US,,
+isatap,129,,,,
+login.live.com,33,Microsoft Corp (MSFT-Z),US,,
+next-services.apps.microsoft.com,54,Microsoft Corp (MSFT-Z),US,,
+ocsp.comodoca.com,10,Comodo CA,GB,,
+ocsp.msocsp.com,5,CloudFlare. Inc. (CLOUD14),US,,
+ocsp.usertrust.com,20,Comodo CA,GB,,
+s2.symcb.com,1,Akamai Technologies. Inc. (AKAMAI),US,,
+service.weather.microsoft.com,600,Akamai Technologies. Inc. (AKAMAI),US,,
+settings-win.data.microsoft.com,10,Microsoft Corporation (MSFT),US,,
+sls.update.microsoft.com,44,Microsoft Corporation (MSFT),US,,
+sqm.telemetry.microsoft.com,38,Microsoft Corporation (MSFT),US,,
+statsfe2.update.microsoft.com,65,Microsoft Corporation (MSFT),US,,
+statsfe2.ws.microsoft.com,35,Microsoft Corporation (MSFT),US,,
+tele.trafficmanager.net,25,Microsoft Informatica Ltda,BR,,
+telecommand.telemetry.microsoft.com,25,Microsoft Corporation (MSFT),US,,
+time.windows.com,1,Microsoft Corporation (MSFT),US,,
+v4.download.windowsupdate.com,39,Akamai Technologies. Inc. (AKAMAI),US,,
+vortex-win.data.microsoft.com,25,Microsoft Corporation (MSFT),US,,
+watson.telemetry.microsoft.com,8,Microsoft Corporation (MSFT),US,,
+win8.ipv6.microsoft.com,15,Microsoft Corporation (MSFT),US,,
+wpad,749,,,,
+wscont.apps.microsoft.com,85,Akamai Technologies. Inc. (AKAMAI),US,,
+wscont.apps.microsoft.com.edgesuite.net,70,Akamai Technologies. Inc. (AKAMAI),US,,
+wscont1.apps.microsoft.com,39,Qwest Communications Company. LLC (QCC-18),US,,
+wscont2.apps.microsoft.com,32,Akamai Technologies. Inc. (AKAMAI),US,,

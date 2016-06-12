@@ -1,577 +1,599 @@
-DATE,PROCESS,USER,PROTOCOL,SRC_IP,SRC_PORT,SRC_PORT_NAME,DEST_IP,DEST_PORT,DEST_PORT_NAME
-2016-06-06 23:35:43.920,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,239.255.255.250,137,netbios-ns
-2016-06-06 23:36:51.066,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49857,,eu.vortex.data.microsoft.com,443,https
-2016-06-06 23:51:45.992,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49861,,104.244.43.135,443,https
-2016-06-06 23:51:46.003,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49864,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-06 23:51:47.039,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.135,137,netbios-ns
-2016-06-06 23:51:51.199,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49870,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 00:06:47.099,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49879,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 00:06:51.402,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49882,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 00:12:23.725,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49885,,157.56.77.138,443,https
-2016-06-07 00:12:24.330,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49888,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 00:12:24.550,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,157.56.77.138,137,netbios-ns
-2016-06-07 00:12:24.867,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49891,,131.253.61.98,80,http
-2016-06-07 00:12:25.138,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49894,,131.253.61.98,443,https
-2016-06-07 00:12:25.570,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,131.253.61.98,137,netbios-ns
-2016-06-07 00:12:26.665,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49897,,msnbot-191-232-139-2.search.msn.com,443,https
-2016-06-07 00:21:46.021,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49901,,104.244.43.7,443,https
-2016-06-07 00:21:46.093,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49905,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 00:21:47.109,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.7,137,netbios-ns
-2016-06-07 00:21:50.134,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49910,,157.56.77.138,443,https
-2016-06-07 00:21:51.024,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49913,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 00:21:51.456,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49916,,131.253.61.96,443,https
-2016-06-07 00:21:52.149,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,131.253.61.96,137,netbios-ns
-2016-06-07 00:21:52.829,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49919,,134.170.53.30,443,https
-2016-06-07 00:21:53.114,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,134.170.53.30,137,netbios-ns
-2016-06-07 00:23:01.504,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49922,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 00:36:52.218,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49932,,131.253.61.98,443,https
-2016-06-07 00:36:52.687,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49935,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 00:51:46.036,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49939,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 00:51:46.046,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49942,,104.244.43.39,443,https
-2016-06-07 00:51:46.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49946,,a184-30-100-215.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 00:51:46.350,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49951,,a184-30-100-215.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 00:51:47.078,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.39,137,netbios-ns
-2016-06-07 00:51:52.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49954,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 01:06:46.265,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49963,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 01:06:52.597,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,49966,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 01:21:46.057,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50000,,104.244.43.167,443,https
-2016-06-07 01:21:46.093,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50003,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 01:21:46.623,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50007,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 01:21:47.050,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.167,137,netbios-ns
-2016-06-07 01:21:52.734,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50010,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 01:36:52.885,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50032,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 01:51:46.077,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50036,,104.244.43.103,443,https
-2016-06-07 01:51:46.078,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50039,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 01:51:47.079,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.103,137,netbios-ns
-2016-06-07 01:51:53.024,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50045,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 02:06:46.433,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50054,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 02:06:53.190,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50057,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 02:09:44.668,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50060,,a104-69-55-114.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 02:09:44.809,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50063,,191.234.72.183,443,https
-2016-06-07 02:09:45.253,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,191.234.72.183,137,netbios-ns
-2016-06-07 02:09:45.766,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50066,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 02:09:48.008,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50069,,131.253.61.80,443,https
-2016-06-07 02:09:48.201,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50072,,a23-55-155-27.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 02:09:48.286,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,131.253.61.80,137,netbios-ns
-2016-06-07 02:09:48.817,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50075,,134.170.179.87,443,https
-2016-06-07 02:09:49.323,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,134.170.179.87,137,netbios-ns
-2016-06-07 02:21:46.100,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50079,,104.244.43.167,443,https
-2016-06-07 02:21:46.216,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50085,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 02:21:53.357,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50088,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 02:36:53.453,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50109,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 02:51:46.131,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50112,,104.244.43.39,443,https
-2016-06-07 02:51:46.132,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50115,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 02:51:53.568,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50121,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 03:06:46.463,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50128,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 03:06:53.694,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50131,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 03:21:46.178,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50135,,104.244.43.199,443,https
-2016-06-07 03:21:46.178,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50140,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 03:21:47.190,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.199,137,netbios-ns
-2016-06-07 03:21:53.820,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50143,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 03:36:53.961,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50152,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 03:51:46.149,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50155,,104.244.43.167,443,https
-2016-06-07 03:51:46.190,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50161,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 03:51:54.156,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50164,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 04:06:46.541,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50171,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 04:06:54.233,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50174,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 04:21:46.222,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50177,,104.244.43.71,443,https
-2016-06-07 04:21:46.343,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50183,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 04:21:47.305,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.71,137,netbios-ns
-2016-06-07 04:21:54.350,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50186,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 04:36:54.555,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50195,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 04:51:46.259,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50199,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 04:51:46.273,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50204,,104.244.43.103,443,https
-2016-06-07 04:51:54.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50207,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 05:06:46.516,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50214,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 05:06:54.828,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50217,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 05:21:46.227,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50223,,104.244.43.39,443,https
-2016-06-07 05:21:46.267,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50229,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 05:21:54.999,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50232,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 05:36:55.154,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50241,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 05:51:46.226,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50244,,104.244.43.135,443,https
-2016-06-07 05:51:46.310,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50250,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 05:51:55.293,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50253,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 06:06:46.435,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50260,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 06:06:55.439,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50263,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 06:21:46.226,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50266,,104.244.43.103,443,https
-2016-06-07 06:21:46.344,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50272,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 06:21:55.596,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50275,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 06:36:55.778,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50284,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 06:51:46.285,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50288,,104.244.43.231,443,https
-2016-06-07 06:51:46.293,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50290,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 06:51:47.247,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,104.244.43.231,137,netbios-ns
-2016-06-07 06:51:55.938,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50296,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 07:06:46.539,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50303,,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 07:06:56.110,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50306,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 07:21:46.258,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50309,,104.244.43.167,443,https
-2016-06-07 07:21:46.285,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50312,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 07:21:56.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50318,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 07:36:56.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50327,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 07:51:46.307,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50332,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 07:51:46.316,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50336,,104.244.43.103,443,https
-2016-06-07 07:51:56.443,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50339,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 08:06:46.799,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50346,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 08:06:56.595,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50349,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 08:21:46.324,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50352,,104.244.43.231,443,https
-2016-06-07 08:21:46.342,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50355,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 08:21:56.717,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50361,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 08:24:13.926,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50364,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 08:36:56.833,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50373,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 08:51:46.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50379,,104.244.43.71,443,https
-2016-06-07 08:51:46.329,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50382,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 08:51:56.987,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50385,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 09:06:46.549,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50392,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 09:06:57.095,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50395,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 09:21:46.345,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50401,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 09:21:46.354,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50404,,104.244.43.167,443,https
-2016-06-07 09:21:57.221,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50407,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 09:36:57.403,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50416,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 09:51:46.336,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50419,,104.244.43.167,443,https
-2016-06-07 09:51:46.376,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50425,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 09:51:57.492,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50428,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 10:06:46.542,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50435,,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 10:06:57.628,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50438,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 10:21:46.408,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50447,,104.244.43.7,443,https
-2016-06-07 10:21:46.416,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50445,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 10:21:47.428,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN10,51664,,239.255.255.250,1900,ssdp
-2016-06-07 10:21:47.428,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN10,51665,,239.255.255.250,1900,ssdp
-2016-06-07 10:21:57.800,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50450,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 10:36:57.931,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50459,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 10:38:22.298,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50462,,ocsp.comodoca.com,80,http
-2016-06-07 10:38:22.398,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50465,,ocsp.comodoca.com,80,http
-2016-06-07 10:51:46.382,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50471,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 10:51:46.397,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50474,,104.244.43.231,443,https
-2016-06-07 10:51:58.119,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50477,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 11:06:46.758,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50484,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 11:06:58.235,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50487,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 11:21:46.387,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50490,,104.244.43.199,443,https
-2016-06-07 11:21:46.412,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50496,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 11:21:58.329,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50499,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 11:36:58.440,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50508,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 11:51:46.428,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50520,,104.244.43.71,443,https
-2016-06-07 11:51:46.436,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50517,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 11:51:58.565,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50523,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 12:06:46.904,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50530,,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 12:06:47.004,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50531,,198.41.214.186,80,http
-2016-06-07 12:06:47.407,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,198.41.214.186,137,netbios-ns
-2016-06-07 12:06:58.720,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50534,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 12:21:46.463,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50537,,104.244.43.135,443,https
-2016-06-07 12:21:46.491,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50540,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 12:21:58.865,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50546,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 12:36:58.994,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50555,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 12:51:46.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50558,,104.244.43.231,443,https
-2016-06-07 12:51:46.491,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50562,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 12:51:59.091,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50567,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 13:06:46.702,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50574,,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 13:06:59.227,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50577,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 13:21:46.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50580,,104.244.43.39,443,https
-2016-06-07 13:21:46.485,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50583,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 13:21:59.394,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50589,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 13:36:59.520,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50598,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 13:51:46.479,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50601,,104.244.43.103,443,https
-2016-06-07 13:51:46.592,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50604,,a104-107-11-74.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 13:51:59.688,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50610,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 14:06:46.853,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50617,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 14:06:59.792,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50620,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 14:21:46.508,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50623,,104.244.43.7,443,https
-2016-06-07 14:21:46.636,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50629,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 14:21:59.950,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50632,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 14:37:00.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50641,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 14:51:46.524,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50644,,104.244.43.199,443,https
-2016-06-07 14:51:46.553,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50650,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 14:52:00.225,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50653,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 15:06:46.758,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50660,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 15:07:00.327,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50663,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 15:21:46.582,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50670,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 15:21:46.583,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50672,,104.244.43.7,443,https
-2016-06-07 15:22:00.429,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50675,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 15:37:00.584,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50684,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 15:51:46.585,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50690,,104.244.43.199,443,https
-2016-06-07 15:51:46.603,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50693,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 15:52:00.723,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50696,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 16:06:47.155,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50703,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 16:07:00.867,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50706,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 16:21:46.619,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50709,,104.244.43.103,443,https
-2016-06-07 16:21:46.648,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50712,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 16:22:00.972,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50718,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 16:32:48.586,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50721,,msnbot-207-46-194-14.search.msn.com,80,http
-2016-06-07 16:32:48.798,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50724,,a23-33-2-154.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 16:32:49.040,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50727,,198.41.215.185,80,http
-2016-06-07 16:32:49.546,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,198.41.215.185,137,netbios-ns
-2016-06-07 16:37:01.151,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50736,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 16:51:46.594,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50745,,104.244.43.71,443,https
-2016-06-07 16:51:46.671,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50751,,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 16:52:01.296,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50754,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 17:04:12.598,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50757,,ocsp.comodoca.com,80,http
-2016-06-07 17:06:47.704,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50765,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 17:07:01.437,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50768,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 17:08:21.016,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50771,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 17:08:47.374,C:\Windows\System32\svchost.exe,AUTORITE NT\Système,tcp,CRAZY-WIN10,50775,,131.253.61.100,80,http
-2016-06-07 17:08:47.609,C:\Windows\System32\svchost.exe,AUTORITE NT\Système,tcp,CRAZY-WIN10,50776,,131.253.61.100,443,https
-2016-06-07 17:08:48.277,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,131.253.61.100,137,netbios-ns
-2016-06-07 17:21:46.600,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50779,,104.244.43.199,443,https
-2016-06-07 17:22:01.600,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50782,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 17:36:46.655,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50785,,a92-122-51-72.deploy.akamaitechnologies.com,80,http
-2016-06-07 17:36:46.666,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50788,,a92-122-51-72.deploy.akamaitechnologies.com,80,http
-2016-06-07 17:37:01.755,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50791,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 17:51:46.652,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50794,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-07 17:51:46.658,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50797,,104.244.43.103,443,https
-2016-06-07 17:51:46.688,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50800,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 17:52:01.895,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50803,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 18:06:46.696,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50807,,2.18.213.40,80,http
-2016-06-07 18:06:46.696,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50809,,2.18.213.40,80,http
-2016-06-07 18:06:47.641,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.18.213.40,137,netbios-ns
-2016-06-07 18:06:47.815,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50810,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 18:07:02.039,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50813,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 18:21:46.693,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50822,,104.244.43.199,443,https
-2016-06-07 18:21:46.703,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50820,,a104-71-115-140.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 18:21:46.704,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50818,,2.18.213.64,80,http
-2016-06-07 18:21:47.623,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.18.213.64,137,netbios-ns
-2016-06-07 18:22:02.185,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50825,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 18:37:02.353,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50834,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 18:51:46.693,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50843,,104.244.43.167,443,https
-2016-06-07 18:51:46.698,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50837,,a92-122-152-223.deploy.akamaitechnologies.com,80,http
-2016-06-07 18:51:46.705,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50840,,2.18.213.64,80,http
-2016-06-07 18:52:02.486,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50846,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 19:06:47.734,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50853,,2.17.228.231,443,https
-2016-06-07 19:06:48.645,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.17.228.231,137,netbios-ns
-2016-06-07 19:07:02.629,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50856,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 19:21:46.671,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50859,,104.244.43.135,443,https
-2016-06-07 19:21:46.707,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50863,,a23-212-203-149.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 19:21:46.729,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50865,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
-2016-06-07 19:22:02.790,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50868,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 19:36:46.735,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50874,,2.18.213.64,80,http
-2016-06-07 19:36:46.735,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50872,,2.18.213.64,80,http
-2016-06-07 19:37:02.947,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50877,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 19:51:46.710,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50895,,104.244.43.71,443,https
-2016-06-07 19:51:46.752,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50893,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-07 19:51:46.755,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50898,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 19:52:03.077,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50901,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 20:06:46.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50907,,2.18.213.40,80,http
-2016-06-07 20:06:46.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50905,,2.18.213.40,80,http
-2016-06-07 20:06:47.308,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50908,,2.17.228.231,443,https
-2016-06-07 20:07:03.200,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50911,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 20:08:03.385,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50914,,2.18.213.152,80,http
-2016-06-07 20:08:04.366,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.18.213.152,137,netbios-ns
-2016-06-07 20:21:46.740,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50917,,104.244.43.71,443,https
-2016-06-07 20:21:46.767,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50920,,2.19.182.135,80,http
-2016-06-07 20:21:46.801,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50923,,a92-122-51-10.deploy.akamaitechnologies.com,80,http
-2016-06-07 20:21:47.643,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.19.182.135,137,netbios-ns
-2016-06-07 20:22:03.328,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50926,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 20:36:46.770,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50930,,candycrushsoda.king.com,80,http
-2016-06-07 20:37:03.477,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50938,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 20:51:46.745,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50941,,2.19.182.135,80,http
-2016-06-07 20:51:46.747,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50947,,104.244.43.39,443,https
-2016-06-07 20:52:03.599,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50950,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 21:06:46.767,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50966,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-07 21:06:46.776,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50968,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-07 21:06:47.005,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50969,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 21:07:03.747,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50972,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 21:21:46.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50975,,2.19.182.135,80,http
-2016-06-07 21:21:46.765,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50981,,104.244.43.7,443,https
-2016-06-07 21:22:03.882,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50984,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 21:36:46.791,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50988,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
-2016-06-07 21:36:49.804,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50990,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
-2016-06-07 21:37:03.986,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50993,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 21:51:46.748,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50996,,104.244.43.167,443,https
-2016-06-07 21:51:46.776,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,50999,,2.19.182.135,80,http
-2016-06-07 21:52:04.130,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51005,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 22:06:47.830,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51012,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 22:07:04.292,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51015,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 22:21:46.776,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51018,,104.244.43.167,443,https
-2016-06-07 22:21:46.804,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51021,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 22:21:47.498,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN10,51664,,239.255.255.250,1900,ssdp
-2016-06-07 22:21:47.498,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN10,51665,,239.255.255.250,1900,ssdp
-2016-06-07 22:22:04.424,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51027,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 22:22:25.047,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51030,,131.253.61.96,80,http
-2016-06-07 22:22:25.307,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51033,,131.253.61.96,443,https
-2016-06-07 22:22:25.909,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,tcp,CRAZY-WIN10,51034,,msnbot-191-232-139-7.search.msn.com,443,https
-2016-06-07 22:22:26.245,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51037,,msnbot-191-232-139-7.search.msn.com,443,https
-2016-06-07 22:31:50.910,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51040,,191.232.80.58,443,https
-2016-06-07 22:31:51.724,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,191.232.80.58,137,netbios-ns
-2016-06-07 22:31:51.849,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51043,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 22:31:52.349,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51046,,2.18.213.48,80,http
-2016-06-07 22:31:52.728,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.18.213.48,137,netbios-ns
-2016-06-07 22:31:53.187,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51049,,13.107.4.50,80,http
-2016-06-07 22:31:53.734,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,13.107.4.50,137,netbios-ns
-2016-06-07 22:37:04.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51058,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 22:51:46.818,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51067,,104.244.43.39,443,https
-2016-06-07 22:51:46.826,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51064,,2.19.182.135,80,http
-2016-06-07 22:51:46.837,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51061,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-07 22:52:04.736,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51070,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 23:06:46.815,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51074,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-07 23:06:46.815,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51076,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-07 23:06:47.453,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51077,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-07 23:07:04.901,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51080,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 23:21:46.831,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51086,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 23:21:46.832,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51083,,2.18.213.40,80,http
-2016-06-07 23:21:46.841,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51089,,104.244.43.231,443,https
-2016-06-07 23:22:05.017,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51092,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 23:37:05.187,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51101,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 23:39:55.379,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51104,,157.56.77.139,443,https
-2016-06-07 23:39:56.188,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,157.56.77.139,137,netbios-ns
-2016-06-07 23:39:56.214,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51107,,eu.vortex.data.microsoft.com,443,https
-2016-06-07 23:39:56.565,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51110,,157.56.77.139,443,https
-2016-06-07 23:39:59.064,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51113,,msnbot-191-232-139-2.search.msn.com,443,https
-2016-06-07 23:51:46.827,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51116,,104.244.43.135,443,https
-2016-06-07 23:51:46.857,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51122,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-07 23:51:46.859,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51119,,2.18.213.40,80,http
-2016-06-07 23:52:05.344,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51125,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 00:06:46.853,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51129,,2.18.213.40,80,http
-2016-06-08 00:06:46.853,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51131,,2.18.213.40,80,http
-2016-06-08 00:06:47.387,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51132,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 00:07:05.443,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51135,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 00:21:46.900,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51138,,104.244.43.7,443,https
-2016-06-08 00:21:46.920,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51141,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 00:21:47.012,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51144,,a92-122-51-17.deploy.akamaitechnologies.com,80,http
-2016-06-08 00:21:50.490,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51147,,131.253.61.80,443,https
-2016-06-08 00:21:51.273,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51150,,msnbot-65-52-108-29.search.msn.com,443,https
-2016-06-08 00:22:05.475,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51153,,131.253.61.80,443,https
-2016-06-08 00:22:05.614,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51156,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 00:36:46.863,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51162,,2.18.213.64,80,http
-2016-06-08 00:36:46.863,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51160,,2.18.213.64,80,http
-2016-06-08 00:37:06.396,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51165,,131.253.61.98,443,https
-2016-06-08 00:37:06.909,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51168,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 00:51:46.911,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51177,,104.244.43.39,443,https
-2016-06-08 00:51:46.911,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51174,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 00:51:46.918,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51171,,a92-122-51-10.deploy.akamaitechnologies.com,80,http
-2016-06-08 00:51:46.939,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51180,,a104-71-200-228.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 00:51:47.009,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51183,,a104-71-200-228.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 00:52:06.443,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51186,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 01:06:46.890,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51189,,2.18.213.64,80,http
-2016-06-08 01:06:46.900,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51192,,2.18.213.64,80,http
-2016-06-08 01:06:47.674,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51193,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 01:07:06.574,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51196,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 01:21:46.929,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51200,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 01:21:46.931,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51202,,2.18.213.64,80,http
-2016-06-08 01:21:46.944,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51205,,104.244.43.167,443,https
-2016-06-08 01:22:06.696,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51208,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 01:29:06.639,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51211,,65.55.138.111,443,https
-2016-06-08 01:29:07.479,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,65.55.138.111,137,netbios-ns
-2016-06-08 01:29:07.779,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51214,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 01:29:08.935,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51217,,134.170.58.125,443,https
-2016-06-08 01:29:09.508,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,134.170.58.125,137,netbios-ns
-2016-06-08 01:29:10.419,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51220,,2.18.213.42,80,http
-2016-06-08 01:29:10.516,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.18.213.42,137,netbios-ns
-2016-06-08 01:29:10.569,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51223,,2.18.213.42,80,http
-2016-06-08 01:30:39.490,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51226,,134.170.58.125,443,https
-2016-06-08 01:30:40.770,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51229,,134.170.58.125,443,https
-2016-06-08 01:30:41.681,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51232,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 01:30:42.643,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51235,,13.107.4.50,80,http
-2016-06-08 01:36:48.009,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51241,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-08 01:36:48.010,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51239,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-08 01:37:06.875,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51244,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 01:51:46.910,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51247,,104.244.43.199,443,https
-2016-06-08 01:51:46.932,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51250,,2.18.213.40,80,http
-2016-06-08 01:51:46.940,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51253,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 01:52:07.097,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51256,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 02:06:46.978,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51262,,2.18.213.64,80,http
-2016-06-08 02:06:46.978,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51260,,2.18.213.64,80,http
-2016-06-08 02:06:47.782,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51263,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 02:07:07.234,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51266,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 02:21:46.960,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51269,,2.18.213.64,80,http
-2016-06-08 02:21:46.964,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51272,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 02:21:46.984,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51275,,104.244.43.71,443,https
-2016-06-08 02:21:48.146,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51276,,a23-216-245-248.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 02:22:07.365,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51279,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 02:36:46.970,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51285,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-08 02:36:46.974,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51283,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-08 02:37:07.486,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51288,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 02:51:46.965,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51291,,2.18.213.64,80,http
-2016-06-08 02:51:47.003,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51295,,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 02:51:47.013,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51297,,104.244.43.71,443,https
-2016-06-08 02:52:07.615,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51300,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 02:52:32.804,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51303,,a23-211-173-218.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 02:52:32.965,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51306,,134.170.58.121,443,https
-2016-06-08 02:52:33.231,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,134.170.58.121,137,netbios-ns
-2016-06-08 03:06:46.956,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51310,,2.18.213.64,80,http
-2016-06-08 03:06:46.967,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51312,,2.18.213.64,80,http
-2016-06-08 03:06:47.920,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51313,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 03:07:07.782,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51316,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 03:07:48.981,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE RÉSEAU,tcp,CRAZY-WIN10,51317,,2.18.213.152,80,http
-2016-06-08 03:21:47.010,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51326,,104.244.43.7,443,https
-2016-06-08 03:21:47.010,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51321,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 03:22:07.927,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51329,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 03:37:08.058,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51338,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 03:51:46.999,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51344,,104.244.43.135,443,https
-2016-06-08 03:51:47.009,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51342,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 03:52:08.206,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51350,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 04:06:47.087,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51356,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
-2016-06-08 04:06:47.674,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51357,,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 04:06:50.100,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51354,,a92-122-51-57.deploy.akamaitechnologies.com,80,http
-2016-06-08 04:07:08.394,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51360,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 04:09:18.887,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51363,,157.56.77.138,443,https
-2016-06-08 04:09:32.102,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51366,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 04:21:47.036,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51369,,104.244.43.39,443,https
-2016-06-08 04:21:47.046,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51372,,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 04:21:47.150,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51375,,a92-122-51-58.deploy.akamaitechnologies.com,80,http
-2016-06-08 04:22:08.529,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51378,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 04:37:08.691,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51387,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 04:51:47.050,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51393,,104.244.43.7,443,https
-2016-06-08 04:51:47.050,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51390,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 04:52:08.817,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51399,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 05:06:48.098,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51406,,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 05:07:08.953,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51409,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 05:21:47.077,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51416,,a104-101-178-203.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 05:21:47.086,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51418,,104.244.43.103,443,https
-2016-06-08 05:22:09.089,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51421,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 05:36:47.060,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51427,,2.18.213.64,80,http
-2016-06-08 05:36:47.060,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51425,,2.18.213.64,80,http
-2016-06-08 05:37:09.257,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51430,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 05:51:47.073,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51433,,104.244.43.135,443,https
-2016-06-08 05:51:47.083,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51436,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 05:51:47.094,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51439,,2.18.213.64,80,http
-2016-06-08 05:52:09.360,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51442,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 06:06:47.810,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51449,,2.17.228.231,443,https
-2016-06-08 06:07:09.555,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51452,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 06:21:47.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51458,,104.244.43.199,443,https
-2016-06-08 06:21:47.082,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51455,,2.18.213.64,80,http
-2016-06-08 06:21:47.100,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51461,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 06:22:09.712,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51464,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 06:36:47.097,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51470,,2.18.213.64,80,http
-2016-06-08 06:36:47.097,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51468,,2.18.213.64,80,http
-2016-06-08 06:37:09.868,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51473,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 06:51:47.061,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51476,,104.244.43.199,443,https
-2016-06-08 06:51:47.081,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51480,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 06:51:47.083,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51482,,2.18.213.64,80,http
-2016-06-08 06:52:10.003,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51485,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 07:06:47.826,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51492,,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 07:07:10.147,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51495,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 07:21:47.091,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51498,,104.244.43.231,443,https
-2016-06-08 07:21:47.112,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51504,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 07:21:47.113,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51502,,2.18.213.64,80,http
-2016-06-08 07:22:10.284,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51507,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 07:36:47.098,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51511,,2.18.213.40,80,http
-2016-06-08 07:36:47.098,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51513,,2.18.213.40,80,http
-2016-06-08 07:37:10.408,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51516,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 07:51:47.086,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51519,,104.244.43.167,443,https
-2016-06-08 07:51:47.106,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51522,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 07:51:47.130,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51525,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-08 07:52:10.549,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51528,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 08:06:47.114,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51532,,2.18.213.40,80,http
-2016-06-08 08:06:47.114,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51534,,2.18.213.40,80,http
-2016-06-08 08:06:47.837,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51535,,a104-96-43-242.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 08:07:10.704,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51538,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 08:21:47.137,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51541,,104.244.43.135,443,https
-2016-06-08 08:21:47.160,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51544,,2.19.53.152,80,http
-2016-06-08 08:21:47.169,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51547,,2.18.213.40,80,http
-2016-06-08 08:21:48.168,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.19.53.152,137,netbios-ns
-2016-06-08 08:22:10.819,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51550,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 08:36:47.111,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51556,,2.18.213.58,80,http
-2016-06-08 08:36:47.111,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51554,,2.18.213.58,80,http
-2016-06-08 08:36:48.226,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.18.213.58,137,netbios-ns
-2016-06-08 08:37:10.947,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51559,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 08:51:47.109,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51562,,2.18.213.58,80,http
-2016-06-08 08:51:47.128,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51568,,104.244.43.135,443,https
-2016-06-08 08:51:47.128,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51565,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 08:52:11.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51571,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 09:06:47.129,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51575,,2.18.213.40,80,http
-2016-06-08 09:06:47.129,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51577,,2.18.213.40,80,http
-2016-06-08 09:06:48.215,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51578,,a23-217-8-40.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 09:07:11.195,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51581,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 09:21:47.133,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51584,,104.244.43.103,443,https
-2016-06-08 09:21:47.152,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51587,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 09:21:47.165,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51590,,2.18.213.64,80,http
-2016-06-08 09:22:11.329,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51593,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 09:36:47.167,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51597,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-08 09:36:47.167,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51599,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-08 09:37:11.446,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51602,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 09:51:47.149,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51605,,104.244.43.167,443,https
-2016-06-08 09:51:47.170,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51608,,2.18.213.40,80,http
-2016-06-08 09:51:47.177,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51611,,a23-199-215-48.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 09:52:11.611,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51614,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 10:06:47.229,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51620,,2.18.213.64,80,http
-2016-06-08 10:06:47.230,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51618,,2.18.213.64,80,http
-2016-06-08 10:06:48.101,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51621,,2.17.228.231,443,https
-2016-06-08 10:07:11.728,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51624,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 10:21:47.178,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51627,,104.244.43.167,443,https
-2016-06-08 10:21:47.211,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51630,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 10:21:47.260,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51633,,2.18.213.64,80,http
-2016-06-08 10:21:47.564,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN10,51664,,239.255.255.250,1900,ssdp
-2016-06-08 10:21:47.565,C:\Windows\System32\svchost.exe,AUTORITE NT\SERVICE LOCAL,udp,CRAZY-WIN10,51665,,239.255.255.250,1900,ssdp
-2016-06-08 10:22:11.869,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51636,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 10:36:47.238,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51640,,2.18.213.64,80,http
-2016-06-08 10:36:47.248,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51642,,2.18.213.64,80,http
-2016-06-08 10:37:12.012,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51645,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 10:51:47.219,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51648,,2.18.213.58,80,http
-2016-06-08 10:51:47.247,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51652,,104.244.43.71,443,https
-2016-06-08 10:51:47.265,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51654,,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 10:52:12.144,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51657,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 11:06:47.215,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51661,,2.18.213.58,80,http
-2016-06-08 11:06:47.215,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51663,,2.18.213.58,80,http
-2016-06-08 11:06:49.250,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51664,,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 11:07:12.286,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51667,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 11:21:47.247,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51674,,104.244.43.7,443,https
-2016-06-08 11:21:47.258,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51672,,2.18.213.58,80,http
-2016-06-08 11:21:47.275,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51676,,a23-2-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 11:22:12.429,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51679,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 11:23:12.579,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51682,,2.18.213.201,80,http
-2016-06-08 11:23:13.544,System,AUTORITE NT\Système,udp,CRAZY-WIN10,137,netbios-ns,2.18.213.201,137,netbios-ns
-2016-06-08 11:36:47.239,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51686,,2.18.213.58,80,http
-2016-06-08 11:36:47.239,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51688,,2.18.213.58,80,http
-2016-06-08 11:37:12.579,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51691,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 11:51:47.246,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51694,,2.18.213.64,80,http
-2016-06-08 11:51:47.264,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51700,,104.244.43.167,443,https
-2016-06-08 11:51:47.264,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51697,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 11:52:12.689,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51703,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 12:06:47.255,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51706,,2.18.213.58,80,http
-2016-06-08 12:06:47.265,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51709,,2.18.213.58,80,http
-2016-06-08 12:06:48.452,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51710,,a23-216-245-248.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 12:07:12.840,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51713,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 12:21:47.297,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51716,,104.244.43.7,443,https
-2016-06-08 12:21:47.327,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51719,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 12:21:47.393,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51722,,2.18.213.58,80,http
-2016-06-08 12:22:12.969,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51725,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 12:36:47.275,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51731,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-08 12:36:47.276,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51729,,a88-221-117-42.deploy.akamaitechnologies.com,80,http
-2016-06-08 12:37:13.105,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51734,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 12:51:47.287,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51738,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 12:51:47.288,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51740,,2.18.213.64,80,http
-2016-06-08 12:51:47.302,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51743,,104.244.43.103,443,https
-2016-06-08 12:52:13.230,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51746,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 13:06:47.305,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51750,,2.18.213.58,80,http
-2016-06-08 13:06:47.315,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51752,,2.18.213.58,80,http
-2016-06-08 13:06:48.378,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51753,,a104-96-43-242.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 13:07:13.370,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51756,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 13:21:47.325,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51759,,2.18.213.64,80,http
-2016-06-08 13:21:47.335,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51762,,2.19.53.152,80,http
-2016-06-08 13:21:47.342,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51765,,104.244.43.103,443,https
-2016-06-08 13:22:13.510,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51768,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 13:36:47.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51774,,2.18.213.58,80,http
-2016-06-08 13:36:47.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51772,,2.18.213.58,80,http
-2016-06-08 13:37:13.650,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51777,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 13:51:47.312,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51780,,104.244.43.167,443,https
-2016-06-08 13:51:47.333,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51783,,2.18.213.58,80,http
-2016-06-08 13:51:47.342,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51786,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 13:52:13.785,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51789,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 14:06:47.992,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51796,,a23-62-137-113.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 14:07:13.935,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51799,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 14:21:47.335,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51802,,2.18.213.64,80,http
-2016-06-08 14:21:47.338,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51805,,104.244.43.39,443,https
-2016-06-08 14:21:47.358,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51808,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 14:22:14.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51811,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 14:36:47.375,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51815,,2.18.213.64,80,http
-2016-06-08 14:36:47.375,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51817,,2.18.213.64,80,http
-2016-06-08 14:37:14.191,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51820,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 14:51:47.355,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51826,,104.244.43.199,443,https
-2016-06-08 14:51:47.356,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51823,,2.18.213.58,80,http
-2016-06-08 14:51:47.381,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51829,,a23-2-118-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 14:52:14.377,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51832,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 15:06:48.194,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51839,,a23-62-137-113.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 15:07:14.481,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51842,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 15:21:47.350,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51848,,104.244.43.71,443,https
-2016-06-08 15:21:47.362,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51846,,2.18.213.64,80,http
-2016-06-08 15:21:47.431,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51851,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 15:22:14.598,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51854,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 15:36:47.376,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51860,,2.18.213.64,80,http
-2016-06-08 15:36:47.376,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51858,,2.18.213.64,80,http
-2016-06-08 15:37:14.742,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51863,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 15:51:47.402,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51867,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 15:51:47.404,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51869,,2.18.213.58,80,http
-2016-06-08 15:51:47.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51872,,104.244.43.199,443,https
-2016-06-08 15:52:14.869,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51875,,eu.vortex.data.microsoft.com,443,https
-2016-06-08 16:06:48.584,C:\Windows\System32\backgroundTaskHost.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51882,,a104-96-43-242.deploy.static.akamaitechnologies.com,443,https
-2016-06-08 16:21:47.437,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51921,,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http
-2016-06-08 16:21:47.456,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51927,,104.244.43.103,443,https
-2016-06-08 16:21:47.460,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51924,,a88-221-117-72.deploy.akamaitechnologies.com,80,http
-2016-06-08 16:21:49.254,C:\Program Files (x86)\Proxifier\Proxifier.exe,CRAZY-WIN10\crazy,tcp,CRAZY-WIN10,51930,,eu.vortex.data.microsoft.com,443,https
+DATE,PROCESS,PROTOCOL,DEST_IP,DEST_PORT,DEST_PORT_NAME,ORGANIZATION,COUNTRY
+2016-06-06 23:35:43.920,System,udp,239.255.255.250,137,netbios-ns,,
+2016-06-06 23:36:51.066,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-06 23:51:45.992,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-06 23:51:46.003,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-06 23:51:47.039,System,udp,104.244.43.135,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-06 23:51:51.199,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 00:06:47.099,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 00:06:51.402,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 00:12:23.725,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.77.138,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 00:12:24.330,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 00:12:24.550,System,udp,157.56.77.138,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 00:12:24.867,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.98,80,http,AS8075 Microsoft Corporation,US
+2016-06-07 00:12:25.138,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.98,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 00:12:25.570,System,udp,131.253.61.98,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 00:12:26.665,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-191-232-139-2.search.msn.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 00:21:46.021,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-07 00:21:46.093,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 00:21:47.109,System,udp,104.244.43.7,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-07 00:21:50.134,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.77.138,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 00:21:51.024,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 00:21:51.456,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.96,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 00:21:52.149,System,udp,131.253.61.96,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 00:21:52.829,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.53.30,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 00:21:53.114,System,udp,134.170.53.30,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 00:23:01.504,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 00:36:52.218,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.98,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 00:36:52.687,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 00:51:46.036,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 00:51:46.046,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-07 00:51:46.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-30-100-215.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 00:51:46.350,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-30-100-215.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 00:51:47.078,System,udp,104.244.43.39,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-07 00:51:52.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 01:06:46.265,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 01:06:52.597,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 01:21:46.057,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 01:21:46.093,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 01:21:46.623,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 01:21:47.050,System,udp,104.244.43.167,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-07 01:21:52.734,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 01:36:52.885,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 01:51:46.077,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-07 01:51:46.078,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 01:51:47.079,System,udp,104.244.43.103,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-07 01:51:53.024,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 02:06:46.433,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 02:06:53.190,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 02:09:44.668,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-69-55-114.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 02:09:44.809,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.183,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 02:09:45.253,System,udp,191.234.72.183,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 02:09:45.766,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 02:09:48.008,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.80,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 02:09:48.201,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-55-155-27.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 02:09:48.286,System,udp,131.253.61.80,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 02:09:48.817,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.179.87,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 02:09:49.323,System,udp,134.170.179.87,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 02:21:46.100,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 02:21:46.216,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 02:21:53.357,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 02:36:53.453,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 02:51:46.131,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-07 02:51:46.132,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 02:51:53.568,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 03:06:46.463,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 03:06:53.694,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 03:21:46.178,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-07 03:21:46.178,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 03:21:47.190,System,udp,104.244.43.199,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-07 03:21:53.820,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 03:36:53.961,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 03:51:46.149,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 03:51:46.190,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 03:51:54.156,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 04:06:46.541,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 04:06:54.233,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 04:21:46.222,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-07 04:21:46.343,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 04:21:47.305,System,udp,104.244.43.71,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-07 04:21:54.350,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 04:36:54.555,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 04:51:46.259,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 04:51:46.273,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-07 04:51:54.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 05:06:46.516,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 05:06:54.828,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 05:21:46.227,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-07 05:21:46.267,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 05:21:54.999,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 05:36:55.154,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 05:51:46.226,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-07 05:51:46.310,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 05:51:55.293,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 06:06:46.435,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 06:06:55.439,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 06:21:46.226,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-07 06:21:46.344,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 06:21:55.596,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 06:36:55.778,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 06:51:46.285,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.231,443,https,AS13414 Twitter Inc.,US
+2016-06-07 06:51:46.293,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 06:51:47.247,System,udp,104.244.43.231,137,netbios-ns,AS13414 Twitter Inc.,US
+2016-06-07 06:51:55.938,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 07:06:46.539,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 07:06:56.110,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 07:21:46.258,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 07:21:46.285,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 07:21:56.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 07:36:56.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 07:51:46.307,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 07:51:46.316,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-07 07:51:56.443,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 08:06:46.799,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 08:06:56.595,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 08:21:46.324,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.231,443,https,AS13414 Twitter Inc.,US
+2016-06-07 08:21:46.342,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 08:21:56.717,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 08:24:13.926,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 08:36:56.833,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 08:51:46.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-07 08:51:46.329,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 08:51:56.987,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 09:06:46.549,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 09:06:57.095,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 09:21:46.345,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 09:21:46.354,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 09:21:57.221,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 09:36:57.403,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 09:51:46.336,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 09:51:46.376,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 09:51:57.492,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 10:06:46.542,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 10:06:57.628,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 10:21:46.408,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-07 10:21:46.416,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 10:21:47.428,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
+2016-06-07 10:21:47.428,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
+2016-06-07 10:21:57.800,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 10:36:57.931,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 10:38:22.298,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,ocsp.comodoca.com,80,http,Comodo CA,GB
+2016-06-07 10:38:22.398,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,ocsp.comodoca.com,80,http,Comodo CA,GB
+2016-06-07 10:51:46.382,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 10:51:46.397,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.231,443,https,AS13414 Twitter Inc.,US
+2016-06-07 10:51:58.119,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 11:06:46.758,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 11:06:58.235,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 11:21:46.387,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-07 11:21:46.412,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 11:21:58.329,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 11:36:58.440,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 11:51:46.428,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-07 11:51:46.436,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 11:51:58.565,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 12:06:46.904,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 12:06:47.004,C:\Windows\System32\backgroundTaskHost.exe,tcp,198.41.214.186,80,http,AS13335 CloudFlare. Inc.,US
+2016-06-07 12:06:47.407,System,udp,198.41.214.186,137,netbios-ns,AS13335 CloudFlare. Inc.,US
+2016-06-07 12:06:58.720,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 12:21:46.463,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-07 12:21:46.491,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 12:21:58.865,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 12:36:58.994,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 12:51:46.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.231,443,https,AS13414 Twitter Inc.,US
+2016-06-07 12:51:46.491,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 12:51:59.091,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 13:06:46.702,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 13:06:59.227,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 13:21:46.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-07 13:21:46.485,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 13:21:59.394,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 13:36:59.520,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 13:51:46.479,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-07 13:51:46.592,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-107-11-74.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),US
+2016-06-07 13:51:59.688,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 14:06:46.853,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 14:06:59.792,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 14:21:46.508,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-07 14:21:46.636,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 14:21:59.950,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 14:37:00.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 14:51:46.524,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-07 14:51:46.553,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 14:52:00.225,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 15:06:46.758,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 15:07:00.327,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 15:21:46.582,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 15:21:46.583,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-07 15:22:00.429,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 15:37:00.584,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 15:51:46.585,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-07 15:51:46.603,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 15:52:00.723,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 16:06:47.155,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 16:07:00.867,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 16:21:46.619,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-07 16:21:46.648,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 16:22:00.972,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 16:32:48.586,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-207-46-194-14.search.msn.com,80,http,Microsoft Corporation (MSFT),US
+2016-06-07 16:32:48.798,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-33-2-154.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 16:32:49.040,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,198.41.215.185,80,http,AS13335 CloudFlare. Inc.,US
+2016-06-07 16:32:49.546,System,udp,198.41.215.185,137,netbios-ns,AS13335 CloudFlare. Inc.,US
+2016-06-07 16:37:01.151,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 16:51:46.594,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-07 16:51:46.671,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-64-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 16:52:01.296,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 17:04:12.598,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,ocsp.comodoca.com,80,http,Comodo CA,GB
+2016-06-07 17:06:47.704,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 17:07:01.437,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 17:08:21.016,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 17:08:47.374,C:\Windows\System32\svchost.exe,tcp,131.253.61.100,80,http,AS8075 Microsoft Corporation,US
+2016-06-07 17:08:47.609,C:\Windows\System32\svchost.exe,tcp,131.253.61.100,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 17:08:48.277,System,udp,131.253.61.100,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 17:21:46.600,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-07 17:22:01.600,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 17:36:46.655,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-72.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 17:36:46.666,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-72.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 17:37:01.755,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 17:51:46.652,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 17:51:46.658,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-07 17:51:46.688,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 17:52:01.895,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 18:06:46.696,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 18:06:46.696,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 18:06:47.641,System,udp,2.18.213.40,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-07 18:06:47.815,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 18:07:02.039,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 18:21:46.693,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-07 18:21:46.703,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-71-115-140.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 18:21:46.704,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 18:21:47.623,System,udp,2.18.213.64,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-07 18:22:02.185,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 18:37:02.353,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 18:51:46.693,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 18:51:46.698,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-152-223.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 18:51:46.705,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 18:52:02.486,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 19:06:47.734,C:\Windows\System32\backgroundTaskHost.exe,tcp,2.17.228.231,443,https,AS20940 Akamai International B.V.,EU
+2016-06-07 19:06:48.645,System,udp,2.17.228.231,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-07 19:07:02.629,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 19:21:46.671,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-07 19:21:46.707,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-212-203-149.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 19:21:46.729,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-57.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 19:22:02.790,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 19:36:46.735,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 19:36:46.735,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 19:37:02.947,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 19:51:46.710,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-07 19:51:46.752,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 19:51:46.755,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 19:52:03.077,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 20:06:46.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 20:06:46.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 20:06:47.308,C:\Windows\System32\backgroundTaskHost.exe,tcp,2.17.228.231,443,https,AS20940 Akamai International B.V.,EU
+2016-06-07 20:07:03.200,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 20:08:03.385,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.152,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 20:08:04.366,System,udp,2.18.213.152,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-07 20:21:46.740,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-07 20:21:46.767,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.19.182.135,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 20:21:46.801,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-10.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 20:21:47.643,System,udp,2.19.182.135,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-07 20:22:03.328,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 20:36:46.770,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,candycrushsoda.king.com,80,http,King,SE
+2016-06-07 20:37:03.477,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 20:51:46.745,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.19.182.135,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 20:51:46.747,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-07 20:52:03.599,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 21:06:46.767,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 21:06:46.776,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 21:06:47.005,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 21:07:03.747,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 21:21:46.758,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.19.182.135,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 21:21:46.765,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-07 21:22:03.882,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 21:36:46.791,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-57.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 21:36:49.804,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-57.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 21:37:03.986,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 21:51:46.748,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 21:51:46.776,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.19.182.135,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 21:52:04.130,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 22:06:47.830,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 22:07:04.292,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 22:21:46.776,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-07 22:21:46.804,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 22:21:47.498,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
+2016-06-07 22:21:47.498,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
+2016-06-07 22:22:04.424,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 22:22:25.047,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.96,80,http,AS8075 Microsoft Corporation,US
+2016-06-07 22:22:25.307,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.96,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 22:22:25.909,C:\Windows\System32\svchost.exe,tcp,msnbot-191-232-139-7.search.msn.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 22:22:26.245,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-191-232-139-7.search.msn.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 22:31:50.910,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.58,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 22:31:51.724,System,udp,191.232.80.58,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 22:31:51.849,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 22:31:52.349,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.48,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 22:31:52.728,System,udp,2.18.213.48,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-07 22:31:53.187,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.107.4.50,80,http,AS8068 Microsoft Corporation,US
+2016-06-07 22:31:53.734,System,udp,13.107.4.50,137,netbios-ns,AS8068 Microsoft Corporation,US
+2016-06-07 22:37:04.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 22:51:46.818,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-07 22:51:46.826,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.19.182.135,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 22:51:46.837,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 22:52:04.736,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 23:06:46.815,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 23:06:46.815,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-07 23:06:47.453,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 23:07:04.901,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 23:21:46.831,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-07 23:21:46.832,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 23:21:46.841,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.231,443,https,AS13414 Twitter Inc.,US
+2016-06-07 23:22:05.017,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 23:37:05.187,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 23:39:55.379,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.77.139,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 23:39:56.188,System,udp,157.56.77.139,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-07 23:39:56.214,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 23:39:56.565,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.77.139,443,https,AS8075 Microsoft Corporation,US
+2016-06-07 23:39:59.064,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-191-232-139-2.search.msn.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-07 23:51:46.827,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-07 23:51:46.857,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-07 23:51:46.859,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-07 23:52:05.344,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 00:06:46.853,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 00:06:46.853,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 00:06:47.387,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 00:07:05.443,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 00:21:46.900,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-08 00:21:46.920,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 00:21:47.012,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-17.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 00:21:50.490,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.80,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 00:21:51.273,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-65-52-108-29.search.msn.com,443,https,Microsoft Corporation (MSFT),US
+2016-06-08 00:22:05.475,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.80,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 00:22:05.614,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 00:36:46.863,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 00:36:46.863,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 00:37:06.396,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,131.253.61.98,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 00:37:06.909,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 00:51:46.911,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-08 00:51:46.911,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 00:51:46.918,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-10.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 00:51:46.939,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-71-200-228.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 00:51:47.009,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-71-200-228.deploy.static.akamaitechnologies.com,443,https,Akamai International. BV (AIB-17),US
+2016-06-08 00:52:06.443,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 01:06:46.890,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 01:06:46.900,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 01:06:47.674,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 01:07:06.574,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 01:21:46.929,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 01:21:46.931,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 01:21:46.944,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-08 01:22:06.696,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 01:29:06.639,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.138.111,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 01:29:07.479,System,udp,65.55.138.111,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-08 01:29:07.779,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 01:29:08.935,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.125,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 01:29:09.508,System,udp,134.170.58.125,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-08 01:29:10.419,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.42,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 01:29:10.516,System,udp,2.18.213.42,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-08 01:29:10.569,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.42,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 01:30:39.490,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.125,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 01:30:40.770,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.125,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 01:30:41.681,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 01:30:42.643,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.107.4.50,80,http,AS8068 Microsoft Corporation,US
+2016-06-08 01:36:48.009,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 01:36:48.010,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 01:37:06.875,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 01:51:46.910,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-08 01:51:46.932,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 01:51:46.940,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 01:52:07.097,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 02:06:46.978,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 02:06:46.978,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 02:06:47.782,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 02:07:07.234,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 02:21:46.960,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 02:21:46.964,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 02:21:46.984,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-08 02:21:48.146,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-216-245-248.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 02:22:07.365,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 02:36:46.970,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 02:36:46.974,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 02:37:07.486,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 02:51:46.965,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 02:51:47.003,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-35-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 02:51:47.013,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-08 02:52:07.615,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 02:52:32.804,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-211-173-218.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 02:52:32.965,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.121,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 02:52:33.231,System,udp,134.170.58.121,137,netbios-ns,AS8075 Microsoft Corporation,US
+2016-06-08 03:06:46.956,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 03:06:46.967,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 03:06:47.920,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 03:07:07.782,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 03:07:48.981,C:\Windows\System32\svchost.exe,tcp,2.18.213.152,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 03:21:47.010,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-08 03:21:47.010,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 03:22:07.927,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 03:37:08.058,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 03:51:46.999,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-08 03:51:47.009,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 03:52:08.206,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 04:06:47.087,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-57.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 04:06:47.674,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-38-7-222.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 04:06:50.100,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-57.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 04:07:08.394,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 04:09:18.887,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.77.138,443,https,AS8075 Microsoft Corporation,US
+2016-06-08 04:09:32.102,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 04:21:47.036,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-08 04:21:47.046,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-220-86.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 04:21:47.150,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-51-58.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 04:22:08.529,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 04:37:08.691,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 04:51:47.050,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-08 04:51:47.050,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 04:52:08.817,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 05:06:48.098,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 05:07:08.953,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 05:21:47.077,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-101-178-203.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 05:21:47.086,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-08 05:22:09.089,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 05:36:47.060,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 05:36:47.060,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 05:37:09.257,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 05:51:47.073,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-08 05:51:47.083,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 05:51:47.094,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 05:52:09.360,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 06:06:47.810,C:\Windows\System32\backgroundTaskHost.exe,tcp,2.17.228.231,443,https,AS20940 Akamai International B.V.,EU
+2016-06-08 06:07:09.555,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 06:21:47.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-08 06:21:47.082,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 06:21:47.100,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 06:22:09.712,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 06:36:47.097,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 06:36:47.097,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 06:37:09.868,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 06:51:47.061,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-08 06:51:47.081,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 06:51:47.083,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 06:52:10.003,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 07:06:47.826,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 07:07:10.147,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 07:21:47.091,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.231,443,https,AS13414 Twitter Inc.,US
+2016-06-08 07:21:47.112,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 07:21:47.113,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 07:22:10.284,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 07:36:47.098,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 07:36:47.098,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 07:37:10.408,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 07:51:47.086,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-08 07:51:47.106,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 07:51:47.130,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 07:52:10.549,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 08:06:47.114,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 08:06:47.114,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 08:06:47.837,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-96-43-242.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 08:07:10.704,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 08:21:47.137,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-08 08:21:47.160,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.19.53.152,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 08:21:47.169,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 08:21:48.168,System,udp,2.19.53.152,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-08 08:22:10.819,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 08:36:47.111,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 08:36:47.111,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 08:36:48.226,System,udp,2.18.213.58,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-08 08:37:10.947,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 08:51:47.109,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 08:51:47.128,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-08 08:51:47.128,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 08:52:11.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 09:06:47.129,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 09:06:47.129,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 09:06:48.215,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-217-8-40.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 09:07:11.195,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 09:21:47.133,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-08 09:21:47.152,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 09:21:47.165,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 09:22:11.329,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 09:36:47.167,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 09:36:47.167,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 09:37:11.446,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 09:51:47.149,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-08 09:51:47.170,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 09:51:47.177,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-199-215-48.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 09:52:11.611,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 10:06:47.229,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 10:06:47.230,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 10:06:48.101,C:\Windows\System32\backgroundTaskHost.exe,tcp,2.17.228.231,443,https,AS20940 Akamai International B.V.,EU
+2016-06-08 10:07:11.728,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 10:21:47.178,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-08 10:21:47.211,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 10:21:47.260,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 10:21:47.564,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
+2016-06-08 10:21:47.565,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
+2016-06-08 10:22:11.869,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 10:36:47.238,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 10:36:47.248,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 10:37:12.012,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 10:51:47.219,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 10:51:47.247,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-08 10:51:47.265,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-214-143-15.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 10:52:12.144,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 11:06:47.215,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 11:06:47.215,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 11:06:49.250,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-101-172-250.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 11:07:12.286,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 11:21:47.247,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-08 11:21:47.258,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 11:21:47.275,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-2-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 11:22:12.429,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 11:23:12.579,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.201,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 11:23:13.544,System,udp,2.18.213.201,137,netbios-ns,AS20940 Akamai International B.V.,EU
+2016-06-08 11:36:47.239,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 11:36:47.239,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 11:37:12.579,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 11:51:47.246,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 11:51:47.264,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-08 11:51:47.264,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 11:52:12.689,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 12:06:47.255,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 12:06:47.265,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 12:06:48.452,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-216-245-248.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 12:07:12.840,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 12:21:47.297,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.7,443,https,AS13414 Twitter Inc.,US
+2016-06-08 12:21:47.327,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 12:21:47.393,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 12:22:12.969,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 12:36:47.275,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 12:36:47.276,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 12:37:13.105,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 12:51:47.287,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 12:51:47.288,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 12:51:47.302,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-08 12:52:13.230,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 13:06:47.305,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 13:06:47.315,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 13:06:48.378,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-96-43-242.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 13:07:13.370,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 13:21:47.325,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 13:21:47.335,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.19.53.152,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 13:21:47.342,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-08 13:22:13.510,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 13:36:47.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 13:36:47.320,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 13:37:13.650,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 13:51:47.312,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.167,443,https,AS13414 Twitter Inc.,US
+2016-06-08 13:51:47.333,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 13:51:47.342,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 13:52:13.785,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 14:06:47.992,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-62-137-113.deploy.static.akamaitechnologies.com,443,https,Akamai International. BV (AIB-17),US
+2016-06-08 14:07:13.935,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 14:21:47.335,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 14:21:47.338,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.39,443,https,AS13414 Twitter Inc.,US
+2016-06-08 14:21:47.358,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 14:22:14.080,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 14:36:47.375,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 14:36:47.375,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 14:37:14.191,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 14:51:47.355,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-08 14:51:47.356,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 14:51:47.381,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-2-118-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 14:52:14.377,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 15:06:48.194,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-62-137-113.deploy.static.akamaitechnologies.com,443,https,Akamai International. BV (AIB-17),US
+2016-06-08 15:07:14.481,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 15:21:47.350,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.71,443,https,AS13414 Twitter Inc.,US
+2016-06-08 15:21:47.362,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 15:21:47.431,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 15:22:14.598,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 15:36:47.376,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 15:36:47.376,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 15:37:14.742,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 15:51:47.402,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 15:51:47.404,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.58,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 15:51:47.447,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-08 15:52:14.869,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 16:06:48.584,C:\Windows\System32\backgroundTaskHost.exe,tcp,a104-96-43-242.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 16:21:47.437,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 16:21:47.456,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.244.43.103,443,https,AS13414 Twitter Inc.,US
+2016-06-08 16:21:47.460,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,88.221.117.72,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 16:21:49.254,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 16:32:49.304,C:\Users\crazy\AppData\Local\Microsoft\OneDrive\OneDrive.exe,tcp,msnbot-207-46-194-14.search.msn.com,80,http,Microsoft Corporation (MSFT),US
+2016-06-08 16:32:49.414,C:\Users\crazy\AppData\Local\Microsoft\OneDrive\OneDrive.exe,tcp,a23-64-24-153.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 16:36:24.634,C:\Windows\explorer.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 16:36:50.239,C:\Windows\System32\svchost.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 16:51:47.425,C:\Windows\explorer.exe,tcp,104.244.43.199,443,https,AS13414 Twitter Inc.,US
+2016-06-08 16:51:47.425,C:\Windows\explorer.exe,tcp,a23-74-86-135.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-08 16:51:47.426,C:\Windows\explorer.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 16:52:15.443,C:\Windows\System32\svchost.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 17:06:47.433,C:\Windows\explorer.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 17:06:47.433,C:\Windows\explorer.exe,tcp,2.18.213.40,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 17:06:48.738,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-217-8-40.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 17:07:15.574,C:\Windows\System32\svchost.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 17:21:47.426,C:\Windows\explorer.exe,tcp,104.244.43.135,443,https,AS13414 Twitter Inc.,US
+2016-06-08 17:21:47.459,C:\Windows\explorer.exe,tcp,a23-34-182-135.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-08 17:21:47.467,C:\Windows\explorer.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 17:22:15.692,C:\Windows\System32\svchost.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 17:36:47.459,C:\Windows\explorer.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 17:36:47.459,C:\Windows\explorer.exe,tcp,2.18.213.64,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 17:37:15.849,C:\Windows\System32\svchost.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-08 17:41:08.902,C:\Windows\explorer.exe,tcp,a88-221-117-42.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-08 17:41:08.905,C:\Windows\explorer.exe,tcp,2.19.182.135,80,http,AS20940 Akamai International B.V.,EU
+2016-06-08 17:41:36.741,C:\Windows\System32\svchost.exe,tcp,2.18.213.33,80,http,AS20940 Akamai International B.V.,EU

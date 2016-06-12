@@ -1,21 +1,47 @@
-IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE
-2.18.213.24,AKAMAI-PA,Akamai Technologies,EU,
-2.18.213.42,AKAMAI-PA,Akamai Technologies,EU,
-2.18.213.48,AKAMAI-PA,Akamai Technologies,EU,
-2.18.213.56,AKAMAI-PA,Akamai Technologies,EU,
-2.18.213.57,AKAMAI-PA,Akamai Technologies,EU,
-2.18.213.82,AKAMAI-PA,Akamai Technologies,EU,
-2.18.213.83,AKAMAI-PA,Akamai Technologies,EU,
-64.4.54.253,MICROSOFT,Microsoft Corporation (MSFT),US,
-65.55.44.108,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
-65.55.138.114,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
-65.55.252.71,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
-65.55.252.93,MICROSOFT-1BLK,Microsoft Corporation (MSFT),US,
-111.221.29.253,Microsoft,Microsoft Corp. Singapore,US,
-134.170.51.247,MICROSOFT,Microsoft Corp (MSFT-Z),US,
-134.170.53.29,MICROSOFT,Microsoft Corp (MSFT-Z),US,
-134.170.58.121,MICROSOFT,Microsoft Corp (MSFT-Z),US,
-134.170.58.125,MICROSOFT,Microsoft Corp (MSFT-Z),US,
-134.170.58.190,MICROSOFT,Microsoft Corp (MSFT-Z),US,
-134.170.165.249,MICROSOFT,Microsoft Corp (MSFT-Z),US,
-137.117.235.16,MICROSOFT,Microsoft Corp (MSFT-Z),US,
+IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
+64.4.54.253,AS8075 Microsoft Corporation,US,2016-06-10,settings-win.data.microsoft.com
+,,,2016-06-08,settings.data.microsoft.com
+,,,2016-05-24,asimov-win.settings.data.microsoft.com.akadns.net
+,,,2016-04-25,cy2.settings.data.microsoft.com.akadns.net
+,,,2016-04-01,onesettings-cy2.metron.live.com.nsatc.net
+,,,2016-03-31,asimov.settings.data.microsoft.com.akadns.net
+,,,2016-03-31,geo.settings.data.microsoft.com.akadns.net
+,,,2015-06-21,settings.data.glbdns2.microsoft.com
+65.55.44.108,AS8075 Microsoft Corporation,US,2016-04-08,settings.data.glbdns2.microsoft.com
+,,,2016-04-05,bn2.settings.data.microsoft.com.akadns.net
+,,,2016-04-02,onesettings-bn2.metron.live.com.nsatc.net
+,,,2015-10-19,settings-win.data.microsoft.com
+,,,2015-06-28,settings.data.microsoft.com
+65.55.252.71,AS8075 Microsoft Corporation,US,2016-05-31,watson.microsoft.com.nsatc.net
+,,,2016-05-30,watson.microsoft.com
+65.55.252.93,AS8075 Microsoft Corporation,US,2016-06-06,sqm.telemetry.microsoft.com.nsatc.net
+,,,2016-05-21,sqm.telemetry.microsoft.com
+,,,2015-08-11,sqm.msn.com
+,,,2015-08-07,www.sqm.microsoft.com
+,,,2015-08-07,sqm.microsoft.com
+66.119.144.158,AS8075 Microsoft Corporation,US,2016-05-30,fe2.update.microsoft.com
+,,,2016-01-11,fe2.update.microsoft.com.nsatc.net
+111.221.29.253,AS8075 Microsoft Corporation,HK,2016-05-19,hk2.settings.data.microsoft.com.akadns.net
+,,,2016-04-02,onesettings-hk2.metron.live.com.nsatc.net
+,,,2015-11-03,settings-win.data.microsoft.com
+134.170.51.247,AS8075 Microsoft Corporation,US,2015-11-26,fe2.update.microsoft.com
+134.170.53.29,AS8075 Microsoft Corporation,US,2016-04-16,fe2.update.microsoft.com.nsatc.net
+,,,2016-04-14,fe1.update.microsoft.com.akadns.net
+,,,2016-01-03,fe2.update.microsoft.com.akadns.net
+,,,2015-03-30,fe1.update.microsoft.com
+,,,2014-06-23,fe2.update.microsoft.com
+137.117.235.16,AS8075 Microsoft Corporation,NL,2015-11-17,spynetalt.microsoft.com
+,,,2015-05-14,updat101up.ddns.net
+,,,2015-05-04,spynetall.microsoft.akadns.net
+,,,2014-10-14,spynet2.microsoft.com
+,,,2014-09-16,spyneteurope.microsoft.akadns.net
+191.232.139.253,AS8075 Microsoft Corporation,BR,2016-03-29,onesettings-db5.metron.live.com.nsatc.net
+,,,2016-03-20,settings.data.glbdns2.microsoft.com
+,,,2015-12-02,onesettings-bn2.metron.live.com.nsatc.net
+,,,2015-06-19,settings-win.data.microsoft.com
+191.232.139.254,AS8075 Microsoft Corporation,BR,,eu.vortex.data.microsoft.com
+,,,2016-04-07,vortex-db5.metron.live.com.nsatc.net
+,,,2016-03-31,db5.vortex.data.microsoft.com.akadns.net
+,,,2015-11-10,vortex.data.microsoft.com
+,,,2015-10-21,web.vortex.data.microsoft.com
+,,,2015-07-07,vortex-win.data.microsoft.com

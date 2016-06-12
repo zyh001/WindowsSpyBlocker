@@ -133,8 +133,8 @@ function menuDiff($prevTask, $os, $display = true) {
 function procAll($os) {
     global $logsPath;
 
-    $resultsFile = $logsPath . '/' . $os . '/diff-all.log';
-    $reverseResultsFile = $logsPath . '/' . $os . '/diff-all-reverse.log';
+    $resultsFile = $logsPath . '/' . $os . '/diff-all.csv';
+    $reverseResultsFile = $logsPath . '/' . $os . '/diff-all-reverse.csv';
 
     if (!file_exists($logsPath . '/' . $os)) {
         mkdir($logsPath . '/' . $os);
@@ -154,10 +154,37 @@ function procAll($os) {
         return;
     }
 
-    $result = sortHosts($result);
+    $hosts = sortHosts($result);
+    $csv = 'HOST,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN';
+    foreach ($hosts as $host) {
+        $csv .= PHP_EOL . $host;
+        $whois = getWhois($host, $logsPath);
+        if (is_array($whois)) {
+            $csv .= ',' . $whois['org'] . ',' . $whois['country'];
+        } else {
+            $csv .= ',,';
+        }
+        $resolutions = null;
+        if (filter_var($host, FILTER_VALIDATE_IP)) {
+            $resolutions = getResolutions($host, $logsPath);
+        }
+        if (is_array($resolutions)) {
+            $i = 0;
+            foreach ($resolutions as $resolution) {
+                if ($i == 0) {
+                    $csv .= ',' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                } else {
+                    $csv .= PHP_EOL . ',,,' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                }
+                $i++;
+            }
+        } else {
+            $csv .= ',,';
+        }
+    }
 
     echo PHP_EOL . 'Write results to ' . $resultsFile . '...';
-    file_put_contents($resultsFile, implode(PHP_EOL, $result));
+    file_put_contents($resultsFile, $csv);
 
     $reverseResult = array();
     foreach ($result as $host) {
@@ -172,9 +199,37 @@ function procAll($os) {
         return;
     }
 
-    $reverseResult = sortHosts($reverseResult);
+    $hosts = sortHosts($reverseResult);
+    $csv = 'HOST,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN';
+    foreach ($hosts as $host) {
+        $csv .= PHP_EOL . $host;
+        $whois = getWhois($host, $logsPath);
+        if (is_array($whois)) {
+            $csv .= ',' . $whois['org'] . ',' . $whois['country'];
+        } else {
+            $csv .= ',,';
+        }
+        $resolutions = null;
+        if (filter_var($host, FILTER_VALIDATE_IP)) {
+            $resolutions = getResolutions($host, $logsPath);
+        }
+        if (is_array($resolutions)) {
+            $i = 0;
+            foreach ($resolutions as $resolution) {
+                if ($i == 0) {
+                    $csv .= ',' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                } else {
+                    $csv .= PHP_EOL . ',,,' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                }
+                $i++;
+            }
+        } else {
+            $csv .= ',,';
+        }
+    }
+
     echo PHP_EOL . 'Write reverse results to ' . $reverseResultsFile . '...';
-    file_put_contents($reverseResultsFile, implode(PHP_EOL, $reverseResult));
+    file_put_contents($reverseResultsFile, $csv);
 }
 
 function procSysmon($os, $diffs = null) {
@@ -194,7 +249,7 @@ function hostsCountCsv($os, $name, $diffs = null) {
     $all = $diffs != null;
     $diffs = $diffs != null ? $diffs : getDiffs($os);
 
-    $resultsFile = $logsPath . '/' . $os . '/diff-' . strtolower($name) . '.log';
+    $resultsFile = $logsPath . '/' . $os . '/diff-' . strtolower($name) . '.csv';
     if (!file_exists($logsPath . '/' . $os)) {
         mkdir($logsPath . '/' . $os);
     } else {
@@ -210,7 +265,7 @@ function hostsCountCsv($os, $name, $diffs = null) {
     $result = array();
     if (($handle = fopen($csv, 'r')) !== false) {
         while (($data = fgetcsv($handle)) !== false) {
-            if (count($data) != 2 || $data[0] == 'HOST') {
+            if (empty($data[0]) || $data[0] == 'HOST') {
                 continue;
             }
             $data[0] = strtolower($data[0]);
@@ -230,9 +285,37 @@ function hostsCountCsv($os, $name, $diffs = null) {
         return null;
     }
 
-    $result = sortHosts($result);
+    $hosts = sortHosts($result);
+    $csv = 'HOST,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN';
+    foreach ($hosts as $host) {
+        $csv .= PHP_EOL . $host;
+        $whois = getWhois($host);
+        if (is_array($whois)) {
+            $csv .= ',' . $whois['org'] . ',' . $whois['country'];
+        } else {
+            $csv .= ',,';
+        }
+        $resolutions = null;
+        if (filter_var($host, FILTER_VALIDATE_IP)) {
+            $resolutions = getResolutions($host, $logsPath);
+        }
+        if (is_array($resolutions)) {
+            $i = 0;
+            foreach ($resolutions as $resolution) {
+                if ($i == 0) {
+                    $csv .= ',' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                } else {
+                    $csv .= PHP_EOL . ',,,' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                }
+                $i++;
+            }
+        } else {
+            $csv .= ',,';
+        }
+    }
+
     echo PHP_EOL . 'Write results to ' . $resultsFile . '...';
-    file_put_contents($resultsFile, implode(PHP_EOL, $result));
+    file_put_contents($resultsFile, $csv);
 }
 
 function getDiffs($os) {

@@ -235,7 +235,7 @@ function procRemoveRules() {
 }
 
 function procTestIps($os, $remote = true) {
-    global $basePath, $logsPath, $config, $dnsQueryUrl, $ipWhoisUrl;
+    global $basePath, $logsPath, $config;
 
     if (!file_exists($logsPath . '/' . $os)) {
         mkdir($logsPath . '/' . $os);
@@ -288,7 +288,6 @@ function procTestIps($os, $remote = true) {
                     }
                     //TODO: Manage ip range
                     //$ips = array_merge($ips, array_map('long2ip', range(ip2long($lineAr[0]), ip2long($lineAr[1]))));
-                    //$ips[] = $line;
                 } else if (!filter_var($line, FILTER_VALIDATE_IP)) {
                     continue;
                 } else {
@@ -302,34 +301,45 @@ function procTestIps($os, $remote = true) {
         echo PHP_EOL . 'Process ' . $type . ' (' . count($ips) . ' IPs)' . PHP_EOL;
         foreach ($ips as $ip) {
             echo '  Checking ' . $ip . '...' . PHP_EOL;
-            if (contains($ip, '-')) {
-                $ipRangeAr = explode('-', $ip);
-                $ipsRange = array_map('long2ip', range(ip2long($ipRangeAr[0]), ip2long($ipRangeAr[1])));
-
-                $dnsQueryContents = getMultiUrlContent($dnsQueryUrl, $ipsRange);
-                foreach ($ipsRange as $ipRange) {
-                    $results[$ipRange] = getTestIpsResult($dnsQueryContents[$ipRange], $ipRange);
+            $results[$ip] = getTestIpResult($ip);
+            echo '    Organization: ' . $results[$ip]['org'] . PHP_EOL;
+            echo '    Country: ' . $results[$ip]['country'] . PHP_EOL;
+            /*if (is_array($results[$ip]['resolutions'])) {
+                echo '    Resolved date: ' . $results[$ip]['resolutions'][0]['date'] . PHP_EOL;
+                echo '    Resolved domain: ' . $results[$ip]['resolutions'][0]['ipOrDomain'] . PHP_EOL;
+            } else {
+                echo '    Resolved date: ' . PHP_EOL;
+                echo '    Resolved domain: ' . PHP_EOL;
+            }*/
+            if (is_array($results[$ip]['resolutions'])) {
+                echo '    Resolutions:' . PHP_EOL;
+                foreach ($results[$ip]['resolutions'] as $resolutions) {
+                    echo '      ' . $resolutions['date'] . ' - ' . $resolutions['ipOrDomain'] . PHP_EOL;
                 }
             } else {
-                $dnsQueryContent = getUrlContent($dnsQueryUrl . $ip);
-                $results[$ip] = getTestIpsResult($dnsQueryContent, $ip);
-
-                echo '    NetName: ' . $results[$ip]['netName'] . PHP_EOL;
-                echo '    Organization: ' . $results[$ip]['organization'] . PHP_EOL;
-                echo '    Country: ' . $results[$ip]['country'] . PHP_EOL;
-                echo '    Resolves to: ' . $results[$ip]['resolveTo'] . PHP_EOL;
+                echo '    Resolutions:' . PHP_EOL;
             }
         }
 
         $csvFile = $logsPath . '/' . $os . '/firewall-test-' . $type . '.csv';
         echo 'Write ' . $csvFile . '...'. PHP_EOL;
-        $csv = 'IP,NETNAME,ORGANIZATION,COUNTRY,DNS RESOLVE';
+        $csv = 'IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN';
         foreach ($results as $ip => $result) {
-            $csv .= PHP_EOL . $ip .
-                ',' . str_replace(',', '.', $result['netName']) .
-                ',' . str_replace(',', '.', $result['organization']) .
-                ',' . str_replace(',', '.', $result['country']) .
-                ',' . str_replace(',', '.', $result['resolveTo']);
+            $csv .= PHP_EOL . $ip . ',' . $result['org'] . ',' . $result['country'];
+            if (is_array($results[$ip]['resolutions'])) {
+                //$csv .= ',' . $results[$ip]['resolutions'][0]['date'] . ',' . $results[$ip]['resolutions'][0]['ipOrDomain'];
+                $i = 0;
+                foreach ($results[$ip]['resolutions'] as $resolutions) {
+                    if ($i == 0) {
+                        $csv .= ',' . $resolutions['date'] . ',' . $resolutions['ipOrDomain'];
+                    } else {
+                        $csv .= PHP_EOL . ',,,' . $resolutions['date'] . ',' . $resolutions['ipOrDomain'];
+                    }
+                    $i++;
+                }
+            } else {
+                $csv .= ',,';
+            }
         }
         file_put_contents($csvFile, $csv);
 
@@ -374,47 +384,15 @@ function removeRules($os = null, $type = null) {
     return true;
 }
 
-function getTestIpsResult($dnsQuery, $ip) {
+function getTestIpResult($ip) {
     global $logsPath;
 
-    $dnsQuery = parseDnsQuery($dnsQuery);
-    $ipWhois = getResolvedIp($ip, $logsPath);
+    $whois = getWhois($ip, $logsPath);
+    $resolutions = getResolutions($ip, $logsPath);
 
     return array(
-        'netName' => $dnsQuery['netName'],
-        'organization' => $dnsQuery['organization'],
-        'country' => $dnsQuery['country'],
-        'resolveTo' => $ipWhois,
+        'org' => isset($whois['org']) ? $whois['org'] : null,
+        'country' => isset($whois['country']) ? $whois['country'] : null,
+        'resolutions' => $resolutions,
     );
-}
-
-function getMultiUrlContent($baseUrl, $ips) {
-    $curly = array();
-    $data = array();
-    $mh = curl_multi_init();
-    foreach ($ips as $ip) {
-        $curly[$ip] = curl_init();
-        curl_setopt_array($curly[$ip], array(
-            CURLOPT_URL => $baseUrl . $ip,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_SSL_VERIFYHOST => false,
-            CURLOPT_TIMEOUT => 30
-        ));
-        curl_multi_add_handle($mh, $curly[$ip]);
-    }
-
-    $running = null;
-    do {
-        curl_multi_exec($mh, $running);
-    } while ($running > 0);
-
-    foreach($curly as $ip => $c) {
-        $data[$ip] = curl_multi_getcontent($c);
-        curl_multi_remove_handle($mh, $c);
-    }
-
-    curl_multi_close($mh);
-    return $data;
 }

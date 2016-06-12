@@ -102,6 +102,7 @@ function procExtractLog() {
                 'pid' => intval($lineAr[3]),
                 'account' => count($lineAr) == 6 ? $lineAr[4] : null,
                 'host' => strtolower($host),
+                'whois' => getWhois($host, $logsPath)
             );
         }
         fclose($handle);
@@ -114,7 +115,7 @@ function procExtractLog() {
         throw new Exception('No log to process...');
     }
 
-    $csvAll = 'DATE,EXE,PID,ACCOUNT,HOST';
+    $csvAll = 'DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY';
     $csvUnique = $csvAll;
     $dups = array();
     foreach ($results as $result) {
@@ -130,11 +131,18 @@ function procExtractLog() {
             ',' . $result['pid'] .
             ',' . $result['account'] .
             ',' . $result['host'];
+        if (is_array($result['whois'])) {
+            $csvAll .= ',' . $result['whois']['org'] . ',' . $result['whois']['country'];
+        } else {
+            $csvAll .= ',,';
+        }
 
         // Check duplicates
         $depRes = $result;
         unset($depRes['date']);
         unset($depRes['pid']);
+        unset($depRes['resolutions']);
+        unset($depRes['whois']);
         $dup = md5(serialize($depRes));
         if (in_array($dup, $dups)) {
             continue;
@@ -148,12 +156,40 @@ function procExtractLog() {
             ',' . $result['pid'] .
             ',' . $result['account'] .
             ',' . $result['host'];
+        if (is_array($result['whois'])) {
+            $csvUnique .= ',' . $result['whois']['org'] . ',' . $result['whois']['country'];
+        } else {
+            $csvUnique .= ',,';
+        }
     }
 
-    arsort($hosts);
-    $csvHostsCount = 'HOST,COUNT';
+    $hosts = sortHostsByKey($hosts);
+    $csvHostsCount = 'HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN';
     foreach ($hosts as $host => $count) {
         $csvHostsCount .= PHP_EOL . $host . ',' . $count;
+        $whois = getWhois($host, $logsPath);
+        if (is_array($whois)) {
+            $csvHostsCount .= ',' . $whois['org'] . ',' . $whois['country'];
+        } else {
+            $csvHostsCount .= ',,';
+        }
+        $resolutions = null;
+        if (filter_var($host, FILTER_VALIDATE_IP)) {
+            $resolutions = getResolutions($host, $logsPath);
+        }
+        if (is_array($resolutions)) {
+            $i = 0;
+            foreach ($resolutions as $resolution) {
+                if ($i == 0) {
+                    $csvHostsCount .= ',' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                } else {
+                    $csvHostsCount .= PHP_EOL . ',,,,' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                }
+                $i++;
+            }
+        } else {
+            $csvHostsCount .= ',,';
+        }
     }
 
     $csvHostsCountsFile = $logsPath . '/proxifier-hosts-count.csv';
@@ -219,14 +255,15 @@ function getHost($lineAr) {
             return null;
         }
     }
+    $host = $elt;
     if (filter_var($elt, FILTER_VALIDATE_IP)) {
-        $ipWhois = getResolvedIp($elt, $logsPath);
-        if ($ipWhois != null) {
-            $elt = $ipWhois;
+        $resolutions = getResolutions($elt, $logsPath);
+        if (is_array($resolutions)) {
+            $host = $resolutions[0]['ipOrDomain'];
         }
     }
     foreach ($config['exclude']['hosts'] as $hostExpr) {
-        if (isHostExpr($elt, $hostExpr)) {
+        if (isHostExpr($host, $hostExpr)) {
             return null;
         }
     }

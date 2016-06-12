@@ -1,33 +1,38 @@
-HOST,COUNT
-win10.ipv6.microsoft.com,4048
-ssw.live.com,4032
-settings-win.data.microsoft.com,1358
-cdn.content.prod.cms.msn.com,1275
-v10.vortex-win.data.microsoft.com,910
-tile-service.weather.microsoft.com,425
-oem.twimg.com,425
-officeclient.microsoft.com,253
-wpad,252
-login.live.com,51
-fe2.update.microsoft.com,43
-isatap,42
-sls.update.microsoft.com,30
-sway-cdn.com,27
-ctldl.windowsupdate.com,16
-v4.download.windowsupdate.com,15
-au.v4.download.windowsupdate.com,12
-ocsp.usertrust.com,10
-fe3.delivery.mp.microsoft.com,10
-go.microsoft.com,10
-candycrushsoda.king.com,10
-licensing.mp.microsoft.com,6
-pbs.twimg.com,6
-watson.telemetry.microsoft.com,5
-ocsp.comodoca.com,5
-oneclient.sfx.ms,5
-device.auth.xboxlive.com,5
-s2.symcb.com,5
-g.live.com,5
-ocsp.msocsp.com,5
-telecommand.telemetry.microsoft.com,2
-settings.data.microsoft.com,1
+HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
+169.254.177.157,6,Internet Assigned Numbers Authority (IANA),US,,
+au.v4.download.windowsupdate.com,36,Akamai Technologies. Inc. (AKAMAI),US,,
+candycrushsoda.king.com,35,King,SE,,
+cdn.content.prod.cms.msn.com,3682,Akamai Technologies. Inc. (AKAMAI),US,,
+client.wns.windows.com,506,Microsoft Corp (MSFT-Z),US,,
+ctldl.windowsupdate.com,48,Akamai Technologies. Inc. (AKAMAI),US,,
+device.auth.xboxlive.com,10,Microsoft Corp (MSFT-Z),US,,
+dl.delivery.mp.microsoft.com,20,Akamai Technologies. Inc. (AKAMAI),US,,
+fe2.update.microsoft.com,111,Microsoft Corp (MSFT-Z),US,,
+fe3.delivery.mp.microsoft.com,45,Microsoft Corporation (MSFT),US,,
+g.live.com,16,Microsoft Corporation (MSFT),US,,
+go.microsoft.com,30,Akamai Technologies. Inc. (AKAMAI),US,,
+isatap,128,,,,
+licensing.mp.microsoft.com,39,Microsoft Corporation (MSFT),US,,
+login.live.com,147,Microsoft Corp (MSFT-Z),US,,
+ocsp.comodoca.com,10,Comodo CA,GB,,
+ocsp.msocsp.com,10,CloudFlare. Inc. (CLOUD14),US,,
+ocsp.usertrust.com,20,Comodo CA,GB,,
+oem.twimg.com,1231,Twitter Inc. (TWITT),US,,
+officeclient.microsoft.com,755,Microsoft Corp (MSFT-Z),US,,
+oneclient.sfx.ms,15,Akamai Technologies. Inc. (AKAMAI),US,,
+pbs.twimg.com,6,Twitter Inc. (TWITT),US,,
+s2.symcb.com,10,Akamai Technologies. Inc. (AKAMAI),US,,
+settings-win.data.microsoft.com,3924,Microsoft Corporation (MSFT),US,,
+settings.data.microsoft.com,2,Microsoft Corporation (MSFT),US,,
+sls.update.microsoft.com,92,Microsoft Corporation (MSFT),US,,
+ssw.live.com,11824,Microsoft Corporation (MSFT),US,,
+sway-cdn.com,72,Akamai Technologies. Inc. (AKAMAI),US,,
+telecommand.telemetry.microsoft.com,4,Microsoft Corporation (MSFT),US,,
+tile-service.weather.microsoft.com,1230,Akamai Technologies. Inc. (AKAMAI),US,,
+tlu.dl.delivery.mp.microsoft.com,34,Akamai Technologies. Inc. (AKAMAI),US,,
+tsfe.trafficshaping.dsp.mp.microsoft.com,25,Microsoft Corporation (MSFT),US,,
+v10.vortex-win.data.microsoft.com,2570,Microsoft Corporation (MSFT),US,,
+v4.download.windowsupdate.com,135,Akamai Technologies. Inc. (AKAMAI),US,,
+watson.telemetry.microsoft.com,10,Microsoft Corporation (MSFT),US,,
+win10.ipv6.microsoft.com,11917,Microsoft Corporation (MSFT),US,,
+wpad,752,,,,

@@ -1,25 +1,30 @@
-DATE,EXE,PID,ACCOUNT,HOST
-2016.06.07 01:14:53,svchost.exe,912,System,teredo.ipv6.microsoft.com
-2016.06.07 01:16:23,svchost.exe,908,System,wpad
-2016.06.07 01:16:23,svchost.exe,940,System,isatap
-2016.06.07 01:16:25,svchost.exe,1180,System,settings-win.data.microsoft.com
-2016.06.07 01:16:49,svchost.exe,1180,System,vortex-win.data.microsoft.com
-2016.06.07 01:16:51,svchost.exe,940,System,ds.download.windowsupdate.com
-2016.06.07 01:16:51,svchost.exe,940,System,fe2.update.microsoft.com
-2016.06.07 01:17:24,svchost.exe,940,System,download.windowsupdate.com
-2016.06.07 01:19:51,svchost.exe,940,System,au.download.windowsupdate.com
-2016.06.07 01:20:12,wermgr.exe,1532,System,watson.microsoft.com
-2016.06.07 01:23:23,svchost.exe,908,System,time.windows.com
-2016.06.07 01:24:03,GWXConfigManager.exe,2844,System,g.bing.com
-2016.06.07 01:24:08,GWXConfigManager.exe,2844,System,go.microsoft.com
-2016.06.07 01:24:18,GWXConfigManager.exe,2844,System,wscont.apps.microsoft.com
-2016.06.07 01:25:40,GWXConfigManager.exe,2844,System,wscont.apps.microsoft.com.edgesuite.net
-2016.06.07 01:30:05,Sysmon.exe,1228,System,www.microsoft.com
-2016.06.07 01:41:39,svchost.exe,284,System,crl.microsoft.com
-2016.06.07 01:41:44,svchost.exe,284,System,www.microsoft.com
-2016.06.07 01:53:15,PING.EXE,2828,,time.windows.com
-2016.06.07 04:20:13,CompatTelRunner.exe,904,System,settings-win.data.microsoft.com
-2016.06.07 04:21:11,CompatTelRunner.exe,904,System,go.microsoft.com
-2016.06.07 09:44:05,GWXDetector.exe,1476,System,g.bing.com
-2016.06.07 12:13:42,svchost.exe,284,System,ctldl.windowsupdate.com
-2016.06.08 01:27:10,svchost.exe,856,System,001f90-1.l.windowsupdate.com
+DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
+2016.06.07 01:14:53,svchost.exe,912,System,teredo.ipv6.microsoft.com,,
+2016.06.07 01:16:23,svchost.exe,908,System,wpad,,
+2016.06.07 01:16:23,svchost.exe,940,System,isatap,,
+2016.06.07 01:16:25,svchost.exe,1180,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.06.07 01:16:49,svchost.exe,1180,System,vortex-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.06.07 01:16:51,svchost.exe,940,System,ds.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:16:51,svchost.exe,940,System,fe2.update.microsoft.com,Microsoft Corp (MSFT-Z),US
+2016.06.07 01:17:24,svchost.exe,940,System,download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:19:51,svchost.exe,940,System,au.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:20:12,wermgr.exe,1532,System,watson.microsoft.com,Microsoft Corporation (MSFT),US
+2016.06.07 01:23:23,svchost.exe,908,System,time.windows.com,Microsoft Corporation (MSFT),US
+2016.06.07 01:24:03,GWXConfigManager.exe,2844,System,g.bing.com,Microsoft Corporation (MSFT),US
+2016.06.07 01:24:08,GWXConfigManager.exe,2844,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:24:18,GWXConfigManager.exe,2844,System,wscont.apps.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:25:40,GWXConfigManager.exe,2844,System,wscont.apps.microsoft.com.edgesuite.net,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:30:05,Sysmon.exe,1228,System,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:41:39,svchost.exe,284,System,crl.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:41:44,svchost.exe,284,System,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 01:53:15,PING.EXE,2828,,time.windows.com,Microsoft Corporation (MSFT),US
+2016.06.07 04:20:13,CompatTelRunner.exe,904,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.06.07 04:21:11,CompatTelRunner.exe,904,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.07 09:44:05,GWXDetector.exe,1476,System,g.bing.com,Microsoft Corporation (MSFT),US
+2016.06.07 12:13:42,svchost.exe,284,System,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.08 01:27:10,svchost.exe,856,System,001f90-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
+2016.06.08 19:48:26,Sysmon.exe,1244,System,ocsp.usertrust.com,Comodo CA,GB
+2016.06.08 19:48:37,Sysmon.exe,1244,System,ocsp.comodoca.com,Comodo CA,GB
+2016.06.08 19:48:42,Sysmon.exe,1244,System,crl.comodoca.com,CloudFlare. Inc. (CLOUD14),US
+2016.06.10 12:48:23,svchost.exe,316,System,www.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.06.10 18:24:51,svchost.exe,852,System,wscont.apps.microsoft.com.edgesuite.net,Akamai Technologies. Inc. (AKAMAI),US

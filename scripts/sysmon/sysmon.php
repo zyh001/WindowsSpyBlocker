@@ -165,14 +165,11 @@ function procExtractEventLog() {
             $results[] = array(
                 'date' => $strings[0],
                 'process' => $strings[3],
-                'user' => $strings[4],
                 'protocol' => $strings[5],
-                'srcIp' => !empty($strings[9]) ? $strings[9] : $strings[8],
-                'srcPort' => intval($strings[10]),
-                'srcPortName' => trim($strings[11]),
                 'destIp' => strtolower($destIp),
                 'destPort' => intval($strings[15]),
                 'destPortName' => trim($strings[16]),
+                'whois' => getWhois($destIp, $logsPath)
             );
         }
         fclose($handle);
@@ -185,7 +182,7 @@ function procExtractEventLog() {
         throw new Exception('No log to process...');
     }
 
-    $csvAll = 'DATE,PROCESS,USER,PROTOCOL,SRC_IP,SRC_PORT,SRC_PORT_NAME,DEST_IP,DEST_PORT,DEST_PORT_NAME';
+    $csvAll = 'DATE,PROCESS,PROTOCOL,DEST_IP,DEST_PORT,DEST_PORT_NAME,ORGANIZATION,COUNTRY';
     $csvUnique = $csvAll;
     $dups = array();
     foreach ($results as $result) {
@@ -198,22 +195,19 @@ function procExtractEventLog() {
         // CSV all
         $csvAll .= PHP_EOL . $result['date'] .
             ',' . $result['process'] .
-            ',' . $result['user'] .
             ',' . $result['protocol'] .
-            ',' . $result['srcIp'] .
-            ',' . $result['srcPort'] .
-            ',' . $result['srcPortName'] .
             ',' . $result['destIp'] .
             ',' . $result['destPort'] .
             ',' . $result['destPortName'];
+        if (is_array($result['whois'])) {
+            $csvAll .= ',' . $result['whois']['org'] . ',' . $result['whois']['country'];
+        } else {
+            $csvAll .= ',,';
+        }
 
         // Check duplicates
         $depRes = $result;
         unset($depRes['date']);
-        unset($depRes['user']);
-        unset($depRes['srcIp']);
-        unset($depRes['srcPort']);
-        unset($depRes['srcPortName']);
         unset($depRes['destPort']);
         $dup = md5(serialize($depRes));
         if (in_array($dup, $dups)) {
@@ -225,20 +219,44 @@ function procExtractEventLog() {
         // CSV unique
         $csvUnique .= PHP_EOL . $result['date'] .
             ',' . $result['process'] .
-            ',' . $result['user'] .
             ',' . $result['protocol'] .
-            ',' . $result['srcIp'] .
-            ',' . $result['srcPort'] .
-            ',' . $result['srcPortName'] .
             ',' . $result['destIp'] .
             ',' . $result['destPort'] .
             ',' . $result['destPortName'];
+        if (is_array($result['whois'])) {
+            $csvUnique .= ',' . $result['whois']['org'] . ',' . $result['whois']['country'];
+        } else {
+            $csvUnique .= ',,';
+        }
     }
 
-    arsort($hosts);
-    $csvHostsCount = 'HOST,COUNT';
+    $hosts = sortHostsByKey($hosts);
+    $csvHostsCount = 'HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN';
     foreach ($hosts as $host => $count) {
         $csvHostsCount .= PHP_EOL . $host . ',' . $count;
+        $whois = getWhois($host, $logsPath);
+        if (is_array($whois)) {
+            $csvHostsCount .= ',' . $whois['org'] . ',' . $whois['country'];
+        } else {
+            $csvHostsCount .= ',,';
+        }
+        $resolutions = null;
+        if (filter_var($host, FILTER_VALIDATE_IP)) {
+            $resolutions = getResolutions($host, $logsPath);
+        }
+        if (is_array($resolutions)) {
+            $i = 0;
+            foreach ($resolutions as $resolution) {
+                if ($i == 0) {
+                    $csvHostsCount .= ',' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                } else {
+                    $csvHostsCount .= PHP_EOL . ',,,,' . $resolution['date'] . ',' . $resolution['ipOrDomain'];
+                }
+                $i++;
+            }
+        } else {
+            $csvHostsCount .= ',,';
+        }
     }
 
     $csvHostsCountsFile = $logsPath . '/sysmon-hosts-count.csv';
@@ -262,14 +280,15 @@ function getHost($destIp, $destHost) {
             return null;
         }
     }
+    $host = $destHost;
     if (empty($destHost) && filter_var($destIp, FILTER_VALIDATE_IP)) {
-        $ipWhois = getResolvedIp($destIp, $logsPath);
-        if ($ipWhois != null) {
-            $destHost = $ipWhois;
+        $resolutions = getResolutions($destIp, $logsPath);
+        if (is_array($resolutions)) {
+            $host = $resolutions[0]['ipOrDomain'];
         }
     }
     foreach ($config['exclude']['hosts'] as $hostExpr) {
-        if (isHostExpr($destHost, $hostExpr)) {
+        if (isHostExpr($host, $hostExpr)) {
             return null;
         }
     }
