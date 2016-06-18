@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.3.1 (2016/06/18)
+
+* New hosts and firewall rules
+* Fix login problem on Windows Store (Issue #15)
+
 ## 3.3.0 (2016/06/12)
 
 * New hosts and firewall rules

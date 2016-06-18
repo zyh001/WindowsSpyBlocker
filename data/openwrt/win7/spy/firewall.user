@@ -10,6 +10,7 @@ iptables -I FORWARD -j DROP -d 64.4.54.253
 iptables -I FORWARD -j DROP -d 65.55.44.108
 iptables -I FORWARD -j DROP -d 65.55.252.71
 iptables -I FORWARD -j DROP -d 65.55.252.93
+iptables -I FORWARD -j DROP -d 66.119.144.157
 iptables -I FORWARD -j DROP -d 66.119.144.158
 iptables -I FORWARD -j DROP -d 111.221.29.253
 iptables -I FORWARD -j DROP -d 134.170.51.247

@@ -1,56 +1,45 @@
 HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-2.18.213.81,16,AS20940 Akamai International B.V.,EU,,
-2.19.182.135,4,AS20940 Akamai International B.V.,EU,2015-08-11,static-health-eus.s-msn.com
-,,,,2015-04-13,e7070.g.akamaiedge.net.0.1.cn.akamaiedge.net
-,,,,2014-10-14,sin.stb.s-msn.com
-,,,,2014-09-16,e7070.g.akamaiedge.net
-,,,,2013-09-05,db3.stc.s-msn.com
-,,,,2013-09-05,db2.stb00.s-msn.com
-,,,,2013-09-05,db2.stc.s-msn.com
-,,,,2013-09-05,db2.stj.s-msn.com
-,,,,2013-09-05,db2.stb01.s-msn.com
-23.2.118.135,4,AS20940 Akamai International B.V.,NL,,a23-2-118-135.deploy.static.akamaitechnologies.com
-,,,,2015-03-17,e7070.g.akamaiedge.net
-23.35.118.135,4,AS20940 Akamai International B.V.,NL,,a23-35-118-135.deploy.static.akamaitechnologies.com
-,,,,2015-01-31,e7070.g.akamaiedge.net
-88.221.117.72,16,AS20940 Akamai International B.V.,EU,,a88-221-117-72.deploy.akamaitechnologies.com
-104.111.238.232,12,AS20940 Akamai International B.V.,US,,a104-111-238-232.deploy.static.akamaitechnologies.com
-184.87.220.165,4,AS20940 Akamai International B.V.,NL,,a184-87-220-165.deploy.static.akamaitechnologies.com
-au.v4.download.windowsupdate.com,148,Akamai Technologies. Inc. (AKAMAI),US,,
+2.18.213.59,16,AS20940 Akamai International B.V.,EU,,
+23.74.86.135,4,AS20940 Akamai International B.V.,NL,,a23-74-86-135.deploy.static.akamaitechnologies.com
+88.221.129.30,4,AS20940 Akamai International B.V.,EU,,a88-221-129-30.deploy.akamaitechnologies.com
+au.v4.download.windowsupdate.com,278,Akamai Technologies. Inc. (AKAMAI),US,,
+bg2.v4.a.dl.ws.microsoft.com,13,Level 3 Communications. Inc. (LVLT),US,,
+bg2.v4.emdl.ws.microsoft.com,10,Akamai Technologies. Inc. (AKAMAI),US,,
+bg5.v4.a.dl.ws.microsoft.com,9,Level 3 Communications. Inc. (LVLT),US,,
+bg5.v4.emdl.ws.microsoft.com,6,Akamai Technologies. Inc. (AKAMAI),US,,
+compatexchange1.trafficmanager.net,5,Microsoft Corporation (MSFT),US,,
 ctldl.windowsupdate.com,44,Akamai Technologies. Inc. (AKAMAI),US,,
-fe2.update.microsoft.com,121,Microsoft Corp (MSFT-Z),US,,
-fe2.wq.microsoft.com,1,,,,
-fe2.ws.microsoft.com,46,Microsoft Corporation (MSFT),US,,
-fg.v4.download.windowsupdate.com,13,Akamai Technologies. Inc. (AKAMAI),US,,
-finance.services.appex.bing.com,1089,Akamai Technologies. Inc. (AKAMAI),US,,
-foodanddrink.tile.appex.bing.com,842,TATA COMMUNICATIONS (AMERICA) INC (TCA-51),US,,
-fr-fr.appex-rf.msn.com,2850,Akamai Technologies. Inc. (AKAMAI),US,,
-g.bing.com,130,Microsoft Corporation (MSFT),US,,
-go.microsoft.com,160,Akamai Technologies. Inc. (AKAMAI),US,,
-img.s-msn.com,28,Akamai Technologies. Inc. (AT-80),US,,
-img.stb.s-msn.com,552,Akamai Technologies. Inc. (AT-80),US,,
-isatap,129,,,,
-login.live.com,33,Microsoft Corp (MSFT-Z),US,,
-next-services.apps.microsoft.com,54,Microsoft Corp (MSFT-Z),US,,
-ocsp.comodoca.com,10,Comodo CA,GB,,
-ocsp.msocsp.com,5,CloudFlare. Inc. (CLOUD14),US,,
-ocsp.usertrust.com,20,Comodo CA,GB,,
-s2.symcb.com,1,Akamai Technologies. Inc. (AKAMAI),US,,
-service.weather.microsoft.com,600,Akamai Technologies. Inc. (AKAMAI),US,,
+dmd.metaservices.microsoft.com,5,Microsoft Corporation (MSFT),US,,
+fe2.update.microsoft.com,136,Microsoft Corp (MSFT-Z),US,,
+fe2.ws.microsoft.com,70,Microsoft Corporation (MSFT),US,,
+fg.v4.download.windowsupdate.com,4,Akamai Technologies. Inc. (AKAMAI),US,,
+finance.services.appex.bing.com,1379,Akamai Technologies. Inc. (AKAMAI),US,,
+foodanddrink.tile.appex.bing.com,1384,TATA COMMUNICATIONS (AMERICA) INC (TCA-51),US,,
+fr-fr.appex-rf.msn.com,3242,Akamai Technologies. Inc. (AKAMAI),US,,
+g.bing.com,239,Microsoft Corporation (MSFT),US,,
+go.microsoft.com,250,Akamai Technologies. Inc. (AKAMAI),US,,
+img.s-msn.com,40,Akamai Technologies. Inc. (AT-80),US,,
+img.stb.s-msn.com,747,Akamai Technologies. Inc. (AT-80),US,,
+isatap,152,,,,
+login.live.com,47,Microsoft Corp (MSFT-Z),US,,
+next-services.apps.microsoft.com,64,Microsoft Corp (MSFT-Z),US,,
+ocsp.comodoca.com,5,Comodo CA,GB,,
+ocsp.msocsp.com,10,CloudFlare. Inc. (CLOUD14),US,,
+ocsp.usertrust.com,10,Comodo CA,GB,,
+s2.symcb.com,6,Akamai Technologies. Inc. (AKAMAI),US,,
+service.weather.microsoft.com,756,Akamai Technologies. Inc. (AKAMAI),US,,
 settings-win.data.microsoft.com,10,Microsoft Corporation (MSFT),US,,
-sls.update.microsoft.com,44,Microsoft Corporation (MSFT),US,,
-sqm.telemetry.microsoft.com,38,Microsoft Corporation (MSFT),US,,
-statsfe2.update.microsoft.com,65,Microsoft Corporation (MSFT),US,,
-statsfe2.ws.microsoft.com,35,Microsoft Corporation (MSFT),US,,
-tele.trafficmanager.net,25,Microsoft Informatica Ltda,BR,,
-telecommand.telemetry.microsoft.com,25,Microsoft Corporation (MSFT),US,,
-time.windows.com,1,Microsoft Corporation (MSFT),US,,
-v4.download.windowsupdate.com,39,Akamai Technologies. Inc. (AKAMAI),US,,
-vortex-win.data.microsoft.com,25,Microsoft Corporation (MSFT),US,,
-watson.telemetry.microsoft.com,8,Microsoft Corporation (MSFT),US,,
-win8.ipv6.microsoft.com,15,Microsoft Corporation (MSFT),US,,
-wpad,749,,,,
-wscont.apps.microsoft.com,85,Akamai Technologies. Inc. (AKAMAI),US,,
-wscont.apps.microsoft.com.edgesuite.net,70,Akamai Technologies. Inc. (AKAMAI),US,,
-wscont1.apps.microsoft.com,39,Qwest Communications Company. LLC (QCC-18),US,,
-wscont2.apps.microsoft.com,32,Akamai Technologies. Inc. (AKAMAI),US,,
+sls.update.microsoft.com,50,Microsoft Corporation (MSFT),US,,
+sqm.telemetry.microsoft.com,47,Microsoft Corporation (MSFT),US,,
+statsfe2.update.microsoft.com,75,Microsoft Corporation (MSFT),US,,
+statsfe2.ws.microsoft.com,45,Microsoft Corporation (MSFT),US,,
+tele.trafficmanager.net,30,Microsoft Informatica Ltda,BR,,
+telecommand.telemetry.microsoft.com,30,Microsoft Corporation (MSFT),US,,
+time.windows.com,6,Microsoft Corporation (MSFT),US,,
+v4.download.windowsupdate.com,45,Akamai Technologies. Inc. (AKAMAI),US,,
+vortex-win.data.microsoft.com,30,Microsoft Corporation (MSFT),US,,
+wpad,910,,,,
+wscont.apps.microsoft.com,110,Akamai Technologies. Inc. (AKAMAI),US,,
+wscont.apps.microsoft.com.edgesuite.net,90,Akamai Technologies. Inc. (AKAMAI),US,,
+wscont1.apps.microsoft.com,57,Qwest Communications Company. LLC (QCC-18),US,,
+wscont2.apps.microsoft.com,45,Akamai Technologies. Inc. (AKAMAI),US,,
