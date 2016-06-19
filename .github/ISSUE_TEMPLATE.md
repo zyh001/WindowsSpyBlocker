@@ -1,6 +1,6 @@
 #### Please first
 * Read the FAQ : https://github.com/crazy-max/WindowsSpyBlocker/wiki/FAQ
-* Search for existing issues : https://github.com/crazy-max/neard/issues
+* Search for existing issues : https://github.com/crazy-max/WindowsSpyBlocker/issues
 
 #### Steps to reproduce this issue
 1.
