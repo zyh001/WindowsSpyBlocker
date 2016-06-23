@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.4.0 (2016/06/24)
+
+* New hosts and firewall rules
+* Scripts more verbose
+* Skip diff if file not exist
+
 ## 3.3.1 (2016/06/18)
 
 * New hosts and firewall rules

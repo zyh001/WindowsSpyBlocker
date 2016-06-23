@@ -80,6 +80,8 @@ iptables -I FORWARD -j DROP -d 131.253.14.153
 iptables -I FORWARD -j DROP -d 131.253.40.37
 iptables -I FORWARD -j DROP -d 134.170.30.202
 iptables -I FORWARD -j DROP -d 134.170.52.151
+iptables -I FORWARD -j DROP -d 134.170.106.176
+iptables -I FORWARD -j DROP -d 134.170.106.200
 iptables -I FORWARD -j DROP -d 134.170.178.97
 iptables -I FORWARD -j DROP -d 134.170.179.87
 iptables -I FORWARD -j DROP -d 134.170.185.70

@@ -51,6 +51,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-12-30,bbcertificate.blob.core.windows.net
 23.99.49.121,AS8075 Microsoft Corporation,US,2016-05-19,telecommand0.cloudapp.net
 ,,,2015-08-12,tele.trafficmanager.net
+23.103.189.125,AS8075 Microsoft Corporation,US,2015-11-05,fe2.update.microsoft.com.akadns.net
+,,,2015-11-04,fe2.update.microsoft.com
 23.103.189.126,AS8075 Microsoft Corporation,US,,
 23.103.189.157,AS8075 Microsoft Corporation,US,2016-04-23,fe2.update.microsoft.com.nsatc.net
 ,,,2015-12-02,fe2.update.microsoft.com
@@ -58,28 +60,32 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 64.4.27.50,AS8075 Microsoft Corporation,US,2016-06-09,fe2.ws.microsoft.com.nsatc.net
 ,,,2016-05-10,fe1.ws.microsoft.com.nsatc.net
 ,,,2015-06-07,fe2.ws.microsoft.com
-64.4.54.253,AS8075 Microsoft Corporation,US,2016-06-17,asimov-win.settings.data.microsoft.com.akadns.net
-,,,2016-06-16,geo.settings.data.microsoft.com.akadns.net
-,,,2016-06-15,cy2.settings.data.microsoft.com.akadns.net
-,,,2016-06-15,asimov.settings.data.microsoft.com.akadns.net
+64.4.54.253,AS8075 Microsoft Corporation,US,2016-06-23,geo.settings.data.microsoft.com.akadns.net
+,,,2016-06-23,cy2.settings.data.microsoft.com.akadns.net
+,,,2016-06-22,asimov-win.settings.data.microsoft.com.akadns.net
+,,,2016-06-20,asimov.settings.data.microsoft.com.akadns.net
+,,,2016-06-20,settings-win.data.microsoft.com
 ,,,2016-06-13,settings.data.microsoft.com
-,,,2016-06-10,settings-win.data.microsoft.com
 ,,,2016-04-01,onesettings-cy2.metron.live.com.nsatc.net
 ,,,2015-06-21,settings.data.glbdns2.microsoft.com
-65.55.113.11,AS8075 Microsoft Corporation,US,2016-06-16,dmd.metaservices.microsoft.com.akadns.net
+65.55.113.11,AS8075 Microsoft Corporation,US,2016-06-20,dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-05-09,gamesudf.metaservices.microsoft.com
 ,,,2014-01-23,dmd.metaservices.microsoft.com
-65.55.252.93,AS8075 Microsoft Corporation,US,2016-06-06,sqm.telemetry.microsoft.com.nsatc.net
-,,,2016-05-21,sqm.telemetry.microsoft.com
+65.55.252.93,AS8075 Microsoft Corporation,US,2016-06-23,sqm.telemetry.microsoft.com
+,,,2016-06-06,sqm.telemetry.microsoft.com.nsatc.net
 ,,,2015-08-11,sqm.msn.com
 ,,,2015-08-07,www.sqm.microsoft.com
 ,,,2015-08-07,sqm.microsoft.com
-65.55.252.190,AS8075 Microsoft Corporation,US,2016-05-24,telecommand.telemetry.microsoft.com
-,,,2016-05-24,telecommand.telemetry.microsoft.com.nsatc.net
+65.55.252.190,AS8075 Microsoft Corporation,US,2016-06-21,telecommand.telemetry.microsoft.com.nsatc.net
+,,,2016-05-24,telecommand.telemetry.microsoft.com
 ,,,2016-03-06,co4.telecommand.telemetry.microsoft.com.akadns.net
 66.119.144.158,AS8075 Microsoft Corporation,US,2016-05-30,fe2.update.microsoft.com
 ,,,2016-01-11,fe2.update.microsoft.com.nsatc.net
+66.119.144.190,AS8075 Microsoft Corporation,US,2016-03-25,fe2.update.microsoft.com.nsatc.net
+,,,2016-02-17,fe2.update.microsoft.com.akadns.net
+,,,2015-05-07,fe1.update.microsoft.com
+,,,2015-04-21,fe2.update.microsoft.com
 104.43.237.169,AS8075 Microsoft Corporation,US,2015-05-27,aeos.microsoft.com
 134.170.30.203,AS8075 Microsoft Corporation,US,2016-06-03,services.apps.microsoft.com.nsatc.net
 ,,,2013-10-10,next-services.apps.microsoft.com
@@ -95,7 +101,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-05-04,spynetall.microsoft.akadns.net
 ,,,2014-10-14,spynet2.microsoft.com
 ,,,2014-09-16,spyneteurope.microsoft.akadns.net
-157.55.133.204,AS8075 Microsoft Corporation,US,2015-11-03,sls.update.microsoft.com.nsatc.net
+157.55.133.204,AS8075 Microsoft Corporation,US,2016-06-18,sls.update.microsoft.com.nsatc.net
 157.56.194.72,AS8075 Microsoft Corporation,IE,2014-09-18,services-perf.windows.akadns.net
 157.56.194.73,AS8075 Microsoft Corporation,IE,2015-10-22,next-services.apps.microsoft.com
 ,,,2014-09-16,services-perf.windows.akadns.net
