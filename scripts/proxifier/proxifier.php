@@ -96,6 +96,7 @@ function procExtractLog() {
                 continue;
             }
 
+            echo PHP_EOL . '  Found ' . strtolower($host);
             $results[] = array(
                 'date' => str_replace('[', '', $lineAr[0]) . ' ' . str_replace(']', '', $lineAr[1]),
                 'exe' => $lineAr[2],
@@ -108,7 +109,7 @@ function procExtractLog() {
         fclose($handle);
     }
 
-    echo PHP_EOL . 'Lines: ' . $nbLines ;
+    echo PHP_EOL . PHP_EOL . 'Lines: ' . $nbLines ;
     echo PHP_EOL . 'To process: ' . count($results) . ' (' . count($excluded) . ' excluded)' . PHP_EOL;
 
     if (count($results) == 0) {

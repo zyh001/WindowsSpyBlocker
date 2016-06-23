@@ -94,8 +94,11 @@ function procExtractLog() {
                 $excluded[] = strtolower($lineExp[0]);
                 continue;
             }
+
+            echo PHP_EOL . '  Found ' . strtolower($ip);
             $resolutions = getResolutions($ip, $logsPath);
             $whois = getWhois($ip, $logsPath);
+
             $results[$ip] = array(
                 'count' => $lineExp[1],
                 'resolutions' => $resolutions,
@@ -105,7 +108,7 @@ function procExtractLog() {
         fclose($handle);
     }
 
-    echo PHP_EOL . count($results) . ' found (' . count($excluded) . ' excluded)' . PHP_EOL;
+    echo PHP_EOL . PHP_EOL . count($results) . ' found (' . count($excluded) . ' excluded)' . PHP_EOL;
 
     if (count($results) == 0) {
         throw new Exception('No log to process...');

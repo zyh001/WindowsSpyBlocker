@@ -162,6 +162,7 @@ function procExtractEventLog() {
                 continue;
             }
 
+            echo PHP_EOL . '  Found ' . strtolower($destIp);
             $results[] = array(
                 'date' => $strings[0],
                 'process' => $strings[3],
@@ -175,8 +176,8 @@ function procExtractEventLog() {
         fclose($handle);
     }
 
-    echo PHP_EOL . '  Lines: ' . $nbLines;
-    echo PHP_EOL . '  To process: ' . count($results) . ' (' . count($excluded) . ' excluded)' . PHP_EOL;
+    echo PHP_EOL . PHP_EOL . 'Lines: ' . $nbLines;
+    echo PHP_EOL . 'To process: ' . count($results) . ' (' . count($excluded) . ' excluded)' . PHP_EOL;
 
     if (count($results) == 0) {
         throw new Exception('No log to process...');
