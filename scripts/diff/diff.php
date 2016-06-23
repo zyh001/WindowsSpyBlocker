@@ -246,6 +246,7 @@ function procWireshark($os, $diffs = null) {
 
 function hostsCountCsv($os, $name, $diffs = null) {
     global $logsPath;
+    $result = array();
     $all = $diffs != null;
     $diffs = $diffs != null ? $diffs : getDiffs($os);
 
@@ -258,11 +259,11 @@ function hostsCountCsv($os, $name, $diffs = null) {
 
     $csv = $logsPath . '/' . $os . '/' . strtolower($name) . '-hosts-count.csv';
     if (!file_exists($csv)) {
-        echo $all ? PHP_EOL : '';
-        throw new Exception('CSV file not found: ' . $csv);
+        return $result;
+        //echo $all ? PHP_EOL : '';
+        //throw new Exception('CSV file not found: ' . $csv);
     }
 
-    $result = array();
     if (($handle = fopen($csv, 'r')) !== false) {
         while (($data = fgetcsv($handle)) !== false) {
             if (empty($data[0]) || $data[0] == 'HOST') {
