@@ -134,10 +134,10 @@ Logs of tools used to capture traffic and resolution of firewall rules in CSV fo
 Several scripts are used to ease implementation of rules and contribution. To use these scripts you have to download and install the [Visual C++ Redistributable for Visual Studio 2012](https://www.microsoft.com/en-us/download/details.aspx?id=30679) (vcredist_x86.exe).
 * `diff.bat` : Generate a diff log based on CSV logs and data for Sysmon, Proxifier and Wireshark.
 * `firewall.bat` : Add / remove rules and resolve IPs adresses
-* `ncsi.bat` : Apply an alternate NCSI and test your internet connection the Micrososft way. More info on the [FAQ Wiki page](../../wiki/FAQ#what-is-ncsi-).
-* `proxifier.bat` : Extract events from log and generate CSV files. More info on the [Proxifier Wiki page](../../wiki/captureProxifier)
-* `sysmon.bat` : Install / uninstall Sysmon and extract events log then generate CSV files. More info on the [Sysmon Wiki page](../../wiki/captureSysmon)
-* `wireshark.bat` : Extract events log then generate CSV files based on IPv4 hosts. More info on the [Wireshark Wiki page](../../wiki/captureWireshark)
+* `ncsi.bat` : Apply an alternate NCSI and test your internet connection the Microsoft way. [More info...](../../wiki/FAQ#what-is-ncsi-)
+* `proxifier.bat` : Extract events from log and generate CSV files. [More info...](../../wiki/captureProxifier)
+* `sysmon.bat` : Install / uninstall Sysmon and extract events log then generate CSV files. [More info...](../../wiki/captureSysmon)
+* `wireshark.bat` : Extract events log then generate CSV files based on IPv4 hosts. [More info...](../../wiki/captureWireshark)
 
 ## Projects using WindowsSpyBlocker
 
