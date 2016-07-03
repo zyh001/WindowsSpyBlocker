@@ -1,55 +1,87 @@
 DATE,PROCESS,PROTOCOL,DEST_IP,DEST_PORT,DEST_PORT_NAME,ORGANIZATION,COUNTRY
-2016-06-18 18:50:39.360,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,,,
-2016-06-18 18:50:41.421,C:\Windows\System32\svchost.exe,udp,224.0.0.252,5355,llmnr,,
-2016-06-18 18:51:27.040,System,udp,169.254.255.255,137,netbios-ns,Internet Assigned Numbers Authority (IANA),US
-2016-06-18 18:51:27.040,System,udp,169.254.41.242,137,netbios-ns,Internet Assigned Numbers Authority (IANA),US
-2016-06-18 18:51:28.727,C:\Windows\System32\svchost.exe,udp,239.255.255.250,3702,ws-discovery,,
-2016-06-18 18:51:28.790,C:\Windows\System32\svchost.exe,udp,255.255.255.255,67,bootps,,
-2016-06-18 18:51:32.336,C:\Windows\Sysmon.exe,tcp,a23-55-155-27.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-18 18:51:45.491,C:\Windows\Sysmon.exe,tcp,93.184.220.29,80,http,AS15133 EdgeCast Networks. Inc.,US
-2016-06-18 18:51:52.792,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
-2016-06-18 18:51:56.928,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
-2016-06-18 18:52:31.158,System,udp,239.255.255.250,137,netbios-ns,,
-2016-06-18 19:01:27.148,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-207-46-194-14.search.msn.com,80,http,Microsoft Corporation (MSFT),US
-2016-06-18 19:01:27.330,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-206-7-161.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-18 19:01:27.442,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-216-50.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-18 19:01:29.874,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-206-7-161.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-18 19:06:18.681,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-98-138-69.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-18 19:22:21.100,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.139.253,443,https,AS8075 Microsoft Corporation,BR
-2016-06-18 20:23:13.536,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.118,443,https,AS8075 Microsoft Corporation,US
-2016-06-18 20:23:47.543,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-24-203-168.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-18 23:00:02.097,C:\Windows\System32\svchost.exe,udp,40.118.103.7,123,ntp,AS8075 Microsoft Corporation,NL
-2016-06-18 23:00:30.604,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-62-124-108.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
-2016-06-18 23:52:51.198,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-94-186-245.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-19 02:49:48.708,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.60,443,https,AS8075 Microsoft Corporation,US
-2016-06-19 17:50:31.155,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.42,80,http,AS20940 Akamai International B.V.,EU
-2016-06-19 19:52:35.821,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-62-197-99.deploy.static.akamaitechnologies.com,443,https,Akamai International. BV (AIB-17),US
-2016-06-19 19:52:35.933,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-53-26-58.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-19 19:52:38.496,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-62-197-99.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
-2016-06-19 21:07:48.191,C:\Windows\System32\svchost.exe,udp,192.168.1.1,67,bootps,Internet Assigned Numbers Authority (IANA),US
-2016-06-19 23:50:38.359,C:\Windows\System32\svchost.exe,tcp,191.232.139.253,443,https,AS8075 Microsoft Corporation,BR
-2016-06-19 23:51:01.038,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.16.91.188,80,http,AS13335 CloudFlare. Inc.,US
-2016-06-20 02:47:16.252,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.253,443,https,AS8075 Microsoft Corporation,US
-2016-06-20 08:52:39.151,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-38-11-168.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-20 09:05:45.504,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-101-175-67.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-20 09:05:48.179,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-101-175-67.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-20 13:20:51.161,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-98-152-139.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-20 14:21:48.309,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,89.149.175.11,80,http,AS4436 nLayer Communications. Inc.,NL
-2016-06-20 14:21:48.486,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.183,443,https,AS8075 Microsoft Corporation,US
-2016-06-20 22:06:15.240,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-54-136-23.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-21 10:46:07.086,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-1-242-144.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
-2016-06-21 10:46:07.280,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.125,443,https,AS8075 Microsoft Corporation,US
-2016-06-21 10:46:22.292,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-87-248-214-129.lon.llnw.net,80,http,LLNW Europe 2,EU
-2016-06-21 10:46:22.388,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds886.lon.llnw.net,80,http,,
-2016-06-21 12:35:51.181,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-108-78-82.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-21 18:50:51.161,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-103-154-210.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-22 05:50:51.164,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.201,80,http,AS20940 Akamai International B.V.,EU
-2016-06-22 06:16:22.373,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.58,443,https,AS8075 Microsoft Corporation,US
-2016-06-22 06:16:25.814,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,8.254.218.14,80,http,AS3356 Level 3 Communications. Inc.,US
-2016-06-22 06:22:11.326,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-96-27-71.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-22 06:22:14.721,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-96-27-71.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-23 00:05:51.135,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-74-33-44.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
-2016-06-23 02:06:28.525,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-38-13-199.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
-2016-06-23 02:47:16.027,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.51.247,443,https,AS8075 Microsoft Corporation,US
-2016-06-23 14:05:51.162,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a95-101-228-88.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
-2016-06-23 19:27:34.805,C:\Windows\Sysmon.exe,tcp,ocsp.comodoca.com,80,http,Comodo CA,GB
+2016-06-23 19:32:53.148,C:\Windows\System32\svchost.exe,udp,224.0.0.252,5355,llmnr,,
+2016-06-23 19:33:18.636,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-207-46-194-14.search.msn.com,80,http,Microsoft Corporation (MSFT),US
+2016-06-23 19:33:18.733,C:\Windows\System32\svchost.exe,udp,255.255.255.255,67,bootps,,
+2016-06-23 19:33:18.802,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-206-7-161.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-23 19:33:18.931,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-96-23-164.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-23 19:33:21.525,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-206-7-161.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-23 19:39:51.656,C:\Windows\System32\svchost.exe,udp,239.255.255.250,1900,ssdp,,
+2016-06-23 19:59:47.044,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.139.253,443,https,AS8075 Microsoft Corporation,BR
+2016-06-23 20:10:07.765,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-94-186-245.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-23 20:29:47.015,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,eu.vortex.data.microsoft.com,443,https,Microsoft Informatica Ltda,BR
+2016-06-23 21:15:17.188,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-98-138-69.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-23 21:54:14.526,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.189,443,https,AS8075 Microsoft Corporation,US
+2016-06-23 22:30:17.162,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-62-124-108.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-24 01:00:17.199,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-102-214-18.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 01:16:03.157,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-38-13-199.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 01:16:05.610,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.113.13,80,http,AS8075 Microsoft Corporation,US
+2016-06-24 01:16:19.093,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-55-155-27.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 01:16:57.401,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.43.137.66,443,https,AS8075 Microsoft Corporation,US
+2016-06-24 01:16:57.591,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.58,443,https,AS8075 Microsoft Corporation,US
+2016-06-24 01:16:57.873,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,198.41.215.184,80,http,AS13335 CloudFlare. Inc.,US
+2016-06-24 03:00:17.148,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-107-216-160.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 03:45:53.529,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.103.189.157,443,https,AS8075 Microsoft Corporation,US
+2016-06-24 05:00:17.117,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-24-203-168.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 09:33:09.521,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-101-175-67.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 09:33:09.617,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-206-19-241.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 09:33:13.125,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-101-175-67.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-24 18:57:36.909,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.53.30,443,https,AS8075 Microsoft Corporation,US
+2016-06-24 18:57:58.358,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.107.4.50,80,http,AS8068 Microsoft Corporation,US
+2016-06-24 20:30:17.189,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-54-136-23.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-25 01:25:30.518,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.24,80,http,AS20940 Akamai International B.V.,EU
+2016-06-25 01:25:30.752,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.251,443,https,AS8075 Microsoft Corporation,US
+2016-06-25 03:45:53.307,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.118,443,https,AS8075 Microsoft Corporation,US
+2016-06-25 09:30:17.681,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.201,80,http,AS20940 Akamai International B.V.,EU
+2016-06-25 15:38:24.928,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.121,443,https,AS8075 Microsoft Corporation,US
+2016-06-25 22:45:17.202,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-206-26-11.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-25 23:00:01.877,C:\Windows\System32\svchost.exe,udp,40.118.103.7,123,ntp,AS8075 Microsoft Corporation,NL
+2016-06-26 01:17:04.665,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,66.119.144.190,443,https,AS8075 Microsoft Corporation,US
+2016-06-26 03:45:53.413,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.51.247,443,https,AS8075 Microsoft Corporation,US
+2016-06-26 09:38:24.431,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-69-255-233.deploy.static.akamaitechnologies.com,443,https,Akamai International. BV (AIB-17),US
+2016-06-26 09:38:25.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-101-174-173.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-26 09:38:27.631,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-69-255-233.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-06-26 12:56:18.458,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.96.123,443,https,AS8075 Microsoft Corporation,US
+2016-06-26 16:30:17.307,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-106-4-160.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),US
+2016-06-27 02:11:01.751,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,207.46.114.58,443,https,AS8075 Microsoft Corporation,US
+2016-06-27 03:45:53.368,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.42,80,http,AS20940 Akamai International B.V.,EU
+2016-06-27 03:45:53.548,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,66.119.144.158,443,https,AS8075 Microsoft Corporation,US
+2016-06-27 07:15:17.185,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a88-221-144-11.deploy.akamaitechnologies.com,80,http,Akamai Technologies,IT
+2016-06-27 08:34:17.956,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.138.126,443,https,AS8075 Microsoft Corporation,US
+2016-06-27 10:45:17.246,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-101-162-214.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-27 13:36:00.640,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-62-194-132.deploy.static.akamaitechnologies.com,443,https,Akamai International. BV (AIB-17),US
+2016-06-27 17:00:17.186,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-206-87-241.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-27 19:30:17.133,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a95-101-228-88.deploy.akamaitechnologies.com,80,http,Akamai Technologies,EU
+2016-06-27 19:30:27.298,C:\Windows\System32\svchost.exe,udp,239.255.255.250,3702,ws-discovery,,
+2016-06-28 00:30:17.207,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-38-11-168.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-28 02:58:52.650,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.138.112,443,https,AS8075 Microsoft Corporation,US
+2016-06-28 03:45:53.115,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.22.144.129,80,http,AS20940 Akamai International B.V.,GB
+2016-06-28 03:45:53.290,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.183,443,https,AS8075 Microsoft Corporation,US
+2016-06-28 19:30:17.274,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-106-8-170.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),US
+2016-06-28 21:01:51.549,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,ocsp.comodoca.com,80,http,Comodo CA,GB
+2016-06-29 01:14:03.820,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,67.135.105.19,80,http,AS209 Qwest Communications Company. LLC,US
+2016-06-29 01:14:04.097,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.51.190,443,https,AS8075 Microsoft Corporation,US
+2016-06-29 03:45:53.575,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.53.29,443,https,AS8075 Microsoft Corporation,US
+2016-06-29 06:00:17.210,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.213.152,80,http,AS20940 Akamai International B.V.,EU
+2016-06-29 07:15:17.193,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-222-24-95.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-29 21:28:52.099,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.249,443,https,AS8075 Microsoft Corporation,US
+2016-06-30 01:36:36.217,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.113.12,80,http,AS8075 Microsoft Corporation,US
+2016-06-30 03:45:53.378,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,66.119.144.157,443,https,AS8075 Microsoft Corporation,US
+2016-06-30 16:38:14.253,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.115.62,443,https,AS8075 Microsoft Corporation,US
+2016-06-30 19:00:17.163,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-65-45-129.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-06-30 20:15:17.200,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-98-152-139.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-07-01 03:39:52.540,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-38-13-199.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-07-01 03:45:53.258,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.22.144.112,80,http,AS20940 Akamai International B.V.,GB
+2016-07-01 11:32:47.517,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-63-98-26.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-07-01 14:23:10.598,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a184-87-216-50.deploy.static.akamaitechnologies.com,443,https,Akamai Technologies. Inc. (AKAMAI),NL
+2016-07-02 02:00:02.073,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.123,443,https,AS8075 Microsoft Corporation,US
+2016-07-02 03:45:53.390,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.163.222,443,https,AS8075 Microsoft Corporation,US
+2016-07-02 06:20:51.345,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-62-98-64.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-07-02 18:05:39.466,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.96.27.71,443,https,AS20940 Akamai International B.V.,US
+2016-07-02 18:05:42.605,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-96-27-71.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-07-02 23:45:17.201,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a104-109-63-190.deploy.static.akamaitechnologies.com,80,http,Akamai Technologies. Inc. (AKAMAI),NL
+2016-07-03 02:00:24.261,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-62-98-8.deploy.static.akamaitechnologies.com,80,http,Akamai International. BV (AIB-17),US
+2016-07-03 02:00:24.505,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.138.186,443,https,AS8075 Microsoft Corporation,US
+2016-07-03 03:45:53.675,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,67.135.105.10,80,http,AS209 Qwest Communications Company. LLC,US
+2016-07-03 12:58:36.850,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,93.184.220.20,80,http,AS15133 EdgeCast Networks. Inc.,US
+2016-07-03 12:58:37.141,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,198.41.215.183,80,http,AS13335 CloudFlare. Inc.,US
+2016-07-03 12:58:37.144,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,198.41.214.184,80,http,AS13335 CloudFlare. Inc.,US
