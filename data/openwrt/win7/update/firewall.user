@@ -7,12 +7,14 @@ iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 
 # rules
 iptables -I FORWARD -j DROP -d 13.107.4.50
+iptables -I FORWARD -j DROP -d 23.103.189.125
 iptables -I FORWARD -j DROP -d 23.103.189.157
 iptables -I FORWARD -j DROP -d 23.103.189.158
 iptables -I FORWARD -j DROP -d 65.55.138.112
 iptables -I FORWARD -j DROP -d 65.55.138.114
 iptables -I FORWARD -j DROP -d 65.55.138.126
 iptables -I FORWARD -j DROP -d 65.55.138.186
+iptables -I FORWARD -j DROP -d 65.55.163.221
 iptables -I FORWARD -j DROP -d 65.55.163.222
 iptables -I FORWARD -j DROP -d 134.170.51.190
 iptables -I FORWARD -j DROP -d 134.170.53.30

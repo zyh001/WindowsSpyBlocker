@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.2 (2016/07/12)
+
+* New hosts and firewall rules
+
 ## 3.4.1 (2016/07/03)
 
 * New hosts and firewall rules
