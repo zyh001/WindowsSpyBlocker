@@ -1,85 +1,84 @@
 HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-2.18.213.201,10,AS20940 Akamai International B.V.,EU,,
-8.253.82.30,107,AS3356 Level 3 Communications. Inc.,US,2016-03-13,sbsnl-apple-live.adaptive.level3.net
-8.253.82.46,108,AS3356 Level 3 Communications. Inc.,US,,
-8.253.82.94,260,AS3356 Level 3 Communications. Inc.,US,,
+2.18.213.152,12,AS20940 Akamai International B.V.,EU,,
+8.253.82.46,207,AS3356 Level 3 Communications. Inc.,US,,
 8.253.82.126,106,AS3356 Level 3 Communications. Inc.,US,2016-05-28,pxc.cdn.sogecable.c.footprint.net
-8.254.218.94,107,AS3356 Level 3 Communications. Inc.,US,2015-03-06,opau.download.windowsupdate.com.c.footprint.net
-,,,,2015-02-20,hls-live-m1-l3.canal-plus.com.c.footprint.net
-8.254.218.158,135,AS3356 Level 3 Communications. Inc.,US,2015-04-21,pxc.cdn.sogecable.c.footprint.net
-,,,,2015-03-15,hls-live-m1-l3.canal-plus.com.c.footprint.net
-,,,,2015-03-06,opau.download.windowsupdate.com.c.footprint.net
-10.37.209.234,1,Internet Assigned Numbers Authority (IANA),US,,ip-10-37-209-234.eu-central-1.compute.internal
-13.76.219.210,20,AS8075 Microsoft Corporation,SG,2016-05-30,prod.nexusrules.live.com.akadns.net
-,,,,2016-02-11,nexusrules.officeapps.live.com
-13.107.3.128,82,AS8068 Microsoft Corporation,US,2016-06-28,config.edge.skype.com
-,,,,2016-06-27,b.config.skype.com
+8.253.82.142,108,AS3356 Level 3 Communications. Inc.,US,,
+8.253.82.158,10,AS3356 Level 3 Communications. Inc.,US,2016-03-14,sbsnl-apple-live.adaptive.level3.net
+8.253.93.247,100,AS3356 Level 3 Communications. Inc.,US,,
+8.254.218.78,28,AS3356 Level 3 Communications. Inc.,US,2015-03-14,steamusercontent.com
+,,,,2015-02-11,hls-live-m1-l3.canal-plus.com.c.footprint.net
+,,,,2014-12-22,valve.g-ca.b.c.footprint.net
+,,,,2014-10-14,au.download.windowsupdate.com
+,,,,2014-09-16,opau.download.windowsupdate.com.c.footprint.net
+,,,,2014-09-15,au.download.windowsupdate.com.c.footprint.net
+13.107.3.128,116,AS8068 Microsoft Corporation,US,2016-07-22,config.edge.skype.com
+,,,,2016-07-06,b.config.skype.com
 ,,,,2016-05-17,edge.skype.com
 ,,,,2016-03-15,skypeecs-prod-edge-b.trafficmanager.net
 ,,,,2016-02-26,a.config.skype.com
 ,,,,2016-02-11,edge-skype-com.s-0001.s-msedge.net
 ,,,,2016-01-15,s-0001.s-msedge.net
-13.107.4.50,68946,AS8068 Microsoft Corporation,US,2016-07-02,dnste-net-dyxmwn68.c-0001.c-msedge.net
-,,,,2016-07-02,b1.download.windowsupdate.com
-,,,,2016-07-02,fg.v4.download.windowsupdate.com
-,,,,2016-07-02,tlu.dl.delivery.mp.microsoft.com
-,,,,2016-07-01,au.v4.b1.dl.windowsupdate.com.nsatc.net
-,,,,2016-07-01,5.perf.msedge.net
+13.107.4.50,58463,AS8068 Microsoft Corporation,US,2016-07-24,dnste-net-dyxmwn68.c-0001.c-msedge.net
+,,,,2016-07-24,fg.ds.b1.dl.windowsupdate.com.nsatc.net
+,,,,2016-07-23,b1w8au.au-msedge.net
+,,,,2016-07-23,fg.v4.b1.download.windowsupdate.com
+,,,,2016-07-23,b1ns.au-msedge.net
+,,,,2016-07-22,tlu.dl.delivery.mp.microsoft.com
+,,,,2016-07-22,au.au-msedge.net
+,,,,2016-07-22,fg.ds.b1.download.windowsupdate.com
+,,,,2016-07-22,edges.au-msedge.net
+,,,,2016-07-21,au.download.windowsupdate.com
+,,,,2016-07-21,dl.delivery.mp.microsoft.com
+,,,,2016-07-21,w8v4.audownload.windowsupdate.nsatc.net
+,,,,2016-07-21,dnste-net-u7d6m8y3.c-0001.c-msedge.net
+,,,,2016-07-21,graystore.c-0001.c-msedge.net
+,,,,2016-07-21,au.v4.www.download.windowsupdate.com
+,,,,2016-07-21,c-0001.c-msedge.net
+,,,,2016-07-21,audownload.windowsupdate.nsatc.net
+,,,,2016-07-21,5.perf.msedge.net
+,,,,2016-07-20,13.107.4.50
+,,,,2016-07-19,www.download.windowsupdate.com
+,,,,2016-07-19,b1fgds.au-msedge.net
+,,,,2016-07-18,download.windowsupdate.com
+,,,,2016-07-18,nontlu.graystore.msedge.net
+,,,,2016-07-18,tlu.graystore.msedge.net
+,,,,2016-07-18,v4.download.windowsupdate.com
+,,,,2016-07-15,7.download.windowsupdate.com
+,,,,2016-07-15,b1.dl.windowsupdate.com.nsatc.net
+,,,,2016-07-15,dnste-net-nq22y10v.c-0001.c-msedge.net
+,,,,2016-07-15,fg.v4.download.windowsupdate.com
+,,,,2016-07-15,2-01-3cf7-0009.cdx.cedexis.net
+,,,,2016-07-14,fg.v4.www.download.windowsupdate.com
+,,,,2016-07-08,2-01-3cf7-000c.cdx.cedexis.net
+,,,,2016-07-06,dnste-net-ho5frmy1.c-0001.c-msedge.net
+,,,,2016-07-04,fg.v4.b1.dl.windowsupdate.com.nsatc.net
+,,,,2016-07-04,7.tlu.dl.delivery.mp.microsoft.com
 ,,,,2016-06-30,dnste-net-mkoxwjhm.c-0001.c-msedge.net
-,,,,2016-06-30,au.v4.www.download.windowsupdate.com
-,,,,2016-06-30,dnste-net-u7d6m8y3.c-0001.c-msedge.net
 ,,,,2016-06-30,b1w7dl.c-0001.c-msedge.net
-,,,,2016-06-30,dl.delivery.mp.microsoft.com
-,,,,2016-06-30,c-0001.c-msedge.net
-,,,,2016-06-29,download.windowsupdate.com
-,,,,2016-06-28,au.v4.b1.download.windowsupdate.com
-,,,,2016-06-28,aupl.v4.b1.download.windowsupdate.com
-,,,,2016-06-27,www.download.windowsupdate.com
 ,,,,2016-06-26,au.c-0001.c-msedge.net
-,,,,2016-06-26,edges.au-msedge.net
-,,,,2016-06-26,w8v4.audownload.windowsupdate.nsatc.net
-,,,,2016-06-26,b1ns.au-msedge.net
-,,,,2016-06-26,bg.v4.dl.windowsupdate.com.nsatc.net
-,,,,2016-06-25,au.download.windowsupdate.com
-,,,,2016-06-23,2-01-3cf7-0009.cdx.cedexis.net
-,,,,2016-06-23,graystore.c-0001.c-msedge.net
-,,,,2016-06-22,au.au-msedge.net
 ,,,,2016-06-21,dnste-net-2vnygc3u.c-0001.c-msedge.net
-,,,,2016-06-21,13.107.4.50
 ,,,,2016-06-14,b1fgds.c-0005.c-msedge.net
 ,,,,2016-06-13,b1w8au.c-0001.c-msedge.net
-,,,,2016-06-12,aupl.v4.download.windowsupdate.com
 ,,,,2016-06-12,www.download.windowsupdate.nsatc.net
-,,,,2016-06-11,v4.download.windowsupdate.com
-,,,,2016-06-11,fg.ds.b1.download.windowsupdate.com
-,,,,2016-06-10,audownload.windowsupdate.nsatc.net
-,,,,2016-06-09,fg.v4.b1.download.windowsupdate.com
+,,,,2016-06-12,aupl.v4.download.windowsupdate.com
 ,,,,2016-06-07,dnste-net-piie6ko5.c-0001.c-msedge.net
-,,,,2016-06-05,nontlu.graystore.msedge.net
 ,,,,2016-06-04,aupn.v4.download.windowsupdate.com
-,,,,2016-05-31,b1w8au.au-msedge.net
-,,,,2016-05-28,b1ns.c-0001.c-msedge.net
 ,,,,2016-05-25,b1fgv4.au-msedge.net
-,,,,2016-05-24,7.download.windowsupdate.com
 ,,,,2016-05-24,b1w7dl.au-msedge.net
 ,,,,2016-05-20,c-0005.c-msedge.net
 ,,,,2016-05-16,tlu.dl.delivery.mp.microsoft.com.nsatc.net
 ,,,,2016-05-13,download.windowsupdate.nsatc.net
-,,,,2016-05-04,fg.v4.www.download.windowsupdate.com
-,,,,2016-04-29,dnste-net-ho5frmy1.c-0001.c-msedge.net
-,,,,2016-04-20,dnste-net-nq22y10v.c-0001.c-msedge.net
-,,,,2016-04-14,b1.dl.windowsupdate.com.nsatc.net
-13.107.5.88,87,AS8068 Microsoft Corporation,US,2016-07-02,visualstudio-devdiv-c2s.msedge.net
-,,,,2016-07-01,onenote-office365-s2s.msedge.net
-,,,,2016-06-28,ocos-office365-s2s.msedge.net
+13.107.5.88,101,AS8068 Microsoft Corporation,US,2016-07-24,onenote-office365-s2s.msedge.net
+,,,,2016-07-23,visualstudio-devdiv-c2s.msedge.net
+,,,,2016-07-22,ocos-office365-s2s.msedge.net
 ,,,,2016-05-05,ocos-office365-s2s-msedge-net.e-0009.e-msedge.net
 ,,,,2016-05-05,e-0009.e-msedge.net
 ,,,,2016-02-21,onenote-office365-s2s-msedge-net.e-0009.e-msedge.net
 ,,,,2015-12-10,visualstudio-devdiv-c2s-msedge-net.e-0009.e-msedge.net
-23.38.0.149,37,AS20940 Akamai International B.V.,NL,,a23-38-0-149.deploy.static.akamaitechnologies.com
-23.38.7.222,3717,AS20940 Akamai International B.V.,NL,,a23-38-7-222.deploy.static.akamaitechnologies.com
-23.54.136.70,35,AS3320 Deutsche Telekom AG,NL,,a23-54-136-70.deploy.static.akamaitechnologies.com
-23.54.139.27,44,AS3320 Deutsche Telekom AG,NL,,a23-54-139-27.deploy.static.akamaitechnologies.com
+23.38.0.149,38,AS20940 Akamai International B.V.,NL,,a23-38-0-149.deploy.static.akamaitechnologies.com
+23.38.7.222,4909,AS20940 Akamai International B.V.,NL,,a23-38-7-222.deploy.static.akamaitechnologies.com
+23.38.11.168,11,AS20940 Akamai International B.V.,NL,,a23-38-11-168.deploy.static.akamaitechnologies.com
+23.54.139.27,14,AS3320 Deutsche Telekom AG,NL,,a23-54-139-27.deploy.static.akamaitechnologies.com
 ,,,,2016-03-25,gv.symcd.com
 ,,,,2015-11-12,g.symcd.com
 ,,,,2015-08-12,sd.symcd.com
@@ -87,7 +86,7 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2014-10-13,e8218.ce.akamaiedge.net
 ,,,,2014-05-23,sb.symcd.com
 ,,,,2014-05-23,sf.symcd.com
-23.55.155.27,37,AS20940 Akamai International B.V.,NL,,a23-55-155-27.deploy.static.akamaitechnologies.com
+23.55.155.27,26,AS20940 Akamai International B.V.,NL,,a23-55-155-27.deploy.static.akamaitechnologies.com
 ,,,,2014-10-15,evsecure-ocsp.thawte.com
 ,,,,2014-10-15,st.symcd.com
 ,,,,2014-10-15,tf.symcd.com
@@ -100,241 +99,127 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2014-10-14,evcs-ocsp.ws.symantec.com
 ,,,,2014-10-14,evintl-ocsp.verisign.com
 ,,,,2014-09-16,e8218.ce.akamaiedge.net
-23.62.192.221,20,AS20940 Akamai International B.V.,NL,,a23-62-192-221.deploy.static.akamaitechnologies.com
-23.67.255.202,10,AS20940 Akamai International B.V.,NL,,a23-67-255-202.deploy.static.akamaitechnologies.com
+23.62.137.113,26,AS16625 Akamai Technologies. Inc.,NL,,a23-62-137-113.deploy.static.akamaitechnologies.com
+23.63.99.217,10,AS20940 Akamai International B.V.,NL,,a23-63-99-217.deploy.static.akamaitechnologies.com
+,,,,2015-02-02,lidl.dk
+,,,,2015-01-31,www.gov.sg
+,,,,2015-01-30,appstv.com
+,,,,2015-01-26,transformersgame.com
+,,,,2015-01-22,a23-63-99-217.deploy.akamaitechnologies.com
+,,,,2014-12-21,lidl.ch
+,,,,2014-12-12,downloadmytoolbar.com
+,,,,2014-10-11,louisvuitton.com
+23.67.255.202,30,AS20940 Akamai International B.V.,NL,,a23-67-255-202.deploy.static.akamaitechnologies.com
 ,,,,2015-01-27,ticketone.it
 ,,,,2014-12-12,downloadmytoolbar.com
-23.74.45.185,24,AS16625 Akamai Technologies. Inc.,NL,,a23-74-45-185.deploy.static.akamaitechnologies.com
+23.74.33.44,7,AS16625 Akamai Technologies. Inc.,NL,,a23-74-33-44.deploy.static.akamaitechnologies.com
+23.74.45.185,175,AS16625 Akamai Technologies. Inc.,NL,,a23-74-45-185.deploy.static.akamaitechnologies.com
+23.74.97.228,25,AS20940 Akamai International B.V.,NL,,a23-74-97-228.deploy.static.akamaitechnologies.com
 23.79.115.93,20,AS16625 Akamai Technologies. Inc.,NL,,a23-79-115-93.deploy.static.akamaitechnologies.com
-23.206.7.161,366,AS20940 Akamai International B.V.,NL,,a23-206-7-161.deploy.static.akamaitechnologies.com
-23.206.32.96,29,AS20940 Akamai International B.V.,NL,,a23-206-32-96.deploy.static.akamaitechnologies.com
-23.206.32.247,120,AS20940 Akamai International B.V.,NL,,a23-206-32-247.deploy.static.akamaitechnologies.com
-23.206.36.86,25771,AS20940 Akamai International B.V.,NL,,a23-206-36-86.deploy.static.akamaitechnologies.com
-23.206.41.10,17,AS20940 Akamai International B.V.,NL,,a23-206-41-10.deploy.static.akamaitechnologies.com
-23.206.41.169,1159,AS20940 Akamai International B.V.,NL,,a23-206-41-169.deploy.static.akamaitechnologies.com
-23.206.41.173,21,AS20940 Akamai International B.V.,NL,,a23-206-41-173.deploy.static.akamaitechnologies.com
-23.216.245.248,24,AS20940 Akamai International B.V.,US,,a23-216-245-248.deploy.static.akamaitechnologies.com
-23.217.8.192,30,AS20940 Akamai International B.V.,US,,a23-217-8-192.deploy.static.akamaitechnologies.com
-23.218.156.90,20,AS20940 Akamai International B.V.,US,,a23-218-156-90.deploy.static.akamaitechnologies.com
-,,,,2016-06-22,a1219.g.akamai.net
-,,,,2016-06-22,a975.g.akamai.net
-,,,,2016-06-22,js.wmgstg.com
-,,,,2016-06-17,ak-media.hult.edu
-,,,,2016-05-25,l4.zedo.com
-,,,,2016-05-13,www.iefimerida.gr
-,,,,2016-05-12,a.media.gossip-tv.gr
-,,,,2016-03-31,a1286.na.akamai.net
-,,,,2016-03-31,a164.gd.akamai.net
-,,,,2016-03-31,a102.gd.akamai.net
-,,,,2016-03-31,a224.g.akamai.net
-,,,,2016-03-31,a1471.g.akamai.net
-,,,,2016-03-31,a1621.g.akamai.net
-,,,,2016-03-31,a1222.na.akamai.net
-,,,,2016-03-31,a413.g.akamai.net
-,,,,2016-03-31,a950.g.akamai.net
-,,,,2016-03-31,a1634.g.akamai.net
-,,,,2016-03-31,a1123.dscg.akamai.net
-,,,,2016-03-31,a1123.g.akamai.net
-,,,,2016-03-20,ox-i.wayfairssp.servedbyopenx.com
-,,,,2016-03-20,hres.univision.com
-,,,,2016-03-09,fast.shaw.demdex.net
-,,,,2016-02-16,d.rmgserving.com
-,,,,2016-02-16,ox-i.yp.com
-,,,,2016-02-16,dreammail.edgesuite.net
-,,,,2016-02-16,www.wdasfm.com
-,,,,2016-02-16,ir.ebaystatic.com
-,,,,2016-02-16,a.postrelease.com
-,,,,2016-02-16,ad.jamba.de
-,,,,2016-02-16,a1531.g.akamai.net.0.1.cn.akamaitech.net
-,,,,2016-02-15,so1.akam.nflximg.com
-,,,,2016-02-15,hk.apple.nextmedia.com
-,,,,2016-02-15,ad.powermob.de
-,,,,2015-12-11,http.tidaltv.com
-,,,,2015-12-11,i4.expansys.com
-,,,,2015-12-11,b.rmgserving.com
-,,,,2015-12-04,www.npr.org
-,,,,2015-12-04,ctldl.windowsupdate.com
-,,,,2015-12-03,akvideo.aufeminin.com
-,,,,2015-12-03,www.dlsite.com
-,,,,2015-12-03,o.aolcdn.com
-,,,,2015-08-21,a503.nag.akamai.net.0.1.cn.akamaitech.net
-,,,,2014-06-17,fbcdn-sphotos-b-a.akamaihd.net
-,,,,2014-04-24,a4.sphotos.ak.fbcdn.net
-,,,,2014-04-23,sphotos-d.ak.fbcdn.net
-,,,,2014-04-23,fbcdn-sphotos-d-a.akamaihd.net
-40.76.1.176,20,AS8075 Microsoft Corporation,US,2016-04-21,nexus.officeapps.live.com
-40.76.12.4,20,AS8075 Microsoft Corporation,US,2016-06-09,prod-w.nexus.live.com.akadns.net
+23.99.109.64,18,AS8075 Microsoft Corporation,HK,,
+23.103.189.157,64,AS8075 Microsoft Corporation,US,2016-04-23,fe2.update.microsoft.com.nsatc.net
+,,,,2015-12-02,fe2.update.microsoft.com
+23.103.189.158,76,AS8075 Microsoft Corporation,US,2016-02-03,fe2.update.microsoft.com
+23.195.51.28,66,AS20940 Akamai International B.V.,NL,,a23-195-51-28.deploy.static.akamaitechnologies.com
+23.202.136.175,23,AS1273 Vodafone Ltd,NL,,a23-202-136-175.deploy.static.akamaitechnologies.com
+23.202.157.33,11,AS1273 Vodafone Ltd,NL,,a23-202-157-33.deploy.static.akamaitechnologies.com
+23.206.7.161,233,AS20940 Akamai International B.V.,NL,,a23-206-7-161.deploy.static.akamaitechnologies.com
+23.206.30.150,67,AS20940 Akamai International B.V.,NL,,a23-206-30-150.deploy.static.akamaitechnologies.com
+23.206.32.247,20,AS20940 Akamai International B.V.,NL,,a23-206-32-247.deploy.static.akamaitechnologies.com
+23.206.41.10,50,AS20940 Akamai International B.V.,NL,,a23-206-41-10.deploy.static.akamaitechnologies.com
+23.206.41.169,924,AS20940 Akamai International B.V.,NL,,a23-206-41-169.deploy.static.akamaitechnologies.com
+23.206.41.173,89,AS20940 Akamai International B.V.,NL,,a23-206-41-173.deploy.static.akamaitechnologies.com
+23.214.135.30,3,AS16625 Akamai Technologies. Inc.,NL,,a23-214-135-30.deploy.static.akamaitechnologies.com
+23.214.169.252,20,AS16625 Akamai Technologies. Inc.,NL,,a23-214-169-252.deploy.static.akamaitechnologies.com
+23.214.189.226,25,AS16625 Akamai Technologies. Inc.,NL,,a23-214-189-226.deploy.static.akamaitechnologies.com
+23.216.248.201,10,AS20940 Akamai International B.V.,US,,a23-216-248-201.deploy.static.akamaitechnologies.com
+23.217.8.192,23,AS20940 Akamai International B.V.,US,,a23-217-8-192.deploy.static.akamaitechnologies.com
+31.13.90.1,11,AS32934 Facebook. Inc.,IE,,edge-mqtt-shv-01-lhr3.facebook.com
+40.76.12.4,21,AS8075 Microsoft Corporation,US,2016-06-09,prod-w.nexus.live.com.akadns.net
 ,,,,2016-02-11,nexus.officeapps.live.com
-40.117.151.29,19,AS8075 Microsoft Corporation,US,2016-06-23,nexusrules.officeapps.live.com
-40.118.103.7,2,AS8075 Microsoft Corporation,NL,2016-05-21,time.windows.com
-40.121.144.182,20,AS8075 Microsoft Corporation,US,,
-64.233.166.108,68,AS15169 Google Inc.,US,,wm-in-f108.1e100.net
+40.113.8.255,20,AS8075 Microsoft Corporation,IE,2016-06-30,nexusrules.officeapps.live.com
+40.118.103.7,6,AS8075 Microsoft Corporation,NL,2016-07-13,coldzone.tk
+,,,,2016-05-21,time.windows.com
+54.192.77.33,29,AS16509 Amazon.com. Inc.,US,,server-54-192-77-33.cdg50.r.cloudfront.net
+64.233.166.108,39,AS15169 Google Inc.,US,,wm-in-f108.1e100.net
 ,,,,2014-10-19,gmail-smtp-msa.l.google.com
 ,,,,2014-10-17,imap.gmail.com
 ,,,,2014-10-15,smtp.watchtek.co.kr
 ,,,,2014-09-24,gmail-imap.l.google.com
 ,,,,2014-09-24,gmail-pop.l.google.com
-64.233.166.109,94,AS15169 Google Inc.,US,,wm-in-f109.1e100.net
+64.233.166.109,250,AS15169 Google Inc.,US,,wm-in-f109.1e100.net
 ,,,,2014-10-19,gmail-smtp-msa.l.google.com
 ,,,,2014-10-17,imap.gmail.com
 ,,,,2014-10-15,smtp.watchtek.co.kr
 ,,,,2014-09-24,gmail-pop.l.google.com
 ,,,,2014-09-24,gmail-imap.l.google.com
-64.233.167.108,41,AS15169 Google Inc.,US,,wl-in-f108.1e100.net
-,,,,2014-10-22,gmail-pop.l.google.com
-,,,,2014-10-05,gmail-imap.l.google.com
-64.233.184.108,61,AS15169 Google Inc.,US,,wa-in-f108.1e100.net
-,,,,2015-04-29,gmail-imap.l.google.com
-,,,,2015-02-21,gmail-pop.l.google.com
-,,,,2015-01-30,gmail-smtp-msa.l.google.com
-64.233.184.109,23,AS15169 Google Inc.,US,,wa-in-f109.1e100.net
-,,,,2015-04-29,gmail-imap.l.google.com
-,,,,2015-02-21,gmail-pop.l.google.com
-,,,,2015-01-30,gmail-smtp-msa.l.google.com
-65.52.108.29,17,AS8075 Microsoft Corporation,US,,msnbot-65-52-108-29.search.msn.com
-,,,,2016-06-04,watson.telemetry.microsoft.com.nsatc.net
-,,,,2015-08-08,watson.telemetry.microsoft.com
-65.55.113.11,76,AS8075 Microsoft Corporation,US,2016-06-23,dmd.metaservices.microsoft.com
-,,,,2016-06-20,dmd.metaservices.microsoft.com.akadns.net
-,,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
-,,,,2014-05-09,gamesudf.metaservices.microsoft.com
-65.55.113.12,303,AS8075 Microsoft Corporation,US,2016-06-13,dmd.metaservices.microsoft.com
+64.233.166.188,1,AS15169 Google Inc.,US,,wm-in-f188.1e100.net
+64.233.184.188,14,AS15169 Google Inc.,US,,wa-in-f188.1e100.net
+65.55.113.12,101,AS8075 Microsoft Corporation,US,2016-06-13,dmd.metaservices.microsoft.com
 ,,,,2016-02-12,dmd.metaservices.microsoft.com.akadns.net
 ,,,,2014-10-30,origin-download.dmd.metaservices.microsoft.com
 ,,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,,2014-05-26,gamesudf.metaservices.microsoft.com
-65.55.113.13,123,AS8075 Microsoft Corporation,US,2016-05-19,dmd.metaservices.microsoft.com
+65.55.113.13,240,AS8075 Microsoft Corporation,US,2016-05-19,dmd.metaservices.microsoft.com
 ,,,,2015-03-03,origin-download.dmd.metaservices.microsoft.com
 ,,,,2014-09-21,dmd.metaservices.microsoft.com.akadns.net
 ,,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,,2014-03-08,gamesudf.metaservices.microsoft.com
-65.55.138.111,45,AS8075 Microsoft Corporation,US,2016-05-06,sls.update.microsoft.com.nsatc.net
-66.102.1.109,8,AS15169 Google Inc.,US,,wb-in-f109.1e100.net
-66.119.144.157,94,AS8075 Microsoft Corporation,US,2016-01-14,fe2.update.microsoft.com
-66.119.144.158,137,AS8075 Microsoft Corporation,US,2016-05-30,fe2.update.microsoft.com
+65.55.138.111,28,AS8075 Microsoft Corporation,US,2016-05-06,sls.update.microsoft.com.nsatc.net
+65.55.138.112,244,AS8075 Microsoft Corporation,US,2016-06-13,fe2.update.microsoft.com.nsatc.net
+,,,,2015-11-18,fe2.update.microsoft.com
+,,,,2015-02-07,fe2.update.microsoft.com.akadns.net
+,,,,2014-01-08,statsfe2.update.microsoft.com
+,,,,2014-01-04,statsfe2.update.microsoft.com.akadns.net
+65.55.138.114,246,AS8075 Microsoft Corporation,US,2016-06-11,65.55.138.114
+,,,,2016-03-21,fe2.update.microsoft.com
+,,,,2015-12-08,fe2.update.microsoft.com.nsatc.net
+,,,,2015-02-07,fe2.update.microsoft.com.akadns.net
+,,,,2014-08-10,www.windowsupdate.com
+,,,,2013-10-19,windowsupdate.microsoft.com
+,,,,2013-10-19,update.microsoft.com
+,,,,2013-10-18,www.update.microsoft.com
+,,,,2013-10-11,update.microsoft.com.nsatc.net
+65.55.163.221,107,AS8075 Microsoft Corporation,US,2016-07-20,fe2.update.microsoft.com.nsatc.net
+,,,,2015-03-16,fe1.update.microsoft.com.akadns.net
+,,,,2014-10-14,fe2.update.microsoft.com
+,,,,2014-09-15,fe2.update.microsoft.com.akadns.net
+,,,,2014-01-27,www.windowsupdate.com
+,,,,2013-12-08,update.microsoft.com.nsatc.net
+,,,,2013-10-19,www.update.microsoft.com
+,,,,2013-10-18,windowsupdate.microsoft.com
+,,,,2013-10-18,update.microsoft.com
+65.55.252.43,56,AS8075 Microsoft Corporation,US,,msnbot-65-55-252-43.search.msn.com
+,,,,2016-04-18,watson.telemetry.microsoft.com.nsatc.net
+,,,,2014-09-27,watson.telemetry.microsoft.com
+66.119.144.157,105,AS8075 Microsoft Corporation,US,2016-01-14,fe2.update.microsoft.com
+66.119.144.158,138,AS8075 Microsoft Corporation,US,2016-05-30,fe2.update.microsoft.com
 ,,,,2016-01-11,fe2.update.microsoft.com.nsatc.net
-66.119.144.189,50,AS8075 Microsoft Corporation,US,2015-06-03,fe1.update.microsoft.com
-,,,,2015-04-26,fe2.update.microsoft.com
-66.119.144.190,186,AS8075 Microsoft Corporation,US,2016-03-25,fe2.update.microsoft.com.nsatc.net
+66.119.144.190,45,AS8075 Microsoft Corporation,US,2016-03-25,fe2.update.microsoft.com.nsatc.net
 ,,,,2016-02-17,fe2.update.microsoft.com.akadns.net
 ,,,,2015-05-07,fe1.update.microsoft.com
 ,,,,2015-04-21,fe2.update.microsoft.com
-74.125.71.109,38,AS15169 Google Inc.,US,,wn-in-f109.1e100.net
-,,,,2014-09-29,gmail-imap.l.google.com
-,,,,2014-09-26,gmail-pop.l.google.com
-74.125.133.108,13,AS15169 Google Inc.,US,,wo-in-f108.1e100.net
+74.125.133.108,152,AS15169 Google Inc.,US,,wo-in-f108.1e100.net
 ,,,,2014-10-14,imap.gmail.com
 ,,,,2014-10-06,gmail-pop.l.google.com
 ,,,,2014-09-24,gmail-imap.l.google.com
-74.125.133.109,55,AS15169 Google Inc.,US,,wo-in-f109.1e100.net
+74.125.133.109,108,AS15169 Google Inc.,US,,wo-in-f109.1e100.net
 ,,,,2014-10-14,imap.gmail.com
 ,,,,2014-10-06,gmail-pop.l.google.com
 ,,,,2014-09-24,gmail-imap.l.google.com
-74.125.133.188,10,AS15169 Google Inc.,US,,wo-in-f188.1e100.net
+74.125.133.188,9,AS15169 Google Inc.,US,,wo-in-f188.1e100.net
 ,,,,2014-10-17,mtalk.google.com
-87.248.214.1,42,AS22822 Limelight Networks. Inc.,IT,,https-87-248-214-1.lon.llnw.net
-,,,,2015-03-30,savoxcode.hs.llnwd.net
-,,,,2015-03-02,abcentmktg.hs.llnwd.net
-,,,,2015-02-27,conratrex.hs.llnwd.net
-,,,,2015-02-06,amazonm-002.hs.llnwd.net
-,,,,2015-01-14,msxb.hs.llnwd.net
-,,,,2014-12-25,betonsoft.hs.llnwd.net
-,,,,2014-12-23,amazonmmd.hs.llnwd.net
-,,,,2014-11-06,ble.hs.llnwd.net
-,,,,2014-10-30,amznadsi.hs.llnwd.net
-,,,,2014-10-21,assets.five.tv
-,,,,2014-10-17,affiliate-media.quisma.com
-,,,,2014-10-16,about.channel5.com
-,,,,2014-10-15,cpx-media.quisma.com
-,,,,2014-10-15,ads.channel5.com
-,,,,2014-10-15,cpc.delvenetworks.com
-,,,,2014-10-15,cache2.delvenetworks.com
-,,,,2014-10-15,btn.clickability.com
-,,,,2014-10-14,assets.behance.net
-,,,,2014-10-14,blogs.amctv.com
-,,,,2014-10-13,media.pnwlocalnews.com
-,,,,2014-10-13,link.videoplatform.limelight.com
-,,,,2014-10-09,weinteract.hs.llnwd.net
-,,,,2014-10-07,bartltd.hs.llnwd.net
-,,,,2014-09-29,agi.vo.llnwd.net
-,,,,2014-09-27,bandai.hs.llnwd.net
-,,,,2014-09-26,pizzapizza.hs.llnwd.net
-,,,,2014-09-23,c3486.hs.llnwd.net
-,,,,2014-09-23,casinostar.hs.llnwd.net
-,,,,2014-09-22,weblio.hs.llnwd.net
-,,,,2014-09-21,cfbt.hs.llnwd.net
-,,,,2014-09-20,clickabl.hs.llnwd.net
-,,,,2014-09-20,rnwloca.hs.llnwd.net
-,,,,2014-09-17,bowker.hs.llnwd.net
-,,,,2014-09-17,pokki.hs.llnwd.net
-,,,,2014-09-16,casinoeuro.hs.llnwd.net
-,,,,2014-09-16,nyphil.hs.llnwd.net
-,,,,2014-09-16,betsson.hs.llnwd.net
-,,,,2014-09-16,bps.hs.llnwd.net
-,,,,2014-09-16,pajamasmed.hs.llnwd.net
-,,,,2014-09-15,crazyeight.hs.llnwd.net
-,,,,2014-09-15,delve.hs.llnwd.net
-,,,,2014-09-15,clickabl.vo.llnwd.net
-,,,,2014-09-15,arte.vo.llnwd.net
-,,,,2014-09-15,amctv.vo.llnwd.net
-,,,,2014-09-15,dtvimages.hs.llnwd.net
-,,,,2014-09-15,bafr.hs.llnwd.net
-,,,,2014-09-15,behance.vo.llnwd.net
-,,,,2014-09-15,bt.vo.llnwd.net
-,,,,2014-09-15,betclick.hs.llnwd.net
-,,,,2014-09-15,carrefour-www.vo.llnwd.net
-87.248.214.129,19,AS22822 Limelight Networks. Inc.,IT,,https-87-248-214-129.lon.llnw.net
-,,,,2015-03-30,savoxcode.hs.llnwd.net
-,,,,2015-03-02,abcentmktg.hs.llnwd.net
-,,,,2015-02-27,conratrex.hs.llnwd.net
-,,,,2015-02-06,amazonm-002.hs.llnwd.net
-,,,,2015-01-14,msxb.hs.llnwd.net
-,,,,2014-12-25,betonsoft.hs.llnwd.net
-,,,,2014-12-23,amazonmmd.hs.llnwd.net
-,,,,2014-11-06,ble.hs.llnwd.net
-,,,,2014-10-30,amznadsi.hs.llnwd.net
-,,,,2014-10-21,assets.five.tv
-,,,,2014-10-17,affiliate-media.quisma.com
-,,,,2014-10-16,about.channel5.com
-,,,,2014-10-15,ads.channel5.com
-,,,,2014-10-15,btn.clickability.com
-,,,,2014-10-15,cpc.delvenetworks.com
-,,,,2014-10-15,cache2.delvenetworks.com
-,,,,2014-10-15,cpx-media.quisma.com
-,,,,2014-10-14,assets.behance.net
-,,,,2014-10-14,blogs.amctv.com
-,,,,2014-10-13,media.pnwlocalnews.com
-,,,,2014-10-09,weinteract.hs.llnwd.net
-,,,,2014-10-07,bartltd.hs.llnwd.net
-,,,,2014-09-29,agi.vo.llnwd.net
-,,,,2014-09-27,bandai.hs.llnwd.net
-,,,,2014-09-26,pizzapizza.hs.llnwd.net
-,,,,2014-09-23,casinostar.hs.llnwd.net
-,,,,2014-09-23,c3486.hs.llnwd.net
-,,,,2014-09-22,weblio.hs.llnwd.net
-,,,,2014-09-21,cfbt.hs.llnwd.net
-,,,,2014-09-20,rnwloca.hs.llnwd.net
-,,,,2014-09-20,clickabl.hs.llnwd.net
-,,,,2014-09-17,pokki.hs.llnwd.net
-,,,,2014-09-17,bowker.hs.llnwd.net
-,,,,2014-09-16,pajamasmed.hs.llnwd.net
-,,,,2014-09-16,bps.hs.llnwd.net
-,,,,2014-09-16,nyphil.hs.llnwd.net
-,,,,2014-09-16,casinoeuro.hs.llnwd.net
-,,,,2014-09-16,betsson.hs.llnwd.net
-,,,,2014-09-15,clickabl.vo.llnwd.net
-,,,,2014-09-15,crazyeight.hs.llnwd.net
-,,,,2014-09-15,delve.vo.llnwd.net
-,,,,2014-09-15,delve.hs.llnwd.net
-,,,,2014-09-15,betclick.hs.llnwd.net
-,,,,2014-09-15,arte.vo.llnwd.net
-,,,,2014-09-15,amctv.vo.llnwd.net
-,,,,2014-09-15,bafr.hs.llnwd.net
-,,,,2014-09-15,behance.vo.llnwd.net
-,,,,2014-09-15,bt.vo.llnwd.net
-,,,,2014-09-15,dtvimages.hs.llnwd.net
-,,,,2014-09-15,carrefour-www.vo.llnwd.net
-88.221.144.11,10,AS20940 Akamai International B.V.,IT,,a88-221-144-11.deploy.akamaitechnologies.com
+74.125.206.108,44,AS15169 Google Inc.,US,,wk-in-f108.1e100.net
+,,,,2014-10-15,smtp.n2sys.co.kr
+,,,,2014-10-15,imap.gmail.com
+,,,,2014-10-14,gmail-pop.l.google.com
+,,,,2014-09-25,gmail-imap.l.google.com
+,,,,2014-09-25,gmail-smtp-msa.l.google.com
+74.125.206.109,34,AS15169 Google Inc.,US,,wk-in-f109.1e100.net
+,,,,2014-10-15,imap.gmail.com
+,,,,2014-10-14,gmail-pop.l.google.com
+,,,,2014-09-25,gmail-imap.l.google.com
+88.221.144.11,70,AS20940 Akamai International B.V.,IT,,a88-221-144-11.deploy.akamaitechnologies.com
 ,,,,2016-04-01,biz.einfochips.com
 ,,,,2016-03-30,blog.insynctraining.com
 ,,,,2016-03-13,theagencypost.com
@@ -342,45 +227,154 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2016-03-08,hubspot.net
 ,,,,2016-03-06,culturecode.com
 ,,,,2016-03-03,user-att-108-202-8-0.a1123.b.akamai.net
-88.221.144.50,10,AS20940 Akamai International B.V.,IT,,a88-221-144-50.deploy.akamaitechnologies.com
-93.184.220.29,13,AS15133 EdgeCast Networks. Inc.,US,2016-06-22,cannon-construction.co.uk
-,,,,2015-04-02,cs9.wac.phicdn.net
-,,,,2014-09-15,cs9.wac.edgecastcdn.net
-,,,,2013-08-15,crl3.digicert.com
-,,,,2013-06-13,ocsp.digicert.com
-,,,,2013-04-20,cacerts.digicert.com
-,,,,2012-08-10,digicert.com
-94.23.217.75,1,AS16276 OVH SAS,FR,,beastie.deuza.net
-,,,,2016-04-17,ftp4.fr.freebsd.org
-,,,,2015-10-18,europe.pool.ntp.org
-104.43.137.66,58,AS8075 Microsoft Corporation,US,2016-06-05,compatexchange12.cloudapp.net
+88.221.144.50,20,AS20940 Akamai International B.V.,IT,,a88-221-144-50.deploy.akamaitechnologies.com
+104.43.137.66,58,AS8075 Microsoft Corporation,US,2016-07-19,compatexchange12.cloudapp.net
 ,,,,2015-04-16,aeos.microsoft.com
-104.45.11.195,20,AS8075 Microsoft Corporation,NL,2015-05-19,nexus.officeapps.live.com
-104.46.1.211,20,AS8075 Microsoft Corporation,US,2015-12-01,nexus.officeapps.live.com
-104.81.244.232,23,AS20940 Akamai International B.V.,US,,a104-81-244-232.deploy.static.akamaitechnologies.com
-104.86.23.134,7,AS20940 Akamai International B.V.,US,,a104-86-23-134.deploy.static.akamaitechnologies.com
-104.86.110.50,10,AS20940 Akamai International B.V.,NL,,a104-86-110-50.deploy.static.akamaitechnologies.com
-,,,,2016-03-24,a1331.g.akamai.net
-,,,,2015-12-27,cloudav.downloads.pandasecurity.com
-,,,,2015-12-09,916yy.com
-,,,,2015-11-26,www.theimagespace.net
-,,,,2015-11-24,www.portclintonnewsherald.com
-104.94.172.94,20,AS20940 Akamai International B.V.,US,,a104-94-172-94.deploy.static.akamaitechnologies.com
-104.96.16.131,16,AS20940 Akamai International B.V.,US,,a104-96-16-131.deploy.static.akamaitechnologies.com
-104.96.27.71,332,AS20940 Akamai International B.V.,US,,a104-96-27-71.deploy.static.akamaitechnologies.com
-104.101.172.250,587,AS20940 Akamai International B.V.,US,,a104-101-172-250.deploy.static.akamaitechnologies.com
-104.101.175.67,9,AS20940 Akamai International B.V.,US,,a104-101-175-67.deploy.static.akamaitechnologies.com
-104.101.178.203,11,AS20940 Akamai International B.V.,US,,a104-101-178-203.deploy.static.akamaitechnologies.com
-104.244.43.103,17,AS13414 Twitter Inc.,US,2016-07-01,abs.twimg.com
-,,,,2016-06-19,ma1.twimg.com
-,,,,2016-06-15,oem.twimg.com
-,,,,2016-06-13,video.twimg.com
+104.46.50.125,19,AS8075 Microsoft Corporation,NL,2015-06-20,nexus.officeapps.live.com
+104.69.56.58,36,AS20940 Akamai International B.V.,NL,,a104-69-56-58.deploy.static.akamaitechnologies.com
+104.69.63.243,162,AS20940 Akamai International B.V.,NL,,a104-69-63-243.deploy.static.akamaitechnologies.com
+104.69.71.146,13706,AS20940 Akamai International B.V.,NL,,a104-69-71-146.deploy.static.akamaitechnologies.com
+104.70.185.6,36,AS20940 Akamai International B.V.,US,,a104-70-185-6.deploy.static.akamaitechnologies.com
+104.71.200.228,81,AS16625 Akamai Technologies. Inc.,NL,,a104-71-200-228.deploy.static.akamaitechnologies.com
+104.86.110.17,20,AS20940 Akamai International B.V.,NL,,a104-86-110-17.deploy.static.akamaitechnologies.com
+,,,,2016-05-11,innovate.kalypso.com
+,,,,2016-04-24,flubspot.com
+,,,,2016-03-29,info.thebaseballzone.ca
+,,,,2016-03-25,www.ttiguardian.com
+,,,,2016-03-23,emailing.westernspirit.com
+,,,,2016-03-22,info.insynctraining.com
+,,,,2016-03-22,www.focuspdm.com
+,,,,2016-03-17,www.applango.com
+,,,,2016-03-10,www.tfainternational.com
+,,,,2016-03-05,info.staffordglobal.org
+,,,,2016-03-02,canadasyspro.com
+,,,,2015-12-18,hello.oxfordcomputergroup.com
+,,,,2015-12-17,configurator.audi.cn
+,,,,2015-12-15,marketing.accountingmicro.com
+,,,,2015-12-04,www.hisgo.com.mm
+,,,,2015-11-25,info.reoptimizer.com
+,,,,2015-11-25,www.influenceagents.com
+,,,,2015-11-18,www.ronjohnsonforsenate.com
+,,,,2015-11-13,www.reoptimizer.com
+,,,,2015-11-10,go.cco.us
+,,,,2015-11-04,info.focaluprightfurniture.com
+,,,,2015-10-29,go.codingcertification.org
+,,,,2015-10-27,life.bosch.com.cn
+,,,,2015-10-22,web-japan.org
+,,,,2015-10-22,info.klingecorp.com
+,,,,2015-10-20,biobasedworldnews.com
+,,,,2015-10-13,www.brasdesco.com.br
+,,,,2015-10-07,cdn.enikonomia.gr
+,,,,2015-10-06,www.vertekcpt.com
+,,,,2015-10-05,blog.iscanonline.com
+104.94.171.11,3,AS20940 Akamai International B.V.,US,,a104-94-171-11.deploy.static.akamaitechnologies.com
+104.94.172.94,4,AS20940 Akamai International B.V.,US,,a104-94-172-94.deploy.static.akamaitechnologies.com
+104.101.160.202,14017,AS20940 Akamai International B.V.,US,,a104-101-160-202.deploy.static.akamaitechnologies.com
+104.101.172.250,381,AS20940 Akamai International B.V.,US,,a104-101-172-250.deploy.static.akamaitechnologies.com
+104.101.175.67,198,AS20940 Akamai International B.V.,US,,a104-101-175-67.deploy.static.akamaitechnologies.com
+104.107.216.160,20,AS20940 Akamai International B.V.,US,,a104-107-216-160.deploy.static.akamaitechnologies.com
+104.210.40.87,19,AS8075 Microsoft Corporation,US,2016-05-26,prod-w.nexus.live.com.akadns.net
+,,,,2015-09-07,nexus.officeapps.live.com
+104.215.146.200,19,AS8075 Microsoft Corporation,SG,2015-09-08,nexus.officeapps.live.com
+104.244.43.7,38,AS13414 Twitter Inc.,US,2016-07-24,g.twimg.com
+,,,,2016-07-23,abs.twimg.com
+,,,,2016-07-20,p.twimg.com
+,,,,2016-07-18,a4.twimg.com
+,,,,2016-07-16,ma1.twimg.com
+,,,,2016-07-02,gu.twimg.com
+,,,,2016-06-23,ma3.twimg.com
+,,,,2016-06-20,a1.twimg.com
+,,,,2016-06-13,ttc.twimg.com
+,,,,2016-06-13,pbs.twimg.com
+,,,,2016-05-29,ma.twimg.com
+,,,,2016-05-28,ma2.twimg.com
+,,,,2016-05-27,a2.twimg.com
+,,,,2016-05-22,wildcard-eb.twimg.com
+,,,,2016-05-22,edge.cnames.video.twimg.com
+,,,,2016-05-22,oem.twimg.com
+,,,,2016-05-20,hca.twimg.com
+,,,,2016-05-10,ton.twimg.com
+,,,,2016-04-28,a0.twimg.com
+,,,,2016-04-20,video.twimg.com
+,,,,2016-04-14,a5.twimg.com
+,,,,2016-02-13,si5.twimg.com
+,,,,2015-10-16,si0.twimg.com
+,,,,2015-10-15,g2.twimg.com
+,,,,2015-08-26,a3.twimg.com
+,,,,2015-08-24,ea.twimg.com
+,,,,2015-08-19,o.twimg.com
+,,,,2015-08-14,amp.twimg.com
+104.244.43.39,21,AS13414 Twitter Inc.,US,2016-07-24,a4.twimg.com
+,,,,2016-07-23,gu.twimg.com
+,,,,2016-07-17,ma3.twimg.com
+,,,,2016-07-16,oem.twimg.com
+,,,,2016-07-12,video.twimg.com
+,,,,2016-07-08,ttc.twimg.com
+,,,,2016-07-07,ton.twimg.com
+,,,,2016-07-01,pbs.twimg.com
+,,,,2016-06-15,ea.twimg.com
+,,,,2016-06-14,a0.twimg.com
+,,,,2016-06-08,hca.twimg.com
+,,,,2016-06-07,o.twimg.com
+,,,,2016-06-03,wildcard-eb.twimg.com
+,,,,2016-05-29,amp.twimg.com
+,,,,2016-05-28,g.twimg.com
+,,,,2016-05-22,ma2.twimg.com
+,,,,2016-04-25,ma1.twimg.com
+,,,,2016-04-17,a5.twimg.com
+,,,,2016-04-17,a2.twimg.com
+,,,,2016-04-14,si3.twimg.com
+,,,,2016-03-01,si1.twimg.com
+,,,,2015-12-02,g2.twimg.com
+,,,,2015-10-13,ma.twimg.com
+,,,,2015-10-05,dnt.twimg.com
+,,,,2015-09-08,p.twimg.com
+,,,,2015-09-03,a1.twimg.com
+,,,,2015-08-29,a3.twimg.com
+,,,,2015-08-24,si0.twimg.com
+,,,,2015-08-24,abs.twimg.com
+104.244.43.71,21,AS13414 Twitter Inc.,US,2016-07-21,hca.twimg.com
+,,,,2016-07-21,video.twimg.com
+,,,,2016-07-19,dnt.twimg.com
+,,,,2016-07-11,gu.twimg.com
+,,,,2016-07-02,ma3.twimg.com
+,,,,2016-07-02,o.twimg.com
+,,,,2016-07-02,g.twimg.com
+,,,,2016-06-25,oem.twimg.com
+,,,,2016-06-24,amp.twimg.com
+,,,,2016-06-18,ea.twimg.com
+,,,,2016-06-17,ton.twimg.com
+,,,,2016-06-10,a4.twimg.com
+,,,,2016-06-10,a1.twimg.com
+,,,,2016-06-08,edge.cnames.video.twimg.com
+,,,,2016-06-06,wildcard-eb.twimg.com
+,,,,2016-06-03,a3.twimg.com
+,,,,2016-05-29,crashlytics.twimg.com
+,,,,2016-05-28,ttc.twimg.com
+,,,,2016-05-28,ma1.twimg.com
+,,,,2016-05-24,ma.twimg.com
+,,,,2016-05-20,abs.twimg.com
+,,,,2016-05-17,a2.twimg.com
+,,,,2016-05-09,p.twimg.com
+,,,,2016-04-08,a5.twimg.com
+,,,,2016-04-04,pbs.twimg.com
+,,,,2016-03-30,si3.twimg.com
+,,,,2016-03-15,si4.twimg.com
+,,,,2015-08-31,a0.twimg.com
+,,,,2015-08-19,si2.twimg.com
+,,,,2015-08-17,si0.twimg.com
+104.244.43.103,193,AS13414 Twitter Inc.,US,2016-07-24,ton.twimg.com
+,,,,2016-07-23,ma1.twimg.com
+,,,,2016-07-22,oem.twimg.com
+,,,,2016-07-15,video.twimg.com
+,,,,2016-07-07,hca.twimg.com
+,,,,2016-07-01,abs.twimg.com
 ,,,,2016-06-12,ma3.twimg.com
-,,,,2016-06-04,ma.twimg.com
+,,,,2016-06-09,g2.twimg.com
 ,,,,2016-06-04,o.twimg.com
-,,,,2016-06-03,edge.cnames.video.twimg.com
+,,,,2016-06-04,ma.twimg.com
 ,,,,2016-06-03,g.twimg.com
-,,,,2016-05-30,ton.twimg.com
+,,,,2016-06-03,edge.cnames.video.twimg.com
 ,,,,2016-05-28,p.twimg.com
 ,,,,2016-05-24,a4.twimg.com
 ,,,,2016-05-22,ttc.twimg.com
@@ -394,63 +388,34 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2015-12-04,a3.twimg.com
 ,,,,2015-11-18,dnt.twimg.com
 ,,,,2015-11-06,si0.twimg.com
-,,,,2015-10-07,hca.twimg.com
 ,,,,2015-09-23,a2.twimg.com
 ,,,,2015-09-18,gu.twimg.com
 ,,,,2015-08-17,a1.twimg.com
 ,,,,2015-08-14,pbs.twimg.com
 ,,,,2015-08-13,ea.twimg.com
-104.244.43.167,21,AS13414 Twitter Inc.,US,2016-07-03,ton.twimg.com
-,,,,2016-07-03,ipv6.twimg.com
-,,,,2016-06-23,o.twimg.com
-,,,,2016-06-15,a3.twimg.com
-,,,,2016-06-13,a2.twimg.com
-,,,,2016-06-13,ma1.twimg.com
-,,,,2016-06-07,video.twimg.com
-,,,,2016-06-07,ma.twimg.com
-,,,,2016-06-06,g.twimg.com
-,,,,2016-06-03,ma3.twimg.com
-,,,,2016-06-02,oem.twimg.com
-,,,,2016-05-25,abs.twimg.com
-,,,,2016-05-15,a4.twimg.com
-,,,,2016-03-30,hca.twimg.com
-,,,,2016-03-29,a5.twimg.com
-,,,,2016-03-16,g2.twimg.com
-,,,,2016-02-13,si2.twimg.com
-,,,,2015-12-10,si1.twimg.com
-,,,,2015-10-14,gu.twimg.com
-,,,,2015-10-12,ttc.twimg.com
-,,,,2015-10-08,dnt.twimg.com
-,,,,2015-09-26,si0.twimg.com
-,,,,2015-09-02,p.twimg.com
-,,,,2015-08-25,wildcard.twimg.com
-,,,,2015-08-21,a1.twimg.com
-,,,,2015-08-18,ea.twimg.com
-,,,,2015-08-16,a0.twimg.com
-,,,,2015-08-14,amp.twimg.com
-,,,,2015-08-14,pbs.twimg.com
-108.177.15.108,41,AS15169 Google Inc.,US,,
-131.253.61.66,286,AS8075 Microsoft Corporation,US,2016-06-26,login.live.com.nsatc.net
-,,,,2016-06-07,login.live.com
+108.177.15.109,39,AS15169 Google Inc.,US,,
+108.177.15.188,9,AS15169 Google Inc.,US,,
+131.253.61.66,76,AS8075 Microsoft Corporation,US,2016-07-06,login.live.com
+,,,,2016-06-26,login.live.com.nsatc.net
 ,,,,2015-12-31,mail.baydogan.com
 ,,,,2015-12-29,mail.painaipaigun.com
-131.253.61.68,194,AS8075 Microsoft Corporation,US,2016-06-30,login.live.com
-,,,,2016-06-02,login.live.com.nsatc.net
+131.253.61.68,37,AS8075 Microsoft Corporation,US,2016-07-13,login.live.com.nsatc.net
+,,,,2016-06-30,login.live.com
 ,,,,2016-05-11,mail.baydogan.com
 ,,,,2013-05-24,jiaoban.cc
-131.253.61.80,303,AS8075 Microsoft Corporation,US,2016-06-27,login.live.com
+131.253.61.80,30,AS8075 Microsoft Corporation,US,2016-06-27,login.live.com
 ,,,,2016-05-28,login.live.com.nsatc.net
 ,,,,2015-12-04,mail.publichot.net
 ,,,,2014-02-20,mail.njit.com.au
 ,,,,2013-10-02,live.com
 ,,,,2013-07-02,studentmail.ed-coll.ac.uk
-131.253.61.82,157,AS8075 Microsoft Corporation,US,2016-06-05,login.live.com.nsatc.net
+131.253.61.82,116,AS8075 Microsoft Corporation,US,2016-07-23,login.live.com.nsatc.net
+,,,,2016-07-11,login.live.com
 ,,,,2016-05-24,mel.cnamintec.fr
-,,,,2016-03-25,login.live.com
 ,,,,2015-03-04,mail.jiaoban.cc
 ,,,,2014-04-17,divyalabdhi.com
 ,,,,2013-10-02,live.com
-131.253.61.84,76,AS8075 Microsoft Corporation,US,2016-06-20,login.live.com
+131.253.61.84,100,AS8075 Microsoft Corporation,US,2016-07-20,login.live.com
 ,,,,2016-04-12,login.live.com.nsatc.net
 ,,,,2016-03-03,correo.ocerollar.com
 ,,,,2015-03-16,mail.sergecom.net
@@ -459,156 +424,67 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2013-10-02,live.com
 ,,,,2013-07-02,mail.ttscvn.com
 ,,,,2013-05-24,mail.jiaoban.cc
-131.253.61.96,133,AS8075 Microsoft Corporation,US,2016-06-23,login.live.com
-,,,,2016-06-23,login.live.com.nsatc.net
+131.253.61.96,143,AS8075 Microsoft Corporation,US,2016-07-17,login.live.com.nsatc.net
+,,,,2016-06-23,login.live.com
 ,,,,2015-10-15,131.253.61.96
 ,,,,2014-03-18,mail.sergecom.net
 ,,,,2014-02-20,mail.jiaoban.cc
 ,,,,2014-02-20,mail.aocor.com
-131.253.61.98,221,AS8075 Microsoft Corporation,US,2016-06-29,login.live.com.nsatc.net
+131.253.61.98,193,AS8075 Microsoft Corporation,US,2016-07-05,131.253.61.98
+,,,,2016-06-29,login.live.com.nsatc.net
 ,,,,2016-05-18,login.live.com
-,,,,2016-05-09,131.253.61.98
 ,,,,2015-06-25,studentemail.enmu.edu
 ,,,,2015-03-02,studentmail.ed-coll.ac.uk
 ,,,,2014-01-24,live.com
-131.253.61.100,109,AS8075 Microsoft Corporation,US,2016-05-08,login.live.com.nsatc.net
+131.253.61.100,28,AS8075 Microsoft Corporation,US,2016-07-20,login.live.com.nsatc.net
 ,,,,2016-03-10,studentemail.enmu.edu
 ,,,,2015-12-16,mail.baydogan.com
 ,,,,2015-11-27,mail.amnauichok.com
 ,,,,2015-03-04,mail.sergecom.net
 ,,,,2013-10-18,login.live.com
-134.170.51.190,177,AS8075 Microsoft Corporation,US,2016-05-19,fe2.update.microsoft.com.nsatc.net
+134.170.30.221,4,AS8075 Microsoft Corporation,US,2016-07-23,dmd.metaservices.microsoft.com.akadns.net
+,,,,2015-03-20,dmd.metaservices.microsoft.com
+134.170.51.190,115,AS8075 Microsoft Corporation,US,2016-05-19,fe2.update.microsoft.com.nsatc.net
 ,,,,2015-07-18,fe2.update.microsoft.com.akadns.net
 ,,,,2015-03-07,fe1.update.microsoft.com
 ,,,,2014-09-12,fe2.update.microsoft.com
 ,,,,2014-06-16,update.microsoft.com
-134.170.51.247,98,AS8075 Microsoft Corporation,US,2015-11-26,fe2.update.microsoft.com
-134.170.51.248,116,AS8075 Microsoft Corporation,US,2016-06-23,fe2.update.microsoft.com
-,,,,2016-04-26,fe1.update.microsoft.com.akadns.net
-,,,,2014-12-11,fe2.update.microsoft.com.akadns.net
-134.170.58.118,76,AS8075 Microsoft Corporation,US,2016-05-16,fe2.update.microsoft.com.akadns.net
-,,,,2016-03-01,fe1.update.microsoft.com.akadns.net
-,,,,2016-01-22,fe2.update.microsoft.com.nsatc.net
-,,,,2014-09-16,fe2.update.microsoft.com
-134.170.58.121,295,AS8075 Microsoft Corporation,US,2016-04-28,fe2.update.microsoft.com.nsatc.net
-,,,,2016-04-23,fe1.update.microsoft.com.akadns.net
-,,,,2016-03-17,fe2.update.microsoft.com
-,,,,2014-12-11,fe2.update.microsoft.com.akadns.net
-134.170.58.123,74,AS8075 Microsoft Corporation,US,2016-04-01,fe2.update.microsoft.com.nsatc.net
-,,,,2015-09-30,fe2.update.microsoft.com.akadns.net
-,,,,2014-09-05,fe2.update.microsoft.com
-134.170.106.152,45,AS8075 Microsoft Corporation,US,,bn1306-a.1drv.com
-,,,,2016-07-03,kpgseq.bay.livefilestore.com
-,,,,2016-07-02,gfelbg.blu.livefilestore.com
-,,,,2016-06-20,olbtdg.bay.livefilestore.com
-,,,,2016-06-11,dhdzpa.blu.livefilestore.com
-,,,,2016-06-05,7puhyb.docs.live.net
-,,,,2016-06-05,oqr4qa.docs.live.net
-,,,,2016-04-08,ndja0q.docs.live.net
-,,,,2016-03-15,eld9ui.docs.live.net
-,,,,2016-03-15,eqrkyd.docs.live.net
-,,,,2015-12-27,bn1306.storage.skyprod.akadns.net
-,,,,2015-11-17,cfb8f4c9459743ff.users.storage.live.com
-,,,,2015-11-09,cid-23e8582e890ccbff.users.storage.live.com
-,,,,2015-11-06,cid-34fc6e10dbe751ee.users.storage.live.com
-,,,,2015-09-25,cid-3be758fd1ce8aa14.users.storage.live.com
-,,,,2015-09-07,byfiles.storage.msn.com
-,,,,2015-03-26,07rgug.bn1.livefilestore.com
-,,,,2015-03-26,b2gyhq.dm1.livefilestore.com
-,,,,2015-03-16,cid-7678c51876bb4ed.users.storage.live.com
-,,,,2015-03-11,by2.storage.msn.com
-,,,,2015-03-07,docs.live.net
-,,,,2015-02-08,storage.live.com
-,,,,2015-01-27,d.docs.live.net
-,,,,2014-11-27,skydrivesync.policies.live.net
-134.170.106.176,21,AS8075 Microsoft Corporation,US,,bn1306-c.1drv.com
-,,,,2015-12-08,ackmpa.blu.livefilestore.com
-,,,,2015-12-03,a543d21470c8f834.users.storage.live.com
-,,,,2015-11-18,cid-2a828d72bc9b21d2.users.storage.live.com
-,,,,2015-11-17,cid-21ee72a8dd9f6630.users.storage.live.com
-,,,,2015-11-16,cid-2e1442f2f4706875.users.storage.live.com
-,,,,2015-11-09,cid-30e1b60c9205b8c1.users.storage.live.com
-,,,,2015-11-02,cid-1a83cca9c7ca2524.users.storage.live.com
-,,,,2015-10-22,airfbq.bay.livefilestore.com
-,,,,2015-09-28,cid-793e2cef7bead04.users.storage.live.com
-,,,,2015-09-24,cid-4faea6a62869d2aa.users.storage.live.com
-,,,,2015-09-02,77xebg.bay.livefilestore.com
-,,,,2015-09-02,77ztmw.bay.livefilestore.com
-,,,,2015-07-22,8qbk1a.sn2.livefilestore.com
-,,,,2015-06-17,5rsn4q-bn1306.files.1drv.com
-,,,,2015-06-09,4rvy9w-bn1306.files.1drv.com
-,,,,2015-05-30,acdqyq.blu.livefilestore.com
-,,,,2015-05-30,byfiles.storage.live.com
-,,,,2015-05-29,5bvy9w-bn1306.files.1drv.com
-,,,,2015-05-28,5bv79w-bn1306.files.1drv.com
-,,,,2015-05-24,0fvgng-bn1306.files.1drv.com
-,,,,2015-05-09,5bsx4q-bn1306.files.1drv.com
-,,,,2015-04-21,6eqlug-bn1306.files.1drv.com
-,,,,2015-04-21,7z4xnq-bn1306.files.1drv.com
-,,,,2015-04-21,0utj0w-bn1306.files.1drv.com
-,,,,2015-04-20,5w7gow-bn1306.files.1drv.com
-,,,,2015-04-20,7wwfpg-bn1306.files.1drv.com
-,,,,2015-03-31,a4a2df81c8108ecb.users.storage.live.com
-,,,,2015-03-26,a6d04a264699c89a.users.storage.live.com
-,,,,2015-03-26,3lhw1a.bay.livefilestore.com
-,,,,2015-03-26,63sssg.blu.livefilestore.com
-,,,,2015-03-24,cid-7678c51876bb4ed.users.storage.live.com
-,,,,2015-03-24,adbjsg.blu.livefilestore.com
-,,,,2015-03-24,9oz64g.dm1.livefilestore.com
-,,,,2015-03-18,a32243089c41d7aa.users.storage.live.com
-,,,,2015-03-18,13qr11.docs.live.net
-,,,,2015-03-18,2mzwna.blu.livefilestore.com
-,,,,2015-03-18,aavjoq.blu.livefilestore.com
-,,,,2015-03-18,aazofw.bay.livefilestore.com
-,,,,2015-03-18,aivila.blu.livefilestore.com
-,,,,2015-03-16,byfiles.storage.msn.com
-,,,,2015-03-03,5rv49w-bn1306.files.1drv.com
-,,,,2015-03-02,8bv39w-bn1306.files.1drv.com
-,,,,2015-03-01,5luogg-bn1306.files.1drv.com
-,,,,2015-02-28,50qswg.bay.livefilestore.com
-,,,,2015-02-28,ciijfg.bay.livefilestore.com
-,,,,2015-02-18,0mseev.docs.live.net
-,,,,2015-01-29,22zzra-bn1306.files.1drv.com
-,,,,2014-12-31,docs.live.net
-,,,,2014-10-27,d.docs.live.net
-,,,,2014-09-30,1drv.com
-134.170.115.62,693,AS8075 Microsoft Corporation,US,2015-03-16,fe1.update.microsoft.com.akadns.net
+134.170.115.62,293,AS8075 Microsoft Corporation,US,2015-03-16,fe1.update.microsoft.com.akadns.net
 ,,,,2014-09-15,fe2.update.microsoft.com.akadns.net
 ,,,,2014-09-04,fe2.update.microsoft.com
-134.170.165.253,72,AS8075 Microsoft Corporation,US,2015-12-05,fe2.update.microsoft.com
+134.170.165.251,269,AS8075 Microsoft Corporation,US,2016-07-04,fe2.update.microsoft.com.nsatc.net
+,,,,2015-11-13,fe2.update.microsoft.com
 ,,,,2015-02-07,fe2.update.microsoft.com.akadns.net
-134.170.179.87,44,AS8075 Microsoft Corporation,US,,
-137.117.235.16,126,AS8075 Microsoft Corporation,NL,2015-11-17,spynetalt.microsoft.com
+137.117.235.16,38,AS8075 Microsoft Corporation,NL,2016-07-21,wdcpeurope.microsoft.akadns.net
+,,,,2015-11-17,spynetalt.microsoft.com
 ,,,,2015-05-14,updat101up.ddns.net
 ,,,,2015-05-04,spynetall.microsoft.akadns.net
 ,,,,2014-10-14,spynet2.microsoft.com
 ,,,,2014-09-16,spyneteurope.microsoft.akadns.net
-151.80.124.104,1,AS16276 OVH SAS,FR,,pob01.aplu.fr
-,,,,2016-02-26,1.pool.ntp.org
-157.55.133.204,31,AS8075 Microsoft Corporation,US,2016-06-18,sls.update.microsoft.com.nsatc.net
-157.55.240.89,30,AS8075 Microsoft Corporation,US,,
-157.55.240.220,30,AS8075 Microsoft Corporation,US,2016-06-26,sls.update.microsoft.com.nsatc.net
-,,,,2016-05-16,sls.update.microsoft.com.akadns.net
+157.55.133.204,14,AS8075 Microsoft Corporation,US,2016-07-11,sls.update.microsoft.com.nsatc.net
+157.55.240.89,60,AS8075 Microsoft Corporation,US,,
+157.55.240.220,62,AS8075 Microsoft Corporation,US,2016-07-22,sls.update.microsoft.com.akadns.net
+,,,,2016-06-26,sls.update.microsoft.com.nsatc.net
 ,,,,2016-05-16,sls.update.microsoft.com
 ,,,,2014-07-02,microsoft.com
-157.56.77.140,17,AS8075 Microsoft Corporation,US,,
-157.56.77.148,74,AS8075 Microsoft Corporation,US,2014-09-27,www.windowsupdate.com
+157.56.77.140,103,AS8075 Microsoft Corporation,US,,
+157.56.77.141,59,AS8075 Microsoft Corporation,US,,
+157.56.77.148,28,AS8075 Microsoft Corporation,US,2016-07-24,sls.update.microsoft.com.nsatc.net
+,,,,2014-09-27,www.windowsupdate.com
 ,,,,2014-09-15,www.update.microsoft.com.nsatc.net
 ,,,,2014-09-13,www.update.microsoft.com
 ,,,,2014-09-11,kocrmicrosoft.com
 ,,,,2014-09-10,windowsupdate.microsoft.com
-157.56.77.149,86,AS8075 Microsoft Corporation,US,2016-06-28,157.56.77.149
-,,,,2016-06-22,sls.update.microsoft.com.nsatc.net
+157.56.77.149,30,AS8075 Microsoft Corporation,US,2016-07-21,sls.update.microsoft.com.nsatc.net
+,,,,2016-06-28,157.56.77.149
 ,,,,2014-09-26,windowsupdate.microsoft.com
 ,,,,2014-09-15,www.update.microsoft.com.nsatc.net
 ,,,,2014-09-11,www.update.microsoft.com
 ,,,,2014-09-10,www.windowsupdate.com
-157.56.96.54,14,AS8075 Microsoft Corporation,US,2016-07-02,sls.update.microsoft.com.nsatc.net
-,,,,2015-08-25,sls.update.microsoft.com
-157.56.96.58,14,AS8075 Microsoft Corporation,US,2016-06-12,sls.update.microsoft.com.nsatc.net
+157.56.96.58,16,AS8075 Microsoft Corporation,US,2016-06-12,sls.update.microsoft.com.nsatc.net
 ,,,,2015-08-22,sls.update.microsoft.com
 ,,,,2014-01-16,fe1.update.microsoft.com
-157.56.96.123,145,AS8075 Microsoft Corporation,US,2016-02-23,fe2.update.microsoft.com.nsatc.net
+157.56.96.123,173,AS8075 Microsoft Corporation,US,2016-02-23,fe2.update.microsoft.com.nsatc.net
 ,,,,2015-03-16,fe1.update.microsoft.com.akadns.net
 ,,,,2014-10-14,fe2.update.microsoft.com
 ,,,,2014-09-15,fe2.update.microsoft.com.akadns.net
@@ -616,65 +492,13 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2014-08-14,www.update.microsoft.com.nsatc.net
 ,,,,2014-06-12,windowsupdate.microsoft.com
 ,,,,2014-06-09,www.update.microsoft.com
-168.61.146.25,19,AS8075 Microsoft Corporation,US,,
-169.254.41.242,18,Internet Assigned Numbers Authority (IANA),US,,
-178.79.224.51,696,AS22822 Limelight Networks. Inc.,IT,,cds1182.lon.llnw.net
-178.79.224.138,4175,AS22822 Limelight Networks. Inc.,IT,,cds869.lon.llnw.net
-178.79.224.155,11705,AS22822 Limelight Networks. Inc.,IT,,cds886.lon.llnw.net
-,,,,2015-07-18,ic.56b439ba.02b1b6.2.c3734.d.rncdn3.com
-,,,,2015-05-02,ic.504a6510.04b396.1.msftsrvcs.vo.llnwi.net
-,,,,2015-04-21,ic.c6260a0b.114de2.8.c3605.d.rncdn3.com
-,,,,2015-04-21,ic.83e31723.048d2a.ve-hls-uk-live.bbcfmt.vo.llnwi.net
-,,,,2015-04-20,im.0a1e0b00.982d09b.cdnb.mobile.hotchongas.com
-,,,,2015-04-20,ic.83e332d3.1493dc.6.c3605.d.rncdn3.com
-,,,,2015-04-20,ic.cc7eb2fe.021ccf.6.msftsrvcs.vo.llnwi.net
-,,,,2015-04-20,ic.c4cac143.03e97f.1.msftsrvcs.vo.llnwi.net
-,,,,2015-04-20,ic.cc6c6061.031024.1.msftsrvcs.vo.llnwi.net
-,,,,2015-04-16,im.4d7d5e00.3b44694.ads.a4cdn.contentabc.com
-,,,,2015-04-15,im.5b794700.ee93bb7.ads.a4cdn.contentabc.com
-,,,,2015-04-12,im.5b794700.57dfa83.ads.a4cdn.contentabc.com
-,,,,2015-04-07,im.5b790f00.adb98df.ads.a4cdn.contentabc.com
-,,,,2015-04-07,ic.0598c992.0bc8e9.7.c3605.d.rncdn3.com
-,,,,2015-04-05,im.5b790f00.18426aa.ads.a4cdn.contentabc.com
-,,,,2015-04-05,im.5b790f00.03734b5.ads.a4cdn.contentabc.com
-,,,,2015-04-05,im.5b790f00.08d24eb.ads.a4cdn.contentabc.com
-,,,,2015-04-03,im.5b794700.3f56d3b.ads.a4cdn.contentabc.com
-,,,,2015-03-27,im.5b790f00.f326dba.ads.a4cdn.contentabc.com
-,,,,2015-03-25,im.5b790f00.f6486ed.ads.a4cdn.contentabc.com
-,,,,2015-03-19,im.5b790f00.ee93bb7.ads.a4cdn.contentabc.com
-,,,,2015-03-11,im.5b794700.a5c4cf0.ads.a4cdn.contentabc.com
-,,,,2015-03-01,im.5b790f00.a5c4cf0.ads.a4cdn.contentabc.com
-,,,,2015-02-26,ic.3a488863.0743af.1.msftsrvcs.vo.llnwi.net
-,,,,2015-02-22,im.5b794700.76f721b.ads.a4cdn.contentabc.com
-,,,,2015-02-19,ic.6af7f12a.03c1fd.1.msftsrvcs.vo.llnwi.net
-,,,,2015-02-17,ic.d3f6e90d.064252.1.msftsrvcs.vo.llnwi.net
-,,,,2015-02-17,ic.7c3e5117.02ac3f.6.msftsrvcs.vo.llnwi.net
-,,,,2015-02-15,im.5b790f00.33ed611.ads.a4cdn.contentabc.com
-,,,,2015-02-12,ic.b6d66707.1335e4.1.msftsrvcs.vo.llnwi.net
-,,,,2015-02-10,ic.7097a2c1.05e0e9.1.msftsrvcs.vo.llnwi.net
-,,,,2015-02-06,ic.70d82f66.0f2999.1.msftsrvcs.vo.llnwi.net
-,,,,2015-02-05,ic.7095db13.03e97f.6.msftsrvcs.vo.llnwi.net
-,,,,2015-01-23,im.5b790f00.776c1f1.ads.a4cdn.contentabc.com
-,,,,2015-01-21,im.5b794700.dc1541f.ads.a4cdn.contentabc.com
-,,,,2015-01-15,im.5b790f00.fddd766.ads.a4cdn.contentabc.com
-,,,,2014-12-08,im.5b794700.3029c12.ads.a4cdn.contentabc.com
-,,,,2014-12-05,im.5b794400.1152617.ads.a4cdn.contentabc.com
-,,,,2014-12-02,im.5b790f00.d5e49b5.ads.a4cdn.contentabc.com
-,,,,2014-12-02,im.5b794400.0ca21d4.ads.a4cdn.contentabc.com
-,,,,2014-11-27,im.5b790f00.e90aa0f.ads.a4cdn.contentabc.com
-,,,,2014-11-24,im.5b794700.33ed611.ads.a4cdn.contentabc.com
-,,,,2014-11-23,im.5b790f00.32db62b.ads.a4cdn.contentabc.com
-,,,,2014-11-20,im.5b790f00.dc1541f.ads.a4cdn.contentabc.com
-,,,,2014-11-18,ic.84402c2a.030f65.8.c3605.d.rncdn3.com
-,,,,2014-11-13,here.vo.llnwd.net
-,,,,2014-11-07,download.im.8d00ab00.112172.x.xvideos.com
-,,,,2014-11-05,im.5b794400.3029c12.ads.a4cdn.contentabc.com
-,,,,2014-11-03,im.5b790f00.3029c12.ads.a4cdn.contentabc.com
-,,,,2014-10-22,sagesoft.vo.llnwd.net
-178.79.224.222,11298,AS22822 Limelight Networks. Inc.,IT,,cds1153.lon.llnw.net
-178.255.83.1,60,AS35838 CCANET Limited,GB,,ocsp.comodoca.com
+168.63.18.79,19,AS8075 Microsoft Corporation,NL,2016-04-20,nexusrules.officeapps.live.com
+169.254.186.49,16,Internet Assigned Numbers Authority (IANA),US,,
+178.255.83.1,30,AS35838 CCANET Limited,GB,,ocsp.comodoca.com
+,,,,2016-07-18,ocsp.securecore-ca.com
+,,,,2016-07-09,ocsp.sgssl.net
+,,,,2016-06-27,178.255.83.1
 ,,,,2016-06-10,ocsp.register.com
-,,,,2016-06-05,ocsp.netsolssl.com
 ,,,,2016-06-02,ocsp.incommon-ecc.org
 ,,,,2016-05-27,ocsp.dreamhost.com
 ,,,,2016-05-27,ocsp.gandi.net
@@ -699,20 +523,18 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2014-04-22,ocsp.uth.tmc.edu
 ,,,,2014-02-24,ocsp.digi-sign.com
 ,,,,2013-11-21,ocsp.trustsign.com.br
-,,,,2013-11-20,ocsp.comodoca2.com
 ,,,,2013-11-20,ocsp.marketware.eu
+,,,,2013-11-20,ocsp.comodoca2.com
 ,,,,2013-11-19,ocsp.cs.auscert.org.au
 ,,,,2013-11-19,ocsp.siteblindadocerts.com
 ,,,,2013-11-18,ocsp.ssl.com
 ,,,,2013-11-09,netsolssl.com
 ,,,,2013-10-24,ocsp.tbs-x509.com
 ,,,,2013-10-22,ocsp.ovh.com
-,,,,2013-10-19,ocsp.sgssl.net
 ,,,,2013-10-19,ocsp.comodoca3.com
 ,,,,2013-10-17,ocsp.csctrustedsecure.com
-,,,,2013-10-17,ocsp.tcs.terena.org
 ,,,,2013-10-17,ocsp.incommon.org
-,,,,2013-10-11,ocsp.globessl.com
+,,,,2013-10-17,ocsp.tcs.terena.org
 ,,,,2013-07-28,ocsp.europeanssl.eu
 ,,,,2013-07-16,ocsp.innossl.com
 ,,,,2013-06-18,ocsp.webspace-forum.de
@@ -722,35 +544,49 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2013-04-01,ocsp.certyfikatyssl.pl
 ,,,,2013-01-22,comodoca3.com
 ,,,,2012-06-12,comodoca.com
-179.60.192.2,246,AS32934 Facebook. Inc.,US,,edge-mqtt-shv-01-cdg2.facebook.com
-185.48.81.162,28,AS62094 Midasplayer AB,SE,,candycrushsoda.king.com
-191.232.80.58,80,AS8075 Microsoft Corporation,US,2016-02-26,fe2.update.microsoft.com.nsatc.net
-,,,,2015-12-03,fe2.update.microsoft.com
-,,,,2015-02-07,fe2.update.microsoft.com.akadns.net
-191.232.139.7,171,AS8075 Microsoft Corporation,BR,,msnbot-191-232-139-7.search.msn.com
-191.232.139.49,1211,AS8075 Microsoft Corporation,BR,,msnbot-191-232-139-49.search.msn.com
-,,,,2016-06-28,db5wns1.wns.windows.com
+179.60.192.2,143,AS32934 Facebook. Inc.,US,,edge-mqtt-shv-01-cdg2.facebook.com
+179.60.192.34,11,AS32934 Facebook. Inc.,US,,edge-mqtt-mini-shv-01-cdg2.facebook.com
+184.30.101.99,10,AS20940 Akamai International B.V.,NL,,a184-30-101-99.deploy.static.akamaitechnologies.com
+185.48.81.162,56,AS62094 Midasplayer AB,SE,,candycrushsoda.king.com
+191.232.139.7,38,AS8075 Microsoft Corporation,IE,,msnbot-191-232-139-7.search.msn.com
+191.232.139.49,1798,AS8075 Microsoft Corporation,IE,,msnbot-191-232-139-49.search.msn.com
+,,,,2016-07-23,db5wns1.wns.windows.com
+,,,,2016-07-19,hk2.wns.windows.com
 ,,,,2016-06-07,db5.wns.notify.windows.com.akadns.net
 ,,,,2016-04-27,skydrive.wns.windows.com
-191.232.139.141,1143,AS8075 Microsoft Corporation,BR,,msnbot-191-232-139-141.search.msn.com
+191.232.139.90,2987,AS8075 Microsoft Corporation,IE,,msnbot-191-232-139-90.search.msn.com
+,,,,2016-07-24,db5sch101101826.wns.windows.com
+,,,,2016-03-29,db5sch101101828.wns.windows.com
+191.232.139.109,1618,AS8075 Microsoft Corporation,IE,,msnbot-191-232-139-109.search.msn.com
+,,,,2016-07-21,db5sch101110245.wns.windows.com
+,,,,2016-04-18,db5sch101110309.wns.windows.com
+191.232.139.127,3313,AS8075 Microsoft Corporation,IE,,msnbot-191-232-139-127.search.msn.com
+,,,,2016-06-12,db5sch101110705.wns.windows.com
+,,,,2016-04-28,db5sch103100415.wns.windows.com
+,,,,2016-04-25,db5sch101110707.wns.windows.com
+191.232.139.141,1833,AS8075 Microsoft Corporation,IE,,msnbot-191-232-139-141.search.msn.com
+,,,,2016-07-14,hk2.wns.windows.com
 ,,,,2016-06-28,db5wns1b.wns.windows.com
 ,,,,2015-12-02,skydrive.wns.windows.com
-191.232.139.175,2350,AS8075 Microsoft Corporation,BR,,msnbot-191-232-139-175.search.msn.com
-,,,,2016-07-03,db5sch103081910.wns.windows.com
-,,,,2016-05-22,db5sch101100437.wns.windows.com
-,,,,2016-04-25,db5sch103101305.wns.windows.com
-,,,,2016-02-01,DB5SCH101100128.wns.windows.com
-191.232.139.254,21285,AS8075 Microsoft Corporation,BR,2016-06-30,db5.vortex.data.microsoft.com.akadns.net
-,,,,2016-06-30,eu.vortex.data.microsoft.com
+191.232.139.254,6813,AS8075 Microsoft Corporation,IE,2016-07-23,eu.vortex.data.microsoft.com
+,,,,2016-06-30,db5.vortex.data.microsoft.com.akadns.net
 ,,,,2016-04-07,vortex-db5.metron.live.com.nsatc.net
 ,,,,2015-11-10,vortex.data.microsoft.com
 ,,,,2015-10-21,web.vortex.data.microsoft.com
 ,,,,2015-07-07,vortex-win.data.microsoft.com
-191.234.72.183,180,AS8075 Microsoft Corporation,US,2015-11-17,fe2.update.microsoft.com.nsatc.net
+191.234.72.183,72,AS8075 Microsoft Corporation,US,2015-11-17,fe2.update.microsoft.com.nsatc.net
 ,,,,2015-03-16,fe1.update.microsoft.com.akadns.net
 ,,,,2014-10-14,fe2.update.microsoft.com
 ,,,,2014-09-15,fe2.update.microsoft.com.akadns.net
-191.237.208.126,72,AS8075 Microsoft Corporation,IE,2016-03-20,spyneteurope.microsoft.akadns.net
+191.234.72.186,60,AS8075 Microsoft Corporation,US,2016-05-15,fe2.update.microsoft.com
+,,,,2016-04-28,fe2.update.microsoft.com.nsatc.net
+,,,,2015-03-26,fe1.update.microsoft.com.akadns.net
+,,,,2014-09-15,fe2.update.microsoft.com.akadns.net
+191.234.72.190,146,AS8075 Microsoft Corporation,US,2016-06-16,fe2.update.microsoft.com.nsatc.net
+,,,,2015-03-16,fe1.update.microsoft.com.akadns.net
+,,,,2014-10-14,fe2.update.microsoft.com
+,,,,2014-09-15,fe2.update.microsoft.com.akadns.net
+191.237.208.126,106,AS8075 Microsoft Corporation,IE,2016-03-20,spyneteurope.microsoft.akadns.net
 ,,,,2015-12-12,spynetall.microsoft.akadns.net
 ,,,,2014-10-15,spynet2.microsoft.com
 ,,,,2014-06-03,spynetfrontend-neu-tip.cloudapp.net
@@ -762,40 +598,44 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2015-12-09,crl.globalsign.com
 ,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
 ,,,,2014-08-04,cdnjs.cloudflare.com
-198.41.214.185,13,AS13335 CloudFlare. Inc.,US,2016-07-01,ocsp.msocsp.com
-,,,,2016-06-27,crl.globalsign.com
-,,,,2016-03-03,crl.globalsign.net.cdn.cloudflare.net
-,,,,2016-01-07,ocsp.globalsign.com
-,,,,2016-01-03,hostedocsp.globalsign.com
+198.41.214.184,15,AS13335 CloudFlare. Inc.,US,2016-06-03,ocsp.msocsp.com
+,,,,2016-03-21,crl.globalsign.net
+,,,,2016-01-06,ocsp2.globalsign.com
+,,,,2015-12-11,crl.globalsign.com
+,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
+,,,,2014-07-31,cdnjs.cloudflare.com
+198.41.214.187,9,AS13335 CloudFlare. Inc.,US,2016-07-12,crl.globalsign.net
+,,,,2016-07-04,ocsp.msocsp.com
+,,,,2016-01-06,hostedocsp.globalsign.com
+,,,,2015-12-16,ocsp2.globalsign.com
+,,,,2015-12-15,crl.globalsign.com
+,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
+,,,,2014-07-31,cdnjs.cloudflare.com
+198.41.215.182,10,AS13335 CloudFlare. Inc.,US,2016-07-06,crl.globalsign.com
+,,,,2016-05-07,ocsp.msocsp.com
 ,,,,2016-01-02,crl.globalsign.net
-,,,,2015-12-09,ocsp2.globalsign.com
+,,,,2015-12-28,ocsp.globalsign.com
+,,,,2015-12-17,ocsp2.globalsign.com
 ,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
 ,,,,2014-08-04,cdnjs.cloudflare.com
-198.41.214.186,12,AS13335 CloudFlare. Inc.,US,2016-06-19,ocsp.msocsp.com
-,,,,2016-03-17,ocsp.globalsign.com.cdn.cloudflare.net
-,,,,2016-03-15,crl.globalsign.net
-,,,,2015-12-11,ocsp.globalsign.com
-,,,,2015-12-09,ocsp2.globalsign.com
-,,,,2015-12-08,crl.globalsign.com
-,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
-,,,,2014-08-05,cdnjs.cloudflare.com
-198.41.215.184,9,AS13335 CloudFlare. Inc.,US,2016-06-12,ocsp.msocsp.com
-,,,,2016-01-22,crl.globalsign.com
-,,,,2016-01-12,ocsp.globalsign.com
-,,,,2016-01-07,hostedocsp.globalsign.com
-,,,,2016-01-04,crl.globalsign.net
-,,,,2015-12-08,ocsp2.globalsign.com
-,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
-,,,,2014-07-30,cdnjs.cloudflare.com
-198.41.215.185,11,AS13335 CloudFlare. Inc.,US,2016-04-27,crl.globalsign.net
+198.41.215.185,21,AS13335 CloudFlare. Inc.,US,2016-07-11,ocsp.msocsp.com
+,,,,2016-04-27,crl.globalsign.net
 ,,,,2016-01-30,ocsp.globalsign.com.cdn.cloudflare.net
-,,,,2015-12-25,ocsp.msocsp.com
 ,,,,2015-12-17,ocsp.globalsign.com
 ,,,,2015-12-15,crl.globalsign.com
 ,,,,2015-12-11,ocsp2.globalsign.com
 ,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
 ,,,,2014-08-04,cdnjs.cloudflare.com
-199.16.156.38,12,AS13414 Twitter Inc.,US,2016-02-20,www.doubigjd.com
+198.41.215.186,13,AS13335 CloudFlare. Inc.,US,2016-06-28,ocsp.msocsp.com
+,,,,2016-06-23,webstaging.globalsign.com
+,,,,2016-05-13,crl.globalsign.net
+,,,,2016-05-10,crl.globalsign.com
+,,,,2015-12-29,ocsp2.globalsign.com
+,,,,2015-12-29,ocsp.globalsign.com
+,,,,2014-09-16,cdnjs.cloudflare.com.cdn.cloudflare.net
+,,,,2014-08-01,cdnjs.cloudflare.com
+199.16.156.38,35,AS13414 Twitter Inc.,US,2016-06-11,wt.iygawj.com
+,,,,2016-02-20,www.doubigjd.com
 ,,,,2016-01-30,bbwg-book-bbwg.yy45.com
 ,,,,2016-01-14,173js.cn
 ,,,,2015-04-07,translate.twttr.com
@@ -806,33 +646,35 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2014-01-13,twitter.com
 ,,,,2013-10-18,www.twitter.com
 ,,,,2013-08-17,twitter.com
-199.16.156.40,12,AS13414 Twitter Inc.,US,2016-06-18,NS2.SSV4.NET
+199.16.156.40,32,AS13414 Twitter Inc.,US,2016-06-18,NS2.SSV4.NET
 ,,,,2016-03-16,glbproxy.com
 ,,,,2016-02-28,changz.pw
 ,,,,2013-06-24,api.twitter.com
-199.16.156.43,42,AS13414 Twitter Inc.,US,2016-02-25,start-ss.biz
+199.16.156.43,48,AS13414 Twitter Inc.,US,2016-02-25,start-ss.biz
 ,,,,2013-07-20,mobile.twitter.com
-199.16.156.104,4,AS13414 Twitter Inc.,US,2016-02-23,www.xxkk.net
-,,,,2014-06-07,api.twitter.com
-199.16.156.198,12,AS13414 Twitter Inc.,US,2016-04-29,ss.ckcy.me
-,,,,2016-03-07,179-184-105-177.east.dsl.telkomsa.net.ssv4.net
-,,,,2016-02-28,woool123.com
-,,,,2016-02-27,free.gkdf.yy45.com
-,,,,2016-02-24,173js.cn
-,,,,2016-02-21,187-5-121-246.gnale700.e.brasiltelecom.net.br.ssv4.net
-,,,,2016-02-17,wkek.net
-,,,,2016-01-31,5.subnet-103.23.102.host.unnes.ac.id.ssv4.net
-,,,,2015-03-21,tweet.twitter.com
-,,,,2014-12-17,twitter.org
-,,,,2014-10-15,www.twitter.com.br
-,,,,2014-09-21,twitter.jp
-,,,,2014-05-14,www.twitter.fr
-,,,,2014-03-20,first-tweets.com
-,,,,2013-10-21,www.twitter.com
+199.16.156.70,12,AS13414 Twitter Inc.,US,2016-01-21,3725.xxkk.net
+,,,,2013-12-23,twitter.com
 ,,,,2013-10-19,twitter.com
-199.16.156.199,52,AS13414 Twitter Inc.,US,2016-02-23,777k7.com
+199.16.156.72,12,AS13414 Twitter Inc.,US,2016-02-22,tdbaby1.com
+,,,,2013-10-12,api.twitter.com
+199.16.156.102,24,AS13414 Twitter Inc.,US,2016-04-03,ns1.ssv4.net
+,,,,2016-02-29,tianyavpn.com.cn
+,,,,2016-02-25,www.hgdlc.com
+,,,,2016-02-17,www.bjn188.com
+,,,,2016-02-07,www.jay2016.net
+,,,,2016-01-27,top.cn3721.org
+,,,,2015-07-21,h0stedmail.com
+,,,,2015-04-07,translate.twttr.com
+,,,,2015-02-10,www.twitter.com.br
+,,,,2014-12-21,twitter.org
+,,,,2014-08-31,twitter.jp
+,,,,2014-04-11,www.twitter.fr
+,,,,2014-03-13,www.twittter.com
+,,,,2013-10-19,twitter.com
+,,,,2013-10-18,www.twitter.com
+199.16.156.199,58,AS13414 Twitter Inc.,US,2016-02-23,777k7.com
 ,,,,2013-09-11,api.twitter.com
-199.16.156.230,36,AS13414 Twitter Inc.,US,2016-03-07,batyun.com
+199.16.156.230,52,AS13414 Twitter Inc.,US,2016-03-07,batyun.com
 ,,,,2016-03-04,ns3.ssv4.net
 ,,,,2016-03-01,glbproxy.com
 ,,,,2016-02-06,pubeso.eu
@@ -844,28 +686,8 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2014-10-13,www.twitter.com.br
 ,,,,2014-09-30,twitter.jp
 ,,,,2013-10-19,twitter.com
-199.16.156.231,43,AS13414 Twitter Inc.,US,2014-06-07,api.twitter.com
-199.59.149.199,11,AS13414 Twitter Inc.,US,,r-199-59-149-199.twttr.com
-,,,,2016-02-02,changz.pw
-,,,,2013-10-18,api.twitter.com
-199.59.150.7,11,AS13414 Twitter Inc.,US,,r-199-59-150-7.twttr.com
-,,,,2016-06-28,twitter.com
-,,,,2016-03-02,twittertrademarks.com
-,,,,2016-03-01,twopensource.com
-,,,,2016-02-10,woool123.com
-,,,,2015-12-13,www.twitter.com
-,,,,2015-12-11,www.twitter.lu
-,,,,2015-10-19,twitter.org
-,,,,2015-08-20,mat.lu
-,,,,2015-06-02,twitter.ae
-,,,,2015-03-10,www.twitter.hk
-,,,,2014-08-28,twitter.jp
-,,,,2014-06-16,translate.twttr.com
-,,,,2014-03-16,www.twitter.fr
-,,,,2014-03-05,twittter.com
-,,,,2014-03-02,www.twitter.com.br
-,,,,2013-11-08,www.twittter.com
-204.79.197.200,4386,AS8068 Microsoft Corporation,US,,a-0001.a-msedge.net
+199.16.156.231,4,AS13414 Twitter Inc.,US,2014-06-07,api.twitter.com
+204.79.197.200,1889,AS8068 Microsoft Corporation,US,,a-0001.a-msedge.net
 ,,,,2015-02-11,9d8ed238ad3d42eaab2b48076b2a9412.clo.footprintdns.com
 ,,,,2015-01-05,bgfr.net
 ,,,,2014-11-18,bi.zaixian-fanyi.com
@@ -916,7 +738,8 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2013-10-20,bing.com.sg
 ,,,,2013-10-14,bing.co.uk
 ,,,,2013-10-13,bing.ch
-207.46.194.14,70,AS8075 Microsoft Corporation,US,,msnbot-207-46-194-14.search.msn.com
+207.46.134.255,19,AS8075 Microsoft Corporation,HK,2016-06-06,nexusrules.officeapps.live.com
+207.46.194.14,115,AS8075 Microsoft Corporation,IE,,msnbot-207-46-194-14.search.msn.com
 ,,,,2014-11-09,msn.co.uk
 ,,,,2014-10-17,g.msn.co.kr
 ,,,,2014-10-15,g.microsoftonline.com
@@ -940,11 +763,11 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2014-01-20,g.msn.com.hk
 ,,,,2014-01-13,g.msn.com.tw
 ,,,,2014-01-10,g.jp.msn.com
-207.46.194.33,249,AS8075 Microsoft Corporation,US,,msnbot-207-46-194-33.search.msn.com
+207.46.194.33,277,AS8075 Microsoft Corporation,IE,,msnbot-207-46-194-33.search.msn.com
 ,,,,2015-02-02,arc.msn.com.nsatc.net
 ,,,,2014-10-15,mobileads.msn.com
 ,,,,2014-09-16,mobileads.msn.com.nsatc.net
-224.0.0.1,6710,,,,all-systems.mcast.net
+224.0.0.1,8022,,,,all-systems.mcast.net
 ,,,,2014-05-12,favicon.daylife.com
 ,,,,2014-02-08,diacache.daylife.com
 ,,,,2013-11-28,cache.daylife.com
@@ -953,10 +776,10 @@ HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,,2013-11-15,ns3.officescan.biz
 ,,,,2013-11-15,dns.officescan.biz
 ,,,,2013-07-30,update.officescan.biz
-224.0.0.2,149,,,,all-routers.mcast.net
-224.0.0.22,264,,,,igmp.mcast.net
+224.0.0.2,178,,,,all-routers.mcast.net
+224.0.0.22,231,,,,igmp.mcast.net
 ,,,,2016-04-18,224.0.0.22
-224.0.0.251,14590,,,2016-06-05,mdns.dns-sd.org
-224.0.0.252,20275,,,,
-239.255.255.250,69347,,,2016-06-29,239.255.255.250
-,,,,2016-05-30,blaise.cu.cc
+224.0.0.251,14871,,,2016-06-05,mdns.dns-sd.org
+224.0.0.252,21066,,,,
+239.255.255.250,108096,,,2016-07-21,blaise.cu.cc
+,,,,2016-07-20,239.255.255.250
