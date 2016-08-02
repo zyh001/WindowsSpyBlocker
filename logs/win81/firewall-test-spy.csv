@@ -54,12 +54,12 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 64.4.27.50,AS8075 Microsoft Corporation,US,2016-07-01,fe2.ws.microsoft.com.nsatc.net
 ,,,2016-05-10,fe1.ws.microsoft.com.nsatc.net
 ,,,2015-06-07,fe2.ws.microsoft.com
-64.4.54.253,AS8075 Microsoft Corporation,US,2016-07-24,settings.data.microsoft.com
-,,,2016-07-23,asimov.settings.data.microsoft.com.akadns.net
-,,,2016-07-22,geo.settings.data.microsoft.com.akadns.net
-,,,2016-07-21,settings-win.data.microsoft.com
-,,,2016-07-14,asimov-win.settings.data.microsoft.com.akadns.net
-,,,2016-07-03,cy2.settings.data.microsoft.com.akadns.net
+64.4.54.253,AS8075 Microsoft Corporation,US,2016-08-01,cy2.settings.data.microsoft.com.akadns.net
+,,,2016-07-31,geo.settings.data.microsoft.com.akadns.net
+,,,2016-07-31,settings-win.data.microsoft.com
+,,,2016-07-29,asimov-win.settings.data.microsoft.com.akadns.net
+,,,2016-07-28,settings.data.microsoft.com
+,,,2016-07-27,asimov.settings.data.microsoft.com.akadns.net
 ,,,2016-04-01,onesettings-cy2.metron.live.com.nsatc.net
 ,,,2015-06-21,settings.data.glbdns2.microsoft.com
 65.55.113.11,AS8075 Microsoft Corporation,US,2016-06-23,dmd.metaservices.microsoft.com
@@ -79,13 +79,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 65.55.252.43,AS8075 Microsoft Corporation,US,,msnbot-65-55-252-43.search.msn.com
 ,,,2016-04-18,watson.telemetry.microsoft.com.nsatc.net
 ,,,2014-09-27,watson.telemetry.microsoft.com
-65.55.252.93,AS8075 Microsoft Corporation,US,2016-07-18,sqm.telemetry.microsoft.com
-,,,2016-06-06,sqm.telemetry.microsoft.com.nsatc.net
+65.55.252.93,AS8075 Microsoft Corporation,US,2016-08-02,sqm.telemetry.microsoft.com.nsatc.net
+,,,2016-07-18,sqm.telemetry.microsoft.com
 ,,,2015-08-11,sqm.msn.com
 ,,,2015-08-07,www.sqm.microsoft.com
 ,,,2015-08-07,sqm.microsoft.com
-65.55.252.190,AS8075 Microsoft Corporation,US,2016-07-15,telecommand.telemetry.microsoft.com
-,,,2016-07-11,telecommand.telemetry.microsoft.com.nsatc.net
+65.55.252.190,AS8075 Microsoft Corporation,US,2016-08-01,telecommand.telemetry.microsoft.com.nsatc.net
+,,,2016-07-15,telecommand.telemetry.microsoft.com
 ,,,2016-03-06,co4.telecommand.telemetry.microsoft.com.akadns.net
 66.119.144.157,AS8075 Microsoft Corporation,US,2016-01-14,fe2.update.microsoft.com
 66.119.144.158,AS8075 Microsoft Corporation,US,2016-05-30,fe2.update.microsoft.com
@@ -100,11 +100,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-05-27,aeos.microsoft.com
 104.43.228.53,AS8075 Microsoft Corporation,US,2016-04-16,compatexchange1.trafficmanager.net
 104.43.228.202,AS8075 Microsoft Corporation,US,,
-134.170.30.202,AS8075 Microsoft Corporation,US,2016-05-22,services.apps.microsoft.com.nsatc.net
+134.170.30.202,AS8075 Microsoft Corporation,US,2016-07-31,services.apps.microsoft.com.nsatc.net
 ,,,2014-09-27,services-perf.windows.akadns.net
 ,,,2014-09-20,apps.windows.akadns.net
-,,,2013-10-17,apps.microsoft.com
 ,,,2013-10-17,next-services.apps.microsoft.com
+,,,2013-10-17,apps.microsoft.com
 ,,,2013-10-12,services.apps.microsoft.com
 ,,,2013-10-07,lic.apps.microsoft.com
 134.170.30.203,AS8075 Microsoft Corporation,US,2016-06-03,services.apps.microsoft.com.nsatc.net
@@ -136,8 +136,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-20,settings.data.glbdns2.microsoft.com
 ,,,2015-12-02,onesettings-bn2.metron.live.com.nsatc.net
 ,,,2015-06-19,settings-win.data.microsoft.com
-191.232.139.254,AS8075 Microsoft Corporation,IE,2016-07-23,eu.vortex.data.microsoft.com
-,,,2016-06-30,db5.vortex.data.microsoft.com.akadns.net
+191.232.139.254,AS8075 Microsoft Corporation,IE,2016-07-30,191.232.139.254
+,,,2016-07-30,db5.vortex.data.microsoft.com.akadns.net
+,,,2016-07-27,eu.vortex-win.data.microsoft.com
+,,,2016-07-27,eu.vortex.data.microsoft.com
 ,,,2016-04-07,vortex-db5.metron.live.com.nsatc.net
 ,,,2015-11-10,vortex.data.microsoft.com
 ,,,2015-10-21,web.vortex.data.microsoft.com
@@ -146,11 +148,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-12-12,spynetall.microsoft.akadns.net
 ,,,2014-10-15,spynet2.microsoft.com
 ,,,2014-06-03,spynetfrontend-neu-tip.cloudapp.net
-191.239.50.18,AS8075 Microsoft Corporation,US,2016-07-22,telecommand2.cloudapp.net
+191.239.50.18,AS8075 Microsoft Corporation,US,2016-07-31,telecommand2.cloudapp.net
 ,,,2016-07-18,tele.trafficmanager.net
-191.239.50.77,AS8075 Microsoft Corporation,US,2016-06-04,telecommand1.cloudapp.net
-,,,2015-08-06,tele.trafficmanager.net
-191.239.52.100,AS8075 Microsoft Corporation,US,2016-07-19,telecommand3.cloudapp.net
+191.239.50.77,AS8075 Microsoft Corporation,US,2016-07-28,tele.trafficmanager.net
+,,,2016-07-27,telecommand1.cloudapp.net
+191.239.52.100,AS8075 Microsoft Corporation,US,2016-07-31,telecommand3.cloudapp.net
 ,,,2015-08-13,tele.trafficmanager.net
 191.239.54.52,AS8075 Microsoft Corporation,US,2016-07-12,telecommand4.cloudapp.net
 ,,,2016-06-12,tele.trafficmanager.net
