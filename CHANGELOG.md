@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.5.0 (2016/09/18)
+
+* New hosts and firewall rules
+* 2 Spy entries are maybe incorrect (Issue #19)
+
 ## 3.4.4 (2016/08/02)
 
 * New hosts and firewall rules

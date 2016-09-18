@@ -46,3 +46,4 @@ iptables -I FORWARD -j DROP -d 157.56.96.54
 iptables -I FORWARD -j DROP -d 157.56.96.58
 iptables -I FORWARD -j DROP -d 157.56.96.123
 iptables -I FORWARD -j DROP -d 157.56.96.157
+iptables -I FORWARD -j DROP -d 207.46.114.58
