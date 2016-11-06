@@ -219,6 +219,10 @@ function cleanLine($line) {
     $line = trim(preg_replace('/close(.*?)bytes(.*?)sent(.*?)received(.*?)lifetime(.*?)$/i', '', $line));
     $line = trim(preg_replace('/resolve\s/i', '', $line));
     $line = trim(preg_replace('/\*64\s/i', '', $line));
+    $line = trim(preg_replace('/Error\:\sWindows\snetwork\s\(Winsock\)\sis\snot\sproperly\sconfigured(.*?)$/i', '', $line));
+    $line = trim(preg_replace('/Proxifier\sor\ssome\sof\sits\sparts\smay\swork\sincorrectly(.*?)$/i', '', $line));
+    $line = trim(preg_replace('/It\sis\shighly\srecommended\sthat\syou\srun\sSysSettings\stool(.*?)$/i', '', $line));
+    $line = trim(preg_replace('/Windows\snetwork\swas\ssuccessfully\sconfigured(.*?)$/i', '', $line));
     $line = trim(preg_replace('/\s-\s/i', ' ', $line));
     $line = trim(preg_replace('/\((\d+),\s(.*?)\)/i', '$1 $2', $line));
     $line = trim(preg_replace('/\((\d+)\)/i', '$1', $line));
