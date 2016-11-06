@@ -1,5 +1,19 @@
 # Changelog
 
+## 3.6.0 (2016/11/06)
+
+* New hosts for Windows 10 spy
+* Add IPs range for Windows 10 update (65.55.138)
+* Add IPs range for Windows 10 spy (40.77.226, 64.4.54, 65.52.100)
+* New sub IPs for Windows 10 spy (13.76.218, 40.77.229, 52.178.147, 137.170.51, 134.170.115)
+* New hosts for Windows 8.1 update
+* Add IPs range for Windows 8.1 update (65.55.138, 134.170.51)
+* New sub IPs for Windows 8.1 update (134.170.115)
+* New sub IPs for Windows 8.1 spy (40.77.226, 52.164.240, 52.164.241, 52.178.147, 52.178.151)
+* New sub IPs for Windows 7 spy (40.77.226, 52.164.240, 52.178.151)
+* Update Proxifier script exceptions
+* Windows 10 Store Blocked (Issue #22)
+
 ## 3.5.0 (2016/09/18)
 
 * New hosts and firewall rules
