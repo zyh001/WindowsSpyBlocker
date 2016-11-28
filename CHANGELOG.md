@@ -10,6 +10,7 @@
 * New sub IPs for Windows 7 spy (52.164.241, 52.178.147)
 * Fix undefined index
 * Fix tmp file creation
+* Downloads from Xbox Store broken (Issue #24)
 * OpenWRT dnsmasq.conf alternative method (Issue #20)
 
 ## 3.6.0 (2016/11/06)
