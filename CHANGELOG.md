@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.7.0 (2016/11/28)
+
+* New hosts for Windows 10 spy and update
+* Add IPs range for Windows 10 spy (40.77.229, 134.170.106)
+* New sub IPs for Windows 10 spy (23.97.61, 23.99.121, 40.76.1, 40.117.144, 65.52.219, 104.210.212, 134.170.111, 134.170.120, 157.55.109, 191.237.218, 207.46.194)
+* Move spy IP rule to update for Windows 10 (157.55.133.204)
+* New hosts for Windows 7 update
+* New sub IPs for Windows 7 spy (52.164.241, 52.178.147)
+* Fix undefined index
+* Fix tmp file creation
+* OpenWRT dnsmasq.conf alternative method (Issue #20)
+
 ## 3.6.0 (2016/11/06)
 
 * New hosts for Windows 10 spy
