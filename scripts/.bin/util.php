@@ -133,6 +133,8 @@ function getWhois($ipOrDomain, $logsPath) {
                 return json_decode($res[$ipOrDomain], true);
             }
         }
+    } else {
+        touch($resFile);
     }
 
     $whoisRes = null;
@@ -332,6 +334,8 @@ function getResolutions($ipOrDomain, $logsPath) {
                 return json_decode($res[$ipOrDomain], true);
             }
         }
+    } else {
+        touch($resFile);
     }
 
     $resolutionsRes = array();
@@ -463,7 +467,7 @@ function parseIpInfo($ip) {
     }
 
     return array(
-        'hostname' => $jsonDec['hostname'] != 'No Hostname' ? $jsonDec['hostname'] : null,
+        'hostname' => isset($jsonDec['hostname']) && $jsonDec['hostname'] != 'No Hostname' ? $jsonDec['hostname'] : null,
         'country' => isset($jsonDec['country']) ? $jsonDec['country'] : null,
         'org' => isset($jsonDec['org']) ? $jsonDec['org'] : null,
     );
