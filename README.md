@@ -1,4 +1,7 @@
-# Windows Spy Blocker [![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/crazyws)
+[![GitHub release](https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square)](https://github.com/crazy-max/dokuwiki-plugin-syntaxhighlighter4/releases)
+[![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/crazyws)
+
+# Windows Spy Blocker
 
 ![](../../wiki/img/logo-20160521.png)
 
