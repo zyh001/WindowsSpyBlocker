@@ -29,7 +29,8 @@
 ## About
 
 **WindowsSpyBlocker** is a set of rules to block Windows spy / telemetry based on multiple tools to [capture traffic](../../wiki/Capture%20traffic). It is open for everyone and if you want to contribute, take a look at the [Wiki](../../wiki).<br />
-To be notified of new releases you can subscribe to this [Atom feed](https://github.com/crazy-max/WindowsSpyBlocker/releases.atom).
+To be notified of new releases you can subscribe to this [Atom feed](https://github.com/crazy-max/WindowsSpyBlocker/releases.atom).<br />
+Do not forget to star :star2: the project if you like it :heart_eyes:
 
 ## How ?
 

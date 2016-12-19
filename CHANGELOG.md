@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.7.1 (2016/12/19)
+
+* New hosts for Windows 10 spy
+* New sub IPs for Windows 10 spy (40.113.10, 40.115.1, 52.178.151, 65.52.26, 104.46.38, 134.170.120) 
+* New sub IP for Windows 8.1 update (191.232.80)
+
 ## 3.7.0 (2016/11/28)
 
 * New hosts for Windows 10 spy and update
