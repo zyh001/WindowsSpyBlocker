@@ -1,40 +1,35 @@
 DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
-2016.11.06 19:51:24,svchost.exe,888,System,wpad,,
-2016.11.06 19:51:24,Sysmon.exe,1344,System,ocsp.verisign.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 19:51:58,svchost.exe,912,System,teredo.ipv6.microsoft.com,,
-2016.11.06 19:53:18,svchost.exe,888,System,time.windows.com,Microsoft Corporation (MSFT),US
-2016.11.06 19:53:23,svchost.exe,912,System,ds.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 19:53:24,svchost.exe,912,System,fe2.update.microsoft.com,Microsoft Informatica Ltda,BR
-2016.11.06 19:56:45,svchost.exe,912,System,download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 19:58:13,Setup.exe,1420,System,crl.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 19:58:13,Setup.exe,1420,System,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 20:00:14,Setup.exe,1420,System,sqm.telemetry.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.06 20:04:16,svchost.exe,912,System,watson.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.06 20:18:00,svchost.exe,1184,System,vortex-win.data.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.06 20:18:01,svchost.exe,1184,,vortex-win.data.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.06 20:18:32,svchost.exe,772,,ocsp.digicert.com,EdgeCast Networks. Inc. (EDGEC-1),US
-2016.11.06 20:45:22,PING.EXE,2444,,time.windows.com,Microsoft Corporation (MSFT),US
-2016.11.06 20:45:48,svchost.exe,772,System,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 20:47:28,svchost.exe,1184,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.06 20:47:28,svchost.exe,1184,,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.06 20:47:58,svchost.exe,772,,www.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 21:12:56,svchost.exe,772,System,crl.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 21:12:56,svchost.exe,772,System,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 21:17:23,svchost.exe,1184,,crl.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.06 21:17:23,svchost.exe,1184,,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.07 03:32:28,CompatTelRunner.exe,2820,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.07 03:32:29,CompatTelRunner.exe,2820,System,wscont.apps.microsoft.com.edgesuite.net,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.07 03:32:31,DeviceDisplayObjectProvider.exe,3056,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.07 03:32:31,DeviceDisplayObjectProvider.exe,3056,System,dmd.metaservices.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.07 03:33:04,CompatTelRunner.exe,2820,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.07 03:33:04,CompatTelRunner.exe,2820,System,compatexchange1.trafficmanager.net,Microsoft Corporation (MSFT),US
-2016.11.07 03:33:05,CompatTelRunner.exe,2820,System,ocsp.msocsp.com,CloudFlare. Inc. (CLOUD14),US
-2016.11.07 20:16:44,svchost.exe,920,System,isatap,,
-2016.11.08 03:48:53,svchost.exe,772,,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.09 04:46:39,svchost.exe,920,System,au.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.11.13 01:00:03,Sysmon.exe,1280,System,ocsp.usertrust.com,Comodo CA,GB
-2016.11.13 01:00:03,Sysmon.exe,1280,System,ocsp.comodoca.com,Comodo CA,GB
-2016.11.18 03:41:07,CompatTelRunner.exe,3236,System,cdp1.public-trust.com,EdgeCast Networks. Inc. (EDGEC-1),US
-2016.11.19 18:34:13,wermgr.exe,3368,System,watson.microsoft.com,Microsoft Corporation (MSFT),US
-2016.11.19 18:34:14,wermgr.exe,3368,System,corppki,,
-2016.11.19 18:34:16,wermgr.exe,3368,System,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.28 05:48:05,svchost.exe,892,System,wpad,,
+2016.11.28 05:48:05,svchost.exe,928,System,ds.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.28 05:48:05,svchost.exe,928,System,fe2.update.microsoft.com,Microsoft Informatica Ltda,BR
+2016.11.28 05:48:06,svchost.exe,928,System,teredo.ipv6.microsoft.com,,
+2016.11.28 05:51:56,svchost.exe,1172,System,vortex-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.11.28 05:51:56,svchost.exe,1172,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.11.28 05:51:56,svchost.exe,1172,,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.11.28 05:51:57,svchost.exe,1172,,vortex-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.11.28 05:52:26,svchost.exe,288,,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.28 05:52:26,svchost.exe,288,,crl.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.28 07:01:18,svchost.exe,288,System,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.28 07:01:18,svchost.exe,288,System,crl.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.28 10:22:27,svchost.exe,288,,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.29 03:22:11,svchost.exe,928,System,isatap,,
+2016.11.29 04:59:45,CompatTelRunner.exe,3036,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2016.11.29 04:59:54,CompatTelRunner.exe,3036,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.29 04:59:54,CompatTelRunner.exe,3036,System,compatexchange1.trafficmanager.net,Microsoft Corporation (MSFT),US
+2016.11.29 04:59:54,CompatTelRunner.exe,3036,System,ocsp.msocsp.com,CloudFlare. Inc. (CLOUD14),US
+2016.11.29 19:58:31,svchost.exe,928,System,au.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.30 03:43:03,DeviceDisplayObjectProvider.exe,1788,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.11.30 03:43:03,DeviceDisplayObjectProvider.exe,1788,System,dmd.metaservices.microsoft.com,Microsoft Corporation (MSFT),US
+2016.11.30 04:22:26,svchost.exe,288,,ocsp.digicert.com,EdgeCast Networks. Inc. (EDGEC-1),US
+2016.12.01 00:00:36,svchost.exe,288,System,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.12.02 03:02:29,WatAdminSvc.exe,4648,System,crl.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.12.02 03:02:29,WatAdminSvc.exe,4648,System,www.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.12.02 03:02:29,WatAdminSvc.exe,4648,System,wpad,,
+2016.12.02 03:02:29,WatAdminSvc.exe,4648,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.12.02 03:02:30,WatAdminSvc.exe,4648,System,validation.sls.microsoft.com,Microsoft Corporation (MSFT),US
+2016.12.03 03:31:03,svchost.exe,928,System,download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2016.12.04 01:00:01,svchost.exe,892,System,time.windows.com,Microsoft Corporation (MSFT),US
+2016.12.04 01:00:02,Sysmon.exe,1344,System,ocsp.usertrust.com,Comodo CA,GB
+2016.12.04 01:00:03,Sysmon.exe,1344,System,ocsp.comodoca.com,Comodo CA,GB
+2016.12.04 01:00:03,PING.EXE,2212,,time.windows.com,Microsoft Corporation (MSFT),US
+2016.12.08 03:30:49,svchost.exe,928,System,download.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
