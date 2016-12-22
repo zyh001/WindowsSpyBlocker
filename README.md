@@ -148,6 +148,8 @@ Several scripts are used to ease implementation of rules and contribution. To us
 * [pi-hole](https://pi-hole.net/) : A black hole for Internet advertisements (designed for Raspberry Pi).
 * [StopAd](http://stopad.generate.club/) : Service for MikroTik routers made to block "advertising" and more.
 * [OpenWrt adblock package](https://github.com/openwrt/packages/tree/master/net/adblock/files) : DNS based ad/abuse domain blocking
+* [Unified hosts file](https://github.com/StevenBlack/hosts) : Extending and consolidating hosts files from a variety of sources.
+* [FreeContributor](https://tbds.github.io/FreeContributor/) : Simple DNS Ad Blocker.
 
 ## License
 
