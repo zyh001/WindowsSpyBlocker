@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.7.2 (2016/12/29)
+
+* Move m.hotmail.com to extra rules (Issue #28)
+
 ## 3.7.1 (2016/12/19)
 
 * New hosts for Windows 10 spy
