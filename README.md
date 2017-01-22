@@ -5,26 +5,6 @@
   <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [About](#about)
-- [How ?](#how-)
-- [Usage](#usage)
-  - [Data](#data)
-    - [Hosts](#hosts)
-    - [Firewall](#firewall)
-    - [NCSI (Network Connectivity Status Indicator)](#ncsi-network-connectivity-status-indicator)
-    - [DNSCrypt](#dnscrypt)
-    - [Proxifier](#proxifier)
-    - [OpenWrt](#openwrt)
-  - [Logs](#logs)
-  - [Scripts](#scripts)
-- [Projects using WindowsSpyBlocker](#projects-using-windowsspyblocker)
-- [License](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## About
 
 **WindowsSpyBlocker** is a set of rules to block Windows spy / telemetry based on multiple tools to [capture traffic](../../wiki/Capture%20traffic).<br />
@@ -149,6 +129,14 @@ Several scripts are used to ease implementation of rules and contribution. To us
 * [OpenWrt adblock package](https://github.com/openwrt/packages/tree/master/net/adblock/files) : DNS based ad/abuse domain blocking
 * [Unified hosts file](https://github.com/StevenBlack/hosts) : Extending and consolidating hosts files from a variety of sources.
 * [FreeContributor](https://tbds.github.io/FreeContributor/) : Simple DNS Ad Blocker.
+
+## TODO
+
+- [ ] Create a desktop app
+- [ ] Resolve service name from svchost.exe PID
+- [ ] Reproduce steps on virtual machine to invoke spy IPs (native apps, win update, explorer, etc...)
+- [ ] Manage geoloc
+- [ ] Create script to update hosts easily
 
 ## License
 
