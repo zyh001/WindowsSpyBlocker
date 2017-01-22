@@ -1,7 +1,13 @@
 # Changelog
 
-## 3.7.2 (2016/12/29)
+## 3.7.2 (2016/01/22)
 
+* New hosts for Windows 10 spy and update
+* Add IP range for Windows 10 spy (134.170.111)
+* New sub IP for Windows 10 spy (52.164.240)
+* New IPs for Windows 10 spy
+* New hosts for Windows 8.1 update
+* Move officeclient.microsoft.com to extra rules (Issue #29)
 * Move m.hotmail.com to extra rules (Issue #28)
 
 ## 3.7.1 (2016/12/19)

@@ -1,13 +1,12 @@
-[![GitHub release](https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square)](https://github.com/crazy-max/WindowsSpyBlocker/releases)
-[![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/crazyws)
+<p align="center"><a href="https://github.com/crazy-max/WindowsSpyBlocker" target="_blank"><img width="100"src="https://raw.githubusercontent.com/wiki/crazy-max/WindowsSpyBlocker/img/logo-128.png"></a></p>
 
-# Windows Spy Blocker
-
-![](../../wiki/img/logo-20160521.png)
+<p align="center">
+  <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="GitHub release"></a>
+  <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
+</p>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 
 - [About](#about)
 - [How ?](#how-)
@@ -153,4 +152,5 @@ Several scripts are used to ease implementation of rules and contribution. To us
 
 ## License
 
-MIT. See `LICENSE` for more details.
+MIT. See `LICENSE` for more details.<br />
+Icon credit to [Icons8](https://icons8.com/).
