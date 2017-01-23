@@ -1,9 +1,11 @@
 ### hosts win10 extra
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
+0.0.0.0 answers.microsoft.com
 0.0.0.0 apps.skype.com
 0.0.0.0 cdn.content.prod.cms.msn.com
-0.0.0.0 choice.microsoft.com.nstac.net
+0.0.0.0 choice.microsoft.com
+0.0.0.0 choice.microsoft.com.nsatc.net
 0.0.0.0 client.wns.windows.com
 0.0.0.0 client-s.gateway.messenger.live.com
 0.0.0.0 clientconfig.passport.net

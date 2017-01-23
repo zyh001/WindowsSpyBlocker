@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.7.3 (2016/01/23)
+
+* Move answers.microsoft.com to extra rules
+* choice.microsoft.com was not completely moved to extra rules
+
 ## 3.7.2 (2016/01/22)
 
 * New hosts for Windows 10 spy and update
