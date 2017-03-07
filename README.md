@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="GitHub release"></a>
-  <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
+  <a href="https://flattr.com/submit/auto?user_id=crazymax&url=https://github.com/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/badge/flattr-this-green.svg?style=flat-square" alt="Flattr this!"></a>
 </p>
 
 ## About
@@ -108,7 +109,6 @@ DNSCrypt is also available in OpenWrt repo, but may be slow and CPU hungry on av
 ### Logs
 
 Logs of tools used to capture traffic and resolution of firewall rules in CSV format available in the [logs folder](logs).
-* `*-all.csv` : all events
 * `*-hosts-count.csv` : number of events per host
 * `*-unique.csv` : first trigger of an event per host / process / destination port
 
@@ -137,6 +137,20 @@ Several scripts are used to ease implementation of rules and contribution. To us
 - [ ] Reproduce steps on virtual machine to invoke spy IPs (native apps, win update, explorer, etc...)
 - [ ] Manage geoloc
 - [ ] Create script to update hosts easily
+
+## How can i help ?
+
+I'm a single developer and if you find this project useful, please consider making a donation.<br />
+Any funds donated will be used to help further development on this project! :gift_heart:
+
+<p>
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL">
+    <img src="../../wiki/img/paypal.png" alt="Donate Paypal">
+  </a>
+  <a href="https://flattr.com/submit/auto?user_id=crazymax&url=https://github.com/crazy-max/WindowsSpyBlocker">
+    <img src="../../wiki/img/flattr.png" alt="Flattr this!">
+  </a>
+</p>
 
 ## License
 

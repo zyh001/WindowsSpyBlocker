@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.7.4 (2016/03/07)
+
+* New hosts for Windows 10 spy
+* Add IPs range for Windows 10 spy (131.253.14, 157.55.109)
+* New sub IP for Windows 10 update (131.253.33)
+* New hosts for Windows 8.1 extra and update
+* New sub IP for Windows 8.1 extra (40.118.106)
+* New IP for Windows 8.1 update
+* New host for Windows 7 update
+* Misplaced IPs blocking Windows update bug (Issue #33)
+* Skype problem (Issue #32)
+* Move 134.170.185.* to extra rules (Issue #31)
+* Move 48.118.103 and 65.52.108 to extra rules for Windows 10
+* Missing IP in OpenWRT extra rules (Windows 8.1 and 10)
+
 ## 3.7.3 (2016/01/23)
 
 * Move answers.microsoft.com to extra rules
