@@ -1,40 +1,47 @@
 DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
-2016.12.19 00:39:01,svchost.exe,900,System,wpad,,
-2016.12.19 01:37:36,svchost.exe,836,System,isatap,,
-2016.12.19 02:15:17,rundll32.exe,3308,System,telecommand.telemetry.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.19 02:15:18,rundll32.exe,3308,System,tele.trafficmanager.net,Microsoft Informatica Ltda,BR
-2016.12.19 08:38:15,svchost.exe,332,System,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.19 18:00:02,wsqmcons.exe,2672,System,sqm.telemetry.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.19 20:47:08,svchost.exe,836,System,sls.update.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.19 20:47:18,svchost.exe,836,System,fe2.update.microsoft.com,Microsoft Informatica Ltda,BR
-2016.12.19 20:47:18,svchost.exe,836,System,fe2.ws.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.19 20:47:21,svchost.exe,836,System,download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.19 20:47:26,svchost.exe,836,System,au.download.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.19 20:49:52,svchost.exe,836,System,statsfe2.update.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.19 20:56:24,svchost.exe,836,System,statsfe2.ws.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.20 00:29:44,rundll32.exe,3980,,next-services.apps.microsoft.com,Microsoft Corp (MSFT-Z),US
-2016.12.20 00:30:01,WSHost.exe,1968,,next-services.apps.microsoft.com,Microsoft Corp (MSFT-Z),US
-2016.12.20 00:47:38,svchost.exe,836,System,login.live.com,Microsoft Corp (MSFT-Z),US
-2016.12.20 00:47:39,svchost.exe,836,System,s2.symcb.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.20 01:31:43,CompatTelRunner.exe,3732,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.20 01:46:41,svchost.exe,836,System,sr.symcd.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.20 01:46:42,svchost.exe,1124,System,vortex-win.data.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.20 03:21:06,PING.EXE,2900,,time.windows.com,Microsoft Corporation (MSFT),US
-2016.12.20 03:21:16,Sysmon.exe,1224,System,ocsp.usertrust.com,Comodo CA,GB
-2016.12.20 03:21:16,Sysmon.exe,1224,System,ocsp.comodoca.com,Comodo CA,GB
-2016.12.21 03:52:41,svchost.exe,900,System,time.windows.com,Microsoft Corporation (MSFT),US
-2016.12.21 16:37:28,svchost.exe,332,,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.22 00:38:15,svchost.exe,1124,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.24 01:31:52,CompatTelRunner.exe,3760,System,compatexchange1.trafficmanager.net,Microsoft Corporation (MSFT),US
-2016.12.27 00:37:35,svchost.exe,836,System,win8.ipv6.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.27 00:40:26,wermgr.exe,2904,System,watson.telemetry.microsoft.com,Microsoft Corporation (MSFT),US
-2016.12.27 05:40:52,svchost.exe,836,System,001d49-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
-2016.12.29 03:37:15,svchost.exe,836,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
-2016.12.29 03:37:16,svchost.exe,836,System,dmd.metaservices.microsoft.com,Microsoft Corporation (MSFT),US
-2017.01.07 00:47:38,svchost.exe,836,System,clientconfig.passport.net,Akamai Technologies. Inc. (AKAMAI),US
-2017.01.10 00:47:38,Sysmon.exe,1224,System,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
-2017.01.10 23:03:17,svchost.exe,836,System,001007-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
-2017.01.10 23:03:18,svchost.exe,836,System,0017c5-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
-2017.01.10 23:03:18,svchost.exe,836,System,0000f2-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
-2017.01.10 23:03:24,svchost.exe,836,System,002394-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
-2017.01.10 23:03:27,svchost.exe,836,System,00111c-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
+2017.01.22 19:41:13,svchost.exe,836,System,img.stb.s-msn.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.01.22 19:41:17,svchost.exe,900,System,wpad,,
+2017.01.22 19:42:57,svchost.exe,1144,System,settings-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.22 19:48:50,rundll32.exe,2064,,next-services.apps.microsoft.com,Microsoft Corp (MSFT-Z),US
+2017.01.22 19:48:53,WSHost.exe,2844,,next-services.apps.microsoft.com,Microsoft Corp (MSFT-Z),US
+2017.01.22 20:39:53,svchost.exe,836,System,isatap,,
+2017.01.23 00:28:27,CompatTelRunner.exe,520,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.01.23 00:28:28,svchost.exe,836,System,fe2.update.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 00:28:28,CompatTelRunner.exe,520,System,compatexchange1.trafficmanager.net,Microsoft Corporation (MSFT),US
+2017.01.23 00:36:30,svchost.exe,836,System,statsfe2.update.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 00:43:25,svchost.exe,1144,System,vortex-win.data.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 05:49:03,rundll32.exe,184,System,telecommand.telemetry.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 05:49:04,rundll32.exe,184,System,tele.trafficmanager.net,Microsoft Informatica Ltda,
+2017.01.23 13:02:18,svchost.exe,316,System,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.01.23 13:03:23,svchost.exe,836,System,sls.update.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 13:03:24,svchost.exe,836,System,fe2.ws.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 13:03:26,svchost.exe,836,System,download.windowsupdate.com,Level 3 Communications. Inc. (LVLT),US
+2017.01.23 13:03:48,svchost.exe,836,System,au.download.windowsupdate.com,Microsoft Corporation (MSFT),US
+2017.01.23 13:12:06,svchost.exe,836,System,statsfe2.ws.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 14:00:01,wsqmcons.exe,3096,System,sqm.telemetry.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.23 19:49:54,svchost.exe,836,System,login.live.com,Microsoft Corp (MSFT-Z),US
+2017.01.24 05:48:17,svchost.exe,900,System,time.windows.com,Microsoft Corporation (MSFT),US
+2017.01.24 05:48:17,PING.EXE,3188,,time.windows.com,Microsoft Corporation (MSFT),US
+2017.01.24 10:56:58,svchost.exe,836,,statsfe2.ws.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.24 19:49:55,Sysmon.exe,1268,System,ocsp.usertrust.com,Comodo CA,GB
+2017.01.26 01:33:45,svchost.exe,836,System,s2.symcb.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.01.26 04:46:07,svchost.exe,836,System,go.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.01.26 04:46:07,svchost.exe,836,System,dmd.metaservices.microsoft.com,Microsoft Corporation (MSFT),US
+2017.01.26 18:00:00,Sysmon.exe,1268,System,ocsp.comodoca.com,Comodo CA,GB
+2017.01.29 11:01:03,svchost.exe,316,,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.01.31 19:39:51,svchost.exe,836,System,win8.ipv6.microsoft.com,Microsoft Limited UK,GB
+2017.01.31 21:27:29,rundll32.exe,1784,,ocsp.omniroot.com,MCI Communications Services. Inc. d/b/a Verizon Business (MCICS),US
+2017.01.31 21:30:02,svchost.exe,836,System,0000f9-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
+2017.02.02 20:30:57,Explorer.EXE,2800,,service.weather.microsoft.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.02 20:30:57,Explorer.EXE,2800,,fr-fr.appex-rf.msn.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.02 20:30:57,Explorer.EXE,2800,,finance.services.appex.bing.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.02 20:30:58,Explorer.EXE,2800,,foodanddrink.tile.appex.bing.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.02 20:31:05,svchost.exe,836,,img.stb.s-msn.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.02 20:31:10,svchost.exe,836,System,img.s-msn.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.02 20:31:13,svchost.exe,836,,img.s-msn.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.03 23:28:28,svchost.exe,836,System,ocsp.verisign.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.02.05 01:29:39,svchost.exe,836,System,001d1f-1.l.windowsupdate.com,Limelight Networks. Inc. (LLNW),US
+2017.02.13 00:35:01,CompatTelRunner.exe,3312,System,cdp1.public-trust.com,MCI Communications Services. Inc. d/b/a Verizon Business (MCICS),US
+2017.02.17 23:34:30,Sysmon.exe,1268,System,ctldl.windowsupdate.com,Akamai Technologies. Inc. (AKAMAI),US
+2017.03.01 14:30:36,svchost.exe,836,,login.live.com,Microsoft Corp (MSFT-Z),US
+2017.03.07 06:30:39,MRT.exe,1480,System,wdcp.microsoft.com,Microsoft Corporation (MSFT),US
