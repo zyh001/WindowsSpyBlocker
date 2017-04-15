@@ -1,6 +1,21 @@
 # Changelog
 
-## 3.7.4 (2016/03/07)
+## 3.7.5 (2017/04/15)
+
+* New hosts for Windows 10 spy and update
+* New IP for Windows 10 update
+* Add IP range for Windows 10 update (65.55.163) 
+* New IPs for Windows 10 spy
+* New sub IPs for Windows 10 spy (51.141.32, 52.178.178, 52.178.193, 52.178.223, 52.187.60)
+* New sub IP for Windows 10 extra (13.107.21)
+* New hosts for Windows 8.1 extra, spy and update
+* Add IP range for Windows 8.1 update (65.55.163)
+* New sub IPs for Windows 8.1 spy (51.141.32, 52.178.178, 52.178.193, 52.178.223, 52.187.60, 64.233.164, 64.233.166)
+* New hosts for Windows 7 spy and update
+* New sub IPs for Windows 7 spy (40.118.106, 52.178.178, 52.178.193, 52.178.223, 52.187.60)
+* Move crl.microsoft.com to extra rules for Windows 7 (Issue #19)
+
+## 3.7.4 (2017/03/07)
 
 * New hosts for Windows 10 spy
 * Add IPs range for Windows 10 spy (131.253.14, 157.55.109)
@@ -15,12 +30,12 @@
 * Move 48.118.103 and 65.52.108 to extra rules for Windows 10
 * Missing IP in OpenWRT extra rules (Windows 8.1 and 10)
 
-## 3.7.3 (2016/01/23)
+## 3.7.3 (2017/01/23)
 
 * Move answers.microsoft.com to extra rules
 * choice.microsoft.com was not completely moved to extra rules
 
-## 3.7.2 (2016/01/22)
+## 3.7.2 (2017/01/22)
 
 * New hosts for Windows 10 spy and update
 * Add IP range for Windows 10 spy (134.170.111)
