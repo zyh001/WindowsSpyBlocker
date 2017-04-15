@@ -1,25 +1,76 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 13.80.12.54,AS8075 Microsoft Corporation,NL,,
-13.107.3.128,AS8068 Microsoft Corporation,US,2017-03-05,config.edge.skype.com
+13.107.3.128,AS8068 Microsoft Corporation,US,2017-04-15,config.edge.skype.com
+,,,2017-04-13,b.config.skype.com
+,,,2017-04-11,api.teams.skype.com
+,,,2017-03-13,skypeecs-prod-edge-b.trafficmanager.net
+,,,2017-03-10,img.teams.skype.com
 ,,,2017-03-03,s-0001.s-msedge.net
-,,,2017-03-01,b.config.skype.com
 ,,,2017-02-28,teams.skype.com
-,,,2017-02-25,api.teams.skype.com
 ,,,2017-02-24,edge.skype.com
-,,,2017-01-29,img.teams.skype.com
-,,,2017-01-11,skypeecs-prod-edge-b.trafficmanager.net
 ,,,2016-12-28,a.config.skype.net
 ,,,2016-10-29,edge-skype-com.s-0001.s-msedge.net
 ,,,2016-09-09,statics.teams.skype.com
 ,,,2016-09-07,b.config.skype.net
 ,,,2016-02-26,a.config.skype.com
+13.107.21.200,AS8068 Microsoft Corporation,US,2017-04-14,allnew.msn.com
+,,,2017-04-14,bat.bing.com
+,,,2017-04-14,www.bing.com
+,,,2017-04-12,cc.bingj.com
+,,,2017-04-12,bing.com
+,,,2017-04-12,mapindia.live.com
+,,,2017-04-12,tse2-mm-bing-net.a-0001.a-msedge.net
+,,,2017-04-12,cn.bing.com
+,,,2017-04-11,platform-bing-com.a-0001.a-msedge.net
+,,,2017-04-10,cgi.bing.com
+,,,2017-04-10,xn--xpmcwww-i87g6066cql6a.bing.com
+,,,2017-04-09,co2.bing.com
+,,,2017-04-09,4.bing.com
+,,,2017-04-09,office.bing.com
+,,,2017-04-09,cl.bing.com
+,,,2017-04-09,star-bing-com.a-0001.a-msedge.net
+,,,2017-04-09,ts4.mm.bing.net
+,,,2017-04-08,owww.bing.com
+,,,2017-04-08,xp.bing.com
+,,,2017-04-08,m-bing-com.a-0001.a-msedge.net
+,,,2017-04-08,newsletters-msn-com.a-0001.a-msedge.net
+,,,2017-04-07,auto.search.msn.com
+,,,2017-04-07,50.bing.com
+,,,2017-04-06,tse1-mm-bing-net.a-0001.a-msedge.net
+,,,2017-04-04,tse3.mm.bing.net
+,,,2017-04-03,bat-bing-com.a-0001.a-msedge.net
+,,,2017-04-03,ck.bing.com
+,,,2017-04-03,ie.search.msn.com
+,,,2017-04-02,beta.bing.com
+,,,2017-04-02,tse4-mm-bing-net.a-0001.a-msedge.net
+,,,2017-04-02,ts3-mm-bing-net.a-0001.a-msedge.net
+,,,2017-04-01,bj1.api.bing.com
+,,,2017-04-01,mappoint-msn-com.a-0001.a-msedge.net
+,,,2017-04-01,cfg.bing.com
+,,,2017-04-01,anonchk1c.bing.com
+,,,2017-04-01,9.xp.bing.com
+,,,2017-03-31,xn--proewww-ik1fk359ehpnc.bing.com
+,,,2017-03-31,dk.bing.com
+,,,2017-03-31,c2r.msedge.net
+,,,2017-03-31,ssl-appex-bing-com.a-0001.a-msedge.net
+,,,2017-03-31,insertmedia.bing.office.net
+,,,2017-03-31,adlog.bing.com
+,,,2017-03-30,xn--0www-ue8if89dqr3a.bing.com
+,,,2017-03-30,web.bing.com
+,,,2017-03-30,m.bing.com
+,,,2017-03-30,ch1d.bing.com
+,,,2017-03-30,cc-bingj-com.a-0001.a-msedge.net
+,,,2016-12-13,ts2.mm.bing.net
+,,,2016-12-13,ts3.mm.bing.net
+,,,2016-10-27,www.iwindows.win
 40.118.103.7,AS8075 Microsoft Corporation,NL,2016-07-13,coldzone.tk
 ,,,2016-05-21,time.windows.com
 ,,,2016-04-26,time.microsoft.akadns.net
 64.4.54.22,AS8075 Microsoft Corporation,US,,msnbot-64-4-54-22.search.msn.com
+,,,2017-04-15,statsupdate.microsoft.com.nsatc.net
+,,,2017-04-01,stats.update.microsoft.com.nsatc.net
 ,,,2017-03-02,statsfe2.ws.microsoft.com.nsatc.net
 ,,,2017-02-25,statsfe2.ws.microsoft.com
-,,,2017-02-10,stats.update.microsoft.com.nsatc.net
 ,,,2016-09-14,statsfe2.update.microsoft.com.akadns.net
 ,,,2016-08-22,statsfe2.update.microsoft.com
 65.52.100.11,AS8075 Microsoft Corporation,US,,watson.ppe.telemetry.microsoft.com
@@ -32,10 +83,61 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-12-31,watson.telemetry.microsoft.com
 ,,,2016-08-11,modern.watson.data.microsoft.com.akadns.net
 ,,,2016-04-18,watson.telemetry.microsoft.com.nsatc.net
+104.44.88.103,AS8075 Microsoft Corporation,US,,bn3p-cor001.api.p001.1drv.com
+,,,2017-02-24,rgbcpq.bay.livefilestore.com
+,,,2017-02-23,7elxtg.sn2.livefilestore.com
+,,,2017-02-19,enqtmq.bay.livefilestore.com
+,,,2017-02-14,5idxqw.blu.livefilestore.com
+,,,2017-02-09,avcdhg.bay.livefilestore.com
+,,,2017-02-08,araefw.bay.livefilestore.com
+,,,2017-02-06,bqswuq.blu.livefilestore.com
+,,,2017-02-04,jkpdcw.bay.livefilestore.com
+,,,2017-02-03,aazofw.bay.livefilestore.com
+,,,2017-02-03,blufiles.storage.msn.com
+,,,2017-02-01,7bjcjg.bay.livefilestore.com
+,,,2017-02-01,atvnvw.bay.livefilestore.com
+,,,2017-01-29,aacxmq.blu.livefilestore.com
+,,,2017-01-28,acsfmq.blu.livefilestore.com
+,,,2017-01-28,aculja.blu.livefilestore.com
+,,,2017-01-28,assksa.blu.livefilestore.com
+,,,2017-01-28,ozskww.blu.livefilestore.com
+,,,2017-01-27,chvslg.bay.livefilestore.com
+,,,2017-01-27,ctxxja.blu.livefilestore.com
+,,,2017-01-27,gqleza.blu.livefilestore.com
+,,,2017-01-26,bpepqw.bay.livefilestore.com
+,,,2017-01-24,cdkjsw.blu.livefilestore.com
+,,,2017-01-24,whfpxa.blu.livefilestore.com
+,,,2017-01-23,adlxjw.bay.livefilestore.com
+,,,2017-01-22,ayx86g.sn2.livefilestore.com
+,,,2017-01-20,cbuhng.bay.livefilestore.com
+,,,2017-01-18,arcovq.blu.livefilestore.com
+,,,2017-01-16,agqvqa.blu.livefilestore.com
+,,,2017-01-13,bvzfbg.bay.livefilestore.com
+,,,2017-01-10,bisqaw.bay.livefilestore.com
+,,,2017-01-01,cdwbnq.blu.livefilestore.com
+,,,2017-01-01,cid-09d64a508c41b5cc.users.storage.live.com
+,,,2017-01-01,cid-0099a25d69991503.users.storage.live.com
+,,,2016-12-25,45mota.bay.livefilestore.com
+,,,2016-12-23,cid-06f7b0b6ef63f207.users.storage.live.com
+,,,2016-12-22,bhchyg.blu.livefilestore.com
+,,,2016-12-19,blkjka.blu.livefilestore.com
+,,,2016-12-18,byfiles.storage.msn.com
+,,,2016-12-18,7hkk3w.sn2.livefilestore.com
+,,,2016-12-17,cid-054f2ddd53a99115.users.storage.live.com
+,,,2016-12-11,blufiles.storage.live.com
+,,,2016-12-11,docs.live.net
+,,,2016-11-30,cid-08ccce56456096ff.users.storage.live.com
+,,,2016-11-27,byllea.blu.livefilestore.com
+,,,2016-11-24,auth.blu.livefilestore.com
+,,,2016-11-18,bdwzqw.blu.livefilestore.com
+,,,2016-11-18,byfiles.storage.live.com
+,,,2016-10-25,ayvhdg.sn2.livefilestore.com
+,,,2016-10-25,skydrivesync.policies.live.net
+,,,2016-10-21,nvaqsa.bay.livefilestore.com
 104.215.146.200,AS8075 Microsoft Corporation,SG,2017-02-25,prod-w.nexus.live.com.akadns.net
 ,,,2015-09-08,nexus.officeapps.live.com
-134.170.185.70,AS8075 Microsoft Corporation,US,2015-10-27,mediaroomsds.microsoft.com
-,,,2015-08-06,feedback.windows.com
+134.170.185.70,AS8075 Microsoft Corporation,US,2017-04-02,feedback.windows.com
+,,,2015-10-27,mediaroomsds.microsoft.com
 ,,,2014-09-15,siweb.microsoft.akadns.net
 ,,,2014-08-08,hotfixv4.microsoft.com
 ,,,2014-08-07,privacy.microsoft.com
