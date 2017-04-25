@@ -9,8 +9,7 @@
 ## About
 
 **WindowsSpyBlocker** is a set of rules to block Windows spy / telemetry based on multiple tools to [capture traffic](../../wiki/Capture%20traffic).<br />
-It is open for everyone and if you want to contribute, take a look at the [Wiki](../../wiki).<br />
-Do not forget to star :star2: the project if you like it :heart_eyes:
+It is open for everyone and if you want to contribute, take a look at the [Wiki](../../wiki).
 
 ## How ?
 
@@ -28,7 +27,8 @@ Tools used to capture traffic :
 * **[Sysmon](../../wiki/captureSysmon)** : capture + logs
 * **[Proxifier](../../wiki/captureProxifier)** : logs
 
-All traffic events are available in the [logs](#logs) folder.
+All traffic events are available in the [logs](#logs) folder.<br />
+You can read the [Telemetry](../../wiki/Telemetry) page if you want more info about data collection.
 
 ## Usage
 
@@ -140,7 +140,8 @@ Several scripts are used to ease implementation of rules and contribution. To us
 
 ## How can i help ?
 
-I'm a single developer and if you find this project useful, please consider making a donation.<br />
+We welcome all kinds of contributions :raised_hands:!<br />
+The most basic way to show your support is to star :star2: the project, or to raise issues :speech_balloon:<br />
 Any funds donated will be used to help further development on this project! :gift_heart:
 
 <p>
