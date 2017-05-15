@@ -84,7 +84,7 @@
   <target name="setup" depends="init, load.lib, vendor, gendata" description="Setup workspace"/>
 
   <target name="vendor" description="Install vendor">
-    <goget package="github.com/jteeuwen/go-bindata"/>
+    <goget package="github.com/jteeuwen/go-bindata/go-bindata"/>
     <goget package="github.com/josephspurrier/goversioninfo/cmd/goversioninfo"/>
     <glide workingdir="${project.basedir}"/>
   </target>
@@ -154,8 +154,8 @@
     <copy file="${app.path}/versioninfo.json" todir="${project.basedir}" overwrite="true">
       <filterset refid="filterset.app"/>
     </copy>
+    <goget package="github.com/jteeuwen/go-bindata/go-bindata"/>
     <goget package="github.com/josephspurrier/goversioninfo/cmd/goversioninfo"/>
-    <goget package="github.com/jteeuwen/go-bindata"/>
     <glide workingdir="${project.basedir}"/>
     <gogenerate workingdir="${project.basedir}"/>
     <gobuild workingdir="${project.basedir}"/>
