@@ -114,6 +114,9 @@
   </target>
 
   <target name="generate" description="Go generate">
+    <copy file="${app.path}/versioninfo.json" todir="${project.basedir}" overwrite="true">
+      <filterset refid="filterset.app"/>
+    </copy>
     <exec executable="go" failonerror="true" dir="${project.basedir}">
       <arg value="generate"/>
       <arg value="-v"/>
@@ -121,9 +124,6 @@
   </target>
 
   <target name="build">
-    <copy file="${app.path}/versioninfo.json" todir="${project.basedir}" overwrite="true">
-      <filterset refid="filterset.app"/>
-    </copy>
     <exec executable="go" failonerror="true" dir="${project.basedir}">
       <arg value="build"/>
       <arg value="-v"/>
