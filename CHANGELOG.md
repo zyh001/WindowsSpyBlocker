@@ -1,6 +1,6 @@
 # Changelog
 
-## 4.0.0-b1 (2017/05/15)
+## 4.0.0 (2017/05/15)
 
 * Unified console app made with Go (Issue #38)
 * Add Glide dependency manager for Go
