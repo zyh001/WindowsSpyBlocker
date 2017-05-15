@@ -12,7 +12,7 @@
 
 ## About
 
-**WindowsSpyBlocker** is a set of rules to block Windows spy / telemetry based on multiple tools to [capture traffic](../../wiki/Capture%20traffic) located in the `data` folder. A console application is also available in the [latest release page](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to perform several extra operations.<br />
+**WindowsSpyBlocker** is a set of rules to block Windows spy / telemetry based on multiple tools to capture traffic located in the `data` folder. [An application is also available](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to perform several extra operations.<br />
 It is open for everyone and if you want to contribute or need help, take a look at the [Wiki](../../wiki).
 
 ## How ?
@@ -27,9 +27,9 @@ I clean traffic dumps every day and compare results with the current rules to ad
 
 Tools used to capture traffic :
 * **qemu -net dump** : capture
-* **[Wireshark](../../wiki/captureWireshark)** : capture + logs
-* **[Sysmon](../../wiki/captureSysmon)** : capture + logs
-* **[Proxifier](../../wiki/captureProxifier)** : logs
+* **[Wireshark](../../wiki/devWireshark)** : capture + logs
+* **[Sysmon](../../wiki/devSysmon)** : capture + logs
+* **[Proxifier](../../wiki/devProxifier)** : logs
 
 All traffic events are available in the [logs](#logs) folder.<br />
 You can read the [Telemetry](../../wiki/Telemetry) page if you want more info about data collection.
@@ -74,7 +74,7 @@ You can block this probe by adding the content of the `data/<type>/winX/extra.tx
 
 But you will have a ["No Internet access" warning in your system tray](../../wiki/FAQ#no-internet-access-on-my-network-card).<br />
 To solve this problem you can use the alternative WindowsSpyBlocker NCSI.<br />
-For more information, read the instructions in [NCSI Wiki page](../../wiki/NCSI).
+For more information, read the instructions on the [NCSI Wiki page](../../wiki/NCSI).
 
 ### DNSCrypt
 
@@ -91,7 +91,9 @@ Replace `<name>` with a [public DNS resolvers supporting DNSCrypt](https://githu
 ### Proxifier
 
 Some hosts are not blocked and required a top level application.<br />
-For example you can use [Proxifier](https://www.proxifier.com/) software to block Microsoft spy.<br />
+For example you can use [Proxifier](https://www.proxifier.com/) software to block Microsoft spy.
+
+For more information, read the instructions on the [Proxifier Wiki page](../../wiki/devProxifier).
 
 
 ### OpenWrt
