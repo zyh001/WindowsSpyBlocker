@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="slack-portable" basedir=".">
+
+  <dirname property="project.basedir" file="${ant.file.slack-portable}"/>
+  <property name="build.properties" value="${project.basedir}/build.properties"/>
+  <property file="${build.properties}"/>
+
+  <macrodef name="glide">
+    <attribute name="workingdir"/>
+    <sequential>
+      <goget package="github.com/Masterminds/glide"/>
+      <exec executable="glide" failonerror="true" dir="@{workingdir}">
+        <arg value="up"/>
+        <arg value="-v"/>
+      </exec>
+    </sequential>
+  </macrodef>
+
+  <macrodef name="goget">
+    <attribute name="package"/>
+    <sequential>
+      <echo message="go get @{package}..."/>
+      <exec executable="go" failonerror="true">
+        <arg value="get"/>
+        <arg value="-v"/>
+        <arg value="@{package}"/>
+      </exec>
+    </sequential>
+  </macrodef>
+
+  <macrodef name="gobuild">
+    <attribute name="workingdir"/>
+    <sequential>
+      <exec executable="go" failonerror="true" dir="@{workingdir}">
+        <arg value="build"/>
+        <arg value="-v"/>
+        <arg value="-ldflags"/>
+        <arg value="-s -w"/>
+      </exec>
+    </sequential>
+  </macrodef>
+
+  <macrodef name="gogenerate">
+    <attribute name="workingdir"/>
+    <sequential>
+      <exec executable="go" failonerror="true" dir="@{workingdir}">
+        <arg value="generate"/>
+        <arg value="-v"/>
+      </exec>
+    </sequential>
+  </macrodef>
+
+  <macrodef name="assertdir">
+    <attribute name="dir"/>
+    <sequential>
+      <fail message="Directory '@{dir}' does not exist">
+        <condition><not><available file="@{dir}" type="dir"/></not></condition>
+      </fail>
+    </sequential>
+  </macrodef>
+
+  <macrodef name="assertfile">
+    <attribute name="file"/>
+    <sequential>
+      <fail message="File '@{file}' does not exist">
+        <condition><not><available file="@{file}" type="file"/></not></condition>
+      </fail>
+    </sequential>
+  </macrodef>
+
+  <!-- Properties -->
+  <property environment="env"/>
+  <property name="bin.path" value="${project.basedir}\bin"/>
+  <property name="app.path" value="${project.basedir}\app"/>
+  <property name="build.path" value="${bin.path}\build"/>
+  <property name="release.path" value="${bin.path}\release"/>
+  <property name="lib.path" value="${bin.path}\lib"/>
+  <property name="tmp.path" value="${bin.path}\tmp"/>
+
+  <!-- Build number -->
+  <condition property="app.release" value="${env.APPVEYOR_BUILD_NUMBER}"><isset property="env.APPVEYOR_BUILD_NUMBER"/></condition>
+  <condition property="app.release" value="${app.default.release}"><not><isset property="env.APPVEYOR_BUILD_NUMBER"/></not></condition>
+
+  <target name="setup" depends="init, load.lib, vendor, gendata" description="Setup workspace"/>
+
+  <target name="vendor" description="Install vendor">
+    <goget package="github.com/jteeuwen/go-bindata"/>
+    <goget package="github.com/josephspurrier/goversioninfo/cmd/goversioninfo"/>
+    <glide workingdir="${project.basedir}"/>
+  </target>
+
+  <target name="gendata" description="Generate data">
+    <exec executable="go-bindata" failonerror="true" dir="${project.basedir}">
+      <arg value="-pkg"/>
+      <arg value="bindata"/>
+      <arg value="-o"/>
+      <arg value="app/bindata/bindata.go"/>
+      <arg value="data/..."/>
+      <arg value="app.conf"/>
+      <arg value="libs.conf"/>
+    </exec>
+  </target>
+
+  <target name="release" depends="init, load.lib, infos, go.build" description="Release">
+    <echo message="Creating release..."/>
+    <copy file="${project.basedir}/${app.id}.exe" todir="${release.path}" overwrite="true"/>
+  </target>
+
+  <target name="init" unless="is.lib.loaded">
+    <mkdir dir="${bin.path}"/>
+    <mkdir dir="${lib.path}"/>
+    <mkdir dir="${tmp.path}"/>
+    <delete dir="${build.path}"/>
+    <mkdir dir="${build.path}"/>
+    <delete dir="${release.path}"/>
+    <mkdir dir="${release.path}"/>
+  </target>
+
+  <target name="load.lib" unless="is.lib.loaded" depends="load.lib.antcontrib">
+    <var name="is.lib.loaded" value="true"/>
+  </target>
+
+  <target name="load.lib.antcontrib" unless="is.lib.loaded">
+    <echo message="Load ANT Contrib"/>
+    <mkdir dir="${lib.path}/ant-contrib"/>
+    <get dest="${lib.path}/ant-contrib/ant-contrib.jar" src="${antcontrib.url}" skipexisting="true"/>
+    <taskdef resource="net/sf/antcontrib/antlib.xml">
+      <classpath>
+        <fileset dir="${lib.path}/ant-contrib">
+          <include name="**/*.jar"/>
+        </fileset>
+      </classpath>
+    </taskdef>
+  </target>
+
+  <target name="infos">
+    <filterset id="filterset.app">
+      <filter token="APP_ID" value="${app.id}"/>
+      <filter token="APP_NAME" value="${app.name}"/>
+      <filter token="APP_DESC" value="${app.desc}"/>
+      <filter token="APP_VERSION" value="${app.version}"/>
+      <filter token="APP_RELEASE" value="${app.release}"/>
+      <filter token="APP_COPYRIGHT" value="${app.url}"/>
+    </filterset>
+    <echo message="APP_ID        : ${app.id}"/>
+    <echo message="APP_NAME      : ${app.name}"/>
+    <echo message="APP_DESC      : ${app.desc}"/>
+    <echo message="APP_VERSION   : ${app.version}"/>
+    <echo message="APP_RELEASE   : ${app.release}"/>
+    <echo message="APP_COPYRIGHT : ${app.url}"/>
+  </target>
+
+  <target name="go.build">
+    <copy file="${app.path}/versioninfo.json" todir="${project.basedir}" overwrite="true">
+      <filterset refid="filterset.app"/>
+    </copy>
+    <goget package="github.com/josephspurrier/goversioninfo/cmd/goversioninfo"/>
+    <goget package="github.com/jteeuwen/go-bindata"/>
+    <glide workingdir="${project.basedir}"/>
+    <gogenerate workingdir="${project.basedir}"/>
+    <gobuild workingdir="${project.basedir}"/>
+    <assertfile file="${project.basedir}/${app.id}.exe"/>
+  </target>
+
+</project>

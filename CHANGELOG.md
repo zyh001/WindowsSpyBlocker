@@ -1,5 +1,16 @@
 # Changelog
 
+## 4.0.0-b1 (2017/05/15)
+
+* Unified console app made with Go (Issue #38)
+* Add Glide dependency manager for Go
+* Add Codacy review
+* Add AppVeyor CI integration
+* Add Go Report badge
+* Standard code organization
+* Move 131.253.61.0-131.253.61.255 to extra for Windows 8.1 (Issue #39)
+* Move *.vo.msecnd.net to extra rules (Issue #37)
+
 ## 3.7.5 (2017/04/15)
 
 * New hosts for Windows 10 spy and update

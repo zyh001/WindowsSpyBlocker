@@ -1,0 +1,22 @@
+package: github.com/crazy-max/WindowsSpyBlocker
+homepage: https://github.com/crazy-max/WindowsSpyBlocker
+license: MIT
+owners:
+- name: crazy-max
+import:
+- package: github.com/PuerkitoBio/goquery
+  version: ~1.1.0
+- package: github.com/cavaliercoder/grab
+  version: ~1.0.0
+- package: github.com/cevaris/ordered_map
+- package: github.com/fatih/color
+  version: ~1.4.1
+- package: github.com/go-ole/go-ole
+  version: de8695c8edbf8236f30d6e1376e20b198a028d42
+  subpackages:
+  - oleutil
+- package: github.com/miekg/dns
+- package: golang.org/x/sys
+  subpackages:
+  - windows/registry
+- package: github.com/hako/durafmt

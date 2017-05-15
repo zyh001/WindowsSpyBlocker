@@ -1,0 +1,35 @@
+version: '{build}'
+
+platform:
+  - x86
+
+clone_folder: C:\gopath\src\github.com\crazy-max\WindowsSpyBlocker
+
+environment:
+  JAVA_HOME: C:\Program Files (x86)\Java\jdk1.8.0
+  GOPATH: C:\gopath
+  GOROOT: C:\go\
+  GOVERSION: 1.8
+
+install:
+  - ps: choco install ant mingw winpcap
+  - ps: $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+  - cmd: SET PATH=%GOPATH%\bin;%GOROOT%bin;%PATH%
+  - java -version
+  - ant -version
+  - go version
+  - go env
+
+configuration:
+  - Release
+
+build_script:
+  - ant release
+
+artifacts:
+  - path: 'bin\release\*'
+
+notifications:
+  - provider: Slack
+    incoming_webhook:
+      secure: 6wcIQdnN6haB2OhAPJVhAoMpU1lLRM7tHmVUCfv2RZ/3gZSBCm7wCBde4Bx7zNyv3Qw6//VrX97ZD3ejdoyxfmFaXBomoclkVKJRcvCyn3s=
