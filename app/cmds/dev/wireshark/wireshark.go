@@ -23,7 +23,7 @@ import (
 	"github.com/fatih/color"
 )
 
-var libWiresharkPortable config.Lib
+var libWireshark config.Lib
 
 // Menu of Wireshark
 func Menu(args ...string) (err error) {
@@ -42,12 +42,12 @@ func Menu(args ...string) (err error) {
 }
 
 func init() {
-	libWiresharkPortable = config.Lib{
-		Url:        config.Libs.WiresharkPortable.Url,
-		Checksum:   config.Libs.WiresharkPortable.Checksum,
-		Zip:        path.Join(pathu.Libs, "wiresharkPortable.zip"),
-		Path:       path.Join(pathu.Libs, "wiresharkPortable"),
-		Executable: path.Join(pathu.Libs, "wiresharkPortable", "App", "Wireshark", "tshark.exe"),
+	libWireshark = config.Lib{
+		Url:       "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
+		Checksum:  "c349163d73d8ca5eadae5382519b61f4a28bb82a9ba886d65b585f07b74e6555",
+		Zip:       path.Join(pathu.Libs, "wireshark.zip"),
+		Path:      path.Join(pathu.Libs, "wireshark"),
+		Checkfile: path.Join(pathu.Libs, "wireshark", "tshark.exe"),
 	}
 }
 
@@ -57,7 +57,7 @@ func extractLog(args ...string) (err error) {
 
 	var events Events
 
-	if err := app.DownloadLib(libWiresharkPortable); err != nil {
+	if err := app.DownloadLib(libWireshark); err != nil {
 		return nil
 	}
 
@@ -72,9 +72,9 @@ func extractLog(args ...string) (err error) {
 
 	fmt.Print("Extracting events... ")
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    libWiresharkPortable.Executable,
+		Command:    path.Join(libWireshark.Path, "tshark.exe"),
 		Args:       []string{"-r", config.App.Wireshark.PcapngPath, "-q", "-z", "ip_hosts,tree"},
-		WorkingDir: libWiresharkPortable.Path,
+		WorkingDir: libWireshark.Path,
 	})
 	if err != nil {
 		print.Error(err)

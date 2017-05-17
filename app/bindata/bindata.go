@@ -58,7 +58,6 @@
 // data/proxifier/win81/spy.txt
 // data/proxifier/win81/update.txt
 // app.conf
-// libs.conf
 // DO NOT EDIT!
 
 package bindata
@@ -401,7 +400,7 @@ func dataFirewallWin7SpyTxt() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "data/firewall/win7/spy.txt", size: 686, mode: os.FileMode(438), modTime: time.Unix(1492269054, 0)}
+	info := bindataFileInfo{name: "data/firewall/win7/spy.txt", size: 686, mode: os.FileMode(438), modTime: time.Unix(1495055563, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1281,27 +1280,7 @@ func appConf() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "app.conf", size: 721, mode: os.FileMode(438), modTime: time.Unix(1494706832, 0)}
-	a := &asset{bytes: bytes, info: info}
-	return a, nil
-}
-
-var _libsConf = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x9c\xd0\xc1\x8a\xdb\x30\x10\xc6\xf1\xbb\x9f\x42\xe8\xdc\xb5\xa5\x91\x25\x8d\xf2\x0c\x3d\x2c\xf4\xd0\xf3\x68\xa4\xd9\x84\x75\xe2\x20\x3b\x94\xa4\xe4\xdd\x4b\x9c\x43\xa1\xd0\x3d\xe4\x3a\x30\x7f\x7e\x7c\xbf\x3b\xa5\xf4\x34\x7f\x9c\xa9\x2d\xb5\xe9\x9d\x7a\x1c\x94\xd2\x97\x36\xe9\x9d\xd2\xfb\x75\x3d\x2f\xbb\x61\x28\x53\x9f\x0f\xa7\xb5\xd1\xb5\xe7\xf9\x38\x70\xa3\xdb\x75\x58\xe7\x79\x5a\x86\xef\xf3\xc7\xfb\xf6\xfc\x06\x3d\xf4\xd6\xf4\xb7\xc3\x59\x7f\x7b\x56\x78\x5f\xf9\x73\xb9\x1c\x1f\x29\x00\x20\x8f\xb1\xfa\x4c\xde\x14\x46\x0c\x29\x18\x0e\xc5\x63\x29\x9c\x91\xd9\x5b\x8e\x36\x48\x32\x52\x32\xe3\xe8\xd9\xa2\x83\x64\x52\x8e\xc4\x26\x89\xee\x94\xba\x3f\xba\x7a\xb9\x2e\xc7\xf9\xf4\x8a\xf5\xc7\xf6\xf9\xe6\xbe\x60\x8e\x42\x79\x14\x87\x46\xd0\xd5\x14\x0a\x81\x8c\x12\x7d\x36\x1c\xd1\xf8\x71\x0c\x89\xa1\xd8\xe8\x83\x8b\xc2\x16\x3d\x86\x51\x90\x11\x88\xad\x38\xca\xf0\x97\xf9\xeb\xd0\xea\xb2\xa7\xf6\xf9\x3e\xb7\x95\xf2\x54\x5f\x11\xff\xfc\x37\xb2\xad\x1c\xfe\xa7\x77\x41\xc0\x83\x40\xb2\x5c\xc8\x42\xdc\x96\x8c\x12\xad\x15\x11\x02\xef\xa0\x78\x1f\x24\x61\xb0\x94\x62\xa4\x52\xa5\x20\xc4\x1a\xa2\x14\xe2\xf8\xd4\x77\xf7\xee\x4f\x00\x00\x00\xff\xff\x4a\x39\x52\x11\x17\x02\x00\x00")
-
-func libsConfBytes() ([]byte, error) {
-	return bindataRead(
-		_libsConf,
-		"libs.conf",
-	)
-}
-
-func libsConf() (*asset, error) {
-	bytes, err := libsConfBytes()
-	if err != nil {
-		return nil, err
-	}
-
-	info := bindataFileInfo{name: "libs.conf", size: 535, mode: os.FileMode(438), modTime: time.Unix(1494436853, 0)}
+	info := bindataFileInfo{name: "app.conf", size: 721, mode: os.FileMode(438), modTime: time.Unix(1495054623, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1358,65 +1337,64 @@ func AssetNames() []string {
 
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
-	"data/dnscrypt/win10/extra.txt":           dataDnscryptWin10ExtraTxt,
-	"data/dnscrypt/win10/spy.txt":             dataDnscryptWin10SpyTxt,
-	"data/dnscrypt/win10/update.txt":          dataDnscryptWin10UpdateTxt,
-	"data/dnscrypt/win7/extra.txt":            dataDnscryptWin7ExtraTxt,
-	"data/dnscrypt/win7/spy.txt":              dataDnscryptWin7SpyTxt,
-	"data/dnscrypt/win7/update.txt":           dataDnscryptWin7UpdateTxt,
-	"data/dnscrypt/win81/extra.txt":           dataDnscryptWin81ExtraTxt,
-	"data/dnscrypt/win81/spy.txt":             dataDnscryptWin81SpyTxt,
-	"data/dnscrypt/win81/update.txt":          dataDnscryptWin81UpdateTxt,
-	"data/firewall/win10/extra.txt":           dataFirewallWin10ExtraTxt,
-	"data/firewall/win10/spy.txt":             dataFirewallWin10SpyTxt,
-	"data/firewall/win10/update.txt":          dataFirewallWin10UpdateTxt,
-	"data/firewall/win7/extra.txt":            dataFirewallWin7ExtraTxt,
-	"data/firewall/win7/spy.txt":              dataFirewallWin7SpyTxt,
-	"data/firewall/win7/update.txt":           dataFirewallWin7UpdateTxt,
-	"data/firewall/win81/extra.txt":           dataFirewallWin81ExtraTxt,
-	"data/firewall/win81/spy.txt":             dataFirewallWin81SpyTxt,
-	"data/firewall/win81/update.txt":          dataFirewallWin81UpdateTxt,
-	"data/hosts/win10/extra.txt":              dataHostsWin10ExtraTxt,
-	"data/hosts/win10/spy.txt":                dataHostsWin10SpyTxt,
-	"data/hosts/win10/update.txt":             dataHostsWin10UpdateTxt,
-	"data/hosts/win7/extra.txt":               dataHostsWin7ExtraTxt,
-	"data/hosts/win7/spy.txt":                 dataHostsWin7SpyTxt,
-	"data/hosts/win7/update.txt":              dataHostsWin7UpdateTxt,
-	"data/hosts/win81/extra.txt":              dataHostsWin81ExtraTxt,
-	"data/hosts/win81/spy.txt":                dataHostsWin81SpyTxt,
-	"data/hosts/win81/update.txt":             dataHostsWin81UpdateTxt,
-	"data/ncsi/github.com.reg":                dataNcsiGithubComReg,
-	"data/ncsi/msftncsi.com.reg":              dataNcsiMsftncsiComReg,
-	"data/ncsi/ncsi.txt":                      dataNcsiNcsiTxt,
-	"data/openwrt/win10/extra/dnsmasq.conf":   dataOpenwrtWin10ExtraDnsmasqConf,
-	"data/openwrt/win10/extra/firewall.user":  dataOpenwrtWin10ExtraFirewallUser,
-	"data/openwrt/win10/spy/dnsmasq.conf":     dataOpenwrtWin10SpyDnsmasqConf,
-	"data/openwrt/win10/spy/firewall.user":    dataOpenwrtWin10SpyFirewallUser,
-	"data/openwrt/win10/update/dnsmasq.conf":  dataOpenwrtWin10UpdateDnsmasqConf,
+	"data/dnscrypt/win10/extra.txt": dataDnscryptWin10ExtraTxt,
+	"data/dnscrypt/win10/spy.txt": dataDnscryptWin10SpyTxt,
+	"data/dnscrypt/win10/update.txt": dataDnscryptWin10UpdateTxt,
+	"data/dnscrypt/win7/extra.txt": dataDnscryptWin7ExtraTxt,
+	"data/dnscrypt/win7/spy.txt": dataDnscryptWin7SpyTxt,
+	"data/dnscrypt/win7/update.txt": dataDnscryptWin7UpdateTxt,
+	"data/dnscrypt/win81/extra.txt": dataDnscryptWin81ExtraTxt,
+	"data/dnscrypt/win81/spy.txt": dataDnscryptWin81SpyTxt,
+	"data/dnscrypt/win81/update.txt": dataDnscryptWin81UpdateTxt,
+	"data/firewall/win10/extra.txt": dataFirewallWin10ExtraTxt,
+	"data/firewall/win10/spy.txt": dataFirewallWin10SpyTxt,
+	"data/firewall/win10/update.txt": dataFirewallWin10UpdateTxt,
+	"data/firewall/win7/extra.txt": dataFirewallWin7ExtraTxt,
+	"data/firewall/win7/spy.txt": dataFirewallWin7SpyTxt,
+	"data/firewall/win7/update.txt": dataFirewallWin7UpdateTxt,
+	"data/firewall/win81/extra.txt": dataFirewallWin81ExtraTxt,
+	"data/firewall/win81/spy.txt": dataFirewallWin81SpyTxt,
+	"data/firewall/win81/update.txt": dataFirewallWin81UpdateTxt,
+	"data/hosts/win10/extra.txt": dataHostsWin10ExtraTxt,
+	"data/hosts/win10/spy.txt": dataHostsWin10SpyTxt,
+	"data/hosts/win10/update.txt": dataHostsWin10UpdateTxt,
+	"data/hosts/win7/extra.txt": dataHostsWin7ExtraTxt,
+	"data/hosts/win7/spy.txt": dataHostsWin7SpyTxt,
+	"data/hosts/win7/update.txt": dataHostsWin7UpdateTxt,
+	"data/hosts/win81/extra.txt": dataHostsWin81ExtraTxt,
+	"data/hosts/win81/spy.txt": dataHostsWin81SpyTxt,
+	"data/hosts/win81/update.txt": dataHostsWin81UpdateTxt,
+	"data/ncsi/github.com.reg": dataNcsiGithubComReg,
+	"data/ncsi/msftncsi.com.reg": dataNcsiMsftncsiComReg,
+	"data/ncsi/ncsi.txt": dataNcsiNcsiTxt,
+	"data/openwrt/win10/extra/dnsmasq.conf": dataOpenwrtWin10ExtraDnsmasqConf,
+	"data/openwrt/win10/extra/firewall.user": dataOpenwrtWin10ExtraFirewallUser,
+	"data/openwrt/win10/spy/dnsmasq.conf": dataOpenwrtWin10SpyDnsmasqConf,
+	"data/openwrt/win10/spy/firewall.user": dataOpenwrtWin10SpyFirewallUser,
+	"data/openwrt/win10/update/dnsmasq.conf": dataOpenwrtWin10UpdateDnsmasqConf,
 	"data/openwrt/win10/update/firewall.user": dataOpenwrtWin10UpdateFirewallUser,
-	"data/openwrt/win7/extra/dnsmasq.conf":    dataOpenwrtWin7ExtraDnsmasqConf,
-	"data/openwrt/win7/extra/firewall.user":   dataOpenwrtWin7ExtraFirewallUser,
-	"data/openwrt/win7/spy/dnsmasq.conf":      dataOpenwrtWin7SpyDnsmasqConf,
-	"data/openwrt/win7/spy/firewall.user":     dataOpenwrtWin7SpyFirewallUser,
-	"data/openwrt/win7/update/dnsmasq.conf":   dataOpenwrtWin7UpdateDnsmasqConf,
-	"data/openwrt/win7/update/firewall.user":  dataOpenwrtWin7UpdateFirewallUser,
-	"data/openwrt/win81/extra/dnsmasq.conf":   dataOpenwrtWin81ExtraDnsmasqConf,
-	"data/openwrt/win81/extra/firewall.user":  dataOpenwrtWin81ExtraFirewallUser,
-	"data/openwrt/win81/spy/dnsmasq.conf":     dataOpenwrtWin81SpyDnsmasqConf,
-	"data/openwrt/win81/spy/firewall.user":    dataOpenwrtWin81SpyFirewallUser,
-	"data/openwrt/win81/update/dnsmasq.conf":  dataOpenwrtWin81UpdateDnsmasqConf,
+	"data/openwrt/win7/extra/dnsmasq.conf": dataOpenwrtWin7ExtraDnsmasqConf,
+	"data/openwrt/win7/extra/firewall.user": dataOpenwrtWin7ExtraFirewallUser,
+	"data/openwrt/win7/spy/dnsmasq.conf": dataOpenwrtWin7SpyDnsmasqConf,
+	"data/openwrt/win7/spy/firewall.user": dataOpenwrtWin7SpyFirewallUser,
+	"data/openwrt/win7/update/dnsmasq.conf": dataOpenwrtWin7UpdateDnsmasqConf,
+	"data/openwrt/win7/update/firewall.user": dataOpenwrtWin7UpdateFirewallUser,
+	"data/openwrt/win81/extra/dnsmasq.conf": dataOpenwrtWin81ExtraDnsmasqConf,
+	"data/openwrt/win81/extra/firewall.user": dataOpenwrtWin81ExtraFirewallUser,
+	"data/openwrt/win81/spy/dnsmasq.conf": dataOpenwrtWin81SpyDnsmasqConf,
+	"data/openwrt/win81/spy/firewall.user": dataOpenwrtWin81SpyFirewallUser,
+	"data/openwrt/win81/update/dnsmasq.conf": dataOpenwrtWin81UpdateDnsmasqConf,
 	"data/openwrt/win81/update/firewall.user": dataOpenwrtWin81UpdateFirewallUser,
-	"data/proxifier/win10/extra.txt":          dataProxifierWin10ExtraTxt,
-	"data/proxifier/win10/spy.txt":            dataProxifierWin10SpyTxt,
-	"data/proxifier/win10/update.txt":         dataProxifierWin10UpdateTxt,
-	"data/proxifier/win7/extra.txt":           dataProxifierWin7ExtraTxt,
-	"data/proxifier/win7/spy.txt":             dataProxifierWin7SpyTxt,
-	"data/proxifier/win7/update.txt":          dataProxifierWin7UpdateTxt,
-	"data/proxifier/win81/extra.txt":          dataProxifierWin81ExtraTxt,
-	"data/proxifier/win81/spy.txt":            dataProxifierWin81SpyTxt,
-	"data/proxifier/win81/update.txt":         dataProxifierWin81UpdateTxt,
-	"app.conf":                                appConf,
-	"libs.conf":                               libsConf,
+	"data/proxifier/win10/extra.txt": dataProxifierWin10ExtraTxt,
+	"data/proxifier/win10/spy.txt": dataProxifierWin10SpyTxt,
+	"data/proxifier/win10/update.txt": dataProxifierWin10UpdateTxt,
+	"data/proxifier/win7/extra.txt": dataProxifierWin7ExtraTxt,
+	"data/proxifier/win7/spy.txt": dataProxifierWin7SpyTxt,
+	"data/proxifier/win7/update.txt": dataProxifierWin7UpdateTxt,
+	"data/proxifier/win81/extra.txt": dataProxifierWin81ExtraTxt,
+	"data/proxifier/win81/spy.txt": dataProxifierWin81SpyTxt,
+	"data/proxifier/win81/update.txt": dataProxifierWin81UpdateTxt,
+	"app.conf": appConf,
 }
 
 // AssetDir returns the file names below a certain
@@ -1458,129 +1436,127 @@ type bintree struct {
 	Func     func() (*asset, error)
 	Children map[string]*bintree
 }
-
 var _bintree = &bintree{nil, map[string]*bintree{
-	"app.conf": {appConf, map[string]*bintree{}},
-	"data": {nil, map[string]*bintree{
-		"dnscrypt": {nil, map[string]*bintree{
-			"win10": {nil, map[string]*bintree{
-				"extra.txt":  {dataDnscryptWin10ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataDnscryptWin10SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataDnscryptWin10UpdateTxt, map[string]*bintree{}},
+	"app.conf": &bintree{appConf, map[string]*bintree{}},
+	"data": &bintree{nil, map[string]*bintree{
+		"dnscrypt": &bintree{nil, map[string]*bintree{
+			"win10": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataDnscryptWin10ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataDnscryptWin10SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataDnscryptWin10UpdateTxt, map[string]*bintree{}},
 			}},
-			"win7": {nil, map[string]*bintree{
-				"extra.txt":  {dataDnscryptWin7ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataDnscryptWin7SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataDnscryptWin7UpdateTxt, map[string]*bintree{}},
+			"win7": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataDnscryptWin7ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataDnscryptWin7SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataDnscryptWin7UpdateTxt, map[string]*bintree{}},
 			}},
-			"win81": {nil, map[string]*bintree{
-				"extra.txt":  {dataDnscryptWin81ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataDnscryptWin81SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataDnscryptWin81UpdateTxt, map[string]*bintree{}},
-			}},
-		}},
-		"firewall": {nil, map[string]*bintree{
-			"win10": {nil, map[string]*bintree{
-				"extra.txt":  {dataFirewallWin10ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataFirewallWin10SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataFirewallWin10UpdateTxt, map[string]*bintree{}},
-			}},
-			"win7": {nil, map[string]*bintree{
-				"extra.txt":  {dataFirewallWin7ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataFirewallWin7SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataFirewallWin7UpdateTxt, map[string]*bintree{}},
-			}},
-			"win81": {nil, map[string]*bintree{
-				"extra.txt":  {dataFirewallWin81ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataFirewallWin81SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataFirewallWin81UpdateTxt, map[string]*bintree{}},
+			"win81": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataDnscryptWin81ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataDnscryptWin81SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataDnscryptWin81UpdateTxt, map[string]*bintree{}},
 			}},
 		}},
-		"hosts": {nil, map[string]*bintree{
-			"win10": {nil, map[string]*bintree{
-				"extra.txt":  {dataHostsWin10ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataHostsWin10SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataHostsWin10UpdateTxt, map[string]*bintree{}},
+		"firewall": &bintree{nil, map[string]*bintree{
+			"win10": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataFirewallWin10ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataFirewallWin10SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataFirewallWin10UpdateTxt, map[string]*bintree{}},
 			}},
-			"win7": {nil, map[string]*bintree{
-				"extra.txt":  {dataHostsWin7ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataHostsWin7SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataHostsWin7UpdateTxt, map[string]*bintree{}},
+			"win7": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataFirewallWin7ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataFirewallWin7SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataFirewallWin7UpdateTxt, map[string]*bintree{}},
 			}},
-			"win81": {nil, map[string]*bintree{
-				"extra.txt":  {dataHostsWin81ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataHostsWin81SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataHostsWin81UpdateTxt, map[string]*bintree{}},
-			}},
-		}},
-		"ncsi": {nil, map[string]*bintree{
-			"github.com.reg":   {dataNcsiGithubComReg, map[string]*bintree{}},
-			"msftncsi.com.reg": {dataNcsiMsftncsiComReg, map[string]*bintree{}},
-			"ncsi.txt":         {dataNcsiNcsiTxt, map[string]*bintree{}},
-		}},
-		"openwrt": {nil, map[string]*bintree{
-			"win10": {nil, map[string]*bintree{
-				"extra": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin10ExtraDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin10ExtraFirewallUser, map[string]*bintree{}},
-				}},
-				"spy": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin10SpyDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin10SpyFirewallUser, map[string]*bintree{}},
-				}},
-				"update": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin10UpdateDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin10UpdateFirewallUser, map[string]*bintree{}},
-				}},
-			}},
-			"win7": {nil, map[string]*bintree{
-				"extra": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin7ExtraDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin7ExtraFirewallUser, map[string]*bintree{}},
-				}},
-				"spy": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin7SpyDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin7SpyFirewallUser, map[string]*bintree{}},
-				}},
-				"update": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin7UpdateDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin7UpdateFirewallUser, map[string]*bintree{}},
-				}},
-			}},
-			"win81": {nil, map[string]*bintree{
-				"extra": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin81ExtraDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin81ExtraFirewallUser, map[string]*bintree{}},
-				}},
-				"spy": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin81SpyDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin81SpyFirewallUser, map[string]*bintree{}},
-				}},
-				"update": {nil, map[string]*bintree{
-					"dnsmasq.conf":  {dataOpenwrtWin81UpdateDnsmasqConf, map[string]*bintree{}},
-					"firewall.user": {dataOpenwrtWin81UpdateFirewallUser, map[string]*bintree{}},
-				}},
+			"win81": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataFirewallWin81ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataFirewallWin81SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataFirewallWin81UpdateTxt, map[string]*bintree{}},
 			}},
 		}},
-		"proxifier": {nil, map[string]*bintree{
-			"win10": {nil, map[string]*bintree{
-				"extra.txt":  {dataProxifierWin10ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataProxifierWin10SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataProxifierWin10UpdateTxt, map[string]*bintree{}},
+		"hosts": &bintree{nil, map[string]*bintree{
+			"win10": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataHostsWin10ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataHostsWin10SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataHostsWin10UpdateTxt, map[string]*bintree{}},
 			}},
-			"win7": {nil, map[string]*bintree{
-				"extra.txt":  {dataProxifierWin7ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataProxifierWin7SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataProxifierWin7UpdateTxt, map[string]*bintree{}},
+			"win7": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataHostsWin7ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataHostsWin7SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataHostsWin7UpdateTxt, map[string]*bintree{}},
 			}},
-			"win81": {nil, map[string]*bintree{
-				"extra.txt":  {dataProxifierWin81ExtraTxt, map[string]*bintree{}},
-				"spy.txt":    {dataProxifierWin81SpyTxt, map[string]*bintree{}},
-				"update.txt": {dataProxifierWin81UpdateTxt, map[string]*bintree{}},
+			"win81": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataHostsWin81ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataHostsWin81SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataHostsWin81UpdateTxt, map[string]*bintree{}},
+			}},
+		}},
+		"ncsi": &bintree{nil, map[string]*bintree{
+			"github.com.reg": &bintree{dataNcsiGithubComReg, map[string]*bintree{}},
+			"msftncsi.com.reg": &bintree{dataNcsiMsftncsiComReg, map[string]*bintree{}},
+			"ncsi.txt": &bintree{dataNcsiNcsiTxt, map[string]*bintree{}},
+		}},
+		"openwrt": &bintree{nil, map[string]*bintree{
+			"win10": &bintree{nil, map[string]*bintree{
+				"extra": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin10ExtraDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin10ExtraFirewallUser, map[string]*bintree{}},
+				}},
+				"spy": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin10SpyDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin10SpyFirewallUser, map[string]*bintree{}},
+				}},
+				"update": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin10UpdateDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin10UpdateFirewallUser, map[string]*bintree{}},
+				}},
+			}},
+			"win7": &bintree{nil, map[string]*bintree{
+				"extra": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin7ExtraDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin7ExtraFirewallUser, map[string]*bintree{}},
+				}},
+				"spy": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin7SpyDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin7SpyFirewallUser, map[string]*bintree{}},
+				}},
+				"update": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin7UpdateDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin7UpdateFirewallUser, map[string]*bintree{}},
+				}},
+			}},
+			"win81": &bintree{nil, map[string]*bintree{
+				"extra": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin81ExtraDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin81ExtraFirewallUser, map[string]*bintree{}},
+				}},
+				"spy": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin81SpyDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin81SpyFirewallUser, map[string]*bintree{}},
+				}},
+				"update": &bintree{nil, map[string]*bintree{
+					"dnsmasq.conf": &bintree{dataOpenwrtWin81UpdateDnsmasqConf, map[string]*bintree{}},
+					"firewall.user": &bintree{dataOpenwrtWin81UpdateFirewallUser, map[string]*bintree{}},
+				}},
+			}},
+		}},
+		"proxifier": &bintree{nil, map[string]*bintree{
+			"win10": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataProxifierWin10ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataProxifierWin10SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataProxifierWin10UpdateTxt, map[string]*bintree{}},
+			}},
+			"win7": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataProxifierWin7ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataProxifierWin7SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataProxifierWin7UpdateTxt, map[string]*bintree{}},
+			}},
+			"win81": &bintree{nil, map[string]*bintree{
+				"extra.txt": &bintree{dataProxifierWin81ExtraTxt, map[string]*bintree{}},
+				"spy.txt": &bintree{dataProxifierWin81SpyTxt, map[string]*bintree{}},
+				"update.txt": &bintree{dataProxifierWin81UpdateTxt, map[string]*bintree{}},
 			}},
 		}},
 	}},
-	"libs.conf": {libsConf, map[string]*bintree{}},
 }}
 
 // RestoreAsset restores an asset under the given directory
@@ -1629,3 +1605,4 @@ func _filePath(dir, name string) string {
 	cannonicalName := strings.Replace(name, "\\", "/", -1)
 	return filepath.Join(append([]string{dir}, strings.Split(cannonicalName, "/")...)...)
 }
+

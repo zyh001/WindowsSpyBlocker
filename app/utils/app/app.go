@@ -15,7 +15,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 )
 
-// DownloadLib download an external library referenced in libs.conf
+// DownloadLib download an external library
 func DownloadLib(lib config.Lib) error {
 	if _, err := os.Stat(lib.Path); os.IsNotExist(err) {
 		fmt.Printf("Creating folder %s... ", lib.Path)
@@ -26,7 +26,7 @@ func DownloadLib(lib config.Lib) error {
 		print.Ok()
 	}
 
-	if _, err := os.Stat(lib.Executable); err != nil {
+	if _, err := os.Stat(lib.Checkfile); err != nil {
 		fmt.Printf("Downloading %s...", lib.Url)
 		if err := netu.DownloadFile(lib.Zip, lib.Url, lib.Checksum); err != nil {
 			fmt.Print(" ")
@@ -43,8 +43,8 @@ func DownloadLib(lib config.Lib) error {
 		}
 		print.Ok()
 
-		fmt.Printf("Seeking %s... ", lib.Executable)
-		if _, err := os.Stat(lib.Executable); err != nil {
+		fmt.Printf("Seeking checkfile %s... ", lib.Checkfile)
+		if _, err := os.Stat(lib.Checkfile); err != nil {
 			print.Error(err)
 			return err
 		}

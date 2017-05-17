@@ -1,5 +1,5 @@
 //go:generate go get -v github.com/jteeuwen/go-bindata/go-bindata/...
-//go:generate go-bindata -pkg bindata -o app/bindata/bindata.go data/... app.conf libs.conf
+//go:generate go-bindata -pkg bindata -o app/bindata/bindata.go data/... app.conf
 //go:generate go get -v github.com/josephspurrier/goversioninfo/...
 //go:generate goversioninfo -icon=app.ico -manifest=app.manifest
 

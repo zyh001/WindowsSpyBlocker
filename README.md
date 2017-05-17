@@ -42,9 +42,9 @@ It allows to apply the rules to the Windows firewall, to modify the NCSI and als
 ![](../../wiki/img/wsb-20170515.png)
 > Main window of WindowsSpyBlocker application
 
-Configuration files `app.conf` and `libs.conf` are generated at first launch :
+Configuration file `app.conf` is generated at first launch :
 
-![](../../wiki/img/wsbRootFolder-20170515.png)
+![](../../wiki/img/wsbRootFolder-20170517.png)
 
 For more information, read the instructions in the [Wiki](../../wiki).
 
