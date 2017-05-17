@@ -85,10 +85,20 @@ func all(system string) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
+	var resultsTmp diffs
+	resultsTmp = append(resultsTmp, _diff(system, "proxifier", true)...)
+	resultsTmp = append(resultsTmp, _diff(system, "sysmon", true)...)
+	resultsTmp = append(resultsTmp, _diff(system, "wireshark", true)...)
+
 	var results diffs
-	results = append(results, _diff(system, "proxifier", true)...)
-	results = append(results, _diff(system, "sysmon", true)...)
-	results = append(results, _diff(system, "wireshark", true)...)
+	duplicates := make(map[string]string)
+	for _, resultTmp := range resultsTmp {
+		if _, ok := duplicates[resultTmp.Host]; ok {
+			continue
+		}
+		duplicates[resultTmp.Host] = resultTmp.Host
+		results = append(results, resultTmp)
+	}
 
 	if len(results) == 0 {
 		fmt.Println("No diffs found...")
