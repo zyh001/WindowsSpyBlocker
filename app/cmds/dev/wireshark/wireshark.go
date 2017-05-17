@@ -44,7 +44,7 @@ func Menu(args ...string) (err error) {
 func init() {
 	libWireshark = config.Lib{
 		Url:       "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
-		Checksum:  "c349163d73d8ca5eadae5382519b61f4a28bb82a9ba886d65b585f07b74e6555",
+		Checksum:  "1fa274017d7ae2ab6e712435e83d2bc5a2d016f6612c6560d159ae1f2584cbf5",
 		Zip:       path.Join(pathu.Libs, "wireshark.zip"),
 		Path:      path.Join(pathu.Libs, "wireshark"),
 		Checkfile: path.Join(pathu.Libs, "wireshark", "tshark.exe"),
