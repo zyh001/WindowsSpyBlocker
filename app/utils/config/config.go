@@ -97,8 +97,6 @@ func init() {
 	oldVersion := appOld.Version
 
 	// Perform upgrade if different version
-	fmt.Println("newVersion:", newVersion)
-	fmt.Println("oldVersion:", oldVersion)
 	if newVersion != oldVersion {
 		if err := performUpgrade(); err != nil {
 			print.QuitFatal(err)
