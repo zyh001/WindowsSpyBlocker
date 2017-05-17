@@ -44,8 +44,8 @@ func NewOptions(name string, prompt string, length int, menuCommand string) Opti
 
 // Trim whitespace, newlines, and create command+arguments slice
 func cleanCommand(cmd string) ([]string, error) {
-	cmd_args := strings.Split(strings.Trim(cmd, " \r\n"), " ")
-	return cmd_args, nil
+	cmdArgs := strings.Split(strings.Trim(cmd, " \r\n"), " ")
+	return cmdArgs, nil
 }
 
 // NewMenu creates a new menu with options

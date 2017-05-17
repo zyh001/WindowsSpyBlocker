@@ -28,7 +28,7 @@ import (
 	"github.com/fatih/color"
 )
 
-// Proxifier menu
+// Menu of Proxifier
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
@@ -48,7 +48,7 @@ func extractLog(args ...string) (err error) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	var events EventsSortDate
+	var eventsAll EventsSortDate
 	var eventsUnique EventsSortDate
 	var eventsHostsCount EventsSortHost
 
@@ -69,13 +69,14 @@ func extractLog(args ...string) (err error) {
 	}
 	print.Ok()
 
-	fmt.Print("Cleaning lines...")
+	fmt.Print("Cleaning lines... ")
 	rawLines := _cleanLines(string(fileBuf))
+	print.Ok()
 
 	nbLines := 0
 	excluded := []string{}
 
-	fmt.Print("\nExtracting events...")
+	fmt.Println("Extracting events...")
 	strBuf := bytes.NewBufferString(rawLines)
 	for {
 		line, err := strBuf.ReadString('\n')
@@ -117,7 +118,7 @@ func extractLog(args ...string) (err error) {
 			logAccount = sLine[4]
 		}
 
-		fmt.Println("\nFound", host)
+		fmt.Println("Found", host)
 		//color.New(color.FgCyan).Println(host)
 		event := Event{
 			Date:    logDate,
@@ -127,7 +128,7 @@ func extractLog(args ...string) (err error) {
 			Host:    host,
 			Whois:   whois.GetWhois(host),
 		}
-		events = append(events, event)
+		eventsAll = append(eventsAll, event)
 
 		eventFound := false
 		for i := range eventsHostsCount {
@@ -147,114 +148,34 @@ func extractLog(args ...string) (err error) {
 	fmt.Print("Total lines: ")
 	color.New(color.FgYellow).Printf("%d\n", nbLines)
 	fmt.Print("Processed: ")
-	color.New(color.FgGreen).Printf("%d", len(events))
+	color.New(color.FgGreen).Printf("%d", len(eventsAll))
 	fmt.Print(" (")
 	color.New(color.FgRed).Printf("%d", len(excluded))
 	fmt.Print(" excluded)\n")
 
-	if len(events) == 0 {
+	if len(eventsAll) == 0 {
 		fmt.Println("No log to process...")
 		return nil
 	}
 
-	csvAllFile, _ := os.Create(path.Join(pathu.Logs, "proxifier-all.csv"))
-	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvAllFile.Name(), pathu.Current))
-	csvAllFile.WriteString("DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY")
+	// Create eventsUnique based on eventsAll
 	duplicates := make(map[string]string)
-	sort.Sort(events)
-	for _, event := range events {
-		csvAllFile.WriteString(fmt.Sprintf("\n%s,%s,%v,%s,%s", event.Date.Format("2006-01-02 15:04:05"), event.Exe, event.Pid, event.Account, event.Host))
-		if event.Whois != (whois.Whois{}) {
-			csvAllFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
-		} else {
-			csvAllFile.WriteString(",,")
-		}
-
+	for _, eventAll := range eventsAll {
 		logHash := sha1.New()
-		logHash.Write([]byte(event.Exe + event.Account + event.Host))
+		logHash.Write([]byte(eventAll.Exe + eventAll.Account + eventAll.Host))
 		logHashStr := base64.URLEncoding.EncodeToString(logHash.Sum(nil))
 		if _, ok := duplicates[logHashStr]; ok {
 			continue
 		} else {
-			duplicates[logHashStr] = event.Exe + event.Account + event.Host
+			duplicates[logHashStr] = eventAll.Exe + eventAll.Account + eventAll.Host
 		}
-
-		eventsUnique = append(eventsUnique, event)
+		eventsUnique = append(eventsUnique, eventAll)
 	}
-	print.Ok()
 
-	fmt.Printf("Writing %s... ", strings.TrimLeft(csvAllFile.Name(), pathu.Current))
-	if err := csvAllFile.Sync(); err != nil {
-		print.Error(err)
-	} else {
-		print.Ok()
-	}
-	csvAllFile.Close()
-
-	csvUniqueFile, _ := os.Create(path.Join(pathu.Logs, "proxifier-unique.csv"))
-	fmt.Printf("Generating %s... ", strings.TrimLeft(csvUniqueFile.Name(), pathu.Current))
-	csvUniqueFile.WriteString("DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY")
-	sort.Sort(eventsUnique)
-	for _, event := range eventsUnique {
-		csvUniqueFile.WriteString(fmt.Sprintf("\n%s,%s,%v,%s,%s", event.Date.Format("2006-01-02 15:04:05"), event.Exe, event.Pid, event.Account, event.Host))
-		if event.Whois != (whois.Whois{}) {
-			csvUniqueFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
-		} else {
-			csvUniqueFile.WriteString(",,")
-		}
-	}
-	print.Ok()
-
-	fmt.Printf("Writing %s... ", strings.TrimLeft(csvUniqueFile.Name(), pathu.Current))
-	csvUniqueFile.Sync()
-	if err := csvUniqueFile.Sync(); err != nil {
-		print.Error(err)
-	} else {
-		print.Ok()
-	}
-	csvUniqueFile.Close()
-
-	csvHostsCountFile, _ := os.Create(path.Join(pathu.Logs, "proxifier-hosts-count.csv"))
-	fmt.Printf("Generating %s... ", strings.TrimLeft(csvHostsCountFile.Name(), pathu.Current))
-	csvHostsCountFile.WriteString("HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
-	sort.Sort(eventsHostsCount)
-	for _, event := range eventsHostsCount {
-		csvHostsCountFile.WriteString(fmt.Sprintf("\n%s,%v", event.Host, event.Count))
-
-		if event.Whois != (whois.Whois{}) {
-			csvHostsCountFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
-		} else {
-			csvHostsCountFile.WriteString(",,")
-		}
-
-		dnsresList := dnsres.Resolutions{}
-		if netu.IsValidIPv4(event.Host) {
-			dnsresList = dnsres.GetDnsRes(event.Host)
-		}
-		if len(dnsresList) > 0 {
-			countRes := 0
-			for _, res := range dnsresList {
-				if countRes == 0 {
-					csvHostsCountFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
-				} else {
-					csvHostsCountFile.WriteString(fmt.Sprintf("\n,,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
-				}
-				countRes += 1
-			}
-		} else {
-			csvHostsCountFile.WriteString(",,")
-		}
-	}
-	print.Ok()
-
-	fmt.Printf("Writing %s... ", strings.TrimLeft(csvHostsCountFile.Name(), pathu.Current))
-	csvHostsCountFile.Sync()
-	if err := csvHostsCountFile.Sync(); err != nil {
-		print.Error(err)
-	} else {
-		print.Ok()
-	}
-	csvHostsCountFile.Close()
+	// Generate and write events
+	_writeCsvEventsDateFile("proxifier-all.csv", eventsAll)
+	_writeCsvEventsDateFile("proxifier-unique.csv", eventsUnique)
+	_writeCsvEventsHostFile("proxifier-hosts-count.csv", eventsHostsCount)
 
 	return nil
 }
@@ -331,4 +252,72 @@ func _getFilteredDomain(sLine []string) string {
 	}
 
 	return app.GetFilteredIpOrDomain(domain)
+}
+
+func _writeCsvEventsDateFile(filename string, events EventsSortDate) {
+	csvFile, _ := os.Create(path.Join(pathu.Logs, filename))
+	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.WriteString("DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY")
+	sort.Sort(events)
+	for _, event := range events {
+		csvFile.WriteString(fmt.Sprintf("\n%s,%s,%v,%s,%s", event.Date.Format("2006-01-02 15:04:05"), event.Exe, event.Pid, event.Account, event.Host))
+		if event.Whois != (whois.Whois{}) {
+			csvFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
+		} else {
+			csvFile.WriteString(",,")
+		}
+	}
+	print.Ok()
+
+	fmt.Printf("Writing %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	if err := csvFile.Sync(); err != nil {
+		print.Error(err)
+	} else {
+		print.Ok()
+	}
+	csvFile.Close()
+}
+
+func _writeCsvEventsHostFile(filename string, events EventsSortHost) {
+	csvFile, _ := os.Create(path.Join(pathu.Logs, filename))
+	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.WriteString("HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
+	sort.Sort(events)
+	for _, event := range events {
+		csvFile.WriteString(fmt.Sprintf("\n%s,%v", event.Host, event.Count))
+
+		if event.Whois != (whois.Whois{}) {
+			csvFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
+		} else {
+			csvFile.WriteString(",,")
+		}
+
+		dnsresList := dnsres.Resolutions{}
+		if netu.IsValidIPv4(event.Host) {
+			dnsresList = dnsres.GetDnsRes(event.Host)
+		}
+		if dnsresList.Len() > 0 {
+			countRes := 0
+			for _, res := range dnsresList {
+				if countRes == 0 {
+					csvFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
+				} else {
+					csvFile.WriteString(fmt.Sprintf("\n,,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
+				}
+				countRes += 1
+			}
+		} else {
+			csvFile.WriteString(",,")
+		}
+	}
+	print.Ok()
+
+	fmt.Printf("Writing %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.Sync()
+	if err := csvFile.Sync(); err != nil {
+		print.Error(err)
+	} else {
+		print.Ok()
+	}
+	csvFile.Close()
 }

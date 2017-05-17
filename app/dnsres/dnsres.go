@@ -14,8 +14,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
-	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
-	"github.com/fatih/color"
 )
 
 // Timeout and URI templates for DNS resolutions external services
@@ -50,19 +48,15 @@ type dataDomain struct {
 	Permalink  string   `json:"permalink"`
 }
 
-// Get DNS resolutions of ip address or domain
+// GetDnsRes returns the DNS resolutions of an ip address or domain
 func GetDnsRes(ipAddressOrDomain string) Resolutions {
-	return getDnsRes(ipAddressOrDomain, false)
-}
-
-func getDnsRes(ipAddressOrDomain string, printed bool) Resolutions {
 	var result Resolutions
 
-	if printed {
+	/*if printed {
 		fmt.Print("Get resolutions of ")
 		color.New(color.FgYellow).Printf("%s", ipAddressOrDomain)
 		fmt.Print(" from ")
-	}
+	}*/
 
 	resultFile := path.Join(pathu.Tmp, "resolutions.json")
 	resultJson := make(map[string]Resolutions)
@@ -70,46 +64,46 @@ func getDnsRes(ipAddressOrDomain string, printed bool) Resolutions {
 	if resultTmpInfo, err := os.Stat(resultFile); err == nil {
 		resultTmpModified := time.Since(resultTmpInfo.ModTime()).Seconds()
 		if resultTmpModified > CACHE_TIMEOUT {
-			if printed {
+			/*if printed {
 				fmt.Printf("Creating file %s... ", resultFile)
-			}
+			}*/
 			if err := file.CreateFile(resultFile); err != nil {
-				if printed {
+				/*if printed {
 					print.Error(err)
-				}
+				}*/
 				return result
 			}
 		} else {
 			raw, err := ioutil.ReadFile(resultFile)
 			if err != nil {
-				if printed {
+				/*if printed {
 					print.Error(err)
-				}
+				}*/
 				return result
 			}
 			err = json.Unmarshal(raw, &resultJson)
 			if err != nil {
-				if printed {
+				/*if printed {
 					print.Error(err)
-				}
+				}*/
 				return result
 			}
 			if result, found := resultJson[ipAddressOrDomain]; found {
-				if printed {
+				/*if printed {
 					color.New(color.FgMagenta).Print("cache")
 					fmt.Print("... ")
 					print.Ok()
-				}
+				}*/
 				sort.Sort(result)
 				return result
 			}
 		}
 	}
 
-	if printed {
+	/*if printed {
 		color.New(color.FgMagenta).Print("online api")
 		fmt.Print("... ")
-	}
+	}*/
 
 	reportType := "domain"
 	if netu.IsValidIPv4(ipAddressOrDomain) {
@@ -118,28 +112,28 @@ func getDnsRes(ipAddressOrDomain string, printed bool) Resolutions {
 
 	result, err := getOnline(reportType, ipAddressOrDomain)
 	if err != nil {
-		if printed {
+		/*if printed {
 			print.Error(err)
-		}
-	} else {
+		}*/
+	} /* else {
 		if printed {
 			print.Ok()
 		}
-	}
+	}*/
 
 	resultJson[ipAddressOrDomain] = result
 	resultJsonMarsh, err := json.Marshal(resultJson)
 	if err != nil {
-		if printed {
+		/*if printed {
 			print.Error(err)
-		}
+		}*/
 	}
 
 	err = ioutil.WriteFile(resultFile, resultJsonMarsh, 0644)
 	if err != nil {
-		if printed {
+		/*if printed {
 			print.Error(err)
-		}
+		}*/
 	}
 
 	return result

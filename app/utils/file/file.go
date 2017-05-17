@@ -10,7 +10,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 )
 
-// Create a file and print status
+// CreateFile creates a file and print status
 func CreateFile(file string) error {
 	w, err := os.Create(file)
 	if err != nil {
@@ -23,7 +23,7 @@ func CreateFile(file string) error {
 	return nil
 }
 
-// Create a folder recusively
+// CreateSubfolder creates a folder recusively
 func CreateSubfolder(path string) error {
 	if _, err := os.Stat(path); os.IsNotExist(err) {
 		err = os.MkdirAll(path, 777)
@@ -98,7 +98,7 @@ func Unzip(src, dest string) error {
 	return nil
 }
 
-// Remove a file
+// RemoveFile removes a file
 func RemoveFile(filename string) error {
 	if _, err := os.Stat(filename); err == nil {
 		err := os.Remove(filename)
@@ -112,7 +112,7 @@ func RemoveFile(filename string) error {
 	return nil
 }
 
-// Copy a file
+// CopyFile copy a file
 func CopyFile(src string, dest string) error {
 	srcFile, err := os.Open(src)
 	if err != nil {

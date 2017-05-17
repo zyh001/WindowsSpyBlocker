@@ -18,8 +18,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
-	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
-	"github.com/fatih/color"
 )
 
 // Timeout and URI templates for Whois external services
@@ -89,19 +87,15 @@ type ipNfWhois struct {
 	Longitude   float32 `json:"longitude"`
 }
 
-// Get whois info of ip address or domain
+// GetWhois info of ip address or domain
 func GetWhois(ipAddressOrDomain string) Whois {
-	return getWhois(ipAddressOrDomain, false)
-}
-
-func getWhois(ipAddressOrDomain string, printed bool) Whois {
 	var result Whois
 
-	if printed {
+	/*if printed {
 		fmt.Print("Get whois of ")
 		color.New(color.FgYellow).Printf("%s", ipAddressOrDomain)
 		fmt.Print(" from ")
-	}
+	}*/
 
 	resultFile := path.Join(pathu.Tmp, "whois.json")
 	resultJson := make(map[string]Whois)
@@ -109,70 +103,70 @@ func getWhois(ipAddressOrDomain string, printed bool) Whois {
 	if resultTmpInfo, err := os.Stat(resultFile); err == nil {
 		resultTmpModified := time.Since(resultTmpInfo.ModTime()).Seconds()
 		if resultTmpModified > CACHE_TIMEOUT {
-			if printed {
+			/*if printed {
 				fmt.Printf("Creating file %s... ", resultFile)
-			}
+			}*/
 			if err := file.CreateFile(resultFile); err != nil {
-				if printed {
+				/*if printed {
 					print.Error(err)
-				}
+				}*/
 				return result
 			}
 		} else {
 			raw, err := ioutil.ReadFile(resultFile)
 			if err != nil {
-				if printed {
+				/*if printed {
 					print.Error(err)
-				}
+				}*/
 				return result
 			}
 			err = json.Unmarshal(raw, &resultJson)
 			if err != nil {
-				if printed {
+				/*if printed {
 					print.Error(err)
-				}
+				}*/
 				return result
 			}
 			if result, found := resultJson[ipAddressOrDomain]; found {
-				if printed {
+				/*if printed {
 					color.New(color.FgMagenta).Print("cache")
 					fmt.Print("... ")
 					print.Ok()
-				}
+				}*/
 				return result
 			}
 		}
 	}
 
-	if printed {
+	/*if printed {
 		color.New(color.FgMagenta).Print("online api")
 		fmt.Print("... ")
-	}
+	}*/
 
 	result, err := getOnline(ipAddressOrDomain)
 	if err != nil {
-		if printed {
+		/*if printed {
 			print.Error(err)
-		}
-	} else {
+		}*/
+	} /* else {
 		if printed {
 			print.Ok()
 		}
-	}
+	}*/
 
 	resultJson[ipAddressOrDomain] = result
 	resultJsonMarsh, err := json.Marshal(resultJson)
 	if err != nil {
-		if printed {
+		/*if printed {
 			print.Error(err)
-		}
+		}*/
 	}
 
 	err = ioutil.WriteFile(resultFile, resultJsonMarsh, 0644)
 	if err != nil {
-		if printed {
+		/*if printed {
 			print.Error(err)
-		}
+		}*/
 	}
 
 	return result

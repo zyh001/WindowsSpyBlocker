@@ -44,7 +44,7 @@ type ncsi struct {
 	dnsContentV6 string
 }
 
-// NCSI menu
+// Menu of NCSI
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
@@ -80,10 +80,9 @@ func current(args ...string) error {
 	if err != nil {
 		print.Error(err)
 		return nil
-	} else {
-		fmt.Print("Getting current registry values... ")
-		print.Ok()
 	}
+	fmt.Print("Getting current registry values... ")
+	print.Ok()
 
 	fmt.Println()
 	color.New(color.FgMagenta).Println("# Web Probe IPv4")
@@ -258,7 +257,7 @@ func testHttpProbe(url string, content string) string {
 
 	defer response.Body.Close()
 	if response.StatusCode != 200 {
-		return fmt.Sprintf("HTTP status code %s", response.StatusCode)
+		return fmt.Sprintf("HTTP status code %d", response.StatusCode)
 	}
 
 	bodyBytes, err := ioutil.ReadAll(response.Body)

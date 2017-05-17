@@ -7,7 +7,7 @@ import (
 	"syscall"
 )
 
-// Command options
+// Options of command
 type Options struct {
 	Command    string
 	Args       []string
@@ -15,7 +15,7 @@ type Options struct {
 	HideWindow bool
 }
 
-// Command result
+// Result of command
 type Result struct {
 	Options  Options
 	ExitCode uint32

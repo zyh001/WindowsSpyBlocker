@@ -8,7 +8,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 )
 
-// Wireshark event
+// Event of Wireshark
 type Event struct {
 	IP     string             `json:"ip"`
 	Count  int                `json:"count"`
@@ -16,7 +16,7 @@ type Event struct {
 	Whois  whois.Whois        `json:"whois"`
 }
 
-// Wireshark events sorted by IP
+// Events of Wireshark sorted by IP
 type Events []Event
 
 func (slice Events) Len() int {

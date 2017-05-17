@@ -13,6 +13,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 )
 
+// App constants
 const (
 	NAME    = "WindowsSpyBlocker"
 	VERSION = "4.0.0"

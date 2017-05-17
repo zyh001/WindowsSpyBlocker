@@ -8,7 +8,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 )
 
-// Dev menu
+// Menu of Dev
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{

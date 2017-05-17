@@ -25,7 +25,7 @@ import (
 
 var libWiresharkPortable config.Lib
 
-// Wireshark menu
+// Menu of Wireshark
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
@@ -149,43 +149,48 @@ func extractLog(args ...string) (err error) {
 		return nil
 	}
 
-	csvHostsCountFile, _ := os.Create(path.Join(pathu.Logs, "wireshark-hosts-count.csv"))
-	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvHostsCountFile.Name(), pathu.Current))
-	csvHostsCountFile.WriteString("HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
+	// Generate and write file
+	_writeCsvEventsHostFile("wireshark-hosts-count.csv", events)
+
+	return nil
+}
+
+func _writeCsvEventsHostFile(filename string, events Events) {
+	csvFile, _ := os.Create(path.Join(pathu.Logs, filename))
+	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.WriteString("HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
 	sort.Sort(events)
 	for _, event := range events {
-		csvHostsCountFile.WriteString(fmt.Sprintf("\n%s,%v", event.IP, event.Count))
+		csvFile.WriteString(fmt.Sprintf("\n%s,%v", event.IP, event.Count))
 
 		if event.Whois != (whois.Whois{}) {
-			csvHostsCountFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
+			csvFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
 		} else {
-			csvHostsCountFile.WriteString(",,")
+			csvFile.WriteString(",,")
 		}
 
 		if len(event.DnsRes) > 0 {
 			countRes := 0
 			for _, res := range event.DnsRes {
 				if countRes == 0 {
-					csvHostsCountFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
+					csvFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
 				} else {
-					csvHostsCountFile.WriteString(fmt.Sprintf("\n,,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
+					csvFile.WriteString(fmt.Sprintf("\n,,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
 				}
 				countRes += 1
 			}
 		} else {
-			csvHostsCountFile.WriteString(",,")
+			csvFile.WriteString(",,")
 		}
 	}
 	print.Ok()
 
-	fmt.Printf("Writing %s... ", strings.TrimLeft(csvHostsCountFile.Name(), pathu.Current))
-	csvHostsCountFile.Sync()
-	if err := csvHostsCountFile.Sync(); err != nil {
+	fmt.Printf("Writing %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.Sync()
+	if err := csvFile.Sync(); err != nil {
 		print.Error(err)
 	} else {
 		print.Ok()
 	}
-	csvHostsCountFile.Close()
-
-	return nil
+	csvFile.Close()
 }

@@ -57,7 +57,7 @@ func (slice diffs) Swap(i, j int) {
 	slice[i], slice[j] = slice[j], slice[i]
 }
 
-// Diff menu
+// Menu of Diff
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{

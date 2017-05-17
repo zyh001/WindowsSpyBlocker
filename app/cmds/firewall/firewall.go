@@ -24,10 +24,10 @@ import (
 	"github.com/go-ole/go-ole/oleutil"
 )
 
-// Prefix for firewall rule
+// PREFIX for firewall rule
 const PREFIX = "windowsSpyBlocker"
 
-// Firewall menu
+// Menu of Firewall
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
@@ -98,9 +98,8 @@ func testIpsByRule(system string, rule string) {
 	if err != nil {
 		print.Error(err)
 		return
-	} else {
-		print.Ok()
 	}
+	print.Ok()
 
 	fmt.Println()
 	testCsvFile, _ := os.Create(testCsv)

@@ -15,7 +15,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 )
 
-// Download an external library referenced in libs.conf
+// DownloadLib download an external library referenced in libs.conf
 func DownloadLib(lib config.Lib) error {
 	if _, err := os.Stat(lib.Path); os.IsNotExist(err) {
 		fmt.Printf("Creating folder %s... ", lib.Path)
@@ -54,7 +54,7 @@ func DownloadLib(lib config.Lib) error {
 	return nil
 }
 
-// Get ip address or domain filtered by excluded values in app.conf
+// GetFilteredIpOrDomain get an ip address or domain filtered by excluded values in app.conf
 func GetFilteredIpOrDomain(ipOrDomain string) string {
 	ipOrDomain = strings.ToLower(ipOrDomain)
 

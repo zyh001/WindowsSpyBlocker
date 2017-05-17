@@ -2,7 +2,6 @@ package data
 
 import (
 	"bytes"
-	"errors"
 	"fmt"
 	"net"
 	"path"
@@ -127,7 +126,7 @@ func GetFirewallIpsByRule(system string, rule string) (firewallIps, error) {
 	}
 
 	if len(lines) == 0 {
-		return result, errors.New(fmt.Sprintf("No IPs found in %s", rulesPath))
+		return result, fmt.Errorf("No IPs found in %s", rulesPath)
 	}
 
 	for _, line := range lines {
@@ -190,7 +189,7 @@ func GetHostsByRule(system string, rule string) (hosts, error) {
 	}
 
 	if len(lines) == 0 {
-		return result, errors.New(fmt.Sprintf("No domains found in %s", rulesPath))
+		return result, fmt.Errorf("No domains found in %s", rulesPath)
 	}
 
 	for _, line := range lines {

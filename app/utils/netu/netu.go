@@ -1,7 +1,6 @@
 package netu
 
 import (
-	"errors"
 	"fmt"
 	"net"
 	"os"
@@ -13,12 +12,12 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/crypto"
 )
 
-// Convert IP range to CIDR
+// GetCIDRFromIpRange converts IP range to CIDR
 func GetCIDRFromIpRange(ipRange string) (string, error) {
 	if strings.Contains(ipRange, "-") {
 		ipRangeS := strings.SplitN(ipRange, "-", 2)
 		if len(ipRangeS) != 2 {
-			return "", errors.New(fmt.Sprintf("Invalid IP range %s", ipRange))
+			return "", fmt.Errorf("Invalid IP range %s", ipRange)
 		}
 		ipA := net.ParseIP(ipRangeS[0])
 		ipB := net.ParseIP(ipRangeS[1])
@@ -32,10 +31,10 @@ func GetCIDRFromIpRange(ipRange string) (string, error) {
 			}
 		}
 	}
-	return "", errors.New(fmt.Sprintf("Invalid IP range %s", ipRange))
+	return "", fmt.Errorf("Invalid IP range %s", ipRange)
 }
 
-// Get IPs list from CIDR
+// GetIpsFromCIDR gets IPs list from CIDR
 func GetIpsFromCIDR(cidr string) ([]string, error) {
 	ip, ipnet, err := net.ParseCIDR(cidr)
 	if err != nil {
@@ -69,7 +68,7 @@ func GetIpsFromIpRange(ipRange string) ([]string, error) {
 	return GetIpsFromCIDR(cidr)
 }
 
-// Download a file and display status
+// DownloadFile downloads a file and display status
 func DownloadFile(filename string, url string, hash string) error {
 	if _, err := os.Stat(filename); err == nil {
 		currentHash, err := crypto.HashFileSha256(filename)
@@ -110,7 +109,7 @@ func DownloadFile(filename string, url string, hash string) error {
 	return nil
 }
 
-// Validate IPv4
+// IsValidIPv4 validates an IPv4
 func IsValidIPv4(ipAddress string) bool {
 	ipAddress = strings.Trim(ipAddress, " ")
 	re, _ := regexp.Compile(`^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$`)
@@ -120,7 +119,7 @@ func IsValidIPv4(ipAddress string) bool {
 	return false
 }
 
-// Get IP address from a reverse domain address
+// GetIpFromReverse returns IP address from a reverse domain address
 func GetIpFromReverse(domain string) string {
 	re := regexp.MustCompile(`(?i)(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})`)
 	matches := re.FindStringSubmatch(domain)

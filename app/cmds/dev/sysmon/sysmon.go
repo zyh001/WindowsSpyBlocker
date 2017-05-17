@@ -32,7 +32,7 @@ import (
 var libSysmon config.Lib
 var libLogparser config.Lib
 
-// Sysmon menu
+// Menu of Sysmon
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
@@ -186,9 +186,8 @@ func uninstall(args ...string) (err error) {
 	if err := file.RemoveFile(evtxPath); err != nil {
 		print.Error(err)
 		return nil
-	} else {
-		print.Ok()
 	}
+	print.Ok()
 
 	return nil
 }
@@ -197,7 +196,7 @@ func extractEventLog(args ...string) (err error) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	var events EventsSortDate
+	var eventsAll EventsSortDate
 	var eventsUnique EventsSortDate
 	var eventsHostsCount EventsSortHost
 
@@ -209,9 +208,8 @@ func extractEventLog(args ...string) (err error) {
 	if _, err := os.Stat(config.App.Sysmon.EvtxPath); err != nil {
 		print.Error(err)
 		return nil
-	} else {
-		print.Ok()
 	}
+	print.Ok()
 
 	fmt.Print("Extracting events with LogParser... ")
 	var logParserQuery bytes.Buffer
@@ -242,7 +240,6 @@ func extractEventLog(args ...string) (err error) {
 		print.Error(fmt.Errorf("No data found in %s\n", config.App.Sysmon.EvtxPath))
 		return nil
 	}
-
 	print.Ok()
 
 	lineCount := 0
@@ -301,7 +298,7 @@ func extractEventLog(args ...string) (err error) {
 			PortName: strings.TrimSpace(values[16]),
 			Whois:    whois.GetWhois(host),
 		}
-		events = append(events, event)
+		eventsAll = append(eventsAll, event)
 
 		eventFound := false
 		for i := range eventsHostsCount {
@@ -321,84 +318,74 @@ func extractEventLog(args ...string) (err error) {
 	fmt.Print("Total lines: ")
 	color.New(color.FgYellow).Printf("%d\n", lineCount)
 	fmt.Print("Processed: ")
-	color.New(color.FgGreen).Printf("%d", len(events))
+	color.New(color.FgGreen).Printf("%d", len(eventsAll))
 	fmt.Print(" (")
 	color.New(color.FgRed).Printf("%d", len(excluded))
 	fmt.Print(" excluded)\n")
 
-	if len(events) == 0 {
+	if len(eventsAll) == 0 {
 		fmt.Println("No event to process...")
 		return nil
 	}
 
-	csvAllFile, _ := os.Create(path.Join(pathu.Logs, "sysmon-all.csv"))
-	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvAllFile.Name(), pathu.Current))
-	csvAllFile.WriteString("DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY")
+	// Create eventsUnique based on eventsAll
 	duplicates := make(map[string]string)
-	sort.Sort(events)
-	for _, event := range events {
-		csvAllFile.WriteString(fmt.Sprintf("\n%s,%s,%s,%s,%v,%s", event.Date.Format("2006-01-02 15:04:05"), event.Process, event.Protocol, event.Host, event.Port, event.PortName))
-		if event.Whois != (whois.Whois{}) {
-			csvAllFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
-		} else {
-			csvAllFile.WriteString(",,")
-		}
-
+	for _, eventAll := range eventsAll {
 		eventHash := sha1.New()
-		eventHash.Write([]byte(event.Process + event.Protocol + event.Host + event.PortName))
+		eventHash.Write([]byte(eventAll.Process + eventAll.Protocol + eventAll.Host + eventAll.PortName))
 		eventHashStr := base64.URLEncoding.EncodeToString(eventHash.Sum(nil))
 		if _, ok := duplicates[eventHashStr]; ok {
 			continue
 		} else {
-			duplicates[eventHashStr] = event.Process + event.Protocol + event.Host + event.PortName
+			duplicates[eventHashStr] = eventAll.Process + eventAll.Protocol + eventAll.Host + eventAll.PortName
 		}
+		eventsUnique = append(eventsUnique, eventAll)
+	}
 
-		eventsUnique = append(eventsUnique, event)
+	// Generate and write events
+	_writeCsvEventsDateFile("sysmon-all.csv", eventsAll)
+	_writeCsvEventsDateFile("sysmon-unique.csv", eventsUnique)
+	_writeCsvEventsHostFile("sysmon-hosts-count.csv", eventsHostsCount)
+
+	return nil
+}
+
+func _writeCsvEventsDateFile(filename string, events EventsSortDate) {
+	csvFile, _ := os.Create(path.Join(pathu.Logs, filename))
+	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.WriteString("DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY")
+	sort.Sort(events)
+	for _, event := range events {
+		csvFile.WriteString(fmt.Sprintf("\n%s,%s,%s,%s,%v,%s", event.Date.Format("2006-01-02 15:04:05"), event.Process, event.Protocol, event.Host, event.Port, event.PortName))
+		if event.Whois != (whois.Whois{}) {
+			csvFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
+		} else {
+			csvFile.WriteString(",,")
+		}
 	}
 	print.Ok()
 
-	fmt.Printf("Writing %s... ", strings.TrimLeft(csvAllFile.Name(), pathu.Current))
-	if err := csvAllFile.Sync(); err != nil {
+	fmt.Printf("Writing %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	if err := csvFile.Sync(); err != nil {
 		print.Error(err)
 	} else {
 		print.Ok()
 	}
-	csvAllFile.Close()
+	csvFile.Close()
+}
 
-	csvUniqueFile, _ := os.Create(path.Join(pathu.Logs, "sysmon-unique.csv"))
-	fmt.Printf("Generating %s... ", strings.TrimLeft(csvUniqueFile.Name(), pathu.Current))
-	csvUniqueFile.WriteString("DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY")
-	sort.Sort(eventsUnique)
-	for _, event := range eventsUnique {
-		csvUniqueFile.WriteString(fmt.Sprintf("\n%s,%s,%s,%s,%v,%s", event.Date.Format("2006-01-02 15:04:05"), event.Process, event.Protocol, event.Host, event.Port, event.PortName))
-		if event.Whois != (whois.Whois{}) {
-			csvUniqueFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
-		} else {
-			csvUniqueFile.WriteString(",,")
-		}
-	}
-	print.Ok()
-
-	fmt.Printf("Writing %s... ", strings.TrimLeft(csvUniqueFile.Name(), pathu.Current))
-	csvUniqueFile.Sync()
-	if err := csvUniqueFile.Sync(); err != nil {
-		print.Error(err)
-	} else {
-		print.Ok()
-	}
-	csvUniqueFile.Close()
-
-	csvHostsCountFile, _ := os.Create(path.Join(pathu.Logs, "sysmon-hosts-count.csv"))
-	fmt.Printf("Generating %s... ", strings.TrimLeft(csvHostsCountFile.Name(), pathu.Current))
-	csvHostsCountFile.WriteString("HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
-	sort.Sort(eventsHostsCount)
-	for _, event := range eventsHostsCount {
-		csvHostsCountFile.WriteString(fmt.Sprintf("\n%s,%v", event.Host, event.Count))
+func _writeCsvEventsHostFile(filename string, events EventsSortHost) {
+	csvFile, _ := os.Create(path.Join(pathu.Logs, filename))
+	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.WriteString("HOST,COUNT,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
+	sort.Sort(events)
+	for _, event := range events {
+		csvFile.WriteString(fmt.Sprintf("\n%s,%v", event.Host, event.Count))
 
 		if event.Whois != (whois.Whois{}) {
-			csvHostsCountFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
+			csvFile.WriteString(fmt.Sprintf(",%s,%s", event.Whois.Org, event.Whois.Country))
 		} else {
-			csvHostsCountFile.WriteString(",,")
+			csvFile.WriteString(",,")
 		}
 
 		dnsresList := dnsres.Resolutions{}
@@ -409,26 +396,24 @@ func extractEventLog(args ...string) (err error) {
 			countRes := 0
 			for _, res := range dnsresList {
 				if countRes == 0 {
-					csvHostsCountFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
+					csvFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
 				} else {
-					csvHostsCountFile.WriteString(fmt.Sprintf("\n,,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
+					csvFile.WriteString(fmt.Sprintf("\n,,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
 				}
 				countRes += 1
 			}
 		} else {
-			csvHostsCountFile.WriteString(",,")
+			csvFile.WriteString(",,")
 		}
 	}
 	print.Ok()
 
-	fmt.Printf("Writing %s... ", strings.TrimLeft(csvHostsCountFile.Name(), pathu.Current))
-	csvHostsCountFile.Sync()
-	if err := csvHostsCountFile.Sync(); err != nil {
+	fmt.Printf("Writing %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
+	csvFile.Sync()
+	if err := csvFile.Sync(); err != nil {
 		print.Error(err)
 	} else {
 		print.Ok()
 	}
-	csvHostsCountFile.Close()
-
-	return nil
+	csvFile.Close()
 }
