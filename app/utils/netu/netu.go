@@ -12,8 +12,8 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/crypto"
 )
 
-// GetCIDRFromIpRange converts IP range to CIDR
-func GetCIDRFromIpRange(ipRange string) (string, error) {
+// GetCIDRFromIPRange converts IP range to CIDR
+func GetCIDRFromIPRange(ipRange string) (string, error) {
 	if strings.Contains(ipRange, "-") {
 		ipRangeS := strings.SplitN(ipRange, "-", 2)
 		if len(ipRangeS) != 2 {
@@ -42,7 +42,7 @@ func GetIpsFromCIDR(cidr string) ([]string, error) {
 	}
 
 	var ips []string
-	for ip := ip.Mask(ipnet.Mask); ipnet.Contains(ip); incIp(ip) {
+	for ip := ip.Mask(ipnet.Mask); ipnet.Contains(ip); incIP(ip) {
 		ips = append(ips, ip.String())
 	}
 
@@ -50,7 +50,7 @@ func GetIpsFromCIDR(cidr string) ([]string, error) {
 	return ips[1 : len(ips)-1], nil
 }
 
-func incIp(ip net.IP) {
+func incIP(ip net.IP) {
 	for j := len(ip) - 1; j >= 0; j-- {
 		ip[j]++
 		if ip[j] > 0 {
@@ -59,9 +59,9 @@ func incIp(ip net.IP) {
 	}
 }
 
-// GetIpsFromIpRange gets IPs list from range
-func GetIpsFromIpRange(ipRange string) ([]string, error) {
-	cidr, err := GetCIDRFromIpRange(ipRange)
+// GetIpsFromIPRange gets IPs list from range
+func GetIpsFromIPRange(ipRange string) ([]string, error) {
+	cidr, err := GetCIDRFromIPRange(ipRange)
 	if err != nil {
 		return nil, err
 	}
@@ -119,8 +119,8 @@ func IsValidIPv4(ipAddress string) bool {
 	return false
 }
 
-// GetIpFromReverse returns IP address from a reverse domain address
-func GetIpFromReverse(domain string) string {
+// GetIPFromReverse returns IP address from a reverse domain address
+func GetIPFromReverse(domain string) string {
 	re := regexp.MustCompile(`(?i)(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})`)
 	matches := re.FindStringSubmatch(domain)
 	if len(matches) == 2 && IsValidIPv4(matches[1]) {

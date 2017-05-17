@@ -230,7 +230,7 @@ func _getCurrentData(system string) ([]string, error) {
 	}
 	for _, firewallIp := range firewallIps {
 		if strings.Contains(firewallIp.IP, "-") {
-			ips, err := netu.GetIpsFromIpRange(firewallIp.IP)
+			ips, err := netu.GetIpsFromIPRange(firewallIp.IP)
 			if err != nil {
 				return result, err
 			}
