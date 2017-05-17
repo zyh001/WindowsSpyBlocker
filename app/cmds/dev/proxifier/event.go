@@ -20,10 +20,10 @@ type Event struct {
 	Count   int         `json:"count"`
 }
 
-// Events of Proxifier sorted by Host
+// EventsSortHost of Proxifier sorted by Host
 type EventsSortHost []Event
 
-// Events of Proxifier sorted by Date
+// EventsSortDate of Proxifier sorted by Date
 type EventsSortDate []Event
 
 func (slice EventsSortHost) Len() int {

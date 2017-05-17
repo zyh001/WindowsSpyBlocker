@@ -59,7 +59,7 @@ func incIp(ip net.IP) {
 	}
 }
 
-// Get IPs list from range
+// GetIpsFromIpRange gets IPs list from range
 func GetIpsFromIpRange(ipRange string) ([]string, error) {
 	cidr, err := GetCIDRFromIpRange(ipRange)
 	if err != nil {
