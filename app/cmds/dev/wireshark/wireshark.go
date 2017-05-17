@@ -1,7 +1,6 @@
 package wireshark
 
 import (
-	"errors"
 	"fmt"
 	"os"
 	"path"
@@ -26,9 +25,10 @@ import (
 
 var libWiresharkPortable config.Lib
 
+// Wireshark menu
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "Extract log",
 			Function:    extractLog,
 		},
@@ -83,15 +83,15 @@ func extractLog(args ...string) (err error) {
 
 	if cmdResult.ExitCode != 0 {
 		if len(cmdResult.Stderr) > 0 {
-			print.Error(errors.New(fmt.Sprintf("%d\n%s\n", cmdResult.ExitCode, cmdResult.Stderr)))
+			print.Error(fmt.Errorf("%d\n%s\n", cmdResult.ExitCode, cmdResult.Stderr))
 		} else {
-			print.Error(errors.New(fmt.Sprintf("%d\n", cmdResult.ExitCode)))
+			print.Error(fmt.Errorf("%d\n", cmdResult.ExitCode))
 		}
 		return nil
 	}
 
 	if len(cmdResult.Stdout) == 0 {
-		print.Error(errors.New(fmt.Sprintf("No data found in %s\n", config.App.Wireshark.PcapngPath)))
+		print.Error(fmt.Errorf("No data found in %s\n", config.App.Wireshark.PcapngPath))
 		return nil
 	}
 

@@ -16,6 +16,7 @@ import (
 	"golang.org/x/sys/windows/registry"
 )
 
+// NCSI reg keys
 const (
 	REG_KEY                  = `SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet`
 	REG_WEB_PROBE_HOST       = "ActiveWebProbeHost"
@@ -30,7 +31,7 @@ const (
 	REG_DNS_PROBE_CONTENT_V6 = "ActiveDnsProbeContentV6"
 )
 
-type Ncsi struct {
+type ncsi struct {
 	webHostV4    string
 	webPathV4    string
 	webContentV4 string
@@ -43,21 +44,22 @@ type Ncsi struct {
 	dnsContentV6 string
 }
 
+// NCSI menu
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "Display your current NCSI values",
 			Function:    current,
 		},
-		menu.CommandOption{
+		{
 			Description: "Apply WindowsSpyBlocker NCSI",
 			Function:    wsb,
 		},
-		menu.CommandOption{
+		{
 			Description: "Apply Microsoft NCSI",
 			Function:    microsoft,
 		},
-		menu.CommandOption{
+		{
 			Description: "Test the internet connection",
 			Function:    test,
 		},
@@ -74,7 +76,7 @@ func current(args ...string) error {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	ncsi, err := _getNcsi()
+	ncsi, err := getNcsi()
 	if err != nil {
 		print.Error(err)
 		return nil
@@ -108,7 +110,7 @@ func current(args ...string) error {
 
 func wsb(args ...string) (err error) {
 	defer timeu.Track(time.Now())
-	return _setNcsi(Ncsi{
+	return setNcsi(ncsi{
 		webHostV4:    "raw.githubusercontent.com",
 		webPathV4:    "crazy-max/WindowsSpyBlocker/master/data/ncsi/ncsi.txt",
 		webContentV4: "WindowsSpyBlocker",
@@ -124,7 +126,7 @@ func wsb(args ...string) (err error) {
 
 func microsoft(args ...string) error {
 	defer timeu.Track(time.Now())
-	return _setNcsi(Ncsi{
+	return setNcsi(ncsi{
 		webHostV4:    "www.msftncsi.com",
 		webPathV4:    "ncsi.txt",
 		webContentV4: "Microsoft NCSI",
@@ -142,14 +144,14 @@ func test(args ...string) (err error) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	ncsi, err := _getNcsi()
+	current, err := getNcsi()
 	if err != nil {
 		return
 	}
 
 	fmt.Println()
 	fmt.Print("Testing web request IPv4... ")
-	result := _testHttpProbe("http://"+ncsi.webHostV4+"/"+ncsi.webPathV4, ncsi.webContentV4)
+	result := testHttpProbe("http://"+current.webHostV4+"/"+current.webPathV4, current.webContentV4)
 	if result != "" {
 		print.Error(err)
 	} else {
@@ -157,7 +159,7 @@ func test(args ...string) (err error) {
 	}
 
 	fmt.Print("Testing web request IPv6... ")
-	result = _testHttpProbe("http://"+ncsi.webHostV6+"/"+ncsi.webPathV6, ncsi.webContentV6)
+	result = testHttpProbe("http://"+current.webHostV6+"/"+current.webPathV6, current.webContentV6)
 	if result != "" {
 		print.Error(err)
 	} else {
@@ -165,7 +167,7 @@ func test(args ...string) (err error) {
 	}
 
 	fmt.Print("Testing DNS resolution IPv4... ")
-	result = _testDnsProbe(ncsi.dnsHostV4, dns.TypeA, ncsi.dnsContentV4)
+	result = testDnsProbe(current.dnsHostV4, dns.TypeA, current.dnsContentV4)
 	if result != "" {
 		print.Error(err)
 	} else {
@@ -173,7 +175,7 @@ func test(args ...string) (err error) {
 	}
 
 	fmt.Print("Testing DNS resolution IPv6... ")
-	result = _testDnsProbe(ncsi.dnsHostV6, dns.TypeAAAA, ncsi.dnsContentV6)
+	result = testDnsProbe(current.dnsHostV6, dns.TypeAAAA, current.dnsContentV6)
 	if result != "" {
 		print.Error(err)
 	} else {
@@ -183,14 +185,14 @@ func test(args ...string) (err error) {
 	return
 }
 
-func _getNcsi() (Ncsi, error) {
+func getNcsi() (ncsi, error) {
 	key, err := windows.OpenRegKey(registry.LOCAL_MACHINE, REG_KEY, registry.QUERY_VALUE)
 	if err != nil {
-		return Ncsi{}, err
+		return ncsi{}, err
 	}
 	defer key.Close()
 
-	return Ncsi{
+	return ncsi{
 		webHostV4:    windows.GetRegString(key, REG_WEB_PROBE_HOST),
 		webPathV4:    windows.GetRegString(key, REG_WEB_PROBE_PATH),
 		webContentV4: windows.GetRegString(key, REG_WEB_PROBE_CONTENT),
@@ -204,7 +206,7 @@ func _getNcsi() (Ncsi, error) {
 	}, nil
 }
 
-func _setNcsi(ncsi Ncsi) error {
+func setNcsi(aNcsi ncsi) error {
 	fmt.Println()
 
 	key, err := windows.OpenRegKey(registry.LOCAL_MACHINE, REG_KEY, registry.WRITE)
@@ -213,34 +215,34 @@ func _setNcsi(ncsi Ncsi) error {
 	}
 	defer key.Close()
 
-	if err = windows.SetRegString(key, REG_WEB_PROBE_HOST, ncsi.webHostV4); err != nil {
+	if err = windows.SetRegString(key, REG_WEB_PROBE_HOST, aNcsi.webHostV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_PATH, ncsi.webPathV4); err != nil {
+	if err := windows.SetRegString(key, REG_WEB_PROBE_PATH, aNcsi.webPathV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_CONTENT, ncsi.webContentV4); err != nil {
+	if err := windows.SetRegString(key, REG_WEB_PROBE_CONTENT, aNcsi.webContentV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_HOST_V6, ncsi.webHostV6); err != nil {
+	if err := windows.SetRegString(key, REG_WEB_PROBE_HOST_V6, aNcsi.webHostV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_PATH_V6, ncsi.webPathV6); err != nil {
+	if err := windows.SetRegString(key, REG_WEB_PROBE_PATH_V6, aNcsi.webPathV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_CONTENT_V6, ncsi.webContentV6); err != nil {
+	if err := windows.SetRegString(key, REG_WEB_PROBE_CONTENT_V6, aNcsi.webContentV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_HOST, ncsi.dnsHostV4); err != nil {
+	if err := windows.SetRegString(key, REG_DNS_PROBE_HOST, aNcsi.dnsHostV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_CONTENT, ncsi.dnsContentV4); err != nil {
+	if err := windows.SetRegString(key, REG_DNS_PROBE_CONTENT, aNcsi.dnsContentV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_HOST_V6, ncsi.dnsHostV6); err != nil {
+	if err := windows.SetRegString(key, REG_DNS_PROBE_HOST_V6, aNcsi.dnsHostV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_CONTENT_V6, ncsi.dnsContentV6); err != nil {
+	if err := windows.SetRegString(key, REG_DNS_PROBE_CONTENT_V6, aNcsi.dnsContentV6); err != nil {
 		return nil
 	}
 
@@ -248,7 +250,7 @@ func _setNcsi(ncsi Ncsi) error {
 	return nil
 }
 
-func _testHttpProbe(url string, content string) string {
+func testHttpProbe(url string, content string) string {
 	response, err := http.Get(url)
 	if err != nil {
 		return err.Error()
@@ -272,7 +274,7 @@ func _testHttpProbe(url string, content string) string {
 	return ""
 }
 
-func _testDnsProbe(host string, dnsType uint16, content string) string {
+func testDnsProbe(host string, dnsType uint16, content string) string {
 	ipType := "IPv4"
 	if dnsType == dns.TypeAAAA {
 		ipType = "IPv6"

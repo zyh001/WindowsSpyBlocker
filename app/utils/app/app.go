@@ -15,15 +15,15 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 )
 
+// Download an external library referenced in libs.conf
 func DownloadLib(lib config.Lib) error {
 	if _, err := os.Stat(lib.Path); os.IsNotExist(err) {
 		fmt.Printf("Creating folder %s... ", lib.Path)
 		if err := file.CreateSubfolder(lib.Path); err != nil {
 			print.Error(err)
 			return err
-		} else {
-			print.Ok()
 		}
+		print.Ok()
 	}
 
 	if _, err := os.Stat(lib.Executable); err != nil {
@@ -32,43 +32,41 @@ func DownloadLib(lib config.Lib) error {
 			fmt.Print(" ")
 			print.Error(err)
 			return err
-		} else {
-			fmt.Print(" ")
-			print.Ok()
 		}
+		fmt.Print(" ")
+		print.Ok()
 
 		fmt.Printf("Unzipping %s... ", lib.Zip)
 		if err := file.Unzip(lib.Zip, lib.Path); err != nil {
 			print.Error(err)
 			return err
-		} else {
-			print.Ok()
 		}
+		print.Ok()
 
 		fmt.Printf("Seeking %s... ", lib.Executable)
 		if _, err := os.Stat(lib.Executable); err != nil {
 			print.Error(err)
 			return err
-		} else {
-			print.Ok()
 		}
+		print.Ok()
 	}
 
 	return nil
 }
 
+// Get ip address or domain filtered by excluded values in app.conf
 func GetFilteredIpOrDomain(ipOrDomain string) string {
 	ipOrDomain = strings.ToLower(ipOrDomain)
 
 	if netu.IsValidIPv4(ipOrDomain) {
 		for _, exp := range config.App.Exclude.Ips {
-			if IsIpExcluded(ipOrDomain, exp) {
+			if isIpExcluded(ipOrDomain, exp) {
 				return ""
 			}
 		}
 	} else {
 		for _, exp := range config.App.Exclude.Hosts {
-			if IsDomainExcluded(ipOrDomain, exp) {
+			if isDomainExcluded(ipOrDomain, exp) {
 				return ""
 			}
 		}
@@ -77,7 +75,7 @@ func GetFilteredIpOrDomain(ipOrDomain string) string {
 	whoisRes := whois.GetWhois(ipOrDomain)
 	if whoisRes != (whois.Whois{}) {
 		for _, exp := range config.App.Exclude.Orgs {
-			if IsOrgExcluded(whoisRes.Org, exp) {
+			if isOrgExcluded(whoisRes.Org, exp) {
 				return ""
 			}
 		}
@@ -86,7 +84,7 @@ func GetFilteredIpOrDomain(ipOrDomain string) string {
 	return ipOrDomain
 }
 
-func IsIpExcluded(ipStr string, exp string) bool {
+func isIpExcluded(ipStr string, exp string) bool {
 	ip := net.ParseIP(ipStr)
 	if ip.To4() == nil {
 		return true
@@ -116,7 +114,7 @@ func IsIpExcluded(ipStr string, exp string) bool {
 	return false
 }
 
-func IsDomainExcluded(host string, exp string) bool {
+func isDomainExcluded(host string, exp string) bool {
 	re := regexp.MustCompile(`(?i)^` + strings.Replace(exp, "*", "(.*?)", -1) + "$")
 	matches := re.FindAllString(host, -1)
 	if len(matches) == 1 {
@@ -125,7 +123,7 @@ func IsDomainExcluded(host string, exp string) bool {
 	return false
 }
 
-func IsOrgExcluded(org string, exp string) bool {
+func isOrgExcluded(org string, exp string) bool {
 	re := regexp.MustCompile(`(?i)^` + strings.Replace(exp, "*", "(.*?)", -1) + "$")
 	matches := re.FindAllString(org, -1)
 	if len(matches) == 1 {

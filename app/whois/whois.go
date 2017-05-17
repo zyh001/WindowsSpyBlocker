@@ -22,6 +22,7 @@ import (
 	"github.com/fatih/color"
 )
 
+// Timeout and URI templates for Whois external services
 const (
 	HTTP_TIMEOUT  = 10
 	CACHE_TIMEOUT = 172800
@@ -33,6 +34,7 @@ const (
 	IPNF_URI     = "https://ip.nf/%s.json"
 )
 
+// Whois structure
 type Whois struct {
 	Source  string
 	IP      string
@@ -40,7 +42,7 @@ type Whois struct {
 	Org     string
 }
 
-type IpApiWhois struct {
+type ipApiWhois struct {
 	As          string  `json:"as"`
 	City        string  `json:"city"`
 	Country     string  `json:"country"`
@@ -57,7 +59,8 @@ type IpApiWhois struct {
 	Zip         string  `json:"zip"`
 }
 
-type IpInfoWhois struct {
+// ipinfo response structure
+type ipInfoWhois struct {
 	Error struct {
 		Title   string `json:"title"`
 		Message string `json:"message"`
@@ -72,7 +75,8 @@ type IpInfoWhois struct {
 	Postal   string `json:"postal"`
 }
 
-type IpNfWhois struct {
+// ip.nf response structure
+type ipNfWhois struct {
 	IP          string  `json:"ip"`
 	Asn         string  `json:"asn"`
 	Netmask     int     `json:"netmask"`
@@ -85,12 +89,9 @@ type IpNfWhois struct {
 	Longitude   float32 `json:"longitude"`
 }
 
+// Get whois info of ip address or domain
 func GetWhois(ipAddressOrDomain string) Whois {
 	return getWhois(ipAddressOrDomain, false)
-}
-
-func GetWhoisPrinted(ipAddressOrDomain string) Whois {
-	return getWhois(ipAddressOrDomain, true)
 }
 
 func getWhois(ipAddressOrDomain string, printed bool) Whois {
@@ -124,22 +125,21 @@ func getWhois(ipAddressOrDomain string, printed bool) Whois {
 					print.Error(err)
 				}
 				return result
-			} else {
-				err := json.Unmarshal(raw, &resultJson)
-				if err != nil {
-					if printed {
-						print.Error(err)
-					}
-					return result
+			}
+			err = json.Unmarshal(raw, &resultJson)
+			if err != nil {
+				if printed {
+					print.Error(err)
 				}
-				if result, found := resultJson[ipAddressOrDomain]; found {
-					if printed {
-						color.New(color.FgMagenta).Print("cache")
-						fmt.Print("... ")
-						print.Ok()
-					}
-					return result
+				return result
+			}
+			if result, found := resultJson[ipAddressOrDomain]; found {
+				if printed {
+					color.New(color.FgMagenta).Print("cache")
+					fmt.Print("... ")
+					print.Ok()
 				}
+				return result
 			}
 		}
 	}
@@ -317,7 +317,7 @@ func getIpapiWhois(httpClient http.Client, ip string) (Whois, error) {
 		return result, errors.New("Exceeded maximum number of API calls")
 	}
 
-	var ipApi IpApiWhois
+	var ipApi ipApiWhois
 	err = json.NewDecoder(resp.Body).Decode(&ipApi)
 	if err != nil {
 		return result, err
@@ -352,7 +352,7 @@ func getIpInfoWhois(httpClient http.Client, ip string) (Whois, error) {
 		return result, errors.New("Exceeded maximum number of API calls")
 	}
 
-	var ipInfo IpInfoWhois
+	var ipInfo ipInfoWhois
 	err = json.NewDecoder(resp.Body).Decode(&ipInfo)
 	if err != nil {
 		return result, err
@@ -385,7 +385,7 @@ func getIpNfWhois(httpClient http.Client, ip string) (Whois, error) {
 	buf := new(bytes.Buffer)
 	buf.ReadFrom(resp.Body)
 
-	var ipNf IpNfWhois
+	var ipNf ipNfWhois
 	err = json.NewDecoder(resp.Body).Decode(&ipNf)
 	if err != nil {
 		return result, errors.New(strings.TrimSpace(buf.String()))

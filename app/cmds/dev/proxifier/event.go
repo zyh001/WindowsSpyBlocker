@@ -9,6 +9,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 )
 
+// Proxifier event
 type Event struct {
 	Date    time.Time   `json:"date"`
 	Exe     string      `json:"exe"`
@@ -19,7 +20,10 @@ type Event struct {
 	Count   int         `json:"count"`
 }
 
+// Proxifier events sorted by Host
 type EventsSortHost []Event
+
+// Proxifier events sorted by Date
 type EventsSortDate []Event
 
 func (slice EventsSortHost) Len() int {

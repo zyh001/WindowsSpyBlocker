@@ -9,6 +9,7 @@ import (
 	"golang.org/x/sys/windows/registry"
 )
 
+// Check if executable is launched as admin
 func IsAdmin() bool {
 	_, err := os.Open("\\\\.\\PHYSICALDRIVE0")
 	if err != nil {
@@ -18,6 +19,7 @@ func IsAdmin() bool {
 	return true
 }
 
+// Open a registry key
 func OpenRegKey(key registry.Key, path string, access uint32) (registry.Key, error) {
 	fmt.Print("Opening key ")
 	color.New(color.FgYellow).Printf("%s", path)
@@ -33,6 +35,7 @@ func OpenRegKey(key registry.Key, path string, access uint32) (registry.Key, err
 	return key, nil
 }
 
+// Get a string value of a registry key
 func GetRegString(key registry.Key, name string) string {
 	fmt.Print("Getting reg value of ")
 	color.New(color.FgYellow).Printf("%s", name)
@@ -48,6 +51,7 @@ func GetRegString(key registry.Key, name string) string {
 	return value
 }
 
+// Set a string value of a registry key
 func SetRegString(key registry.Key, name string, value string) error {
 	fmt.Print("Setting ")
 	color.New(color.FgYellow).Printf("%s", name)

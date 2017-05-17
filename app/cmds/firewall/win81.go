@@ -7,19 +7,19 @@ import (
 
 func menuWin81(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "Add extra rules",
 			Function:    addWin81Extra,
 		},
-		menu.CommandOption{
+		{
 			Description: "Add spy rules",
 			Function:    addWin81Spy,
 		},
-		menu.CommandOption{
+		{
 			Description: "Add update rules",
 			Function:    addWin81Update,
 		},
-		menu.CommandOption{
+		{
 			Description: "Test IPs",
 			Function:    testIpsWin81,
 		},

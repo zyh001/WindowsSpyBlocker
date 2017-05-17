@@ -4,12 +4,14 @@ import (
 	"time"
 )
 
+// Resolution structure
 type Resolution struct {
 	Source       string
 	LastResolved time.Time
 	IpOrDomain   string
 }
 
+// Resolutions structure sorted by LastResolved
 type Resolutions []Resolution
 
 func (slice Resolutions) Len() int {

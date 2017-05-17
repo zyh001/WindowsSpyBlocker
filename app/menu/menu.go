@@ -1,4 +1,4 @@
-// Fork of https://github.com/turret-io/go-menu
+// Package menu fork of https://github.com/turret-io/go-menu
 package menu
 
 import (
@@ -13,7 +13,7 @@ import (
 	"github.com/fatih/color"
 )
 
-// Main struct to handle options for Description, and the function that should be called
+// CommandOption main struct to handle options for Description, and the function that should be called
 type CommandOption struct {
 	Description string
 	Function    func(args ...string) error
@@ -34,8 +34,7 @@ type Menu struct {
 	Options  Options
 }
 
-// Setup the options for the menu.
-//
+// NewOptions to setup the options for the menu.
 // An empty string for prompt and a length of 0 will use the
 // default "> " prompt and 100 character wide menu. An empty
 // string for menuCommand will use the default 'menu' command.
@@ -49,7 +48,7 @@ func cleanCommand(cmd string) ([]string, error) {
 	return cmd_args, nil
 }
 
-// Creates a new menu with options
+// NewMenu creates a new menu with options
 func NewMenu(cmds []CommandOption, options Options) *Menu {
 	if options.Prompt == "" {
 		options.Prompt = "> "
@@ -93,7 +92,7 @@ func (m *Menu) menu() {
 	color.New(color.FgMagenta).Println("* Type 'exit' to leave WindowsSpyBlocker")
 }
 
-// Wrapper for providing Stdin to the main menu loop
+// Start is a wrapper for providing Stdin to the main menu loop
 func (m *Menu) Start() {
 	m.start(os.Stdin)
 }

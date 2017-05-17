@@ -2,7 +2,6 @@ package config
 
 import (
 	"encoding/json"
-	"errors"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -21,9 +20,13 @@ const (
 	URL     = "https://" + PACKAGE
 )
 
-var App AppConf
-var Libs LibsConf
+// Config
+var (
+	App  appConf
+	Libs libsConf
+)
 
+// Lib structure
 type Lib struct {
 	Url        string `json:"url"`
 	Checksum   string `json:"checksum"`
@@ -32,19 +35,7 @@ type Lib struct {
 	Executable string
 }
 
-type LibsConf struct {
-	Logparser struct {
-		Lib
-	} `json:"logparser"`
-	Sysmon struct {
-		Lib
-	} `json:"sysmon"`
-	WiresharkPortable struct {
-		Lib
-	} `json:"wiresharkPortable"`
-}
-
-type AppConf struct {
+type appConf struct {
 	Debug     bool `json:"debug"`
 	Proxifier struct {
 		LogPath string `json:"logPath"`
@@ -62,6 +53,18 @@ type AppConf struct {
 	} `json:"exclude"`
 }
 
+type libsConf struct {
+	Logparser struct {
+		Lib
+	} `json:"logparser"`
+	Sysmon struct {
+		Lib
+	} `json:"sysmon"`
+	WiresharkPortable struct {
+		Lib
+	} `json:"wiresharkPortable"`
+}
+
 func init() {
 	var err error
 
@@ -76,20 +79,20 @@ func init() {
 	}
 }
 
-func getAppCfg() (AppConf, error) {
-	var cfg AppConf
+func getAppCfg() (appConf, error) {
+	var cfg appConf
 	cfgPath := path.Join(pathu.Current, "app.conf")
 
 	// Create conf if not exists
 	if _, err := os.Stat(cfgPath); err != nil {
 		conf, err := bindata.Asset("app.conf")
 		if err != nil {
-			err = errors.New(fmt.Sprintf("Cannot load asset app.conf: %s", err.Error()))
+			err = fmt.Errorf("Cannot load asset app.conf: %s", err.Error())
 			return cfg, err
 		}
 		err = ioutil.WriteFile(cfgPath, conf, 0644)
 		if err != nil {
-			err = errors.New(fmt.Sprintf("Cannot write file %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error()))
+			err = fmt.Errorf("Cannot write file %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 			return cfg, err
 		}
 	}
@@ -97,33 +100,33 @@ func getAppCfg() (AppConf, error) {
 	// Load config
 	raw, err := ioutil.ReadFile(cfgPath)
 	if err != nil {
-		err = errors.New(fmt.Sprintf("Cannot read %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error()))
+		err = fmt.Errorf("Cannot read %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 		return cfg, err
 	}
 
 	err = json.Unmarshal(raw, &cfg)
 	if err != nil {
-		err = errors.New(fmt.Sprintf("Cannot unmarshall %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error()))
-		return AppConf{}, err
+		err = fmt.Errorf("Cannot unmarshall %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
+		return appConf{}, err
 	}
 
 	return cfg, nil
 }
 
-func getLibsCfg() (LibsConf, error) {
-	var cfg LibsConf
+func getLibsCfg() (libsConf, error) {
+	var cfg libsConf
 	cfgPath := path.Join(pathu.Current, "libs.conf")
 
 	// Create conf if not exists
 	if _, err := os.Stat(cfgPath); err != nil {
 		conf, err := bindata.Asset("libs.conf")
 		if err != nil {
-			err = errors.New(fmt.Sprintf("Cannot load asset libs.conf: %s", err.Error()))
+			err = fmt.Errorf("Cannot load asset libs.conf: %s", err.Error())
 			return cfg, err
 		}
 		err = ioutil.WriteFile(cfgPath, conf, 0644)
 		if err != nil {
-			err = errors.New(fmt.Sprintf("Cannot write file %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error()))
+			err = fmt.Errorf("Cannot write file %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 			return cfg, err
 		}
 	}
@@ -131,14 +134,14 @@ func getLibsCfg() (LibsConf, error) {
 	// Load config
 	raw, err := ioutil.ReadFile(cfgPath)
 	if err != nil {
-		err = errors.New(fmt.Sprintf("Cannot read %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error()))
+		err = fmt.Errorf("Cannot read %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 		return cfg, err
 	}
 
 	err = json.Unmarshal(raw, &cfg)
 	if err != nil {
-		err = errors.New(fmt.Sprintf("Cannot unmarshall %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error()))
-		return LibsConf{}, err
+		err = fmt.Errorf("Cannot unmarshall %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
+		return libsConf{}, err
 	}
 
 	return cfg, nil

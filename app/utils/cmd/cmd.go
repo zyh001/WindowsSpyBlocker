@@ -7,6 +7,7 @@ import (
 	"syscall"
 )
 
+// Command options
 type Options struct {
 	Command    string
 	Args       []string
@@ -14,6 +15,7 @@ type Options struct {
 	HideWindow bool
 }
 
+// Command result
 type Result struct {
 	Options  Options
 	ExitCode uint32
@@ -21,6 +23,7 @@ type Result struct {
 	Stderr   string
 }
 
+// Exec command wrapper
 func Exec(options Options) (Result, error) {
 	result := Result{Options: options}
 

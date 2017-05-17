@@ -28,9 +28,10 @@ import (
 	"github.com/fatih/color"
 )
 
+// Proxifier menu
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "Extract log",
 			Function:    extractLog,
 		},

@@ -10,6 +10,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 )
 
+// Create a file and print status
 func CreateFile(file string) error {
 	w, err := os.Create(file)
 	if err != nil {
@@ -22,6 +23,7 @@ func CreateFile(file string) error {
 	return nil
 }
 
+// Create a folder recusively
 func CreateSubfolder(path string) error {
 	if _, err := os.Stat(path); os.IsNotExist(err) {
 		err = os.MkdirAll(path, 777)
@@ -32,6 +34,7 @@ func CreateSubfolder(path string) error {
 	return nil
 }
 
+// Unzip a file in a destination path
 // https://stackoverflow.com/questions/20357223/easy-way-to-unzip-file-with-golang
 func Unzip(src, dest string) error {
 	r, err := zip.OpenReader(src)
@@ -95,20 +98,21 @@ func Unzip(src, dest string) error {
 	return nil
 }
 
-func RemoveFile(filename string) (error, error) {
+// Remove a file
+func RemoveFile(filename string) error {
 	if _, err := os.Stat(filename); err == nil {
 		err := os.Remove(filename)
 		if err != nil {
 			print.Error(err)
-			return nil, err
+			return err
 		}
 	} else {
-		return errors.New("File not found"), nil
+		return errors.New("File not found")
 	}
-
-	return nil, nil
+	return nil
 }
 
+// Copy a file
 func CopyFile(src string, dest string) error {
 	srcFile, err := os.Open(src)
 	if err != nil {

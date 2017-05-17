@@ -5,7 +5,6 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"encoding/csv"
-	"errors"
 	"fmt"
 	"io"
 	"os"
@@ -33,17 +32,18 @@ import (
 var libSysmon config.Lib
 var libLogparser config.Lib
 
+// Sysmon menu
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "Install",
 			Function:    install,
 		},
-		menu.CommandOption{
+		{
 			Description: "Uninstall",
 			Function:    uninstall,
 		},
-		menu.CommandOption{
+		{
 			Description: "Extract event log",
 			Function:    extractEventLog,
 		},
@@ -169,9 +169,9 @@ func uninstall(args ...string) (err error) {
 	}
 
 	if cmdResult.ExitCode != 0 {
-		print.Error(errors.New(fmt.Sprintf("%d\n", cmdResult.ExitCode)))
+		print.Error(fmt.Errorf("%d\n", cmdResult.ExitCode))
 		if len(cmdResult.Stderr) > 0 {
-			print.Error(errors.New(fmt.Sprintf("%s\n", cmdResult.Stderr)))
+			print.Error(fmt.Errorf("%s\n", cmdResult.Stderr))
 		}
 		return nil
 	}
@@ -183,11 +183,9 @@ func uninstall(args ...string) (err error) {
 
 	evtxPath := path.Join(os.Getenv("SystemRoot"), `system32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx`)
 	fmt.Printf("Removing %s... ", evtxPath)
-	if warn, err := file.RemoveFile(evtxPath); err != nil {
+	if err := file.RemoveFile(evtxPath); err != nil {
 		print.Error(err)
 		return nil
-	} else if warn != nil {
-		color.New(color.FgYellow).Printf("%s\n", warn.Error())
 	} else {
 		print.Ok()
 	}
@@ -233,15 +231,15 @@ func extractEventLog(args ...string) (err error) {
 
 	if cmdResult.ExitCode != 0 {
 		if len(cmdResult.Stderr) > 0 {
-			print.Error(errors.New(fmt.Sprintf("%d\n%s\n", cmdResult.ExitCode, cmdResult.Stderr)))
+			print.Error(fmt.Errorf("%d\n%s\n", cmdResult.ExitCode, cmdResult.Stderr))
 		} else {
-			print.Error(errors.New(fmt.Sprintf("%d\n", cmdResult.ExitCode)))
+			print.Error(fmt.Errorf("%d\n", cmdResult.ExitCode))
 		}
 		return nil
 	}
 
 	if len(cmdResult.Stdout) == 0 {
-		print.Error(errors.New(fmt.Sprintf("No data found in %s\n", config.App.Sysmon.EvtxPath)))
+		print.Error(fmt.Errorf("No data found in %s\n", config.App.Sysmon.EvtxPath))
 		return nil
 	}
 

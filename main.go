@@ -27,15 +27,15 @@ func main() {
 	color.New(color.FgHiWhite).Println(config.URL)
 
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "> Firewall  : Add or remove firewall rules and resolve IPs adresses",
 			Function:    firewall.Menu,
 		},
-		menu.CommandOption{
+		{
 			Description: "> NCSI      : Apply an alternate NCSI and test your internet connection the Microsoft way",
 			Function:    ncsi.Menu,
 		},
-		menu.CommandOption{
+		{
 			Description: "> Dev       : Several tools used by WindowsSpyBlocker",
 			Function:    dev.Menu,
 		},

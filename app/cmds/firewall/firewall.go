@@ -24,34 +24,29 @@ import (
 	"github.com/go-ole/go-ole/oleutil"
 )
 
-const (
-	PREFIX = "windowsSpyBlocker"
-)
+// Prefix for firewall rule
+const PREFIX = "windowsSpyBlocker"
 
-type IpsTest struct {
-	Whois       *whois.Whois          `json:"whois"`
-	Resolutions *[]dnsres.Resolutions `json:"resolutions"`
-}
-
+// Firewall menu
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "> Windows 7 firewall rules",
 			Function:    menuWin7,
 		},
-		menu.CommandOption{
+		{
 			Description: "> Windows 8.1 firewall rules",
 			Function:    menuWin81,
 		},
-		menu.CommandOption{
+		{
 			Description: "> Windows 10 firewall rules",
 			Function:    menuWin10,
 		},
-		menu.CommandOption{
+		{
 			Description: "Remove WindowsSpyBlocker rules",
 			Function:    removeRules,
 		},
-		menu.CommandOption{
+		{
 			Description: "Display your current WindowsSpyBlocker rules",
 			Function:    currentRules,
 		},
@@ -68,7 +63,7 @@ func addRules(system string, rule string) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	prefix := _getPrefix(system, rule)
+	prefix := getPrefix(system, rule)
 	fmt.Printf("Get IPs for %s %s... ", system, rule)
 	ips, err := data.GetFirewallIpsByRule(system, rule)
 	if err != nil {
@@ -78,7 +73,7 @@ func addRules(system string, rule string) {
 	print.Ok()
 
 	for _, ip := range ips {
-		_addFirewallRule(prefix, ip.IP)
+		addFirewallRule(prefix, ip.IP)
 	}
 }
 
@@ -86,14 +81,14 @@ func testIps(system string) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	_testIpsByRule(system, data.RULES_EXTRA)
-	_testIpsByRule(system, data.RULES_SPY)
-	_testIpsByRule(system, data.RULES_UPDATE)
+	testIpsByRule(system, data.RULES_EXTRA)
+	testIpsByRule(system, data.RULES_SPY)
+	testIpsByRule(system, data.RULES_UPDATE)
 
 	fmt.Println()
 }
 
-func _testIpsByRule(system string, rule string) {
+func testIpsByRule(system string, rule string) {
 	fmt.Println()
 
 	testCsv := path.Join(pathu.Logs, fmt.Sprintf("firewall-test-%s.csv", rule))
@@ -158,7 +153,7 @@ func removeRules(args ...string) error {
 		rule = args[1]
 	}
 
-	prefix := _getPrefix(system, rule)
+	prefix := getPrefix(system, rule)
 	fmt.Print("Remove rules starting with")
 	color.New(color.FgYellow).Printf(" %s", prefix)
 	fmt.Print("...\n")
@@ -183,7 +178,7 @@ func removeRules(args ...string) error {
 		rule := v.ToIDispatch()
 		name := oleutil.MustGetProperty(rule, "Name").ToString()
 		if strings.HasPrefix(name, prefix) {
-			_removeFirewallRule(name)
+			removeFirewallRule(name)
 		}
 		return nil
 	})
@@ -214,7 +209,7 @@ func currentRules(args ...string) error {
 		rule := v.ToIDispatch()
 		name := oleutil.MustGetProperty(rule, "Name").ToString()
 		//remoteaddr := oleutil.MustGetProperty(rule, "RemoteAddresses").ToString()
-		if strings.HasPrefix(name, _getPrefix("", "")) {
+		if strings.HasPrefix(name, getPrefix("", "")) {
 			fmt.Println(name)
 		}
 		return nil
@@ -223,7 +218,7 @@ func currentRules(args ...string) error {
 	return nil
 }
 
-func _getPrefix(system string, rule string) string {
+func getPrefix(system string, rule string) string {
 	var prefix bytes.Buffer
 	prefix.WriteString(PREFIX)
 	if len(system) > 0 && len(rule) > 0 {
@@ -233,7 +228,7 @@ func _getPrefix(system string, rule string) string {
 	return prefix.String()
 }
 
-func _addFirewallRule(prefix string, ip string) {
+func addFirewallRule(prefix string, ip string) {
 	fmt.Print("Adding outbound firewall rule for")
 	color.New(color.FgCyan).Printf(" %s", ip)
 	fmt.Print("... ")
@@ -295,7 +290,7 @@ func _addFirewallRule(prefix string, ip string) {
 	print.Ok()
 }
 
-func _removeFirewallRule(name string) {
+func removeFirewallRule(name string) {
 	fmt.Print("Removing firewall rule")
 	color.New(color.FgYellow).Printf(" %s", name)
 	fmt.Print("... ")

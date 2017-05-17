@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+// Get SHA256 checksum of a file
 func HashFileSha256(filePath string) (string, error) {
 	var result string
 

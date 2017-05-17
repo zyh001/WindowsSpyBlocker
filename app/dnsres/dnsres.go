@@ -18,6 +18,7 @@ import (
 	"github.com/fatih/color"
 )
 
+// Timeout and URI templates for DNS resolutions external services
 const (
 	HTTP_TIMEOUT  = 10
 	CACHE_TIMEOUT = 172800
@@ -49,15 +50,12 @@ type dataDomain struct {
 	Permalink  string   `json:"permalink"`
 }
 
-func GetDnsResPrinted(ipAddressOrDomain string) Resolutions {
-	return _getDnsRes(ipAddressOrDomain, true)
-}
-
+// Get DNS resolutions of ip address or domain
 func GetDnsRes(ipAddressOrDomain string) Resolutions {
-	return _getDnsRes(ipAddressOrDomain, false)
+	return getDnsRes(ipAddressOrDomain, false)
 }
 
-func _getDnsRes(ipAddressOrDomain string, printed bool) Resolutions {
+func getDnsRes(ipAddressOrDomain string, printed bool) Resolutions {
 	var result Resolutions
 
 	if printed {
@@ -88,23 +86,22 @@ func _getDnsRes(ipAddressOrDomain string, printed bool) Resolutions {
 					print.Error(err)
 				}
 				return result
-			} else {
-				err := json.Unmarshal(raw, &resultJson)
-				if err != nil {
-					if printed {
-						print.Error(err)
-					}
-					return result
+			}
+			err = json.Unmarshal(raw, &resultJson)
+			if err != nil {
+				if printed {
+					print.Error(err)
 				}
-				if result, found := resultJson[ipAddressOrDomain]; found {
-					if printed {
-						color.New(color.FgMagenta).Print("cache")
-						fmt.Print("... ")
-						print.Ok()
-					}
-					sort.Sort(result)
-					return result
+				return result
+			}
+			if result, found := resultJson[ipAddressOrDomain]; found {
+				if printed {
+					color.New(color.FgMagenta).Print("cache")
+					fmt.Print("... ")
+					print.Ok()
 				}
+				sort.Sort(result)
+				return result
 			}
 		}
 	}

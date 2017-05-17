@@ -24,17 +24,17 @@ import (
 	"github.com/fatih/color"
 )
 
-type Diff struct {
+type diff struct {
 	Host string `json:"host"`
 }
 
-type Diffs []Diff
+type diffs []diff
 
-func (slice Diffs) Len() int {
+func (slice diffs) Len() int {
 	return len(slice)
 }
 
-func (slice Diffs) Less(i, j int) bool {
+func (slice diffs) Less(i, j int) bool {
 	hostA := []byte(slice[i].Host)
 	if netu.IsValidIPv4(slice[i].Host) {
 		hostA = net.ParseIP(slice[i].Host)
@@ -53,21 +53,22 @@ func (slice Diffs) Less(i, j int) bool {
 	}
 }
 
-func (slice Diffs) Swap(i, j int) {
+func (slice diffs) Swap(i, j int) {
 	slice[i], slice[j] = slice[j], slice[i]
 }
 
+// Diff menu
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "Windows 7",
 			Function:    menuWin7,
 		},
-		menu.CommandOption{
+		{
 			Description: "Windows 8.1",
 			Function:    menuWin81,
 		},
-		menu.CommandOption{
+		{
 			Description: "Windows 10",
 			Function:    menuWin10,
 		},
@@ -84,21 +85,21 @@ func all(system string) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	var diffs Diffs
-	diffs = append(diffs, _diff(system, "proxifier", true)...)
-	diffs = append(diffs, _diff(system, "sysmon", true)...)
-	diffs = append(diffs, _diff(system, "wireshark", true)...)
+	var results diffs
+	results = append(results, _diff(system, "proxifier", true)...)
+	results = append(results, _diff(system, "sysmon", true)...)
+	results = append(results, _diff(system, "wireshark", true)...)
 
-	if len(diffs) == 0 {
+	if len(results) == 0 {
 		fmt.Println("No diffs found...")
 		return
 	}
 
 	fmt.Println()
-	color.New(color.FgGreen).Printf("%d", len(diffs))
+	color.New(color.FgGreen).Printf("%d", len(results))
 	fmt.Print(" diff(s) found\n")
 
-	_writeResultFile(system, "diff-all", diffs)
+	_writeResultFile(system, "diff-all", results)
 }
 
 func prog(system string, prog string) {
@@ -108,17 +109,16 @@ func prog(system string, prog string) {
 	_diff(system, prog, false)
 }
 
-func _diff(system string, prog string, all bool) Diffs {
-	var result Diffs
+func _diff(system string, prog string, all bool) diffs {
+	var result diffs
 	hostsCountPath := path.Join(pathu.Logs, system, prog+"-hosts-count.csv")
 
 	fmt.Printf("Seeking %s... ", strings.TrimLeft(hostsCountPath, pathu.Current))
 	if _, err := os.Stat(hostsCountPath); err != nil {
 		print.Error(err)
 		return result
-	} else {
-		print.Ok()
 	}
+	print.Ok()
 
 	fmt.Printf("Opening %s... ", strings.TrimLeft(hostsCountPath, pathu.Current))
 	logFile, err := os.Open(hostsCountPath)
@@ -157,7 +157,7 @@ func _diff(system string, prog string, all bool) Diffs {
 		}
 
 		if !stringsu.InSlice(host, dataList) {
-			result = append(result, Diff{Host: host})
+			result = append(result, diff{Host: host})
 		}
 	}
 	print.Ok()
@@ -180,21 +180,21 @@ func _diff(system string, prog string, all bool) Diffs {
 	return nil
 }
 
-func _writeResultFile(system string, filename string, diffs Diffs) {
+func _writeResultFile(system string, filename string, results diffs) {
 	csvResultFile, _ := os.Create(path.Join(pathu.Logs, system, filename+".csv"))
 	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvResultFile.Name(), pathu.Current))
 	csvResultFile.WriteString("HOST,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
-	sort.Sort(diffs)
-	for _, diff := range diffs {
-		csvResultFile.WriteString(fmt.Sprintf("\n%s", diff.Host))
-		whoisResult := whois.GetWhois(diff.Host)
+	sort.Sort(results)
+	for _, result := range results {
+		csvResultFile.WriteString(fmt.Sprintf("\n%s", result.Host))
+		whoisResult := whois.GetWhois(result.Host)
 		if whoisResult != (whois.Whois{}) {
 			csvResultFile.WriteString(fmt.Sprintf(",%s,%s", whoisResult.Org, whoisResult.Country))
 		} else {
 			csvResultFile.WriteString(",,")
 		}
-		if netu.IsValidIPv4(diff.Host) {
-			dnsresList := dnsres.GetDnsRes(diff.Host)
+		if netu.IsValidIPv4(result.Host) {
+			dnsresList := dnsres.GetDnsRes(result.Host)
 			if len(dnsresList) > 0 {
 				countRes := 0
 				for _, res := range dnsresList {

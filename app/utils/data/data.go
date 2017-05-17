@@ -13,10 +13,8 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
 )
 
+// Data system and rules constants
 const (
-	FIREWALL = "data/firewall/"
-	HOSTS    = "data/hosts/"
-
 	OS_WIN7  = "win7"
 	OS_WIN81 = "win81"
 	OS_WIN10 = "win10"
@@ -26,22 +24,22 @@ const (
 	RULES_UPDATE = "update"
 )
 
-type FirewallIp struct {
+type firewallIp struct {
 	IP string `json:"ip"`
 }
 
-type Host struct {
+type host struct {
 	Domain string `json:"domain"`
 }
 
-type FirewallIps []FirewallIp
-type Hosts []Host
+type firewallIps []firewallIp
+type hosts []host
 
-func (slice FirewallIps) Len() int {
+func (slice firewallIps) Len() int {
 	return len(slice)
 }
 
-func (slice FirewallIps) Less(i, j int) bool {
+func (slice firewallIps) Less(i, j int) bool {
 	ipA := net.ParseIP(getIp(slice[i].IP))
 	ipB := net.ParseIP(getIp(slice[j].IP))
 	switch bytes.Compare(ipA, ipB) {
@@ -54,19 +52,19 @@ func (slice FirewallIps) Less(i, j int) bool {
 	}
 }
 
-func (slice FirewallIps) Swap(i, j int) {
+func (slice firewallIps) Swap(i, j int) {
 	slice[i], slice[j] = slice[j], slice[i]
 }
 
-func (slice Hosts) Len() int {
+func (slice hosts) Len() int {
 	return len(slice)
 }
 
-func (slice Hosts) Less(i, j int) bool {
+func (slice hosts) Less(i, j int) bool {
 	return slice[i].Domain < slice[j].Domain
 }
 
-func (slice Hosts) Swap(i, j int) {
+func (slice hosts) Swap(i, j int) {
 	slice[i], slice[j] = slice[j], slice[i]
 }
 
@@ -92,42 +90,44 @@ func getIp(ip string) string {
 	return ip
 }
 
-func GetFirewallIps(system string) (FirewallIps, error) {
-	var ips FirewallIps
+// GetFirewallIps returns firewallIps filtered by system
+func GetFirewallIps(system string) (firewallIps, error) {
+	var result firewallIps
 
 	extra, err := GetFirewallIpsByRule(system, RULES_EXTRA)
 	if err != nil {
-		return ips, err
+		return result, err
 	}
-	ips = append(ips, extra...)
+	result = append(result, extra...)
 
 	spy, err := GetFirewallIpsByRule(system, RULES_SPY)
 	if err != nil {
-		return ips, err
+		return result, err
 	}
-	ips = append(ips, spy...)
+	result = append(result, spy...)
 
 	update, err := GetFirewallIpsByRule(system, RULES_UPDATE)
 	if err != nil {
-		return ips, err
+		return result, err
 	}
-	ips = append(ips, update...)
+	result = append(result, update...)
 
-	sort.Sort(ips)
-	return ips, nil
+	sort.Sort(result)
+	return result, nil
 }
 
-func GetFirewallIpsByRule(system string, rule string) (FirewallIps, error) {
-	var ips FirewallIps
+// GetFirewallIpsByRule returns firewallIps filtered by system and rule
+func GetFirewallIpsByRule(system string, rule string) (firewallIps, error) {
+	var result firewallIps
 
-	rulesPath := path.Join(FIREWALL, system, rule+".txt")
+	rulesPath := path.Join("data/firewall/", system, rule+".txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
-		return ips, err
+		return result, err
 	}
 
 	if len(lines) == 0 {
-		return ips, errors.New(fmt.Sprintf("No IPs found in %s", rulesPath))
+		return result, errors.New(fmt.Sprintf("No IPs found in %s", rulesPath))
 	}
 
 	for _, line := range lines {
@@ -143,52 +143,54 @@ func GetFirewallIpsByRule(system string, rule string) (FirewallIps, error) {
 			if !netu.IsValidIPv4(ipRange[0]) || !netu.IsValidIPv4(ipRange[1]) {
 				continue
 			}
-			ips = append(ips, FirewallIp{IP: line})
+			result = append(result, firewallIp{IP: line})
 		} else if netu.IsValidIPv4(line) {
-			ips = append(ips, FirewallIp{IP: line})
+			result = append(result, firewallIp{IP: line})
 		}
 	}
 
-	sort.Sort(ips)
-	return ips, nil
+	sort.Sort(result)
+	return result, nil
 }
 
-func GetHosts(system string) (Hosts, error) {
-	var hosts Hosts
+// GetHosts returns hosts filtered by system
+func GetHosts(system string) (hosts, error) {
+	var result hosts
 
 	extra, err := GetHostsByRule(system, RULES_EXTRA)
 	if err != nil {
-		return hosts, err
+		return result, err
 	}
-	hosts = append(hosts, extra...)
+	result = append(result, extra...)
 
 	spy, err := GetHostsByRule(system, RULES_SPY)
 	if err != nil {
-		return hosts, err
+		return result, err
 	}
-	hosts = append(hosts, spy...)
+	result = append(result, spy...)
 
 	update, err := GetHostsByRule(system, RULES_UPDATE)
 	if err != nil {
-		return hosts, err
+		return result, err
 	}
-	hosts = append(hosts, update...)
+	result = append(result, update...)
 
-	sort.Sort(hosts)
-	return hosts, nil
+	sort.Sort(result)
+	return result, nil
 }
 
-func GetHostsByRule(system string, rule string) (Hosts, error) {
-	var hosts Hosts
+// GetHostsByRule returns hosts filtered by system and rule
+func GetHostsByRule(system string, rule string) (hosts, error) {
+	var result hosts
 
-	rulesPath := path.Join(HOSTS, system, rule+".txt")
+	rulesPath := path.Join("data/hosts/", system, rule+".txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
-		return hosts, err
+		return result, err
 	}
 
 	if len(lines) == 0 {
-		return hosts, errors.New(fmt.Sprintf("No domains found in %s", rulesPath))
+		return result, errors.New(fmt.Sprintf("No domains found in %s", rulesPath))
 	}
 
 	for _, line := range lines {
@@ -196,9 +198,9 @@ func GetHostsByRule(system string, rule string) (Hosts, error) {
 		if strings.HasPrefix(line, "#") || line == "" {
 			continue
 		}
-		hosts = append(hosts, Host{Domain: line})
+		result = append(result, host{Domain: line})
 	}
 
-	sort.Sort(hosts)
-	return hosts, nil
+	sort.Sort(result)
+	return result, nil
 }

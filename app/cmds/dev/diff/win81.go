@@ -7,19 +7,19 @@ import (
 
 func menuWin81(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "All",
 			Function:    allWin81,
 		},
-		menu.CommandOption{
+		{
 			Description: "Proxifier",
 			Function:    proxifierWin81,
 		},
-		menu.CommandOption{
+		{
 			Description: "Sysmon",
 			Function:    sysmonWin81,
 		},
-		menu.CommandOption{
+		{
 			Description: "Wireshark",
 			Function:    wiresharkWin81,
 		},

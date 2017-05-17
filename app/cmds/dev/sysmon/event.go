@@ -9,6 +9,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 )
 
+// Event of Sysmon
 type Event struct {
 	Date     time.Time   `json:"date"`
 	Process  string      `json:"process"`
@@ -20,7 +21,10 @@ type Event struct {
 	Count    int         `json:"count"`
 }
 
+// EventsSortHost are Sysmon events sorted by Host
 type EventsSortHost []Event
+
+// EventsSortDate are Sysmon events sorted by Date
 type EventsSortDate []Event
 
 func (slice EventsSortHost) Len() int {

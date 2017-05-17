@@ -8,21 +8,22 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 )
 
+// Dev menu
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
-		menu.CommandOption{
+		{
 			Description: "> Proxifier : Extract events from log file",
 			Function:    proxifier.Menu,
 		},
-		menu.CommandOption{
+		{
 			Description: "> Sysmon    : Install / uninstall Sysmon and extract events from EVTX file",
 			Function:    sysmon.Menu,
 		},
-		menu.CommandOption{
+		{
 			Description: "> Wireshark : Extract events from PCAPNG file filtered by IPv4 hosts",
 			Function:    wireshark.Menu,
 		},
-		menu.CommandOption{
+		{
 			Description: "> Diff      : Generates a diff log based on CSV data of Sysmon, Proxifier and Wireshark",
 			Function:    diff.Menu,
 		},
