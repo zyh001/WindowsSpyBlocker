@@ -203,7 +203,7 @@ func _writeResultFile(system string, filename string, results diffs) {
 					} else {
 						csvResultFile.WriteString(fmt.Sprintf("\n,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
 					}
-					countRes += 1
+					countRes++
 				}
 			} else {
 				csvResultFile.WriteString(",,")
@@ -224,19 +224,19 @@ func _writeResultFile(system string, filename string, results diffs) {
 func _getCurrentData(system string) ([]string, error) {
 	var result []string
 
-	firewallIps, err := data.GetFirewallIps(system)
+	firewallIPs, err := data.GetFirewallIps(system)
 	if err != nil {
 		return result, err
 	}
-	for _, firewallIp := range firewallIps {
-		if strings.Contains(firewallIp.IP, "-") {
-			ips, err := netu.GetIpsFromIPRange(firewallIp.IP)
+	for _, firewallIP := range firewallIPs {
+		if strings.Contains(firewallIP.IP, "-") {
+			ips, err := netu.GetIpsFromIPRange(firewallIP.IP)
 			if err != nil {
 				return result, err
 			}
 			result = append(result, ips...)
 		} else {
-			result = append(result, firewallIp.IP)
+			result = append(result, firewallIP.IP)
 		}
 	}
 
