@@ -145,43 +145,43 @@ func test(args ...string) (err error) {
 
 	current, err := getNcsi()
 	if err != nil {
-		return
+		return nil
 	}
 
 	fmt.Println()
 	fmt.Print("Testing web request IPv4... ")
-	result := testHttpProbe("http://"+current.webHostV4+"/"+current.webPathV4, current.webContentV4)
-	if result != "" {
+	err = testHttpProbe("http://"+current.webHostV4+"/"+current.webPathV4, current.webContentV4)
+	if err != nil {
 		print.Error(err)
 	} else {
 		print.Ok()
 	}
 
 	fmt.Print("Testing web request IPv6... ")
-	result = testHttpProbe("http://"+current.webHostV6+"/"+current.webPathV6, current.webContentV6)
-	if result != "" {
+	err = testHttpProbe("http://"+current.webHostV6+"/"+current.webPathV6, current.webContentV6)
+	if err != nil {
 		print.Error(err)
 	} else {
 		print.Ok()
 	}
 
 	fmt.Print("Testing DNS resolution IPv4... ")
-	result = testDnsProbe(current.dnsHostV4, dns.TypeA, current.dnsContentV4)
-	if result != "" {
+	err = testDnsProbe(current.dnsHostV4, dns.TypeA, current.dnsContentV4)
+	if err != nil {
 		print.Error(err)
 	} else {
 		print.Ok()
 	}
 
 	fmt.Print("Testing DNS resolution IPv6... ")
-	result = testDnsProbe(current.dnsHostV6, dns.TypeAAAA, current.dnsContentV6)
-	if result != "" {
+	err = testDnsProbe(current.dnsHostV6, dns.TypeAAAA, current.dnsContentV6)
+	if err != nil {
 		print.Error(err)
 	} else {
 		print.Ok()
 	}
 
-	return
+	return nil
 }
 
 func getNcsi() (ncsi, error) {
@@ -249,31 +249,31 @@ func setNcsi(aNcsi ncsi) error {
 	return nil
 }
 
-func testHttpProbe(url string, content string) string {
+func testHttpProbe(url string, content string) error {
 	response, err := http.Get(url)
 	if err != nil {
-		return err.Error()
+		return err
 	}
 
 	defer response.Body.Close()
 	if response.StatusCode != 200 {
-		return fmt.Sprintf("HTTP status code %d", response.StatusCode)
+		return fmt.Errorf("HTTP status code %d", response.StatusCode)
 	}
 
 	bodyBytes, err := ioutil.ReadAll(response.Body)
 	if err != nil {
-		return err.Error()
+		return err
 	}
 
 	bodyString := string(bodyBytes)
 	if bodyString != content {
-		return fmt.Sprintf("Invalid content '%s'. Expected '%s'", bodyString, content)
+		return fmt.Errorf("Invalid content '%s'. Expected '%s'", bodyString, content)
 	}
 
-	return ""
+	return nil
 }
 
-func testDnsProbe(host string, dnsType uint16, content string) string {
+func testDnsProbe(host string, dnsType uint16, content string) error {
 	ipType := "IPv4"
 	if dnsType == dns.TypeAAAA {
 		ipType = "IPv6"
@@ -293,17 +293,17 @@ func testDnsProbe(host string, dnsType uint16, content string) string {
 
 	ra, _, err := localc.Exchange(localm, net.JoinHostPort(host, "53"))
 	if ra == nil {
-		return fmt.Sprintf("Error getting the %s address of %s: %s", ipType, host, err.Error())
+		return fmt.Errorf("Error getting the %s address of %s: %s", ipType, host, err.Error())
 	}
 	if ra.Rcode != dns.RcodeSuccess {
-		return fmt.Sprintf("Invalid answer name %s after %s query: %s", host, dnsTypeStr, dns.RcodeToString[ra.Rcode])
+		return fmt.Errorf("Invalid answer name %s after %s query: %s", host, dnsTypeStr, dns.RcodeToString[ra.Rcode])
 	}
 	if dnsType == dns.TypeA && ra.Answer[0].(*dns.A).A.String() != content {
-		return fmt.Sprintf("Invalid content '%s'. Expected '%s'", ra.Answer[0].(*dns.A).A.String(), content)
+		return fmt.Errorf("Invalid content '%s'. Expected '%s'", ra.Answer[0].(*dns.A).A.String(), content)
 	}
 	if dnsType == dns.TypeAAAA && ra.Answer[0].(*dns.AAAA).AAAA.String() != content {
-		return fmt.Sprintf("Invalid content '%s'. Expected '%s'", ra.Answer[0].(*dns.AAAA).AAAA.String(), content)
+		return fmt.Errorf("Invalid content '%s'. Expected '%s'", ra.Answer[0].(*dns.AAAA).AAAA.String(), content)
 	}
 
-	return ""
+	return nil
 }
