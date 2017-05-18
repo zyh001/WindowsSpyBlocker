@@ -145,6 +145,7 @@ func isOrgExcluded(org string, exp string) bool {
 	return false
 }
 
+// GetLatestVersion returns the latest version from github
 func GetLatestVersion() (string, error) {
 	probeUrl := "https://raw.githubusercontent.com/wiki/crazy-max/WindowsSpyBlocker/latest"
 
