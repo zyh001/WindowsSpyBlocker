@@ -66,7 +66,6 @@ func NewMenu(cmds []CommandOption, options Options) *Menu {
 }
 
 func (m *Menu) prompt() {
-	fmt.Print("\n")
 	fmt.Print(m.Options.Prompt)
 }
 
@@ -89,7 +88,7 @@ func (m *Menu) menu() {
 
 	fmt.Println()
 	color.New(color.FgMagenta).Println("* Type 'back' to go to the previous menu")
-	color.New(color.FgMagenta).Println("* Type 'exit' to leave WindowsSpyBlocker")
+	color.New(color.FgMagenta).Println("* Type 'exit' to leave WindowsSpyBlocker\n")
 }
 
 // Start is a wrapper for providing Stdin to the main menu loop
@@ -136,6 +135,7 @@ Loop:
 				for i := range m.Commands {
 					if idCmd == currentIdCmd {
 						err := m.Commands[i].Function(cmd[1:]...)
+						fmt.Println()
 						if err != nil {
 							panic(err)
 						}
@@ -144,7 +144,9 @@ Loop:
 					idCmd += 1
 				}
 			}
-			print.ErrorStr(fmt.Sprintf("Unknown command '%s'\n", cmd[0]))
+			if cmd[0] != "" {
+				print.ErrorStr(fmt.Sprintf("Unknown command '%s'\n", cmd[0]))
+			}
 		}
 	}
 }
