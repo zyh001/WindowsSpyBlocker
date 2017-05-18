@@ -382,9 +382,8 @@ func _getNetworkInterfaces() (Interfaces, error) {
 	} else if cmdResult.ExitCode != 0 {
 		if len(cmdResult.Stderr) > 0 {
 			return nil, fmt.Errorf("%d\n%s", cmdResult.ExitCode, cmdResult.Stderr)
-		} else {
-			return nil, fmt.Errorf("%d", cmdResult.ExitCode)
 		}
+		return nil, fmt.Errorf("%d", cmdResult.ExitCode)
 	}
 
 	if len(cmdResult.Stdout) == 0 {
