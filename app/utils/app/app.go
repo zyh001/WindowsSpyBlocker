@@ -17,37 +17,47 @@ import (
 
 // DownloadLib download an external library
 func DownloadLib(lib config.Lib) error {
-	if _, err := os.Stat(lib.Path); os.IsNotExist(err) {
-		fmt.Printf("Creating folder %s... ", lib.Path)
-		if err := file.CreateSubfolder(lib.Path); err != nil {
-			print.Error(err)
-			return err
+	if lib.OutputPath != "" {
+		if _, err := os.Stat(lib.OutputPath); os.IsNotExist(err) {
+			fmt.Printf("Creating folder %s... ", lib.OutputPath)
+			if err := file.CreateSubfolder(lib.OutputPath); err != nil {
+				print.Error(err)
+				return err
+			}
+			print.Ok()
 		}
-		print.Ok()
-	}
+		if _, err := os.Stat(lib.Checkfile); err != nil {
+			fmt.Printf("Downloading %s...", lib.Url)
+			if err := netu.DownloadFile(lib.Dest, lib.Url, lib.Checksum); err != nil {
+				fmt.Print(" ")
+				print.Error(err)
+				return err
+			}
+			fmt.Print(" ")
+			print.Ok()
 
-	if _, err := os.Stat(lib.Checkfile); err != nil {
+			fmt.Printf("Unzipping %s... ", lib.Dest)
+			if err := file.Unzip(lib.Dest, lib.OutputPath); err != nil {
+				print.Error(err)
+				return err
+			}
+			print.Ok()
+
+			fmt.Printf("Seeking checkfile %s... ", lib.Checkfile)
+			if _, err := os.Stat(lib.Checkfile); err != nil {
+				print.Error(err)
+				return err
+			}
+			print.Ok()
+		}
+	} else {
 		fmt.Printf("Downloading %s...", lib.Url)
-		if err := netu.DownloadFile(lib.Zip, lib.Url, lib.Checksum); err != nil {
+		if err := netu.DownloadFile(lib.Dest, lib.Url, lib.Checksum); err != nil {
 			fmt.Print(" ")
 			print.Error(err)
 			return err
 		}
 		fmt.Print(" ")
-		print.Ok()
-
-		fmt.Printf("Unzipping %s... ", lib.Zip)
-		if err := file.Unzip(lib.Zip, lib.Path); err != nil {
-			print.Error(err)
-			return err
-		}
-		print.Ok()
-
-		fmt.Printf("Seeking checkfile %s... ", lib.Checkfile)
-		if _, err := os.Stat(lib.Checkfile); err != nil {
-			print.Error(err)
-			return err
-		}
 		print.Ok()
 	}
 

@@ -58,19 +58,19 @@ func Menu(args ...string) (err error) {
 
 func init() {
 	libSysmon = config.Lib{
-		Url:       "https://dl.bintray.com/crazy/tools/Sysmon-3.10.zip",
-		Checksum:  "4fab4f380f83e96da2f4f75b0c78054469c2d175637fc185864f8c82ac1f3ab2",
-		Zip:       path.Join(pathu.Libs, "sysmon.zip"),
-		Path:      path.Join(pathu.Libs, "sysmon"),
-		Checkfile: path.Join(pathu.Libs, "sysmon", "Sysmon.exe"),
+		Url:        "https://dl.bintray.com/crazy/tools/Sysmon-3.10.zip",
+		Checksum:   "4fab4f380f83e96da2f4f75b0c78054469c2d175637fc185864f8c82ac1f3ab2",
+		Dest:       path.Join(pathu.Libs, "sysmon.zip"),
+		OutputPath: path.Join(pathu.Libs, "sysmon"),
+		Checkfile:  path.Join(pathu.Libs, "sysmon", "Sysmon.exe"),
 	}
 
 	libLogparser = config.Lib{
-		Url:       "https://dl.bintray.com/crazy/tools/LogParser-2.2.10.zip",
-		Checksum:  "222a587e5ba50dc886960c6d58ddcb8cc51c716f90fdbc845c1832909b7ac09f",
-		Zip:       path.Join(pathu.Libs, "logparser.zip"),
-		Path:      path.Join(pathu.Libs, "logparser"),
-		Checkfile: path.Join(pathu.Libs, "logparser", "LogParser.exe"),
+		Url:        "https://dl.bintray.com/crazy/tools/LogParser-2.2.10.zip",
+		Checksum:   "222a587e5ba50dc886960c6d58ddcb8cc51c716f90fdbc845c1832909b7ac09f",
+		Dest:       path.Join(pathu.Libs, "logparser.zip"),
+		OutputPath: path.Join(pathu.Libs, "logparser"),
+		Checkfile:  path.Join(pathu.Libs, "logparser", "LogParser.exe"),
 	}
 }
 
@@ -88,7 +88,7 @@ func install(args ...string) (err error) {
 	fmt.Print("Installing Sysmon... ")
 
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command: path.Join(libSysmon.Path, "Sysmon.exe"),
+		Command: path.Join(libSysmon.OutputPath, "Sysmon.exe"),
 		Args:    []string{"-i", "-accepteula", "-h", "md5", "-n", "-l"},
 	})
 	if err != nil {
@@ -160,7 +160,7 @@ func uninstall(args ...string) (err error) {
 
 	fmt.Print("Uninstalling Sysmon... ")
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command: path.Join(libSysmon.Path, "Sysmon.exe"),
+		Command: path.Join(libSysmon.OutputPath, "Sysmon.exe"),
 		Args:    []string{"-u", "-accepteula"},
 	})
 	if err != nil {
@@ -218,9 +218,9 @@ func extractEventLog(args ...string) (err error) {
 	logParserQuery.WriteString(" WHERE EventID = '3'")
 
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    path.Join(libLogparser.Path, "LogParser.exe"),
+		Command:    path.Join(libLogparser.OutputPath, "LogParser.exe"),
 		Args:       []string{"-i:evt", "-o:csv", logParserQuery.String()},
-		WorkingDir: libLogparser.Path,
+		WorkingDir: libLogparser.OutputPath,
 	})
 	if err != nil {
 		print.Error(err)

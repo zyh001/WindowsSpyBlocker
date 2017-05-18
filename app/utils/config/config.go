@@ -29,11 +29,11 @@ var (
 
 // Lib structure
 type Lib struct {
-	Url       string `json:"url"`
-	Checksum  string `json:"checksum"`
-	Zip       string
-	Path      string
-	Checkfile string
+	Url        string `json:"url"`
+	Checksum   string `json:"checksum"`
+	Dest       string
+	OutputPath string
+	Checkfile  string
 }
 
 type appConf struct {
@@ -47,6 +47,10 @@ type appConf struct {
 	} `json:"sysmon"`
 	Wireshark struct {
 		PcapngPath string `json:"pcapngPath"`
+		Capture    struct {
+			Interface int    `json:"interface"`
+			Filter    string `json:"filter"`
+		} `json:"capture"`
 	} `json:"wireshark"`
 	Exclude struct {
 		Ips   []string `json:"ips"`

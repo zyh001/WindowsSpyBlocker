@@ -1,8 +1,13 @@
 package wireshark
 
 import (
+	"bytes"
+	"errors"
 	"fmt"
+	"io"
 	"os"
+	"os/exec"
+	"os/signal"
 	"path"
 	"sort"
 	"strconv"
@@ -24,10 +29,23 @@ import (
 )
 
 var libWireshark config.Lib
+var libNpcap config.Lib
 
 // Menu of Wireshark
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
+		{
+			Description: "Install Npcap",
+			Function:    installNpcap,
+		},
+		{
+			Description: "Print list of network interfaces",
+			Function:    printInterfaces,
+		},
+		{
+			Description: "Capture (required Npcap)",
+			Function:    capture,
+		},
 		{
 			Description: "Extract log",
 			Function:    extractLog,
@@ -43,12 +61,165 @@ func Menu(args ...string) (err error) {
 
 func init() {
 	libWireshark = config.Lib{
-		Url:       "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
-		Checksum:  "1fa274017d7ae2ab6e712435e83d2bc5a2d016f6612c6560d159ae1f2584cbf5",
-		Zip:       path.Join(pathu.Libs, "wireshark.zip"),
-		Path:      path.Join(pathu.Libs, "wireshark"),
-		Checkfile: path.Join(pathu.Libs, "wireshark", "tshark.exe"),
+		Url:        "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
+		Checksum:   "1fa274017d7ae2ab6e712435e83d2bc5a2d016f6612c6560d159ae1f2584cbf5",
+		Dest:       path.Join(pathu.Libs, "wireshark.zip"),
+		OutputPath: path.Join(pathu.Libs, "wireshark"),
+		Checkfile:  path.Join(pathu.Libs, "wireshark", "tshark.exe"),
 	}
+	libNpcap = config.Lib{
+		Url:       "https://dl.bintray.com/crazy/tools/npcap-0.86.exe",
+		Checksum:  "ab677b9037dc377303e6d68a9b8a8195c8e976efd550a6bb6ce91eed551c5cbe",
+		Dest:      path.Join(pathu.Libs, "npcap-setup.exe"),
+		Checkfile: `C:\Windows\System32\Npcap\wpcap.dll`,
+	}
+}
+
+// https://rawgit.com/nmap/npcap/master/docs/npcap-guide-wrapper.html#npcap-redistribution-options
+func installNpcap(args ...string) (err error) {
+	fmt.Println()
+	defer timeu.Track(time.Now())
+
+	fmt.Print("Checking if Npcap installed... ")
+	if _, err := os.Stat(libNpcap.Checkfile); err == nil {
+		color.New(color.FgYellow).Print("Already installed\n")
+		return nil
+	}
+	print.Ok()
+
+	if err := app.DownloadLib(libNpcap); err != nil {
+		return nil
+	}
+
+	fmt.Print("Installing Npcap... ")
+	cmdResult, err := cmd.Exec(cmd.Options{
+		Command:    libNpcap.Dest,
+		Args:       []string{"/S", "/npf_startup=yes", "/loopback_support=yes", "/dlt_null=yes", "/winpcap_mode=yes"},
+		HideWindow: true,
+	})
+	if err != nil {
+		print.Error(err)
+		return nil
+	}
+	if cmdResult.ExitCode != 0 {
+		if len(cmdResult.Stderr) > 0 {
+			print.Error(fmt.Errorf("%d\n%s\n", cmdResult.ExitCode, cmdResult.Stderr))
+		} else {
+			print.Error(fmt.Errorf("%d\n", cmdResult.ExitCode))
+		}
+		return nil
+	}
+	if _, err := os.Stat(libNpcap.Checkfile); err != nil {
+		print.Error(err)
+		return err
+	}
+	print.Ok()
+
+	return nil
+}
+
+func printInterfaces(args ...string) (err error) {
+	fmt.Println()
+
+	if err := app.DownloadLib(libWireshark); err != nil {
+		return nil
+	}
+
+	fmt.Print("Getting network interfaces... ")
+	results, err := _getNetworkInterfaces()
+	if err != nil {
+		print.Error(err)
+		return nil
+	}
+	print.Ok()
+
+	for _, result := range results {
+		color.New(color.FgGreen).Printf("\n%d", result.ID)
+		fmt.Print(" - ")
+		color.New(color.FgYellow).Printf("%s", result.Name)
+		fmt.Printf(" (%s)", result.Device)
+	}
+
+	fmt.Println()
+	return nil
+}
+
+func capture(args ...string) (err error) {
+	fmt.Println()
+	outputPcapng := path.Join(pathu.Tmp, fmt.Sprintf("cap-%s.pcapng", time.Now().Format("20060102-150405")))
+
+	if err := app.DownloadLib(libWireshark); err != nil {
+		return nil
+	}
+
+	fmt.Print("Getting network interfaces... ")
+	networkItfs, err := _getNetworkInterfaces()
+	if err != nil {
+		print.Error(err)
+		return nil
+	}
+	print.Ok()
+
+	networkItfSel := Interface{}
+	fmt.Printf("Seeking network interface with ID = %d... ", config.App.Wireshark.Capture.Interface)
+	if len(networkItfs) > 0 {
+		for _, networkItf := range networkItfs {
+			if networkItf.ID == config.App.Wireshark.Capture.Interface {
+				networkItfSel = networkItf
+				break
+			}
+		}
+	}
+	if networkItfSel == (Interface{}) {
+		print.ErrorStr("Not found")
+	}
+	print.Ok()
+
+	fmt.Println("\nTo stop the capture, press CTRL+D")
+
+	/*fmt.Print("Starting capture on ")
+	color.New(color.FgYellow).Printf("%s", networkItfSel.Name)
+	fmt.Printf(" in %s...", strings.TrimLeft(outputPcapng, pathu.Current))*/
+	command := exec.Command(path.Join(libWireshark.OutputPath, "dumpcap.exe"),
+		"-i", strconv.Itoa(config.App.Wireshark.Capture.Interface),
+		"-f", config.App.Wireshark.Capture.Filter,
+		"-w", outputPcapng,
+	)
+
+	// Stdout
+	command.Stdout = os.Stdout
+	command.Stderr = os.Stdout
+
+	// Stdin
+	in, err := command.StdinPipe()
+	if err != nil {
+		print.Error(err)
+		return nil
+	}
+	defer in.Close()
+
+	// Start capture
+	err = command.Start()
+	if err != nil {
+		print.Error(err)
+		return nil
+	}
+
+	// Wait stop capture signal (CTRL+C)
+	cSignal := make(chan os.Signal, 1)
+	signal.Notify(cSignal, os.Interrupt)
+	go func() {
+		command.Process.Signal(os.Interrupt)
+	}()
+
+	err = command.Wait()
+	if err != nil {
+		print.Error(err)
+		return nil
+	}
+
+	fmt.Println()
+	return nil
 }
 
 func extractLog(args ...string) (err error) {
@@ -72,9 +243,9 @@ func extractLog(args ...string) (err error) {
 
 	fmt.Print("Extracting events... ")
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    path.Join(libWireshark.Path, "tshark.exe"),
+		Command:    path.Join(libWireshark.OutputPath, "tshark.exe"),
 		Args:       []string{"-r", config.App.Wireshark.PcapngPath, "-q", "-z", "ip_hosts,tree"},
-		WorkingDir: libWireshark.Path,
+		WorkingDir: libWireshark.OutputPath,
 	})
 	if err != nil {
 		print.Error(err)
@@ -94,7 +265,6 @@ func extractLog(args ...string) (err error) {
 		print.Error(fmt.Errorf("No data found in %s\n", config.App.Wireshark.PcapngPath))
 		return nil
 	}
-
 	print.Ok()
 
 	lineCount := 0
@@ -193,4 +363,62 @@ func _writeCsvEventsHostFile(filename string, events Events) {
 		print.Ok()
 	}
 	csvFile.Close()
+}
+
+func _getNetworkInterfaces() (Interfaces, error) {
+	var interfaces Interfaces
+
+	cmdResult, err := cmd.Exec(cmd.Options{
+		Command:    path.Join(libWireshark.OutputPath, "dumpcap.exe"),
+		Args:       []string{"-D"},
+		WorkingDir: libWireshark.OutputPath,
+	})
+	if err != nil {
+		return nil, err
+	}
+
+	if cmdResult.ExitCode == 2 {
+		return nil, errors.New("Npcap not installed")
+	} else if cmdResult.ExitCode != 0 {
+		if len(cmdResult.Stderr) > 0 {
+			return nil, fmt.Errorf("%d\n%s", cmdResult.ExitCode, cmdResult.Stderr)
+		} else {
+			return nil, fmt.Errorf("%d", cmdResult.ExitCode)
+		}
+	}
+
+	if len(cmdResult.Stdout) == 0 {
+		return nil, errors.New("No network interface found")
+	}
+
+	strBuf := bytes.NewBufferString(cmdResult.Stdout)
+	for {
+		line, err := strBuf.ReadString('\n')
+		if len(line) == 0 {
+			if err != nil {
+				if err == io.EOF {
+					break
+				}
+				return nil, err
+			}
+		}
+
+		values := strings.SplitN(strings.TrimSpace(line), " ", 3)
+		if len(values) != 3 {
+			continue
+		}
+
+		id, err := strconv.Atoi(strings.TrimRight(values[0], "."))
+		if err != nil {
+			return nil, err
+		}
+
+		interfaces = append(interfaces, Interface{
+			ID:     id,
+			Device: values[1],
+			Name:   strings.TrimRight(strings.TrimLeft(values[2], "("), ")"),
+		})
+	}
+
+	return interfaces, nil
 }
