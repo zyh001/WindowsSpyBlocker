@@ -109,6 +109,9 @@ func testIpsByRule(system string, rule string) {
 		if strings.Contains(fwIp.IP, "-") {
 			continue
 		} else if netu.IsValidIPv4(fwIp.IP) {
+			fmt.Print("\nTesting ")
+			color.New(color.FgMagenta).Printf("%s", fwIp.IP)
+			fmt.Print("...\n")
 			whoisResult := whois.GetWhois(fwIp.IP)
 			if whoisResult != (whois.Whois{}) {
 				fmt.Print("  Organisation: ")
@@ -134,7 +137,6 @@ func testIpsByRule(system string, rule string) {
 					countRes += 1
 				}
 			}
-			fmt.Println()
 		}
 	}
 
