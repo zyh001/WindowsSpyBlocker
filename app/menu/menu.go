@@ -137,7 +137,7 @@ Loop:
 						err := m.Commands[i].Function(cmd[1:]...)
 						fmt.Println()
 						if err != nil {
-							panic(err)
+							print.QuitFatal(err)
 						}
 						break Route
 					}
