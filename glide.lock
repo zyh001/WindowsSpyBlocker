@@ -1,5 +1,5 @@
-hash: 515284f345b919eaf8ac73eaeacc50148ed01be076c656ee699c11dbe953b9c5
-updated: 2017-05-15T04:38:30.8828606+02:00
+hash: 9e31989c69ac61a809e2087eb32c07e9afa641eb005621221cb794ee40660ad1
+updated: 2017-05-18T19:41:54.1834271+02:00
 imports:
 - name: github.com/andybalholm/cascadia
   version: 349dd0209470eabd9514242c688c403c0926d266
@@ -21,6 +21,8 @@ imports:
 - name: github.com/mattn/go-isatty
   version: 57fdcb988a5c543893cc61bce354a6e24ab70022
   repo: https://github.com/mattn/go-isatty
+- name: github.com/mcuadros/go-version
+  version: 257f7b9a7d87427c8d7f89469a5958d57f8abd7c
 - name: github.com/miekg/dns
   version: f282f80e243cc2bf8f6410c30d821b93b794e168
 - name: github.com/PuerkitoBio/goquery

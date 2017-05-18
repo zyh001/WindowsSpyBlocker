@@ -3,10 +3,13 @@ package app
 import (
 	"bytes"
 	"fmt"
+	"io/ioutil"
 	"net"
+	"net/http"
 	"os"
 	"regexp"
 	"strings"
+	"time"
 
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
@@ -140,4 +143,25 @@ func isOrgExcluded(org string, exp string) bool {
 		return true
 	}
 	return false
+}
+
+func GetLatestVersion() (string, error) {
+	probeUrl := "https://raw.githubusercontent.com/wiki/crazy-max/WindowsSpyBlocker/latest"
+
+	client := &http.Client{Timeout: 2 * time.Second}
+	response, err := client.Get(probeUrl)
+	if err != nil {
+		return "", err
+	}
+	defer response.Body.Close()
+
+	if response.StatusCode == 200 {
+		bodyBytes, err := ioutil.ReadAll(response.Body)
+		if err != nil {
+			return "", err
+		}
+		return string(bodyBytes), nil
+	}
+
+	return "", fmt.Errorf("Status code %d", response.StatusCode)
 }

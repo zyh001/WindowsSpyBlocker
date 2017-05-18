@@ -20,3 +20,4 @@ import:
   subpackages:
   - windows/registry
 - package: github.com/hako/durafmt
+- package: github.com/mcuadros/go-version

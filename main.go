@@ -13,8 +13,10 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/firewall"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/ncsi"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/app"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/fatih/color"
+	"github.com/mcuadros/go-version"
 )
 
 func init() {
@@ -25,6 +27,16 @@ func init() {
 func main() {
 	color.New(color.FgHiWhite).Println(config.NAME + " " + config.VERSION)
 	color.New(color.FgHiWhite).Println(config.URL)
+
+	latestVersion, err := app.GetLatestVersion()
+	if err != nil {
+		color.New(color.FgRed).Printf("\n%s can't contact the update server: %s", config.NAME, err.Error())
+	} else if version.Compare(config.VERSION, latestVersion, "<") {
+		color.New(color.FgHiGreen).Print("\nA new release is available : ")
+		color.New(color.FgHiGreen, color.Bold).Print(latestVersion)
+		color.New(color.FgHiGreen).Print("\nDownload : ")
+		color.New(color.FgHiGreen, color.Bold).Print(config.URL + "/releases/latest\n")
+	}
 
 	menuCommands := []menu.CommandOption{
 		{
