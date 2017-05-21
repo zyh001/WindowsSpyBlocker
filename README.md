@@ -66,16 +66,6 @@ Some queries use IP addresses but you can stop them with your Firewall.<br />
 All relative information about these IP addresses are listed in the CSV files `firewall-` in the [logs folder](logs).<br />
 To add / remove firewall rules or test IPs, read the instructions on the [Firewall Wiki page](../../wiki/Firewall).
 
-### NCSI (Network Connectivity Status Indicator)
-
-Windows check a Microsoft site for connectivity, using the Network Connectivity Status Indicator site.<br />
-NCSI performs a DNS lookup on `www.msftncsi.com` and sends a DNS lookup request for `dns.msftncsi.com`.<br />
-You can block this probe by adding the content of the `data/<type>/winX/extra.txt` hosts file.<br />
-
-But you will have a ["No Internet access" warning in your system tray](../../wiki/FAQ#no-internet-access-on-my-network-card).<br />
-To solve this problem you can use the alternative WindowsSpyBlocker NCSI.<br />
-For more information, read the instructions on the [NCSI Wiki page](../../wiki/NCSI).
-
 ### DNSCrypt
 
 [DNSCrypt](https://dnscrypt.org/) is a protocol for securing communications between a client and a DNS resolver. With this tool you can blacklist some domains with the plugin [libdcplugin_example_ldns_blocking](https://github.com/jedisct1/dnscrypt-proxy#plugins) and add domains with leading and trailing wildcards.<br />
@@ -94,7 +84,6 @@ Some hosts are not blocked and required a top level application.<br />
 For example you can use [Proxifier](https://www.proxifier.com/) software to block Microsoft spy.
 
 For more information, read the instructions on the [Proxifier Wiki page](../../wiki/devProxifier).
-
 
 ### OpenWrt
 
