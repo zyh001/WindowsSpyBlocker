@@ -1,4 +1,7 @@
 *.a-msedge.net
+*.telemetry.microsoft.com
+*.trafficmanager.net
+*.vortex.data.microsoft.com
 cds21281.lon.llnw.net
 cds339.lcy.llnw.net
 settings-win.data.microsoft.com
@@ -7,8 +10,5 @@ spynetalt.microsoft.com
 spyneteurope.microsoft.akadns.net
 statsfe2.update.microsoft.com
 statsfe2.ws.microsoft.com
-*.telemetry.microsoft.com
-*.trafficmanager.net
-*.vortex.data.microsoft.com
 vortex-win.data.microsoft.com
 win8.ipv6.microsoft.com
