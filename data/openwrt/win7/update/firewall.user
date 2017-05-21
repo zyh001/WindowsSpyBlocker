@@ -1,5 +1,5 @@
-# /etc/firewall.user
-# https://github.com/crazy-max/WindowsSpyBlocker/tree/master/data/firewall/win7/update.txt
+### openwrt win7 update (/etc/firewall.user)
+### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 # enforce router DNS
 iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
