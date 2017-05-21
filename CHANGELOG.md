@@ -1,5 +1,35 @@
 # Changelog
 
+## 4.1.1 (2017/05/21)
+
+* New hosts for Windows 10 extra, spy and update
+* New IP for Windows 10 update
+* New IPs for Windows 10 spy
+* Typo in Windows 10 spy
+* Add IP range for Windows 10 spy (65.55.252)
+* New sub IP for Windows 10 extra (40.77.224)
+* Typo in Windows 10 extra
+* New hosts for Windows 8.1 spy and update
+* New sub IP and IP for Windows 8.1 update (191.234.72)
+* New sub IPs and IP for Windows 8.1 spy (13.79.239, 13.81.59)
+* New hosts for Windows 7 spy and update
+* New sub IPs and IP for Windows 7 spy (13.79.239, 51.141.32)
+* Handle panic (Issue #58)
+* Add menu to merge data (Issue #57)
+* Missing print for firewall tests (Issue #56)
+* Perform upgrade operations on new release (Issue #55)
+* Add new release notification on startup (Issue #54)
+* Update app.conf if keys are missing on update (Issue #53)
+* Provide libs infos in the code (Issue #52)
+* Null pointer on NCSI test (Issue #50)
+* Add a menu on Wireshark to capture traffic (Issue #48)
+* Separate IPs and domains for Proxifier rules
+* Remove NCSI reg files
+* Enhanced menu
+* Upgrade Wireshark lib
+* Duplicated diffs
+* Code review
+
 ## 4.0.0 (2017/05/15)
 
 * Unified console app made with Go (Issue #38)
