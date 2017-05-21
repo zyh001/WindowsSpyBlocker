@@ -78,20 +78,17 @@ func addRules(system string, rule string) {
 }
 
 func testIps(system string) {
-	fmt.Println()
 	defer timeu.Track(time.Now())
 
 	testIpsByRule(system, data.RULES_EXTRA)
 	testIpsByRule(system, data.RULES_SPY)
 	testIpsByRule(system, data.RULES_UPDATE)
-
-	fmt.Println()
 }
 
 func testIpsByRule(system string, rule string) {
 	fmt.Println()
 
-	testCsv := path.Join(pathu.Logs, fmt.Sprintf("firewall-test-%s.csv", rule))
+	testCsv := path.Join(pathu.Logs, system, fmt.Sprintf("firewall-test-%s.csv", rule))
 
 	fmt.Printf("Get IPs for %s %s... ", system, rule)
 	fwIps, err := data.GetFirewallIpsByRule(system, rule)
@@ -101,7 +98,6 @@ func testIpsByRule(system string, rule string) {
 	}
 	print.Ok()
 
-	fmt.Println()
 	testCsvFile, _ := os.Create(testCsv)
 	testCsvFile.WriteString("IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
 	for _, fwIp := range fwIps {
@@ -127,12 +123,12 @@ func testIpsByRule(system string, rule string) {
 				countRes := 0
 				fmt.Println("  Resolutions:")
 				for _, res := range dnsresList {
-					fmt.Printf("    %s - ", res.LastResolved)
+					fmt.Printf("    %s - ", res.LastResolved.Format("2006-01-02"))
 					color.New(color.FgCyan).Printf("%s\n", res.IpOrDomain)
 					if countRes == 0 {
-						testCsvFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved, res.IpOrDomain))
+						testCsvFile.WriteString(fmt.Sprintf(",%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
 					} else {
-						testCsvFile.WriteString(fmt.Sprintf("\n,,,%s,%s", res.LastResolved, res.IpOrDomain))
+						testCsvFile.WriteString(fmt.Sprintf("\n,,,%s,%s", res.LastResolved.Format("2006-01-02"), res.IpOrDomain))
 					}
 					countRes += 1
 				}
@@ -142,6 +138,7 @@ func testIpsByRule(system string, rule string) {
 
 	testCsvFile.Sync()
 	testCsvFile.Close()
+	fmt.Println()
 }
 
 func removeRules(args ...string) error {

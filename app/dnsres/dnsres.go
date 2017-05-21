@@ -64,9 +64,7 @@ func GetDnsRes(ipAddressOrDomain string) Resolutions {
 	if resultTmpInfo, err := os.Stat(resultFile); err == nil {
 		resultTmpModified := time.Since(resultTmpInfo.ModTime()).Seconds()
 		if resultTmpModified > CACHE_TIMEOUT {
-			/*if printed {
-				fmt.Printf("Creating file %s... ", resultFile)
-			}*/
+			fmt.Printf("Creating file %s... ", resultFile)
 			if err := file.CreateFile(resultFile); err != nil {
 				/*if printed {
 					print.Error(err)
