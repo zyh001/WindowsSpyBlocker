@@ -180,35 +180,35 @@ func extractLog(args ...string) (err error) {
 	return nil
 }
 
-func _cleanLines(line string) string {
+func _cleanLines(lines string) string {
 	regexps := ordered_map.NewOrderedMap()
-	regexps.Set(`matching(.*?)rule`, "")
+	regexps.Set(`matching([^"]+)rule`, "")
 	regexps.Set(`open\sdirectly`, "")
 	regexps.Set(`\:\sdirect\sconnection`, "")
 	regexps.Set(`\:\sconnection\sblocked`, "")
-	regexps.Set(`\serror\s\:\sA\sconnection\srequest\swas\scanceled(.*?)$`, "")
-	regexps.Set(`\serror\s\:\sCould\snot\sconnect(.*?)$`, "")
+	regexps.Set(`\serror\s\:\sA\sconnection\srequest\swas\scanceled([^"]+)$`, "")
+	regexps.Set(`\serror\s\:\sCould\snot\sconnect([^"]+)$`, "")
 	regexps.Set(`\:\sDNS`, "")
 	regexps.Set(`\(According\sto\sRules\)`, "")
-	regexps.Set(`GetSockName\s\:(.*?)$`, "")
-	regexps.Set(`close(.*?)bytes(.*?)sent(.*?)received(.*?)lifetime(.*?)$`, "")
+	regexps.Set(`GetSockName\s\:([^"]+)$`, "")
+	regexps.Set(`close([^"]+)bytes([^"]+)sent([^"]+)received([^"]+)lifetime([^"]+)$`, "")
 	regexps.Set(`resolve\s`, "")
 	regexps.Set(`\*64\s`, "")
-	regexps.Set(`Error\:\sWindows\snetwork\s\(Winsock\)\sis\snot\sproperly\sconfigured(.*?)$`, "")
-	regexps.Set(`Proxifier\sor\ssome\sof\sits\sparts\smay\swork\sincorrectly(.*?)$`, "")
-	regexps.Set(`It\sis\shighly\srecommended\sthat\syou\srun\sSysSettings\stool(.*?)$`, "")
-	regexps.Set(`Windows\snetwork\swas\ssuccessfully\sconfigured(.*?)$`, "")
+	regexps.Set(`Error\:\sWindows\snetwork\s\(Winsock\)\sis\snot\sproperly\sconfigured([^"]+)$`, "")
+	regexps.Set(`Proxifier\sor\ssome\sof\sits\sparts\smay\swork\sincorrectly([^"]+)$`, "")
+	regexps.Set(`It\sis\shighly\srecommended\sthat\syou\srun\sSysSettings\stool([^"]+)$`, "")
+	regexps.Set(`Windows\snetwork\swas\ssuccessfully\sconfigured([^"]+)$`, "")
 	regexps.Set(`\s-\s`, " ")
-	regexps.Set(`\((\d+),\s(.*?)\)`, "$1 $2")
+	regexps.Set(`\((\d+),\s([^"]+)\)`, "$1 $2")
 	regexps.Set(`\((\d+)\)`, "$1")
 
 	iter := regexps.IterFunc()
 	for kv, ok := iter(); ok; kv, ok = iter() {
 		re := regexp.MustCompile(`(?mi)` + fmt.Sprintf("%v", kv.Key))
-		line = re.ReplaceAllString(strings.TrimSpace(line), fmt.Sprintf("%v", kv.Value))
+		lines = re.ReplaceAllString(strings.TrimSpace(lines), fmt.Sprintf("%v", kv.Value))
 	}
 
-	return line
+	return lines
 }
 
 func _isValidLine(line string) bool {
