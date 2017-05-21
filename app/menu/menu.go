@@ -72,7 +72,8 @@ func (m *Menu) prompt() {
 // Write menu from CommandOptions
 func (m *Menu) menu() {
 	// Menu name
-	color.New(color.FgHiCyan, color.Bold).Print("\n# ", m.Options.Name, "\n")
+	fmt.Println()
+	color.New(color.FgHiCyan, color.Bold).Print("# ", m.Options.Name, "\n")
 
 	idCmd := 0
 	for i := range m.Commands {
@@ -81,14 +82,16 @@ func (m *Menu) menu() {
 		fmt.Print(" - ")
 
 		// Command Description
-		color.New(color.FgYellow).Printf("%s\n", m.Commands[i].Description)
+		color.New(color.FgYellow).Printf("%s", m.Commands[i].Description)
+		fmt.Println()
 
 		idCmd += 1
 	}
 
 	fmt.Println()
 	color.New(color.FgMagenta).Println("* Type 'back' to go to the previous menu")
-	color.New(color.FgMagenta).Println("* Type 'exit' to leave WindowsSpyBlocker\n")
+	color.New(color.FgMagenta).Println("* Type 'exit' to leave WindowsSpyBlocker")
+	fmt.Println()
 }
 
 // Start is a wrapper for providing Stdin to the main menu loop
