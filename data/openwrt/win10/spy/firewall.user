@@ -1,5 +1,5 @@
-# /etc/firewall.user
-# https://github.com/crazy-max/WindowsSpyBlocker/tree/master/data/firewall/win10/spy.txt
+### openwrt win10 spy (/etc/firewall.user)
+### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 # enforce router DNS
 iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
@@ -69,11 +69,7 @@ iptables -I FORWARD -j DROP -d 65.55.113.13
 iptables -I FORWARD -j DROP -d 65.55.130.50
 iptables -I FORWARD -j DROP -d 65.55.176.90
 iptables -I FORWARD -j DROP -d 65.55.223.0/24
-iptables -I FORWARD -j DROP -d 65.55.252.63
-iptables -I FORWARD -j DROP -d 65.55.252.71
-iptables -I FORWARD -j DROP -d 65.55.252.92
-iptables -I FORWARD -j DROP -d 65.55.252.93
-iptables -I FORWARD -j DROP -d 65.55.252.190
+iptables -I FORWARD -j DROP -d 65.55.252.0/24
 iptables -I FORWARD -j DROP -d 66.119.144.157
 iptables -I FORWARD -j DROP -d 66.119.144.158
 iptables -I FORWARD -j DROP -d 66.119.144.189
@@ -96,6 +92,7 @@ iptables -I FORWARD -j DROP -d 104.210.4.77
 iptables -I FORWARD -j DROP -d 104.210.40.87
 iptables -I FORWARD -j DROP -d 104.210.212.243
 iptables -I FORWARD -j DROP -d 104.214.35.244
+iptables -I FORWARD -j DROP -d 111.221.29.40
 iptables -I FORWARD -j DROP -d 111.221.29.177
 iptables -I FORWARD -j DROP -d 111.221.29.253
 iptables -I FORWARD -j DROP -d 111.221.29.254

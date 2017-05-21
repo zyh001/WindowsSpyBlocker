@@ -1,5 +1,5 @@
-# /etc/firewall.user
-# https://github.com/crazy-max/WindowsSpyBlocker/tree/master/data/firewall/win10/update.txt
+### openwrt win10 update (/etc/firewall.user)
+### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 # enforce router DNS
 iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
@@ -41,6 +41,7 @@ iptables -I FORWARD -j DROP -d 157.56.77.149
 iptables -I FORWARD -j DROP -d 157.56.96.54
 iptables -I FORWARD -j DROP -d 157.56.96.58
 iptables -I FORWARD -j DROP -d 157.56.96.123
+iptables -I FORWARD -j DROP -d 191.232.80.53
 iptables -I FORWARD -j DROP -d 191.232.80.58
 iptables -I FORWARD -j DROP -d 191.232.80.60
 iptables -I FORWARD -j DROP -d 191.232.80.62
