@@ -128,7 +128,7 @@ func isIpExcluded(ipStr string, exp string) bool {
 }
 
 func isDomainExcluded(host string, exp string) bool {
-	re := regexp.MustCompile(`(?i)^` + strings.Replace(exp, "*", "(.*?)", -1) + "$")
+	re := regexp.MustCompile(`(?i)^` + strings.Replace(exp, "*", `([^"]+)`, -1) + "$")
 	matches := re.FindAllString(host, -1)
 	if len(matches) == 1 {
 		return true
@@ -137,7 +137,7 @@ func isDomainExcluded(host string, exp string) bool {
 }
 
 func isOrgExcluded(org string, exp string) bool {
-	re := regexp.MustCompile(`(?i)^` + strings.Replace(exp, "*", "(.*?)", -1) + "$")
+	re := regexp.MustCompile(`(?i)^` + strings.Replace(exp, "*", `([^"]+)`, -1) + "$")
 	matches := re.FindAllString(org, -1)
 	if len(matches) == 1 {
 		return true
