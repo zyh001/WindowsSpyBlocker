@@ -12,7 +12,7 @@ environment:
   GOVERSION: 1.8
 
 install:
-  - ps: choco install ant mingw winpcap
+  - ps: choco install ant
   - ps: $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
   - cmd: SET PATH=%GOPATH%\bin;%GOROOT%bin;%PATH%
   - java -version
