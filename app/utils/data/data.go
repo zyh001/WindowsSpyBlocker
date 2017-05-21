@@ -53,7 +53,7 @@ iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 	PROXIFIER_DOMAINS_VALUE = "%s;"
 )
 
-// Wildcard of domains for DNSCrypt and Proxifier
+// WilcardSubdomains are wildcard of domains for DNSCrypt and Proxifier
 var WilcardSubdomains []string
 
 func init() {

@@ -137,7 +137,7 @@ func GetIPFromReverse(domain string) string {
 	return ""
 }
 
-// IsValidIPv4 validates an IPv4 range
+// IsValidIpv4Range validates an IPv4 range
 func IsValidIpv4Range(ipRange string) bool {
 	if strings.Contains(ipRange, "-") {
 		ipRangeS := strings.SplitN(ipRange, "-", 2)
