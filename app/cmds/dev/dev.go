@@ -2,6 +2,7 @@ package dev
 
 import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/diff"
+	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/merge"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/proxifier"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/sysmon"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/wireshark"
@@ -24,8 +25,12 @@ func Menu(args ...string) (err error) {
 			Function:    wireshark.Menu,
 		},
 		{
-			Description: "> Diff      : Generates a diff log based on CSV data of Sysmon, Proxifier and Wireshark",
+			Description: "> Diff      : Generates a diff log based on CSV data",
 			Function:    diff.Menu,
+		},
+		{
+			Description: "> Merge     : Merge firewall and hosts data to DNSCrypt, OpenWrt and Proxifier",
+			Function:    merge.Menu,
 		},
 	}
 

@@ -34,6 +34,15 @@ func GetCIDRFromIPRange(ipRange string) (string, error) {
 	return "", fmt.Errorf("Invalid IP range %s", ipRange)
 }
 
+// GetIPRangeFromCIDR converts CIDR to IP range
+func GetIPRangeFromCIDR(cidr string) (string, error) {
+	ips, err := GetIpsFromCIDR(cidr)
+	if err != nil {
+		return "", err
+	}
+	return fmt.Sprintf("%s-%s", ips[0], ips[len(ips)-1]), nil
+}
+
 // GetIpsFromCIDR gets IPs list from CIDR
 func GetIpsFromCIDR(cidr string) ([]string, error) {
 	ip, ipnet, err := net.ParseCIDR(cidr)
@@ -46,8 +55,7 @@ func GetIpsFromCIDR(cidr string) ([]string, error) {
 		ips = append(ips, ip.String())
 	}
 
-	// remove network address and broadcast address
-	return ips[1 : len(ips)-1], nil
+	return ips, nil
 }
 
 func incIP(ip net.IP) {
@@ -127,4 +135,19 @@ func GetIPFromReverse(domain string) string {
 		return matches[1]
 	}
 	return ""
+}
+
+// IsValidIPv4 validates an IPv4 range
+func IsValidIpv4Range(ipRange string) bool {
+	if strings.Contains(ipRange, "-") {
+		ipRangeS := strings.SplitN(ipRange, "-", 2)
+		if len(ipRangeS) != 2 {
+			return false
+		}
+		if !IsValidIPv4(ipRangeS[0]) || !IsValidIPv4(ipRangeS[1]) {
+			return false
+		}
+		return true
+	}
+	return false
 }
