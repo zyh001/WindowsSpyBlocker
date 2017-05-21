@@ -132,6 +132,8 @@ func testIpsByRule(system string, rule string) {
 					}
 					countRes += 1
 				}
+			} else {
+				testCsvFile.WriteString(",,")
 			}
 		}
 	}

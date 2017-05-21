@@ -1,6 +1,6 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.79.239.69,AS8075 Microsoft Corporation,IE
-13.81.59.242,AS8075 Microsoft Corporation,NL
+13.79.239.69,AS8075 Microsoft Corporation,IE,,
+13.81.59.242,AS8075 Microsoft Corporation,NL,,
 23.98.49.14,AS8075 Microsoft Corporation,US,2015-09-10,appexplatform.blob.core.windows.net
 ,,,2015-09-08,9104recordmotion.blob.core.windows.net
 ,,,2015-06-30,cloud.tql.com
@@ -26,8 +26,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-08-11,azureupdates.blob.core.windows.net
 ,,,2014-07-29,bloinka.blob.core.windows.net
 ,,,2014-07-24,cdn.worktrucksolution.com
-,,,2014-07-10,decurtisgold.blob.core.windows.net
 ,,,2014-07-10,decurtis.blob.core.windows.net
+,,,2014-07-10,decurtisgold.blob.core.windows.net
 ,,,2014-05-23,docandimages.blob.core.windows.net
 ,,,2014-05-19,a4ccf0b6.blob.core.windows.net
 ,,,2014-05-18,bingvision.blob.core.windows.net
@@ -55,15 +55,15 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-05-17,tele.trafficmanager.net
 40.77.226.249,AS8075 Microsoft Corporation,IE,2017-04-25,db5.settings.data.microsoft.com.akadns.net
 40.77.226.250,AS8075 Microsoft Corporation,IE,2017-05-19,db5.vortex.data.microsoft.com.akadns.net
-51.141.32.51,AS8075 Microsoft Corporation,GB
-52.164.240.59,AS8075 Microsoft Corporation,IE
-52.164.241.205,AS8075 Microsoft Corporation,IE
-52.178.147.240,AS8075 Microsoft Corporation,IE
-52.178.151.212,AS8075 Microsoft Corporation,IE
-52.178.178.16,AS8075 Microsoft Corporation,IE
+51.141.32.51,AS8075 Microsoft Corporation,GB,,
+52.164.240.59,AS8075 Microsoft Corporation,IE,,
+52.164.241.205,AS8075 Microsoft Corporation,IE,,
+52.178.147.240,AS8075 Microsoft Corporation,IE,,
+52.178.151.212,AS8075 Microsoft Corporation,IE,,
+52.178.178.16,AS8075 Microsoft Corporation,IE,,
 52.178.193.116,AS8075 Microsoft Corporation,IE,2017-04-10,spyneteurope.microsoft.akadns.net
-52.178.223.23,AS8075 Microsoft Corporation,IE
-52.187.60.107,AS8075 Microsoft Corporation,SG
+52.178.223.23,AS8075 Microsoft Corporation,IE,,
+52.187.60.107,AS8075 Microsoft Corporation,SG,,
 64.4.27.50,AS8075 Microsoft Corporation,US,2017-05-11,fe1.ws.microsoft.com.nsatc.net
 ,,,2017-04-13,fe2.ws.microsoft.com.nsatc.net
 ,,,2017-03-12,fe2.ws.microsoft.com
@@ -94,7 +94,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-14,web.vortex.data.metron.live.com.nsatc.net
 ,,,2016-03-14,v10.vortex-win.data.metron.live.com.nsatc.net
 ,,,2016-03-10,vortex.data.metron.live.com.nsatc.net
-64.233.164.188,AS15169 Google Inc.,US
+64.233.164.188,AS15169 Google Inc.,US,,
 64.233.166.108,AS15169 Google Inc.,US,2015-11-12,wm-in-f108.1e100.net
 ,,,2014-10-19,gmail-smtp-msa.l.google.com
 ,,,2014-10-17,imap.gmail.com
@@ -195,8 +195,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-09-16,services-perf.windows.akadns.net
 ,,,2014-07-22,apps.microsoft.com
 ,,,2013-10-10,services.apps.microsoft.com
-157.56.194.74,AS8075 Microsoft Corporation,IE
-191.232.139.182,AS8075 Microsoft Corporation,IE
+157.56.194.74,AS8075 Microsoft Corporation,IE,,
+191.232.139.182,AS8075 Microsoft Corporation,IE,,
 191.232.139.253,AS8075 Microsoft Corporation,IE,2016-08-11,db5.settings.data.microsoft.com.akadns.net
 ,,,2016-03-29,onesettings-db5.metron.live.com.nsatc.net
 ,,,2016-03-20,settings.data.glbdns2.microsoft.com

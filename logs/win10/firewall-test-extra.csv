@@ -1,5 +1,5 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.80.12.54,AS8075 Microsoft Corporation,NL
+13.80.12.54,AS8075 Microsoft Corporation,NL,,
 13.107.3.128,AS8068 Microsoft Corporation,US,2017-05-21,config.edge.skype.com
 ,,,2017-05-19,edge.skype.com
 ,,,2017-05-15,b.config.skype.com
@@ -27,15 +27,15 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-05-02,frank5.bing.com
 ,,,2017-05-02,ie.bing.com
 ,,,2017-05-01,insertmedia.bing.office.net
-,,,2017-04-30,xn--e2v144p.xn--www-5j2j.bing.com
 ,,,2017-04-30,cp1.bing.com
+,,,2017-04-30,xn--e2v144p.xn--www-5j2j.bing.com
 ,,,2017-04-30,encrypted.bing.com
 ,,,2017-04-30,dnste-net-jf6ygyl7.bing.com
 ,,,2017-04-30,1.mm.bing.net
 ,,,2017-04-30,dnste-net-xfla2hf7.bing.com
 ,,,2017-04-29,ch.bing.com
-,,,2017-04-29,xn--6www-zr9cm627a3nrb.bing.com
 ,,,2017-04-29,xn--proewww-ik1fk359ehpnc.bing.com
+,,,2017-04-29,xn--6www-zr9cm627a3nrb.bing.com
 ,,,2017-04-28,xn--2www-zrlx035mskwc.bing.com
 ,,,2017-04-28,hk.bing.com
 ,,,2017-04-28,translare.bing.com
@@ -85,8 +85,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-04-06,bpoaxq.blu.livefilestore.com
 ,,,2017-04-06,anxwdw.bay.livefilestore.com
 ,,,2017-04-06,5gdgvw.bay.livefilestore.com
-,,,2017-04-05,729973897f37b8e4.users.storage.live.com
 ,,,2017-04-05,cddp0g.blu.livefilestore.com
+,,,2017-04-05,729973897f37b8e4.users.storage.live.com
 ,,,2017-04-04,aohshg.bn1.livefilestore.com
 ,,,2017-04-04,bp6lpw.sn2.livefilestore.com
 ,,,2017-04-04,d.docs.live.netd.docs.live.net
@@ -97,8 +97,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-03-28,atpiea.dm1.livefilestore.com
 ,,,2017-03-28,bbqjjq.blu.livefilestore.com
 ,,,2017-03-23,8mzjma.blu.livefilestore.com
-,,,2017-03-23,cid-05c2bd2c684734a7.users.storage.live.com
 ,,,2017-03-23,5ofs6a.blu.livefilestore.com
+,,,2017-03-23,cid-05c2bd2c684734a7.users.storage.live.com
 ,,,2017-03-22,byirda.bay.livefilestore.com
 ,,,2017-03-22,bsehdg.bay.livefilestore.com
 ,,,2017-03-21,chplkg.bay.livefilestore.com
@@ -246,5 +246,5 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-02-02,arc.msn.com.nsatc.net
 ,,,2014-10-15,mobileads.msn.com
 ,,,2014-09-16,mobileads.msn.com.nsatc.net
-207.46.223.94,AS8075 Microsoft Corporation,US
+207.46.223.94,AS8075 Microsoft Corporation,US,,
 207.68.166.254,AS8075 Microsoft Corporation,US,2015-12-09,survey.watson.microsoft.com
