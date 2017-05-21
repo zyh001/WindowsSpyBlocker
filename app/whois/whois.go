@@ -262,7 +262,7 @@ func getDnsQueryIpAddress(httpClient http.Client, ip string) (string, error) {
 		return ipAddress, err
 	}
 
-	re := regexp.MustCompile(`(?i)url: 'https://dnsquery.org/whois,request/(.*?)',`)
+	re := regexp.MustCompile(`(?i)url: 'https://dnsquery.org/whois,request/([^"]+)',`)
 	newUri := re.FindStringSubmatch(doc.Text())
 	if len(newUri) < 2 || !strings.HasPrefix(newUri[1], ip) {
 		return ipAddress, errors.New("Cannot find token to retrieve IP address")
