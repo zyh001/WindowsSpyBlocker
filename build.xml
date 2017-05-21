@@ -40,6 +40,9 @@
   <target name="release" depends="init, load.lib, infos, glide, generate, build" description="Release">
     <echo message="Creating release..."/>
     <copy file="${project.basedir}/${app.id}.exe" todir="${release.path}" overwrite="true"/>
+
+    <echo message="Writing version.dat..."/>
+    <echo file="${tmp.path}/version.dat" append="false">${app.version}</echo>
   </target>
 
   <target name="setup" depends="init, load.lib, glide, generate" description="Setup workspace"/>
