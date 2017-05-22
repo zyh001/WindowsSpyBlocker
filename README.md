@@ -17,13 +17,13 @@ It is open for everyone and if you want to contribute or need help, take a look 
 
 ## How ?
 
-I use QEMU virtual machines on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
+QEMU virtual machines are used on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
 
 * Windows 10 Pro 64bits with automatic updates enabled.
 * Windows 8.1 Pro 64bits with automatic updates enabled.
 * Windows 7 SP1 Pro 64bits with automatic updates enabled.
 
-I clean traffic dumps every day and compare results with the current rules to add / remove some hosts or firewall rules.
+Traffic dumps are clean every day and compared with the current rules to add / remove some hosts or firewall rules.
 
 Tools used to capture traffic :
 * **qemu -net dump** : capture
