@@ -12,8 +12,7 @@
 
 ## About
 
-**WindowsSpyBlocker** :shield: is an application written in [Go](https://golang.org/) and delivered as a [single executable](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to block spying and tracking on Windows systems :no_entry:. The initial approach of this application is to capture and analyze network traffic :vertical_traffic_light: based on a set of tools.<br />
-It is open for everyone and if you want to contribute or need help, take a look at the [Wiki](../../wiki) :open_book:.
+**WindowsSpyBlocker** :shield: is an application written in [Go](https://golang.org/) and delivered as a [single executable](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to block spying and tracking on Windows systems :no_entry:. The initial approach of this application is to capture and analyze network traffic :vertical_traffic_light: based on a set of tools. It is open for everyone and if you want to contribute or need help, take a look at the [Wiki](../../wiki) :open_book:.
 
 ![](../../wiki/img/wsb-20170523.png)
 > Main window of WindowsSpyBlocker
@@ -22,7 +21,7 @@ Configuration file `app.conf` is generated at first launch :
 
 ![](../../wiki/img/wsbRootFolder-20170517.png)
 
-For more info, take a look at [Wiki](../../wiki) :open_book:.
+For more info, take a look at [Wiki](../../wiki).
 
 ## Telemetry and data collection
 
@@ -37,28 +36,28 @@ Traffic dumps are clean every day and compared with the current rules to add / r
 Tools used to capture traffic :
 
 * `qemu -net dump` : capture
-* [Wireshark](../../wiki/appDevWireshark) :open_book: : capture + logs
-* [Sysmon](../../wiki/appDevSysmon) :open_book: : capture + logs
-* [Proxifier](../../wiki/devProxifier) :open_book: : logs
+* [Wireshark](../../wiki/appDevWireshark) : capture + logs
+* [Sysmon](../../wiki/appDevSysmon) : capture + logs
+* [Proxifier](../../wiki/devProxifier) : logs
 
 All traffic events are available in the `logs` folder :
 
 * `*-hosts-count.csv` : number of events per host
 * `*-unique.csv` : first trigger of an event per host / process / destination port
 
-And the `data` folder contains the blocking rules based on domain names or IPs addresses detected during the capture process :
+The `data` folder contains the blocking rules based on domains or IPs detected during the capture process :
 
 * `data/<type>/winX/spy.txt` : Block Windows Spy / Telemetry
 * `data/<type>/winX/update.txt` : Block Windows Update
 * `data/<type>/winX/extra.txt` : Block third party applications
 
-[Firewall](../../wiki/dataFirewall) :open_book: and [Hosts](../../wiki/dataHosts) :open_book: data are the main types. The others are generated from these as :
+[Firewall](../../wiki/dataFirewall) and [Hosts](../../wiki/dataHosts) data are the main types. The others are generated from these as :
 
-* [DNSCrypt](../../wiki/dataDNSCrypt) :open_book: : a protocol for securing communications between a client and a DNS resolver.
-* [OpenWrt](../../wiki/dataOpenWrt) :open_book: : an open source project used on embedded devices to route network traffic.
-* [Proxifier](../../wiki/dataProxifier) :open_book: : an advanced proxy client on Windows with a flexible rule system.
+* [DNSCrypt](../../wiki/dataDNSCrypt) : a protocol for securing communications between a client and a DNS resolver.
+* [OpenWrt](../../wiki/dataOpenWrt) : an open source project used on embedded devices to route network traffic.
+* [Proxifier](../../wiki/dataProxifier) : an advanced proxy client on Windows with a flexible rule system.
 
-And about data collection, you can read the [Telemetry collection](../../wiki/miscTelemetry) :open_book: page for more info.
+And about data collection, you can read the [Telemetry collection](../../wiki/miscTelemetry) page for more info.
 
 ## Projects using WindowsSpyBlocker
 
