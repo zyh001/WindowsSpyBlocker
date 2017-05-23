@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.2.0 (2017/05/23)
+
+* Move Firewall and NCSI to the Telemetry parent menu
+* Simplify the README
+
 ## 4.1.1 (2017/05/21)
 
 * New hosts for Windows 10 extra, spy and update
