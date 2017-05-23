@@ -12,12 +12,21 @@
 
 ## About
 
-**WindowsSpyBlocker** is a set of rules to block Windows spy / telemetry based on multiple tools to capture traffic located in the `data` folder. [An application is also available](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to perform several extra operations.<br />
-It is open for everyone and if you want to contribute or need help, take a look at the [Wiki](../../wiki).
+**WindowsSpyBlocker** :shield: is an application written in [Go](https://golang.org/) and delivered as a [single executable](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to block spying and tracking on Windows systems :no_entry:. The initial approach of this application is to capture and analyze network traffic :vertical_traffic_light: based on a set of tools.<br />
+It is open for everyone and if you want to contribute or need help, take a look at the [Wiki](../../wiki) :open_book:.
 
-## How ?
+![](../../wiki/img/wsb-20170523.png)
+> Main window of WindowsSpyBlocker
 
-QEMU virtual machines are used on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
+Configuration file `app.conf` is generated at first launch :
+
+![](../../wiki/img/wsbRootFolder-20170517.png)
+
+For more info, take a look at [Wiki](../../wiki) :open_book:.
+
+## Telemetry and data collection
+
+To capture and analyze network traffic for the telemetry option, QEMU virtual machines are used on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
 
 * Windows 10 Pro 64bits with automatic updates enabled.
 * Windows 8.1 Pro 64bits with automatic updates enabled.
@@ -26,80 +35,30 @@ QEMU virtual machines are used on the server virtualization management platform 
 Traffic dumps are clean every day and compared with the current rules to add / remove some hosts or firewall rules.
 
 Tools used to capture traffic :
-* **qemu -net dump** : capture
-* **[Wireshark](../../wiki/devWireshark)** : capture + logs
-* **[Sysmon](../../wiki/devSysmon)** : capture + logs
-* **[Proxifier](../../wiki/devProxifier)** : logs
 
-All traffic events are available in the [logs](#logs) folder.<br />
-You can read the [Telemetry](../../wiki/Telemetry) page if you want more info about data collection.
+* `qemu -net dump` : capture
+* [Wireshark](../../wiki/appDevWireshark) :open_book: : capture + logs
+* [Sysmon](../../wiki/appDevSysmon) :open_book: : capture + logs
+* [Proxifier](../../wiki/devProxifier) :open_book: : logs
 
-## The app
+All traffic events are available in the `logs` folder :
 
-WindowsSpyBlocker is delivered as a single executable available in the [latest release page](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) that embeds the data located in the `data` directory of the repository.
-It allows to apply the rules to the Windows firewall, to modify the NCSI and also to help contribute to the project!
+* `*-hosts-count.csv` : number of events per host
+* `*-unique.csv` : first trigger of an event per host / process / destination port
 
-![](../../wiki/img/wsb-20170515.png)
-> Main window of WindowsSpyBlocker application
+And the `data` folder contains the blocking rules based on domain names or IPs addresses detected during the capture process :
 
-Configuration file `app.conf` is generated at first launch :
-
-![](../../wiki/img/wsbRootFolder-20170517.png)
-
-For more information, read the instructions in the [Wiki](../../wiki).
-
-## Data
-
-`data` is the master folder of this project. It contains the blocking rules based on domain names or IPs addresses detected during the capture process.
 * `data/<type>/winX/spy.txt` : Block Windows Spy / Telemetry
 * `data/<type>/winX/update.txt` : Block Windows Update
 * `data/<type>/winX/extra.txt` : Block third party applications
 
-### Hosts
+[Firewall](../../wiki/dataFirewall) :open_book: and [Hosts](../../wiki/dataHosts) :open_book: data are the main types. The others are generated from these as :
 
-Copy / paste the content of the files in `data/hosts` in your Windows hosts file located in `C:\Windows\System32\drivers\etc\hosts`.<br />
-For more information, read the instructions in [Hosts Wiki page](../../wiki/Hosts).
+* [DNSCrypt](../../wiki/dataDNSCrypt) :open_book: : a protocol for securing communications between a client and a DNS resolver.
+* [OpenWrt](../../wiki/dataOpenWrt) :open_book: : an open source project used on embedded devices to route network traffic.
+* [Proxifier](../../wiki/dataProxifier) :open_book: : an advanced proxy client on Windows with a flexible rule system.
 
-### Firewall
-
-Some queries use IP addresses but you can stop them with your Firewall.<br />
-All relative information about these IP addresses are listed in the CSV files `firewall-` in the [logs folder](logs).<br />
-To add / remove firewall rules or test IPs, read the instructions on the [Firewall Wiki page](../../wiki/Firewall).
-
-### DNSCrypt
-
-[DNSCrypt](https://dnscrypt.org/) is a protocol for securing communications between a client and a DNS resolver. With this tool you can blacklist some domains with the plugin [libdcplugin_example_ldns_blocking](https://github.com/jedisct1/dnscrypt-proxy#plugins) and add domains with leading and trailing wildcards.<br />
-To install DNSCrypt on Windows, read the [README-WINDOWS](https://github.com/jedisct1/dnscrypt-proxy/blob/master/README-WINDOWS.markdown) on the official GitHub repository.<br />
-Copy the content of the dnscrypt files in the repository in a file called for example `C:\blacklisted-domains.txt` and enter this command :
-
-```
-dnscrypt-proxy -R <name> --plugin=libdcplugin_example_ldns_blocking.dll,--domains=C:\blacklisted-domains.txt
-```
-
-Replace `<name>` with a [public DNS resolvers supporting DNSCrypt](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv) you want to use. Note its name, in the first column (for example: `dnscrypt.org-fr`).
-
-### Proxifier
-
-Some hosts are not blocked and required a top level application.<br />
-For example you can use [Proxifier](https://www.proxifier.com/) software to block Microsoft spy.
-
-For more information, read the instructions on the [Proxifier Wiki page](../../wiki/devProxifier).
-
-### OpenWrt
-
-DNS/IP block rules using dnsmasq / iptables are available in `data/openwrt` folder.<br />
-These rules are focused on latest OpenWrt release (Chaos Calmer 15.05.1).<br />
-
-Requires package "iptables-mod-nat-extra" for port 53 (DNS) redirect rule from dnsmasq.conf.<br />
-dnsmasq.conf is bypassed if you use DNSCrypt on client machine (recommended) so use hosts before DNSCrypt exit point.<br />
-
-DNSCrypt is also available in OpenWrt repo, but may be slow and CPU hungry on average routers, stay with the PC client as recommended.
-
-## Logs
-
-Logs of tools used to capture traffic and resolution of firewall rules in CSV format available in the [logs folder](logs).
-* `*-hosts-count.csv` : number of events per host
-* `*-unique.csv` : first trigger of an event per host / process / destination port
+And about data collection, you can read the [Telemetry collection](../../wiki/miscTelemetry) :open_book: page for more info.
 
 ## Projects using WindowsSpyBlocker
 
