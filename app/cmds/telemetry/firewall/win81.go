@@ -25,7 +25,7 @@ func menuWin81(args ...string) (err error) {
 		},
 	}
 
-	menuOptions := menu.NewOptions("Firewall rules for Windows 8.1", "'menu' for help [firewall-win81]> ", 0, "")
+	menuOptions := menu.NewOptions("Firewall rules for Windows 8.1", "'menu' for help [telemetry-firewall-win81]> ", 0, "")
 
 	menuN := menu.NewMenu(menuCommands, menuOptions)
 	menuN.Start()

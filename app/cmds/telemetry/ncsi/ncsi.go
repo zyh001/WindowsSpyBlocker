@@ -65,7 +65,7 @@ func Menu(args ...string) (err error) {
 		},
 	}
 
-	menuOptions := menu.NewOptions("NCSI", "'menu' for help [ncsi]> ", 0, "")
+	menuOptions := menu.NewOptions("NCSI", "'menu' for help [telemetry-ncsi]> ", 0, "")
 
 	menuN := menu.NewMenu(menuCommands, menuOptions)
 	menuN.Start()

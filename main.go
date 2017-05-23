@@ -10,8 +10,7 @@ import (
 	"os/exec"
 
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev"
-	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/firewall"
-	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/ncsi"
+	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/telemetry"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/app"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
@@ -40,12 +39,8 @@ func main() {
 
 	menuCommands := []menu.CommandOption{
 		{
-			Description: "> Firewall  : Add or remove firewall rules and resolve IPs adresses",
-			Function:    firewall.Menu,
-		},
-		{
-			Description: "> NCSI      : Apply an alternate NCSI and test your internet connection the Microsoft way",
-			Function:    ncsi.Menu,
+			Description: "> Telemetry : Block telemerty and data collection",
+			Function:    telemetry.Menu,
 		},
 		{
 			Description: "> Dev       : Several tools used by WindowsSpyBlocker",

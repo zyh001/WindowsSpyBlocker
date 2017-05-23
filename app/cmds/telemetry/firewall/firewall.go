@@ -52,7 +52,7 @@ func Menu(args ...string) (err error) {
 		},
 	}
 
-	menuOptions := menu.NewOptions("Firewall", "'menu' for help [firewall]> ", 0, "")
+	menuOptions := menu.NewOptions("Firewall", "'menu' for help [telemetry-firewall]> ", 0, "")
 
 	menuN := menu.NewMenu(menuCommands, menuOptions)
 	menuN.Start()

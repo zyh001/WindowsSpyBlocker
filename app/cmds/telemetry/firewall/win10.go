@@ -25,7 +25,7 @@ func menuWin10(args ...string) (err error) {
 		},
 	}
 
-	menuOptions := menu.NewOptions("Firewall rules for Windows 10", "'menu' for help [firewall-win10]> ", 0, "")
+	menuOptions := menu.NewOptions("Firewall rules for Windows 10", "'menu' for help [telemetry-firewall-win10]> ", 0, "")
 
 	menuN := menu.NewMenu(menuCommands, menuOptions)
 	menuN.Start()

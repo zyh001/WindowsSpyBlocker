@@ -25,7 +25,7 @@ func menuWin7(args ...string) (err error) {
 		},
 	}
 
-	menuOptions := menu.NewOptions("Firewall rules for Windows 7", "'menu' for help [firewall-win7]> ", 0, "")
+	menuOptions := menu.NewOptions("Firewall rules for Windows 7", "'menu' for help [telemetry-firewall-win7]> ", 0, "")
 
 	menuN := menu.NewMenu(menuCommands, menuOptions)
 	menuN.Start()
