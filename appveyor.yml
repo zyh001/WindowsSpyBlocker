@@ -33,6 +33,7 @@ after_build:
 
 artifacts:
   - path: 'bin\release\*'
+    name: release
 
 deploy:
   tag: $(APP_VERSION)
