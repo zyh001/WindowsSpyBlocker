@@ -39,7 +39,7 @@ func main() {
 
 	menuCommands := []menu.CommandOption{
 		{
-			Description: "> Telemetry : Block telemerty and data collection",
+			Description: "> Telemetry : Block telemetry and data collection",
 			Function:    telemetry.Menu,
 		},
 		{
