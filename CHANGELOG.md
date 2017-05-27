@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2.1 (2017/05/27)
+
+* Windows Store cannot download apps (Issue #15)
+
 ## 4.2.0 (2017/05/23)
 
 * Move Firewall and NCSI to the Telemetry parent menu
