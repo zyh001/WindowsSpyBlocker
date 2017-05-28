@@ -128,6 +128,7 @@
 
   <target name="build">
     <exec executable="go" failonerror="true" dir="${project.basedir}">
+      <env key="GOARCH" value="386"/>
       <arg value="build"/>
       <arg value="-v"/>
       <arg value="-ldflags"/>

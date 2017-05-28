@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.3.0 (2017/05/28)
+
+* Make compatible on 32bit platforms (Issue #61)
+
 ## 4.2.1 (2017/05/27)
 
 * Windows Store cannot download apps (Issue #15)
