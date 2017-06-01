@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.4.1 (2017/06/01)
+
+* Typo on IP for Windows 10 spy
+* Error parsing OpenWRT data (Issue #63)
+* Move 66.119.144 to update for Windows 10 (Issue #62)
+* Move 207.46 to extra for Windows 10 (Issue #15)
+
 ## 4.3.1 (2017/05/31)
 
 * Again Windows Store cannot download apps (Issue #15)

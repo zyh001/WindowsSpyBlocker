@@ -7,14 +7,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-12-25,13.76.219.210
 ,,,2016-09-09,prod.nexusrules.live.com.akadns.net
 13.107.5.88,Microsoft Azure,United States,2017-05-31,onenote-office365-s2s-msedge-net.e-0009.e-msedge.net
-,,,2017-05-30,ocos-office365-s2s-msedge-net.e-0009.e-msedge.net
 ,,,2017-05-30,client-office365-tas.msedge.net
 ,,,2017-05-30,evoke-windowsservices-tas.msedge.net
 ,,,2017-05-30,visualstudio-devdiv-c2s.msedge.net
-,,,2017-05-29,officeonlineextension-office365.msedge.net
+,,,2017-05-30,ocos-office365-s2s-msedge-net.e-0009.e-msedge.net
 ,,,2017-05-29,client-office365-tas-msedge-net.e-0009.e-msedge.net
-,,,2017-05-28,visualstudio-devdiv-c2s-msedge-net.e-0009.e-msedge.net
+,,,2017-05-29,officeonlineextension-office365.msedge.net
 ,,,2017-05-28,evoke-windowsservices-tas-msedge-net.e-0009.e-msedge.net
+,,,2017-05-28,visualstudio-devdiv-c2s-msedge-net.e-0009.e-msedge.net
 ,,,2017-05-27,e-0009.e-msedge.net
 ,,,2017-05-27,onenote-office365-s2s.msedge.net
 ,,,2017-05-24,ocos-office365-s2s.msedge.net
@@ -52,8 +52,6 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 40.77.229.133,Microsoft Azure,Ireland,2017-05-22,db5.licensing.md.mp.microsoft.com.akadns.net
 40.83.189.49,Microsoft Azure,United States,2017-01-26,nexus.officeapps.live.com
 ,,,2016-03-23,prod-w.nexus.live.com.akadns.net
-40.113.8.255,Microsoft Azure,Ireland,2017-04-04,prod.nexusrules.live.com.akadns.net
-,,,2017-03-15,nexusrules.officeapps.live.com
 40.113.10.78,Microsoft Azure,Ireland,2017-01-08,prod-w.nexus.live.com.akadns.net
 ,,,2016-10-16,nexus.officeapps.live.com
 40.113.14.159,Microsoft Azure,Ireland,2017-05-12,nexusrules.officeapps.live.com
@@ -144,14 +142,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 64.4.54.254,Microsoft bingbot,United States,2017-05-30,asimov-win.vortex.data.microsoft.com.akadns.net
 ,,,2017-05-28,v20-asimov-win.vortex.data.microsoft.com.akadns.net
 ,,,2017-05-28,geo.vortex.data.microsoft.com.akadns.net
-,,,2017-05-28,web.vortex.data.microsoft.com
 ,,,2017-05-28,v10-win.vortex.data.microsoft.com.akadns.net
 ,,,2017-05-28,v10.vortex-win.data.microsoft.com
+,,,2017-05-28,web.vortex.data.microsoft.com
 ,,,2017-05-27,cy2.vortex.data.microsoft.com.akadns.net
 ,,,2017-05-26,vortex-win.data.microsoft.com
 ,,,2017-05-24,v20.vortex-win.data.microsoft.com
-,,,2017-04-25,vortex.data.microsoft.com
 ,,,2017-04-25,asimov.vortex.data.microsoft.com.akadns.net
+,,,2017-04-25,vortex.data.microsoft.com
 ,,,2016-05-18,us.vortex-win.data.microsoft.com
 ,,,2016-04-25,web.vortex.data.microsoft.com.akadns.net
 ,,,2016-04-06,vortex-win.data.metron.live.com.nsatc.net
@@ -212,13 +210,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-04-01,facedocs.com.sg
 ,,,2013-04-01,facedoc.sg
 ,,,2013-04-01,facedoc.com.sg
-,,,2013-04-01,beautyoftheweb.com.eg
+,,,2013-04-01,adcenter.com.sg
 ,,,2013-04-01,exploretouch.ie
 ,,,2013-04-01,beautyoftheweb.com.vn
 ,,,2013-04-01,amalga.com.sg
 ,,,2013-04-01,gamesforwindows.com.sg
 ,,,2013-04-01,genapp.com.sg
-,,,2013-04-01,adcenter.com.sg
+,,,2013-04-01,beautyoftheweb.com.eg
 65.55.44.51,Microsoft Hosting,United States,2016-10-24,tsfe.trafficshaping.dsp.mp.microsoft.com
 ,,,2016-10-10,tsfe.tsws.mp.microsoft.com.nsatc.net
 65.55.44.54,Microsoft Hosting,United States,2017-05-29,array104-prod.do.dsp.mp.microsoft.com
@@ -269,17 +267,6 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-01-16,beta.t.urs.microsoft.com
 ,,,2013-12-21,telemetry.urs.microsoft.com
 ,,,2013-12-11,t.urs.microsoft.com
-66.119.144.157,Microsoft Corporation,United States,2017-02-27,fe2.update.microsoft.com.nsatc.net
-,,,2016-01-14,fe2.update.microsoft.com
-66.119.144.158,Microsoft Corporation,United States,2017-05-01,fe2.update.microsoft.com.nsatc.net
-,,,2016-05-30,fe2.update.microsoft.com
-66.119.144.189,Microsoft Corporation,United States,2016-10-25,fe2.update.microsoft.com.nsatc.net
-,,,2015-06-03,fe1.update.microsoft.com
-,,,2015-04-26,fe2.update.microsoft.com
-66.119.144.190,Microsoft Corporation,United States,2016-03-25,fe2.update.microsoft.com.nsatc.net
-,,,2016-02-17,fe2.update.microsoft.com.akadns.net
-,,,2015-05-07,fe1.update.microsoft.com
-,,,2015-04-21,fe2.update.microsoft.com
 66.119.147.131,Microsoft Corporation,Singapore,,
 77.67.29.176,Akamai Technologies,United States,,
 104.41.207.73,Microsoft Azure,Ireland,2017-05-05,nexus.officeapps.live.com
@@ -408,11 +395,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-03-31,868547a3246d74ac.docs.live.net
 ,,,2015-03-30,0doaya.bl3301.livefilestore.com
 ,,,2015-03-28,66dfc1278dedc929.users.storage.live.com
+,,,2015-03-26,90ue9a.bl3301.livefilestore.com
 ,,,2015-03-26,3kqzv0.docs.live.net
-,,,2015-03-26,259v4a.blu.livefilestore.com
 ,,,2015-03-26,a5f61caef9ffbe1c.users.storage.live.com
 ,,,2015-03-26,33bf4eb12e24718a.users.storage.live.com
-,,,2015-03-26,90ue9a.bl3301.livefilestore.com
+,,,2015-03-26,259v4a.blu.livefilestore.com
 ,,,2015-03-24,9trjpq.bay.livefilestore.com
 ,,,2015-03-21,0nmgfq.bay.livefilestore.com
 ,,,2015-03-18,90bb6f5f02188137.users.storage.live.com
@@ -456,16 +443,16 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-09,cid-3794ca9f41d49a6b.users.storage.live.com
 ,,,2015-11-08,84f4417f4f573813.users.storage.live.com
 ,,,2015-11-08,10bcfa473e32267c.users.storage.live.com
-,,,2015-11-02,cid-1966cbede00e24c6.users.storage.live.com
+,,,2015-11-02,99fe4b75d6b8f459.users.storage.live.com
 ,,,2015-11-02,cid-0e32187c0dc9ede6.users.storage.live.com
 ,,,2015-11-02,cid-0fc823571d35266c.users.storage.live.com
-,,,2015-11-02,cid-1a3b8e379ce3ebb3.users.storage.live.com
+,,,2015-11-02,cid-1966cbede00e24c6.users.storage.live.com
 ,,,2015-11-02,cid-14516b6a00b7a12a.users.storage.live.com
 ,,,2015-11-02,cid-13d7ac476f223157.users.storage.live.com
 ,,,2015-11-02,cid-1a02cfc37e63d4e8.users.storage.live.com
 ,,,2015-11-02,cid-1b41a6aafd720cd.users.storage.live.com
 ,,,2015-11-02,71f413a94f3d500c.users.storage.live.com
-,,,2015-11-02,99fe4b75d6b8f459.users.storage.live.com
+,,,2015-11-02,cid-1a3b8e379ce3ebb3.users.storage.live.com
 ,,,2015-11-01,78bef344accc35c7.users.storage.live.com
 ,,,2015-11-01,4733871fc829ba4a.users.storage.live.com
 ,,,2015-11-01,96f8294c590ce1b4.users.storage.live.com
@@ -504,15 +491,15 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-16,cid-322f9e6ea7bcf511.users.storage.live.com
 ,,,2015-11-09,cid-29094c4168b41344.users.storage.live.com
 ,,,2015-11-05,cid-40522432dab157e5.users.storage.live.com
-,,,2015-11-02,cid-15e8c350b6a34bdc.users.storage.live.com
+,,,2015-11-02,cid-0d3d61740bf2da7a.users.storage.live.com
 ,,,2015-11-02,cid-0b7e2df65c594a0f.users.storage.live.com
 ,,,2015-11-02,cid-10a3b00b7012519e.users.storage.live.com
 ,,,2015-11-02,86e4b1446e1af35f.users.storage.live.com
 ,,,2015-11-02,cbd85824cdbbd837.users.storage.live.com
-,,,2015-11-02,cid-182d57b95c73f69f.users.storage.live.com
+,,,2015-11-02,cid-15e8c350b6a34bdc.users.storage.live.com
 ,,,2015-11-02,cid-1f2dbfa09bad94d3.users.storage.live.com
 ,,,2015-11-02,cid-1121992354521259.users.storage.live.com
-,,,2015-11-02,cid-0d3d61740bf2da7a.users.storage.live.com
+,,,2015-11-02,cid-182d57b95c73f69f.users.storage.live.com
 ,,,2015-11-01,74a3f9ac532314bd.users.storage.live.com
 ,,,2015-11-01,089c0d981db6c267.users.storage.live.com
 ,,,2015-09-26,cid-299190aca42102da.users.storage.live.com
@@ -572,7 +559,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-08-01,274407619dd6b749.users.storage.live.com
 ,,,2014-08-01,9289303d83206365.users.storage.live.com
 ,,,2014-08-01,85328715a70abd00.users.storage.live.com
-,,,2014-07-30,35d36a11306794d1.users.storage.live.com
+,,,2014-07-30,82b4326fd1ed3c3c.users.storage.live.com
 ,,,2014-07-30,59eb7fe9ab58d6b5.users.storage.live.com
 ,,,2014-07-30,63qkoq.bay.livefilestore.com
 ,,,2014-07-30,32eee24efc0cd341.users.storage.live.com
@@ -585,7 +572,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-07-30,78a1e58f447af14b.users.storage.live.com
 ,,,2014-07-30,0084b6d0d3525b89.users.storage.live.com
 ,,,2014-07-30,85de8d3e5d8ebec3.users.storage.live.com
-,,,2014-07-30,82b4326fd1ed3c3c.users.storage.live.com
+,,,2014-07-30,35d36a11306794d1.users.storage.live.com
 ,,,2014-07-30,52ae2be5163ca454.users.storage.live.com
 ,,,2014-07-14,3rz7sg.by3301.livefilestore.com
 ,,,2014-06-15,4sru0g.bay.livefilestore.com
@@ -622,8 +609,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-08-18,cid-33d08fe96ee7113d.users.storage.live.com
 ,,,2015-03-31,cid-21061df8361808c7.users.storage.live.com
 ,,,2015-03-31,cid-4d0deeaf7582079.users.storage.live.com
-,,,2015-03-31,cid-76c6e7395a6f1df6.users.storage.live.com
 ,,,2015-03-31,cid-2a28eeffa6d14498.users.storage.live.com
+,,,2015-03-31,cid-76c6e7395a6f1df6.users.storage.live.com
 ,,,2015-03-21,ufhwoa.docs.live.net
 ,,,2015-02-26,cid-40522432dab157e5.users.storage.live.com
 ,,,2015-02-18,nvensq.by3301.livefilestore.com
@@ -659,8 +646,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-05-16,cid-1c3a6a0f6e9595f9.users.storage.live.com
 ,,,2016-04-30,cid-0d864ff00ce5d076.users.storage.live.com
 ,,,2015-11-25,cid-20f7358328de9228.users.storage.live.com
-,,,2015-11-17,cid-2d35fa8ff29ebd7d.users.storage.live.com
 ,,,2015-11-17,cid-29488dbe30f66e77.users.storage.live.com
+,,,2015-11-17,cid-2d35fa8ff29ebd7d.users.storage.live.com
 ,,,2015-11-09,cid-2708952b37b8f88c.users.storage.live.com
 ,,,2015-11-02,cid-1308747360446978675.users.storage.live.com
 ,,,2015-11-02,cid-1b5c5a1113595eb8.users.storage.live.com
@@ -736,9 +723,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-03-11,1lpwjw.blu.livefilestore.com
 ,,,2015-03-09,17bc9ea16979fcee.users.storage.live.com
 ,,,2015-03-09,ad10f33728e8bffc.users.storage.live.com
-,,,2015-02-28,o19ajw.bay.livefilestore.com
-,,,2015-02-28,0apihg.bay.livefilestore.com
 ,,,2015-02-28,11ffe47609535350.users.storage.live.com
+,,,2015-02-28,0apihg.bay.livefilestore.com
+,,,2015-02-28,o19ajw.bay.livefilestore.com
 ,,,2015-02-25,augdqw.blu.livefilestore.com
 ,,,2015-02-18,5zazv9.docs.live.net
 ,,,2015-01-06,docs.live.net
@@ -773,23 +760,23 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-07-07,1s8ciq-sn3301.files.1drv.com
 ,,,2015-05-19,0jx4eg-sn3301.files.1drv.com
 ,,,2015-05-06,0vtzhq-sn3301.files.1drv.com
-,,,2015-04-21,3vsbqw-sn3301.files.1drv.com
+,,,2015-04-21,3j3dgq-sn3301.files.1drv.com
 ,,,2015-04-21,5gf5fw-sn3301.files.1drv.com
 ,,,2015-04-21,755spg-sn3301.files.1drv.com
 ,,,2015-04-21,4563sa-sn3301.files.1drv.com
-,,,2015-04-21,3j3dgq-sn3301.files.1drv.com
-,,,2015-04-20,5qwqbg-sn3301.files.1drv.com
+,,,2015-04-21,3vsbqw-sn3301.files.1drv.com
 ,,,2015-04-20,2itsya-sn3301.files.1drv.com
+,,,2015-04-20,5qwqbg-sn3301.files.1drv.com
 ,,,2015-03-28,38d703428d47c181.users.storage.live.com
-,,,2015-03-26,4fhezq-sn3301.files.1drv.com
-,,,2015-03-26,119c2bacd9bbc404.users.storage.live.com
-,,,2015-03-26,4hvdhq-sn3301.files.1drv.com
 ,,,2015-03-26,7puhyb.docs.live.net
+,,,2015-03-26,4fhezq-sn3301.files.1drv.com
+,,,2015-03-26,4hvdhq-sn3301.files.1drv.com
+,,,2015-03-26,119c2bacd9bbc404.users.storage.live.com
 ,,,2015-03-24,3tkuj1.docs.live.net
 ,,,2015-03-20,38cnup.docs.live.net
 ,,,2015-03-19,cid-328db16b63bf4215.users.storage.live.com
-,,,2015-03-17,3qv6ra-sn3301.files.1drv.com
 ,,,2015-03-17,1cy16w-sn3301.files.1drv.com
+,,,2015-03-17,3qv6ra-sn3301.files.1drv.com
 ,,,2015-03-12,cid-39bcc129d38e8198.users.storage.live.com
 ,,,2015-03-01,byfiles.storage.msn.com
 ,,,2015-02-28,cid-1e8a717adc5bca0d.users.storage.live.com
@@ -808,14 +795,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-25,cid-2f1e2d456d6e16d.users.storage.live.com
 ,,,2015-11-25,38d703428d47c181.users.storage.live.com
 ,,,2015-11-18,cid-125ce214456c65d7.users.storage.live.com
-,,,2015-11-17,cid-32e658f28ddfca3c.users.storage.live.com
+,,,2015-11-17,cid-318017116d299390.users.storage.live.com
 ,,,2015-11-17,cid-2266b2e4bb566cc8.users.storage.live.com
-,,,2015-11-17,cid-39bcc129d38e8198.users.storage.live.com
+,,,2015-11-17,cid-32e658f28ddfca3c.users.storage.live.com
 ,,,2015-11-17,cid-1a4ccc59cf725872.users.storage.live.com
 ,,,2015-11-17,cid-328db16b63bf4215.users.storage.live.com
 ,,,2015-11-17,cid-18b4d5e02ea11dbd.users.storage.live.com
 ,,,2015-11-17,cid-2b8e28009946661b.users.storage.live.com
-,,,2015-11-17,cid-318017116d299390.users.storage.live.com
+,,,2015-11-17,cid-39bcc129d38e8198.users.storage.live.com
 ,,,2015-11-16,cid-28d748b65c899d0f.users.storage.live.com
 ,,,2015-11-16,cid-13f2f9322e3c831e.users.storage.live.com
 ,,,2015-11-16,cid-1d6fd188c2b01caa.users.storage.live.com
@@ -823,11 +810,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-09,cid-2ebf85c857eb4ed2.users.storage.live.com
 ,,,2015-11-09,cid-2ea770dc42aa8223.users.storage.live.com
 ,,,2015-11-08,cid-2dd116d2b18e0de.users.storage.live.com
-,,,2015-11-03,cid-0bc9190f03c0277a.users.storage.live.com
+,,,2015-11-03,a10e87259a5aaa17.users.storage.live.com
 ,,,2015-11-03,cid-02a33ba9da8bc08a.users.storage.live.com
 ,,,2015-11-03,ad10f33728e8bffc.users.storage.live.com
 ,,,2015-11-03,a4c0fe341ef8acb7.users.storage.live.com
-,,,2015-11-03,a10e87259a5aaa17.users.storage.live.com
+,,,2015-11-03,cid-0bc9190f03c0277a.users.storage.live.com
 ,,,2015-11-02,cid-17d3448841af07e4.users.storage.live.com
 ,,,2015-11-02,cid-16f107d9adb9b1b5.users.storage.live.com
 ,,,2015-11-01,a3774ae6ebfc4198.users.storage.live.com
@@ -856,14 +843,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-25,cid-159e08ecae06f720.users.storage.live.com
 ,,,2015-11-25,cid-1c824bf5381fbc09.users.storage.live.com
 ,,,2015-11-25,82c5a15e78a653de.users.storage.live.com
-,,,2015-11-17,cid-1e8a717adc5bca0d.users.storage.live.com
+,,,2015-11-17,cid-33292509dfe213a5.users.storage.live.com
 ,,,2015-11-17,cid-37511125e65818f0.users.storage.live.com
 ,,,2015-11-17,cid-38488f52e03c4700.users.storage.live.com
 ,,,2015-11-17,cid-3bb382a1c831de80.users.storage.live.com
 ,,,2015-11-17,cid-2bf75ea073929bfa.users.storage.live.com
-,,,2015-11-17,cid-39fd99e5975f0110.users.storage.live.com
+,,,2015-11-17,cid-1e8a717adc5bca0d.users.storage.live.com
 ,,,2015-11-17,cid-287f8bb6318c864f.users.storage.live.com
-,,,2015-11-17,cid-33292509dfe213a5.users.storage.live.com
+,,,2015-11-17,cid-39fd99e5975f0110.users.storage.live.com
 ,,,2015-11-16,cid-377bcdf8482c663e.users.storage.live.com
 ,,,2015-11-16,cid-2ead72bfa13f60d6.users.storage.live.com
 ,,,2015-11-09,cid-3056fc66e487f094.users.storage.live.com
@@ -873,8 +860,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-06,cid-2a4593d487fb4f38.users.storage.live.com
 ,,,2015-11-03,cid-12140bd9463a3077.users.storage.live.com
 ,,,2015-11-03,cid-122a37b7e839ee7b.users.storage.live.com
-,,,2015-11-03,11ffe47609535350.users.storage.live.com
 ,,,2015-11-03,cid-11a23cb9c9d613ff.users.storage.live.com
+,,,2015-11-03,11ffe47609535350.users.storage.live.com
 ,,,2015-11-02,cid-1b3506c11dc885ef.users.storage.live.com
 ,,,2015-11-01,78a1e58f447af14b.users.storage.live.com
 ,,,2015-09-12,cid-40763a7ea272d0b6.users.storage.live.com
@@ -987,16 +974,4 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-08-18,nexus.officeapps.live.com
 191.239.54.52,Microsoft Azure,United States,2017-05-11,telecommand4.cloudapp.net
 ,,,2017-05-06,tele.trafficmanager.net
-207.46.7.252,Microsoft Azure,United States,2017-05-28,gateway.skyprod.akadns.net
-,,,2017-04-17,ssw.live.com
-,,,2016-06-09,ssw.live.com.nsatc.net
-,,,2014-05-18,ssw.msn.com
-,,,2013-10-15,ds.ssw.live.com
-207.46.101.29,Microsoft Azure,United States,2017-05-18,gateway.skyprod.akadns.net
-,,,2017-05-02,ssw.live.com
-,,,2016-06-04,ssw.live.com.nsatc.net
-,,,2015-03-03,ssw.msn.com
-,,,2013-10-17,ds.ssw.live.com
-207.46.153.155,Microsoft Azure,Hong Kong,2015-10-06,nexus.officeapps.live.com
-207.46.194.40,Microsoft bingbot,Ireland,2014-12-12,mobileads.msn.com.nsatc.net
 207.68.166.254,Microsoft Corporation,United States,2015-12-09,survey.watson.microsoft.com

@@ -356,8 +356,8 @@ func getOpenwrtHosts(system string, rule string) (hosts, error) {
 		if !strings.HasPrefix(line, "server=/") {
 			continue
 		}
-		line = strings.TrimRight(strings.TrimLeft(line, "server=/"), "/")
-		result = append(result, host{Domain: line})
+		lineAr := strings.Split(line, "/")
+		result = append(result, host{Domain: lineAr[1]})
 	}
 
 	sort.Sort(result)
