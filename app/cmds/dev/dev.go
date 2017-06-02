@@ -2,6 +2,7 @@ package dev
 
 import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/diff"
+	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/firewall"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/merge"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/proxifier"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/sysmon"
@@ -23,6 +24,10 @@ func Menu(args ...string) (err error) {
 		{
 			Description: "> Wireshark : Extract events from PCAPNG file filtered by IPv4 hosts",
 			Function:    wireshark.Menu,
+		},
+		{
+			Description: "> Firewall  : Test Firewall IPs rules with multiple Whois and DNS Resolutions",
+			Function:    firewall.Menu,
 		},
 		{
 			Description: "> Diff      : Generates a diff log based on CSV data",

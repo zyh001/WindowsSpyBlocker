@@ -19,10 +19,6 @@ func menuWin10(args ...string) (err error) {
 			Description: "Add update rules",
 			Function:    addWin10Update,
 		},
-		{
-			Description: "Test IPs",
-			Function:    testIpsWin10,
-		},
 	}
 
 	menuOptions := menu.NewOptions("Firewall rules for Windows 10", "'menu' for help [telemetry-firewall-win10]> ", 0, "")
@@ -44,10 +40,5 @@ func addWin10Spy(args ...string) error {
 
 func addWin10Update(args ...string) error {
 	addRules(data.OS_WIN10, data.RULES_UPDATE)
-	return nil
-}
-
-func testIpsWin10(args ...string) error {
-	testIps(data.OS_WIN10)
 	return nil
 }

@@ -19,10 +19,6 @@ func menuWin81(args ...string) (err error) {
 			Description: "Add update rules",
 			Function:    addWin81Update,
 		},
-		{
-			Description: "Test IPs",
-			Function:    testIpsWin81,
-		},
 	}
 
 	menuOptions := menu.NewOptions("Firewall rules for Windows 8.1", "'menu' for help [telemetry-firewall-win81]> ", 0, "")
@@ -44,10 +40,5 @@ func addWin81Spy(args ...string) error {
 
 func addWin81Update(args ...string) error {
 	addRules(data.OS_WIN81, data.RULES_UPDATE)
-	return nil
-}
-
-func testIpsWin81(args ...string) error {
-	testIps(data.OS_WIN81)
 	return nil
 }
