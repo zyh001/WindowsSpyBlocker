@@ -1,7 +1,7 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.80.12.54,Microsoft Azure,Netherlands,,
-13.107.3.128,Microsoft Azure,United States,2017-05-30,config.edge.skype.com
-,,,2017-05-27,edge.skype.com
+13.80.12.54,AS8075 Microsoft Corporation,NL,,
+13.107.3.128,AS8068 Microsoft Corporation,US,2017-06-02,edge.skype.com
+,,,2017-06-02,config.edge.skype.com
 ,,,2017-05-27,skypeecs-prod-edge-b.trafficmanager.net
 ,,,2017-05-26,s-0001.s-msedge.net
 ,,,2017-05-24,b.config.skype.com
@@ -22,7 +22,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-10-25,statics.teams.microsoft.com
 ,,,2016-09-09,statics.teams.skype.com
 ,,,2016-02-26,a.config.skype.com
-13.107.21.200,Microsoft Azure,United States,2017-05-11,ns5.bing.com
+13.107.21.200,AS8068 Microsoft Corporation,US,2017-05-11,mail.bing.com
+,,,2017-05-11,ns5.bing.com
 ,,,2017-05-11,que.bing.com
 ,,,2017-05-10,tc3.mm.bing.net
 ,,,2017-05-10,94.bing.com
@@ -31,12 +32,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-05-08,mindia.bing.com
 ,,,2017-05-08,mobile.bing.com
 ,,,2017-05-08,o15webui.dscrsprod.akadns.net
-,,,2017-05-07,star-r-bat-bing-com.a-0001.a-msedge.net
 ,,,2017-05-07,bat-bing-com.a-0001.a-msedge.net
 ,,,2017-05-07,2.bing.com
-,,,2017-05-06,aaajaj.bing.com
-,,,2017-05-06,mr0c.bing.com
 ,,,2017-05-06,ca.bing.com
+,,,2017-05-06,mr0c.bing.com
+,,,2017-05-06,aaajaj.bing.com
 ,,,2017-05-05,ck.bing.com
 ,,,2017-05-05,fail.bing.com
 ,,,2017-05-04,sg.bing.com
@@ -72,7 +72,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-12-13,ts2.mm.bing.net
 ,,,2016-12-13,ts3.mm.bing.net
 ,,,2016-10-27,www.iwindows.win
-40.77.224.8,Microsoft Azure,United States,2017-04-21,5kilzq.bn1.livefilestore.com
+40.77.224.8,AS8075 Microsoft Corporation,US,2017-04-21,5kilzq.bn1.livefilestore.com
 ,,,2017-04-17,cid-c22e9656ba5a3810.users.storage.live.com
 ,,,2017-04-16,cid-d6c8a9c3b7904030.users.storage.live.com
 ,,,2017-04-14,621a7a5418de230c.users.storage.live.com
@@ -97,21 +97,21 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-03-23,8mzjma.blu.livefilestore.com
 ,,,2017-03-23,cid-05c2bd2c684734a7.users.storage.live.com
 ,,,2017-03-23,5ofs6a.blu.livefilestore.com
-,,,2017-03-22,bsehdg.bay.livefilestore.com
 ,,,2017-03-22,byirda.bay.livefilestore.com
+,,,2017-03-22,bsehdg.bay.livefilestore.com
 ,,,2017-03-21,chplkg.bay.livefilestore.com
 ,,,2017-03-19,bsxyca.blu.livefilestore.com
 ,,,2017-03-18,bycfyw.bay.livefilestore.com
-,,,2017-03-11,1fjeoa.blu.livefilestore.com
 ,,,2017-03-11,amdqug.bay.livefilestore.com
 ,,,2017-03-11,bmcfqw.blu.livefilestore.com
+,,,2017-03-11,8wzqgq.blu.livefilestore.com
+,,,2017-03-11,1fjeoa.blu.livefilestore.com
 ,,,2017-03-11,8gzc6q.bay.livefilestore.com
 ,,,2017-03-11,861mag.blu.livefilestore.com
 ,,,2017-03-11,9wz40g.bay.livefilestore.com
-,,,2017-03-11,8wzqgq.blu.livefilestore.com
 ,,,2017-03-10,byfiles.storage.msn.com
-,,,2017-03-09,7ej8tg.bn1.livefilestore.com
 ,,,2017-03-09,docs.live.net
+,,,2017-03-09,7ej8tg.bn1.livefilestore.com
 ,,,2017-03-03,akvc7q.dm1.livefilestore.com
 ,,,2017-03-03,bpmqcg.bay.livefilestore.com
 ,,,2017-03-02,cid-162596e848be0b43.users.storage.live.com
@@ -122,28 +122,28 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-24,8o7hva.blu.livefilestore.com
 ,,,2017-02-24,aggcza.bay.livefilestore.com
 ,,,2017-02-20,bxtbhq.bay.livefilestore.com
-40.118.103.7,Microsoft Azure,Netherlands,2016-07-13,coldzone.tk
+40.118.103.7,AS8075 Microsoft Corporation,NL,2016-07-13,coldzone.tk
 ,,,2016-05-21,time.windows.com
 ,,,2016-04-26,time.microsoft.akadns.net
-64.4.54.22,Microsoft bingbot,United States,2017-05-28,stats.update.microsoft.com.nsatc.net
+64.4.54.22,AS8075 Microsoft Corporation,US,2017-05-28,stats.update.microsoft.com.nsatc.net
 ,,,2017-05-23,statsupdate.microsoft.com.nsatc.net
 ,,,2017-05-21,msnbot-64-4-54-22.search.msn.com
 ,,,2017-05-20,statsfe2.ws.microsoft.com.nsatc.net
 ,,,2017-02-25,statsfe2.ws.microsoft.com
 ,,,2016-09-14,statsfe2.update.microsoft.com.akadns.net
 ,,,2016-08-22,statsfe2.update.microsoft.com
-64.4.54.32,Microsoft bingbot,United States,2017-05-07,vortex-sandbox.data.microsoft.com
-65.52.100.11,Microsoft Hosting,United States,2015-10-03,watson.ppe.telemetry.microsoft.com
-65.52.100.93,Microsoft Hosting,United States,2015-10-03,wes.df.telemetry.microsoft.com
-65.55.108.23,Microsoft bingbot,United States,2015-03-04,msnbot-65-55-108-23.search.msn.com
+64.4.54.32,AS8075 Microsoft Corporation,US,2017-05-07,vortex-sandbox.data.microsoft.com
+65.52.100.11,AS8075 Microsoft Corporation,US,2015-10-03,watson.ppe.telemetry.microsoft.com
+65.52.100.93,AS8075 Microsoft Corporation,US,2015-10-03,wes.df.telemetry.microsoft.com
+65.55.108.23,AS8075 Microsoft Corporation,US,2015-03-04,msnbot-65-55-108-23.search.msn.com
 ,,,2014-11-20,vortex-win.data.microsoft.com
 ,,,2014-09-17,vortex.data.microsoft.com
-65.55.252.43,Microsoft Hosting,United States,2017-04-21,65.55.252.43
+65.55.252.43,AS8075 Microsoft Corporation,US,2017-04-21,65.55.252.43
 ,,,2017-01-12,msnbot-65-55-252-43.search.msn.com
 ,,,2016-12-31,watson.telemetry.microsoft.com
 ,,,2016-08-11,modern.watson.data.microsoft.com.akadns.net
 ,,,2016-04-18,watson.telemetry.microsoft.com.nsatc.net
-104.44.88.103,Microsoft Azure,United States,2017-02-24,rgbcpq.bay.livefilestore.com
+104.44.88.103,AS8075 Microsoft Corporation,US,2017-02-24,rgbcpq.bay.livefilestore.com
 ,,,2017-02-23,7elxtg.sn2.livefilestore.com
 ,,,2017-02-19,enqtmq.bay.livefilestore.com
 ,,,2017-02-14,5idxqw.blu.livefilestore.com
@@ -193,27 +193,27 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-10-25,skydrivesync.policies.live.net
 ,,,2016-10-25,ayvhdg.sn2.livefilestore.com
 ,,,2016-10-21,nvaqsa.bay.livefilestore.com
-104.215.146.200,Microsoft Azure,Singapore,2017-04-27,nexus.officeapps.live.com
+104.215.146.200,AS8075 Microsoft Corporation,SG,2017-04-27,nexus.officeapps.live.com
 ,,,2017-02-25,prod-w.nexus.live.com.akadns.net
-134.170.185.70,Microsoft Corporation,United States,2017-05-25,feedback.windows.com
+134.170.185.70,AS8075 Microsoft Corporation,US,2017-05-25,feedback.windows.com
 ,,,2015-10-27,mediaroomsds.microsoft.com
 ,,,2014-09-15,siweb.microsoft.akadns.net
 ,,,2014-08-08,hotfixv4.microsoft.com
 ,,,2014-08-07,privacy.microsoft.com
-168.63.18.79,Microsoft Azure,Netherlands,2017-03-03,nexusrules.officeapps.live.com
+168.63.18.79,AS8075 Microsoft Corporation,NL,2017-03-03,nexusrules.officeapps.live.com
 ,,,2017-01-08,prod.nexusrules.live.com.akadns.net
-207.46.7.252,Microsoft Azure,United States,2017-05-28,gateway.skyprod.akadns.net
+207.46.7.252,AS8075 Microsoft Corporation,US,2017-05-28,gateway.skyprod.akadns.net
 ,,,2017-04-17,ssw.live.com
 ,,,2016-06-09,ssw.live.com.nsatc.net
 ,,,2014-05-18,ssw.msn.com
 ,,,2013-10-15,ds.ssw.live.com
-207.46.101.29,Microsoft Azure,United States,2017-05-18,gateway.skyprod.akadns.net
+207.46.101.29,AS8075 Microsoft Corporation,US,2017-05-18,gateway.skyprod.akadns.net
 ,,,2017-05-02,ssw.live.com
 ,,,2016-06-04,ssw.live.com.nsatc.net
 ,,,2015-03-03,ssw.msn.com
 ,,,2013-10-17,ds.ssw.live.com
-207.46.153.155,Microsoft Azure,Hong Kong,2015-10-06,nexus.officeapps.live.com
-207.46.194.14,Microsoft bingbot,Ireland,2015-04-29,msnbot-207-46-194-14.search.msn.com
+207.46.153.155,AS8075 Microsoft Corporation,HK,2015-10-06,nexus.officeapps.live.com
+207.46.194.14,AS8075 Microsoft Corporation,IE,2015-04-29,msnbot-207-46-194-14.search.msn.com
 ,,,2014-11-09,msn.co.uk
 ,,,2014-10-17,g.msn.co.kr
 ,,,2014-10-15,g.microsoftonline.com
@@ -237,7 +237,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-01-20,g.msn.com.hk
 ,,,2014-01-13,g.msn.com.tw
 ,,,2014-01-10,g.jp.msn.com
-207.46.194.25,Microsoft bingbot,Ireland,2017-04-24,rad-emea.msn.com
+207.46.194.25,AS8075 Microsoft Corporation,IE,2017-04-24,rad-emea.msn.com
 ,,,2015-08-27,msnbot-207-46-194-25.search.msn.com
 ,,,2014-09-22,t.entertainment.uk.msn.com
 ,,,2014-09-16,tmxentertainment.emea.glbdns2.microsoft.com
@@ -252,10 +252,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-05-19,t.music.uk.msn.com
 ,,,2014-05-01,t.movies.uk.msn.com
 ,,,2014-04-30,t.unterhaltung.de.msn.com
-207.46.194.33,Microsoft bingbot,Ireland,2017-04-25,msnbot-207-46-194-33.search.msn.com
+207.46.194.33,AS8075 Microsoft Corporation,IE,2017-04-25,msnbot-207-46-194-33.search.msn.com
 ,,,2015-02-02,arc.msn.com.nsatc.net
 ,,,2014-10-15,mobileads.msn.com
 ,,,2014-09-16,mobileads.msn.com.nsatc.net
-207.46.194.40,Microsoft bingbot,Ireland,2014-12-12,mobileads.msn.com.nsatc.net
-207.46.223.94,Microsoft Azure,United States,,
-207.68.166.254,Microsoft Corporation,United States,2015-12-09,survey.watson.microsoft.com
+207.46.194.40,AS8075 Microsoft Corporation,IE,2014-12-12,mobileads.msn.com.nsatc.net
+207.46.223.94,AS8075 Microsoft Corporation,US,,
+207.68.166.254,AS8075 Microsoft Corporation,US,2015-12-09,survey.watson.microsoft.com

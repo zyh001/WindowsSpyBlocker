@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.5.1 (2017/06/03)
+
+* Move Test IPs in the Firewall menu to dev (Issue #65)
+* Add offline Windows Update info in the wiki (Issue #64)
+* Move 191.232.139 to update for Windows 7, 8.1 and 10 (Issue #15)
+
 ## 4.4.1 (2017/06/01)
 
 * Typo on IP for Windows 10 spy
