@@ -1,5 +1,19 @@
 # Changelog
 
+## 4.6.1 (2017/06/17)
+
+* New hosts for Windows 10 extra and spy 
+* New IPs for Windows 10 extra and spy 
+* Add IP range for Windows 10 spy (40.77.229)
+* Move 64.4.54 to extra for Windows 10
+* New hosts for Windows 8.1 spy and update
+* New IPs for Windows 8.1 spy
+* Move 64.4.54 to extra for Windows 8.1
+* New IPs for Windows 7 spy
+* Move 64.4.54 to extra for Windows 7
+* Improve Proxifier log parser
+* Improve menu
+
 ## 4.5.1 (2017/06/03)
 
 * Move Test IPs in the Firewall menu to dev (Issue #65)
