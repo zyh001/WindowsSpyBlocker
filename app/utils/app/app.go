@@ -14,6 +14,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 )
@@ -22,7 +23,7 @@ import (
 func DownloadLib(lib config.Lib) error {
 	if lib.OutputPath != "" {
 		if _, err := os.Stat(lib.OutputPath); os.IsNotExist(err) {
-			fmt.Printf("Creating folder %s... ", lib.OutputPath)
+			fmt.Printf("Creating folder %s... ", strings.TrimLeft(lib.OutputPath, pathu.Current))
 			if err := file.CreateSubfolder(lib.OutputPath); err != nil {
 				print.Error(err)
 				return err
@@ -39,14 +40,14 @@ func DownloadLib(lib config.Lib) error {
 			fmt.Print(" ")
 			print.Ok()
 
-			fmt.Printf("Unzipping %s... ", lib.Dest)
+			fmt.Printf("Unzipping %s... ", strings.TrimLeft(lib.Dest, pathu.Current))
 			if err := file.Unzip(lib.Dest, lib.OutputPath); err != nil {
 				print.Error(err)
 				return err
 			}
 			print.Ok()
 
-			fmt.Printf("Seeking checkfile %s... ", lib.Checkfile)
+			fmt.Printf("Seeking checkfile %s... ", strings.TrimLeft(lib.Checkfile, pathu.Current))
 			if _, err := os.Stat(lib.Checkfile); err != nil {
 				print.Error(err)
 				return err
