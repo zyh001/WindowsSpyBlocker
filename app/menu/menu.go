@@ -75,7 +75,7 @@ func (m *Menu) menu() {
 	fmt.Println()
 	color.New(color.FgHiCyan, color.Bold).Print("# ", m.Options.Name, "\n")
 
-	idCmd := 0
+	idCmd := 1
 	for i := range m.Commands {
 		// Command ID
 		color.New(color.Bold).Printf(" %d", idCmd)
@@ -134,7 +134,7 @@ Loop:
 			break
 		default:
 			if currentIdCmd, err := strconv.Atoi(cmd[0]); err == nil {
-				idCmd := 0
+				idCmd := 1
 				for i := range m.Commands {
 					if idCmd == currentIdCmd {
 						err := m.Commands[i].Function(cmd[1:]...)
