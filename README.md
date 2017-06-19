@@ -66,6 +66,7 @@ And about data collection, you can read the [Telemetry collection](../../wiki/mi
 * [OpenWrt adblock package](https://github.com/openwrt/packages/tree/master/net/adblock/files) : DNS based ad/abuse domain blocking
 * [Unified hosts file](https://github.com/StevenBlack/hosts) : Extending and consolidating hosts files from a variety of sources.
 * [FreeContributor](https://tbds.github.io/FreeContributor/) : Simple DNS Ad Blocker.
+* [WPD](https://getwpd.com/) : Customize Group Policy, Services and Tasks, responsible for data collection and sending, as you like. 
 
 ## How can i help ?
 
