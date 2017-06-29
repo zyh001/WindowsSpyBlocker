@@ -1,0 +1,57 @@
+<!-- WindowsSpyBlocker win81 spy -->
+<!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
+<!-- Last-Modified: Thu, 29 Jun 2017 23:14:46 +0200 -->
+
+<?xml version="1.0"?>
+<root>
+	<item name="win81_spy_13.79.239.69" rule="13.79.239.69" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_13.81.5.53" rule="13.81.5.53" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_13.81.59.242" rule="13.81.59.242" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_23.98.49.14" rule="23.98.49.14" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_23.99.49.121" rule="23.99.49.121" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_40.77.226.249" rule="40.77.226.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_40.77.226.250" rule="40.77.226.250" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_51.141.32.51" rule="51.141.32.51" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.164.240.59" rule="52.164.240.59" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.164.241.205" rule="52.164.241.205" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.178.147.240" rule="52.178.147.240" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.178.151.212" rule="52.178.151.212" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.178.178.16" rule="52.178.178.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.178.193.116" rule="52.178.193.116" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.178.223.23" rule="52.178.223.23" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_52.187.60.107" rule="52.187.60.107" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_64.4.27.50" rule="64.4.27.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_64.233.164.188" rule="64.233.164.188" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_64.233.166.108" rule="64.233.166.108" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_65.55.113.11" rule="65.55.113.11" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_65.55.113.12" rule="65.55.113.12" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_65.55.113.13" rule="65.55.113.13" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_65.55.252.43" rule="65.55.252.43" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_65.55.252.93" rule="65.55.252.93" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_65.55.252.190" rule="65.55.252.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_65.55.252.202" rule="65.55.252.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_66.119.144.157" rule="66.119.144.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_66.119.144.158" rule="66.119.144.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_66.119.144.189" rule="66.119.144.189" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_66.119.144.190" rule="66.119.144.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_104.43.137.66" rule="104.43.137.66" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_104.43.139.21" rule="104.43.139.21" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_104.43.228.53" rule="104.43.228.53" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_104.43.228.202" rule="104.43.228.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_104.43.237.169" rule="104.43.237.169" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_134.170.30.202" rule="134.170.30.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_134.170.30.203" rule="134.170.30.203" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_134.170.30.204" rule="134.170.30.204" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_134.170.30.221" rule="134.170.30.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_137.116.139.114" rule="137.116.139.114" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_137.117.235.16" rule="137.117.235.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_157.55.133.204" rule="157.55.133.204" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_157.56.194.72" rule="157.56.194.72" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_157.56.194.73" rule="157.56.194.73" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_157.56.194.74" rule="157.56.194.74" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_191.237.208.126" rule="191.237.208.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_191.239.50.18" rule="191.239.50.18" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_191.239.50.77" rule="191.239.50.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_191.239.52.100" rule="191.239.52.100" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_191.239.54.52" rule="191.239.54.52" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+</root>

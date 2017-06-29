@@ -1,0 +1,37 @@
+<!-- WindowsSpyBlocker win7 update -->
+<!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
+<!-- Last-Modified: Thu, 29 Jun 2017 23:14:46 +0200 -->
+
+<?xml version="1.0"?>
+<root>
+	<item name="win7_update_13.107.4.50" rule="13.107.4.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_23.103.189.125" rule="23.103.189.125" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_23.103.189.126" rule="23.103.189.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_23.103.189.157" rule="23.103.189.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_23.103.189.158" rule="23.103.189.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.138.112" rule="65.55.138.112" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.138.114" rule="65.55.138.114" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.138.126" rule="65.55.138.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.138.186" rule="65.55.138.186" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.163.221" rule="65.55.163.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.163.222" rule="65.55.163.222" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.51.190" rule="134.170.51.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.53.30" rule="134.170.53.30" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.58.0-134.170.58.255" rule="134.170.58.0-134.170.58.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.115.62" rule="134.170.115.62" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.165.248" rule="134.170.165.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.165.249" rule="134.170.165.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.165.251" rule="134.170.165.251" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.165.253" rule="134.170.165.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_157.56.96.123" rule="157.56.96.123" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.232.80.58" rule="191.232.80.58" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.232.80.60" rule="191.232.80.60" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.232.80.62" rule="191.232.80.62" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.232.139.253" rule="191.232.139.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.232.139.254" rule="191.232.139.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.234.72.183" rule="191.234.72.183" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.234.72.186" rule="191.234.72.186" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.234.72.188" rule="191.234.72.188" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_191.234.72.190" rule="191.234.72.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_207.46.114.58" rule="207.46.114.58" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+</root>

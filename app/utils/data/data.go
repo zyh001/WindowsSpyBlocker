@@ -7,6 +7,8 @@ import (
 	"sort"
 	"strings"
 
+	"encoding/xml"
+
 	"github.com/crazy-max/WindowsSpyBlocker/app/bindata"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
 )
@@ -24,9 +26,10 @@ const (
 	TYPE_FIREWALL = "firewall"
 	TYPE_HOSTS    = "hosts"
 
-	EXT_DNSCRYPT  = "dnscrypt"
-	EXT_OPENWRT   = "openwrt"
-	EXT_PROXIFIER = "proxifier"
+	EXT_DNSCRYPT   = "dnscrypt"
+	EXT_OPENWRT    = "openwrt"
+	EXT_PROXIFIER  = "proxifier"
+	EXT_SIMPLEWALL = "simplewall"
 
 	DNSCRYPT_HEAD  = ""
 	DNSCRYPT_VALUE = "%s"
@@ -51,6 +54,15 @@ iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 	PROXIFIER_IP_VALUE      = "%s;"
 	PROXIFIER_DOMAINS_HEAD  = ""
 	PROXIFIER_DOMAINS_VALUE = "%s;"
+
+	SIMPLEWALL_HEAD = `<!-- WindowsSpyBlocker %s %s -->
+<!-- Source: %s -->
+<!-- Last-Modified: %s -->
+
+<?xml version="1.0"?>
+<root>
+`
+	SIMPLEWALL_VALUE = "	<item name=\"%s_%s_%s\" rule=\"%s\" dir=\"0\" protocol=\"0\" version=\"0\" is_block=\"1\" is_enabled=\"1\" />"
 )
 
 // WilcardSubdomains are wildcard of domains for DNSCrypt and Proxifier
@@ -249,6 +261,11 @@ func GetExtIPs(ext string, system string, rule string) (ips, error) {
 		if err != nil {
 			return nil, err
 		}
+	} else if ext == EXT_SIMPLEWALL {
+		result, err = getSimplewallIPs(system, rule)
+		if err != nil {
+			return nil, err
+		}
 	}
 
 	return result, nil
@@ -402,6 +419,31 @@ func getProxifierHosts(system string, rule string) (hosts, error) {
 	for _, line := range lines {
 		line = strings.TrimRight(strings.TrimSpace(line), ";")
 		result = append(result, host{Domain: line})
+	}
+
+	sort.Sort(result)
+	return result, nil
+}
+
+func getSimplewallIPs(system string, rule string) (ips, error) {
+	var result ips
+
+	rulesPath := path.Join("data", EXT_SIMPLEWALL, system, rule, "blocklist.xml")
+	lines, err := getAsset(rulesPath)
+	if err != nil {
+		return result, err
+	}
+	rules, _ := bindata.Asset(rulesPath)
+
+	if len(lines) == 0 {
+		return result, fmt.Errorf("No IPs found in %s", rulesPath)
+	}
+
+	var root SimplewallRoot
+	xml.Unmarshal(rules, &root)
+
+	for _, item := range root.ItemList {
+		result = append(result, ip{IP: item.rule})
 	}
 
 	sort.Sort(result)

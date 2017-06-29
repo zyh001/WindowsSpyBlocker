@@ -71,3 +71,17 @@ func (slice hosts) Less(i, j int) bool {
 func (slice hosts) Swap(i, j int) {
 	slice[i], slice[j] = slice[j], slice[i]
 }
+
+type SimplewallRoot struct {
+	ItemList []SimplewallItem `xml:"item>"`
+}
+
+type SimplewallItem struct {
+	name       string
+	rule       string
+	dir        int
+	protocol   int
+	version    string
+	is_block   int
+	is_enabled int
+}

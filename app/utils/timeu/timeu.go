@@ -8,6 +8,8 @@ import (
 	"github.com/hako/durafmt"
 )
 
+var CurrentTime = time.Now().Local()
+
 // Track execution time
 func Track(start time.Time) {
 	fmt.Print("\nTime spent: ")

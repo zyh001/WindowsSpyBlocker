@@ -34,7 +34,7 @@ func Menu(args ...string) (err error) {
 			Function:    diff.Menu,
 		},
 		{
-			Description: "> Merge     : Merge firewall and hosts data to DNSCrypt, OpenWrt and Proxifier",
+			Description: "> Merge     : Merge firewall and hosts data to DNSCrypt, OpenWrt, simplewall and Proxifier",
 			Function:    merge.Menu,
 		},
 	}

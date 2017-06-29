@@ -11,6 +11,8 @@ import (
 	"sort"
 	"strings"
 
+	"time"
+
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
@@ -19,6 +21,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/stringsu"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/fatih/color"
 )
 
@@ -110,6 +113,11 @@ func _procFirewall(system string, rule string) {
 	if err != nil {
 		return
 	}
+
+	err = _procExtIPs(system, rule, data.EXT_SIMPLEWALL, firewallDataBuf)
+	if err != nil {
+		return
+	}
 }
 
 func _procHosts(system string, rule string) {
@@ -164,6 +172,7 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 	outputPath := ""
 	fileHead := ""
 	fileIpValue := ""
+
 	if ext == data.EXT_OPENWRT {
 		asCidr = true
 		outputPath = path.Join(pathu.Data, ext, system, rule, "firewall.user")
@@ -174,6 +183,11 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 		outputPath = path.Join(pathu.Data, ext, system, rule, "ips.txt")
 		fileHead = data.PROXIFIER_IP_HEAD
 		fileIpValue = data.PROXIFIER_IP_VALUE
+	} else if ext == data.EXT_SIMPLEWALL {
+		asCidr = false
+		outputPath = path.Join(pathu.Data, ext, system, rule, "blocklist.xml")
+		fileHead = fmt.Sprintf(data.SIMPLEWALL_HEAD, system, rule, config.URL, timeu.CurrentTime.Format(time.RFC1123Z))
+		fileIpValue = data.SIMPLEWALL_VALUE
 	}
 
 	color.New(color.FgMagenta).Printf("\nProcessing %s\n", ext)
@@ -223,8 +237,15 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 		if count > 0 {
 			outputFile.WriteString("\n")
 		}
-		outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP))
+		if ext == data.EXT_SIMPLEWALL {
+			outputFile.WriteString(fmt.Sprintf(fileIpValue, system, rule, ip.IP, ip.IP))
+		} else {
+			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP))
+		}
 		count++
+	}
+	if ext == data.EXT_SIMPLEWALL {
+		outputFile.WriteString("\n</root>")
 	}
 	print.Ok()
 
