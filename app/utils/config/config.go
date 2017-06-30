@@ -17,7 +17,7 @@ import (
 // App constants
 const (
 	NAME    = "WindowsSpyBlocker"
-	VERSION = "4.6.1"
+	VERSION = "4.7.1"
 	PACKAGE = "github.com/crazy-max/WindowsSpyBlocker"
 	URL     = "https://" + PACKAGE
 )
