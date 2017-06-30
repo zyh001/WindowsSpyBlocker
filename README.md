@@ -57,7 +57,7 @@ The `data` folder contains the blocking rules based on domains or IPs detected d
 * [OpenWrt](../../wiki/dataOpenWrt) : an open source project used on embedded devices to route network traffic.
 * [P2P](../../wiki/dataP2P) : a plaintext IP data format from PeerGuardian.
 * [Proxifier](../../wiki/dataProxifier) : an advanced proxy client on Windows with a flexible rule system.
-* [Simplewall](../../wiki/dataSimplewall) : a simple tool to configure Windows Filtering Platform (WFP).
+* [simplewall](../../wiki/dataSimplewall) : a simple tool to configure Windows Filtering Platform (WFP).
 
 And about data collection, you can read the [Telemetry collection](../../wiki/miscTelemetry) page for more info.
 
