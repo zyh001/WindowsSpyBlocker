@@ -55,7 +55,9 @@ The `data` folder contains the blocking rules based on domains or IPs detected d
 
 * [DNSCrypt](../../wiki/dataDNSCrypt) : a protocol for securing communications between a client and a DNS resolver.
 * [OpenWrt](../../wiki/dataOpenWrt) : an open source project used on embedded devices to route network traffic.
+* [P2P](../../wiki/dataP2P) : a plaintext IP data format from PeerGuardian.
 * [Proxifier](../../wiki/dataProxifier) : an advanced proxy client on Windows with a flexible rule system.
+* [Simplewall](../../wiki/dataSimplewall) : a simple tool to configure Windows Filtering Platform (WFP).
 
 And about data collection, you can read the [Telemetry collection](../../wiki/miscTelemetry) page for more info.
 
