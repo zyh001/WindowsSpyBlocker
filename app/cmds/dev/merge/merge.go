@@ -109,6 +109,11 @@ func _procFirewall(system string, rule string) {
 		return
 	}
 
+	err = _procExtIPs(system, rule, data.EXT_P2P, firewallDataBuf)
+	if err != nil {
+		return
+	}
+
 	err = _procExtIPs(system, rule, data.EXT_PROXIFIER, firewallDataBuf)
 	if err != nil {
 		return
@@ -178,6 +183,11 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 		outputPath = path.Join(pathu.Data, ext, system, rule, "firewall.user")
 		fileHead = fmt.Sprintf(data.OPENWRT_IP_HEAD, system, rule, config.URL)
 		fileIpValue = data.OPENWRT_IP_VALUE
+	} else if ext == data.EXT_P2P {
+		asCidr = false
+		outputPath = path.Join(pathu.Data, ext, system, rule+".txt")
+		fileHead = fmt.Sprintf(data.P2P_HEAD, system, rule, config.URL)
+		fileIpValue = data.P2P_VALUE
 	} else if ext == data.EXT_PROXIFIER {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, system, rule, "ips.txt")
@@ -237,7 +247,9 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 		if count > 0 {
 			outputFile.WriteString("\n")
 		}
-		if ext == data.EXT_SIMPLEWALL {
+		if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
+			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP+"-"+ip.IP))
+		} else if ext == data.EXT_SIMPLEWALL {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, system, rule, ip.IP, ip.IP))
 		} else {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP))

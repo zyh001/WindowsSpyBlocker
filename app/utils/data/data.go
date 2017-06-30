@@ -28,6 +28,7 @@ const (
 
 	EXT_DNSCRYPT   = "dnscrypt"
 	EXT_OPENWRT    = "openwrt"
+	EXT_P2P        = "p2p"
 	EXT_PROXIFIER  = "proxifier"
 	EXT_SIMPLEWALL = "simplewall"
 
@@ -49,6 +50,12 @@ iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 
 `
 	OPENWRT_DOMAINS_VALUE = "server=/%s/"
+
+	P2P_HEAD = `### WindowsSpyBlocker p2p %s %s
+### More info: %s
+
+`
+	P2P_VALUE = "WindowsSpyBlocker:%s"
 
 	PROXIFIER_IP_HEAD       = ""
 	PROXIFIER_IP_VALUE      = "%s;"
@@ -256,6 +263,11 @@ func GetExtIPs(ext string, system string, rule string) (ips, error) {
 		if err != nil {
 			return nil, err
 		}
+	} else if ext == EXT_P2P {
+		result, err = getP2pIPs(system, rule)
+		if err != nil {
+			return nil, err
+		}
 	} else if ext == EXT_PROXIFIER {
 		result, err = getProxifierIPs(system, rule)
 		if err != nil {
@@ -444,6 +456,37 @@ func getSimplewallIPs(system string, rule string) (ips, error) {
 
 	for _, item := range root.ItemList {
 		result = append(result, ip{IP: item.rule})
+	}
+
+	sort.Sort(result)
+	return result, nil
+}
+
+func getP2pIPs(system string, rule string) (ips, error) {
+	var result ips
+
+	rulesPath := path.Join("data", EXT_P2P, system, rule+".txt")
+	lines, err := getAsset(rulesPath)
+	if err != nil {
+		return result, err
+	}
+
+	if len(lines) == 0 {
+		return result, fmt.Errorf("No IPs found in %s", rulesPath)
+	}
+
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if !strings.HasPrefix(line, "WindowsSpyBlocker:") {
+			continue
+		}
+		ipRange := strings.TrimLeft(line, "WindowsSpyBlocker:")
+		lineAr := strings.Split(ipRange, "-")
+		if lineAr[0] == lineAr[1] {
+			result = append(result, ip{IP: lineAr[0]})
+		} else {
+			result = append(result, ip{IP: ipRange})
+		}
 	}
 
 	sort.Sort(result)
