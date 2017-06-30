@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.7.1 (2017/06/30)
+
+* Add p2p data format (Issue #69)
+* Add simplewall data format (Issue #68)
+* Move 23.97.178.173 to extra for Windows 10 (Issue #67)
+* Update go libs
+
 ## 4.6.1 (2017/06/17)
 
 * New hosts for Windows 10 extra and spy 
