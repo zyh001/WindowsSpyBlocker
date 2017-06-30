@@ -111,7 +111,7 @@
 
   <target name="glide" description="Install vendor">
     <exec executable="${glide}" failonerror="true" dir="${project.basedir}">
-      <arg value="up"/>
+      <arg value="install"/>
       <arg value="-v"/>
     </exec>
   </target>
