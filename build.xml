@@ -121,6 +121,7 @@
       <filterset refid="filterset.app"/>
     </copy>
     <exec executable="go" failonerror="true" dir="${project.basedir}">
+      <env key="GOARCH" value="386"/>
       <arg value="generate"/>
       <arg value="-v"/>
     </exec>
