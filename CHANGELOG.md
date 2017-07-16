@@ -1,5 +1,17 @@
 # Changelog
 
+## 4.8.1 (2017/07/16)
+
+* New hosts for Windows 10 extra and spy
+* New IPs for Windows 10 spy and update
+* Move 40.77.229 and 134.170.115.56 to update for Windows 10
+* New hosts for Windows 8.1 extra
+* New IPs for Windows 8.1 spy and update
+* New hosts for Windows 7 extra and spy
+* New IPs for Windows 7 spy
+* Use go-evtx instead of LogParser (Issue #73)
+* Merge version on upgrade
+
 ## 4.7.1 (2017/06/30)
 
 * Add p2p data format (Issue #69)
