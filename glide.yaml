@@ -21,3 +21,10 @@ import:
   - windows/registry
 - package: github.com/hako/durafmt
 - package: github.com/mcuadros/go-version
+- package: github.com/0xrawsec/golang-evtx
+  version: ~1.0.0
+- package: github.com/0xrawsec/golang-utils
+  subpackages:
+  - datastructs
+  - encoding
+  - log

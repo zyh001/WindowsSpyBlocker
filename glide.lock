@@ -1,6 +1,16 @@
-hash: 9e31989c69ac61a809e2087eb32c07e9afa641eb005621221cb794ee40660ad1
-updated: 2017-06-29T23:12:49.1436014+02:00
+hash: c1e8650736673284881b5d8972d5b7a6ebab079a0fcfce87c3b4bef23453cf14
+updated: 2017-07-16T03:12:04.4247785+02:00
 imports:
+- name: github.com/0xrawsec/golang-evtx
+  version: da92feca0cb4e888f5669e2446672ec0902e9723
+  subpackages:
+  - evtx
+- name: github.com/0xrawsec/golang-utils
+  version: 381e2f4400a9f5ed025e1154161b6b91eda07a7d
+  subpackages:
+  - datastructs
+  - encoding
+  - log
 - name: github.com/andybalholm/cascadia
   version: 349dd0209470eabd9514242c688c403c0926d266
 - name: github.com/cavaliercoder/grab
