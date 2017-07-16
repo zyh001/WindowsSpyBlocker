@@ -1,4 +1,4 @@
-### hosts win81 extra (15/04/2017 18:20)
+### hosts win81 extra (16/07/2017 03:52)
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 0.0.0.0 activation-v2.sls.microsoft.com
@@ -23,6 +23,7 @@
 0.0.0.0 www.msftncsi.com
 0.0.0.0 watson.telemetry.microsoft.com
 0.0.0.0 wdcp.microsoft.com
+0.0.0.0 wdcpalt.microsoft.com
 0.0.0.0 wscont.apps.microsoft.com
 0.0.0.0 wscont.apps.microsoft.com.edgesuite.net
 0.0.0.0 wscont1.apps.microsoft.com
