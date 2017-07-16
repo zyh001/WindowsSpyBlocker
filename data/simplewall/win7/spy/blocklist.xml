@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win7 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Thu, 29 Jun 2017 23:14:46 +0200 -->
+<!-- Last-Modified: Sun, 16 Jul 2017 16:02:06 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -12,6 +12,8 @@
 	<item name="win7_spy_51.141.32.51" rule="51.141.32.51" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_52.164.240.59" rule="52.164.240.59" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_52.164.241.205" rule="52.164.241.205" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_spy_52.164.251.44" rule="52.164.251.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_spy_52.178.38.151" rule="52.178.38.151" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_52.178.147.240" rule="52.178.147.240" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_52.178.151.212" rule="52.178.151.212" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_52.178.178.16" rule="52.178.178.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
