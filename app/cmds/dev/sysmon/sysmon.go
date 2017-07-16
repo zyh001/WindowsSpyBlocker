@@ -1,12 +1,10 @@
 package sysmon
 
 import (
-	"bytes"
 	"crypto/sha1"
 	"encoding/base64"
-	"encoding/csv"
+	"encoding/json"
 	"fmt"
-	"io"
 	"os"
 	"path"
 	"sort"
@@ -14,6 +12,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/0xrawsec/golang-evtx/evtx"
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/app"
@@ -30,7 +29,6 @@ import (
 )
 
 var libSysmon config.Lib
-var libLogparser config.Lib
 
 // Menu of Sysmon
 func Menu(args ...string) (err error) {
@@ -63,14 +61,6 @@ func init() {
 		Dest:       path.Join(pathu.Libs, "sysmon.zip"),
 		OutputPath: path.Join(pathu.Libs, "sysmon"),
 		Checkfile:  path.Join(pathu.Libs, "sysmon", "Sysmon.exe"),
-	}
-
-	libLogparser = config.Lib{
-		Url:        "https://dl.bintray.com/crazy/tools/LogParser-2.2.10.zip",
-		Checksum:   "222a587e5ba50dc886960c6d58ddcb8cc51c716f90fdbc845c1832909b7ac09f",
-		Dest:       path.Join(pathu.Libs, "logparser.zip"),
-		OutputPath: path.Join(pathu.Libs, "logparser"),
-		Checkfile:  path.Join(pathu.Libs, "logparser", "LogParser.exe"),
 	}
 }
 
@@ -200,10 +190,6 @@ func extractEventLog(args ...string) (err error) {
 	var eventsUnique EventsSortDate
 	var eventsHostsCount EventsSortHost
 
-	if err := app.DownloadLib(libLogparser); err != nil {
-		return nil
-	}
-
 	fmt.Printf("Seeking %s... ", config.App.Sysmon.EvtxPath)
 	if _, err := os.Stat(config.App.Sysmon.EvtxPath); err != nil {
 		print.Error(err)
@@ -211,91 +197,74 @@ func extractEventLog(args ...string) (err error) {
 	}
 	print.Ok()
 
-	fmt.Print("Extracting events with LogParser... ")
-	var logParserQuery bytes.Buffer
-	logParserQuery.WriteString("SELECT RecordNumber,TO_UTCTIME(TimeGenerated),EventID,SourceName,ComputerName,SID,Strings")
-	logParserQuery.WriteString(fmt.Sprintf(" FROM '%s'", strings.Replace(config.App.Sysmon.EvtxPath, "/", "\\", -1)))
-	logParserQuery.WriteString(" WHERE EventID = '3'")
-
-	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    path.Join(libLogparser.OutputPath, "LogParser.exe"),
-		Args:       []string{"-i:evt", "-o:csv", logParserQuery.String()},
-		WorkingDir: libLogparser.OutputPath,
-	})
+	fmt.Print("Extracting events... ")
+	ef, err := evtx.New(strings.Replace(config.App.Sysmon.EvtxPath, "/", "\\", -1))
 	if err != nil {
 		print.Error(err)
 		return nil
 	}
-
-	if cmdResult.ExitCode != 0 {
-		if len(cmdResult.Stderr) > 0 {
-			print.Error(fmt.Errorf("%d\n%s\n", cmdResult.ExitCode, cmdResult.Stderr))
-		} else {
-			print.Error(fmt.Errorf("%d\n", cmdResult.ExitCode))
-		}
-		return nil
-	}
-
-	if len(cmdResult.Stdout) == 0 {
-		print.Error(fmt.Errorf("No data found in %s\n", config.App.Sysmon.EvtxPath))
-		return nil
-	}
 	print.Ok()
 
-	lineCount := 0
-	excluded := [][]string{}
-
 	fmt.Println("Analyzing events...")
-	//ioutil.WriteFile("sysmon.txt", []byte(cmd.Stdout), 0644)
-	reader := csv.NewReader(strings.NewReader(cmdResult.Stdout))
-	reader.Comma = ','
-	reader.FieldsPerRecord = -1
-
-	for {
-		line, err := reader.Read()
-		if err == io.EOF {
-			break
-		} else if err != nil {
-			print.Error(err)
-			return err
-		} else if len(line) != 7 || line[2] != "3" {
+	lineCount := 0
+	excluded := []EvtxData{}
+	for e := range ef.FastEvents() {
+		if !e.IsEventID("3") {
 			continue
+		}
+
+		var eventx Evtx
+		err = json.Unmarshal(evtx.ToJSON(e), &eventx)
+		if err != nil {
+			err = fmt.Errorf("Cannot unmarshall event: %s", err.Error())
+			print.Error(err)
+			return nil
 		}
 
 		lineCount++
-		values := strings.Split(line[6], "|")
+		eventxData := eventx.Event.EventData
 
-		// Exclude IPv6
-		if values[12] == "true" {
-			excluded = append(excluded, line)
+		eventIpv6, _ := strconv.ParseBool(eventxData.DestinationIsIpv6)
+		if eventIpv6 {
+			excluded = append(excluded, eventxData)
 			continue
 		}
 
-		host := app.GetFilteredIpOrDomain(values[13])
-		if host == "" {
-			excluded = append(excluded, line)
-			continue
-		}
-		if values[14] != "" {
-			host = app.GetFilteredIpOrDomain(values[14])
-			if host == "" {
-				excluded = append(excluded, line)
+		domain := ""
+		if eventxData.DestinationHostname != "" {
+			domain = app.GetFilteredIpOrDomain(eventxData.DestinationHostname)
+			if domain == "" {
+				excluded = append(excluded, eventxData)
 				continue
 			}
 		}
 
-		eventDate, _ := time.Parse("2006-01-02 15:04:05.000", values[0])
-		eventPort, _ := strconv.Atoi(values[15])
+		ip := ""
+		if eventxData.DestinationIp != "" {
+			ip = app.GetFilteredIpOrDomain(eventxData.DestinationIp)
+			if ip == "" {
+				excluded = append(excluded, eventxData)
+				continue
+			}
+		}
+
+		host := domain
+		if host == "" {
+			host = ip
+		}
+
+		eventDate, _ := time.Parse("2006-01-02 15:04:05.000", eventxData.UtcTime)
+		eventPort, _ := strconv.Atoi(eventxData.DestinationPort)
 
 		fmt.Println("Found", host)
 		//color.New(color.FgCyan).Println(host)
 		event := Event{
 			Date:     eventDate,
-			Process:  values[3],
-			Protocol: values[5],
+			Process:  eventxData.Image,
+			Protocol: eventxData.Protocol,
 			Host:     host,
 			Port:     eventPort,
-			PortName: strings.TrimSpace(values[16]),
+			PortName: strings.TrimSpace(eventxData.DestinationPortName),
 			Whois:    whois.GetWhois(host),
 		}
 		eventsAll = append(eventsAll, event)
