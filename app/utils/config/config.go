@@ -113,6 +113,7 @@ func init() {
 		err = fmt.Errorf("Cannot unmarshall %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 		print.QuitFatal(err)
 	}
+	App.Version = newVersion
 
 	// Write config
 	cfgJson, _ := json.MarshalIndent(App, "", "  ")
