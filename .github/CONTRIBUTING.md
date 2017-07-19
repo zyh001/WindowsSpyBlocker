@@ -44,7 +44,7 @@ If it did not help you, [create a new issue](https://github.com/crazy-max/Window
 
 **Winver screenshot** :
 
-> Open a command prompt and type winver then take / save the screenshot of the window and drag the image file in this issue. For example: https://goo.gl/03d7gI
+> Open a command prompt and type winver then take / save the screenshot of the window and drag the image file in this issue. For example: http://bit.ly/2vA5sxR
 ```
 
 ## Closure policy
