@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.8.2 (2017/08/07)
+
+* New hosts for Windows 10 spy
+* New IPs for Windows 10 spy
+* Move 40.114.241.141 to extra for Windows 10
+* New hosts for Windows 8.1 spy and update
+* New IPs for Windows 8.1 spy
+* New IPs for Windows 7 spy
+
 ## 4.8.1 (2017/07/16)
 
 * New hosts for Windows 10 extra and spy
