@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win10 extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 16 Jul 2017 16:02:06 +0200 -->
+<!-- Last-Modified: Mon, 07 Aug 2017 00:14:27 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -11,6 +11,7 @@
 	<item name="win10_extra_40.77.224.8" rule="40.77.224.8" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.77.225.248" rule="40.77.225.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.77.226.0-40.77.226.255" rule="40.77.226.0-40.77.226.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_40.114.241.141" rule="40.114.241.141" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.118.103.7" rule="40.118.103.7" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.127.142.76" rule="40.127.142.76" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_64.4.54.0-64.4.54.255" rule="64.4.54.0-64.4.54.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

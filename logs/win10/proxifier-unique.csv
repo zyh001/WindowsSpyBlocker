@@ -1,74 +1,67 @@
 DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
-2017-06-17 20:59:54,svchost.exe,2160,System,win10.ipv6.microsoft.com,,
-2017-06-17 20:59:56,svchost.exe,2548,System,v10.vortex-win.data.microsoft.com,,
-2017-06-17 21:00:11,svchost.exe,2116,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-17 21:00:13,svchost.exe,2116,System,fe3.delivery.mp.microsoft.com,,
-2017-06-17 21:00:15,svchost.exe,2116,System,fe2.update.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-17 21:00:36,WindowsSpyBlocker.exe,4316,,raw.githubusercontent.com,AS54113 Fastly,US
-2017-06-17 21:05:24,svchost.exe,8448,System,inference.location.live.net,,
-2017-06-17 21:10:48,svchost.exe,5268,,cdn.content.prod.cms.msn.com,,
-2017-06-17 21:10:48,svchost.exe,5268,,oem.twimg.com,,
-2017-06-17 21:10:50,svchost.exe,8144,System,dmd.metaservices.microsoft.com,,
-2017-06-17 21:10:50,svchost.exe,8144,System,go.microsoft.com,AS16625 Akamai Technologies. Inc.,US
-2017-06-17 23:27:59,svchost.exe,2824,System,client.wns.windows.com,,
-2017-06-17 23:28:57,svchost.exe,2824,System,db5sch101101837.wns.windows.com,,
-2017-06-18 01:48:07,wermgr.exe,19512,System,www.msftconnecttest.com,,
-2017-06-18 03:46:38,wermgr.exe,25280,,www.msftconnecttest.com,,
-2017-06-18 04:54:12,CompatTelRunner.exe,28156,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-18 08:27:38,sihclient.exe,38560,System,sls.update.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-18 13:32:27,svchost.exe,52512,System,sls.update.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-18 13:32:28,InstallAgentUserBroker.exe,53324,,displaycatalog.mp.microsoft.com,,
-2017-06-18 18:43:27,Sysmon.exe,2704,System,ocsp.usertrust.com,,
-2017-06-18 19:59:01,OneDrive.exe,8588,,g.live.com,,
-2017-06-18 19:59:01,OneDrive.exe,8588,,oneclient.sfx.ms,,
-2017-06-18 20:43:18,svchost.exe,73616,System,download.windowsupdate.com,,
-2017-06-18 20:43:21,wermgr.exe,73420,System,watson.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-18 20:43:21,wermgr.exe,73420,,watson.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-19 01:48:28,svchost.exe,87928,System,g.live.com,,
-2017-06-19 01:48:28,svchost.exe,87928,System,oneclient.sfx.ms,,
-2017-06-19 19:59:01,OneDrive.exe,8588,,ocsp.msocsp.com,,
-2017-06-20 19:59:48,OneDriveSetup.exe,207216,,ls2web.redmond.corp.microsoft.com,,
-2017-06-21 03:00:00,AppHostRegistrationVerifier.exe,228252,,insiderppe.cloudapp.net,,
-2017-06-22 23:19:07,svchost.exe,5268,,sway-cdn.com,,
-2017-06-22 23:19:07,svchost.exe,5268,,candycrushsoda.king.com,,
-2017-06-22 23:19:08,svchost.exe,5268,,tile-service.weather.microsoft.com,,
-2017-06-22 23:19:08,svchost.exe,5268,,cdn.onenote.net,,
-2017-06-22 23:19:08,svchost.exe,357696,System,login.live.com,,
-2017-06-22 23:19:09,svchost.exe,2824,System,db6sch102090122.wns.windows.com,,
-2017-06-22 23:19:10,svchost.exe,357696,System,sr.symcd.com,,
-2017-06-22 23:19:19,svchost.exe,358824,System,time.windows.com,AS8075 Microsoft Corporation,US
-2017-06-22 23:19:22,svchost.exe,7140,System,licensing.mp.microsoft.com,,
-2017-06-22 23:19:33,svchost.exe,7140,System,storecatalogrevocation.storequality.microsoft.com,,
-2017-06-22 23:19:52,CompatTelRunner.exe,359768,System,telecommand.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
-2017-06-22 23:24:09,svchost.exe,2824,System,db5sch103102112.wns.windows.com,,
-2017-06-23 01:03:05,svchost.exe,2824,System,db5.wns.windows.com,,
-2017-06-23 01:03:05,svchost.exe,2824,System,db5sch101101022.wns.windows.com,,
-2017-06-23 15:04:34,dashost.exe,3232,System,169.254.177.157,,
-2017-06-23 15:05:25,svchost.exe,2824,System,db6sch102091607.wns.windows.com,,
-2017-06-23 20:06:01,svchost.exe,4628,System,geover-prod.do.dsp.mp.microsoft.com,,
-2017-06-23 20:06:01,svchost.exe,4628,System,geo-prod.do.dsp.mp.microsoft.com,,
-2017-06-23 20:06:01,svchost.exe,4628,System,kv101-prod.do.dsp.mp.microsoft.com,,
-2017-06-23 20:06:01,svchost.exe,4628,System,cp101-prod.do.dsp.mp.microsoft.com,,
-2017-06-23 20:06:01,svchost.exe,4628,System,au.download.windowsupdate.com,,
-2017-06-23 21:00:14,svchost.exe,2824,System,db5sch103100313.wns.windows.com,,
-2017-06-23 21:05:14,svchost.exe,420232,System,s2.symcb.com,,
-2017-06-23 21:30:15,svchost.exe,352,System,desktop-2gid6cr,,
-2017-06-24 17:01:08,svchost.exe,477944,System,fs.microsoft.com,,
-2017-06-24 19:45:40,Sysmon.exe,2704,System,ocsp.comodoca.com,,
-2017-06-24 21:58:39,svchost.exe,2824,System,db5sch101101317.wns.windows.com,,
-2017-06-24 21:58:40,svchost.exe,2824,System,db5sch101101034.wns.windows.com,,
-2017-07-08 09:40:12,OneDriveStandaloneUpdater.exe,1424320,,g.live.com,,
-2017-07-08 09:42:08,OneDriveStandaloneUpdater.exe,1424320,,www.microsoft.com,AS16625 Akamai Technologies. Inc.,US
-2017-07-15 18:45:22,svchost.exe,2824,System,db5sch101100127.wns.windows.com,,
-2017-07-15 18:45:32,svchost.exe,4592,System,continuum.dds.microsoft.com,,
-2017-07-15 18:46:38,Sysmon.exe,2704,System,crl.comodoca.com,,
-2017-07-15 18:46:58,svchost.exe,2824,System,db5sch103100510.wns.windows.com,,
-2017-07-15 18:48:18,svchost.exe,1933472,System,ocsp.msocsp.com,,
-2017-07-15 18:48:24,svchost.exe,2824,System,db6sch102091603.wns.windows.com,,
-2017-07-15 18:48:44,svchost.exe,4628,System,disc101-prod.do.dsp.mp.microsoft.com,,
-2017-07-15 18:48:44,svchost.exe,4628,System,emdl.ws.microsoft.com,,
-2017-07-15 18:51:29,svchost.exe,2824,System,db6sch102090907.wns.windows.com,,
-2017-07-15 18:52:23,svchost.exe,4628,System,array102-prod.do.dsp.mp.microsoft.com,,
-2017-07-15 18:52:23,svchost.exe,4628,System,array104-prod.do.dsp.mp.microsoft.com,,
-2017-07-15 18:55:09,MRT.exe,1887140,System,wdcp.microsoft.com,,
-2017-07-15 18:56:30,svchost.exe,2824,System,db5sch103091106.wns.windows.com,,
+2017-07-15 19:03:33,wermgr.exe,3168,System,www.msftconnecttest.com,,
+2017-07-15 19:03:33,wermgr.exe,3168,,www.msftconnecttest.com,,
+2017-07-15 19:03:40,svchost.exe,2692,System,win10.ipv6.microsoft.com,,
+2017-07-15 19:04:23,WindowsSpyBlocker.exe,4312,,raw.githubusercontent.com,AS54113 Fastly,US
+2017-07-15 19:04:26,WindowsSpyBlocker.exe,4312,,dl.bintray.com,AS16509 Amazon.com. Inc.,US
+2017-07-15 19:04:26,WindowsSpyBlocker.exe,4312,,akamai.bintray.com,AS20940 Akamai International B.V.,US
+2017-07-15 19:06:12,svchost.exe,2612,System,v10.vortex-win.data.microsoft.com,,
+2017-07-15 19:06:38,Sysmon.exe,2788,System,ocsp.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
+2017-07-15 19:06:58,svchost.exe,9060,System,geover-prod.do.dsp.mp.microsoft.com,,
+2017-07-15 19:07:01,svchost.exe,9060,System,geo-prod.do.dsp.mp.microsoft.com,,
+2017-07-15 19:07:02,svchost.exe,9060,System,kv101-prod.do.dsp.mp.microsoft.com,,
+2017-07-15 19:07:02,svchost.exe,9060,System,cp101-prod.do.dsp.mp.microsoft.com,,
+2017-07-15 19:07:02,svchost.exe,9060,System,disc101-prod.do.dsp.mp.microsoft.com,,
+2017-07-15 19:07:04,svchost.exe,9060,System,array102-prod.do.dsp.mp.microsoft.com,,
+2017-07-15 19:07:24,svchost.exe,9060,System,download.windowsupdate.com,AS8068 Microsoft Corporation,US
+2017-07-15 19:07:54,svchost.exe,2916,,oem.twimg.com,,
+2017-07-15 19:07:54,svchost.exe,2916,,cdn.content.prod.cms.msn.com,,
+2017-07-15 19:07:56,svchost.exe,2100,System,sls.update.microsoft.com,,
+2017-07-15 19:07:59,InstallAgentUserBroker.exe,8268,,displaycatalog.mp.microsoft.com,,
+2017-07-15 19:15:02,svchost.exe,2100,System,fe3.delivery.mp.microsoft.com,,
+2017-07-15 19:15:02,svchost.exe,2100,System,fe2.update.microsoft.com,AS8075 Microsoft Corporation,US
+2017-07-15 19:15:04,svchost.exe,9060,System,au.download.windowsupdate.com,,
+2017-07-15 19:15:08,svchost.exe,4556,System,inference.location.live.net,,
+2017-07-15 19:15:15,svchost.exe,4548,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-07-15 19:15:17,svchost.exe,5380,System,go.microsoft.com,AS20940 Akamai International B.V.,US
+2017-07-15 19:15:17,svchost.exe,5380,System,dmd.metaservices.microsoft.com,AS8075 Microsoft Corporation,US
+2017-07-15 19:15:18,svchost.exe,4948,System,login.live.com,,
+2017-07-15 19:15:18,svchost.exe,4948,System,ocsp.omniroot.com,,
+2017-07-15 19:15:18,svchost.exe,6988,System,licensing.mp.microsoft.com,,
+2017-07-15 19:15:29,svchost.exe,6988,System,storecatalogrevocation.storequality.microsoft.com,,
+2017-07-15 19:15:37,svchost.exe,9332,System,time.windows.com,AS8075 Microsoft Corporation,US
+2017-07-15 19:20:29,CompatTelRunner.exe,9916,System,telecommand.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
+2017-07-15 19:24:54,svchost.exe,2916,,cdn.onenote.net,,
+2017-07-15 19:24:54,svchost.exe,2916,,tile-service.weather.microsoft.com,,
+2017-07-15 19:30:03,taskhostw.exe,9988,,www.msftconnecttest.com,,
+2017-07-15 19:30:03,svchost.exe,5624,System,ocsp.msocsp.com,,
+2017-07-15 19:30:04,taskhostw.exe,9988,,watson.telemetry.microsoft.com,,
+2017-07-15 19:59:24,OneDrive.exe,7120,,g.live.com,,
+2017-07-15 19:59:24,OneDrive.exe,7120,,oneclient.sfx.ms,,
+2017-07-15 20:07:38,svchost.exe,9060,System,tlu.dl.delivery.mp.microsoft.com,,
+2017-07-15 20:29:00,svchost.exe,2836,System,client.wns.windows.com,,
+2017-07-15 20:29:00,svchost.exe,2836,System,db5sch103101314.wns.windows.com,,
+2017-07-16 00:54:38,Sysmon.exe,2788,System,ocsp.usertrust.com,AS35838 CCANET Limited,GB
+2017-07-16 04:19:59,svchost.exe,34160,System,pbs.twimg.com,,
+2017-07-16 04:20:13,msiexec.exe,34100,,s2.symcb.com,AS7922 Comcast Cable Communications. LLC,US
+2017-07-16 04:20:13,msiexec.exe,34100,,sv.symcd.com,AS7922 Comcast Cable Communications. LLC,US
+2017-07-16 04:25:00,msiexec.exe,33600,,ocsp.verisign.com,AS7922 Comcast Cable Communications. LLC,US
+2017-07-16 08:49:32,wermgr.exe,16884,System,oca.telemetry.microsoft.com,,
+2017-07-16 17:02:17,sihclient.exe,40608,System,sls.update.microsoft.com,,
+2017-07-17 03:25:50,CompatTelRunner.exe,70260,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-07-17 04:11:32,svchost.exe,2868,System,db5sch101110108.wns.windows.com,,
+2017-07-17 04:42:16,wermgr.exe,74160,System,watson.telemetry.microsoft.com,,
+2017-07-17 04:42:16,wermgr.exe,74160,,watson.telemetry.microsoft.com,,
+2017-07-17 17:28:40,svchost.exe,109764,System,g.live.com,,
+2017-07-17 17:28:40,svchost.exe,109764,System,oneclient.sfx.ms,,
+2017-07-17 19:59:25,OneDrive.exe,9064,,ocsp.msocsp.com,,
+2017-07-18 03:00:00,AppHostRegistrationVerifier.exe,135368,,insiderppe.cloudapp.net,,
+2017-07-22 17:07:16,svchost.exe,445168,System,fs.microsoft.com,,
+2017-07-23 04:43:09,Sysmon.exe,2776,System,ocsp.comodoca.com,AS35838 CCANET Limited,GB
+2017-07-25 20:00:19,OneDriveSetup.exe,657132,,ls2web.redmond.corp.microsoft.com,,
+2017-08-02 07:44:17,OneDriveStandaloneUpdater.exe,1164968,,g.live.com,,
+2017-08-02 07:46:14,OneDriveStandaloneUpdater.exe,1164968,,www.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-05 15:56:46,svchost.exe,4152,,sway-cdn.com,,
+2017-08-05 15:56:46,svchost.exe,4152,,candycrushsoda.king.com,,
+2017-08-05 15:56:48,svchost.exe,2868,System,db5sch103091212.wns.windows.com,,
+2017-08-05 15:56:57,svchost.exe,4016,System,continuum.dds.microsoft.com,,
