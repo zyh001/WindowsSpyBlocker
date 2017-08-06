@@ -1,6 +1,6 @@
-# Contributing guidelines
+# Support [![](https://isitmaintained.com/badge/resolution/crazy-max/WindowsSpyBlocker.svg)](https://isitmaintained.com/project/crazy-max/WindowsSpyBlocker)
 
-## Reporting an issue [![](https://isitmaintained.com/badge/resolution/crazy-max/WindowsSpyBlocker.svg)](https://isitmaintained.com/project/crazy-max/WindowsSpyBlocker)
+## Reporting an issue
 
 First,
 
@@ -49,5 +49,5 @@ If it did not help you, [create a new issue](https://github.com/crazy-max/Window
 
 ## Closure policy
 
-* Issues that don't have the information requested above (when applicable) will be closed immediately and the poster directed to the contributing guidelines.
+* Issues that don't have the information requested above (when applicable) will be closed immediately and the poster directed to the support guidelines.
 * Issues that go a week without a response from original poster are subject to closure at my discretion.
