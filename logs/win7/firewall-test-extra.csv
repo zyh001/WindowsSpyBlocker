@@ -3,25 +3,25 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 40.118.103.7,AS8075 Microsoft Corporation,NL,2016-07-13,coldzone.tk
 ,,,2016-05-21,time.windows.com
 ,,,2016-04-26,time.microsoft.akadns.net
-64.4.54.253,AS8075 Microsoft Corporation,US,2017-07-14,settings-win.data.microsoft.com
-,,,2017-07-13,geo.settings.data.microsoft.com.akadns.net
-,,,2017-07-12,settings.data.microsoft.com
-,,,2017-07-10,asimov-win.settings.data.microsoft.com.akadns.net
-,,,2017-06-30,asimov.settings.data.microsoft.com.akadns.net
-,,,2017-06-25,cy2.settings.data.microsoft.com.akadns.net
+64.4.54.253,AS8075 Microsoft Corporation,US,2017-08-05,cy2.settings.data.microsoft.com.akadns.net
+,,,2017-08-05,asimov-win.settings.data.microsoft.com.akadns.net
+,,,2017-08-01,asimov.settings.data.microsoft.com.akadns.net
+,,,2017-07-30,settings.data.microsoft.com
+,,,2017-07-29,geo.settings.data.microsoft.com.akadns.net
+,,,2017-07-25,settings-win.data.microsoft.com
 ,,,2017-02-21,64.4.54.253
 ,,,2016-04-01,onesettings-cy2.metron.live.com.nsatc.net
 ,,,2015-06-21,settings.data.glbdns2.microsoft.com
-64.4.54.254,AS8075 Microsoft Corporation,US,2017-07-16,web.vortex.data.microsoft.com
-,,,2017-07-13,vortex-win.data.microsoft.com
-,,,2017-07-09,asimov-win.vortex.data.microsoft.com.akadns.net
-,,,2017-07-07,geo.vortex.data.microsoft.com.akadns.net
-,,,2017-07-04,v20.vortex-win.data.microsoft.com
+64.4.54.254,AS8075 Microsoft Corporation,US,2017-08-06,asimov-win.vortex.data.microsoft.com.akadns.net
+,,,2017-08-06,web.vortex.data.microsoft.com
+,,,2017-08-05,geo.vortex.data.microsoft.com.akadns.net
+,,,2017-08-03,vortex-win.data.microsoft.com
+,,,2017-08-02,v10.vortex-win.data.microsoft.com
+,,,2017-08-01,v20.vortex-win.data.microsoft.com
+,,,2017-07-22,vortex.data.microsoft.com
+,,,2017-07-21,v10-win.vortex.data.microsoft.com.akadns.net
 ,,,2017-07-01,asimov.vortex.data.microsoft.com.akadns.net
-,,,2017-06-28,vortex.data.microsoft.com
-,,,2017-06-28,v10-win.vortex.data.microsoft.com.akadns.net
 ,,,2017-06-27,cy2.vortex.data.microsoft.com.akadns.net
-,,,2017-06-14,v10.vortex-win.data.microsoft.com
 ,,,2017-05-28,v20-asimov-win.vortex.data.microsoft.com.akadns.net
 ,,,2016-05-18,us.vortex-win.data.microsoft.com
 ,,,2016-04-25,web.vortex.data.microsoft.com.akadns.net
@@ -31,13 +31,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-14,web.vortex.data.metron.live.com.nsatc.net
 ,,,2016-03-14,v10.vortex-win.data.metron.live.com.nsatc.net
 ,,,2016-03-10,vortex.data.metron.live.com.nsatc.net
-65.52.98.231,AS8075 Microsoft Corporation,US,2017-07-10,activation.sls.microsoft.com.nsatc.net
-,,,2017-06-22,sls.microsoft.com.nsatc.net
-,,,2017-06-14,validation.sls.microsoft.com.nsatc.net
+65.52.98.231,AS8075 Microsoft Corporation,US,2017-08-05,validation.sls.microsoft.com.nsatc.net
+,,,2017-08-03,activation.sls.microsoft.com.nsatc.net
+,,,2017-07-31,sls.microsoft.com.nsatc.net
 ,,,2017-01-01,activation.sls.microsoft.com
-65.52.108.154,AS8075 Microsoft Corporation,US,2017-07-11,watson.microsoft.com
-,,,2017-07-07,msnbot-65-52-108-154.search.msn.com
-,,,2017-04-11,legacy.watson.data.microsoft.com.akadns.net
+65.52.108.154,AS8075 Microsoft Corporation,US,2017-08-05,legacy.watson.data.microsoft.com.akadns.net
+,,,2017-07-27,msnbot-65-52-108-154.search.msn.com
+,,,2017-07-11,watson.microsoft.com
 ,,,2016-09-03,watson.microsoft.com.nsatc.net
 207.46.194.14,AS8075 Microsoft Corporation,IE,2015-04-29,msnbot-207-46-194-14.search.msn.com
 ,,,2014-11-09,msn.co.uk
