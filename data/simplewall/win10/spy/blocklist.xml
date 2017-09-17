@@ -1,10 +1,11 @@
 <!-- WindowsSpyBlocker win10 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Mon, 07 Aug 2017 00:14:27 +0200 -->
+<!-- Last-Modified: Sun, 17 Sep 2017 14:20:28 +0200 -->
 
 <?xml version="1.0"?>
 <root>
 	<item name="win10_spy_13.68.82.8" rule="13.68.82.8" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_13.68.87.47" rule="13.68.87.47" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.68.88.129" rule="13.68.88.129" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.76.218.117" rule="13.76.218.117" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.76.219.191" rule="13.76.219.191" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -26,6 +27,7 @@
 	<item name="win10_spy_23.102.155.140" rule="23.102.155.140" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_23.103.182.126" rule="23.103.182.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.40.157" rule="40.69.40.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_40.69.222.109" rule="40.69.222.109" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.70.220.248" rule="40.70.220.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.76.1.176" rule="40.76.1.176" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.76.12.4" rule="40.76.12.4" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -154,6 +156,7 @@
 	<item name="win10_spy_191.237.218.239" rule="191.237.218.239" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_191.239.54.52" rule="191.239.54.52" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_195.138.255.0-195.138.255.255" rule="195.138.255.0-195.138.255.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_207.46.41.202" rule="207.46.41.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_207.68.166.254" rule="207.68.166.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_213.199.179.0-213.199.179.255" rule="213.199.179.0-213.199.179.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 </root>
