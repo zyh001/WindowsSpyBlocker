@@ -1,40 +1,53 @@
 DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
-2017-07-15 19:02:10,WindowsSpyBlocker.exe,1888,,raw.githubusercontent.com,AS54113 Fastly,US
-2017-07-15 19:02:16,WindowsSpyBlocker.exe,1888,,dl.bintray.com,AS16509 Amazon.com. Inc.,US
-2017-07-15 19:02:16,WindowsSpyBlocker.exe,1888,,akamai.bintray.com,AS20940 Akamai International B.V.,US
-2017-07-15 19:02:46,svchost.exe,892,System,wpad,,
-2017-07-15 19:07:02,Sysmon.exe,1344,System,csc3-2010-crl.verisign.com,AS7922 Comcast Cable Communications. LLC,US
-2017-07-15 19:07:02,Sysmon.exe,1344,System,ocsp.verisign.com,AS7922 Comcast Cable Communications. LLC,US
-2017-07-15 19:07:02,Sysmon.exe,1344,System,crl.verisign.com,AS7922 Comcast Cable Communications. LLC,US
-2017-07-15 19:07:02,svchost.exe,932,System,teredo.ipv6.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-15 19:20:34,svchost.exe,932,System,watson.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-15 19:35:07,svchost.exe,1188,,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-15 19:35:07,svchost.exe,1188,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-15 20:01:12,svchost.exe,312,System,www.microsoft.com,AS20940 Akamai International B.V.,US
-2017-07-15 20:01:12,svchost.exe,312,System,crl.microsoft.com,AS20940 Akamai International B.V.,US
-2017-07-15 21:38:28,svchost.exe,312,,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
-2017-07-16 01:00:01,svchost.exe,896,System,time.windows.com,AS8075 Microsoft Corporation,US
-2017-07-16 01:00:03,Sysmon.exe,1344,System,ocsp.usertrust.com,AS35838 CCANET Limited,GB
-2017-07-16 01:00:04,PING.EXE,3212,,time.windows.com,AS8075 Microsoft Corporation,US
-2017-07-16 01:22:11,CompatTelRunner.exe,3544,System,telecommand.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 01:46:00,svchost.exe,1188,System,vortex-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 01:46:00,svchost.exe,1188,,vortex-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 03:25:03,CompatTelRunner.exe,1108,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 03:25:05,DeviceDisplayObjectProvider.exe,3300,System,go.microsoft.com,AS20940 Akamai International B.V.,US
-2017-07-16 03:25:05,DeviceDisplayObjectProvider.exe,3300,System,dmd.metaservices.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 03:25:14,Sysmon.exe,1344,System,ocsp.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2017-07-16 03:35:24,svchost.exe,932,System,ds.download.windowsupdate.com,AS8068 Microsoft Corporation,US
-2017-07-16 03:35:24,svchost.exe,932,System,fe2.update.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 04:23:02,msiexec.exe,3192,,s2.symcb.com,AS7922 Comcast Cable Communications. LLC,US
-2017-07-16 04:23:02,msiexec.exe,3192,,sv.symcd.com,AS7922 Comcast Cable Communications. LLC,US
-2017-07-16 04:24:11,msiexec.exe,2328,,ocsp.verisign.com,AS7922 Comcast Cable Communications. LLC,US
-2017-07-16 04:30:43,svchost.exe,932,System,isatap,,
-2017-07-16 04:32:14,wermgr.exe,1892,System,watson.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-18 00:00:48,svchost.exe,620,System,crl3.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2017-07-18 00:00:48,svchost.exe,620,System,crl4.digicert.com,AS30081 CacheNetworks. Inc.,US
-2017-07-18 03:03:38,svchost.exe,932,System,download.windowsupdate.com,AS8068 Microsoft Corporation,US
-2017-07-20 04:27:28,Sysmon.exe,1360,System,ocsp.comodoca.com,AS35838 CCANET Limited,GB
-2017-07-21 01:54:32,svchost.exe,620,,crl.microsoft.com,AS20940 Akamai International B.V.,US
-2017-07-22 04:15:05,CompatTelRunner.exe,1172,System,wscont.apps.microsoft.com.edgesuite.net,,
-2017-07-23 03:05:59,svchost.exe,932,System,download.microsoft.com,,
-2017-07-30 00:00:30,svchost.exe,620,System,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
+2017-08-05 15:54:11,svchost.exe,932,System,isatap,,
+2017-08-06 22:53:18,WindowsSpyBlocker.exe,1492,,raw.githubusercontent.com,AS54113 Fastly,US
+2017-08-06 22:53:25,WindowsSpyBlocker.exe,1492,,dl.bintray.com,AS36351 SoftLayer Technologies Inc.,US
+2017-08-06 22:53:25,WindowsSpyBlocker.exe,1492,,akamai.bintray.com,AS20940 Akamai International B.V.,US
+2017-08-06 22:53:30,svchost.exe,896,System,wpad,,
+2017-08-06 22:53:30,Sysmon.exe,2428,System,ocsp.usertrust.com,AS35838 CCANET Limited,GB
+2017-08-06 22:54:08,svchost.exe,932,System,ds.download.windowsupdate.com,AS8068 Microsoft Corporation,US
+2017-08-06 22:54:08,svchost.exe,932,System,fe2.update.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-06 22:55:03,svchost.exe,932,System,download.windowsupdate.com,AS8068 Microsoft Corporation,US
+2017-08-06 22:55:24,Setup.exe,860,System,www.microsoft.com,AS3257 GTT Communications Inc.,US
+2017-08-06 22:55:24,Setup.exe,860,System,crl.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-06 22:59:07,Setup.exe,860,System,sqm.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-06 23:01:35,svchost.exe,924,System,teredo.ipv6.microsoft.com,,
+2017-08-06 23:01:35,Sysmon.exe,1384,System,ocsp.verisign.com,AS7922 Comcast Cable Communications. LLC,US
+2017-08-06 23:01:35,Sysmon.exe,1384,System,ocsp.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
+2017-08-06 23:01:35,Sysmon.exe,1384,System,crl3.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
+2017-08-06 23:01:35,Sysmon.exe,1384,System,crl4.digicert.com,AS30081 CacheNetworks. Inc.,US
+2017-08-06 23:01:35,Sysmon.exe,1384,System,csc3-2010-crl.verisign.com,AS7922 Comcast Cable Communications. LLC,US
+2017-08-06 23:02:41,svchost.exe,892,System,time.windows.com,AS8075 Microsoft Corporation,US
+2017-08-06 23:13:03,svchost.exe,924,System,watson.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-06 23:24:59,PING.EXE,1552,,time.windows.com,AS8075 Microsoft Corporation,US
+2017-08-06 23:25:25,svchost.exe,800,System,crl.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-06 23:30:17,svchost.exe,1196,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-06 23:30:17,svchost.exe,1196,,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-07 00:30:03,CompatTelRunner.exe,2724,System,telecommand.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-07 04:28:57,CompatTelRunner.exe,1788,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-07 04:29:31,svchost.exe,1196,,vortex-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-07 04:29:31,svchost.exe,1196,System,vortex-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-07 05:16:32,svchost.exe,800,System,crl3.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
+2017-08-07 05:16:32,svchost.exe,800,System,crl4.digicert.com,AS30081 CacheNetworks. Inc.,US
+2017-08-07 07:50:59,svchost.exe,800,,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
+2017-08-07 23:00:30,svchost.exe,800,System,www.microsoft.com,AS3257 GTT Communications Inc.,US
+2017-08-09 02:56:20,svchost.exe,800,,crl.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-09 10:01:28,svchost.exe,924,System,au.download.windowsupdate.com,AS8068 Microsoft Corporation,US
+2017-08-10 04:29:04,CompatTelRunner.exe,2172,System,gwx.windows.com,AS16625 Akamai Technologies. Inc.,US
+2017-08-10 04:29:08,Sysmon.exe,1384,System,ocsp.comodoca.com,AS35838 CCANET Limited,GB
+2017-08-13 01:00:30,svchost.exe,800,System,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
+2017-08-14 01:00:02,PING.EXE,2640,,clock,,
+2017-08-15 03:51:01,DeviceDisplayObjectProvider.exe,912,System,go.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-15 03:51:01,DeviceDisplayObjectProvider.exe,912,System,dmd.metaservices.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-17 02:27:13,svchost.exe,924,System,download.microsoft.com,,
+2017-08-17 02:27:37,MpCmdRun.exe,1220,System,watson.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-17 02:27:42,wermgr.exe,2692,System,watson.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-17 04:59:30,Sysmon.exe,1384,System,crl.usertrust.com,,
+2017-08-17 04:59:30,Sysmon.exe,1384,System,crl.comodoca.com,,
+2017-08-25 09:36:12,svchost.exe,800,,www.microsoft.com,AS3257 GTT Communications Inc.,US
+2017-08-29 04:02:43,WatAdminSvc.exe,3648,System,crl.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-29 04:02:43,WatAdminSvc.exe,3648,System,www.microsoft.com,AS3257 GTT Communications Inc.,US
+2017-08-29 04:02:44,WatAdminSvc.exe,3648,System,wpad,,
+2017-08-29 04:02:44,WatAdminSvc.exe,3648,System,go.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-29 04:02:44,WatAdminSvc.exe,3648,System,validation.sls.microsoft.com,,
+2017-09-16 04:42:20,CompatTelRunner.exe,3276,System,adl.windows.com,,
