@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.8.3 (2017/09/17)
+
+* New hosts for Windows 10 spy
+* New IPs for Windows 10 extra and spy
+* New hosts for Windows 8.1 update
+* New IPs for Windows 8.1 spy and update
+* New hosts for Windows 7 spy
+* Update libs
+* Upgrade to Go 1.9
+
 ## 4.8.2 (2017/08/07)
 
 * New hosts for Windows 10 spy
