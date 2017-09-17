@@ -1,47 +1,48 @@
 DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
-2017-07-15 19:02:27,WindowsSpyBlocker.exe,2776,,raw.githubusercontent.com,AS54113 Fastly,US
-2017-07-15 19:02:31,WindowsSpyBlocker.exe,2776,,dl.bintray.com,AS16509 Amazon.com. Inc.,US
-2017-07-15 19:02:31,WindowsSpyBlocker.exe,2776,,akamai.bintray.com,AS20940 Akamai International B.V.,US
-2017-07-15 19:03:45,svchost.exe,896,System,wpad,,
-2017-07-15 19:07:48,Sysmon.exe,1292,System,ocsp.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2017-07-15 19:15:23,Explorer.EXE,1628,,104.96.27.44,AS20940 Akamai International B.V.,NL
-2017-07-15 19:15:23,Explorer.EXE,1628,,104.101.161.120,AS20940 Akamai International B.V.,NL
-2017-07-15 19:49:53,Explorer.EXE,1628,,service.weather.microsoft.com,,
-2017-07-15 19:49:53,Explorer.EXE,1628,,fr-fr.appex-rf.msn.com,,
-2017-07-15 19:49:53,Explorer.EXE,1628,,finance.services.appex.bing.com,,
-2017-07-15 20:05:02,svchost.exe,828,System,isatap,,
-2017-07-15 20:28:59,Explorer.EXE,1628,,foodanddrink.tile.appex.bing.com,,
-2017-07-15 20:41:34,svchost.exe,828,System,statsfe2.update.microsoft.com,,
-2017-07-15 21:39:53,svchost.exe,828,System,go.microsoft.com,AS20940 Akamai International B.V.,US
-2017-07-15 21:39:53,svchost.exe,828,System,dmd.metaservices.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-15 22:19:53,svchost.exe,828,System,img.stb.s-msn.com,,
-2017-07-15 22:20:03,svchost.exe,828,,img.stb.s-msn.com,,
-2017-07-15 23:00:01,wsqmcons.exe,3996,System,sqm.telemetry.microsoft.com,,
-2017-07-15 23:46:32,svchost.exe,828,System,login.live.com,,
-2017-07-15 23:46:33,MRT.exe,2864,System,wdcp.microsoft.com,,
-2017-07-16 00:51:26,svchost.exe,828,System,fe2.update.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 01:06:30,svchost.exe,1168,System,vortex-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-16 04:25:34,msiexec.exe,2320,,ocsp.verisign.com,AS7922 Comcast Cable Communications. LLC,US
-2017-07-16 04:25:34,Sysmon.exe,1292,System,ocsp.usertrust.com,AS35838 CCANET Limited,GB
-2017-07-16 04:55:47,svchost.exe,260,,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
-2017-07-16 05:08:04,svchost.exe,856,System,watson.telemetry.microsoft.com,,
-2017-07-16 07:27:59,rundll32.exe,3792,,next-services.apps.microsoft.com,,
-2017-07-16 07:28:00,svchost.exe,856,System,sls.update.microsoft.com,,
-2017-07-16 07:28:16,WSHost.exe,1992,,next-services.apps.microsoft.com,,
-2017-07-16 16:19:58,svchost.exe,856,System,fe2.ws.microsoft.com,,
-2017-07-16 16:20:01,svchost.exe,856,System,download.windowsupdate.com,AS8068 Microsoft Corporation,US
-2017-07-16 16:20:07,svchost.exe,856,System,au.download.windowsupdate.com,,
-2017-07-16 16:28:29,svchost.exe,856,System,statsfe2.ws.microsoft.com,,
-2017-07-16 20:55:39,svchost.exe,260,System,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
-2017-07-18 04:56:13,PING.EXE,1472,,time.windows.com,AS8075 Microsoft Corporation,US
-2017-07-18 04:56:13,svchost.exe,904,System,time.windows.com,AS8075 Microsoft Corporation,US
-2017-07-19 04:56:26,svchost.exe,1148,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
-2017-07-20 17:02:50,svchost.exe,856,System,bg4.v4.emdl.ws.microsoft.com,,
-2017-07-20 17:03:01,svchost.exe,856,System,bg4.v4.a.dl.ws.microsoft.com,,
-2017-07-21 05:05:02,Sysmon.exe,1312,System,ocsp.comodoca.com,AS35838 CCANET Limited,GB
-2017-07-24 05:05:02,svchost.exe,856,System,ocsp.msocsp.com,,
-2017-07-24 16:49:31,svchost.exe,856,System,000043-1.l.windowsupdate.com,,
-2017-07-27 01:04:39,Sysmon.exe,1312,System,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
-2017-08-02 01:05:45,rundll32.exe,2716,System,ocsp.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2017-08-05 15:48:22,svchost.exe,856,System,img.s-msn.com,,
-2017-08-05 15:48:29,svchost.exe,856,,img.s-msn.com,,
+2017-08-06 22:53:55,svchost.exe,844,System,fe2.update.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-06 22:53:56,svchost.exe,844,System,img.stb.s-msn.com,,
+2017-08-06 22:53:56,svchost.exe,844,System,fe2.ws.microsoft.com,,
+2017-08-06 22:53:58,svchost.exe,904,System,wpad,,
+2017-08-06 22:54:08,svchost.exe,844,System,dmd.metaservices.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-06 22:54:08,svchost.exe,844,System,go.microsoft.com,AS20940 Akamai International B.V.,US
+2017-08-06 22:54:11,svchost.exe,844,System,au.download.windowsupdate.com,AS8068 Microsoft Corporation,US
+2017-08-06 22:54:32,svchost.exe,844,System,download.windowsupdate.com,AS8068 Microsoft Corporation,US
+2017-08-06 22:54:32,svchost.exe,844,,download.windowsupdate.com,AS8068 Microsoft Corporation,US
+2017-08-06 23:02:52,rundll32.exe,3892,,next-services.apps.microsoft.com,,
+2017-08-06 23:03:00,svchost.exe,816,System,login.live.com,,
+2017-08-06 23:03:12,WSHost.exe,3984,,next-services.apps.microsoft.com,,
+2017-08-06 23:03:31,svchost.exe,316,System,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
+2017-08-06 23:11:14,svchost.exe,816,System,statsfe2.ws.microsoft.com,,
+2017-08-06 23:11:15,svchost.exe,816,System,statsfe2.update.microsoft.com,,
+2017-08-06 23:59:51,svchost.exe,816,System,isatap,,
+2017-08-07 00:32:11,svchost.exe,1188,System,vortex-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-07 03:00:01,wsqmcons.exe,1080,System,sqm.telemetry.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-07 20:44:02,svchost.exe,816,System,sls.update.microsoft.com,,
+2017-08-08 04:05:41,svchost.exe,896,System,time.windows.com,AS8075 Microsoft Corporation,US
+2017-08-08 04:05:43,PING.EXE,1768,,time.windows.com,AS8075 Microsoft Corporation,US
+2017-08-08 15:43:43,svchost.exe,316,,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
+2017-08-09 02:09:52,svchost.exe,816,System,ocsp.msocsp.com,,
+2017-08-09 11:22:33,svchost.exe,816,System,bg3.v4.emdl.ws.microsoft.com,,
+2017-08-09 11:23:44,svchost.exe,816,System,bg3.v4.a.dl.ws.microsoft.com,,
+2017-08-09 22:59:49,svchost.exe,1188,System,settings-win.data.microsoft.com,AS8075 Microsoft Corporation,US
+2017-08-12 16:00:00,wsqmcons.exe,2752,System,ctldl.windowsupdate.com,AS20940 Akamai International B.V.,US
+2017-08-14 22:59:42,svchost.exe,816,System,win8.ipv6.microsoft.com,,
+2017-08-19 01:08:48,wermgr.exe,3196,System,watson.telemetry.microsoft.com,,
+2017-08-19 04:02:06,svchost.exe,816,System,watson.telemetry.microsoft.com,,
+2017-08-27 02:01:32,svchost.exe,816,,statsfe2.update.microsoft.com,,
+2017-08-29 23:09:29,svchost.exe,816,,login.live.com,,
+2017-09-02 18:24:03,rundll32.exe,3516,,ocsp.omniroot.com,,
+2017-09-04 23:09:19,svchost.exe,816,System,ocsp.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
+2017-09-12 23:09:12,svchost.exe,816,System,www.microsoft.com,AS3257 GTT Communications Inc.,US
+2017-09-17 00:32:19,rundll32.exe,3296,System,ocsp.digicert.com,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
+2017-09-17 00:32:25,rundll32.exe,3296,System,ocsp.verisign.com,AS7922 Comcast Cable Communications. LLC,US
+2017-09-17 13:17:08,Explorer.EXE,2756,,fr-fr.appex-rf.msn.com,,
+2017-09-17 13:17:08,Explorer.EXE,2756,,foodanddrink.tile.appex.bing.com,,
+2017-09-17 13:17:08,Explorer.EXE,2756,,finance.services.appex.bing.com,,
+2017-09-17 13:17:08,Explorer.EXE,2756,,service.weather.microsoft.com,,
+2017-09-17 13:17:15,svchost.exe,816,,img.stb.s-msn.com,,
+2017-09-17 13:17:47,WindowsSpyBlocker.exe,4064,,raw.githubusercontent.com,AS54113 Fastly,US
+2017-09-17 13:17:51,WindowsSpyBlocker.exe,4064,,dl.bintray.com,AS36351 SoftLayer Technologies Inc.,US
+2017-09-17 13:17:51,WindowsSpyBlocker.exe,4064,,akamai.bintray.com,AS20940 Akamai International B.V.,US
+2017-09-17 13:17:54,Sysmon.exe,3392,System,ocsp.comodoca.com,AS35838 CCANET Limited,GB
+2017-09-17 13:17:54,Sysmon.exe,3392,System,ocsp.usertrust.com,AS35838 CCANET Limited,GB

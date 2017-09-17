@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win81 update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 16 Jul 2017 16:02:06 +0200 -->
+<!-- Last-Modified: Sun, 17 Sep 2017 14:20:28 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -9,6 +9,8 @@
 	<item name="win81_update_23.103.189.126" rule="23.103.189.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_23.103.189.157" rule="23.103.189.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_23.103.189.158" rule="23.103.189.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_52.183.47.176" rule="52.183.47.176" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_52.183.118.171" rule="52.183.118.171" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_65.55.138.0-65.55.138.255" rule="65.55.138.0-65.55.138.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_65.55.163.0-65.55.163.255" rule="65.55.163.0-65.55.163.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_65.55.242.254" rule="65.55.242.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -39,6 +41,7 @@
 	<item name="win81_update_157.56.96.123" rule="157.56.96.123" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_157.56.96.157" rule="157.56.96.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_191.232.80.53" rule="191.232.80.53" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_191.232.80.58" rule="191.232.80.58" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_191.232.80.60" rule="191.232.80.60" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_191.232.80.62" rule="191.232.80.62" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_191.232.139.182" rule="191.232.139.182" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
