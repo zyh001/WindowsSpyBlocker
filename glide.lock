@@ -1,12 +1,12 @@
-hash: c1e8650736673284881b5d8972d5b7a6ebab079a0fcfce87c3b4bef23453cf14
-updated: 2017-09-17T13:59:24.3234954+02:00
+hash: fb79af8865c51db2f6a2d7d1605ef6cce7655dbeafd9be8d221b38905e152ca3
+updated: 2017-10-17T01:50:08.3093021+02:00
 imports:
 - name: github.com/0xrawsec/golang-evtx
-  version: 97660791925db429bd791552b797bdb5a7f3eb5f
+  version: bd7e3686e12fa8f16624801208fe70e5e9a90fc7
   subpackages:
   - evtx
 - name: github.com/0xrawsec/golang-utils
-  version: 381e2f4400a9f5ed025e1154161b6b91eda07a7d
+  version: a91940f71d0c3e218876287793766ce0ed294450
   subpackages:
   - datastructs
   - encoding
