@@ -1,10 +1,10 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.80.12.54,AS8075 Microsoft Corporation,NL,,
-40.118.103.7,AS8075 Microsoft Corporation,NL,2016-07-13,coldzone.tk
+13.80.12.54,Microsoft Azure,Netherlands,,
+40.118.103.7,Microsoft Azure,Netherlands,2016-07-13,coldzone.tk
 ,,,2016-05-21,time.windows.com
 ,,,2016-04-26,time.microsoft.akadns.net
-40.118.106.130,AS8075 Microsoft Corporation,NL,,
-64.4.54.22,AS8075 Microsoft Corporation,US,2017-08-25,stats1.update.microsoft.com.nsatc.net
+40.118.106.130,Microsoft Azure,Netherlands,,
+64.4.54.22,Microsoft bingbot,United States,2017-08-25,stats1.update.microsoft.com.nsatc.net
 ,,,2017-08-12,statsfe2.update.microsoft.com.akadns.net
 ,,,2017-08-11,statsupdate.microsoft.com.nsatc.net
 ,,,2017-07-28,stats.update.microsoft.com.nsatc.net
@@ -12,26 +12,26 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-05-21,msnbot-64-4-54-22.search.msn.com
 ,,,2017-02-25,statsfe2.ws.microsoft.com
 ,,,2016-08-22,statsfe2.update.microsoft.com
-64.4.54.253,AS8075 Microsoft Corporation,US,2017-09-16,cy2.settings.data.microsoft.com.akadns.net
-,,,2017-09-15,asimov.settings.data.microsoft.com.akadns.net
-,,,2017-09-12,asimov-win.settings.data.microsoft.com.akadns.net
-,,,2017-09-12,settings.data.microsoft.com
-,,,2017-09-08,settings-win.data.microsoft.com
-,,,2017-08-25,geo.settings.data.microsoft.com.akadns.net
+64.4.54.253,Microsoft bingbot,United States,2017-10-16,geo.settings.data.microsoft.com.akadns.net
+,,,2017-10-16,cy2.settings.data.microsoft.com.akadns.net
+,,,2017-10-08,settings.data.microsoft.com
+,,,2017-10-07,asimov-win.settings.data.microsoft.com.akadns.net
+,,,2017-09-30,settings-win.data.microsoft.com
+,,,2017-09-29,asimov.settings.data.microsoft.com.akadns.net
 ,,,2017-08-16,64.4.54.253
 ,,,2016-04-01,onesettings-cy2.metron.live.com.nsatc.net
 ,,,2015-06-21,settings.data.glbdns2.microsoft.com
-64.4.54.254,AS8075 Microsoft Corporation,US,2017-09-16,web.vortex.data.microsoft.com
-,,,2017-09-16,vortex-win.data.microsoft.com
-,,,2017-09-14,geo.vortex.data.microsoft.com.akadns.net
-,,,2017-09-14,v10.vortex-win.data.microsoft.com
-,,,2017-09-12,vortex.data.microsoft.com
-,,,2017-09-03,v20.vortex-win.data.microsoft.com
-,,,2017-08-31,asimov-win.vortex.data.microsoft.com.akadns.net
-,,,2017-08-24,v10-win.vortex.data.microsoft.com.akadns.net
+64.4.54.254,Microsoft bingbot,United States,2017-10-17,v10.vortex-win.data.microsoft.com
+,,,2017-10-15,v10-win.vortex.data.microsoft.com.akadns.net
+,,,2017-10-14,web.vortex.data.microsoft.com
+,,,2017-10-12,asimov-win.vortex.data.microsoft.com.akadns.net
+,,,2017-10-11,vortex.data.microsoft.com
+,,,2017-10-11,geo.vortex.data.microsoft.com.akadns.net
+,,,2017-10-09,v20.vortex-win.data.microsoft.com
+,,,2017-10-04,cy2.vortex.data.microsoft.com.akadns.net
+,,,2017-10-03,asimov.vortex.data.microsoft.com.akadns.net
+,,,2017-10-03,vortex-win.data.microsoft.com
 ,,,2017-08-24,web.vortex.data.microsoft.com.akadns.net
-,,,2017-08-15,asimov.vortex.data.microsoft.com.akadns.net
-,,,2017-08-09,cy2.vortex.data.microsoft.com.akadns.net
 ,,,2017-05-28,v20-asimov-win.vortex.data.microsoft.com.akadns.net
 ,,,2016-05-18,us.vortex-win.data.microsoft.com
 ,,,2016-04-06,vortex-win.data.metron.live.com.nsatc.net
@@ -40,19 +40,22 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-14,web.vortex.data.metron.live.com.nsatc.net
 ,,,2016-03-14,v10.vortex-win.data.metron.live.com.nsatc.net
 ,,,2016-03-10,vortex.data.metron.live.com.nsatc.net
-65.52.108.29,AS8075 Microsoft Corporation,US,2016-09-23,modern.watson.data.microsoft.com.akadns.net
+65.52.108.29,Microsoft bingbot,United States,2016-09-23,modern.watson.data.microsoft.com.akadns.net
 ,,,2016-09-23,watson.telemetry.microsoft.com
 ,,,2016-09-11,msnbot-65-52-108-29.search.msn.com
 ,,,2016-06-04,watson.telemetry.microsoft.com.nsatc.net
-65.52.108.59,AS8075 Microsoft Corporation,US,2017-03-14,platform.maps.glbdns2.microsoft.com
+65.52.108.59,Microsoft bingbot,United States,2017-03-14,platform.maps.glbdns2.microsoft.com
 ,,,2017-02-10,dev.virtualearth.net
-65.52.108.153,AS8075 Microsoft Corporation,US,2017-08-21,statsfe2.ws.microsoft.com.nsatc.net
+65.52.108.153,Microsoft bingbot,United States,2017-08-21,statsfe2.ws.microsoft.com.nsatc.net
 ,,,2017-08-15,stats.update.microsoft.com.nsatc.net
 ,,,2017-08-14,statsupdate.microsoft.com.nsatc.net
 ,,,2017-07-06,statsfe2.ws.microsoft.com
 ,,,2017-04-25,statsfe2.update.microsoft.com.akadns.net
 ,,,2015-01-28,msnbot-65-52-108-153.search.msn.com
 ,,,2015-01-27,statsfe2.update.microsoft.com
+157.55.134.140,AS8075 Microsoft Corporation,US,2017-03-14,login.live.com
+157.55.135.128,AS8075 Microsoft Corporation,US,2017-03-07,login.live.com
+157.55.135.130,AS8075 Microsoft Corporation,US,2017-03-14,login.live.com
 204.79.197.200,AS8068 Microsoft Corporation,US,2015-02-11,9d8ed238ad3d42eaab2b48076b2a9412.clo.footprintdns.com
 ,,,2015-01-05,bgfr.net
 ,,,2014-11-18,bi.zaixian-fanyi.com

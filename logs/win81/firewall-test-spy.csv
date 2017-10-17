@@ -1,9 +1,11 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.78.184.44,AS8075 Microsoft Corporation,US,,
+13.78.184.44,AS8075 Microsoft Corporation,US,2017-10-08,statsfe2.update.microsoft.com.akadns.net
+,,,2017-10-04,stats1.update.microsoft.com.nsatc.net
+,,,2017-10-01,statsupdate.microsoft.com.nsatc.net
 13.79.239.69,AS8075 Microsoft Corporation,IE,,
-13.81.5.53,AS8075 Microsoft Corporation,NL,2017-09-11,wdcpeurope.microsoft.akadns.net
-13.81.59.242,AS8075 Microsoft Corporation,NL,,
-23.98.49.14,AS8075 Microsoft Corporation,US,2015-09-10,appexplatform.blob.core.windows.net
+13.81.5.53,AS8075 Microsoft Corporation,NL,2017-10-07,wdcpeurope.microsoft.akadns.net
+13.81.59.242,Microsoft Azure,Netherlands,,
+23.98.49.14,Microsoft Azure,United States,2015-09-10,appexplatform.blob.core.windows.net
 ,,,2015-09-08,9104recordmotion.blob.core.windows.net
 ,,,2015-06-30,cloud.tql.com
 ,,,2015-06-05,buffalousercontent.blob.core.windows.net
@@ -53,91 +55,106 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-02-16,dmcconfig.blob.core.windows.net
 ,,,2014-02-07,chambermaster.blob.core.windows.net
 ,,,2013-12-30,bbcertificate.blob.core.windows.net
-23.99.49.121,AS8075 Microsoft Corporation,US,2017-09-12,telecommand0.cloudapp.net
+23.99.49.121,Microsoft Azure,United States,2017-10-16,telecommand0.cloudapp.net
 ,,,2017-08-12,tele.trafficmanager.net
 40.77.226.249,AS8075 Microsoft Corporation,IE,2017-08-10,db5.settings.data.microsoft.com.akadns.net
-40.77.226.250,AS8075 Microsoft Corporation,IE,2017-09-11,db5.vortex.data.microsoft.com.akadns.net
+40.77.226.250,AS8075 Microsoft Corporation,IE,2017-10-15,db5.vortex.data.microsoft.com.akadns.net
+,,,2017-09-26,geo.vortex.data.microsoft.com.akadns.net
 ,,,2017-09-06,vortex-win.data.microsoft.com
 40.77.228.92,AS8075 Microsoft Corporation,US,2017-07-25,modern.watson.data.microsoft.com.akadns.net
 ,,,2017-01-06,watson.telemetry.microsoft.com
 51.141.32.51,AS8075 Microsoft Corporation,GB,,
-52.164.231.25,AS8075 Microsoft Corporation,IE,,
+52.164.231.25,Microsoft Azure,Ireland,,
 52.164.240.59,AS8075 Microsoft Corporation,IE,,
 52.164.241.205,AS8075 Microsoft Corporation,IE,,
-52.164.251.44,AS8075 Microsoft Corporation,IE,2017-07-14,wdcpeurope.microsoft.akadns.net
+52.164.251.44,AS8075 Microsoft Corporation,IE,2017-09-26,wdcpeurope.microsoft.akadns.net
 52.178.147.240,AS8075 Microsoft Corporation,IE,,
 52.178.151.212,AS8075 Microsoft Corporation,IE,,
-52.178.178.16,AS8075 Microsoft Corporation,IE,2017-08-14,db5.settings.data.microsoft.com.akadns.net
-52.178.193.116,AS8075 Microsoft Corporation,IE,2017-04-10,spyneteurope.microsoft.akadns.net
-52.178.223.23,AS8075 Microsoft Corporation,IE,,
-52.187.60.107,AS8075 Microsoft Corporation,SG,,
-64.4.27.50,AS8075 Microsoft Corporation,US,2017-08-31,fe2.ws.microsoft.com
-,,,2017-08-28,fe2.ws.microsoft.com.nsatc.net
+52.178.178.16,AS8075 Microsoft Corporation,IE,2017-09-21,db5.settings.data.microsoft.com.akadns.net
+52.178.193.116,Microsoft Azure,Ireland,2017-04-10,spyneteurope.microsoft.akadns.net
+52.178.223.23,Microsoft Azure,Ireland,,
+52.187.60.107,Microsoft Azure,Singapore,,
+64.4.27.50,AS8075 Microsoft Corporation,US,2017-09-19,fe2.ws.microsoft.com.nsatc.net
+,,,2017-08-31,fe2.ws.microsoft.com
 ,,,2017-08-27,fe1.ws.microsoft.com.nsatc.net
 ,,,2017-06-07,statsfe2.ws.microsoft.com
-64.233.164.188,AS15169 Google Inc.,US,,
-64.233.166.108,AS15169 Google Inc.,US,2015-11-12,wm-in-f108.1e100.net
+64.233.164.188,Google,United States,,
+64.233.166.108,AS15169 Google Inc.,US,2017-09-21,smtp.gmail.com
+,,,2015-11-12,wm-in-f108.1e100.net
 ,,,2014-10-19,gmail-smtp-msa.l.google.com
 ,,,2014-10-17,imap.gmail.com
 ,,,2014-10-15,smtp.watchtek.co.kr
-,,,2014-09-24,gmail-pop.l.google.com
 ,,,2014-09-24,gmail-imap.l.google.com
-65.55.44.108,AS8075 Microsoft Corporation,US,2017-09-09,bn2.settings.data.microsoft.com.akadns.net
+,,,2014-09-24,gmail-pop.l.google.com
+65.55.44.108,AS8075 Microsoft Corporation,US,2017-10-14,bn2.settings.data.microsoft.com.akadns.net
+,,,2017-10-07,db5.settings.data.microsoft.com.akadns.net
 ,,,2016-04-08,settings.data.glbdns2.microsoft.com
 ,,,2016-04-02,onesettings-bn2.metron.live.com.nsatc.net
 ,,,2015-10-19,settings-win.data.microsoft.com
 ,,,2015-06-28,settings.data.microsoft.com
-65.55.113.11,AS8075 Microsoft Corporation,US,2016-06-23,dmd.metaservices.microsoft.com
+65.55.113.11,Microsoft Hosting,United States,2016-06-23,dmd.metaservices.microsoft.com
 ,,,2016-06-20,dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-05-09,gamesudf.metaservices.microsoft.com
-65.55.113.12,AS8075 Microsoft Corporation,US,2016-06-13,dmd.metaservices.microsoft.com
+65.55.113.12,Microsoft Hosting,United States,2016-06-13,dmd.metaservices.microsoft.com
 ,,,2016-02-12,dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-10-30,origin-download.dmd.metaservices.microsoft.com
 ,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-05-26,gamesudf.metaservices.microsoft.com
-65.55.113.13,AS8075 Microsoft Corporation,US,2016-05-19,dmd.metaservices.microsoft.com
+65.55.113.13,Microsoft Hosting,United States,2016-05-19,dmd.metaservices.microsoft.com
 ,,,2015-03-03,origin-download.dmd.metaservices.microsoft.com
 ,,,2014-09-21,dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-03-08,gamesudf.metaservices.microsoft.com
-65.55.252.43,AS8075 Microsoft Corporation,US,2017-04-21,65.55.252.43
+65.55.252.43,Microsoft Hosting,United States,2017-04-21,65.55.252.43
 ,,,2017-01-12,msnbot-65-55-252-43.search.msn.com
 ,,,2016-12-31,watson.telemetry.microsoft.com
 ,,,2016-08-11,modern.watson.data.microsoft.com.akadns.net
 ,,,2016-04-18,watson.telemetry.microsoft.com.nsatc.net
-65.55.252.93,AS8075 Microsoft Corporation,US,2017-09-01,sqm.telemetry.microsoft.com
-,,,2017-08-18,sqm.telemetry.microsoft.com.nsatc.net
+65.55.252.93,AS8075 Microsoft Corporation,US,2017-10-10,sqm.telemetry.microsoft.com.nsatc.net
+,,,2017-09-01,sqm.telemetry.microsoft.com
 ,,,2015-08-11,sqm.msn.com
 ,,,2015-08-07,sqm.microsoft.com
 ,,,2015-08-07,www.sqm.microsoft.com
-65.55.252.190,AS8075 Microsoft Corporation,US,2017-09-14,co4.telecommand.telemetry.microsoft.com.akadns.net
+65.55.252.190,AS8075 Microsoft Corporation,US,2017-10-09,co4.telecommand.telemetry.microsoft.com.akadns.net
 ,,,2017-07-26,telecommand.telemetry.microsoft.com
 ,,,2016-09-16,telecommand.telemetry.microsoft.com.nsatc.net
-65.55.252.202,AS8075 Microsoft Corporation,US,2017-09-14,modern.watson.data.microsoft.com.akadns.net
+65.55.252.202,AS8075 Microsoft Corporation,US,2017-10-07,modern.watson.data.microsoft.com.akadns.net
 ,,,2017-08-22,watson.telemetry.microsoft.com
-66.119.144.157,AS8075 Microsoft Corporation,US,2017-08-27,fe2.update.microsoft.com.nsatc.net
+66.119.144.157,AS8075 Microsoft Corporation,US,2017-09-22,fe2.update.microsoft.com.nsatc.net
+,,,2017-09-21,fe2.update.microsoft.com.akadns.net
 ,,,2016-01-14,fe2.update.microsoft.com
-66.119.144.158,AS8075 Microsoft Corporation,US,2017-05-01,fe2.update.microsoft.com.nsatc.net
-,,,2016-05-30,fe2.update.microsoft.com
-66.119.144.189,AS8075 Microsoft Corporation,US,2016-10-25,fe2.update.microsoft.com.nsatc.net
+66.119.144.158,AS8075 Microsoft Corporation,US,2017-10-13,fe2.update.microsoft.com
+,,,2017-10-11,fe2.update.microsoft.com.nsatc.net
+66.119.144.189,Microsoft Corporation,United States,2016-10-25,fe2.update.microsoft.com.nsatc.net
 ,,,2015-06-03,fe1.update.microsoft.com
 ,,,2015-04-26,fe2.update.microsoft.com
-66.119.144.190,AS8075 Microsoft Corporation,US,2016-03-25,fe2.update.microsoft.com.nsatc.net
+66.119.144.190,Microsoft Corporation,United States,2016-03-25,fe2.update.microsoft.com.nsatc.net
 ,,,2016-02-17,fe2.update.microsoft.com.akadns.net
 ,,,2015-05-07,fe1.update.microsoft.com
 ,,,2015-04-21,fe2.update.microsoft.com
-104.43.137.66,AS8075 Microsoft Corporation,US,2017-09-12,compatexchange12.cloudapp.net
+104.43.137.66,Microsoft Azure,United States,2017-10-09,compatexchange12.cloudapp.net
 ,,,2017-09-09,compatexchange1.trafficmanager.net
 ,,,2015-04-20,compatexchange.trafficmanager.net
 ,,,2015-04-16,aeos.microsoft.com
-104.43.139.21,AS8075 Microsoft Corporation,US,2017-09-17,compatexchange11.cloudapp.net
-,,,2017-09-13,compatexchange1.trafficmanager.net
-104.43.228.53,AS8075 Microsoft Corporation,US,2017-04-23,compatexchange1.trafficmanager.net
-104.43.228.202,AS8075 Microsoft Corporation,US,2017-03-03,compatexchange1.trafficmanager.net
-104.43.237.169,AS8075 Microsoft Corporation,US,2017-04-15,compatexchange13.cloudapp.net
+104.43.139.21,Microsoft Azure,United States,2017-10-16,compatexchange11.cloudapp.net
+,,,2017-10-11,compatexchange1.trafficmanager.net
+104.43.228.53,Microsoft Azure,United States,2017-04-23,compatexchange1.trafficmanager.net
+104.43.228.202,Microsoft Azure,United States,2017-03-03,compatexchange1.trafficmanager.net
+104.43.237.169,Microsoft Azure,United States,2017-04-15,compatexchange13.cloudapp.net
 ,,,2017-04-10,compatexchange1.trafficmanager.net
 ,,,2015-05-27,aeos.microsoft.com
+111.221.29.254,AS8075 Microsoft Corporation,HK,2017-10-12,hk2.vortex.data.microsoft.com.akadns.net
+,,,2016-08-09,v10-win.vortex.data.microsoft.com.akadns.net
+,,,2016-08-05,web.vortex.data.microsoft.com.akadns.net
+,,,2016-03-30,vortex-hk2.metron.live.com.nsatc.net
+,,,2016-03-23,web.vortex.data.metron.live.com.nsatc.net
+,,,2015-11-19,web.vortex.data.microsoft.com
+,,,2015-11-02,v10.vortex-win.data.microsoft.com
+,,,2015-09-20,v10.vortex-win.data.metron.live.com.nsatc.net
+,,,2015-09-09,vortex-win.data.metron.live.com.nsatc.net
+,,,2015-08-25,vortex.data.microsoft.com
+,,,2015-07-30,vortex-win.data.microsoft.com
 134.170.30.202,AS8075 Microsoft Corporation,US,2017-08-25,services.apps.microsoft.com.nsatc.net
 ,,,2017-08-23,services.windows.akadns.net
 ,,,2016-12-02,services-perf.windows.akadns.net
@@ -147,13 +164,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-17,next-services.apps.microsoft.com
 ,,,2013-10-17,apps.microsoft.com
 ,,,2013-10-12,services.apps.microsoft.com
-134.170.30.203,AS8075 Microsoft Corporation,US,2017-02-26,services.apps.microsoft.com.nsatc.net
+134.170.30.203,Microsoft Corporation,United States,2017-02-26,services.apps.microsoft.com.nsatc.net
 ,,,2014-10-16,services-perf.windows.akadns.net
 ,,,2014-04-04,lic.apps.microsoft.com
 ,,,2013-10-10,next-services.apps.microsoft.com
 ,,,2013-10-10,apps.microsoft.com
 ,,,2013-10-08,services.apps.microsoft.com
-134.170.30.204,AS8075 Microsoft Corporation,US,2017-02-20,services.apps.microsoft.com.nsatc.net
+134.170.30.204,Microsoft Corporation,United States,2017-02-20,services.apps.microsoft.com.nsatc.net
 ,,,2016-12-05,lic.apps.microsoft.com
 ,,,2016-08-05,next-services.windows.akadns.net
 ,,,2016-05-18,next-services.apps.microsoft.com
@@ -162,13 +179,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-10-20,services-perf.windows.akadns.net
 ,,,2013-10-20,services.apps.microsoft.com
 ,,,2013-10-18,apps.microsoft.com
-134.170.30.221,AS8075 Microsoft Corporation,US,2016-07-23,dmd.metaservices.microsoft.com.akadns.net
+134.170.30.221,Microsoft Corporation,United States,2016-07-23,dmd.metaservices.microsoft.com.akadns.net
 ,,,2015-03-20,dmd.metaservices.microsoft.com
-137.116.139.114,AS8075 Microsoft Corporation,SG,2016-08-05,wdcpalt.microsoft.akadns.net
+137.116.139.114,Microsoft Azure,Singapore,2016-08-05,wdcpalt.microsoft.akadns.net
 ,,,2016-07-29,wdcpalt.microsoft.com
 ,,,2015-10-27,spynetasia.microsoft.akadns.net
 ,,,2015-05-13,spynetalt.microsoft.com
-137.117.235.16,AS8075 Microsoft Corporation,NL,2016-12-27,spyneteurope.microsoft.akadns.net
+137.117.235.16,Microsoft Azure,Netherlands,2016-12-27,spyneteurope.microsoft.akadns.net
 ,,,2016-10-24,wdcpeurope.microsoft.akadns.net
 ,,,2015-11-17,spynetalt.microsoft.com
 ,,,2015-05-14,updat101up.ddns.net
@@ -179,22 +196,22 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-10-10,sls.update.microsoft.com.akadns.net
 ,,,2013-09-06,catalog.update.microsoft.com
 157.56.194.72,AS8075 Microsoft Corporation,IE,2014-09-18,services-perf.windows.akadns.net
-157.56.194.73,AS8075 Microsoft Corporation,IE,2015-10-22,next-services.apps.microsoft.com
+157.56.194.73,Microsoft Azure,Ireland,2015-10-22,next-services.apps.microsoft.com
 ,,,2014-09-16,services-perf.windows.akadns.net
 ,,,2014-07-22,apps.microsoft.com
 ,,,2013-10-10,services.apps.microsoft.com
-157.56.194.74,AS8075 Microsoft Corporation,IE,,
-191.237.208.126,AS8075 Microsoft Corporation,IE,2017-01-13,spyneteurope.microsoft.akadns.net
+157.56.194.74,Microsoft Azure,Ireland,,
+191.237.208.126,Microsoft Azure,Ireland,2017-01-13,spyneteurope.microsoft.akadns.net
 ,,,2016-11-10,wdcpeurope.microsoft.akadns.net
 ,,,2016-04-07,spynetalt.microsoft.com
 ,,,2015-12-12,spynetall.microsoft.akadns.net
 ,,,2014-10-15,spynet2.microsoft.com
 ,,,2014-06-03,spynetfrontend-neu-tip.cloudapp.net
-191.239.50.18,AS8075 Microsoft Corporation,US,2017-09-17,telecommand2.cloudapp.net
-,,,2017-09-09,tele.trafficmanager.net
-191.239.50.77,AS8075 Microsoft Corporation,US,2017-09-16,telecommand1.cloudapp.net
+191.239.50.18,Microsoft Azure,United States,2017-10-08,telecommand2.cloudapp.net
+,,,2017-10-02,tele.trafficmanager.net
+191.239.50.77,Microsoft Azure,United States,2017-10-14,telecommand1.cloudapp.net
 ,,,2017-08-20,tele.trafficmanager.net
-191.239.52.100,AS8075 Microsoft Corporation,US,2017-09-15,tele.trafficmanager.net
-,,,2017-09-08,telecommand3.cloudapp.net
-191.239.54.52,AS8075 Microsoft Corporation,US,2017-09-08,telecommand4.cloudapp.net
+191.239.52.100,Microsoft Azure,United States,2017-10-17,tele.trafficmanager.net
+,,,2017-10-09,telecommand3.cloudapp.net
+191.239.54.52,Microsoft Azure,United States,2017-10-12,telecommand4.cloudapp.net
 ,,,2017-08-15,tele.trafficmanager.net
