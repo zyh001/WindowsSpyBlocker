@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win81 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 17 Sep 2017 14:20:28 +0200 -->
+<!-- Last-Modified: Tue, 17 Oct 2017 01:56:13 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -45,6 +45,7 @@
 	<item name="win81_spy_104.43.228.53" rule="104.43.228.53" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_104.43.228.202" rule="104.43.228.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_104.43.237.169" rule="104.43.237.169" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_spy_111.221.29.254" rule="111.221.29.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_134.170.30.202" rule="134.170.30.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_134.170.30.203" rule="134.170.30.203" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_134.170.30.204" rule="134.170.30.204" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
