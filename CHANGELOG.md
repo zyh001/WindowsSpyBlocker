@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.9.0 (2017/10/17)
+
+* New hosts for Windows 10 extra, spy and update
+* New IPs for Windows 10 extra and spy
+* New hosts for Windows 8.1 spy and update
+* New IPs for Windows 8.1 extra, spy and update
+* New IPs for Windows 7 spy and update
+* Fix bug while extracting sysmon events
+* Update libs
+
 ## 4.8.3 (2017/09/17)
 
 * New hosts for Windows 10 spy
