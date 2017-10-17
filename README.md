@@ -71,6 +71,7 @@ And about data collection, you can read the [Telemetry collection](../../wiki/mi
 * [WPD](https://getwpd.com/) : Customize Group Policy, Services and Tasks, responsible for data collection and sending, as you like.
 * [simplewall](https://github.com/henrypp/simplewall) : Simple tool to configure Windows Filtering Platform (WFP)
 * [LEDE Project](https://lede-project.org/) : A Linux operating system based on OpenWrt.
+* [Mikrotik hosts parser](https://github.com/tarampampam/mikrotik-hosts-parser) : An application that blocks "advertising" for routers based on RouterOS.
 
 ## How can i help ?
 
