@@ -1,11 +1,12 @@
 <!-- WindowsSpyBlocker win7 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Mon, 07 Aug 2017 00:14:27 +0200 -->
+<!-- Last-Modified: Tue, 17 Oct 2017 01:56:13 +0200 -->
 
 <?xml version="1.0"?>
 <root>
 	<item name="win7_spy_13.78.188.147" rule="13.78.188.147" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_13.79.239.69" rule="13.79.239.69" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_spy_13.81.5.53" rule="13.81.5.53" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_13.81.59.242" rule="13.81.59.242" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_40.70.221.249" rule="40.70.221.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_40.77.226.249" rule="40.77.226.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
