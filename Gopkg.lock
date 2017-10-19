@@ -54,12 +54,14 @@
 [[projects]]
   name = "github.com/mattn/go-colorable"
   packages = ["."]
-  revision = "5411d3eea5978e6cdc258b30de592b60df6aba96"
+  revision = "167de6bfdfba052fa6b2d3664c8f5272e23c9072"
+  version = "v0.0.9"
 
 [[projects]]
   name = "github.com/mattn/go-isatty"
   packages = ["."]
-  revision = "57fdcb988a5c543893cc61bce354a6e24ab70022"
+  revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
+  version = "v0.0.3"
 
 [[projects]]
   name = "github.com/mcuadros/go-version"
@@ -72,14 +74,16 @@
   revision = "e78414ef75607394ad7d917824f07f381df2eafa"
 
 [[projects]]
+  branch = "master"
   name = "golang.org/x/net"
   packages = ["html","html/atom"]
-  revision = "1f9224279e98554b6a6432d4dd998a739f8b2b7c"
+  revision = "1087133bc4af3073e18add999345c6ae75918503"
 
 [[projects]]
+  branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix","windows","windows/registry"]
-  revision = "e24f485414aeafb646f6fca458b0bf869c0880a1"
+  revision = "8dbc5d05d6edcc104950cc299a1ce6641235bc86"
 
 [solve-meta]
   analyzer-name = "dep"
