@@ -1,8 +1,5 @@
 version: '{build}'
 
-platform:
-  - x86
-
 clone_folder: C:\gopath\src\github.com\crazy-max\WindowsSpyBlocker
 
 environment:

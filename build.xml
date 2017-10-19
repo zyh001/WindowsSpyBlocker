@@ -31,13 +31,13 @@
   <property name="release.path" value="${bin.path}\release"/>
   <property name="lib.path" value="${bin.path}\lib"/>
   <property name="tmp.path" value="${bin.path}\tmp"/>
-  <property name="glide" value="${lib.path}\glide\windows-386\glide.exe"/>
+  <property name="dep" value="${lib.path}\dep.exe"/>
 
   <!-- Build number -->
   <condition property="app.release" value="${env.APPVEYOR_BUILD_NUMBER}"><isset property="env.APPVEYOR_BUILD_NUMBER"/></condition>
   <condition property="app.release" value="${app.default.release}"><not><isset property="env.APPVEYOR_BUILD_NUMBER"/></not></condition>
 
-  <target name="release" depends="init, load.lib, infos, glide, generate, build" description="Release">
+  <target name="release" depends="init, load.lib, infos, dep, generate, build" description="Release">
     <echo message="Creating release..."/>
     <copy file="${project.basedir}/${app.id}.exe" todir="${release.path}" overwrite="true"/>
 
@@ -45,7 +45,7 @@
     <echo file="${tmp.path}/version.dat" append="false">${app.version}</echo>
   </target>
 
-  <target name="setup" depends="init, load.lib, glide, generate" description="Setup workspace"/>
+  <target name="setup" depends="init, load.lib, dep, generate" description="Setup workspace"/>
 
   <target name="init" unless="is.lib.loaded">
     <mkdir dir="${bin.path}"/>
@@ -57,7 +57,7 @@
     <mkdir dir="${release.path}"/>
   </target>
 
-  <target name="load.lib" unless="is.lib.loaded" depends="load.lib.antcontrib, load.lib.glide">
+  <target name="load.lib" unless="is.lib.loaded" depends="load.lib.antcontrib, load.lib.dep">
     <var name="is.lib.loaded" value="true"/>
   </target>
 
@@ -74,22 +74,10 @@
     </taskdef>
   </target>
 
-  <target name="load.lib.glide" unless="is.lib.loaded">
-    <echo message="Load Glide"/>
-    <get dest="${lib.path}/glide.zip" src="${glide.url}" skipexisting="true"/>
-    <if>
-      <not><available file="${lib.path}/glide" type="dir"/></not>
-      <then>
-        <unzip src="${lib.path}/glide.zip" dest="${lib.path}/glide"/>
-      </then>
-    </if>
-    <fail message="File ${glide} not found">
-      <condition>
-        <not>
-          <available file="${glide}"/>
-        </not>
-      </condition>
-    </fail>
+  <target name="load.lib.dep" unless="is.lib.loaded">
+    <echo message="Load Dep"/>
+    <get dest="${dep}" src="${dep.url}" skipexisting="true"/>
+    <assertfile file="${dep}"/>
   </target>
 
   <target name="infos">
@@ -109,9 +97,9 @@
     <echo message="APP_COPYRIGHT : ${app.url}"/>
   </target>
 
-  <target name="glide" description="Install vendor">
-    <exec executable="${glide}" failonerror="true" dir="${project.basedir}">
-      <arg value="install"/>
+  <target name="dep" description="Install vendor">
+    <exec executable="${dep}" failonerror="true" dir="${project.basedir}">
+      <arg value="ensure"/>
       <arg value="-v"/>
     </exec>
   </target>
