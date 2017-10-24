@@ -171,7 +171,7 @@ func uninstall(args ...string) (err error) {
 		fmt.Println(cmdResult.Stdout)
 	}
 
-	evtxPath := path.Join(os.Getenv("SystemRoot"), `system32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx`)
+	evtxPath := path.Join(`C:\Windows\sysnative\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx`)
 	fmt.Printf("Removing %s... ", evtxPath)
 	if err := file.RemoveFile(evtxPath); err != nil {
 		print.Error(err)
