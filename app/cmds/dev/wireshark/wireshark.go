@@ -62,14 +62,12 @@ func Menu(args ...string) (err error) {
 func init() {
 	libWireshark = config.Lib{
 		Url:        "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
-		Checksum:   "1fa274017d7ae2ab6e712435e83d2bc5a2d016f6612c6560d159ae1f2584cbf5",
 		Dest:       path.Join(pathu.Libs, "wireshark.zip"),
 		OutputPath: path.Join(pathu.Libs, "wireshark"),
 		Checkfile:  path.Join(pathu.Libs, "wireshark", "tshark.exe"),
 	}
 	libNpcap = config.Lib{
 		Url:       "https://dl.bintray.com/crazy/tools/npcap-0.86.exe",
-		Checksum:  "ab677b9037dc377303e6d68a9b8a8195c8e976efd550a6bb6ce91eed551c5cbe",
 		Dest:      path.Join(pathu.Libs, "npcap-setup.exe"),
 		Checkfile: `C:\Windows\System32\Npcap\wpcap.dll`,
 	}

@@ -57,7 +57,6 @@ func Menu(args ...string) (err error) {
 func init() {
 	libSysmon = config.Lib{
 		Url:        "https://dl.bintray.com/crazy/tools/Sysmon-3.10.zip",
-		Checksum:   "4fab4f380f83e96da2f4f75b0c78054469c2d175637fc185864f8c82ac1f3ab2",
 		Dest:       path.Join(pathu.Libs, "sysmon.zip"),
 		OutputPath: path.Join(pathu.Libs, "sysmon"),
 		Checkfile:  path.Join(pathu.Libs, "sysmon", "Sysmon.exe"),

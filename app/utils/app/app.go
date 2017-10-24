@@ -32,7 +32,7 @@ func DownloadLib(lib config.Lib) error {
 		}
 		if _, err := os.Stat(lib.Checkfile); err != nil {
 			fmt.Printf("Downloading %s...", lib.Url)
-			if err := netu.DownloadFile(lib.Dest, lib.Url, lib.Checksum); err != nil {
+			if err := netu.DownloadFile(lib.Dest, lib.Url); err != nil {
 				fmt.Print(" ")
 				print.Error(err)
 				return err
@@ -56,7 +56,7 @@ func DownloadLib(lib config.Lib) error {
 		}
 	} else {
 		fmt.Printf("Downloading %s...", lib.Url)
-		if err := netu.DownloadFile(lib.Dest, lib.Url, lib.Checksum); err != nil {
+		if err := netu.DownloadFile(lib.Dest, lib.Url); err != nil {
 			fmt.Print(" ")
 			print.Error(err)
 			return err

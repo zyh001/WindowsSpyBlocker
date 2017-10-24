@@ -3,13 +3,11 @@ package netu
 import (
 	"fmt"
 	"net"
-	"os"
 	"regexp"
 	"strings"
 	"time"
 
 	"github.com/cavaliercoder/grab"
-	"github.com/crazy-max/WindowsSpyBlocker/app/utils/crypto"
 )
 
 // GetCIDRFromIPRange converts IP range to CIDR
@@ -77,22 +75,7 @@ func GetIpsFromIPRange(ipRange string) ([]string, error) {
 }
 
 // DownloadFile downloads a file and display status
-func DownloadFile(filename string, url string, hash string) error {
-	if _, err := os.Stat(filename); err == nil {
-		currentHash, err := crypto.HashFileSha256(filename)
-		if err != nil {
-			return err
-		}
-		if currentHash != hash {
-			err := os.Remove(filename)
-			if err != nil {
-				return err
-			}
-		} else {
-			return nil
-		}
-	}
-
+func DownloadFile(filename string, url string) error {
 	req, err := grab.NewRequest(url)
 	if err != nil {
 		return err
