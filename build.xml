@@ -32,6 +32,7 @@
   <property name="lib.path" value="${bin.path}\lib"/>
   <property name="tmp.path" value="${bin.path}\tmp"/>
   <property name="dep" value="${lib.path}\dep.exe"/>
+  <property name="upx" value="${lib.path}\upx\upx.exe"/>
 
   <!-- Build number -->
   <condition property="app.release" value="${env.APPVEYOR_BUILD_NUMBER}"><isset property="env.APPVEYOR_BUILD_NUMBER"/></condition>
@@ -39,10 +40,10 @@
 
   <target name="release" depends="init, load.lib, infos, dep, generate, build" description="Release">
     <echo message="Creating release..."/>
-    <copy file="${project.basedir}/${app.id}.exe" todir="${release.path}" overwrite="true"/>
+    <copy file="${tmp.path}\${app.id}.exe" todir="${release.path}" overwrite="true"/>
 
     <echo message="Writing version.dat..."/>
-    <echo file="${tmp.path}/version.dat" append="false">${app.version}</echo>
+    <echo file="${tmp.path}\version.dat" append="false">${app.version}</echo>
   </target>
 
   <target name="setup" depends="init, load.lib, dep, generate" description="Setup workspace"/>
@@ -57,7 +58,7 @@
     <mkdir dir="${release.path}"/>
   </target>
 
-  <target name="load.lib" unless="is.lib.loaded" depends="load.lib.antcontrib, load.lib.dep">
+  <target name="load.lib" unless="is.lib.loaded" depends="load.lib.antcontrib, load.lib.dep, load.lib.upx">
     <var name="is.lib.loaded" value="true"/>
   </target>
 
@@ -78,6 +79,23 @@
     <echo message="Load Dep"/>
     <get dest="${dep}" src="${dep.url}" skipexisting="true"/>
     <assertfile file="${dep}"/>
+  </target>
+
+  <target name="load.lib.upx" unless="is.lib.loaded">
+    <echo message="Load UPX"/>
+    <get dest="${lib.path}/upx.zip" src="${upx.url}" skipexisting="true"/>
+    <if>
+      <not><available file="${lib.path}/upx" type="dir"/></not>
+      <then>
+        <unzip src="${lib.path}/upx.zip" dest="${lib.path}/upx">
+          <patternset>
+            <include name="**/*.exe"/>
+          </patternset>
+          <mapper type="flatten"/>
+        </unzip>
+      </then>
+    </if>
+    <assertfile file="${upx}"/>
   </target>
 
   <target name="infos">
@@ -105,7 +123,7 @@
   </target>
 
   <target name="generate" description="Go generate">
-    <copy file="${app.path}/versioninfo.json" todir="${project.basedir}" overwrite="true">
+    <copy file="${app.path}\versioninfo.json" todir="${project.basedir}" overwrite="true">
       <filterset refid="filterset.app"/>
     </copy>
     <exec executable="go" failonerror="true" dir="${project.basedir}">
@@ -116,14 +134,25 @@
   </target>
 
   <target name="build">
+    <delete dir="${tmp.path}\${app.id}.exe"/>
     <exec executable="go" failonerror="true" dir="${project.basedir}">
       <env key="GOARCH" value="386"/>
       <arg value="build"/>
+      <arg value="-o"/>
+      <arg value="${tmp.path}\${app.id}.exe"/>
       <arg value="-v"/>
       <arg value="-ldflags"/>
       <arg value="-s -w"/>
     </exec>
-    <assertfile file="${project.basedir}/${app.id}.exe"/>
+    <assertfile file="${tmp.path}\${app.id}.exe"/>
+  </target>
+
+  <target name="upx">
+    <exec executable="${upx}" failonerror="true" dir="${tmp.path}">
+      <arg value="-fq"/>
+      <arg value="${app.id}.exe"/>
+    </exec>
+    <assertfile file="${tmp.path}\${app.id}.exe"/>
   </target>
 
 </project>
