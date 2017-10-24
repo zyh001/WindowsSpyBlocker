@@ -7,20 +7,19 @@ package main
 
 import (
 	"fmt"
-	"os/exec"
 
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/telemetry"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/app"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/windows"
 	"github.com/fatih/color"
 	"github.com/mcuadros/go-version"
 )
 
 func init() {
-	// Set window title
-	exec.Command("cmd", "/c", fmt.Sprintf("title %s %s", config.NAME, config.VERSION)).Run()
+	windows.SetConsoleTitle(fmt.Sprintf("%s %s", config.NAME, config.VERSION))
 }
 
 func main() {
