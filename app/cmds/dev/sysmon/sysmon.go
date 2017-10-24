@@ -66,10 +66,6 @@ func init() {
 func install(args ...string) (err error) {
 	fmt.Println()
 
-	if !windows.IsAdmin() {
-		return nil
-	}
-
 	if err := app.DownloadLib(libSysmon); err != nil {
 		return nil
 	}
@@ -138,10 +134,6 @@ func install(args ...string) (err error) {
 
 func uninstall(args ...string) (err error) {
 	fmt.Println()
-
-	if !windows.IsAdmin() {
-		return nil
-	}
 
 	if err := app.DownloadLib(libSysmon); err != nil {
 		return nil

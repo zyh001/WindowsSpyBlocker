@@ -2,7 +2,6 @@ package windows
 
 import (
 	"fmt"
-	"os"
 	"syscall"
 	"unsafe"
 
@@ -10,16 +9,6 @@ import (
 	"github.com/fatih/color"
 	"golang.org/x/sys/windows/registry"
 )
-
-// IsAdmin checks if executable is launched as admin
-func IsAdmin() bool {
-	_, err := os.Open("\\\\.\\PHYSICALDRIVE0")
-	if err != nil {
-		color.New(color.FgYellow).Print("You need admin rights to execute this task...\n\n")
-		return false
-	}
-	return true
-}
 
 // OpenRegKey opens a registry key
 func OpenRegKey(key registry.Key, path string, access uint32) (registry.Key, error) {
