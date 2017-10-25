@@ -15,6 +15,7 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
@@ -24,12 +25,6 @@ import (
 const (
 	HTTP_TIMEOUT  = 10
 	CACHE_TIMEOUT = 172800
-
-	WHATIS_URI   = "http://whatismyipaddress.com/ip/"
-	DNSQUERY_URI = "https://dnsquery.org/whois/"
-	IPAPI_URI    = "http://ip-api.com/json/"
-	IPINFO_URI   = "http://ipinfo.io/%s/json"
-	IPNF_URI     = "https://ip.nf/%s.json"
 )
 
 // Whois structure
@@ -214,7 +209,7 @@ func getOnline(ip string) (Whois, error) {
 func getWhatisIpAddress(httpClient http.Client, ip string) (string, error) {
 	var ipAddress string
 
-	apiUrl := WHATIS_URI + ip
+	apiUrl := config.Settings.Uris.Whatis + ip
 
 	resp, err := httpClient.Get(apiUrl)
 	if err != nil {
@@ -243,7 +238,7 @@ func getWhatisIpAddress(httpClient http.Client, ip string) (string, error) {
 func getDnsQueryIpAddress(httpClient http.Client, ip string) (string, error) {
 	var ipAddress string
 
-	apiUrl := DNSQUERY_URI + ip
+	apiUrl := config.Settings.Uris.Dnsquery + ip
 
 	cookieJar, _ := cookiejar.New(nil)
 	httpClient = http.Client{
@@ -292,7 +287,7 @@ func getDnsQueryIpAddress(httpClient http.Client, ip string) (string, error) {
 }
 
 func getIpapiWhois(httpClient http.Client, ip string) (Whois, error) {
-	apiUrl := IPAPI_URI + ip
+	apiUrl := config.Settings.Uris.Ipapi + ip
 
 	var result Whois
 	result.IP = ip
@@ -327,7 +322,7 @@ func getIpapiWhois(httpClient http.Client, ip string) (Whois, error) {
 }
 
 func getIpInfoWhois(httpClient http.Client, ip string) (Whois, error) {
-	apiUrl := fmt.Sprintf(IPINFO_URI, ip)
+	apiUrl := fmt.Sprintf(config.Settings.Uris.Ipinfo, ip)
 
 	var result Whois
 	result.IP = ip
@@ -362,7 +357,7 @@ func getIpInfoWhois(httpClient http.Client, ip string) (Whois, error) {
 }
 
 func getIpNfWhois(httpClient http.Client, ip string) (Whois, error) {
-	apiUrl := fmt.Sprintf(IPNF_URI, ip)
+	apiUrl := fmt.Sprintf(config.Settings.Uris.Ipnf, ip)
 
 	var result Whois
 	result.IP = ip

@@ -148,10 +148,8 @@ func isOrgExcluded(org string, exp string) bool {
 
 // GetLatestVersion returns the latest version from github
 func GetLatestVersion() (string, error) {
-	probeUrl := "https://raw.githubusercontent.com/wiki/crazy-max/WindowsSpyBlocker/latest"
-
 	client := &http.Client{Timeout: 2 * time.Second}
-	response, err := client.Get(probeUrl)
+	response, err := client.Get(config.Settings.Uris.LatestVersion)
 	if err != nil {
 		return "", err
 	}

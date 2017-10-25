@@ -213,24 +213,8 @@ func _cleanLines(lines string) string {
 }
 
 func _isValidLine(line string) bool {
-	contains := []string{
-		`Welcome to Proxifier`,
-		`Profile `,
-		`Profile saved as`,
-		`Log file enabled`,
-		`Traffic log enabled`,
-		`Traffic file disabled`,
-		`Verbose output enabled`,
-		`Log Directory is set to`,
-		`Local CMOS Clock`,
-		`Automatic DNS mode detection`,
-		`(IPv6)`,
-		`source socket not found`,
-		`Connections do not originate from the applications`,
-	}
-
-	for _, contain := range contains {
-		if strings.Contains(line, contain) {
+	for _, unvalid := range config.Settings.Proxifier.UnvalidLines {
+		if strings.Contains(line, unvalid) {
 			return false
 		}
 	}

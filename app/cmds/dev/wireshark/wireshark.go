@@ -28,9 +28,6 @@ import (
 	"github.com/fatih/color"
 )
 
-var libWireshark config.Lib
-var libNpcap config.Lib
-
 // Menu of Wireshark
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
@@ -60,17 +57,11 @@ func Menu(args ...string) (err error) {
 }
 
 func init() {
-	libWireshark = config.Lib{
-		Url:        "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
-		Dest:       path.Join(pathu.Libs, "wireshark.zip"),
-		OutputPath: path.Join(pathu.Libs, "wireshark"),
-		Checkfile:  path.Join(pathu.Libs, "wireshark", "tshark.exe"),
-	}
-	libNpcap = config.Lib{
-		Url:       "https://dl.bintray.com/crazy/tools/npcap-0.86.exe",
-		Dest:      path.Join(pathu.Libs, "npcap-setup.exe"),
-		Checkfile: `C:\Windows\System32\Npcap\wpcap.dll`,
-	}
+	config.Settings.Libs.Wireshark.Dest = path.Join(pathu.Libs, "wireshark.zip")
+	config.Settings.Libs.Wireshark.OutputPath = path.Join(pathu.Libs, "wireshark")
+	config.Settings.Libs.Wireshark.Checkfile = path.Join(pathu.Libs, config.Settings.Libs.Wireshark.Checkfile)
+
+	config.Settings.Libs.Npcap.Dest = path.Join(pathu.Libs, "npcap-setup.exe")
 }
 
 // https://rawgit.com/nmap/npcap/master/docs/npcap-guide-wrapper.html#npcap-redistribution-options
@@ -79,19 +70,19 @@ func installNpcap(args ...string) (err error) {
 	defer timeu.Track(time.Now())
 
 	fmt.Print("Checking if Npcap installed... ")
-	if _, err := os.Stat(libNpcap.Checkfile); err == nil {
+	if _, err := os.Stat(config.Settings.Libs.Npcap.Checkfile); err == nil {
 		color.New(color.FgYellow).Print("Already installed\n")
 		return nil
 	}
 	print.Ok()
 
-	if err := app.DownloadLib(libNpcap); err != nil {
+	if err := app.DownloadLib(config.Settings.Libs.Npcap); err != nil {
 		return nil
 	}
 
 	fmt.Print("Installing Npcap... ")
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    libNpcap.Dest,
+		Command:    config.Settings.Libs.Npcap.Dest,
 		Args:       []string{"/S", "/npf_startup=yes", "/loopback_support=yes", "/dlt_null=yes", "/winpcap_mode=yes"},
 		HideWindow: true,
 	})
@@ -107,7 +98,7 @@ func installNpcap(args ...string) (err error) {
 		}
 		return nil
 	}
-	if _, err := os.Stat(libNpcap.Checkfile); err != nil {
+	if _, err := os.Stat(config.Settings.Libs.Npcap.Checkfile); err != nil {
 		print.Error(err)
 		return err
 	}
@@ -119,7 +110,7 @@ func installNpcap(args ...string) (err error) {
 func printInterfaces(args ...string) (err error) {
 	fmt.Println()
 
-	if err := app.DownloadLib(libWireshark); err != nil {
+	if err := app.DownloadLib(config.Settings.Libs.Wireshark); err != nil {
 		return nil
 	}
 
@@ -146,7 +137,7 @@ func capture(args ...string) (err error) {
 	fmt.Println()
 	outputPcapng := path.Join(pathu.Tmp, fmt.Sprintf("cap-%s.pcapng", time.Now().Format("20060102-150405")))
 
-	if err := app.DownloadLib(libWireshark); err != nil {
+	if err := app.DownloadLib(config.Settings.Libs.Wireshark); err != nil {
 		return nil
 	}
 
@@ -178,7 +169,7 @@ func capture(args ...string) (err error) {
 	/*fmt.Print("Starting capture on ")
 	color.New(color.FgYellow).Printf("%s", networkItfSel.Name)
 	fmt.Printf(" in %s...", strings.TrimLeft(outputPcapng, pathu.Current))*/
-	command := exec.Command(path.Join(libWireshark.OutputPath, "dumpcap.exe"),
+	command := exec.Command(path.Join(config.Settings.Libs.Wireshark.OutputPath, "dumpcap.exe"),
 		"-i", strconv.Itoa(config.App.Wireshark.Capture.Interface),
 		"-f", config.App.Wireshark.Capture.Filter,
 		"-w", outputPcapng,
@@ -226,7 +217,7 @@ func extractLog(args ...string) (err error) {
 
 	var events Events
 
-	if err := app.DownloadLib(libWireshark); err != nil {
+	if err := app.DownloadLib(config.Settings.Libs.Wireshark); err != nil {
 		return nil
 	}
 
@@ -241,9 +232,9 @@ func extractLog(args ...string) (err error) {
 
 	fmt.Print("Extracting events... ")
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    path.Join(libWireshark.OutputPath, "tshark.exe"),
+		Command:    path.Join(config.Settings.Libs.Wireshark.OutputPath, "tshark.exe"),
 		Args:       []string{"-r", config.App.Wireshark.PcapngPath, "-q", "-z", "ip_hosts,tree"},
-		WorkingDir: libWireshark.OutputPath,
+		WorkingDir: config.Settings.Libs.Wireshark.OutputPath,
 	})
 	if err != nil {
 		print.Error(err)
@@ -367,9 +358,9 @@ func _getNetworkInterfaces() (Interfaces, error) {
 	var interfaces Interfaces
 
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    path.Join(libWireshark.OutputPath, "dumpcap.exe"),
+		Command:    path.Join(config.Settings.Libs.Wireshark.OutputPath, "dumpcap.exe"),
 		Args:       []string{"-D"},
-		WorkingDir: libWireshark.OutputPath,
+		WorkingDir: config.Settings.Libs.Wireshark.OutputPath,
 	})
 	if err != nil {
 		return nil, err

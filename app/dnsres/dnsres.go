@@ -11,6 +11,7 @@ import (
 	"sort"
 	"time"
 
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
@@ -20,8 +21,6 @@ import (
 const (
 	HTTP_TIMEOUT  = 10
 	CACHE_TIMEOUT = 172800
-
-	THREATCROWD_URI = "https://www.threatcrowd.org/searchApi/v2/%s/report/?%s=%s"
 )
 
 type dataIp struct {
@@ -139,7 +138,7 @@ func GetDnsRes(ipAddressOrDomain string) Resolutions {
 
 func getOnline(reportType string, ipOrDomain string) (Resolutions, error) {
 	var result Resolutions
-	uri := fmt.Sprintf(THREATCROWD_URI, reportType, reportType, ipOrDomain)
+	uri := fmt.Sprintf(config.Settings.Uris.Threatcrowd, reportType, reportType, ipOrDomain)
 
 	timeout := time.Duration(HTTP_TIMEOUT * time.Second)
 	httpClient := http.Client{

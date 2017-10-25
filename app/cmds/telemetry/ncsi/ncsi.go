@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/windows"
@@ -15,34 +16,6 @@ import (
 	"github.com/miekg/dns"
 	"golang.org/x/sys/windows/registry"
 )
-
-// NCSI reg keys
-const (
-	REG_KEY                  = `SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet`
-	REG_WEB_PROBE_HOST       = "ActiveWebProbeHost"
-	REG_WEB_PROBE_PATH       = "ActiveWebProbePath"
-	REG_WEB_PROBE_CONTENT    = "ActiveWebProbeContent"
-	REG_WEB_PROBE_HOST_V6    = "ActiveWebProbeHostV6"
-	REG_WEB_PROBE_PATH_V6    = "ActiveWebProbePathV6"
-	REG_WEB_PROBE_CONTENT_V6 = "ActiveWebProbeContentV6"
-	REG_DNS_PROBE_HOST       = "ActiveDnsProbeHost"
-	REG_DNS_PROBE_CONTENT    = "ActiveDnsProbeContent"
-	REG_DNS_PROBE_HOST_V6    = "ActiveDnsProbeHostV6"
-	REG_DNS_PROBE_CONTENT_V6 = "ActiveDnsProbeContentV6"
-)
-
-type ncsi struct {
-	webHostV4    string
-	webPathV4    string
-	webContentV4 string
-	webHostV6    string
-	webPathV6    string
-	webContentV6 string
-	dnsHostV4    string
-	dnsContentV4 string
-	dnsHostV6    string
-	dnsContentV6 string
-}
 
 // Menu of NCSI
 func Menu(args ...string) (err error) {
@@ -76,7 +49,7 @@ func current(args ...string) error {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	ncsi, err := getNcsi()
+	probe, err := getNcsi()
 	if err != nil {
 		print.Error(err)
 		return nil
@@ -86,22 +59,22 @@ func current(args ...string) error {
 
 	fmt.Println()
 	color.New(color.FgMagenta).Println("# Web Probe IPv4")
-	print.RegString(REG_WEB_PROBE_HOST, ncsi.webHostV4)
-	print.RegString(REG_WEB_PROBE_PATH, ncsi.webPathV4)
-	print.RegString(REG_WEB_PROBE_CONTENT, ncsi.webContentV4)
+	print.RegString(config.Settings.Ncsi.Reg.WebProbeHost, probe.WebHostV4)
+	print.RegString(config.Settings.Ncsi.Reg.WebProbePath, probe.WebPathV4)
+	print.RegString(config.Settings.Ncsi.Reg.WebProbeContent, probe.WebContentV4)
 
 	color.New(color.FgMagenta).Println("\n# Web Probe IPv6")
-	print.RegString(REG_WEB_PROBE_HOST_V6, ncsi.webHostV6)
-	print.RegString(REG_WEB_PROBE_PATH_V6, ncsi.webPathV6)
-	print.RegString(REG_WEB_PROBE_CONTENT_V6, ncsi.webContentV6)
+	print.RegString(config.Settings.Ncsi.Reg.WebProbeHostV6, probe.WebHostV6)
+	print.RegString(config.Settings.Ncsi.Reg.WebProbePathV6, probe.WebPathV6)
+	print.RegString(config.Settings.Ncsi.Reg.WebProbeContentV6, probe.WebContentV6)
 
 	color.New(color.FgMagenta).Println("\n# DNS Probe IPv4")
-	print.RegString(REG_DNS_PROBE_HOST, ncsi.dnsHostV4)
-	print.RegString(REG_DNS_PROBE_CONTENT, ncsi.dnsContentV4)
+	print.RegString(config.Settings.Ncsi.Reg.DnsProbeHost, probe.DnsHostV4)
+	print.RegString(config.Settings.Ncsi.Reg.DnsProbeContent, probe.DnsContentV4)
 
 	color.New(color.FgMagenta).Println("\n# DNS Probe IPv6")
-	print.RegString(REG_DNS_PROBE_HOST, ncsi.dnsHostV6)
-	print.RegString(REG_DNS_PROBE_CONTENT, ncsi.dnsContentV6)
+	print.RegString(config.Settings.Ncsi.Reg.DnsProbeHostV6, probe.DnsHostV6)
+	print.RegString(config.Settings.Ncsi.Reg.DnsProbeContentV6, probe.DnsContentV6)
 
 	fmt.Println()
 	return nil
@@ -109,34 +82,12 @@ func current(args ...string) error {
 
 func wsb(args ...string) (err error) {
 	defer timeu.Track(time.Now())
-	return setNcsi(ncsi{
-		webHostV4:    "raw.githubusercontent.com",
-		webPathV4:    "crazy-max/WindowsSpyBlocker/master/data/ncsi/ncsi.txt",
-		webContentV4: "WindowsSpyBlocker",
-		webHostV6:    "raw.githubusercontent.com",
-		webPathV6:    "crazy-max/WindowsSpyBlocker/master/data/ncsi/ncsi.txt",
-		webContentV6: "WindowsSpyBlocker",
-		dnsHostV4:    "ns1.p16.dynect.net",
-		dnsContentV4: "208.78.70.16",
-		dnsHostV6:    "ns1.p16.dynect.net",
-		dnsContentV6: "2001:500:90:1::16",
-	})
+	return setNcsi(config.Settings.Ncsi.Probes.Wsb)
 }
 
 func microsoft(args ...string) error {
 	defer timeu.Track(time.Now())
-	return setNcsi(ncsi{
-		webHostV4:    "www.msftncsi.com",
-		webPathV4:    "ncsi.txt",
-		webContentV4: "Microsoft NCSI",
-		webHostV6:    "ipv6.msftncsi.com",
-		webPathV6:    "ncsi.txt",
-		webContentV6: "Microsoft NCSI",
-		dnsHostV4:    "dns.msftncsi.com",
-		dnsContentV4: "131.107.255.255",
-		dnsHostV6:    "dns.msftncsi.com",
-		dnsContentV6: "fd3e:4f5a:5b81::1",
-	})
+	return setNcsi(config.Settings.Ncsi.Probes.Microsoft)
 }
 
 func test(args ...string) (err error) {
@@ -150,7 +101,7 @@ func test(args ...string) (err error) {
 
 	fmt.Println()
 	fmt.Print("Testing web request IPv4... ")
-	err = testHttpProbe("http://"+current.webHostV4+"/"+current.webPathV4, current.webContentV4)
+	err = testHttpProbe("http://"+current.WebHostV4+"/"+current.WebPathV4, current.WebContentV4)
 	if err != nil {
 		print.Error(err)
 	} else {
@@ -158,7 +109,7 @@ func test(args ...string) (err error) {
 	}
 
 	fmt.Print("Testing web request IPv6... ")
-	err = testHttpProbe("http://"+current.webHostV6+"/"+current.webPathV6, current.webContentV6)
+	err = testHttpProbe("http://"+current.WebHostV6+"/"+current.WebPathV6, current.WebContentV6)
 	if err != nil {
 		print.Error(err)
 	} else {
@@ -166,7 +117,7 @@ func test(args ...string) (err error) {
 	}
 
 	fmt.Print("Testing DNS resolution IPv4... ")
-	err = testDnsProbe(current.dnsHostV4, dns.TypeA, current.dnsContentV4)
+	err = testDnsProbe(current.DnsHostV4, dns.TypeA, current.DnsContentV4)
 	if err != nil {
 		print.Error(err)
 	} else {
@@ -174,7 +125,7 @@ func test(args ...string) (err error) {
 	}
 
 	fmt.Print("Testing DNS resolution IPv6... ")
-	err = testDnsProbe(current.dnsHostV6, dns.TypeAAAA, current.dnsContentV6)
+	err = testDnsProbe(current.DnsHostV6, dns.TypeAAAA, current.DnsContentV6)
 	if err != nil {
 		print.Error(err)
 	} else {
@@ -184,64 +135,64 @@ func test(args ...string) (err error) {
 	return nil
 }
 
-func getNcsi() (ncsi, error) {
-	key, err := windows.OpenRegKey(registry.LOCAL_MACHINE, REG_KEY, registry.QUERY_VALUE)
+func getNcsi() (config.NcsiProbe, error) {
+	key, err := windows.OpenRegKey(registry.LOCAL_MACHINE, config.Settings.Ncsi.Reg.Key, registry.QUERY_VALUE)
 	if err != nil {
-		return ncsi{}, err
+		return config.NcsiProbe{}, err
 	}
 	defer key.Close()
 
-	return ncsi{
-		webHostV4:    windows.GetRegString(key, REG_WEB_PROBE_HOST),
-		webPathV4:    windows.GetRegString(key, REG_WEB_PROBE_PATH),
-		webContentV4: windows.GetRegString(key, REG_WEB_PROBE_CONTENT),
-		webHostV6:    windows.GetRegString(key, REG_WEB_PROBE_HOST_V6),
-		webPathV6:    windows.GetRegString(key, REG_WEB_PROBE_PATH_V6),
-		webContentV6: windows.GetRegString(key, REG_WEB_PROBE_CONTENT_V6),
-		dnsHostV4:    windows.GetRegString(key, REG_DNS_PROBE_HOST),
-		dnsContentV4: windows.GetRegString(key, REG_DNS_PROBE_CONTENT),
-		dnsHostV6:    windows.GetRegString(key, REG_DNS_PROBE_HOST_V6),
-		dnsContentV6: windows.GetRegString(key, REG_DNS_PROBE_CONTENT_V6),
+	return config.NcsiProbe{
+		WebHostV4:    windows.GetRegString(key, config.Settings.Ncsi.Reg.WebProbeHost),
+		WebPathV4:    windows.GetRegString(key, config.Settings.Ncsi.Reg.WebProbePath),
+		WebContentV4: windows.GetRegString(key, config.Settings.Ncsi.Reg.WebProbeContent),
+		WebHostV6:    windows.GetRegString(key, config.Settings.Ncsi.Reg.WebProbeHostV6),
+		WebPathV6:    windows.GetRegString(key, config.Settings.Ncsi.Reg.WebProbePathV6),
+		WebContentV6: windows.GetRegString(key, config.Settings.Ncsi.Reg.WebProbeContentV6),
+		DnsHostV4:    windows.GetRegString(key, config.Settings.Ncsi.Reg.DnsProbeHost),
+		DnsContentV4: windows.GetRegString(key, config.Settings.Ncsi.Reg.DnsProbeContent),
+		DnsHostV6:    windows.GetRegString(key, config.Settings.Ncsi.Reg.DnsProbeHostV6),
+		DnsContentV6: windows.GetRegString(key, config.Settings.Ncsi.Reg.DnsProbeContentV6),
 	}, nil
 }
 
-func setNcsi(aNcsi ncsi) error {
+func setNcsi(probe config.NcsiProbe) error {
 	fmt.Println()
 
-	key, err := windows.OpenRegKey(registry.LOCAL_MACHINE, REG_KEY, registry.WRITE)
+	key, err := windows.OpenRegKey(registry.LOCAL_MACHINE, config.Settings.Ncsi.Reg.Key, registry.WRITE)
 	if err != nil {
 		return nil
 	}
 	defer key.Close()
 
-	if err = windows.SetRegString(key, REG_WEB_PROBE_HOST, aNcsi.webHostV4); err != nil {
+	if err = windows.SetRegString(key, config.Settings.Ncsi.Reg.WebProbeHost, probe.WebHostV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_PATH, aNcsi.webPathV4); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.WebProbePath, probe.WebPathV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_CONTENT, aNcsi.webContentV4); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.WebProbeContent, probe.WebContentV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_HOST_V6, aNcsi.webHostV6); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.WebProbeHostV6, probe.WebHostV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_PATH_V6, aNcsi.webPathV6); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.WebProbePathV6, probe.WebPathV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_WEB_PROBE_CONTENT_V6, aNcsi.webContentV6); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.WebProbeContentV6, probe.WebContentV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_HOST, aNcsi.dnsHostV4); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.DnsProbeHost, probe.DnsHostV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_CONTENT, aNcsi.dnsContentV4); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.DnsProbeContent, probe.DnsContentV4); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_HOST_V6, aNcsi.dnsHostV6); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.DnsProbeHostV6, probe.DnsHostV6); err != nil {
 		return nil
 	}
-	if err := windows.SetRegString(key, REG_DNS_PROBE_CONTENT_V6, aNcsi.dnsContentV6); err != nil {
+	if err := windows.SetRegString(key, config.Settings.Ncsi.Reg.DnsProbeContentV6, probe.DnsContentV6); err != nil {
 		return nil
 	}
 

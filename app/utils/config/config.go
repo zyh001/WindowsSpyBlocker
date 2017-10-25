@@ -24,19 +24,38 @@ const (
 
 // Config
 var (
-	App appConf
+	App      conf
+	Settings settings
 )
 
 // Lib structure
 type Lib struct {
 	Url        string `json:"url"`
-	Checksum   string `json:"checksum"`
 	Dest       string
 	OutputPath string
-	Checkfile  string
+	Checkfile  string `json:"checkfile"`
 }
 
-type appConf struct {
+// NcsiProbe structure
+type NcsiProbe struct {
+	WebHostV4    string `json:"webHostV4"`
+	WebPathV4    string `json:"webPathV4"`
+	WebContentV4 string `json:"webContentV4"`
+	WebHostV6    string `json:"webHostV6"`
+	WebPathV6    string `json:"webPathV6"`
+	WebContentV6 string `json:"webContentV6"`
+	DnsHostV4    string `json:"dnsHostV4"`
+	DnsContentV4 string `json:"dnsContentV4"`
+	DnsHostV6    string `json:"dnsHostV6"`
+	DnsContentV6 string `json:"dnsContentV6"`
+}
+
+type dataTpl struct {
+	Head  string `json:"head"`
+	Value string `json:"value"`
+}
+
+type conf struct {
 	Version   string `json:"version"`
 	Debug     bool   `json:"debug"`
 	Proxifier struct {
@@ -59,9 +78,65 @@ type appConf struct {
 	} `json:"exclude"`
 }
 
+type settings struct {
+	Uris struct {
+		LatestVersion string `json:"latestVersion"`
+		Threatcrowd   string `json:"threatcrowd"`
+		Whatis        string `json:"whatis"`
+		Dnsquery      string `json:"dnsquery"`
+		Ipapi         string `json:"ipapi"`
+		Ipinfo        string `json:"ipinfo"`
+		Ipnf          string `json:"ipnf"`
+	} `json:"uris"`
+	Libs struct {
+		Wireshark Lib `json:"wireshark"`
+		Npcap     Lib `json:"npcap"`
+		Sysmon    Lib `json:"sysmon"`
+	} `json:"libs"`
+	DataTpl struct {
+		Dnscrypt dataTpl `json:"dnscrypt"`
+		Openwrt  struct {
+			Ip      dataTpl `json:"ip"`
+			Domains dataTpl `json:"domains"`
+		} `json:"openwrt"`
+		P2p       dataTpl `json:"p2p"`
+		Proxifier struct {
+			Ip      dataTpl `json:"ip"`
+			Domains dataTpl `json:"domains"`
+		} `json:"proxifier"`
+		Simplewall dataTpl `json:"simplewall"`
+	} `json:"dataTpl"`
+	Proxifier struct {
+		UnvalidLines []string `json:"unvalidLines"`
+	} `json:"proxifier"`
+	Sysmon struct {
+		EvtxPath string `json:"evtxPath"`
+	} `json:"sysmon"`
+	Ncsi struct {
+		Reg struct {
+			Key               string `json:"key"`
+			WebProbeHost      string `json:"webProbeHost"`
+			WebProbePath      string `json:"webProbePath"`
+			WebProbeContent   string `json:"webProbeContent"`
+			WebProbeHostV6    string `json:"webProbeHostV6"`
+			WebProbePathV6    string `json:"webProbePathV6"`
+			WebProbeContentV6 string `json:"webProbeContentV6"`
+			DnsProbeHost      string `json:"dnsProbeHost"`
+			DnsProbeContent   string `json:"dnsProbeContent"`
+			DnsProbeHostV6    string `json:"dnsProbeHostV6"`
+			DnsProbeContentV6 string `json:"dnsProbeContentV6"`
+		} `json:"reg"`
+		Probes struct {
+			Microsoft NcsiProbe `json:"microsoft"`
+			Wsb       NcsiProbe `json:"wsb"`
+		} `json:"probes"`
+	} `json:"ncsi"`
+	WilcardSubdomains []string `json:"wilcardSubdomains"`
+}
+
 func init() {
 	var err error
-	var appOld appConf
+	var old conf
 
 	cfgPath := path.Join(pathu.Current, "app.conf")
 
@@ -93,15 +168,14 @@ func init() {
 		err = fmt.Errorf("Cannot read %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 		print.QuitFatal(err)
 	}
-	err = json.Unmarshal(raw, &appOld)
+	err = json.Unmarshal(raw, &old)
 	if err != nil {
 		err = fmt.Errorf("Cannot unmarshall %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 		print.QuitFatal(err)
 	}
-	oldVersion := appOld.Version
 
 	// Perform upgrade if different version
-	if newVersion != oldVersion {
+	if newVersion != old.Version {
 		if err := performUpgrade(); err != nil {
 			print.QuitFatal(err)
 		}
@@ -124,6 +198,18 @@ func init() {
 	err = ioutil.WriteFile(cfgPath, cfgJson, 0644)
 	if err != nil {
 		err = fmt.Errorf("Cannot write file %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
+		print.QuitFatal(err)
+	}
+
+	// Load settings
+	rawSettings, err := bindata.Asset("app/settings.json")
+	if err != nil {
+		err = fmt.Errorf("Cannot load asset settings.json: %s", err.Error())
+		print.QuitFatal(err)
+	}
+	err = json.Unmarshal(rawSettings, &Settings)
+	if err != nil {
+		err = fmt.Errorf("Cannot unmarshall settings: %s", err.Error())
 		print.QuitFatal(err)
 	}
 }

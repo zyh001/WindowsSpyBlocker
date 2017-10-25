@@ -1,0 +1,167 @@
+{
+  "uris": {
+    "latestVersion": "https://raw.githubusercontent.com/wiki/crazy-max/WindowsSpyBlocker/latest",
+    "threatcrowd": "https://www.threatcrowd.org/searchApi/v2/%s/report/?%s=%s",
+    "whatis": "http://whatismyipaddress.com/ip/",
+    "dnsquery": "https://dnsquery.org/whois/",
+    "ipapi": "http://ip-api.com/json/",
+    "ipinfo": "http://ipinfo.io/%s/json",
+    "ipnf": "https://ip.nf/%s.json"
+  },
+  "libs": {
+    "wireshark": {
+      "url": "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
+      "checkfile": "wireshark\\tshark.exe"
+    },
+    "npcap": {
+      "url": "https://dl.bintray.com/crazy/tools/npcap-0.86.exe",
+      "checkfile": "C:\\Windows\\System32\\Npcap\\wpcap.dll"
+    },
+    "sysmon": {
+      "url": "https://dl.bintray.com/crazy/tools/Sysmon-3.10.zip",
+      "checkfile": "sysmon\\Sysmon.exe"
+    }
+  },
+  "dataTpl": {
+    "dnscrypt": {
+      "head": "",
+      "value": "%s"
+    },
+    "openwrt": {
+      "ip": {
+        "head": "### openwrt %s %s (/etc/firewall.user)\n### More info: %s\n\n# enforce router DNS\niptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53\niptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53\n\n# rules\n",
+        "value": "iptables -I FORWARD -j DROP -d %s"
+      },
+      "domains": {
+        "head": "### openwrt %s %s (/etc/dnsmasq.conf)\n### More info: %s\n\n",
+        "value": "server=/%s/"
+      }
+    },
+    "p2p": {
+      "head": "### WindowsSpyBlocker p2p %s %s\n### More info: %s\n\n",
+      "value": "WindowsSpyBlocker:%s"
+    },
+    "proxifier": {
+      "ip": {
+        "head": "",
+        "value": "%s;"
+      },
+      "domains": {
+        "head": "",
+        "value": "%s;"
+      }
+    },
+    "simplewall": {
+      "head": "<!-- WindowsSpyBlocker %s %s -->\n<!-- Source: %s -->\n<!-- Last-Modified: %s -->\n\n<?xml version=\"1.0\"?>\n<root>\n",
+      "value": "\t<item name=\"%s_%s_%s\" rule=\"%s\" dir=\"0\" protocol=\"0\" version=\"0\" is_block=\"1\" is_enabled=\"1\" />"
+    }
+  },
+  "proxifier": {
+    "unvalidLines": [
+      "Welcome to Proxifier",
+      "Profile ",
+      "Profile saved as",
+      "Log file enabled",
+      "Traffic log enabled",
+      "Traffic file disabled",
+      "Verbose output enabled",
+      "Log Directory is set to",
+      "Local CMOS Clock",
+      "Automatic DNS mode detection",
+      "(IPv6)",
+      "source socket not found",
+      "Connections do not originate from the applications"
+    ]
+  },
+  "sysmon": {
+    "evtxPath": "C:\\Windows\\sysnative\\winevt\\Logs\\Microsoft-Windows-Sysmon%4Operational.evtx"
+  },
+  "ncsi": {
+    "reg": {
+      "key": "SYSTEM\\CurrentControlSet\\Services\\NlaSvc\\Parameters\\Internet",
+      "webProbeHost": "ActiveWebProbeHost",
+      "webProbePath": "ActiveWebProbePath",
+      "webProbeContent": "ActiveWebProbeContent",
+      "webProbeHostV6": "ActiveWebProbeHostV6",
+      "webProbePathV6": "ActiveWebProbePathV6",
+      "webProbeContentV6": "ActiveWebProbeContentV6",
+      "dnsProbeHost": "ActiveDnsProbeHost",
+      "dnsProbeContent": "ActiveDnsProbeContent",
+      "dnsProbeHostV6": "ActiveDnsProbeHostV6",
+      "dnsProbeContentV6": "ActiveDnsProbeContentV6"
+    },
+    "probes": {
+      "microsoft": {
+        "webHostV4": "www.msftncsi.com",
+        "webPathV4": "ncsi.txt",
+        "webContentV4": "Microsoft NCSI",
+        "webHostV6": "ipv6.msftncsi.com",
+        "webPathV6": "ncsi.txt",
+        "webContentV6": "Microsoft NCSI",
+        "dnsHostV4": "dns.msftncsi.com",
+        "dnsContentV4": "131.107.255.255",
+        "dnsHostV6": "dns.msftncsi.com",
+        "dnsContentV6": "fd3e:4f5a:5b81::1"
+      },
+      "wsb": {
+        "webHostV4": "raw.githubusercontent.com",
+        "webPathV4": "crazy-max/WindowsSpyBlocker/master/data/ncsi/ncsi.txt",
+        "webContentV4": "WindowsSpyBlocker",
+        "webHostV6": "raw.githubusercontent.com",
+        "webPathV6": "crazy-max/WindowsSpyBlocker/master/data/ncsi/ncsi.txt",
+        "webContentV6": "WindowsSpyBlocker",
+        "dnsHostV4": "ns1.p16.dynect.net",
+        "dnsContentV4": "208.78.70.16",
+        "dnsHostV6": "ns1.p16.dynect.net",
+        "dnsContentV6": "2001:500:90:1::16"
+      }
+    }
+  },
+  "wilcardSubdomains": [
+    "*.2mdn.net",
+    "*.a-msedge.net",
+    "*.adnexus.net",
+    "*.adnxs.com",
+    "*.ads*.msads.net",
+    "*.ads*.msn.com",
+    "*.ams*.msecn.net",
+    "*.appex-rf.msn.com",
+    "*.atdmt.com",
+    "*.dc-msedge.net",
+    "*.delivery.dsp.mp.microsoft.com.nsatc.net",
+    "*.delivery.mp.microsoft.com",
+    "*.glbdns2.microsoft.com",
+    "*.location.live.net",
+    "*.messenger.live.com",
+    "*.microsoftwindowsupdate.net",
+    "*.msedge.net",
+    "*.msftncsi.com",
+    "*.rad.live.com",
+    "*.rad.msn.com",
+    "*.rads.msn.com",
+    "*.services.appex.bing.com",
+    "*.services.social.microsoft.com",
+    "*.smartscreen.microsoft.com",
+    "*.telemetry.appex.bing.net",
+    "*.telemetry.microsoft.com",
+    "*.telemetry.microsoft.com.nsatc.net",
+    "*.telemetry.urs.microsoft.com",
+    "*.tile.appex.bing.com",
+    "*.trafficmanager.net",
+    "*.update.microsoft.com",
+    "*.update.microsoft.com.akadns.net",
+    "*.virtualearth.net",
+    "*.vo.msecnd.net",
+    "*.vortex*.data.metron.live.com.nsatc.net",
+    "*.vortex*.data.microsoft.com",
+    "*.vortex.data.microsoft.com",
+    "*.weather.microsoft.com",
+    "*.windowsupdate.com",
+    "*.windowsupdate.org",
+    "*.windowupdate.org",
+    "*.ws.microsoft.com",
+    "*.xboxlive.com",
+    "array*-prod.do.dsp.mp.microsoft.com",
+    "vortex-*.metron.live.com.nsatc.net"
+  ]
+}

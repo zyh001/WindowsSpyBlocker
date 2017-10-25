@@ -23,12 +23,9 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
-	"github.com/crazy-max/WindowsSpyBlocker/app/utils/windows"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 	"github.com/fatih/color"
 )
-
-var libSysmon config.Lib
 
 // Menu of Sysmon
 func Menu(args ...string) (err error) {
@@ -55,25 +52,22 @@ func Menu(args ...string) (err error) {
 }
 
 func init() {
-	libSysmon = config.Lib{
-		Url:        "https://dl.bintray.com/crazy/tools/Sysmon-3.10.zip",
-		Dest:       path.Join(pathu.Libs, "sysmon.zip"),
-		OutputPath: path.Join(pathu.Libs, "sysmon"),
-		Checkfile:  path.Join(pathu.Libs, "sysmon", "Sysmon.exe"),
-	}
+	config.Settings.Libs.Sysmon.Dest = path.Join(pathu.Libs, "sysmon.zip")
+	config.Settings.Libs.Sysmon.OutputPath = path.Join(pathu.Libs, "sysmon")
+	config.Settings.Libs.Sysmon.Checkfile = path.Join(pathu.Libs, config.Settings.Libs.Sysmon.Checkfile)
 }
 
 func install(args ...string) (err error) {
 	fmt.Println()
 
-	if err := app.DownloadLib(libSysmon); err != nil {
+	if err := app.DownloadLib(config.Settings.Libs.Sysmon); err != nil {
 		return nil
 	}
 
 	fmt.Print("Installing Sysmon... ")
 
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command: path.Join(libSysmon.OutputPath, "Sysmon.exe"),
+		Command: path.Join(config.Settings.Libs.Sysmon.OutputPath, "Sysmon.exe"),
 		Args:    []string{"-i", "-accepteula", "-h", "md5", "-n", "-l"},
 	})
 	if err != nil {
@@ -135,13 +129,13 @@ func install(args ...string) (err error) {
 func uninstall(args ...string) (err error) {
 	fmt.Println()
 
-	if err := app.DownloadLib(libSysmon); err != nil {
+	if err := app.DownloadLib(config.Settings.Libs.Sysmon); err != nil {
 		return nil
 	}
 
 	fmt.Print("Uninstalling Sysmon... ")
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command: path.Join(libSysmon.OutputPath, "Sysmon.exe"),
+		Command: path.Join(config.Settings.Libs.Sysmon.OutputPath, "Sysmon.exe"),
 		Args:    []string{"-u", "-accepteula"},
 	})
 	if err != nil {
@@ -162,7 +156,7 @@ func uninstall(args ...string) (err error) {
 		fmt.Println(cmdResult.Stdout)
 	}
 
-	evtxPath := path.Join(`C:\Windows\sysnative\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx`)
+	evtxPath := path.Join(config.Settings.Sysmon.EvtxPath)
 	fmt.Printf("Removing %s... ", evtxPath)
 	if err := file.RemoveFile(evtxPath); err != nil {
 		print.Error(err)

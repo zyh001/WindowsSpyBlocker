@@ -181,23 +181,23 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 	if ext == data.EXT_OPENWRT {
 		asCidr = true
 		outputPath = path.Join(pathu.Data, ext, system, rule, "firewall.user")
-		fileHead = fmt.Sprintf(data.OPENWRT_IP_HEAD, system, rule, config.URL)
-		fileIpValue = data.OPENWRT_IP_VALUE
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Openwrt.Ip.Head), system, rule, config.URL)
+		fileIpValue = string(config.Settings.DataTpl.Openwrt.Ip.Value)
 	} else if ext == data.EXT_P2P {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, system, rule+".txt")
-		fileHead = fmt.Sprintf(data.P2P_HEAD, system, rule, config.URL)
-		fileIpValue = data.P2P_VALUE
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.P2p.Head), system, rule, config.URL)
+		fileIpValue = string(config.Settings.DataTpl.P2p.Value)
 	} else if ext == data.EXT_PROXIFIER {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, system, rule, "ips.txt")
-		fileHead = data.PROXIFIER_IP_HEAD
-		fileIpValue = data.PROXIFIER_IP_VALUE
+		fileHead = string(config.Settings.DataTpl.Proxifier.Ip.Head)
+		fileIpValue = string(config.Settings.DataTpl.Proxifier.Ip.Value)
 	} else if ext == data.EXT_SIMPLEWALL {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, system, rule, "blocklist.xml")
-		fileHead = fmt.Sprintf(data.SIMPLEWALL_HEAD, system, rule, config.URL, timeu.CurrentTime.Format(time.RFC1123Z))
-		fileIpValue = data.SIMPLEWALL_VALUE
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Simplewall.Head), system, rule, config.URL, timeu.CurrentTime.Format(time.RFC1123Z))
+		fileIpValue = string(config.Settings.DataTpl.Simplewall.Value)
 	}
 
 	color.New(color.FgMagenta).Printf("\nProcessing %s\n", ext)
@@ -279,18 +279,18 @@ func _procExtHosts(system string, rule string, ext string, hostsDataBuf []byte) 
 	asWildcard := false
 	if ext == data.EXT_DNSCRYPT {
 		outputPath = path.Join(pathu.Data, ext, system, rule+".txt")
-		fileHead = data.DNSCRYPT_HEAD
-		fileValue = data.DNSCRYPT_VALUE
+		fileHead = string(config.Settings.DataTpl.Dnscrypt.Head)
+		fileValue = string(config.Settings.DataTpl.Dnscrypt.Value)
 		asWildcard = true
 	} else if ext == data.EXT_OPENWRT {
 		outputPath = path.Join(pathu.Data, ext, system, rule, "dnsmasq.conf")
-		fileHead = fmt.Sprintf(data.OPENWRT_DOMAINS_HEAD, system, rule, config.URL)
-		fileValue = data.OPENWRT_DOMAINS_VALUE
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Openwrt.Domains.Head), system, rule, config.URL)
+		fileValue = string(config.Settings.DataTpl.Openwrt.Domains.Value)
 		asWildcard = false
 	} else if ext == data.EXT_PROXIFIER {
 		outputPath = path.Join(pathu.Data, ext, system, rule, "domains.txt")
-		fileHead = data.PROXIFIER_DOMAINS_HEAD
-		fileValue = data.PROXIFIER_DOMAINS_VALUE
+		fileHead = string(config.Settings.DataTpl.Proxifier.Domains.Head)
+		fileValue = string(config.Settings.DataTpl.Proxifier.Domains.Value)
 		asWildcard = true
 	}
 
@@ -440,7 +440,7 @@ func _getDiffsHosts(extHosts []string, hostsBuf []byte, asWildcard bool) (hosts,
 			continue
 		}
 		if asWildcard {
-			for _, wildcard := range data.WilcardSubdomains {
+			for _, wildcard := range config.Settings.WilcardSubdomains {
 				exp := strings.Replace(strings.Replace(wildcard, "*", `([^"]+)`, -1), ".", `\.`, -1)
 				re := regexp.MustCompile(`(?i)` + exp)
 				if re.MatchString(domain) {
