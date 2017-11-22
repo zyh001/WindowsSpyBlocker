@@ -5,6 +5,18 @@
   <property name="build.properties" value="${project.basedir}/build.properties"/>
   <property file="${build.properties}"/>
 
+  <!-- Properties -->
+  <property environment="env"/>
+  <property name="bin.path" value="${project.basedir}\bin"/>
+  <property name="app.path" value="${project.basedir}\app"/>
+  <property name="build.path" value="${bin.path}\build"/>
+  <property name="release.path" value="${bin.path}\release"/>
+  <property name="lib.path" value="${bin.path}\lib"/>
+  <property name="tmp.path" value="${bin.path}\tmp"/>
+  <property name="upx" value="${lib.path}\upx\upx.exe"/>
+  <property name="ldflags" value="-s -w"/>
+
+  <!-- Macros -->
   <macrodef name="assertdir">
     <attribute name="dir"/>
     <sequential>
@@ -23,16 +35,12 @@
     </sequential>
   </macrodef>
 
-  <!-- Properties -->
-  <property environment="env"/>
-  <property name="bin.path" value="${project.basedir}\bin"/>
-  <property name="app.path" value="${project.basedir}\app"/>
-  <property name="build.path" value="${bin.path}\build"/>
-  <property name="release.path" value="${bin.path}\release"/>
-  <property name="lib.path" value="${bin.path}\lib"/>
-  <property name="tmp.path" value="${bin.path}\tmp"/>
-  <property name="dep" value="${lib.path}\dep.exe"/>
-  <property name="upx" value="${lib.path}\upx\upx.exe"/>
+  <macrodef name="ldflags">
+    <attribute name="add"/>
+    <sequential>
+      <var name="ldflags" value="${ldflags} @{add}" />
+    </sequential>
+  </macrodef>
 
   <!-- Build number -->
   <condition property="app.release" value="${env.APPVEYOR_BUILD_NUMBER}"><isset property="env.APPVEYOR_BUILD_NUMBER"/></condition>
@@ -76,9 +84,11 @@
   </target>
 
   <target name="load.lib.dep" unless="is.lib.loaded">
-    <echo message="Load Dep"/>
-    <get dest="${dep}" src="${dep.url}" skipexisting="true"/>
-    <assertfile file="${dep}"/>
+    <exec executable="go" failonerror="true" dir="${project.basedir}">
+      <arg value="get"/>
+      <arg value="-v"/>
+      <arg value="${dep.package}"/>
+    </exec>
   </target>
 
   <target name="load.lib.upx" unless="is.lib.loaded">
@@ -116,7 +126,7 @@
   </target>
 
   <target name="dep" description="Install vendor">
-    <exec executable="${dep}" failonerror="true" dir="${project.basedir}">
+    <exec executable="dep" failonerror="true" dir="${project.basedir}">
       <arg value="ensure"/>
       <arg value="-v"/>
     </exec>
@@ -135,6 +145,11 @@
 
   <target name="build">
     <delete dir="${tmp.path}\${app.id}.exe"/>
+    <var name="ldflags" value="-s -w"/>
+    <ldflags add="-X '${app.package}/app/utils/config.AppName=${app.name}'"/>
+    <ldflags add="-X '${app.package}/app/utils/config.AppVersion=${app.version}'"/>
+    <ldflags add="-X '${app.package}/app/utils/config.AppPackage=${app.package}'"/>
+    <ldflags add="-X '${app.package}/app/utils/config.AppUrl=${app.url}'"/>
     <exec executable="go" failonerror="true" dir="${project.basedir}">
       <env key="GOARCH" value="386"/>
       <arg value="build"/>
@@ -142,7 +157,7 @@
       <arg value="${tmp.path}\${app.id}.exe"/>
       <arg value="-v"/>
       <arg value="-ldflags"/>
-      <arg value="-s -w"/>
+      <arg value="${ldflags}"/>
     </exec>
     <assertfile file="${tmp.path}\${app.id}.exe"/>
   </target>
