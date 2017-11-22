@@ -181,12 +181,12 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 	if ext == data.EXT_OPENWRT {
 		asCidr = true
 		outputPath = path.Join(pathu.Data, ext, system, rule, "firewall.user")
-		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Openwrt.Ip.Head), system, rule, config.URL)
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Openwrt.Ip.Head), system, rule, config.AppUrl)
 		fileIpValue = string(config.Settings.DataTpl.Openwrt.Ip.Value)
 	} else if ext == data.EXT_P2P {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, system, rule+".txt")
-		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.P2p.Head), system, rule, config.URL)
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.P2p.Head), system, rule, config.AppUrl)
 		fileIpValue = string(config.Settings.DataTpl.P2p.Value)
 	} else if ext == data.EXT_PROXIFIER {
 		asCidr = false
@@ -196,7 +196,7 @@ func _procExtIPs(system string, rule string, ext string, firewallDataBuf []byte)
 	} else if ext == data.EXT_SIMPLEWALL {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, system, rule, "blocklist.xml")
-		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Simplewall.Head), system, rule, config.URL, timeu.CurrentTime.Format(time.RFC1123Z))
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Simplewall.Head), system, rule, config.AppUrl, timeu.CurrentTime.Format(time.RFC1123Z))
 		fileIpValue = string(config.Settings.DataTpl.Simplewall.Value)
 	}
 
@@ -284,7 +284,7 @@ func _procExtHosts(system string, rule string, ext string, hostsDataBuf []byte) 
 		asWildcard = true
 	} else if ext == data.EXT_OPENWRT {
 		outputPath = path.Join(pathu.Data, ext, system, rule, "dnsmasq.conf")
-		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Openwrt.Domains.Head), system, rule, config.URL)
+		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Openwrt.Domains.Head), system, rule, config.AppUrl)
 		fileValue = string(config.Settings.DataTpl.Openwrt.Domains.Value)
 		asWildcard = false
 	} else if ext == data.EXT_PROXIFIER {

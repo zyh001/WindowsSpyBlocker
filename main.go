@@ -19,21 +19,21 @@ import (
 )
 
 func init() {
-	windows.SetConsoleTitle(fmt.Sprintf("%s %s", config.NAME, config.VERSION))
+	windows.SetConsoleTitle(fmt.Sprintf("%s %s", config.AppName, config.AppVersion))
 }
 
 func main() {
-	color.New(color.FgHiWhite).Println(config.NAME + " " + config.VERSION)
-	color.New(color.FgHiWhite).Println(config.URL)
+	color.New(color.FgHiWhite).Println(config.AppName + " " + config.AppVersion)
+	color.New(color.FgHiWhite).Println(config.AppUrl)
 
 	latestVersion, err := app.GetLatestVersion()
 	if err != nil {
-		color.New(color.FgRed).Printf("\n%s can't contact the update server: %s", config.NAME, err.Error())
-	} else if version.Compare(config.VERSION, latestVersion, "<") {
+		color.New(color.FgRed).Printf("\n%s can't contact the update server: %s", config.AppName, err.Error())
+	} else if version.Compare(config.AppVersion, latestVersion, "<") {
 		color.New(color.FgHiGreen).Print("\nA new release is available : ")
 		color.New(color.FgHiGreen, color.Bold).Print(latestVersion)
 		color.New(color.FgHiGreen).Print("\nDownload : ")
-		color.New(color.FgHiGreen, color.Bold).Print(config.URL + "/releases/latest\n")
+		color.New(color.FgHiGreen, color.Bold).Print(config.AppUrl + "/releases/latest\n")
 	}
 
 	menuCommands := []menu.CommandOption{

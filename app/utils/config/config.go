@@ -14,12 +14,12 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 )
 
-// App constants
-const (
-	NAME    = "WindowsSpyBlocker"
-	VERSION = "4.9.0"
-	PACKAGE = "github.com/crazy-max/WindowsSpyBlocker"
-	URL     = "https://" + PACKAGE
+// App
+var (
+	AppName    = "WindowsSpyBlocker"
+	AppVersion = "1.0.0"
+	AppPackage = "github.com/crazy-max/WindowsSpyBlocker"
+	AppUrl     = "https://" + AppPackage
 )
 
 // Config
