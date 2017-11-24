@@ -1,15 +1,19 @@
 <!-- WindowsSpyBlocker win10 update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 16 Jul 2017 16:02:06 +0200 -->
+<!-- Last-Modified: Fri, 24 Nov 2017 14:04:11 +0100 -->
 
 <?xml version="1.0"?>
 <root>
+	<item name="win10_update_13.68.87.47" rule="13.68.87.47" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_13.68.87.175" rule="13.68.87.175" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_13.74.179.117" rule="13.74.179.117" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_13.107.4.50" rule="13.107.4.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_13.107.4.52" rule="13.107.4.52" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_23.103.189.126" rule="23.103.189.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_23.103.189.157" rule="23.103.189.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_23.103.189.158" rule="23.103.189.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_40.77.229.0-40.77.229.255" rule="40.77.229.0-40.77.229.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_52.229.171.202" rule="52.229.171.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_65.55.138.0-65.55.138.255" rule="65.55.138.0-65.55.138.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_65.55.163.0-65.55.163.255" rule="65.55.163.0-65.55.163.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_66.119.144.157" rule="66.119.144.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

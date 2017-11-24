@@ -1,14 +1,11 @@
 <!-- WindowsSpyBlocker win10 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Wed, 22 Nov 2017 00:43:27 +0100 -->
+<!-- Last-Modified: Fri, 24 Nov 2017 14:04:11 +0100 -->
 
 <?xml version="1.0"?>
 <root>
 	<item name="win10_spy_13.68.82.8" rule="13.68.82.8" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_spy_13.68.87.47" rule="13.68.87.47" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_spy_13.68.87.175" rule="13.68.87.175" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.68.88.129" rule="13.68.88.129" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_spy_13.74.179.117" rule="13.74.179.117" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.76.218.117" rule="13.76.218.117" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.76.219.191" rule="13.76.219.191" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.76.219.210" rule="13.76.219.210" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -87,7 +84,6 @@
 	<item name="win10_spy_52.184.152.136" rule="52.184.152.136" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.184.155.206" rule="52.184.155.206" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.187.60.107" rule="52.187.60.107" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_spy_52.229.171.202" rule="52.229.171.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.233.199.249" rule="52.233.199.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.236.42.239" rule="52.236.42.239" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.236.43.202" rule="52.236.43.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

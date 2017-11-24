@@ -1,9 +1,9 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 13.80.12.54,AS8075 Microsoft Corporation,NL,,
-13.107.3.128,AS8068 Microsoft Corporation,US,2017-11-21,config.edge.skype.com
+13.107.3.128,AS8068 Microsoft Corporation,US,2017-11-22,s-0001.s-msedge.net
+,,,2017-11-21,config.edge.skype.com
 ,,,2017-11-18,b.config.skype.com
 ,,,2017-11-17,api.teams.skype.com
-,,,2017-10-31,s-0001.s-msedge.net
 ,,,2017-10-13,skypeecs-prod-edge-b.trafficmanager.net
 ,,,2017-09-29,edge.skype.com
 ,,,2017-08-25,a.config.skype.com
@@ -35,7 +35,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-06-06,96d605e215b1ca6b3c36f36f0d890503.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,01bdc39fa7520ed8d042ed01f10f5ff1.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,057cdccaf1a2b3ee62d7815dc2809950.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,0103bf7dbfa3ee27db2847bb01b31583.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,c3263c48779fb25efe6e95720dd5cdf4.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,02a42dbf43a0695e2c8ac67d910e7e71.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,c8118e4bd0febca092e60398644e5e05.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,1f6b3e099a3eb3c25f69dc1133ac8e05.azr.msnetworkanalytics.testanalytics.net
@@ -49,7 +49,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-06-05,006bf0f0feadecfb6302350439efdc74.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,03ed722a1061d4521ad804e0feeb0a81.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,00ed2dfadef940d4c8d854f430afeab2.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,0024fe293647c53b41ea959b4a5f94d2.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0103bf7dbfa3ee27db2847bb01b31583.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,01f454b261781fde9c2c6d4c2364f864.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,014c45afb6e2d511778db21a49267001.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,0248071923ecdf32aa764ad0d61e2c06.azr.msnetworkanalytics.testanalytics.net
@@ -61,7 +61,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-06-05,004d9bba017634fcc44cb2426da70304.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,43ca79e185a214eeeeb3d04a73cad583.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,015fa67e84d71c3a9b4f283a58ed1ad2.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,c3263c48779fb25efe6e95720dd5cdf4.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0024fe293647c53b41ea959b4a5f94d2.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,02aa5f96be5a14d3ee3e6977254857a5.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-05-27,portal.bing.com
 ,,,2017-05-25,xn--2www-zrlx035mskwc.bing.com
@@ -92,10 +92,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-04-06,anxwdw.bay.livefilestore.com
 ,,,2017-04-05,729973897f37b8e4.users.storage.live.com
 ,,,2017-04-05,cddp0g.blu.livefilestore.com
-,,,2017-04-04,bp6lpw.sn2.livefilestore.com
-,,,2017-04-04,d.docs.live.netd.docs.live.net
-,,,2017-04-04,aohshg.bn1.livefilestore.com
 ,,,2017-04-04,aabfyg.bay.livefilestore.com
+,,,2017-04-04,bp6lpw.sn2.livefilestore.com
+,,,2017-04-04,aohshg.bn1.livefilestore.com
+,,,2017-04-04,d.docs.live.netd.docs.live.net
 ,,,2017-04-01,blufiles.storage.live.com
 ,,,2017-03-31,bpfrew.bay.livefilestore.com
 ,,,2017-03-28,atpiea.dm1.livefilestore.com
@@ -142,10 +142,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-03-03,cid-e052c9dd670f2641.users.storage.live.com
 ,,,2017-03-03,audrsq.blu.livefilestore.com
 ,,,2017-03-03,cid-71ec1f20d6e89920.users.storage.live.com
-,,,2017-03-02,cid-4e5115771ad4b51d.users.storage.live.com
-,,,2017-03-02,cid-377132a4fabf1529.users.storage.live.com
-,,,2017-03-02,cid-26d8b9e19a3aede1.users.storage.live.com
 ,,,2017-03-02,cid-2d54ebc5078dfdb3.users.storage.live.com
+,,,2017-03-02,cid-4e5115771ad4b51d.users.storage.live.com
+,,,2017-03-02,cid-26d8b9e19a3aede1.users.storage.live.com
+,,,2017-03-02,cid-377132a4fabf1529.users.storage.live.com
 ,,,2017-03-01,cid-d1a3320c1150727d.users.storage.live.com
 ,,,2017-03-01,cid-fe6d05c601adf56d.users.storage.live.com
 ,,,2017-03-01,cid-abf8137dbba4122b.users.storage.live.com
@@ -156,9 +156,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-28,cid-97e5aefe6fb2bacc.users.storage.live.com
 ,,,2017-02-28,cid-5bb75dd554b4f885.users.storage.live.com
 ,,,2017-02-28,cid-689d9bdfd204b9ac.users.storage.live.com
-,,,2017-02-27,cid-6b416ff433a00c5f.users.storage.live.com
-,,,2017-02-27,dctmja.bay.livefilestore.com
 ,,,2017-02-27,cid-41b063835cb8f116.users.storage.live.com
+,,,2017-02-27,dctmja.bay.livefilestore.com
+,,,2017-02-27,cid-6b416ff433a00c5f.users.storage.live.com
 ,,,2017-02-26,cid-2c7126ce1f0d48b3.users.storage.live.com
 ,,,2017-02-25,cid-157b7625d8f95434.users.storage.live.com
 ,,,2017-02-24,hmqcow.blu.livefilestore.com
@@ -168,10 +168,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-23,bgkxrg.bay.livefilestore.com
 ,,,2017-02-23,bwiqiw.bay.livefilestore.com
 ,,,2017-02-23,cid-bf60feb6cb724fd8.users.storage.live.com
+,,,2017-02-22,cid-efe2c31a307d352a.users.storage.live.com
 ,,,2017-02-22,cid-875f2c5660493be5.users.storage.live.com
 ,,,2017-02-22,cid-16f2183f8dae66b9.users.storage.live.com
 ,,,2017-02-22,cid-18ef36adb565ffe5.users.storage.live.com
-,,,2017-02-22,cid-efe2c31a307d352a.users.storage.live.com
 ,,,2017-02-21,cid-99bf21082ca36309.users.storage.live.com
 ,,,2017-02-20,ebhdoa.bay.livefilestore.com
 ,,,2017-02-18,d.docs.live.net
@@ -285,8 +285,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-07-06,windows.policies.live.net
 ,,,2017-06-25,cid-125491f19ca39740.users.storage.live.com
 ,,,2017-06-23,cid-f272621d5d060332.users.storage.live.com
-,,,2017-06-23,cid-df21bcd747d57747.users.storage.live.com
 ,,,2017-06-23,cid-bafb511309f2d39f.users.storage.live.com
+,,,2017-06-23,cid-df21bcd747d57747.users.storage.live.com
 ,,,2017-06-18,cid-3cab83f04ee8010.users.storage.live.com
 ,,,2017-06-17,qakcba.bay.livefilestore.com
 ,,,2017-06-16,svllea.bay.livefilestore.com
@@ -412,9 +412,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-04-01,civitanovalogs.scm.azurewebsites.net
 104.215.146.200,AS8075 Microsoft Corporation,SG,2017-09-17,prod-w.nexus.live.com.akadns.net
 ,,,2017-08-20,nexus.officeapps.live.com
-131.253.34.230,AS8075 Microsoft Corporation,US,2017-11-17,bn2wns1.wns.windows.com
+131.253.34.230,AS8075 Microsoft Corporation,US,2017-11-22,bn2wns1.wns.windows.com
+,,,2017-11-22,skydrive.wns.windows.com
 ,,,2017-11-16,bn2.wns.windows.com
-,,,2017-11-13,skydrive.wns.windows.com
 ,,,2017-11-13,client.wns.windows.com
 ,,,2017-11-02,131.253.34.230
 ,,,2017-10-31,wns.windows.com
