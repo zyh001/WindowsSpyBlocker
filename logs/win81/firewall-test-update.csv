@@ -1,38 +1,44 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.107.4.50,AS8068 Microsoft Corporation,US,2017-11-15,tlu.graystore.msedge.net
-,,,2017-11-15,b1w8au.au-msedge.net
+13.68.87.175,AS8075 Microsoft Corporation,US,2017-11-22,sls.update.microsoft.com.nsatc.net
+,,,2017-11-08,sls.update.microsoft.com
+13.78.184.44,AS8075 Microsoft Corporation,US,2017-11-22,stats1.update.microsoft.com.nsatc.net
+,,,2017-11-16,statsfe1.update.microsoft.com.akadns.net
+,,,2017-10-30,statsupdate.microsoft.com.nsatc.net
+,,,2017-10-08,statsfe2.update.microsoft.com.akadns.net
+13.107.4.50,AS8068 Microsoft Corporation,US,2017-11-17,nontlu.graystore.au-msedge.net
+,,,2017-11-17,dnste-net-dyxmwn68.c-0001.c-msedge.net
+,,,2017-11-17,au.au-msedge.net
+,,,2017-11-16,graystore.c-0001.c-msedge.net
+,,,2017-11-16,dnste-net-nq22y10v.c-0001.c-msedge.net
+,,,2017-11-16,tlu.dl.delivery.mp.microsoft.com
+,,,2017-11-16,audownload.windowsupdate.nsatc.net
+,,,2017-11-15,v4.download.windowsupdate.com
+,,,2017-11-15,edges.au-msedge.net
 ,,,2017-11-14,aupl.v4.download.windowsupdate.com
-,,,2017-11-14,au.v4.b1.download.windowsupdate.com
 ,,,2017-11-14,ds.download.windowsupdate.com
 ,,,2017-11-14,wsus.ds.download.windowsupdate.com
-,,,2017-11-14,aupl.v4.b1.download.windowsupdate.com
 ,,,2017-11-13,b1w7dl.c-0001.c-msedge.net
 ,,,2017-11-13,b1fgds.c-0005.c-msedge.net
 ,,,2017-11-13,c-0005.c-msedge.net
-,,,2017-11-13,au.b1.dl.windowsupdate.com.nsatc.net
 ,,,2017-11-12,dnste-net-piie6ko5.c-0001.c-msedge.net
-,,,2017-11-12,7.download.windowsupdate.com
 ,,,2017-11-11,b1fgv4.c-0001.c-msedge.net
 ,,,2017-11-11,dl.delivery.mp.microsoft.com
-,,,2017-11-09,au.v4.b1.dl.windowsupdate.com.nsatc.net
-,,,2017-11-09,wsus.ds.b1.download.windowsupdate.com
 ,,,2017-11-09,dnste-net-2vnygc3u.c-0001.c-msedge.net
-,,,2017-11-09,www.download.windowsupdate.com
+,,,2017-11-09,au.v4.b1.dl.windowsupdate.com.nsatc.net
 ,,,2017-11-09,2-01-3cf7-000c.cdx.cedexis.net
+,,,2017-11-09,www.download.windowsupdate.com
 ,,,2017-11-08,fg.ds.b1.download.windowsupdate.com
-,,,2017-11-06,dnste-net-u7d6m8y3.c-0001.c-msedge.net
 ,,,2017-11-06,wsus.ds.www.download.windowsupdate.com
+,,,2017-11-06,dnste-net-u7d6m8y3.c-0001.c-msedge.net
+,,,2017-11-04,fg.v4.b1.dl.windowsupdate.com.nsatc.net
 ,,,2017-11-04,b1w8au.c-0001.c-msedge.net
 ,,,2017-11-04,aupl.ds.b1.download.windowsupdate.com
 ,,,2017-11-04,b1.download.windowsupdate.com
 ,,,2017-11-04,tlu.dl.delivery.mp.microsoft.com.nsatc.net
-,,,2017-11-04,fg.v4.b1.dl.windowsupdate.com.nsatc.net
 ,,,2017-11-02,2-01-3cf7-0009.cdx.cedexis.net
-,,,2017-11-02,b1w7dl.au-msedge.net
 ,,,2017-11-01,2-01-3cf7-000d.cdx.cedexis.net
 ,,,2017-10-29,bg.v4.dl.windowsupdate.com.nsatc.net
 ,,,2017-10-28,wsus.ds.b1.dl.windowsupdate.com.nsatc.net
-,,,2017-10-22,fg.ds.b1.dl.windowsupdate.com.nsatc.net
 ,,,2017-10-22,7.au.b1.download.windowsupdate.com
 ,,,2017-10-21,aupl.v4.b1.dl.windowsupdate.com.nsatc.net
 ,,,2017-10-19,dnste-net-mkoxwjhm.c-0001.c-msedge.net
@@ -78,10 +84,24 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-09-24,statsfe1.ws.microsoft.com
 ,,,2017-09-06,stats1.update.microsoft.com
 ,,,2017-08-29,s2.statsupdate.microsoft.com.nsatc.net
+52.229.171.202,AS8075 Microsoft Corporation,HK,2017-11-22,52.229.171.202
 65.55.242.254,AS8075 Microsoft Corporation,US,2017-11-13,fe2.ws.microsoft.com.nsatc.net
 ,,,2017-11-12,fe2.ws.microsoft.com
 ,,,2017-11-05,fe1.ws.microsoft.com.nsatc.net
 ,,,2014-05-11,fe1.ws.microsoft.com
+66.119.144.157,AS8075 Microsoft Corporation,US,2017-11-15,fe2.update.microsoft.com
+,,,2017-09-22,fe2.update.microsoft.com.nsatc.net
+,,,2017-09-21,fe2.update.microsoft.com.akadns.net
+66.119.144.158,AS8075 Microsoft Corporation,US,2017-10-13,fe2.update.microsoft.com
+,,,2017-10-11,fe2.update.microsoft.com.nsatc.net
+66.119.144.189,AS8075 Microsoft Corporation,US,2017-05-23,fe1.update.microsoft.com.akadns.net
+,,,2016-10-25,fe2.update.microsoft.com.nsatc.net
+,,,2015-06-03,fe1.update.microsoft.com
+,,,2015-04-26,fe2.update.microsoft.com
+66.119.144.190,AS8075 Microsoft Corporation,US,2016-03-25,fe2.update.microsoft.com.nsatc.net
+,,,2016-02-17,fe2.update.microsoft.com.akadns.net
+,,,2015-05-07,fe1.update.microsoft.com
+,,,2015-04-21,fe2.update.microsoft.com
 131.253.14.153,AS8075 Microsoft Corporation,US,2017-08-31,statsupdate.microsoft.com.nsatc.net
 ,,,2017-08-01,statsfe2.ws.microsoft.com.nsatc.net
 ,,,2017-06-16,statsfe2.update.microsoft.com.akadns.net
@@ -124,9 +144,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-06-12,fe2.update.microsoft.com
 ,,,2016-11-15,fe2.update.microsoft.com.nsatc.net
 ,,,2015-02-07,fe2.update.microsoft.com.akadns.net
+157.55.133.204,AS8075 Microsoft Corporation,US,2017-07-11,sls.update.microsoft.com.nsatc.net
+,,,2017-06-28,sls.update.microsoft.com
+,,,2014-10-10,sls.update.microsoft.com.akadns.net
+,,,2013-09-06,catalog.update.microsoft.com
 157.55.240.89,AS8075 Microsoft Corporation,US,2017-10-24,sls.update.microsoft.com
 ,,,2017-05-31,sls.update.microsoft.com.nsatc.net
-157.55.240.126,AS8075 Microsoft Corporation,US,2017-11-16,fe2.ws.microsoft.com.nsatc.net
+157.55.240.126,AS8075 Microsoft Corporation,US,2017-11-23,fe2.ws.microsoft.com.nsatc.net
 ,,,2017-11-09,fe2.ws.microsoft.com
 ,,,2017-09-23,fe1.ws.microsoft.com.nsatc.net
 ,,,2016-11-30,fe1.ws.microsoft.com
@@ -155,7 +179,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-09-15,www.update.microsoft.com.nsatc.net
 ,,,2014-09-11,www.update.microsoft.com
 ,,,2014-09-10,www.windowsupdate.com
-157.56.96.54,AS8075 Microsoft Corporation,US,2017-11-18,akadns.info
+157.56.96.54,AS8075 Microsoft Corporation,US,2017-11-22,akadns.info
 ,,,2017-10-27,sls.update.microsoft.com.nsatc.net
 ,,,2017-02-11,sls.update.microsoft.com
 157.56.96.58,AS8075 Microsoft Corporation,US,2017-06-01,sls.update.microsoft.com

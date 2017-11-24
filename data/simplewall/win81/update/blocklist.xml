@@ -1,9 +1,11 @@
 <!-- WindowsSpyBlocker win81 update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Wed, 22 Nov 2017 00:43:27 +0100 -->
+<!-- Last-Modified: Fri, 24 Nov 2017 14:04:11 +0100 -->
 
 <?xml version="1.0"?>
 <root>
+	<item name="win81_update_13.68.87.175" rule="13.68.87.175" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_13.78.184.44" rule="13.78.184.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_13.107.4.50" rule="13.107.4.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_23.103.189.125" rule="23.103.189.125" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_23.103.189.126" rule="23.103.189.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -12,9 +14,14 @@
 	<item name="win81_update_40.77.229.53" rule="40.77.229.53" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_52.183.47.176" rule="52.183.47.176" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_52.183.118.171" rule="52.183.118.171" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_52.229.171.202" rule="52.229.171.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_65.55.138.0-65.55.138.255" rule="65.55.138.0-65.55.138.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_65.55.163.0-65.55.163.255" rule="65.55.163.0-65.55.163.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_65.55.242.254" rule="65.55.242.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_66.119.144.157" rule="66.119.144.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_66.119.144.158" rule="66.119.144.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_66.119.144.189" rule="66.119.144.189" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_66.119.144.190" rule="66.119.144.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_131.253.14.153" rule="131.253.14.153" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_134.170.51.0-134.170.51.255" rule="134.170.51.0-134.170.51.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_134.170.53.29" rule="134.170.53.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -28,6 +35,7 @@
 	<item name="win81_update_134.170.165.249" rule="134.170.165.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_134.170.165.251" rule="134.170.165.251" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_134.170.165.253" rule="134.170.165.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_update_157.55.133.204" rule="157.55.133.204" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_157.55.240.89" rule="157.55.240.89" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_157.55.240.126" rule="157.55.240.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_update_157.55.240.220" rule="157.55.240.220" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
