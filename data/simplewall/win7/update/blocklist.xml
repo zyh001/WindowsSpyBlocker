@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win7 update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 17 Oct 2017 01:56:13 +0200 -->
+<!-- Last-Modified: Fri, 24 Nov 2017 14:04:11 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -16,7 +16,15 @@
 	<item name="win7_update_65.55.138.186" rule="65.55.138.186" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_65.55.163.221" rule="65.55.163.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_65.55.163.222" rule="65.55.163.222" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_66.119.144.157" rule="66.119.144.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_66.119.144.158" rule="66.119.144.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_66.119.144.189" rule="66.119.144.189" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_66.119.144.190" rule="66.119.144.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_134.170.51.190" rule="134.170.51.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.51.246" rule="134.170.51.246" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.51.247" rule="134.170.51.247" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.51.248" rule="134.170.51.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_134.170.53.29" rule="134.170.53.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_134.170.53.30" rule="134.170.53.30" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_134.170.58.0-134.170.58.255" rule="134.170.58.0-134.170.58.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_134.170.115.62" rule="134.170.115.62" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

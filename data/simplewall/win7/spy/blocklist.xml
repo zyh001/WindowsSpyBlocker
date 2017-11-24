@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win7 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Wed, 22 Nov 2017 00:43:27 +0100 -->
+<!-- Last-Modified: Fri, 24 Nov 2017 14:04:11 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -33,10 +33,6 @@
 	<item name="win7_spy_65.55.252.71" rule="65.55.252.71" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_65.55.252.93" rule="65.55.252.93" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_65.55.252.190" rule="65.55.252.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_66.119.144.157" rule="66.119.144.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_66.119.144.158" rule="66.119.144.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_66.119.144.189" rule="66.119.144.189" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_66.119.144.190" rule="66.119.144.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_104.43.137.66" rule="104.43.137.66" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_104.43.139.21" rule="104.43.139.21" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_104.43.228.53" rule="104.43.228.53" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -45,10 +41,6 @@
 	<item name="win7_spy_111.221.29.13" rule="111.221.29.13" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_111.221.29.253" rule="111.221.29.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_134.170.30.221" rule="134.170.30.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_134.170.51.246" rule="134.170.51.246" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_134.170.51.247" rule="134.170.51.247" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_134.170.51.248" rule="134.170.51.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win7_spy_134.170.53.29" rule="134.170.53.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_137.117.235.16" rule="137.117.235.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_spy_191.237.208.126" rule="191.237.208.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 </root>
