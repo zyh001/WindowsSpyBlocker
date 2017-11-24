@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.10.1 (2017/11/24)
+
+* Move 13.68.87, 13.74.179 and 52.229.171 to update for Windows 10 (Issue #92)
+* Move 13.68.87, 13.78.184, 52.229.171, 66.119.144 and 157.55.133 to update for Windows 8.1 (Issue #92)
+* Move 66.119.144, 134.170.51 and 134.170.53 to update for Windows 7 (Issue #92)
+
 ## 4.10.0 (2017/11/22)
 
 * New hosts for Windows 10 extra and spy
