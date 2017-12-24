@@ -1,12 +1,19 @@
 <!-- WindowsSpyBlocker win81 extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 17 Oct 2017 01:56:13 +0200 -->
+<!-- Last-Modified: Sun, 24 Dec 2017 08:56:58 +0100 -->
 
 <?xml version="1.0"?>
 <root>
 	<item name="win81_extra_13.80.12.54" rule="13.80.12.54" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_40.118.103.7" rule="40.118.103.7" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_40.118.106.130" rule="40.118.106.130" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_51.140.65.84" rule="51.140.65.84" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_52.166.110.64" rule="52.166.110.64" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_52.166.120.77" rule="52.166.120.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_52.169.71.150" rule="52.169.71.150" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_52.178.161.41" rule="52.178.161.41" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_52.178.163.85" rule="52.178.163.85" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_52.232.16.77" rule="52.232.16.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_64.4.54.22" rule="64.4.54.22" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_64.4.54.253" rule="64.4.54.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_64.4.54.254" rule="64.4.54.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
