@@ -1,11 +1,16 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 13.80.12.54,AS8075 Microsoft Corporation,NL,,
-13.107.3.128,AS8068 Microsoft Corporation,US,2017-11-22,s-0001.s-msedge.net
-,,,2017-11-21,config.edge.skype.com
-,,,2017-11-18,b.config.skype.com
+13.107.3.128,AS8068 Microsoft Corporation,US,2017-12-22,config.edge.skype.com
+,,,2017-12-20,b.config.skype.com
+,,,2017-12-19,skypeecs-prod-edge-b.trafficmanager.net
+,,,2017-12-12,edge.skype.net
+,,,2017-12-06,statics.teams.microsoft.com
+,,,2017-12-06,settings.teams.skype.com
+,,,2017-12-06,emails.teams.skype.com
+,,,2017-11-27,edge.skype.com
+,,,2017-11-26,webhook.teams.skype.com
+,,,2017-11-22,s-0001.s-msedge.net
 ,,,2017-11-17,api.teams.skype.com
-,,,2017-10-13,skypeecs-prod-edge-b.trafficmanager.net
-,,,2017-09-29,edge.skype.com
 ,,,2017-08-25,a.config.skype.com
 ,,,2017-08-20,skypeecs-prod-edge-a.trafficmanager.net
 ,,,2017-08-17,leaders.mkscouts.org
@@ -16,42 +21,36 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-04-16,a.config.skype.net
 ,,,2017-04-16,b.config.skype.net
 ,,,2017-04-16,img.teams.skype.com
-,,,2016-12-12,webhook.teams.skype.com
-,,,2016-12-12,settings.teams.skype.com
-,,,2016-12-12,emails.teams.skype.com
 ,,,2016-12-12,bots.teams.skype.com
 ,,,2016-12-07,config.teams.microsoft.com
 ,,,2016-10-29,edge-skype-com.s-0001.s-msedge.net
-,,,2016-10-25,statics.teams.microsoft.com
 ,,,2016-09-09,statics.teams.skype.com
-13.107.21.200,AS8068 Microsoft Corporation,US,2017-06-06,049aa0b6b47962fc85f3d215de3ec291.azr.msnetworkanalytics.testanalytics.net
+13.107.21.200,AS8068 Microsoft Corporation,US,2017-06-06,96d605e215b1ca6b3c36f36f0d890503.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,03f940baaaf00a31aa79762d6fd31205.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,017d4d126ddc983648a35668b5655f35.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,2c2c1dfaabc911b787cdcbb232ff8fd3.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,88be6c12bdce775b316687aecb0360e4.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,0934e91b4f1abd19b7a20ec96634f972.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,049aa0b6b47962fc85f3d215de3ec291.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,00883a520050af0853d18b69422fade4.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,01fdb4782e172c382cd5007b61920b12.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-06,017d4d126ddc983648a35668b5655f35.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,0258e8cae3b22c69a4e569cdd2430106.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-06,96d605e215b1ca6b3c36f36f0d890503.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,45e60956e4d24b3000d502ed1104a630.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,01bdc39fa7520ed8d042ed01f10f5ff1.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,057cdccaf1a2b3ee62d7815dc2809950.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,c3263c48779fb25efe6e95720dd5cdf4.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,02a42dbf43a0695e2c8ac67d910e7e71.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,c8118e4bd0febca092e60398644e5e05.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,1f6b3e099a3eb3c25f69dc1133ac8e05.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,e2f518bd473f1e86f195b65369343701.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,5a671f131bef0328f93240f0c532d936.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,0012e48c18730618b3eb42e847f7a2b0.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,aea787df90ecc789f916ba9c69b11390.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,3cb3378ec06044e6a04d5bab1549a592.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,61d5b3ac7d642e5a11f50b504f8eaee5.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,003e4fdd2cffa02da3a3f04c35181d75.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,e2f518bd473f1e86f195b65369343701.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0024fe293647c53b41ea959b4a5f94d2.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,006bf0f0feadecfb6302350439efdc74.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,03ed722a1061d4521ad804e0feeb0a81.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,00ed2dfadef940d4c8d854f430afeab2.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,0103bf7dbfa3ee27db2847bb01b31583.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,c3263c48779fb25efe6e95720dd5cdf4.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,01f454b261781fde9c2c6d4c2364f864.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,014c45afb6e2d511778db21a49267001.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,1f6b3e099a3eb3c25f69dc1133ac8e05.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,0248071923ecdf32aa764ad0d61e2c06.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,0145d26011f2e18d8e3a70df1f9593a0.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,06523110b82e4d7604ed839e54e16706.azr.msnetworkanalytics.testanalytics.net
@@ -61,20 +60,22 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-06-05,004d9bba017634fcc44cb2426da70304.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,43ca79e185a214eeeeb3d04a73cad583.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,015fa67e84d71c3a9b4f283a58ed1ad2.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,0024fe293647c53b41ea959b4a5f94d2.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0103bf7dbfa3ee27db2847bb01b31583.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,02aa5f96be5a14d3ee3e6977254857a5.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,c8118e4bd0febca092e60398644e5e05.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,02a42dbf43a0695e2c8ac67d910e7e71.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,014c45afb6e2d511778db21a49267001.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-05-27,portal.bing.com
 ,,,2017-05-25,xn--2www-zrlx035mskwc.bing.com
-,,,2017-05-25,eng.bing.com
 ,,,2017-05-17,it.bing.com
 ,,,2017-05-10,94.bing.com
-,,,2017-05-03,www.dic.bing.com
 ,,,2017-05-03,www.travel.bing.com
+,,,2017-05-03,www.dic.bing.com
 ,,,2017-04-29,xn--proewww-ik1fk359ehpnc.bing.com
 ,,,2017-04-10,xn--xpmcwww-i87g6066cql6a.bing.com
 ,,,2017-04-09,ts4.mm.bing.net
 ,,,2016-10-27,www.iwindows.win
-23.97.178.173,AS8075 Microsoft Corporation,NL,2017-11-21,osiprod-weu-snow-000.cloudapp.net
+23.97.178.173,AS8075 Microsoft Corporation,NL,2017-11-24,osiprod-weu-snow-000.cloudapp.net
 ,,,2017-10-11,config.office.microsoft.com
 ,,,2017-09-07,office14client.microsoft.com
 ,,,2017-09-06,officeclient.microsoft.com
@@ -231,20 +232,22 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-20,cid-46ed067ad82a1b0e.users.storage.live.com
 ,,,2017-02-15,bs6yng.blu.livefilestore.com
 ,,,2017-02-13,cid-5664a7b19ea92d46.users.storage.live.com
-40.90.136.20,AS8075 Microsoft Corporation,US,2017-11-02,bl3301.storage.skyprod.akadns.net
+40.90.136.20,AS8075 Microsoft Corporation,US,2017-12-18,bl3301.storage.skyprod.akadns.net
+,,,2017-12-18,0liaxa.bl3301.livefilestore.com
+,,,2017-12-09,storage.live.com
 ,,,2017-10-13,cid-600292dd4e56f250.users.storage.live.com
 ,,,2017-10-11,cid-f7c023353e44f130.users.storage.live.com
-,,,2017-10-01,storage.live.com
 ,,,2017-09-28,cid-279f0f2549b81920.users.storage.live.com
 ,,,2017-09-25,cid-36cdb4fe4c351450.users.storage.live.com
 ,,,2017-09-22,cid-338526372dde0e20.users.storage.live.com
 ,,,2017-09-17,cid-b222523df828b830.users.storage.live.com
-40.101.46.178,AS8075 Microsoft Corporation,IE,2017-09-07,attachment.outlook.office.net
+40.101.46.178,,,2017-09-07,attachment.outlook.office.net
 40.114.241.141,AS8075 Microsoft Corporation,NL,2016-02-05,weu-breeziest-in.cloudapp.net
 40.118.103.7,AS8075 Microsoft Corporation,NL,2016-07-13,coldzone.tk
 ,,,2016-05-21,time.windows.com
 ,,,2016-04-26,time.microsoft.akadns.net
 40.127.142.76,AS8075 Microsoft Corporation,IE,2017-10-04,iceotf-prod-fe-tm.trafficmanager.net
+,,,2017-09-06,otf.msn.com
 ,,,2017-05-19,iceotf-prod-fe-northeurope.cloudapp.net
 65.52.100.11,AS8075 Microsoft Corporation,US,2015-10-03,watson.ppe.telemetry.microsoft.com
 65.52.100.93,AS8075 Microsoft Corporation,US,2015-10-03,wes.df.telemetry.microsoft.com
@@ -412,17 +415,17 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-04-01,civitanovalogs.scm.azurewebsites.net
 104.215.146.200,AS8075 Microsoft Corporation,SG,2017-09-17,prod-w.nexus.live.com.akadns.net
 ,,,2017-08-20,nexus.officeapps.live.com
-131.253.34.230,AS8075 Microsoft Corporation,US,2017-11-22,bn2wns1.wns.windows.com
-,,,2017-11-22,skydrive.wns.windows.com
-,,,2017-11-16,bn2.wns.windows.com
-,,,2017-11-13,client.wns.windows.com
-,,,2017-11-02,131.253.34.230
-,,,2017-10-31,wns.windows.com
-,,,2017-10-13,bn2.wns.notify.windows.com.akadns.net
+131.253.34.230,AS8075 Microsoft Corporation,US,2017-12-22,bn2wns1.wns.windows.com
+,,,2017-12-22,bn2.wns.windows.com
+,,,2017-12-21,wns.windows.com
+,,,2017-12-15,americas2.notify.windows.com.akadns.net
+,,,2017-12-14,skydrive.wns.windows.com
+,,,2017-12-07,client.wns.windows.com
+,,,2017-12-04,bn2.wns.notify.windows.com.akadns.net
+,,,2017-11-26,131.253.34.230
 ,,,2017-10-01,winphone.wns.windows.com
 ,,,2017-07-09,wns.notify.windows.com.akadns.net
-,,,2017-05-18,americas2.notify.windows.com.akadns.net
-134.170.185.70,AS8075 Microsoft Corporation,US,2017-11-18,feedback.windows.com
+134.170.185.70,AS8075 Microsoft Corporation,US,2017-12-09,feedback.windows.com
 ,,,2015-10-27,mediaroomsds.microsoft.com
 ,,,2014-09-15,siweb.microsoft.akadns.net
 ,,,2014-08-08,hotfixv4.microsoft.com
