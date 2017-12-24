@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.10.2 (2017/12/24)
+
+* Update hosts for Windows 10 spy
+* Update IPs for Windows 10 extra and spy
+* Update hosts for Windows 8.1 spy and update
+* Update IPs for Windows 8.1 extra, spy and update
+* Update hosts for Windows 7 extra
+* Update IPs for Windows 7 extra
+
 ## 4.10.1 (2017/11/24)
 
 * Move 13.68.87, 13.74.179 and 52.229.171 to update for Windows 10 (Issue #92)
