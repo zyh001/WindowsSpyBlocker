@@ -6,6 +6,7 @@ iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
 iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 
 # rules
+iptables -I FORWARD -j DROP -d 13.78.235.247
 iptables -I FORWARD -j DROP -d 13.80.12.54
 iptables -I FORWARD -j DROP -d 13.107.3.128
 iptables -I FORWARD -j DROP -d 13.107.13.88
@@ -15,12 +16,17 @@ iptables -I FORWARD -j DROP -d 40.77.224.8
 iptables -I FORWARD -j DROP -d 40.77.224.11
 iptables -I FORWARD -j DROP -d 40.77.225.248
 iptables -I FORWARD -j DROP -d 40.77.226.0/24
+iptables -I FORWARD -j DROP -d 40.83.127.51
 iptables -I FORWARD -j DROP -d 40.90.136.1
 iptables -I FORWARD -j DROP -d 40.90.136.20
 iptables -I FORWARD -j DROP -d 40.101.46.178
 iptables -I FORWARD -j DROP -d 40.114.241.141
 iptables -I FORWARD -j DROP -d 40.118.103.7
+iptables -I FORWARD -j DROP -d 40.121.213.159
 iptables -I FORWARD -j DROP -d 40.127.142.76
+iptables -I FORWARD -j DROP -d 51.140.65.84
+iptables -I FORWARD -j DROP -d 51.140.127.197
+iptables -I FORWARD -j DROP -d 51.141.26.229
 iptables -I FORWARD -j DROP -d 52.164.191.55
 iptables -I FORWARD -j DROP -d 52.166.110.64
 iptables -I FORWARD -j DROP -d 52.166.120.77
@@ -36,7 +42,9 @@ iptables -I FORWARD -j DROP -d 65.52.108.0/24
 iptables -I FORWARD -j DROP -d 65.55.108.23
 iptables -I FORWARD -j DROP -d 65.55.252.43
 iptables -I FORWARD -j DROP -d 104.40.210.32
+iptables -I FORWARD -j DROP -d 104.40.211.35
 iptables -I FORWARD -j DROP -d 104.44.80.172
+iptables -I FORWARD -j DROP -d 104.44.88.24
 iptables -I FORWARD -j DROP -d 104.44.88.28
 iptables -I FORWARD -j DROP -d 104.44.88.103
 iptables -I FORWARD -j DROP -d 104.214.77.221
@@ -49,6 +57,7 @@ iptables -I FORWARD -j DROP -d 157.55.134.138
 iptables -I FORWARD -j DROP -d 157.55.134.140
 iptables -I FORWARD -j DROP -d 157.55.135.128
 iptables -I FORWARD -j DROP -d 168.63.18.79
+iptables -I FORWARD -j DROP -d 191.239.213.197
 iptables -I FORWARD -j DROP -d 204.79.197.0/24
 iptables -I FORWARD -j DROP -d 204.152.141.244
 iptables -I FORWARD -j DROP -d 207.46.7.252

@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win10 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 24 Dec 2017 08:56:58 +0100 -->
+<!-- Last-Modified: Wed, 24 Jan 2018 17:52:36 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -13,6 +13,7 @@
 	<item name="win10_spy_13.78.179.199" rule="13.78.179.199" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.78.180.50" rule="13.78.180.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.78.180.90" rule="13.78.180.90" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_13.78.184.186" rule="13.78.184.186" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.78.186.254" rule="13.78.186.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.78.187.58" rule="13.78.187.58" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_13.78.230.134" rule="13.78.230.134" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -37,12 +38,14 @@
 	<item name="win10_spy_40.68.222.212" rule="40.68.222.212" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.40.157" rule="40.69.40.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.216.73" rule="40.69.216.73" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_40.69.216.129" rule="40.69.216.129" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.216.251" rule="40.69.216.251" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.218.62" rule="40.69.218.62" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.219.197" rule="40.69.219.197" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.220.46" rule="40.69.220.46" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.221.239" rule="40.69.221.239" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.69.222.109" rule="40.69.222.109" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_40.69.223.198" rule="40.69.223.198" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.70.220.248" rule="40.70.220.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.76.1.176" rule="40.76.1.176" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.76.12.4" rule="40.76.12.4" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -64,11 +67,18 @@
 	<item name="win10_spy_40.117.151.29" rule="40.117.151.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_40.121.144.182" rule="40.121.144.182" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_51.141.32.51" rule="51.141.32.51" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_52.109.8.20" rule="52.109.8.20" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.109.8.21" rule="52.109.8.21" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.109.12.18" rule="52.109.12.18" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_52.109.12.20" rule="52.109.12.20" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.109.76.31" rule="52.109.76.31" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.109.88.34" rule="52.109.88.34" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_52.109.88.35" rule="52.109.88.35" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_52.109.88.36" rule="52.109.88.36" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_52.109.120.17" rule="52.109.120.17" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.109.120.19" rule="52.109.120.19" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_52.109.124.18" rule="52.109.124.18" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_spy_52.109.124.19" rule="52.109.124.19" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.138.148.87" rule="52.138.148.87" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.138.148.89" rule="52.138.148.89" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_spy_52.138.148.159" rule="52.138.148.159" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
