@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.10.3 (2018/01/24)
+
+* Update hosts for Windows 10 extra and spy
+* Update IPs for Windows 10 extra and spy
+* Update hosts for Windows 8.1 spy and update
+* Update IPs for Windows 8.1 extra and spy
+* Update IPs for Windows 7 extra
+* Upgrade to Go 1.9.3
+
 ## 4.10.2 (2017/12/24)
 
 * Update hosts for Windows 10 spy
