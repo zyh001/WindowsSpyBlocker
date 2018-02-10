@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.10.4 (2018/02/10)
+
+* Move 13.78.230.134 to update for Windows 10 (Issue #94)
+* Move 13.79.239.69 to extra for Windows 10 (Issue #94)
+* Typo in Windows 10 spy list (Issue #98)
+
 ## 4.10.3 (2018/01/24)
 
 * Update hosts for Windows 10 extra and spy
