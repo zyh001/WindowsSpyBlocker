@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/crazy-max/WindowsSpyBlocker" target="_blank"><img width="100"src="https://raw.githubusercontent.com/wiki/crazy-max/WindowsSpyBlocker/img/logo-128.png"></a></p>
+<p align="center"><a href="https://github.com/crazy-max/WindowsSpyBlocker" target="_blank"><img width="100"src="https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png"></a></p>
 
 <p align="center">
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="GitHub release"></a>
@@ -14,12 +14,12 @@
 
 **WindowsSpyBlocker** :shield: is an application written in [Go](https://golang.org/) and delivered as a [single executable](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to block spying and tracking on Windows systems :no_entry:. The initial approach of this application is to capture and analyze network traffic :vertical_traffic_light: based on a set of tools. It is open for everyone and if you want to contribute or need help, take a look at the [Wiki](../../wiki) :open_book:.
 
-![](../../wiki/img/wsb-20170523.png)
+![](.res/wsb-main-window.png)
 > Main window of WindowsSpyBlocker
 
 Configuration file `app.conf` is generated at first launch :
 
-![](../../wiki/img/wsbRootFolder-20170517.png)
+![](.res/wsb-root-folder.png)
 
 For more info, take a look at [Wiki](../../wiki).
 
@@ -80,7 +80,7 @@ The most basic way to show your support is to star :star2: the project, or to ra
 But we're not gonna lie to each other, I'd rather you buy me a beer or two :beers:!
 
 [![Beerpay](https://beerpay.io/crazy-max/WindowsSpyBlocker/badge.svg?style=beer-square)](https://beerpay.io/crazy-max/WindowsSpyBlocker)
- or [![Paypal](../../wiki/img/paypal.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL)
+ or [![Paypal](.res/paypal.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL)
 
 ## License
 
