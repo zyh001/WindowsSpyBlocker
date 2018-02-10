@@ -18,8 +18,6 @@ iptables -I FORWARD -j DROP -d 13.78.180.90
 iptables -I FORWARD -j DROP -d 13.78.184.186
 iptables -I FORWARD -j DROP -d 13.78.186.254
 iptables -I FORWARD -j DROP -d 13.78.187.58
-iptables -I FORWARD -j DROP -d 13.78.230.134
-iptables -I FORWARD -j DROP -d 13.79.239.69
 iptables -I FORWARD -j DROP -d 13.81.5.53
 iptables -I FORWARD -j DROP -d 13.81.59.242
 iptables -I FORWARD -j DROP -d 13.107.5.80
