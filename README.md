@@ -6,6 +6,7 @@
   <a href="https://ci.appveyor.com/project/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/appveyor/ci/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="AppVeyor"></a>
   <a href="https://goreportcard.com/report/github.com/crazy-max/WindowsSpyBlocker"><img src="https://goreportcard.com/badge/github.com/crazy-max/WindowsSpyBlocker?style=flat-square" alt="Go Report"></a>
   <a href="https://www.codacy.com/app/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/codacy/grade/1e2eae1a40754d88b7956cf9bd30241b.svg?style=flat-square" alt="Code Quality"></a>
+  <a href="https://beerpay.io/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/beerpay/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="Beerpay"></a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
@@ -74,11 +75,12 @@ And about data collection, you can read the [Telemetry collection](../../wiki/mi
 
 ## How can i help ?
 
-We welcome all kinds of contributions :raised_hands:!<br />
+All kinds of contributions are welcomed :raised_hands:!<br />
 The most basic way to show your support is to star :star2: the project, or to raise issues :speech_balloon:<br />
-Any funds donated will be used to help further development on this project! :gift_heart:
+But we're not gonna lie to each other, I'd rather you buy me a beer or two :beers:!
 
-[![Donate Paypal](../../wiki/img/paypal.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL)
+[![Beerpay](https://beerpay.io/crazy-max/WindowsSpyBlocker/badge.svg?style=beer-square)](https://beerpay.io/crazy-max/WindowsSpyBlocker)
+ or [![Paypal](../../wiki/img/paypal.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL)
 
 ## License
 
