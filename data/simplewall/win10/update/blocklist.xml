@@ -1,12 +1,14 @@
 <!-- WindowsSpyBlocker win10 update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sat, 10 Feb 2018 23:05:26 +0100 -->
+<!-- Last-Modified: Sun, 04 Mar 2018 06:01:20 +0100 -->
 
 <?xml version="1.0"?>
 <root>
 	<item name="win10_update_13.68.87.47" rule="13.68.87.47" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_13.68.87.175" rule="13.68.87.175" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_13.68.93.109" rule="13.68.93.109" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_13.74.179.117" rule="13.74.179.117" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_13.78.168.230" rule="13.78.168.230" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_13.78.230.134" rule="13.78.230.134" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_13.107.4.50" rule="13.107.4.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_13.107.4.52" rule="13.107.4.52" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -16,12 +18,16 @@
 	<item name="win10_update_40.77.229.0-40.77.229.255" rule="40.77.229.0-40.77.229.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_52.229.171.202" rule="52.229.171.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_65.55.138.0-65.55.138.255" rule="65.55.138.0-65.55.138.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_update_65.55.163.0-65.55.163.255" rule="65.55.163.0-65.55.163.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_65.55.163.219" rule="65.55.163.219" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_65.55.163.220" rule="65.55.163.220" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_65.55.163.221" rule="65.55.163.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_65.55.163.222" rule="65.55.163.222" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_66.119.144.157" rule="66.119.144.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_66.119.144.158" rule="66.119.144.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_66.119.144.189" rule="66.119.144.189" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_66.119.144.190" rule="66.119.144.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_131.253.33.50" rule="131.253.33.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_update_131.253.33.203" rule="131.253.33.203" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_134.170.51.187" rule="134.170.51.187" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_134.170.51.188" rule="134.170.51.188" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_update_134.170.51.190" rule="134.170.51.190" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
