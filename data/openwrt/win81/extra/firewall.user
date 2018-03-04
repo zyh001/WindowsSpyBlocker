@@ -6,26 +6,31 @@ iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
 iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 
 # rules
+iptables -I FORWARD -j DROP -d 13.79.239.69
 iptables -I FORWARD -j DROP -d 13.80.12.54
 iptables -I FORWARD -j DROP -d 40.118.103.7
 iptables -I FORWARD -j DROP -d 40.118.106.130
 iptables -I FORWARD -j DROP -d 51.140.65.84
 iptables -I FORWARD -j DROP -d 51.140.127.197
+iptables -I FORWARD -j DROP -d 51.141.32.51
 iptables -I FORWARD -j DROP -d 52.166.110.64
 iptables -I FORWARD -j DROP -d 52.166.120.77
 iptables -I FORWARD -j DROP -d 52.169.71.150
 iptables -I FORWARD -j DROP -d 52.178.161.41
 iptables -I FORWARD -j DROP -d 52.178.163.85
 iptables -I FORWARD -j DROP -d 52.232.16.77
+iptables -I FORWARD -j DROP -d 64.4.23.0/24
 iptables -I FORWARD -j DROP -d 64.4.54.22
 iptables -I FORWARD -j DROP -d 64.4.54.253
 iptables -I FORWARD -j DROP -d 64.4.54.254
 iptables -I FORWARD -j DROP -d 65.52.108.29
 iptables -I FORWARD -j DROP -d 65.52.108.59
 iptables -I FORWARD -j DROP -d 65.52.108.153
+iptables -I FORWARD -j DROP -d 65.55.163.0/24
+iptables -I FORWARD -j DROP -d 104.45.18.177
 iptables -I FORWARD -j DROP -d 131.253.61.0/24
 iptables -I FORWARD -j DROP -d 157.55.134.140
 iptables -I FORWARD -j DROP -d 157.55.135.128
 iptables -I FORWARD -j DROP -d 157.55.135.130
-iptables -I FORWARD -j DROP -d 204.79.197.200
+iptables -I FORWARD -j DROP -d 204.79.197.0/24
 iptables -I FORWARD -j DROP -d 207.46.194.14
