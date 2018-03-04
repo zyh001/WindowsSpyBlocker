@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win7 update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Fri, 24 Nov 2017 14:04:11 +0100 -->
+<!-- Last-Modified: Sun, 04 Mar 2018 06:01:20 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -14,6 +14,8 @@
 	<item name="win7_update_65.55.138.114" rule="65.55.138.114" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_65.55.138.126" rule="65.55.138.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_65.55.138.186" rule="65.55.138.186" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.163.219" rule="65.55.163.219" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_update_65.55.163.220" rule="65.55.163.220" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_65.55.163.221" rule="65.55.163.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_65.55.163.222" rule="65.55.163.222" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_update_66.119.144.157" rule="66.119.144.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
