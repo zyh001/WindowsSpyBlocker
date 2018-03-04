@@ -1,5 +1,20 @@
 # Changelog
 
+## 4.11.0 (2018/03/03)
+
+* Update hosts for Windows 10 extra and spy
+* Update IPs for Windows 10 extra, spy and update
+* Move 13.107.5, 51.141.32.51, 64.4.23, 65.55.163, 65.55.223, 104.45.18.177, 134.170.188.248, 157.55.56, 157.55.129.21 to extra for Windows 10
+* Update hosts for Windows 8.1 spy and update
+* Update IPs for Windows 8.1 extra, spy and update
+* Move 13.79.239.69, 51.141.32.51, 64.4.23 to extra for Windows 8.1
+* Move 13.78.230.134, 64.4.27.50 to update for Windows 8.1
+* Update hosts for Windows 7 extra, spy and update
+* Update IPs for Windows 7 extra, spy and update
+* Move 13.79.239.69, 51.141.32.51, 64.4.23 to extra for Windows 7
+* Manage IP range for testing
+* Review IP analysis
+
 ## 4.10.4 (2018/02/10)
 
 * Move 13.78.230.134 to update for Windows 10 (Issue #94)
