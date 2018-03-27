@@ -3,24 +3,29 @@ package diff
 import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
+	"github.com/fatih/color"
 )
 
 func menuWin7(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "All",
+			Color:       color.FgHiYellow,
 			Function:    allWin7,
 		},
 		{
 			Description: "Proxifier",
+			Color:       color.FgHiYellow,
 			Function:    proxifierWin7,
 		},
 		{
 			Description: "Sysmon",
+			Color:       color.FgHiYellow,
 			Function:    sysmonWin7,
 		},
 		{
 			Description: "Wireshark",
+			Color:       color.FgHiYellow,
 			Function:    wiresharkWin7,
 		},
 	}

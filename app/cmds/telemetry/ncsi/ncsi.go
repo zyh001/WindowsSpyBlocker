@@ -22,18 +22,22 @@ func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "Display your current NCSI values",
+			Color:       color.FgHiYellow,
 			Function:    current,
 		},
 		{
 			Description: "Apply WindowsSpyBlocker NCSI",
+			Color:       color.FgHiYellow,
 			Function:    wsb,
 		},
 		{
 			Description: "Apply Microsoft NCSI",
+			Color:       color.FgHiYellow,
 			Function:    microsoft,
 		},
 		{
 			Description: "Test the internet connection",
+			Color:       color.FgHiYellow,
 			Function:    test,
 		},
 	}

@@ -26,22 +26,27 @@ func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "> Windows 7 firewall rules",
+			Color:       color.FgYellow,
 			Function:    menuWin7,
 		},
 		{
 			Description: "> Windows 8.1 firewall rules",
+			Color:       color.FgYellow,
 			Function:    menuWin81,
 		},
 		{
 			Description: "> Windows 10 firewall rules",
+			Color:       color.FgYellow,
 			Function:    menuWin10,
 		},
 		{
 			Description: "Remove WindowsSpyBlocker rules",
+			Color:       color.FgHiYellow,
 			Function:    removeRules,
 		},
 		{
 			Description: "Display your current WindowsSpyBlocker rules",
+			Color:       color.FgHiYellow,
 			Function:    currentRules,
 		},
 	}

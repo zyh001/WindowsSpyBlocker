@@ -56,9 +56,10 @@ type dataTpl struct {
 }
 
 type conf struct {
-	Version   string `json:"version"`
-	Debug     bool   `json:"debug"`
-	Proxifier struct {
+	Version         string `json:"version"`
+	Debug           bool   `json:"debug"`
+	UseEmbeddedData bool   `json:"useEmbeddedData"`
+	Proxifier       struct {
 		LogPath string `json:"logPath"`
 	} `json:"proxifier"`
 	Sysmon struct {

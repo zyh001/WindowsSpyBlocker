@@ -1,16 +1,20 @@
 package data
 
 import (
+	"encoding/xml"
 	"fmt"
+	"io/ioutil"
 	"net"
+	"os"
 	"path"
 	"sort"
 	"strings"
 
-	"encoding/xml"
-
 	"github.com/crazy-max/WindowsSpyBlocker/app/bindata"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
+	"github.com/pkg/errors"
 )
 
 // Systems, rules, types and exts constants
@@ -33,12 +37,40 @@ const (
 	EXT_SIMPLEWALL = "simplewall"
 )
 
-func getAsset(path string) ([]string, error) {
-	result, err := bindata.Asset(path)
+func getAsset(assetPath string) ([]string, error) {
+	if config.App.UseEmbeddedData {
+		return getAssetEmbbeded(assetPath)
+	} else {
+		return getAssetExternal(assetPath)
+	}
+}
+
+func getAssetEmbbeded(assetPath string) ([]string, error) {
+	result, err := bindata.Asset(assetPath)
 	if err != nil {
 		return []string{}, err
 	}
 	return strings.Split(string(result), "\n"), nil
+}
+
+func getAssetExternal(assetPath string) ([]string, error) {
+	extPath := path.Join(pathu.Current, assetPath)
+	if _, err := os.Stat(extPath); err != nil {
+		return []string{}, errors.New(fmt.Sprintf("Cannot stat file: %s", strings.TrimLeft(extPath, pathu.Current)))
+	}
+
+	extFile, err := os.Open(extPath)
+	if err != nil {
+		return []string{}, errors.New(fmt.Sprintf("Cannot open file: %s", strings.TrimLeft(extPath, pathu.Current)))
+	}
+	defer extFile.Close()
+
+	extFileBuf, err := ioutil.ReadFile(extPath)
+	if err != nil {
+		return []string{}, errors.New(fmt.Sprintf("Cannot read file: %s", strings.TrimLeft(extPath, pathu.Current)))
+	}
+
+	return strings.Split(string(extFileBuf), "\n"), nil
 }
 
 func getIp(ip string) string {

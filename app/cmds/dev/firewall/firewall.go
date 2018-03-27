@@ -2,6 +2,7 @@ package firewall
 
 import (
 	"fmt"
+	"net"
 	"os"
 	"path"
 	"strings"
@@ -10,13 +11,13 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 	"github.com/fatih/color"
-	"net"
 )
 
 // Menu of Firewall
@@ -24,14 +25,17 @@ func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "Test Windows 7 IPs",
+			Color:       color.FgHiYellow,
 			Function:    testIpsWin7,
 		},
 		{
 			Description: "Test Windows 8.1 IPs",
+			Color:       color.FgHiYellow,
 			Function:    testIpsWin81,
 		},
 		{
 			Description: "Test Windows 10 IPs",
+			Color:       color.FgHiYellow,
 			Function:    testIpsWin10,
 		},
 	}
@@ -44,17 +48,44 @@ func Menu(args ...string) (err error) {
 }
 
 func testIpsWin7(args ...string) error {
+	logsPath := path.Join(pathu.Logs, data.OS_WIN7)
+	if err := file.CreateSubfolder(logsPath); err != nil {
+		print.Error(err)
+		return nil
+	}
+
 	testIps(data.OS_WIN7)
+	fmt.Printf("\nLogs available in ")
+	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
+
 	return nil
 }
 
 func testIpsWin81(args ...string) error {
+	logsPath := path.Join(pathu.Logs, data.OS_WIN81)
+	if err := file.CreateSubfolder(logsPath); err != nil {
+		print.Error(err)
+		return nil
+	}
+
 	testIps(data.OS_WIN81)
+	fmt.Printf("\nLogs available in ")
+	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
+
 	return nil
 }
 
 func testIpsWin10(args ...string) error {
+	logsPath := path.Join(pathu.Logs, data.OS_WIN10)
+	if err := file.CreateSubfolder(logsPath); err != nil {
+		print.Error(err)
+		return nil
+	}
+
 	testIps(data.OS_WIN10)
+	fmt.Printf("\nLogs available in ")
+	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
+
 	return nil
 }
 

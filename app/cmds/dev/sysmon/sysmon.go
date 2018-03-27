@@ -32,14 +32,17 @@ func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "Install",
+			Color:       color.FgHiYellow,
 			Function:    install,
 		},
 		{
 			Description: "Uninstall",
+			Color:       color.FgHiYellow,
 			Function:    uninstall,
 		},
 		{
 			Description: "Extract event log",
+			Color:       color.FgHiYellow,
 			Function:    extractEventLog,
 		},
 	}

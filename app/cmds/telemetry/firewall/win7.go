@@ -3,20 +3,24 @@ package firewall
 import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
+	"github.com/fatih/color"
 )
 
 func menuWin7(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "Add extra rules",
+			Color:       color.FgHiYellow,
 			Function:    addWin7Extra,
 		},
 		{
 			Description: "Add spy rules",
+			Color:       color.FgHiYellow,
 			Function:    addWin7Spy,
 		},
 		{
 			Description: "Add update rules",
+			Color:       color.FgHiYellow,
 			Function:    addWin7Update,
 		},
 	}

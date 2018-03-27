@@ -33,6 +33,7 @@ func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "Extract log",
+			Color:       color.FgHiYellow,
 			Function:    extractLog,
 		},
 	}

@@ -62,14 +62,17 @@ func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "Windows 7",
+			Color:       color.FgHiYellow,
 			Function:    menuWin7,
 		},
 		{
 			Description: "Windows 8.1",
+			Color:       color.FgHiYellow,
 			Function:    menuWin81,
 		},
 		{
 			Description: "Windows 10",
+			Color:       color.FgHiYellow,
 			Function:    menuWin10,
 		},
 	}

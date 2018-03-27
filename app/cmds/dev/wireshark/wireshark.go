@@ -33,18 +33,22 @@ func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "Install Npcap",
+			Color:       color.FgHiYellow,
 			Function:    installNpcap,
 		},
 		{
 			Description: "Print list of network interfaces",
+			Color:       color.FgHiYellow,
 			Function:    printInterfaces,
 		},
 		{
 			Description: "Capture (required Npcap)",
+			Color:       color.FgHiYellow,
 			Function:    capture,
 		},
 		{
 			Description: "Extract log",
+			Color:       color.FgHiYellow,
 			Function:    extractLog,
 		},
 	}

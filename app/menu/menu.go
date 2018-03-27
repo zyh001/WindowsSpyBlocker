@@ -16,6 +16,7 @@ import (
 // CommandOption main struct to handle options for Description, and the function that should be called
 type CommandOption struct {
 	Description string
+	Color       color.Attribute
 	Function    func(args ...string) error
 }
 
@@ -82,7 +83,7 @@ func (m *Menu) menu() {
 		fmt.Print(" - ")
 
 		// Command Description
-		color.New(color.FgYellow).Printf("%s", m.Commands[i].Description)
+		color.New(m.Commands[i].Color).Printf("%s", m.Commands[i].Description)
 		fmt.Println()
 
 		idCmd += 1

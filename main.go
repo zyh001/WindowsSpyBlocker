@@ -39,10 +39,12 @@ func main() {
 	menuCommands := []menu.CommandOption{
 		{
 			Description: "> Telemetry : Block telemetry and data collection",
+			Color:       color.FgYellow,
 			Function:    telemetry.Menu,
 		},
 		{
 			Description: "> Dev       : Several tools used by WindowsSpyBlocker",
+			Color:       color.FgYellow,
 			Function:    dev.Menu,
 		},
 	}
