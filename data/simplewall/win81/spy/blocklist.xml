@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win81 spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 04 Mar 2018 06:01:20 +0100 -->
+<!-- Last-Modified: Tue, 27 Mar 2018 02:01:40 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -47,11 +47,9 @@
 	<item name="win81_spy_134.170.30.204" rule="134.170.30.204" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_134.170.30.221" rule="134.170.30.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_137.116.139.114" rule="137.116.139.114" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win81_spy_137.117.235.16" rule="137.117.235.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_157.56.194.72" rule="157.56.194.72" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_157.56.194.73" rule="157.56.194.73" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_157.56.194.74" rule="157.56.194.74" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win81_spy_191.237.208.126" rule="191.237.208.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_191.239.50.18" rule="191.239.50.18" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_191.239.50.77" rule="191.239.50.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_spy_191.239.52.100" rule="191.239.52.100" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

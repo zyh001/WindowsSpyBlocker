@@ -1,49 +1,53 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.68.87.47,AS8075 Microsoft Corporation,US,2018-02-08,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+13.68.87.47,Microsoft Azure,United States,2018-02-08,geo-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-07-12,geo-prod.do.dsp.mp.microsoft.com
 ,,,2017-03-30,array502-prod.do.dsp.mp.microsoft.com
-13.68.87.175,,,2017-12-23,sls.update.microsoft.com.nsatc.net
+13.68.87.175,Microsoft Azure,United States,2017-12-23,sls.update.microsoft.com.nsatc.net
 ,,,2017-11-08,sls.update.microsoft.com
-13.68.93.109,AS8075 Microsoft Corporation,US,2018-02-23,sls.update.microsoft.com.nsatc.net
-13.74.179.117,AS8075 Microsoft Corporation,IE,2018-01-29,sls.update.microsoft.com.nsatc.net
-13.78.168.230,AS8075 Microsoft Corporation,US,2018-02-28,sls.update.microsoft.com.nsatc.net
-13.78.230.134,,,2017-12-04,sls.update.microsoft.com.nsatc.net
-13.107.4.50,AS8068 Microsoft Corporation,US,2018-02-24,ds.download.windowsupdate.com
-,,,2018-02-24,5.perf.msedge.net
-,,,2018-02-24,main-ds.dl.windowsupdate.com.nsatc.net
-,,,2018-02-24,b1fgds.c-0001.c-msedge.net
-,,,2018-02-24,b1w8au.au-msedge.net
+13.68.93.109,Microsoft Azure,United States,2018-03-25,sls.update.microsoft.com.nsatc.net
+,,,2018-03-06,13.68.93.109
+,,,2018-02-07,sls.update.microsoft.com
+13.74.179.117,Microsoft Azure,Ireland,2018-01-29,sls.update.microsoft.com.nsatc.net
+13.78.168.230,Microsoft Azure,United States,2018-03-15,sls.update.microsoft.com.nsatc.net
+,,,2018-03-04,sls.update.microsoft.com
+13.78.230.134,Microsoft Azure,United States,2017-12-04,sls.update.microsoft.com.nsatc.net
+13.107.4.50,Microsoft Azure,United States,2018-03-16,b1fgv4.c-0001.c-msedge.net
+,,,2018-03-16,nontlu.graystore.msedge.net
+,,,2018-03-16,au.www.download.windowsupdate.com
+,,,2018-03-14,fg.ds.b1.dl.windowsupdate.com.nsatc.net
+,,,2018-03-14,fg.ds.dl.windowsupdate.com.nsatc.net
+,,,2018-03-13,b1fgds.au-msedge.net
+,,,2018-03-13,dnste-net-2vnygc3u.c-0001.c-msedge.net
+,,,2018-03-13,wsus.ds.download.windowsupdate.com
+,,,2018-03-12,b1.download.windowsupdate.com
+,,,2018-03-12,bg.v4.dl.windowsupdate.com.nsatc.net
+,,,2018-03-11,ds.download.windowsupdate.com
+,,,2018-03-10,graystore.c-0001.c-msedge.net
+,,,2018-03-10,b1ns.c-0001.c-msedge.net
+,,,2018-03-09,fg.ds.download.windowsupdate.com
+,,,2018-03-08,audownload.windowsupdate.nsatc.net
+,,,2018-03-08,aupl.v4.download.windowsupdate.com
+,,,2018-03-07,tlu-graystore.c-0001.c-msedge.net
+,,,2018-03-07,au.v4.b1.dl.windowsupdate.com.nsatc.net
+,,,2018-03-05,b1fgds.c-0005.c-msedge.net
+,,,2018-03-05,au.c-0001.c-msedge.net
+,,,2018-03-04,graystore.au-msedge.net
+,,,2018-03-03,aupn.v4.download.windowsupdate.com
+,,,2018-03-02,wsus.ds.www.download.windowsupdate.com
+,,,2018-02-28,dnste-net-u7d6m8y3.c-0001.c-msedge.net
+,,,2018-02-28,dnste-net-nq22y10v.c-0001.c-msedge.net
+,,,2018-02-27,dnste-net-mkoxwjhm.c-0001.c-msedge.net
+,,,2018-02-26,ds.www.download.windowsupdate.com
+,,,2018-02-25,wsus.ds.b1.dl.windowsupdate.com.nsatc.net
+,,,2018-02-25,edges.au-msedge.net
+,,,2018-02-24,7.au.download.windowsupdate.com
 ,,,2018-02-24,tlu.dl.delivery.mp.microsoft.com.nsatc.net
-,,,2018-02-24,tlu.graystore.msedge.net
-,,,2018-02-24,b1ns.au-msedge.net
-,,,2018-02-23,audownload.windowsupdate.nsatc.net
-,,,2018-02-23,au.au-msedge.net
-,,,2018-02-23,au.ds.b1.download.windowsupdate.com
-,,,2018-02-23,13.107.4.50
-,,,2018-02-23,nontlu.graystore.msedge.net
-,,,2018-02-23,bg.v4.dl.windowsupdate.com.nsatc.net
-,,,2018-02-23,7.au.b1.download.windowsupdate.com
-,,,2018-02-21,aupl.v4.b1.download.windowsupdate.com
-,,,2018-02-20,au.v4.b1.download.windowsupdate.com
-,,,2018-02-20,fg.v4.b1.dl.windowsupdate.com.nsatc.net
 ,,,2018-02-19,b1w7dl.c-0001.c-msedge.net
 ,,,2018-02-15,b1fgv4.au-msedge.net
-,,,2018-02-13,au.v4.www.download.windowsupdate.com
-,,,2018-02-10,aupl.v4.download.windowsupdate.com
-,,,2018-02-10,dnste-net-dyxmwn68.c-0001.c-msedge.net
-,,,2018-02-09,au.c-0001.c-msedge.net
 ,,,2018-02-09,au.ds.b1.dl.windowsupdate.com.nsatc.net
 ,,,2018-02-08,aupl.ds.b1.dl.windowsupdate.com.nsatc.net
-,,,2018-02-06,aupl.v4.b1.dl.windowsupdate.com.nsatc.net
-,,,2018-02-05,fg.v4.b1.download.windowsupdate.com
-,,,2018-02-01,tlu-graystore.c-0001.c-msedge.net
-,,,2018-01-31,graystore.c-0001.c-msedge.net
-,,,2018-01-25,c-0001.c-msedge.net
-,,,2018-01-22,dnste-net-piie6ko5.c-0001.c-msedge.net
-,,,2018-01-03,au.v4.b1.dl.windowsupdate.com.nsatc.net
 ,,,2017-12-12,7.download.windowsupdate.com
 ,,,2017-12-08,test.update.microsoft.com
-,,,2017-12-02,graystore.au-msedge.net
 ,,,2017-11-20,fg.v4.www.download.windowsupdate.com
 ,,,2017-11-20,download.windowsupdate.com
 ,,,2017-11-16,tlu.dl.delivery.mp.microsoft.com
@@ -53,657 +57,165 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-11-09,www.download.windowsupdate.com
 ,,,2017-11-02,2-01-3cf7-0009.cdx.cedexis.net
 ,,,2017-11-01,2-01-3cf7-000d.cdx.cedexis.net
-,,,2017-09-28,aupn.v4.download.windowsupdate.com
 ,,,2017-09-07,fg.v4.download.windowsupdate.com
 ,,,2017-05-19,v4.www.download.windowsupdate.com
 ,,,2017-05-06,download.windowsupdate.nsatc.net
 ,,,2017-02-05,www.download.windowsupdate.nsatc.net
-13.107.4.52,AS8068 Microsoft Corporation,US,2018-03-03,c-0003.c-msedge.net
-,,,2018-03-03,4-c-0003.c-msedge.net
-,,,2018-03-02,www.msftconnecttest.com
-,,,2018-03-02,c-cedexis.msedge.net
-,,,2018-03-01,v4ncsi.msedge.net
-,,,2018-02-27,internetbeacon.msedge.net
-,,,2018-02-24,ds-c-0003.c-msedge.net
-,,,2018-02-22,ncsi.4-c-0003.c-msedge.net
-23.103.189.126,AS8075 Microsoft Corporation,US,2018-01-05,fe2.update.microsoft.com.akadns.net
+13.107.4.52,Microsoft Azure,United States,2018-03-26,4-c-0003.c-msedge.net
+,,,2018-03-25,internetbeacon.msedge.net
+,,,2018-03-25,www.msftconnecttest.com
+,,,2018-03-25,ds-c-0003.c-msedge.net
+,,,2018-03-23,v4ncsi.msedge.net
+,,,2018-03-22,ncsi.4-c-0003.c-msedge.net
+,,,2018-03-20,c-cedexis.msedge.net
+,,,2018-03-18,c-0003.c-msedge.net
+23.103.189.126,Microsoft Azure,United States,2018-01-05,fe2.update.microsoft.com.akadns.net
 ,,,2017-10-10,fe2.update.microsoft.com
-23.103.189.157,AS8075 Microsoft Corporation,US,2018-01-09,fe2.update.microsoft.com.nsatc.net
+23.103.189.157,Microsoft Azure,United States,2018-01-09,fe2.update.microsoft.com.nsatc.net
 ,,,2017-12-27,fe2.update.microsoft.com.akadns.net
 ,,,2017-08-27,fe2.update.microsoft.com
 ,,,2017-07-30,fe1.update.microsoft.com.akadns.net
-23.103.189.158,AS8075 Microsoft Corporation,US,2017-10-02,fe2.update.microsoft.com.nsatc.net
-,,,2017-09-17,fe2.update.microsoft.com
+23.103.189.158,Microsoft Azure,United States,2018-03-05,fe2.update.microsoft.com
+,,,2017-10-02,fe2.update.microsoft.com.nsatc.net
 ,,,2017-07-24,fe2.update.microsoft.com.akadns.net
-40.77.229.1,,,,
-40.77.229.2,,,,
-40.77.229.3,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101100833.wns.windows.com
-,,,2018-02-24,db5sch103081913.wns.windows.com
-,,,2018-02-18,db5sch103101314.wns.windows.com
-40.77.229.4,,,2018-03-03,db5sch101100835.wns.windows.com
-,,,2018-03-02,db5sch101100840.wns.windows.com
-,,,2018-01-12,db5sch103101411.wns.windows.com
-40.77.229.5,,,2018-03-02,db5sch101100922.wns.windows.com
-,,,2018-02-22,db5sch103101413.wns.windows.com
-,,,2018-02-22,db5sch103082011.wns.windows.com
-40.77.229.6,,,2018-03-02,db5sch103101512.wns.windows.com
-,,,2018-03-01,db5sch101100925.wns.windows.com
-,,,2018-03-01,db5sch101100926.wns.windows.com
-,,,2016-11-30,db5sch103082108.wns.windows.com
-,,,2016-11-30,db6sch102091009.wns.windows.com
-40.77.229.7,AS8075 Microsoft Corporation,IE,2018-02-26,db5sch103082111.wns.windows.com
-,,,2018-02-24,db5sch101100928.wns.windows.com
-,,,2018-02-23,db5sch103101513.wns.windows.com
-,,,2018-02-05,db6sch102091011.wns.windows.com
-,,,2017-12-09,db5sch101100934.wns.windows.com
-40.77.229.8,,,2018-03-01,db5sch103101610.wns.windows.com
-,,,2018-03-01,db6sch102091103.wns.windows.com
-,,,2018-03-01,db5sch101100938.wns.windows.com
-,,,2018-02-22,db5sch101100944.wns.windows.com
-,,,2018-02-13,db5sch103082210.wns.windows.com
-40.77.229.9,,,2018-03-03,db5sch101101001.wns.windows.com
-,,,2018-02-23,db5sch101101022.wns.windows.com
-,,,2018-02-19,db5sch103082211.wns.windows.com
-,,,2018-02-18,db5sch103101611.wns.windows.com
-,,,2017-09-28,db6sch102091105.wns.windows.com
-40.77.229.10,,,2018-03-03,db5sch103101705.wns.windows.com
-,,,2018-02-27,db5sch101101030.wns.windows.com
-,,,2017-03-14,db5sch101101024.wns.windows.com
-40.77.229.11,,,2018-03-03,db5sch101101031.wns.windows.com
-,,,2018-03-03,db5sch103101711.wns.windows.com
-,,,2018-02-24,db5sch101101034.wns.windows.com
-,,,2018-02-13,db5sch103082310.wns.windows.com
-40.77.229.12,,,2018-03-02,db5sch101101042.wns.windows.com
-,,,2018-03-02,db5sch101101044.wns.windows.com
-,,,2018-02-22,db5sch103101806.wns.windows.com
-,,,2018-02-22,db5sch103082406.wns.windows.com
-,,,2017-11-19,db6sch102091108.wns.windows.com
-40.77.229.13,AS8075 Microsoft Corporation,IE,2018-02-15,db5sch101101122.wns.windows.com
-,,,2018-02-11,db5sch101101123.wns.windows.com
-,,,2017-10-24,db6sch102091109.wns.windows.com
-,,,2016-11-26,db5sch103101813.wns.windows.com
-,,,2016-11-02,db5sch103082409.wns.windows.com
-40.77.229.14,,,2018-02-20,db6sch102091110.wns.windows.com
-40.77.229.15,,,2018-02-26,db5sch101101133.wns.windows.com
-,,,2018-02-23,db5sch103082510.wns.windows.com
-,,,2018-02-19,db5sch101101129.wns.windows.com
-,,,2018-01-10,db6sch102091204.wns.windows.com
-,,,2017-09-05,db5sch103101914.wns.windows.com
-40.77.229.16,AS8075 Microsoft Corporation,IE,2018-03-01,db5sch101101145.wns.windows.com
-,,,2018-02-22,db5sch101101204.wns.windows.com
-,,,2017-11-16,DB5SCH103082609.wns.windows.com
-40.77.229.17,,,2018-02-24,db5sch101101209.wns.windows.com
-,,,2018-02-24,db5sch103082611.wns.windows.com
-,,,2018-02-22,db5sch101101220.wns.windows.com
-,,,2018-02-14,db5sch103102010.wns.windows.com
-,,,2016-11-03,db6sch102091209.wns.windows.com
-40.77.229.18,AS8075 Microsoft Corporation,IE,2018-02-28,db5sch101101221.wns.windows.com
-,,,2018-02-18,db6sch102091210.wns.windows.com
-,,,2016-11-30,db5sch101101228.wns.windows.com
-,,,2016-11-30,db5sch103102105.wns.windows.com
-,,,2016-11-07,db5sch103082709.wns.windows.com
-40.77.229.19,,,2018-03-03,db5sch103082712.wns.windows.com
-,,,2018-03-01,db5sch101101234.wns.windows.com
-,,,2018-02-24,db5sch101101231.wns.windows.com
-,,,2018-02-22,db5sch103102112.wns.windows.com
-40.77.229.20,,,2018-03-03,db6sch102091302.wns.windows.com
-,,,2018-03-02,db5sch103102203.wns.windows.com
-,,,2018-02-24,DB5SCH101101310.wns.windows.com
-,,,2018-02-22,db5sch103082806.wns.windows.com
-,,,2017-03-14,db5sch101101237.wns.windows.com
-40.77.229.21,,,2018-03-01,db5sch101101317.wns.windows.com
-,,,2018-02-28,db5sch101101324.wns.windows.com
-40.77.229.22,,,2018-03-02,db5sch103102310.wns.windows.com
-,,,2018-02-22,db5sch101101332.wns.windows.com
-,,,2017-06-18,db5sch101101329.wns.windows.com
-40.77.229.23,,,2018-03-03,db5sch103090120.wns.windows.com
-,,,2018-02-21,db5sch101101333.wns.windows.com
-,,,2018-02-21,db5sch101101334.wns.windows.com
-,,,2018-02-08,db5sch103102311.wns.windows.com
-,,,2018-01-28,db6sch102091307.wns.windows.com
-40.77.229.24,,,2018-02-22,db5sch103090210.wns.windows.com
-,,,2018-02-22,db5sch101101401.wns.windows.com
-,,,2018-02-16,db5sch103102404.wns.windows.com
-,,,2016-11-30,db6sch102091308.wns.windows.com
-,,,2016-11-09,db5sch101101338.wns.windows.com
-40.77.229.25,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101101424.wns.windows.com
-,,,2018-03-01,db5sch103102410.wns.windows.com
-,,,2016-11-27,db5sch101101419.wns.windows.com
-40.77.229.26,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch103090414.wns.windows.com
-,,,2018-02-24,db5sch101101426.wns.windows.com
-,,,2017-11-03,db5sch101101427.wns.windows.com
-,,,2016-11-30,db6sch102091314.wns.windows.com
-,,,2016-11-17,db5sch103102508.wns.windows.com
-40.77.229.27,,,2018-03-03,db5sch101101430.wns.windows.com
-,,,2018-02-22,db5sch101101441.wns.windows.com
-,,,2016-11-30,db5sch103090415.wns.windows.com
-,,,2016-11-30,db5sch103102516.wns.windows.com
-,,,2016-11-23,db6sch102091409.wns.windows.com
-40.77.229.28,AS8075 Microsoft Corporation,IE,2018-03-03,db5sch101101445.wns.windows.com
-,,,2018-03-01,db5sch103090513.wns.windows.com
-,,,2018-02-24,db6sch102091412.wns.windows.com
-,,,2018-02-23,db5sch101101511.wns.windows.com
-,,,2016-11-18,db5sch103102609.wns.windows.com
-40.77.229.29,,,2018-03-03,db5sch101101523.wns.windows.com
-,,,2018-03-02,db5sch103102610.wns.windows.com
-,,,2018-02-03,db6sch102091502.wns.windows.com
-,,,2017-10-11,db5sch101101519.wns.windows.com
-,,,2017-10-08,db5sch103090515.wns.windows.com
-40.77.229.30,,,2018-03-01,db5sch101101531.wns.windows.com
-,,,2018-02-26,db6sch102091503.wns.windows.com
-,,,2018-02-24,db5sch103102710.wns.windows.com
-,,,2016-11-30,db5sch101101529.wns.windows.com
-,,,2016-11-30,db5sch103090608.wns.windows.com
-40.77.229.31,AS8075 Microsoft Corporation,IE,2018-02-25,db5sch101101535.wns.windows.com
-,,,2018-02-25,db5sch103102711.wns.windows.com
-,,,2018-02-22,db5sch101101541.wns.windows.com
-,,,2016-11-30,db5sch103090616.wns.windows.com
-,,,2016-11-30,db6sch102091506.wns.windows.com
-40.77.229.32,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101101543.wns.windows.com
-,,,2018-03-01,db5sch101101608.wns.windows.com
-,,,2018-02-24,db5sch103102805.wns.windows.com
-,,,2017-08-08,db6sch102091507.wns.windows.com
-,,,2017-08-08,db5sch103090709.wns.windows.com
-40.77.229.33,AS8075 Microsoft Corporation,IE,2018-03-01,db5sch103090710.wns.windows.com
-,,,2018-02-26,db5sch103102811.wns.windows.com
-,,,2018-02-02,db5sch101101620.wns.windows.com
-,,,2018-01-04,db5sch101101618.wns.windows.com
-40.77.229.34,,,2018-03-02,db5sch103090806.wns.windows.com
-,,,2018-02-23,db6sch102091511.wns.windows.com
-,,,2018-02-20,db5sch101101631.wns.windows.com
-,,,2017-01-06,db5sch101101629.wns.windows.com
-,,,2016-11-30,db6sch102090104.wns.windows.com
-40.77.229.35,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101101633.wns.windows.com
-,,,2018-03-01,db6sch102091513.wns.windows.com
-,,,2018-03-01,db5sch103090814.wns.windows.com
+40.77.229.35,Microsoft Azure,Ireland,2018-03-26,db5sch101101633.wns.windows.com
+,,,2018-03-22,db6sch102091513.wns.windows.com
+,,,2018-03-21,db5sch103090814.wns.windows.com
 ,,,2017-05-28,db6sch102090109.wns.windows.com
 ,,,2016-11-16,db5sch101101638.wns.windows.com
-40.77.229.36,AS8075 Microsoft Corporation,IE,2018-03-02,db6sch102090112.wns.windows.com
-,,,2018-03-02,db5sch103090906.wns.windows.com
-,,,2018-02-28,db6sch102091602.wns.windows.com
-,,,2018-02-25,db5sch101101640.wns.windows.com
-,,,2018-01-16,db5sch101101711.wns.windows.com
-40.77.229.37,,,2018-02-28,db5sch101101722.wns.windows.com
-,,,2018-02-24,db6sch102091603.wns.windows.com
-,,,2018-02-23,db6sch102090113.wns.windows.com
-,,,2018-02-21,db5sch101101724.wns.windows.com
-,,,2017-06-09,db5sch103090914.wns.windows.com
-40.77.229.38,,,2018-03-02,db5sch101101740.wns.windows.com
-,,,2018-03-01,db6sch102091604.wns.windows.com
-,,,2018-02-22,db6sch102090115.wns.windows.com
-,,,2018-02-21,db5sch103091011.wns.windows.com
-,,,2018-02-21,db5sch101101739.wns.windows.com
-40.77.229.39,,,2018-02-27,db5sch103091012.wns.windows.com
-,,,2018-02-24,db5sch101101745.wns.windows.com
-,,,2018-02-03,db5sch101101810.wns.windows.com
-,,,2016-11-30,db6sch102091606.wns.windows.com
-,,,2016-11-29,db6sch102090116.wns.windows.com
-40.77.229.40,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101101813.wns.windows.com
-,,,2018-02-28,db5sch103091106.wns.windows.com
-,,,2018-02-22,db5sch101101820.wns.windows.com
-,,,2016-11-30,db6sch102090122.wns.windows.com
-,,,2016-11-30,db6sch102091607.wns.windows.com
-40.77.229.41,AS8075 Microsoft Corporation,IE,2018-03-03,db5sch101101826.wns.windows.com
-,,,2018-03-02,db6sch102090203.wns.windows.com
-,,,2016-11-30,db5sch103091108.wns.windows.com
-,,,2016-11-23,db5sch101101828.wns.windows.com
-40.77.229.42,,,2017-04-10,db5sch101101835.wns.windows.com
-40.77.229.43,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101101844.wns.windows.com
-,,,2018-02-26,db5sch101101902.wns.windows.com
-,,,2018-02-16,db5sch103091212.wns.windows.com
-,,,2016-11-08,db6sch102090208.wns.windows.com
-40.77.229.44,,,2018-02-28,db5sch103091311.wns.windows.com
-,,,2018-01-13,db5sch101101910.wns.windows.com
-,,,2017-02-10,db5sch101101907.wns.windows.com
-40.77.229.45,,,2018-03-01,db6sch102090210.wns.windows.com
-,,,2018-02-28,db5sch101101921.wns.windows.com
-,,,2018-02-12,db5sch103091313.wns.windows.com
-,,,2017-03-08,db5sch101101914.wns.windows.com
-40.77.229.46,,,2018-03-02,db5sch103091411.wns.windows.com
-40.77.229.47,AS8075 Microsoft Corporation,IE,2018-02-28,db5sch101101941.wns.windows.com
-,,,2018-02-18,db6sch102090212.wns.windows.com
-,,,2016-11-30,db5sch103091414.wns.windows.com
-,,,2016-11-25,db5sch101102009.wns.windows.com
-40.77.229.48,,,2018-02-21,db5sch101102017.wns.windows.com
-,,,2018-02-21,db5sch103091510.wns.windows.com
-,,,2018-01-07,db5sch101102015.wns.windows.com
-40.77.229.49,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101102019.wns.windows.com
-,,,2018-02-24,db6sch102090306.wns.windows.com
-,,,2018-02-23,db5sch101102023.wns.windows.com
-,,,2018-02-09,db5sch103091511.wns.windows.com
-40.77.229.50,AS8075 Microsoft Corporation,IE,2018-03-01,db5sch101102025.wns.windows.com
-,,,2018-02-22,db5sch101102032.wns.windows.com
-40.77.229.51,,,2018-02-21,db5sch101110105.wns.windows.com
-,,,2016-11-30,db5sch101102033.wns.windows.com
-,,,2016-11-30,db5sch103091617.wns.windows.com
-,,,2016-11-30,db6sch102090309.wns.windows.com
-40.77.229.52,,,2018-03-02,db5sch101110108.wns.windows.com
-,,,2018-03-02,db6sch102090311.wns.windows.com
-,,,2018-02-28,db5sch101110109.wns.windows.com
-,,,2016-11-30,db5sch103091709.wns.windows.com
-40.77.229.53,AS8075 Microsoft Corporation,IE,2018-02-23,db5sch101110123.wns.windows.com
-,,,2018-02-22,db5sch101110114.wns.windows.com
+40.77.229.53,Microsoft Azure,Ireland,2018-03-24,db5sch101110114.wns.windows.com
+,,,2018-03-16,db5sch101110123.wns.windows.com
 ,,,2016-11-30,db6sch102090313.wns.windows.com
 ,,,2016-11-17,db5sch103091715.wns.windows.com
-40.77.229.54,,,2018-03-02,db5sch103091811.wns.windows.com
-,,,2018-03-01,db5sch101110130.wns.windows.com
-,,,2018-02-27,db5sch101110125.wns.windows.com
-40.77.229.55,AS8075 Microsoft Corporation,IE,2018-02-26,db5sch101110135.wns.windows.com
-,,,2018-02-25,db5sch101110142.wns.windows.com
-,,,2016-11-25,db5sch103091817.wns.windows.com
-,,,2016-11-24,db6sch102090406.wns.windows.com
-40.77.229.56,,,2018-02-23,db5sch101110204.wns.windows.com
-,,,2018-02-22,db5sch101110206.wns.windows.com
-,,,2018-01-23,db5sch103091908.wns.windows.com
-,,,2018-01-16,db6sch102090409.wns.windows.com
-40.77.229.57,,,2018-03-01,db5sch101110214.wns.windows.com
-,,,2018-02-27,db6sch102090410.wns.windows.com
-,,,2018-02-24,db5sch103091911.wns.windows.com
-,,,2017-03-30,db5sch101110224.wns.windows.com
-40.77.229.58,,,2018-03-03,db5sch103092010.wns.windows.com
-,,,2018-02-26,db6sch102090412.wns.windows.com
-,,,2018-02-23,db5sch101110230.wns.windows.com
-,,,2018-02-23,db5sch101110225.wns.windows.com
-40.77.229.59,,,2018-03-03,db5sch101110232.wns.windows.com
-,,,2018-02-28,db5sch103092013.wns.windows.com
-,,,2017-09-09,db6sch102090413.wns.windows.com
-,,,2016-11-17,db5sch101110239.wns.windows.com
-40.77.229.60,,,2018-02-23,db5sch101110245.wns.windows.com
-40.77.229.61,,,2018-03-02,db5sch101110323.wns.windows.com
-,,,2018-03-01,db5sch101110315.wns.windows.com
-,,,2016-11-30,db6sch102090506.wns.windows.com
-,,,2016-10-28,db5sch103092109.wns.windows.com
-40.77.229.62,,,2018-01-29,db6sch102090510.wns.windows.com
-,,,2017-02-15,db5sch101110328.wns.windows.com
-40.77.229.63,,,2018-03-03,db6sch102090512.wns.windows.com
-,,,2018-03-02,db5sch101110341.wns.windows.com
-,,,2018-02-26,db5sch101110331.wns.windows.com
-,,,2018-02-24,db5sch103092210.wns.windows.com
-40.77.229.64,,,2018-02-22,db5sch101110343.wns.windows.com
-,,,2018-02-09,db6sch102090513.wns.windows.com
-,,,2018-01-13,db5sch103092509.wns.windows.com
-,,,2017-10-02,db5sch101110345.wns.windows.com
-40.77.229.65,,,2018-03-02,db5sch101110403.wns.windows.com
-40.77.229.66,,,2018-03-03,db5sch101110422.wns.windows.com
-,,,2018-02-21,db5sch103092610.wns.windows.com
-,,,2017-09-10,db6sch102090519.wns.windows.com
-,,,2017-01-19,db5sch101110419.wns.windows.com
-40.77.229.67,AS8075 Microsoft Corporation,IE,2018-03-01,db6sch102090603.wns.windows.com
-,,,2018-02-21,db5sch103092710.wns.windows.com
-,,,2018-02-17,db5sch101110435.wns.windows.com
-40.77.229.68,,,2018-02-24,db5sch101110441.wns.windows.com
-,,,2018-01-31,db5sch101110438.wns.windows.com
-,,,2016-11-30,db5sch103092713.wns.windows.com
-,,,2016-11-15,db6sch102090604.wns.windows.com
-40.77.229.69,,,2018-03-03,db5sch101110501.wns.windows.com
-,,,2018-03-02,db5sch101110442.wns.windows.com
-40.77.229.70,,,2018-02-26,db5sch101110510.wns.windows.com
-,,,2016-11-30,db5sch103092817.wns.windows.com
-,,,2016-11-26,db5sch101110518.wns.windows.com
-,,,2016-11-15,db6sch102090609.wns.windows.com
-40.77.229.71,AS8075 Microsoft Corporation,IE,2018-02-21,db6sch102090613.wns.windows.com
-,,,2017-11-09,db5sch101110528.wns.windows.com
-,,,2017-10-31,db5sch101110527.wns.windows.com
-40.77.229.72,,,2018-03-03,db5sch103100121.wns.windows.com
-,,,2018-03-02,db5sch101110534.wns.windows.com
-,,,2018-02-23,db5sch101110533.wns.windows.com
-40.77.229.73,,,2018-03-03,db5sch103100212.wns.windows.com
-,,,2018-02-21,db5sch101110541.wns.windows.com
-,,,2018-01-21,db6sch102090621.wns.windows.com
-,,,2017-03-11,db5sch101110544.wns.windows.com
-40.77.229.74,AS8075 Microsoft Corporation,IE,2018-03-02,db6sch102090703.wns.windows.com
-,,,2018-03-01,db5sch103100221.wns.windows.com
-,,,2018-02-24,db5sch101110621.wns.windows.com
-,,,2017-06-03,db5sch101110618.wns.windows.com
-40.77.229.75,,,2018-02-22,db5sch101110622.wns.windows.com
-,,,2018-02-21,db5sch103100313.wns.windows.com
-,,,2017-07-15,db6sch102090707.wns.windows.com
-,,,2017-05-27,db5sch101110624.wns.windows.com
-40.77.229.76,AS8075 Microsoft Corporation,IE,2018-03-01,db5sch101110626.wns.windows.com
-,,,2018-01-23,db5sch103100314.wns.windows.com
-,,,2017-09-10,db6sch102090708.wns.windows.com
-,,,2016-11-02,db5sch101110627.wns.windows.com
-40.77.229.77,AS8075 Microsoft Corporation,IE,2018-03-03,db5sch103100412.wns.windows.com
-,,,2018-03-01,db5sch101110634.wns.windows.com
-,,,2018-02-24,db5sch101110643.wns.windows.com
-40.77.229.78,,,2018-03-01,db5sch103100415.wns.windows.com
-,,,2018-03-01,db5sch101110705.wns.windows.com
-,,,2017-12-22,db5sch101110707.wns.windows.com
-,,,2017-11-22,db6sch102090803.wns.windows.com
-40.77.229.79,AS8075 Microsoft Corporation,IE,2018-03-02,db5sch101110713.wns.windows.com
-,,,2018-02-25,db5sch103100510.wns.windows.com
-40.77.229.80,,,2018-02-23,db5sch101110724.wns.windows.com
-,,,2018-02-11,db5sch103100511.wns.windows.com
-40.77.229.81,,,2018-02-25,db5sch103100611.wns.windows.com
-,,,2018-02-24,db5sch101110729.wns.windows.com
-,,,2016-11-30,db6sch102090809.wns.windows.com
-,,,2016-11-03,db5sch101110737.wns.windows.com
-40.77.229.82,,,2018-03-01,db5sch101110744.wns.windows.com
-,,,2018-02-28,db5sch101110740.wns.windows.com
-,,,2018-02-23,db6sch102090810.wns.windows.com
-,,,2017-12-31,db5sch103100614.wns.windows.com
-40.77.229.83,,,2018-02-27,db6sch102090811.wns.windows.com
-,,,2018-02-26,db5sch101110810.wns.windows.com
-,,,2018-02-22,db5sch101110816.wns.windows.com
-,,,2018-02-07,db5sch103100710.wns.windows.com
-40.77.229.84,,,2018-02-27,db5sch103100712.wns.windows.com
-,,,2018-02-22,db6sch102090902.wns.windows.com
-,,,2018-02-22,db5sch101110822.wns.windows.com
-,,,2018-02-15,db5sch101110821.wns.windows.com
-40.77.229.85,AS8075 Microsoft Corporation,IE,2018-02-24,db5sch101110825.wns.windows.com
-,,,2018-01-17,db5sch101110828.wns.windows.com
-40.77.229.86,AS8075 Microsoft Corporation,IE,2018-02-24,db5sch101110831.wns.windows.com
-,,,2016-11-28,db5sch103101009.wns.windows.com
-,,,2016-11-18,db5sch101110829.wns.windows.com
-,,,2016-11-03,db6sch102090905.wns.windows.com
-40.77.229.87,,,2018-03-03,db5sch101110835.wns.windows.com
-,,,2018-03-01,db5sch103101012.wns.windows.com
-,,,2018-02-22,db5sch101110841.wns.windows.com
-,,,2016-11-09,db6sch102090907.wns.windows.com
-40.77.229.88,AS8075 Microsoft Corporation,IE,2018-02-23,db5sch101110921.wns.windows.com
-40.77.229.89,AS8075 Microsoft Corporation,IE,2018-03-03,db5sch101110923.wns.windows.com
-,,,2018-02-17,db5sch103101113.wns.windows.com
-,,,2018-01-27,db6sch102090910.wns.windows.com
-,,,2016-11-30,db5sch101110927.wns.windows.com
-40.77.229.90,,,2018-03-02,DB5SCH101110931.wns.windows.com
-,,,2018-02-18,db6sch102090911.wns.windows.com
-40.77.229.91,,,2018-03-02,db5sch101100122.wns.windows.com
-,,,2018-03-01,db5sch103081814.wns.windows.com
-,,,2018-02-17,db6sch102091003.wns.windows.com
-,,,2018-02-12,db5sch103101212.wns.windows.com
-40.77.229.92,,,2018-03-02,db6sch102091004.wns.windows.com
-,,,2018-03-01,db5sch103081910.wns.windows.com
-,,,2018-02-23,db5sch103101305.wns.windows.com
-,,,2017-04-08,DB5SCH101100128.wns.windows.com
-,,,2016-11-30,db5sch101100437.wns.windows.com
-40.77.229.93,,,,
-40.77.229.94,,,,
-40.77.229.95,,,,
-40.77.229.96,,,,
-40.77.229.97,,,,
-40.77.229.98,,,,
-40.77.229.99,,,,
-40.77.229.100,,,,
-40.77.229.101,,,,
-40.77.229.102,,,,
-40.77.229.103,,,,
-40.77.229.104,,,,
-40.77.229.105,,,,
-40.77.229.106,,,,
-40.77.229.107,,,,
-40.77.229.108,,,,
-40.77.229.109,,,,
-40.77.229.110,,,,
-40.77.229.111,,,,
-40.77.229.112,,,,
-40.77.229.113,,,,
-40.77.229.114,,,,
-40.77.229.115,,,,
-40.77.229.116,,,,
-40.77.229.117,,,,
-40.77.229.118,,,2017-09-27,licensingphone.mp.microsoft.com
-40.77.229.119,,,,
-40.77.229.120,,,,
-40.77.229.121,,,,
-40.77.229.122,,,,
-40.77.229.123,,,2018-02-26,collections-europe.md.mp.microsoft.com.akadns.net
-,,,2018-02-13,db5.collections.md.mp.microsoft.com.akadns.net
-,,,2017-09-27,collections.mp.microsoft.com
-,,,2017-09-06,collections.md.mp.microsoft.com
-40.77.229.124,,,,
-40.77.229.125,,,2018-02-27,displaycatalog-europe-golive.md.mp.microsoft.com.akadns.net
-,,,2018-02-26,displaycatalog-europe.md.mp.microsoft.com.akadns.net
-,,,2018-02-26,db5.displaycatalog.md.mp.microsoft.com.akadns.net
-40.77.229.126,,,,
-40.77.229.127,,,,
-40.77.229.128,,,2018-02-27,purchase-europe.md.mp.microsoft.com.akadns.net
-,,,2017-09-18,purchase.mp.microsoft.com
-40.77.229.129,,,,
-40.77.229.130,,,,
-40.77.229.131,,,,
-40.77.229.132,,,,
-40.77.229.133,AS8075 Microsoft Corporation,IE,2018-02-28,db5.licensing.md.mp.microsoft.com.akadns.net
-,,,2018-02-24,licensing-europe.md.mp.microsoft.com.akadns.net
-,,,2017-09-06,licensing.mp.microsoft.com
-40.77.229.134,,,,
-40.77.229.135,,,,
-40.77.229.136,,,,
-40.77.229.137,,,,
-40.77.229.138,,,,
-40.77.229.139,,,2017-09-06,inv.mp.microsoft.com
-40.77.229.140,,,,
-40.77.229.141,AS8075 Microsoft Corporation,IE,,
-40.77.229.142,,,,
-40.77.229.143,,,,
-40.77.229.144,,,2018-03-01,bspmts.mp.microsoft.com
-40.77.229.145,,,,
-40.77.229.146,,,,
-40.77.229.147,,,,
-40.77.229.148,AS8075 Microsoft Corporation,IE,2017-05-05,ris.api.iris.microsoft.com
-40.77.229.149,,,,
-40.77.229.150,,,,
-40.77.229.151,,,,
-40.77.229.152,,,,
-40.77.229.153,,,,
-40.77.229.154,,,,
-40.77.229.155,,,,
-40.77.229.156,,,,
-40.77.229.157,,,,
-40.77.229.158,,,,
-40.77.229.159,,,,
-40.77.229.160,,,,
-40.77.229.161,,,,
-40.77.229.162,,,,
-40.77.229.163,,,,
-40.77.229.164,,,,
-40.77.229.165,,,,
-40.77.229.166,,,,
-40.77.229.167,,,,
-40.77.229.168,,,,
-40.77.229.169,,,,
-40.77.229.170,,,,
-40.77.229.171,,,,
-40.77.229.172,,,,
-40.77.229.173,,,,
-40.77.229.174,,,,
-40.77.229.175,,,,
-40.77.229.176,,,,
-40.77.229.177,,,,
-40.77.229.178,,,,
-40.77.229.179,,,,
-40.77.229.180,,,,
-40.77.229.181,,,,
-40.77.229.182,,,,
-40.77.229.183,,,,
-40.77.229.184,,,,
-40.77.229.185,,,,
-40.77.229.186,,,,
-40.77.229.187,,,,
-40.77.229.188,,,,
-40.77.229.189,,,,
-40.77.229.190,,,,
-40.77.229.191,,,,
-40.77.229.192,,,,
-40.77.229.193,,,,
-40.77.229.194,,,,
-40.77.229.195,,,,
-40.77.229.196,,,,
-40.77.229.197,,,,
-40.77.229.198,,,,
-40.77.229.199,AS8075 Microsoft Corporation,IE,,
-40.77.229.200,,,,
-40.77.229.201,,,,
-40.77.229.202,,,,
-40.77.229.203,,,,
-40.77.229.204,,,,
-40.77.229.205,,,,
-40.77.229.206,,,,
-40.77.229.207,,,,
-40.77.229.208,,,,
-40.77.229.209,,,,
-40.77.229.210,,,,
-40.77.229.211,,,,
-40.77.229.212,,,,
-40.77.229.213,,,,
-40.77.229.214,,,,
-40.77.229.215,,,,
-40.77.229.216,,,,
-40.77.229.217,,,,
-40.77.229.218,,,,
-40.77.229.219,,,,
-40.77.229.220,,,,
-40.77.229.221,,,,
-40.77.229.222,,,,
-40.77.229.223,,,,
-40.77.229.224,,,,
-40.77.229.225,,,,
-40.77.229.226,,,,
-40.77.229.227,,,,
-40.77.229.228,,,,
-40.77.229.229,,,,
-40.77.229.230,,,,
-40.77.229.231,,,,
-40.77.229.232,,,,
-40.77.229.233,,,,
-40.77.229.234,,,,
-40.77.229.235,,,,
-40.77.229.236,,,,
-40.77.229.237,,,,
-40.77.229.238,,,,
-40.77.229.239,,,,
-40.77.229.240,,,,
-40.77.229.241,,,,
-40.77.229.242,,,,
-40.77.229.243,,,,
-40.77.229.244,,,,
-40.77.229.245,,,,
-40.77.229.246,,,,
-40.77.229.247,,,,
-40.77.229.248,,,,
-40.77.229.249,,,,
-40.77.229.250,,,,
-40.77.229.251,,,,
-40.77.229.252,,,,
-40.77.229.253,,,,
-40.77.229.254,,,,
-52.229.171.202,AS8075 Microsoft Corporation,HK,2018-01-23,sls.update.microsoft.com.nsatc.net
+52.229.171.202,Microsoft Azure,Hong Kong,2018-01-23,sls.update.microsoft.com.nsatc.net
 ,,,2018-01-22,sls.update.microsoft.com
 ,,,2018-01-16,52.229.171.202
-65.55.138.1,,,,
-65.55.138.2,,,,
-65.55.138.3,,,,
-65.55.138.4,,,,
-65.55.138.5,,,,
-65.55.138.6,,,,
-65.55.138.7,,,,
-65.55.138.8,,,,
-65.55.138.9,,,,
-65.55.138.10,,,,
-65.55.138.11,,,,
-65.55.138.12,,,,
-65.55.138.13,,,,
-65.55.138.14,,,,
-65.55.138.15,,,2017-04-11,services.apps.microsoft.com.nsatc.net
+64.4.54.18,Microsoft bingbot,United States,2018-03-19,fe3.delivery.mp.microsoft.com
+,,,2018-03-06,fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+64.4.54.22,Microsoft bingbot,United States,2017-08-25,stats1.update.microsoft.com.nsatc.net
+,,,2017-08-12,statsfe2.update.microsoft.com.akadns.net
+,,,2017-08-11,statsupdate.microsoft.com.nsatc.net
+,,,2017-07-28,stats.update.microsoft.com.nsatc.net
+,,,2017-07-27,statsfe2.ws.microsoft.com.nsatc.net
+,,,2017-05-21,msnbot-64-4-54-22.search.msn.com
+,,,2017-05-05,stats.update.microsoft.com
+,,,2017-02-25,statsfe2.ws.microsoft.com
+,,,2016-08-22,statsfe2.update.microsoft.com
+65.55.138.1,Microsoft Hosting,United States,,
+65.55.138.2,Microsoft Hosting,United States,,
+65.55.138.3,Microsoft Hosting,United States,,
+65.55.138.4,Microsoft Hosting,United States,,
+65.55.138.5,Microsoft Hosting,United States,,
+65.55.138.6,Microsoft Hosting,United States,,
+65.55.138.7,Microsoft Hosting,United States,,
+65.55.138.8,Microsoft Hosting,United States,,
+65.55.138.9,Microsoft Hosting,United States,,
+65.55.138.10,Microsoft Hosting,United States,,
+65.55.138.11,Microsoft Hosting,United States,,
+65.55.138.12,Microsoft Hosting,United States,,
+65.55.138.13,Microsoft Hosting,United States,,
+65.55.138.14,Microsoft Hosting,United States,,
+65.55.138.15,Microsoft Hosting,United States,2017-04-11,services.apps.microsoft.com.nsatc.net
 ,,,2014-09-16,services-perf.windows.akadns.net
 ,,,2014-07-25,lic.apps.microsoft.com
 ,,,2013-09-30,apps.microsoft.com
 ,,,2013-09-29,next-services.apps.microsoft.com
 ,,,2013-09-29,services.apps.microsoft.com
-65.55.138.16,,,,
-65.55.138.17,,,,
-65.55.138.18,,,,
-65.55.138.19,,,,
-65.55.138.20,,,,
-65.55.138.21,,,,
-65.55.138.22,,,,
-65.55.138.23,,,,
-65.55.138.24,,,,
-65.55.138.25,,,,
-65.55.138.26,,,,
-65.55.138.27,,,,
-65.55.138.28,,,,
-65.55.138.29,,,,
-65.55.138.30,,,,
-65.55.138.31,,,,
-65.55.138.32,,,,
-65.55.138.33,,,,
-65.55.138.34,,,,
-65.55.138.35,,,,
-65.55.138.36,,,,
-65.55.138.37,,,,
-65.55.138.38,,,,
-65.55.138.39,,,,
-65.55.138.40,,,,
-65.55.138.41,,,,
-65.55.138.42,,,,
-65.55.138.43,,,,
-65.55.138.44,,,,
-65.55.138.45,,,,
-65.55.138.46,,,,
-65.55.138.47,,,,
-65.55.138.48,,,,
-65.55.138.49,,,,
-65.55.138.50,,,,
-65.55.138.51,,,,
-65.55.138.52,,,,
-65.55.138.53,,,,
-65.55.138.54,,,,
-65.55.138.55,,,,
-65.55.138.56,,,,
-65.55.138.57,,,,
-65.55.138.58,,,,
-65.55.138.59,,,,
-65.55.138.60,,,,
-65.55.138.61,,,,
-65.55.138.62,,,,
-65.55.138.63,,,,
-65.55.138.64,,,,
-65.55.138.65,,,,
-65.55.138.66,,,,
-65.55.138.67,,,,
-65.55.138.68,,,,
-65.55.138.69,,,,
-65.55.138.70,,,,
-65.55.138.71,,,,
-65.55.138.72,,,,
-65.55.138.73,,,,
-65.55.138.74,,,,
-65.55.138.75,,,,
-65.55.138.76,,,,
-65.55.138.77,,,,
-65.55.138.78,,,,
-65.55.138.79,,,,
-65.55.138.80,,,,
-65.55.138.81,,,,
-65.55.138.82,,,,
-65.55.138.83,,,,
-65.55.138.84,,,,
-65.55.138.85,,,,
-65.55.138.86,,,,
-65.55.138.87,,,,
-65.55.138.88,,,,
-65.55.138.89,,,,
-65.55.138.90,,,,
-65.55.138.91,,,,
-65.55.138.92,,,,
-65.55.138.93,,,,
-65.55.138.94,,,,
-65.55.138.95,,,,
-65.55.138.96,,,,
-65.55.138.97,,,,
-65.55.138.98,,,,
-65.55.138.99,,,,
-65.55.138.100,,,,
-65.55.138.101,,,,
-65.55.138.102,,,,
-65.55.138.103,,,,
-65.55.138.104,,,,
-65.55.138.105,,,,
-65.55.138.106,,,,
-65.55.138.107,,,,
-65.55.138.108,,,,
-65.55.138.109,,,,
-65.55.138.110,,,2017-08-03,statsfe1.ws.microsoft.com.nsatc.net
+65.55.138.16,Microsoft Hosting,United States,,
+65.55.138.17,Microsoft Hosting,United States,,
+65.55.138.18,Microsoft Hosting,United States,,
+65.55.138.19,Microsoft Hosting,United States,,
+65.55.138.20,Microsoft Hosting,United States,,
+65.55.138.21,Microsoft Hosting,United States,,
+65.55.138.22,Microsoft Hosting,United States,,
+65.55.138.23,Microsoft Hosting,United States,,
+65.55.138.24,Microsoft Hosting,United States,,
+65.55.138.25,Microsoft Hosting,United States,,
+65.55.138.26,Microsoft Hosting,United States,,
+65.55.138.27,Microsoft Hosting,United States,,
+65.55.138.28,Microsoft Hosting,United States,,
+65.55.138.29,Microsoft Hosting,United States,,
+65.55.138.30,Microsoft Hosting,United States,,
+65.55.138.31,Microsoft Hosting,United States,,
+65.55.138.32,Microsoft Hosting,United States,,
+65.55.138.33,Microsoft Hosting,United States,,
+65.55.138.34,Microsoft Hosting,United States,,
+65.55.138.35,Microsoft Hosting,United States,,
+65.55.138.36,Microsoft Hosting,United States,,
+65.55.138.37,Microsoft Hosting,United States,,
+65.55.138.38,Microsoft Hosting,United States,,
+65.55.138.39,Microsoft Hosting,United States,,
+65.55.138.40,Microsoft Hosting,United States,,
+65.55.138.41,Microsoft Hosting,United States,,
+65.55.138.42,Microsoft Hosting,United States,,
+65.55.138.43,Microsoft Hosting,United States,,
+65.55.138.44,Microsoft Hosting,United States,,
+65.55.138.45,Microsoft Hosting,United States,,
+65.55.138.46,Microsoft Hosting,United States,,
+65.55.138.47,Microsoft Hosting,United States,,
+65.55.138.48,Microsoft Hosting,United States,,
+65.55.138.49,Microsoft Hosting,United States,,
+65.55.138.50,Microsoft Hosting,United States,,
+65.55.138.51,Microsoft Hosting,United States,,
+65.55.138.52,Microsoft Hosting,United States,,
+65.55.138.53,Microsoft Hosting,United States,,
+65.55.138.54,Microsoft Hosting,United States,,
+65.55.138.55,Microsoft Hosting,United States,,
+65.55.138.56,Microsoft Hosting,United States,,
+65.55.138.57,Microsoft Hosting,United States,,
+65.55.138.58,Microsoft Hosting,United States,,
+65.55.138.59,Microsoft Hosting,United States,,
+65.55.138.60,Microsoft Hosting,United States,,
+65.55.138.61,Microsoft Hosting,United States,,
+65.55.138.62,Microsoft Hosting,United States,,
+65.55.138.63,Microsoft Hosting,United States,,
+65.55.138.64,Microsoft Hosting,United States,,
+65.55.138.65,Microsoft Hosting,United States,,
+65.55.138.66,Microsoft Hosting,United States,,
+65.55.138.67,Microsoft Hosting,United States,,
+65.55.138.68,Microsoft Hosting,United States,,
+65.55.138.69,Microsoft Hosting,United States,,
+65.55.138.70,Microsoft Hosting,United States,,
+65.55.138.71,Microsoft Hosting,United States,,
+65.55.138.72,Microsoft Hosting,United States,,
+65.55.138.73,Microsoft Hosting,United States,,
+65.55.138.74,Microsoft Hosting,United States,,
+65.55.138.75,Microsoft Hosting,United States,,
+65.55.138.76,Microsoft Hosting,United States,,
+65.55.138.77,Microsoft Hosting,United States,,
+65.55.138.78,Microsoft Hosting,United States,,
+65.55.138.79,Microsoft Hosting,United States,,
+65.55.138.80,Microsoft Hosting,United States,,
+65.55.138.81,Microsoft Hosting,United States,,
+65.55.138.82,Microsoft Hosting,United States,,
+65.55.138.83,Microsoft Hosting,United States,,
+65.55.138.84,Microsoft Hosting,United States,,
+65.55.138.85,Microsoft Hosting,United States,,
+65.55.138.86,Microsoft Hosting,United States,,
+65.55.138.87,Microsoft Hosting,United States,,
+65.55.138.88,Microsoft Hosting,United States,,
+65.55.138.89,Microsoft Hosting,United States,,
+65.55.138.90,Microsoft Hosting,United States,,
+65.55.138.91,Microsoft Hosting,United States,,
+65.55.138.92,Microsoft Hosting,United States,,
+65.55.138.93,Microsoft Hosting,United States,,
+65.55.138.94,Microsoft Hosting,United States,,
+65.55.138.95,Microsoft Hosting,United States,,
+65.55.138.96,Microsoft Hosting,United States,,
+65.55.138.97,Microsoft Hosting,United States,,
+65.55.138.98,Microsoft Hosting,United States,,
+65.55.138.99,Microsoft Hosting,United States,,
+65.55.138.100,Microsoft Hosting,United States,,
+65.55.138.101,Microsoft Hosting,United States,,
+65.55.138.102,Microsoft Hosting,United States,,
+65.55.138.103,Microsoft Hosting,United States,,
+65.55.138.104,Microsoft Hosting,United States,,
+65.55.138.105,Microsoft Hosting,United States,,
+65.55.138.106,Microsoft Hosting,United States,,
+65.55.138.107,Microsoft Hosting,United States,,
+65.55.138.108,Microsoft Hosting,United States,,
+65.55.138.109,Microsoft Hosting,United States,,
+65.55.138.110,Microsoft Hosting,United States,2017-08-03,statsfe1.ws.microsoft.com.nsatc.net
 ,,,2017-07-24,statsfe2-df.ws.microsoft.com.nsatc.net
 ,,,2017-02-19,statsfe2.ws.microsoft.com.nsatc.net
 ,,,2017-02-06,65.55.138.110
@@ -711,16 +223,16 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-02-05,statsfe2.ws.microsoft.com
 ,,,2015-01-14,statsfe2.update.microsoft.com
 ,,,2014-05-18,update.microsoft.com
-65.55.138.111,,,2017-08-12,sls.update.microsoft.com.akadns.net
+65.55.138.111,Microsoft Hosting,United States,2017-08-12,sls.update.microsoft.com.akadns.net
 ,,,2017-05-03,sls.update.microsoft.com
 ,,,2017-02-04,sls.update.microsoft.com.nsatc.net
-65.55.138.112,AS8075 Microsoft Corporation,US,2017-07-29,fe2.update.microsoft.com.akadns.net
+65.55.138.112,Microsoft Hosting,United States,2017-07-29,fe2.update.microsoft.com.akadns.net
 ,,,2017-03-09,fe2.update.microsoft.com.nsatc.net
 ,,,2015-11-18,fe2.update.microsoft.com
 ,,,2014-01-08,statsfe2.update.microsoft.com
 ,,,2014-01-04,statsfe2.update.microsoft.com.akadns.net
-65.55.138.113,,,,
-65.55.138.114,AS8075 Microsoft Corporation,US,2017-08-02,fe2.update.microsoft.com.nsatc.net
+65.55.138.113,Microsoft Hosting,United States,,
+65.55.138.114,Microsoft Hosting,United States,2017-08-02,fe2.update.microsoft.com.nsatc.net
 ,,,2017-07-13,fe2.update.microsoft.com.akadns.net
 ,,,2017-05-17,fe1.update.microsoft.com.akadns.net
 ,,,2017-02-25,fe2.update.microsoft.com
@@ -730,27 +242,27 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-19,windowsupdate.microsoft.com
 ,,,2013-10-18,www.update.microsoft.com
 ,,,2013-10-11,update.microsoft.com.nsatc.net
-65.55.138.115,,,2014-07-28,www.windowsupdate.com
+65.55.138.115,Microsoft Hosting,United States,2014-07-28,www.windowsupdate.com
 ,,,2014-07-20,www.update.microsoft.com
 ,,,2014-07-17,windowsupdate.microsoft.com
-65.55.138.116,,,2017-05-15,catalog.update.microsoft.com
-65.55.138.117,,,,
-65.55.138.118,,,2014-03-24,statsfe2.ws.microsoft.com.nsatc.net
-65.55.138.119,,,2017-10-01,main.sh.orws.microsoft.com.nsatc.net
+65.55.138.116,Microsoft Hosting,United States,2017-05-15,catalog.update.microsoft.com
+65.55.138.117,Microsoft Hosting,United States,,
+65.55.138.118,Microsoft Hosting,United States,2014-03-24,statsfe2.ws.microsoft.com.nsatc.net
+65.55.138.119,Microsoft Hosting,United States,2017-10-01,main.sh.orws.microsoft.com.nsatc.net
 ,,,2014-10-24,sh.dl.ws.microsoft.com
-65.55.138.120,,,2017-06-21,windowsupdate.microsoft.com
-65.55.138.121,,,,
-65.55.138.122,,,,
-65.55.138.123,,,,
-65.55.138.124,,,,
-65.55.138.125,,,2016-12-27,65.55.138.125
+65.55.138.120,Microsoft Hosting,United States,2017-06-21,windowsupdate.microsoft.com
+65.55.138.121,Microsoft Hosting,United States,,
+65.55.138.122,Microsoft Hosting,United States,,
+65.55.138.123,Microsoft Hosting,United States,,
+65.55.138.124,Microsoft Hosting,United States,,
+65.55.138.125,Microsoft Hosting,United States,2016-12-27,65.55.138.125
 ,,,2014-04-29,update.microsoft.com.nsatc.net
 ,,,2014-02-18,by2.dc.health.update.microsoft.com.nsatc.net
 ,,,2013-10-19,www.update.microsoft.com
 ,,,2013-10-16,update.microsoft.com
 ,,,2013-10-16,windowsupdate.microsoft.com
 ,,,2013-07-30,v5.windowsupdate.microsoft.com
-65.55.138.126,AS8075 Microsoft Corporation,US,2017-07-30,fe2.update.microsoft.com.nsatc.net
+65.55.138.126,Microsoft Hosting,United States,2017-07-30,fe2.update.microsoft.com.nsatc.net
 ,,,2017-07-05,fe1.update.microsoft.com.akadns.net
 ,,,2016-07-28,fe1.update.microsoft.com
 ,,,2015-12-06,fe2.update.microsoft.com
@@ -758,176 +270,176 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-12-09,update.microsoft.com.nsatc.net
 ,,,2013-10-19,windowsupdate.microsoft.com
 ,,,2013-09-18,www.update.microsoft.com
-65.55.138.127,,,,
-65.55.138.128,,,,
-65.55.138.129,,,,
-65.55.138.130,,,,
-65.55.138.131,,,,
-65.55.138.132,,,,
-65.55.138.133,,,,
-65.55.138.134,,,,
-65.55.138.135,,,,
-65.55.138.136,,,,
-65.55.138.137,,,,
-65.55.138.138,,,,
-65.55.138.139,,,,
-65.55.138.140,,,,
-65.55.138.141,,,,
-65.55.138.142,,,,
-65.55.138.143,,,,
-65.55.138.144,,,,
-65.55.138.145,,,,
-65.55.138.146,,,,
-65.55.138.147,,,,
-65.55.138.148,,,,
-65.55.138.149,,,2017-11-02,sls.update.microsoft.com.nsatc.net
+65.55.138.127,Microsoft Hosting,United States,,
+65.55.138.128,Microsoft Hosting,United States,,
+65.55.138.129,Microsoft Hosting,United States,,
+65.55.138.130,Microsoft Hosting,United States,,
+65.55.138.131,Microsoft Hosting,United States,,
+65.55.138.132,Microsoft Hosting,United States,,
+65.55.138.133,Microsoft Hosting,United States,,
+65.55.138.134,Microsoft Hosting,United States,,
+65.55.138.135,Microsoft Hosting,United States,,
+65.55.138.136,Microsoft Hosting,United States,,
+65.55.138.137,Microsoft Hosting,United States,,
+65.55.138.138,Microsoft Hosting,United States,,
+65.55.138.139,Microsoft Hosting,United States,,
+65.55.138.140,Microsoft Hosting,United States,,
+65.55.138.141,Microsoft Hosting,United States,,
+65.55.138.142,Microsoft Hosting,United States,,
+65.55.138.143,Microsoft Hosting,United States,,
+65.55.138.144,Microsoft Hosting,United States,,
+65.55.138.145,Microsoft Hosting,United States,,
+65.55.138.146,Microsoft Hosting,United States,,
+65.55.138.147,Microsoft Hosting,United States,,
+65.55.138.148,Microsoft Hosting,United States,,
+65.55.138.149,Microsoft Hosting,United States,2017-11-02,sls.update.microsoft.com.nsatc.net
 ,,,2017-10-16,sls.update.microsoft.com
-65.55.138.150,,,,
-65.55.138.151,,,,
-65.55.138.152,,,,
-65.55.138.153,,,2014-10-11,www.update.microsoft.com
+65.55.138.150,Microsoft Hosting,United States,,
+65.55.138.151,Microsoft Hosting,United States,,
+65.55.138.152,Microsoft Hosting,United States,,
+65.55.138.153,Microsoft Hosting,United States,2014-10-11,www.update.microsoft.com
 ,,,2014-09-16,www.update.microsoft.com.nsatc.net
 ,,,2014-09-15,windowsupdate.microsoft.com
 ,,,2014-09-14,www.windowsupdate.com
 ,,,2014-07-16,fe2.update.microsoft.com
-65.55.138.154,,,2015-01-23,www.windowsupdate.com
+65.55.138.154,Microsoft Hosting,United States,2015-01-23,www.windowsupdate.com
 ,,,2014-09-27,www.update.microsoft.com
 ,,,2014-09-15,www.update.microsoft.com.nsatc.net
 ,,,2014-09-07,windowsupdate.microsoft.com
 ,,,2014-07-26,fe2.update.microsoft.com
-65.55.138.155,,,,
-65.55.138.156,,,,
-65.55.138.157,,,2013-09-14,statsfe2.ws.microsoft.com
-65.55.138.158,AS8075 Microsoft Corporation,US,2018-02-19,fe1.ws.microsoft.com.nsatc.net
-,,,2017-11-21,fe2.ws.microsoft.com
-,,,2017-11-20,fe2.ws.microsoft.com.nsatc.net
+65.55.138.155,Microsoft Hosting,United States,,
+65.55.138.156,Microsoft Hosting,United States,,
+65.55.138.157,Microsoft Hosting,United States,2013-09-14,statsfe2.ws.microsoft.com
+65.55.138.158,Microsoft Hosting,United States,2018-03-11,fe2.ws.microsoft.com.nsatc.net
+,,,2018-03-06,fe2.ws.microsoft.com
+,,,2018-03-03,fe1.ws.microsoft.com.nsatc.net
 ,,,2016-05-24,fe1.ws.microsoft.com
-65.55.138.159,,,,
-65.55.138.160,,,,
-65.55.138.161,,,,
-65.55.138.162,,,,
-65.55.138.163,,,,
-65.55.138.164,,,,
-65.55.138.165,,,,
-65.55.138.166,,,,
-65.55.138.167,,,,
-65.55.138.168,,,,
-65.55.138.169,,,,
-65.55.138.170,,,,
-65.55.138.171,,,,
-65.55.138.172,,,,
-65.55.138.173,,,,
-65.55.138.174,,,,
-65.55.138.175,,,,
-65.55.138.176,,,,
-65.55.138.177,,,,
-65.55.138.178,,,,
-65.55.138.179,,,,
-65.55.138.180,,,,
-65.55.138.181,,,,
-65.55.138.182,,,,
-65.55.138.183,,,,
-65.55.138.184,,,,
-65.55.138.185,,,,
-65.55.138.186,AS8075 Microsoft Corporation,US,2017-08-22,fe1.update.microsoft.com.akadns.net
+65.55.138.159,Microsoft Hosting,United States,,
+65.55.138.160,Microsoft Hosting,United States,,
+65.55.138.161,Microsoft Hosting,United States,,
+65.55.138.162,Microsoft Hosting,United States,,
+65.55.138.163,Microsoft Hosting,United States,,
+65.55.138.164,Microsoft Hosting,United States,,
+65.55.138.165,Microsoft Hosting,United States,,
+65.55.138.166,Microsoft Hosting,United States,,
+65.55.138.167,Microsoft Hosting,United States,,
+65.55.138.168,Microsoft Hosting,United States,,
+65.55.138.169,Microsoft Hosting,United States,,
+65.55.138.170,Microsoft Hosting,United States,,
+65.55.138.171,Microsoft Hosting,United States,,
+65.55.138.172,Microsoft Hosting,United States,,
+65.55.138.173,Microsoft Hosting,United States,,
+65.55.138.174,Microsoft Hosting,United States,,
+65.55.138.175,Microsoft Hosting,United States,,
+65.55.138.176,Microsoft Hosting,United States,,
+65.55.138.177,Microsoft Hosting,United States,,
+65.55.138.178,Microsoft Hosting,United States,,
+65.55.138.179,Microsoft Hosting,United States,,
+65.55.138.180,Microsoft Hosting,United States,,
+65.55.138.181,Microsoft Hosting,United States,,
+65.55.138.182,Microsoft Hosting,United States,,
+65.55.138.183,Microsoft Hosting,United States,,
+65.55.138.184,Microsoft Hosting,United States,,
+65.55.138.185,Microsoft Hosting,United States,,
+65.55.138.186,Microsoft Hosting,United States,2017-08-22,fe1.update.microsoft.com.akadns.net
 ,,,2017-07-05,fe2.update.microsoft.com
 ,,,2017-05-24,fe2.update.microsoft.com.akadns.net
 ,,,2017-05-20,fe2.update.microsoft.com.nsatc.net
 ,,,2017-01-06,65.55.138.186
 ,,,2014-08-13,update.microsoft.com.nsatc.net
 ,,,2014-05-31,update.microsoft.com
-65.55.138.187,,,,
-65.55.138.188,,,2014-11-13,www.update.microsoft.com.nsatc.net
+65.55.138.187,Microsoft Hosting,United States,,
+65.55.138.188,Microsoft Hosting,United States,2014-11-13,www.update.microsoft.com.nsatc.net
 ,,,2014-06-06,microsoft.com
 ,,,2014-05-21,www.windowsupdate.com
 ,,,2014-04-19,www.update.microsoft.com
 ,,,2014-04-17,windowsupdate.microsoft.com
-65.55.138.189,,,2014-03-03,www.update.microsoft.com.nsatc.net
+65.55.138.189,Microsoft Hosting,United States,2014-03-03,www.update.microsoft.com.nsatc.net
 ,,,2014-02-02,windowsupdate.microsoft.com
 ,,,2014-02-01,www.windowsupdate.com
 ,,,2014-02-01,www.update.microsoft.com
-65.55.138.190,,,,
-65.55.138.191,,,,
-65.55.138.192,,,,
-65.55.138.193,,,,
-65.55.138.194,,,,
-65.55.138.195,,,,
-65.55.138.196,,,,
-65.55.138.197,,,,
-65.55.138.198,,,,
-65.55.138.199,,,,
-65.55.138.200,,,2017-05-21,ll.or.windowsupdate.com.nsatc.net
+65.55.138.190,Microsoft Hosting,United States,,
+65.55.138.191,Microsoft Hosting,United States,,
+65.55.138.192,Microsoft Hosting,United States,,
+65.55.138.193,Microsoft Hosting,United States,,
+65.55.138.194,Microsoft Hosting,United States,,
+65.55.138.195,Microsoft Hosting,United States,,
+65.55.138.196,Microsoft Hosting,United States,,
+65.55.138.197,Microsoft Hosting,United States,,
+65.55.138.198,Microsoft Hosting,United States,,
+65.55.138.199,Microsoft Hosting,United States,,
+65.55.138.200,Microsoft Hosting,United States,2017-05-21,ll.or.windowsupdate.com.nsatc.net
 ,,,2015-02-05,main.sh.orws.microsoft.com.nsatc.net
 ,,,2014-10-24,sh.dl.ws.microsoft.com
-65.55.138.201,,,,
-65.55.138.202,,,,
-65.55.138.203,,,2016-12-05,ll.or.windowsupdate.com.nsatc.net
+65.55.138.201,Microsoft Hosting,United States,,
+65.55.138.202,Microsoft Hosting,United States,,
+65.55.138.203,Microsoft Hosting,United States,2016-12-05,ll.or.windowsupdate.com.nsatc.net
 ,,,2015-12-12,main.sh.orws.microsoft.com.nsatc.net
 ,,,2015-05-23,sh.dl.ws.microsoft.com
-65.55.138.204,,,,
-65.55.138.205,,,2016-11-25,ll.or.windowsupdate.com.nsatc.net
+65.55.138.204,Microsoft Hosting,United States,,
+65.55.138.205,Microsoft Hosting,United States,2016-11-25,ll.or.windowsupdate.com.nsatc.net
 ,,,2016-05-01,main.sh.orws.microsoft.com.nsatc.net
 ,,,2014-10-21,sh.dl.ws.microsoft.com
-65.55.138.206,,,2018-02-11,ll.or.windowsupdate.com.nsatc.net
+65.55.138.206,Microsoft Hosting,United States,2018-02-11,ll.or.windowsupdate.com.nsatc.net
 ,,,2016-04-19,main.sh.orws.microsoft.com.nsatc.net
 ,,,2014-10-26,sh.dl.ws.microsoft.com
-65.55.138.207,,,,
-65.55.138.208,,,,
-65.55.138.209,,,,
-65.55.138.210,,,,
-65.55.138.211,,,,
-65.55.138.212,,,,
-65.55.138.213,,,,
-65.55.138.214,,,,
-65.55.138.215,,,,
-65.55.138.216,,,,
-65.55.138.217,,,,
-65.55.138.218,,,,
-65.55.138.219,,,,
-65.55.138.220,,,,
-65.55.138.221,,,,
-65.55.138.222,,,,
-65.55.138.223,,,,
-65.55.138.224,,,,
-65.55.138.225,,,,
-65.55.138.226,,,,
-65.55.138.227,,,,
-65.55.138.228,,,,
-65.55.138.229,,,,
-65.55.138.230,,,,
-65.55.138.231,,,,
-65.55.138.232,,,,
-65.55.138.233,,,,
-65.55.138.234,,,,
-65.55.138.235,,,,
-65.55.138.236,,,,
-65.55.138.237,,,,
-65.55.138.238,,,,
-65.55.138.239,,,,
-65.55.138.240,,,,
-65.55.138.241,,,,
-65.55.138.242,,,,
-65.55.138.243,,,,
-65.55.138.244,,,,
-65.55.138.245,,,,
-65.55.138.246,,,,
-65.55.138.247,,,,
-65.55.138.248,,,,
-65.55.138.249,,,,
-65.55.138.250,,,,
-65.55.138.251,,,,
-65.55.138.252,,,,
-65.55.138.253,,,,
-65.55.138.254,,,,
-65.55.163.219,AS8075 Microsoft Corporation,US,2014-07-22,www.windowsupdate.com
+65.55.138.207,Microsoft Hosting,United States,,
+65.55.138.208,Microsoft Hosting,United States,,
+65.55.138.209,Microsoft Hosting,United States,,
+65.55.138.210,Microsoft Hosting,United States,,
+65.55.138.211,Microsoft Hosting,United States,,
+65.55.138.212,Microsoft Hosting,United States,,
+65.55.138.213,Microsoft Hosting,United States,,
+65.55.138.214,Microsoft Hosting,United States,,
+65.55.138.215,Microsoft Hosting,United States,,
+65.55.138.216,Microsoft Hosting,United States,,
+65.55.138.217,Microsoft Hosting,United States,,
+65.55.138.218,Microsoft Hosting,United States,,
+65.55.138.219,Microsoft Hosting,United States,,
+65.55.138.220,Microsoft Hosting,United States,,
+65.55.138.221,Microsoft Hosting,United States,,
+65.55.138.222,Microsoft Hosting,United States,,
+65.55.138.223,Microsoft Hosting,United States,,
+65.55.138.224,Microsoft Hosting,United States,,
+65.55.138.225,Microsoft Hosting,United States,,
+65.55.138.226,Microsoft Hosting,United States,,
+65.55.138.227,Microsoft Hosting,United States,,
+65.55.138.228,Microsoft Hosting,United States,,
+65.55.138.229,Microsoft Hosting,United States,,
+65.55.138.230,Microsoft Hosting,United States,,
+65.55.138.231,Microsoft Hosting,United States,,
+65.55.138.232,Microsoft Hosting,United States,,
+65.55.138.233,Microsoft Hosting,United States,,
+65.55.138.234,Microsoft Hosting,United States,,
+65.55.138.235,Microsoft Hosting,United States,,
+65.55.138.236,Microsoft Hosting,United States,,
+65.55.138.237,Microsoft Hosting,United States,,
+65.55.138.238,Microsoft Hosting,United States,,
+65.55.138.239,Microsoft Hosting,United States,,
+65.55.138.240,Microsoft Hosting,United States,,
+65.55.138.241,Microsoft Hosting,United States,,
+65.55.138.242,Microsoft Hosting,United States,,
+65.55.138.243,Microsoft Hosting,United States,,
+65.55.138.244,Microsoft Hosting,United States,,
+65.55.138.245,Microsoft Hosting,United States,,
+65.55.138.246,Microsoft Hosting,United States,,
+65.55.138.247,Microsoft Hosting,United States,,
+65.55.138.248,Microsoft Hosting,United States,,
+65.55.138.249,Microsoft Hosting,United States,,
+65.55.138.250,Microsoft Hosting,United States,,
+65.55.138.251,Microsoft Hosting,United States,,
+65.55.138.252,Microsoft Hosting,United States,,
+65.55.138.253,Microsoft Hosting,United States,,
+65.55.138.254,Microsoft Hosting,United States,,
+65.55.163.219,Microsoft Hosting,United States,2014-07-22,www.windowsupdate.com
 ,,,2014-07-10,www.update.microsoft.com.nsatc.net
 ,,,2014-07-04,windowsupdate.microsoft.com
 ,,,2014-07-03,www.update.microsoft.com
-65.55.163.220,AS8075 Microsoft Corporation,US,2014-08-08,www.windowsupdate.com
+65.55.163.220,Microsoft Hosting,United States,2014-08-08,www.windowsupdate.com
 ,,,2014-08-06,www.update.microsoft.com.nsatc.net
 ,,,2014-07-14,windowsupdate.microsoft.com
 ,,,2014-07-06,www.update.microsoft.com
-65.55.163.221,AS8075 Microsoft Corporation,US,2017-12-28,fe2.update.microsoft.com.nsatc.net
+65.55.163.221,Microsoft Hosting,United States,2017-12-28,fe2.update.microsoft.com.nsatc.net
 ,,,2017-11-08,fe2.update.microsoft.com
 ,,,2017-01-25,65.55.163.221
 ,,,2015-03-16,fe1.update.microsoft.com.akadns.net
@@ -937,8 +449,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-19,www.update.microsoft.com
 ,,,2013-10-18,windowsupdate.microsoft.com
 ,,,2013-10-18,update.microsoft.com
-65.55.163.222,AS8075 Microsoft Corporation,US,2018-01-01,fe2.update.microsoft.com
-,,,2017-12-19,fe2.update.microsoft.com.nsatc.net
+65.55.163.222,Microsoft Hosting,United States,2018-03-17,fe2.update.microsoft.com
+,,,2018-03-05,fe2.update.microsoft.com.nsatc.net
 ,,,2017-07-28,65.55.163.222
 ,,,2015-03-16,fe1.update.microsoft.com.akadns.net
 ,,,2014-09-15,fe2.update.microsoft.com.akadns.net
@@ -946,24 +458,24 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-19,www.update.microsoft.com
 ,,,2013-10-18,update.microsoft.com
 ,,,2013-10-16,windowsupdate.microsoft.com
-66.119.144.157,AS8075 Microsoft Corporation,US,2017-11-15,fe2.update.microsoft.com
+66.119.144.157,Microsoft Corporation,United States,2017-11-15,fe2.update.microsoft.com
 ,,,2017-09-22,fe2.update.microsoft.com.nsatc.net
 ,,,2017-09-21,fe2.update.microsoft.com.akadns.net
-66.119.144.158,AS8075 Microsoft Corporation,US,2017-10-13,fe2.update.microsoft.com
+66.119.144.158,Microsoft Corporation,United States,2017-10-13,fe2.update.microsoft.com
 ,,,2017-10-11,fe2.update.microsoft.com.nsatc.net
-66.119.144.189,AS8075 Microsoft Corporation,US,2017-05-23,fe1.update.microsoft.com.akadns.net
+66.119.144.189,Microsoft Corporation,United States,2017-05-23,fe1.update.microsoft.com.akadns.net
 ,,,2016-10-25,fe2.update.microsoft.com.nsatc.net
 ,,,2015-06-03,fe1.update.microsoft.com
 ,,,2015-04-26,fe2.update.microsoft.com
-66.119.144.190,AS8075 Microsoft Corporation,US,2016-03-25,fe2.update.microsoft.com.nsatc.net
+66.119.144.190,Microsoft Corporation,United States,2016-03-25,fe2.update.microsoft.com.nsatc.net
 ,,,2016-02-17,fe2.update.microsoft.com.akadns.net
 ,,,2015-05-07,fe1.update.microsoft.com
 ,,,2015-04-21,fe2.update.microsoft.com
-131.253.33.50,,,2018-02-21,b1ns.c-0001.e-msedge.net
+131.253.33.50,Microsoft Corporation,United States,2018-03-17,b1ns.c-0001.e-msedge.net
+,,,2018-03-13,au.c-0001.e-msedge.net
+,,,2018-03-11,c-0001.e-msedge.net
+,,,2018-03-04,b1w8au.c-0001.e-msedge.net
 ,,,2018-02-21,b1w7dl.c-0001.e-msedge.net
-,,,2018-01-28,b1w8au.c-0001.e-msedge.net
-,,,2018-01-27,au.c-0001.e-msedge.net
-,,,2017-12-27,c-0001.e-msedge.net
 ,,,2017-03-06,au.b1.download.windowsupdate.com
 ,,,2017-03-02,7.tlu.dl.delivery.mp.microsoft.com
 ,,,2016-11-26,dnste-net-nq22y10v.c-0001.c-msedge.net
@@ -991,8 +503,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-08-01,v4.download.windowsupdate.com
 ,,,2015-03-05,aupl.v4.download.windowsupdate.com
 ,,,2015-02-11,c-0001.dc-msedge.net
-131.253.33.203,AS8068 Microsoft Corporation,US,2018-01-12,a-msn-com.a-0003.a-msedge.net
-,,,2018-01-06,a-0003.dc-msedge.net
+131.253.33.203,Microsoft Corporation,United States,2018-03-09,a-0003.dc-msedge.net
+,,,2018-01-12,a-msn-com.a-0003.a-msedge.net
 ,,,2017-12-07,dnste-net-uevklsv3.a-0003.a-msedge.net
 ,,,2017-12-06,preview-msn-com.a-0003.a-msedge.net
 ,,,2017-11-21,int1.msn.com
@@ -1010,286 +522,286 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-02-27,dnste-net-mxrktrtm.a-0003.a-msedge.net
 ,,,2015-02-27,dnste-net-kg75p3bd.a-0003.a-msedge.net
 ,,,2014-09-08,preview.msn.com
-134.170.51.187,,,2017-10-24,sls.update.microsoft.com.nsatc.net
+134.170.51.187,Microsoft Corporation,United States,2017-10-24,sls.update.microsoft.com.nsatc.net
 ,,,2017-09-02,sls.update.microsoft.com
-134.170.51.188,,,2017-10-30,sls.update.microsoft.com.nsatc.net
+134.170.51.188,Microsoft Corporation,United States,2017-10-30,sls.update.microsoft.com.nsatc.net
 ,,,2017-02-27,sls.update.microsoft.com
-134.170.51.190,AS8075 Microsoft Corporation,US,2018-02-07,fe2.update.microsoft.com.akadns.net
+134.170.51.190,Microsoft Corporation,United States,2018-02-07,fe2.update.microsoft.com.akadns.net
 ,,,2018-01-04,fe2.update.microsoft.com.nsatc.net
 ,,,2017-09-05,fe2.update.microsoft.com
 ,,,2017-03-02,fe1.update.microsoft.com.akadns.net
 ,,,2017-01-03,134.170.51.190
 ,,,2015-03-07,fe1.update.microsoft.com
 ,,,2014-06-16,update.microsoft.com
-134.170.51.246,AS8075 Microsoft Corporation,US,2017-11-24,fe2.update.microsoft.com.nsatc.net
+134.170.51.246,Microsoft Corporation,United States,2017-11-24,fe2.update.microsoft.com.nsatc.net
 ,,,2015-11-26,fe2.update.microsoft.com
-134.170.51.247,AS8075 Microsoft Corporation,US,2018-01-04,fe2.update.microsoft.com
-,,,2017-09-15,fe2.update.microsoft.com.nsatc.net
-134.170.51.248,AS8075 Microsoft Corporation,US,2016-12-14,fe1.update.microsoft.com.akadns.net
+134.170.51.247,Microsoft Corporation,United States,2018-03-14,fe2.update.microsoft.com.nsatc.net
+,,,2018-01-04,fe2.update.microsoft.com
+134.170.51.248,Microsoft Corporation,United States,2016-12-14,fe1.update.microsoft.com.akadns.net
 ,,,2016-09-07,fe2.update.microsoft.com.nsatc.net
 ,,,2016-06-23,fe2.update.microsoft.com
 ,,,2015-03-07,fe1.update.microsoft.com
 ,,,2014-12-11,fe2.update.microsoft.com.akadns.net
-134.170.53.29,AS8075 Microsoft Corporation,US,2017-06-27,fe2.update.microsoft.com.nsatc.net
+134.170.53.29,Microsoft Corporation,United States,2017-06-27,fe2.update.microsoft.com.nsatc.net
 ,,,2017-02-07,fe1.update.microsoft.com.akadns.net
 ,,,2016-11-01,fe2.update.microsoft.com
 ,,,2016-08-29,fe2.update.microsoft.com.akadns.net
 ,,,2015-03-30,fe1.update.microsoft.com
-134.170.53.30,AS8075 Microsoft Corporation,US,2017-07-15,fe2.update.microsoft.com.nsatc.net
+134.170.53.30,Microsoft Corporation,United States,2017-07-15,fe2.update.microsoft.com.nsatc.net
 ,,,2017-06-04,fe2.update.microsoft.com
 ,,,2016-12-11,fe1.update.microsoft.com.akadns.net
 ,,,2016-09-10,fe2.update.microsoft.com.akadns.net
 ,,,2015-03-07,fe1.update.microsoft.com
-134.170.58.1,AS8075 Microsoft Corporation,US,,
-134.170.58.2,AS8075 Microsoft Corporation,US,,
-134.170.58.3,AS8075 Microsoft Corporation,US,,
-134.170.58.4,AS8075 Microsoft Corporation,US,,
-134.170.58.5,AS8075 Microsoft Corporation,US,,
-134.170.58.6,AS8075 Microsoft Corporation,US,,
-134.170.58.7,AS8075 Microsoft Corporation,US,,
-134.170.58.8,AS8075 Microsoft Corporation,US,,
-134.170.58.9,AS8075 Microsoft Corporation,US,,
-134.170.58.10,AS8075 Microsoft Corporation,US,,
-134.170.58.11,AS8075 Microsoft Corporation,US,,
-134.170.58.12,AS8075 Microsoft Corporation,US,,
-134.170.58.13,AS8075 Microsoft Corporation,US,,
-134.170.58.14,AS8075 Microsoft Corporation,US,,
-134.170.58.15,AS8075 Microsoft Corporation,US,,
-134.170.58.16,AS8075 Microsoft Corporation,US,,
-134.170.58.17,AS8075 Microsoft Corporation,US,,
-134.170.58.18,AS8075 Microsoft Corporation,US,,
-134.170.58.19,AS8075 Microsoft Corporation,US,,
-134.170.58.20,AS8075 Microsoft Corporation,US,,
-134.170.58.21,AS8075 Microsoft Corporation,US,,
-134.170.58.22,AS8075 Microsoft Corporation,US,,
-134.170.58.23,AS8075 Microsoft Corporation,US,,
-134.170.58.24,AS8075 Microsoft Corporation,US,,
-134.170.58.25,AS8075 Microsoft Corporation,US,,
-134.170.58.26,AS8075 Microsoft Corporation,US,,
-134.170.58.27,AS8075 Microsoft Corporation,US,,
-134.170.58.28,AS8075 Microsoft Corporation,US,,
-134.170.58.29,AS8075 Microsoft Corporation,US,,
-134.170.58.30,AS8075 Microsoft Corporation,US,,
-134.170.58.31,AS8075 Microsoft Corporation,US,,
-134.170.58.32,AS8075 Microsoft Corporation,US,,
-134.170.58.33,AS8075 Microsoft Corporation,US,,
-134.170.58.34,AS8075 Microsoft Corporation,US,,
-134.170.58.35,AS8075 Microsoft Corporation,US,,
-134.170.58.36,AS8075 Microsoft Corporation,US,,
-134.170.58.37,AS8075 Microsoft Corporation,US,,
-134.170.58.38,AS8075 Microsoft Corporation,US,,
-134.170.58.39,AS8075 Microsoft Corporation,US,,
-134.170.58.40,AS8075 Microsoft Corporation,US,,
-134.170.58.41,AS8075 Microsoft Corporation,US,,
-134.170.58.42,AS8075 Microsoft Corporation,US,,
-134.170.58.43,AS8075 Microsoft Corporation,US,,
-134.170.58.44,AS8075 Microsoft Corporation,US,,
-134.170.58.45,AS8075 Microsoft Corporation,US,,
-134.170.58.46,AS8075 Microsoft Corporation,US,,
-134.170.58.47,AS8075 Microsoft Corporation,US,,
-134.170.58.48,AS8075 Microsoft Corporation,US,,
-134.170.58.49,AS8075 Microsoft Corporation,US,,
-134.170.58.50,AS8075 Microsoft Corporation,US,,
-134.170.58.51,AS8075 Microsoft Corporation,US,,
-134.170.58.52,AS8075 Microsoft Corporation,US,,
-134.170.58.53,AS8075 Microsoft Corporation,US,,
-134.170.58.54,AS8075 Microsoft Corporation,US,,
-134.170.58.55,AS8075 Microsoft Corporation,US,,
-134.170.58.56,AS8075 Microsoft Corporation,US,,
-134.170.58.57,AS8075 Microsoft Corporation,US,,
-134.170.58.58,AS8075 Microsoft Corporation,US,,
-134.170.58.59,AS8075 Microsoft Corporation,US,,
-134.170.58.60,AS8075 Microsoft Corporation,US,,
-134.170.58.61,AS8075 Microsoft Corporation,US,,
-134.170.58.62,AS8075 Microsoft Corporation,US,,
-134.170.58.63,AS8075 Microsoft Corporation,US,,
-134.170.58.64,AS8075 Microsoft Corporation,US,,
-134.170.58.65,AS8075 Microsoft Corporation,US,,
-134.170.58.66,AS8075 Microsoft Corporation,US,,
-134.170.58.67,AS8075 Microsoft Corporation,US,,
-134.170.58.68,AS8075 Microsoft Corporation,US,,
-134.170.58.69,AS8075 Microsoft Corporation,US,,
-134.170.58.70,AS8075 Microsoft Corporation,US,,
-134.170.58.71,AS8075 Microsoft Corporation,US,,
-134.170.58.72,AS8075 Microsoft Corporation,US,,
-134.170.58.73,AS8075 Microsoft Corporation,US,,
-134.170.58.74,AS8075 Microsoft Corporation,US,,
-134.170.58.75,AS8075 Microsoft Corporation,US,,
-134.170.58.76,AS8075 Microsoft Corporation,US,,
-134.170.58.77,AS8075 Microsoft Corporation,US,,
-134.170.58.78,AS8075 Microsoft Corporation,US,,
-134.170.58.79,AS8075 Microsoft Corporation,US,,
-134.170.58.80,AS8075 Microsoft Corporation,US,,
-134.170.58.81,AS8075 Microsoft Corporation,US,,
-134.170.58.82,AS8075 Microsoft Corporation,US,,
-134.170.58.83,AS8075 Microsoft Corporation,US,,
-134.170.58.84,AS8075 Microsoft Corporation,US,,
-134.170.58.85,AS8075 Microsoft Corporation,US,,
-134.170.58.86,AS8075 Microsoft Corporation,US,,
-134.170.58.87,AS8075 Microsoft Corporation,US,,
-134.170.58.88,AS8075 Microsoft Corporation,US,,
-134.170.58.89,AS8075 Microsoft Corporation,US,,
-134.170.58.90,AS8075 Microsoft Corporation,US,,
-134.170.58.91,AS8075 Microsoft Corporation,US,,
-134.170.58.92,AS8075 Microsoft Corporation,US,,
-134.170.58.93,AS8075 Microsoft Corporation,US,,
-134.170.58.94,AS8075 Microsoft Corporation,US,,
-134.170.58.95,AS8075 Microsoft Corporation,US,,
-134.170.58.96,AS8075 Microsoft Corporation,US,,
-134.170.58.97,AS8075 Microsoft Corporation,US,,
-134.170.58.98,AS8075 Microsoft Corporation,US,,
-134.170.58.99,AS8075 Microsoft Corporation,US,,
-134.170.58.100,AS8075 Microsoft Corporation,US,,
-134.170.58.101,AS8075 Microsoft Corporation,US,,
-134.170.58.102,AS8075 Microsoft Corporation,US,,
-134.170.58.103,AS8075 Microsoft Corporation,US,,
-134.170.58.104,AS8075 Microsoft Corporation,US,,
-134.170.58.105,AS8075 Microsoft Corporation,US,,
-134.170.58.106,AS8075 Microsoft Corporation,US,,
-134.170.58.107,AS8075 Microsoft Corporation,US,,
-134.170.58.108,AS8075 Microsoft Corporation,US,,
-134.170.58.109,AS8075 Microsoft Corporation,US,,
-134.170.58.110,AS8075 Microsoft Corporation,US,,
-134.170.58.111,AS8075 Microsoft Corporation,US,,
-134.170.58.112,AS8075 Microsoft Corporation,US,,
-134.170.58.113,AS8075 Microsoft Corporation,US,,
-134.170.58.114,AS8075 Microsoft Corporation,US,,
-134.170.58.115,AS8075 Microsoft Corporation,US,,
-134.170.58.116,AS8075 Microsoft Corporation,US,,
-134.170.58.117,AS8075 Microsoft Corporation,US,,
-134.170.58.118,AS8075 Microsoft Corporation,US,2017-11-23,fe2.update.microsoft.com
+134.170.58.1,Microsoft Corporation,United States,,
+134.170.58.2,Microsoft Corporation,United States,,
+134.170.58.3,Microsoft Corporation,United States,,
+134.170.58.4,Microsoft Corporation,United States,,
+134.170.58.5,Microsoft Corporation,United States,,
+134.170.58.6,Microsoft Corporation,United States,,
+134.170.58.7,Microsoft Corporation,United States,,
+134.170.58.8,Microsoft Corporation,United States,,
+134.170.58.9,Microsoft Corporation,United States,,
+134.170.58.10,Microsoft Corporation,United States,,
+134.170.58.11,Microsoft Corporation,United States,,
+134.170.58.12,Microsoft Corporation,United States,,
+134.170.58.13,Microsoft Corporation,United States,,
+134.170.58.14,Microsoft Corporation,United States,,
+134.170.58.15,Microsoft Corporation,United States,,
+134.170.58.16,Microsoft Corporation,United States,,
+134.170.58.17,Microsoft Corporation,United States,,
+134.170.58.18,Microsoft Corporation,United States,,
+134.170.58.19,Microsoft Corporation,United States,,
+134.170.58.20,Microsoft Corporation,United States,,
+134.170.58.21,Microsoft Corporation,United States,,
+134.170.58.22,Microsoft Corporation,United States,,
+134.170.58.23,Microsoft Corporation,United States,,
+134.170.58.24,Microsoft Corporation,United States,,
+134.170.58.25,Microsoft Corporation,United States,,
+134.170.58.26,Microsoft Corporation,United States,,
+134.170.58.27,Microsoft Corporation,United States,,
+134.170.58.28,Microsoft Corporation,United States,,
+134.170.58.29,Microsoft Corporation,United States,,
+134.170.58.30,Microsoft Corporation,United States,,
+134.170.58.31,Microsoft Corporation,United States,,
+134.170.58.32,Microsoft Corporation,United States,,
+134.170.58.33,Microsoft Corporation,United States,,
+134.170.58.34,Microsoft Corporation,United States,,
+134.170.58.35,Microsoft Corporation,United States,,
+134.170.58.36,Microsoft Corporation,United States,,
+134.170.58.37,Microsoft Corporation,United States,,
+134.170.58.38,Microsoft Corporation,United States,,
+134.170.58.39,Microsoft Corporation,United States,,
+134.170.58.40,Microsoft Corporation,United States,,
+134.170.58.41,Microsoft Corporation,United States,,
+134.170.58.42,Microsoft Corporation,United States,,
+134.170.58.43,Microsoft Corporation,United States,,
+134.170.58.44,Microsoft Corporation,United States,,
+134.170.58.45,Microsoft Corporation,United States,,
+134.170.58.46,Microsoft Corporation,United States,,
+134.170.58.47,Microsoft Corporation,United States,,
+134.170.58.48,Microsoft Corporation,United States,,
+134.170.58.49,Microsoft Corporation,United States,,
+134.170.58.50,Microsoft Corporation,United States,,
+134.170.58.51,Microsoft Corporation,United States,,
+134.170.58.52,Microsoft Corporation,United States,,
+134.170.58.53,Microsoft Corporation,United States,,
+134.170.58.54,Microsoft Corporation,United States,,
+134.170.58.55,Microsoft Corporation,United States,,
+134.170.58.56,Microsoft Corporation,United States,,
+134.170.58.57,Microsoft Corporation,United States,,
+134.170.58.58,Microsoft Corporation,United States,,
+134.170.58.59,Microsoft Corporation,United States,,
+134.170.58.60,Microsoft Corporation,United States,,
+134.170.58.61,Microsoft Corporation,United States,,
+134.170.58.62,Microsoft Corporation,United States,,
+134.170.58.63,Microsoft Corporation,United States,,
+134.170.58.64,Microsoft Corporation,United States,,
+134.170.58.65,Microsoft Corporation,United States,,
+134.170.58.66,Microsoft Corporation,United States,,
+134.170.58.67,Microsoft Corporation,United States,,
+134.170.58.68,Microsoft Corporation,United States,,
+134.170.58.69,Microsoft Corporation,United States,,
+134.170.58.70,Microsoft Corporation,United States,,
+134.170.58.71,Microsoft Corporation,United States,,
+134.170.58.72,Microsoft Corporation,United States,,
+134.170.58.73,Microsoft Corporation,United States,,
+134.170.58.74,Microsoft Corporation,United States,,
+134.170.58.75,Microsoft Corporation,United States,,
+134.170.58.76,Microsoft Corporation,United States,,
+134.170.58.77,Microsoft Corporation,United States,,
+134.170.58.78,Microsoft Corporation,United States,,
+134.170.58.79,Microsoft Corporation,United States,,
+134.170.58.80,Microsoft Corporation,United States,,
+134.170.58.81,Microsoft Corporation,United States,,
+134.170.58.82,Microsoft Corporation,United States,,
+134.170.58.83,Microsoft Corporation,United States,,
+134.170.58.84,Microsoft Corporation,United States,,
+134.170.58.85,Microsoft Corporation,United States,,
+134.170.58.86,Microsoft Corporation,United States,,
+134.170.58.87,Microsoft Corporation,United States,,
+134.170.58.88,Microsoft Corporation,United States,,
+134.170.58.89,Microsoft Corporation,United States,,
+134.170.58.90,Microsoft Corporation,United States,,
+134.170.58.91,Microsoft Corporation,United States,,
+134.170.58.92,Microsoft Corporation,United States,,
+134.170.58.93,Microsoft Corporation,United States,,
+134.170.58.94,Microsoft Corporation,United States,,
+134.170.58.95,Microsoft Corporation,United States,,
+134.170.58.96,Microsoft Corporation,United States,,
+134.170.58.97,Microsoft Corporation,United States,,
+134.170.58.98,Microsoft Corporation,United States,,
+134.170.58.99,Microsoft Corporation,United States,,
+134.170.58.100,Microsoft Corporation,United States,,
+134.170.58.101,Microsoft Corporation,United States,,
+134.170.58.102,Microsoft Corporation,United States,,
+134.170.58.103,Microsoft Corporation,United States,,
+134.170.58.104,Microsoft Corporation,United States,,
+134.170.58.105,Microsoft Corporation,United States,,
+134.170.58.106,Microsoft Corporation,United States,,
+134.170.58.107,Microsoft Corporation,United States,,
+134.170.58.108,Microsoft Corporation,United States,,
+134.170.58.109,Microsoft Corporation,United States,,
+134.170.58.110,Microsoft Corporation,United States,,
+134.170.58.111,Microsoft Corporation,United States,,
+134.170.58.112,Microsoft Corporation,United States,,
+134.170.58.113,Microsoft Corporation,United States,,
+134.170.58.114,Microsoft Corporation,United States,,
+134.170.58.115,Microsoft Corporation,United States,,
+134.170.58.116,Microsoft Corporation,United States,,
+134.170.58.117,Microsoft Corporation,United States,,
+134.170.58.118,Microsoft Corporation,United States,2017-11-23,fe2.update.microsoft.com
 ,,,2017-06-07,fe2.update.microsoft.com.nsatc.net
 ,,,2017-01-06,fe2.update.microsoft.com.akadns.net
 ,,,2016-11-13,fe1.update.microsoft.com
 ,,,2016-11-04,fe1.update.microsoft.com.akadns.net
-134.170.58.119,AS8075 Microsoft Corporation,US,,
-134.170.58.120,AS8075 Microsoft Corporation,US,2014-08-20,windowsupdate.microsoft.com
+134.170.58.119,Microsoft Corporation,United States,,
+134.170.58.120,Microsoft Corporation,United States,2014-08-20,windowsupdate.microsoft.com
 ,,,2014-08-12,www.update.microsoft.com
 ,,,2014-08-11,www.windowsupdate.com
-134.170.58.121,AS8075 Microsoft Corporation,US,2017-11-26,fe2.update.microsoft.com.akadns.net
+134.170.58.121,Microsoft Corporation,United States,2017-11-26,fe2.update.microsoft.com.akadns.net
 ,,,2017-06-20,fe2.update.microsoft.com
 ,,,2017-03-07,fe1.update.microsoft.com.akadns.net
 ,,,2016-08-07,fe2.update.microsoft.com.nsatc.net
 ,,,2015-03-07,fe1.update.microsoft.com
-134.170.58.122,AS8075 Microsoft Corporation,US,,
-134.170.58.123,AS8075 Microsoft Corporation,US,2018-02-24,fe2.update.microsoft.com.nsatc.net
+134.170.58.122,Microsoft Corporation,United States,,
+134.170.58.123,Microsoft Corporation,United States,2018-02-24,fe2.update.microsoft.com.nsatc.net
 ,,,2018-02-12,fe2.update.microsoft.com
 ,,,2017-12-14,fe2.update.microsoft.com.akadns.net
 ,,,2016-07-28,fe1.update.microsoft.com.akadns.net
 ,,,2015-04-27,fe1.update.microsoft.com
-134.170.58.124,AS8075 Microsoft Corporation,US,2014-08-27,windowsupdate.microsoft.com
+134.170.58.124,Microsoft Corporation,United States,2014-08-27,windowsupdate.microsoft.com
 ,,,2014-08-22,www.windowsupdate.com
 ,,,2014-08-17,www.update.microsoft.com.nsatc.net
 ,,,2014-08-13,www.update.microsoft.com
-134.170.58.125,AS8075 Microsoft Corporation,US,2017-10-04,fe2.update.microsoft.com
+134.170.58.125,Microsoft Corporation,United States,2018-03-10,fe2.update.microsoft.com
+,,,2018-03-09,fe2.update.microsoft.com.akadns.net
 ,,,2016-10-18,fe2.update.microsoft.com.nsatc.net
 ,,,2016-02-06,fe1.update.microsoft.com.akadns.net
-,,,2015-12-20,fe2.update.microsoft.com.akadns.net
 ,,,2015-03-07,fe1.update.microsoft.com
-134.170.58.126,AS8075 Microsoft Corporation,US,,
-134.170.58.127,AS8075 Microsoft Corporation,US,,
-134.170.58.128,AS8075 Microsoft Corporation,US,,
-134.170.58.129,AS8075 Microsoft Corporation,US,,
-134.170.58.130,AS8075 Microsoft Corporation,US,,
-134.170.58.131,AS8075 Microsoft Corporation,US,,
-134.170.58.132,AS8075 Microsoft Corporation,US,,
-134.170.58.133,AS8075 Microsoft Corporation,US,,
-134.170.58.134,AS8075 Microsoft Corporation,US,,
-134.170.58.135,AS8075 Microsoft Corporation,US,,
-134.170.58.136,AS8075 Microsoft Corporation,US,,
-134.170.58.137,AS8075 Microsoft Corporation,US,,
-134.170.58.138,AS8075 Microsoft Corporation,US,,
-134.170.58.139,AS8075 Microsoft Corporation,US,,
-134.170.58.140,AS8075 Microsoft Corporation,US,2016-06-22,ak.or.esd.microsoft.com
+134.170.58.126,Microsoft Corporation,United States,,
+134.170.58.127,Microsoft Corporation,United States,,
+134.170.58.128,Microsoft Corporation,United States,,
+134.170.58.129,Microsoft Corporation,United States,,
+134.170.58.130,Microsoft Corporation,United States,,
+134.170.58.131,Microsoft Corporation,United States,,
+134.170.58.132,Microsoft Corporation,United States,,
+134.170.58.133,Microsoft Corporation,United States,,
+134.170.58.134,Microsoft Corporation,United States,,
+134.170.58.135,Microsoft Corporation,United States,,
+134.170.58.136,Microsoft Corporation,United States,,
+134.170.58.137,Microsoft Corporation,United States,,
+134.170.58.138,Microsoft Corporation,United States,,
+134.170.58.139,Microsoft Corporation,United States,,
+134.170.58.140,Microsoft Corporation,United States,2016-06-22,ak.or.esd.microsoft.com
 ,,,2016-06-17,ak.or.ctldl.windowsupdate.nsatc.net
-134.170.58.141,AS8075 Microsoft Corporation,US,,
-134.170.58.142,AS8075 Microsoft Corporation,US,,
-134.170.58.143,AS8075 Microsoft Corporation,US,,
-134.170.58.144,AS8075 Microsoft Corporation,US,,
-134.170.58.145,AS8075 Microsoft Corporation,US,,
-134.170.58.146,AS8075 Microsoft Corporation,US,,
-134.170.58.147,AS8075 Microsoft Corporation,US,,
-134.170.58.148,AS8075 Microsoft Corporation,US,,
-134.170.58.149,AS8075 Microsoft Corporation,US,,
-134.170.58.150,AS8075 Microsoft Corporation,US,,
-134.170.58.151,AS8075 Microsoft Corporation,US,,
-134.170.58.152,AS8075 Microsoft Corporation,US,,
-134.170.58.153,AS8075 Microsoft Corporation,US,,
-134.170.58.154,AS8075 Microsoft Corporation,US,,
-134.170.58.155,AS8075 Microsoft Corporation,US,,
-134.170.58.156,AS8075 Microsoft Corporation,US,,
-134.170.58.157,AS8075 Microsoft Corporation,US,,
-134.170.58.158,AS8075 Microsoft Corporation,US,,
-134.170.58.159,AS8075 Microsoft Corporation,US,,
-134.170.58.160,AS8075 Microsoft Corporation,US,,
-134.170.58.161,AS8075 Microsoft Corporation,US,,
-134.170.58.162,AS8075 Microsoft Corporation,US,,
-134.170.58.163,AS8075 Microsoft Corporation,US,,
-134.170.58.164,AS8075 Microsoft Corporation,US,,
-134.170.58.165,AS8075 Microsoft Corporation,US,,
-134.170.58.166,AS8075 Microsoft Corporation,US,,
-134.170.58.167,AS8075 Microsoft Corporation,US,,
-134.170.58.168,AS8075 Microsoft Corporation,US,,
-134.170.58.169,AS8075 Microsoft Corporation,US,,
-134.170.58.170,AS8075 Microsoft Corporation,US,,
-134.170.58.171,AS8075 Microsoft Corporation,US,,
-134.170.58.172,AS8075 Microsoft Corporation,US,,
-134.170.58.173,AS8075 Microsoft Corporation,US,,
-134.170.58.174,AS8075 Microsoft Corporation,US,,
-134.170.58.175,AS8075 Microsoft Corporation,US,,
-134.170.58.176,AS8075 Microsoft Corporation,US,,
-134.170.58.177,AS8075 Microsoft Corporation,US,,
-134.170.58.178,AS8075 Microsoft Corporation,US,,
-134.170.58.179,AS8075 Microsoft Corporation,US,,
-134.170.58.180,AS8075 Microsoft Corporation,US,,
-134.170.58.181,AS8075 Microsoft Corporation,US,,
-134.170.58.182,AS8075 Microsoft Corporation,US,,
-134.170.58.183,AS8075 Microsoft Corporation,US,,
-134.170.58.184,AS8075 Microsoft Corporation,US,,
-134.170.58.185,AS8075 Microsoft Corporation,US,,
-134.170.58.186,AS8075 Microsoft Corporation,US,,
-134.170.58.187,AS8075 Microsoft Corporation,US,,
-134.170.58.188,AS8075 Microsoft Corporation,US,,
-134.170.58.189,AS8075 Microsoft Corporation,US,2018-02-06,fe2.update.microsoft.com.nsatc.net
-,,,2017-11-13,fe2.update.microsoft.com.akadns.net
+134.170.58.141,Microsoft Corporation,United States,,
+134.170.58.142,Microsoft Corporation,United States,,
+134.170.58.143,Microsoft Corporation,United States,,
+134.170.58.144,Microsoft Corporation,United States,,
+134.170.58.145,Microsoft Corporation,United States,,
+134.170.58.146,Microsoft Corporation,United States,,
+134.170.58.147,Microsoft Corporation,United States,,
+134.170.58.148,Microsoft Corporation,United States,,
+134.170.58.149,Microsoft Corporation,United States,,
+134.170.58.150,Microsoft Corporation,United States,,
+134.170.58.151,Microsoft Corporation,United States,,
+134.170.58.152,Microsoft Corporation,United States,,
+134.170.58.153,Microsoft Corporation,United States,,
+134.170.58.154,Microsoft Corporation,United States,,
+134.170.58.155,Microsoft Corporation,United States,,
+134.170.58.156,Microsoft Corporation,United States,,
+134.170.58.157,Microsoft Corporation,United States,,
+134.170.58.158,Microsoft Corporation,United States,,
+134.170.58.159,Microsoft Corporation,United States,,
+134.170.58.160,Microsoft Corporation,United States,,
+134.170.58.161,Microsoft Corporation,United States,,
+134.170.58.162,Microsoft Corporation,United States,,
+134.170.58.163,Microsoft Corporation,United States,,
+134.170.58.164,Microsoft Corporation,United States,,
+134.170.58.165,Microsoft Corporation,United States,,
+134.170.58.166,Microsoft Corporation,United States,,
+134.170.58.167,Microsoft Corporation,United States,,
+134.170.58.168,Microsoft Corporation,United States,,
+134.170.58.169,Microsoft Corporation,United States,,
+134.170.58.170,Microsoft Corporation,United States,,
+134.170.58.171,Microsoft Corporation,United States,,
+134.170.58.172,Microsoft Corporation,United States,,
+134.170.58.173,Microsoft Corporation,United States,,
+134.170.58.174,Microsoft Corporation,United States,,
+134.170.58.175,Microsoft Corporation,United States,,
+134.170.58.176,Microsoft Corporation,United States,,
+134.170.58.177,Microsoft Corporation,United States,,
+134.170.58.178,Microsoft Corporation,United States,,
+134.170.58.179,Microsoft Corporation,United States,,
+134.170.58.180,Microsoft Corporation,United States,,
+134.170.58.181,Microsoft Corporation,United States,,
+134.170.58.182,Microsoft Corporation,United States,,
+134.170.58.183,Microsoft Corporation,United States,,
+134.170.58.184,Microsoft Corporation,United States,,
+134.170.58.185,Microsoft Corporation,United States,,
+134.170.58.186,Microsoft Corporation,United States,,
+134.170.58.187,Microsoft Corporation,United States,,
+134.170.58.188,Microsoft Corporation,United States,,
+134.170.58.189,Microsoft Corporation,United States,2018-03-17,fe2.update.microsoft.com.akadns.net
+,,,2018-02-06,fe2.update.microsoft.com.nsatc.net
 ,,,2017-09-14,fe2.update.microsoft.com
 ,,,2016-12-17,fe1.update.microsoft.com.akadns.net
 ,,,2015-07-29,fe1.update.microsoft.com
-134.170.58.190,AS8075 Microsoft Corporation,US,2016-09-01,fe2.update.microsoft.com.nsatc.net
+134.170.58.190,Microsoft Corporation,United States,2016-09-01,fe2.update.microsoft.com.nsatc.net
 ,,,2015-04-13,fe2.update.microsoft.com.akadns.net
 ,,,2015-04-09,fe2.update.microsoft.com
-134.170.58.191,AS8075 Microsoft Corporation,US,,
-134.170.58.192,AS8075 Microsoft Corporation,US,,
-134.170.58.193,AS8075 Microsoft Corporation,US,,
-134.170.58.194,AS8075 Microsoft Corporation,US,,
-134.170.58.195,AS8075 Microsoft Corporation,US,,
-134.170.58.196,AS8075 Microsoft Corporation,US,,
-134.170.58.197,AS8075 Microsoft Corporation,US,,
-134.170.58.198,AS8075 Microsoft Corporation,US,,
-134.170.58.199,AS8075 Microsoft Corporation,US,,
-134.170.58.200,AS8075 Microsoft Corporation,US,,
-134.170.58.201,AS8075 Microsoft Corporation,US,,
-134.170.58.202,AS8075 Microsoft Corporation,US,,
-134.170.58.203,AS8075 Microsoft Corporation,US,,
-134.170.58.204,AS8075 Microsoft Corporation,US,,
-134.170.58.205,AS8075 Microsoft Corporation,US,,
-134.170.58.206,AS8075 Microsoft Corporation,US,,
-134.170.58.207,AS8075 Microsoft Corporation,US,,
-134.170.58.208,AS8075 Microsoft Corporation,US,,
-134.170.58.209,AS8075 Microsoft Corporation,US,,
-134.170.58.210,AS8075 Microsoft Corporation,US,,
-134.170.58.211,AS8075 Microsoft Corporation,US,,
-134.170.58.212,AS8075 Microsoft Corporation,US,,
-134.170.58.213,AS8075 Microsoft Corporation,US,,
-134.170.58.214,AS8075 Microsoft Corporation,US,,
-134.170.58.215,AS8075 Microsoft Corporation,US,,
-134.170.58.216,AS8075 Microsoft Corporation,US,,
-134.170.58.217,AS8075 Microsoft Corporation,US,,
-134.170.58.218,AS8075 Microsoft Corporation,US,,
-134.170.58.219,AS8075 Microsoft Corporation,US,,
-134.170.58.220,AS8075 Microsoft Corporation,US,,
-134.170.58.221,AS8075 Microsoft Corporation,US,2018-02-21,www.update.microsoft.com.nsatc.net
-,,,2018-02-15,www.update.microsoft.com
+134.170.58.191,Microsoft Corporation,United States,,
+134.170.58.192,Microsoft Corporation,United States,,
+134.170.58.193,Microsoft Corporation,United States,,
+134.170.58.194,Microsoft Corporation,United States,,
+134.170.58.195,Microsoft Corporation,United States,,
+134.170.58.196,Microsoft Corporation,United States,,
+134.170.58.197,Microsoft Corporation,United States,,
+134.170.58.198,Microsoft Corporation,United States,,
+134.170.58.199,Microsoft Corporation,United States,,
+134.170.58.200,Microsoft Corporation,United States,,
+134.170.58.201,Microsoft Corporation,United States,,
+134.170.58.202,Microsoft Corporation,United States,,
+134.170.58.203,Microsoft Corporation,United States,,
+134.170.58.204,Microsoft Corporation,United States,,
+134.170.58.205,Microsoft Corporation,United States,,
+134.170.58.206,Microsoft Corporation,United States,,
+134.170.58.207,Microsoft Corporation,United States,,
+134.170.58.208,Microsoft Corporation,United States,,
+134.170.58.209,Microsoft Corporation,United States,,
+134.170.58.210,Microsoft Corporation,United States,,
+134.170.58.211,Microsoft Corporation,United States,,
+134.170.58.212,Microsoft Corporation,United States,,
+134.170.58.213,Microsoft Corporation,United States,,
+134.170.58.214,Microsoft Corporation,United States,,
+134.170.58.215,Microsoft Corporation,United States,,
+134.170.58.216,Microsoft Corporation,United States,,
+134.170.58.217,Microsoft Corporation,United States,,
+134.170.58.218,Microsoft Corporation,United States,,
+134.170.58.219,Microsoft Corporation,United States,,
+134.170.58.220,Microsoft Corporation,United States,,
+134.170.58.221,Microsoft Corporation,United States,2018-03-10,www.update.microsoft.com
+,,,2018-02-21,www.update.microsoft.com.nsatc.net
 ,,,2018-01-31,update.microsoft.com
 ,,,2018-01-23,134.170.58.221
 ,,,2018-01-13,update.microsoft.com.nsatc.net
@@ -1303,10 +815,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-10,v4windowsupdate.microsoft.nsatc.net
 ,,,2015-05-05,update.wlndowsupdate.com
 ,,,2015-03-04,v4.windowsupdate.microsoft.com
-134.170.58.222,AS8075 Microsoft Corporation,US,2018-02-16,update.microsoft.com.nsatc.net
+134.170.58.222,Microsoft Corporation,United States,2018-03-06,www.update.microsoft.com
+,,,2018-02-16,update.microsoft.com.nsatc.net
 ,,,2018-02-07,www.update.microsoft.com.nsatc.net
 ,,,2017-12-21,update.microsoft.com
-,,,2017-10-29,www.update.microsoft.com
 ,,,2017-05-12,garfield.cnr.edu
 ,,,2017-04-29,www.update.microsoft.com.
 ,,,2017-04-25,v4windowsupdate.microsoft.nsatc.net
@@ -1317,84 +829,84 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-03-04,v4.windowsupdate.microsoft.com
 ,,,2015-03-01,kocrmicrosoft.com
 ,,,2015-02-06,www.windowsupdate.com
-134.170.58.223,AS8075 Microsoft Corporation,US,,
-134.170.58.224,AS8075 Microsoft Corporation,US,,
-134.170.58.225,AS8075 Microsoft Corporation,US,,
-134.170.58.226,AS8075 Microsoft Corporation,US,,
-134.170.58.227,AS8075 Microsoft Corporation,US,,
-134.170.58.228,AS8075 Microsoft Corporation,US,,
-134.170.58.229,AS8075 Microsoft Corporation,US,,
-134.170.58.230,AS8075 Microsoft Corporation,US,,
-134.170.58.231,AS8075 Microsoft Corporation,US,,
-134.170.58.232,AS8075 Microsoft Corporation,US,,
-134.170.58.233,AS8075 Microsoft Corporation,US,,
-134.170.58.234,AS8075 Microsoft Corporation,US,,
-134.170.58.235,AS8075 Microsoft Corporation,US,,
-134.170.58.236,AS8075 Microsoft Corporation,US,,
-134.170.58.237,AS8075 Microsoft Corporation,US,,
-134.170.58.238,AS8075 Microsoft Corporation,US,,
-134.170.58.239,AS8075 Microsoft Corporation,US,,
-134.170.58.240,AS8075 Microsoft Corporation,US,,
-134.170.58.241,AS8075 Microsoft Corporation,US,,
-134.170.58.242,AS8075 Microsoft Corporation,US,,
-134.170.58.243,AS8075 Microsoft Corporation,US,,
-134.170.58.244,AS8075 Microsoft Corporation,US,,
-134.170.58.245,AS8075 Microsoft Corporation,US,,
-134.170.58.246,AS8075 Microsoft Corporation,US,,
-134.170.58.247,AS8075 Microsoft Corporation,US,,
-134.170.58.248,AS8075 Microsoft Corporation,US,,
-134.170.58.249,AS8075 Microsoft Corporation,US,,
-134.170.58.250,AS8075 Microsoft Corporation,US,,
-134.170.58.251,AS8075 Microsoft Corporation,US,,
-134.170.58.252,AS8075 Microsoft Corporation,US,,
-134.170.58.253,AS8075 Microsoft Corporation,US,,
-134.170.58.254,AS8075 Microsoft Corporation,US,,
-134.170.115.55,,,2017-11-14,sls.update.microsoft.com.nsatc.net
+134.170.58.223,Microsoft Corporation,United States,,
+134.170.58.224,Microsoft Corporation,United States,,
+134.170.58.225,Microsoft Corporation,United States,,
+134.170.58.226,Microsoft Corporation,United States,,
+134.170.58.227,Microsoft Corporation,United States,,
+134.170.58.228,Microsoft Corporation,United States,,
+134.170.58.229,Microsoft Corporation,United States,,
+134.170.58.230,Microsoft Corporation,United States,,
+134.170.58.231,Microsoft Corporation,United States,,
+134.170.58.232,Microsoft Corporation,United States,,
+134.170.58.233,Microsoft Corporation,United States,,
+134.170.58.234,Microsoft Corporation,United States,,
+134.170.58.235,Microsoft Corporation,United States,,
+134.170.58.236,Microsoft Corporation,United States,,
+134.170.58.237,Microsoft Corporation,United States,,
+134.170.58.238,Microsoft Corporation,United States,,
+134.170.58.239,Microsoft Corporation,United States,,
+134.170.58.240,Microsoft Corporation,United States,,
+134.170.58.241,Microsoft Corporation,United States,,
+134.170.58.242,Microsoft Corporation,United States,,
+134.170.58.243,Microsoft Corporation,United States,,
+134.170.58.244,Microsoft Corporation,United States,,
+134.170.58.245,Microsoft Corporation,United States,,
+134.170.58.246,Microsoft Corporation,United States,,
+134.170.58.247,Microsoft Corporation,United States,,
+134.170.58.248,Microsoft Corporation,United States,,
+134.170.58.249,Microsoft Corporation,United States,,
+134.170.58.250,Microsoft Corporation,United States,,
+134.170.58.251,Microsoft Corporation,United States,,
+134.170.58.252,Microsoft Corporation,United States,,
+134.170.58.253,Microsoft Corporation,United States,,
+134.170.58.254,Microsoft Corporation,United States,,
+134.170.115.55,Microsoft Corporation,United States,2017-11-14,sls.update.microsoft.com.nsatc.net
 ,,,2017-09-13,sls.update.microsoft.com
-134.170.115.56,,,2017-08-28,sls.update.microsoft.com
+134.170.115.56,Microsoft Corporation,United States,2017-08-28,sls.update.microsoft.com
 ,,,2017-08-23,sls.update.microsoft.com.nsatc.net
-134.170.115.60,,,2017-08-12,statsfe1.ws.microsoft.com.nsatc.net
+134.170.115.60,Microsoft Corporation,United States,2017-08-12,statsfe1.ws.microsoft.com.nsatc.net
 ,,,2017-07-29,statsfe2-df.ws.microsoft.com.nsatc.net
 ,,,2015-01-13,statsfe2.update.microsoft.com.akadns.net
-134.170.115.62,AS8075 Microsoft Corporation,US,2017-04-12,fe2.update.microsoft.com.nsatc.net
+134.170.115.62,Microsoft Corporation,United States,2017-04-12,fe2.update.microsoft.com.nsatc.net
 ,,,2015-03-16,fe1.update.microsoft.com.akadns.net
 ,,,2014-09-15,fe2.update.microsoft.com.akadns.net
 ,,,2014-09-04,fe2.update.microsoft.com
-134.170.165.248,AS8075 Microsoft Corporation,US,2018-02-22,fe2.update.microsoft.com.akadns.net
-,,,2017-11-13,fe2.update.microsoft.com.nsatc.net
+134.170.165.248,Microsoft Corporation,United States,2018-03-09,fe2.update.microsoft.com.nsatc.net
+,,,2018-02-22,fe2.update.microsoft.com.akadns.net
 ,,,2017-08-24,fe2.update.microsoft.com
 ,,,2017-06-26,fe1.update.microsoft.com.akadns.net
-134.170.165.249,AS8075 Microsoft Corporation,US,2018-01-19,fe2.update.microsoft.com.nsatc.net
+134.170.165.249,Microsoft Corporation,United States,2018-01-19,fe2.update.microsoft.com.nsatc.net
 ,,,2017-08-16,fe1.update.microsoft.com.akadns.net
 ,,,2015-11-20,fe2.update.microsoft.com
 ,,,2015-03-24,fe1.update.microsoft.com
 ,,,2015-02-07,fe2.update.microsoft.com.akadns.net
-134.170.165.251,AS8075 Microsoft Corporation,US,2017-08-03,fe2.update.microsoft.com.akadns.net
+134.170.165.251,Microsoft Corporation,United States,2018-03-17,fe2.update.microsoft.com.nsatc.net
+,,,2017-08-03,fe2.update.microsoft.com.akadns.net
 ,,,2017-06-21,fe1.update.microsoft.com
-,,,2017-06-19,fe2.update.microsoft.com.nsatc.net
 ,,,2016-12-06,fe2.update.microsoft.com
-134.170.165.253,AS8075 Microsoft Corporation,US,2018-02-15,134.170.165.253
+134.170.165.253,Microsoft Corporation,United States,2018-02-15,134.170.165.253
 ,,,2018-01-26,fe2.update.microsoft.com.nsatc.net
 ,,,2017-06-15,fe1.update.microsoft.com.akadns.net
 ,,,2017-06-12,fe2.update.microsoft.com
 ,,,2015-02-07,fe2.update.microsoft.com.akadns.net
-157.55.133.204,,,2017-07-11,sls.update.microsoft.com.nsatc.net
+157.55.133.204,Microsoft Azure,United States,2017-07-11,sls.update.microsoft.com.nsatc.net
 ,,,2017-06-28,sls.update.microsoft.com
 ,,,2014-10-10,sls.update.microsoft.com.akadns.net
 ,,,2013-09-06,catalog.update.microsoft.com
-157.55.240.89,,,2017-10-24,sls.update.microsoft.com
+157.55.240.89,Microsoft Azure,United States,2017-10-24,sls.update.microsoft.com
 ,,,2017-05-31,sls.update.microsoft.com.nsatc.net
-157.55.240.220,,,2017-10-10,sls.update.microsoft.com.nsatc.net
+157.55.240.220,Microsoft Azure,United States,2017-10-10,sls.update.microsoft.com.nsatc.net
 ,,,2017-02-27,sls.update.microsoft.com.akadns.net
 ,,,2016-10-18,sls.update.microsoft.com
 ,,,2014-07-02,microsoft.com
-157.56.77.138,,,2016-06-05,sls.update.microsoft.com
+157.56.77.138,Microsoft Azure,United States,2016-06-05,sls.update.microsoft.com
 ,,,2016-05-28,sls.update.microsoft.com.nsatc.net
-157.56.77.139,,,2016-06-04,sls.update.microsoft.com.nsatc.net
-157.56.77.140,,,2017-10-16,sls.update.microsoft.com.nsatc.net
-157.56.77.141,,,2017-10-06,sls.update.microsoft.com.nsatc.net
+157.56.77.139,Microsoft Azure,United States,2016-06-04,sls.update.microsoft.com.nsatc.net
+157.56.77.140,Microsoft Azure,United States,2017-10-16,sls.update.microsoft.com.nsatc.net
+157.56.77.141,Microsoft Azure,United States,2017-10-06,sls.update.microsoft.com.nsatc.net
 ,,,2016-11-12,sls.update.microsoft.com
-157.56.77.148,,,2018-01-21,157.56.77.148
+157.56.77.148,Microsoft Azure,United States,2018-01-21,157.56.77.148
 ,,,2017-11-08,sls.update.microsoft.com.nsatc.net
 ,,,2016-06-13,sls.update.microsoft.com
 ,,,2014-09-27,www.windowsupdate.com
@@ -1402,20 +914,20 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-09-13,www.update.microsoft.com
 ,,,2014-09-11,kocrmicrosoft.com
 ,,,2014-09-10,windowsupdate.microsoft.com
-157.56.77.149,,,2017-10-21,sls.update.microsoft.com.nsatc.net
+157.56.77.149,Microsoft Azure,United States,2017-10-21,sls.update.microsoft.com.nsatc.net
 ,,,2017-06-24,157.56.77.149
 ,,,2017-05-23,sls.update.microsoft.com
 ,,,2014-09-26,windowsupdate.microsoft.com
 ,,,2014-09-15,www.update.microsoft.com.nsatc.net
 ,,,2014-09-11,www.update.microsoft.com
 ,,,2014-09-10,www.windowsupdate.com
-157.56.96.54,,,2018-01-28,akadns.info
+157.56.96.54,Microsoft Azure,United States,2018-01-28,akadns.info
 ,,,2017-10-27,sls.update.microsoft.com.nsatc.net
 ,,,2017-02-11,sls.update.microsoft.com
-157.56.96.58,,,2017-06-01,sls.update.microsoft.com
+157.56.96.58,Microsoft Azure,United States,2017-06-01,sls.update.microsoft.com
 ,,,2017-04-25,sls.update.microsoft.com.nsatc.net
 ,,,2014-01-16,fe1.update.microsoft.com
-157.56.96.123,AS8075 Microsoft Corporation,US,2018-01-16,fe2.update.microsoft.com.nsatc.net
+157.56.96.123,Microsoft Azure,United States,2018-01-16,fe2.update.microsoft.com.nsatc.net
 ,,,2017-12-22,fe2.update.microsoft.com.akadns.net
 ,,,2017-02-18,fe2.update.microsoft.com
 ,,,2015-03-16,fe1.update.microsoft.com.akadns.net
@@ -1423,590 +935,27 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-08-14,www.update.microsoft.com.nsatc.net
 ,,,2014-06-12,windowsupdate.microsoft.com
 ,,,2014-06-09,www.update.microsoft.com
-191.232.80.53,,,2017-09-27,sls.update.microsoft.com.nsatc.net
+191.232.80.53,Microsoft Azure,United States,2017-09-27,sls.update.microsoft.com.nsatc.net
 ,,,2017-08-18,sls.update.microsoft.com
-191.232.80.58,AS8075 Microsoft Corporation,US,2018-02-26,fe2.update.microsoft.com.akadns.net
-,,,2018-02-20,fe2.update.microsoft.com.nsatc.net
+191.232.80.58,Microsoft Azure,United States,2018-03-21,fe2.update.microsoft.com.nsatc.net
+,,,2018-02-26,fe2.update.microsoft.com.akadns.net
 ,,,2017-08-07,fe1.update.microsoft.com.akadns.net
 ,,,2017-07-31,fe2.update.microsoft.com
-191.232.80.60,AS8075 Microsoft Corporation,US,2018-02-22,fe2.update.microsoft.com
+191.232.80.60,Microsoft Azure,United States,2018-02-22,fe2.update.microsoft.com
 ,,,2017-12-25,fe2.update.microsoft.com.nsatc.net
 ,,,2015-03-26,fe1.update.microsoft.com.akadns.net
 ,,,2014-09-15,fe2.update.microsoft.com.akadns.net
-191.232.80.62,AS8075 Microsoft Corporation,US,2018-02-15,fe2.update.microsoft.com
+191.232.80.62,Microsoft Azure,United States,2018-02-15,fe2.update.microsoft.com
 ,,,2017-08-17,fe2.update.microsoft.com.akadns.net
 ,,,2017-07-22,fe1.update.microsoft.com.akadns.net
 ,,,2017-05-23,fe2.update.microsoft.com.nsatc.net
-191.232.139.1,,,,
-191.232.139.2,AS8075 Microsoft Corporation,IE,2017-10-30,fe3.delivery.dsp.mp.microsoft.com.nsatc.net
-,,,2017-09-06,fe3.delivery.mp.microsoft.com
-191.232.139.3,,,,
-191.232.139.4,,,2015-05-19,onesettings-db5.metron.live.com.nsatc.net
-,,,2015-04-20,settings.data.microsoft.com
-,,,2015-04-16,msnbot-191-232-139-4.search.msn.com
-,,,2015-03-16,settings.data.glbdns2.microsoft.com
-191.232.139.5,,,2015-06-04,vortex-db5.metron.live.com.nsatc.net
-,,,2015-05-07,vortex-win.data.microsoft.com
-,,,2015-03-28,vortex.data.glbdns2.microsoft.com
-191.232.139.6,,,,
-191.232.139.7,,,2016-10-22,db5.licensing.md.mp.microsoft.com.akadns.net
-,,,2016-09-28,licensing-europe.md.mp.microsoft.com.akadns.net
-191.232.139.8,,,,
-191.232.139.9,,,,
-191.232.139.10,,,,
-191.232.139.11,,,2016-08-25,settings-ppe.data.glbdns2.microsoft.com
-,,,2016-08-23,settings-win-ppe.data.microsoft.com
-191.232.139.12,,,,
-191.232.139.13,,,2016-09-24,db5.skype.msnmessenger.msn.com.akadns.net
-,,,2016-09-23,db3-s.gateway.messenger.live.com
-,,,2016-09-22,db5-s.gateway.messenger.live.com
-,,,2016-09-22,db3.skype.msnmessenger.msn.com.akadns.net
-191.232.139.14,,,2016-09-24,db5.collections.md.mp.microsoft.com.akadns.net
-,,,2016-08-26,collections-europe.md.mp.microsoft.com.akadns.net
-,,,2016-07-01,collections-europe-golive.md.mp.microsoft.com.akadns.net
-191.232.139.15,,,2016-09-24,db5.gateway.messenger.live.com
-,,,2016-09-23,db5.gateway.msnmessenger.msn.com.akadns.net
-191.232.139.16,,,,
-191.232.139.17,,,,
-191.232.139.18,,,2015-05-13,has.spserv.microsoft.com
-191.232.139.19,,,2016-09-23,db5-client-s.msnmessenger.msn.com.akadns.net
-,,,2016-09-22,db5-client-s.gateway.messenger.live.com
-,,,2016-09-10,db3-client-s.gateway.messenger.live.com
-191.232.139.20,,,,
-191.232.139.21,,,2017-06-19,msnbot-191-232-139-21.search.msn.com
-,,,2016-10-09,db5sch101100540.gateway.messenger.live.com
-191.232.139.22,,,2016-10-09,db5sch101100541.gateway.messenger.live.com
-191.232.139.23,,,2016-10-14,db5sch101100543.gateway.messenger.live.com
-191.232.139.24,,,2016-10-14,db5sch101100544.gateway.messenger.live.com
-191.232.139.25,,,2016-10-17,db5sch101100626.gateway.messenger.live.com
-191.232.139.26,,,2016-10-15,db5sch101100631.gateway.messenger.live.com
-191.232.139.27,,,2016-10-15,db5sch101100633.gateway.messenger.live.com
-191.232.139.28,,,2016-10-14,db5sch101100635.gateway.messenger.live.com
-191.232.139.29,,,2016-10-14,db5sch101100638.gateway.messenger.live.com
-191.232.139.30,,,2016-10-15,db5sch101100639.gateway.messenger.live.com
-191.232.139.31,,,,
-191.232.139.32,,,,
-191.232.139.33,,,,
-191.232.139.34,,,,
-191.232.139.35,,,,
-191.232.139.36,,,,
-191.232.139.37,,,,
-191.232.139.38,,,,
-191.232.139.39,,,,
-191.232.139.40,,,,
-191.232.139.41,,,,
-191.232.139.42,,,,
-191.232.139.43,,,,
-191.232.139.44,,,,
-191.232.139.45,,,,
-191.232.139.46,,,,
-191.232.139.47,,,,
-191.232.139.48,,,,
-191.232.139.49,,,2018-02-26,db5wns1.wns.windows.com
-,,,2016-10-04,db5.wns.notify.windows.com.akadns.net
-,,,2016-07-19,hk2.wns.windows.com
-,,,2016-04-27,skydrive.wns.windows.com
-,,,2016-03-15,msnbot-191-232-139-49.search.msn.com
-191.232.139.50,,,,
-191.232.139.51,,,2016-07-20,sin.notify.windows.com.akadns.net
-191.232.139.52,,,2016-10-16,db5sch103081913.wns.windows.com
-,,,2016-09-28,db5sch103101314.wns.windows.com
-,,,2016-09-15,db5sch101100833.wns.windows.com
-191.232.139.53,,,2016-10-29,db5sch103101411.wns.windows.com
-,,,2016-10-27,db5sch101100835.wns.windows.com
-,,,2016-10-26,db5sch101100840.wns.windows.com
-191.232.139.54,,,2016-10-30,db5sch101100922.wns.windows.com
-,,,2016-10-25,db5sch103101413.wns.windows.com
-,,,2016-10-23,db5sch103082011.wns.windows.com
-,,,2016-07-15,db6sch102091008.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-54.search.msn.com
-,,,2015-10-30,db5sch101100917.wns.windows.com
-191.232.139.55,,,2016-10-31,db5sch101100925.wns.windows.com
-,,,2016-10-31,db5sch103101512.wns.windows.com
-,,,2016-09-05,db5sch101100926.wns.windows.com
-,,,2016-07-13,db6sch102091009.wns.windows.com
-,,,2016-04-28,db5sch103082108.wns.windows.com
-191.232.139.56,,,2016-10-30,db5sch103101513.wns.windows.com
-,,,2016-10-29,db5sch101100934.wns.windows.com
-,,,2016-10-26,db5sch101100928.wns.windows.com
-,,,2016-10-15,db6sch102091011.wns.windows.com
-191.232.139.57,,,2016-10-25,db5sch101100938.wns.windows.com
-,,,2016-10-25,db5sch103082210.wns.windows.com
-,,,2016-10-19,db5sch101100944.wns.windows.com
-,,,2016-10-15,db5sch103101610.wns.windows.com
-,,,2016-10-14,db6sch102091103.wns.windows.com
-191.232.139.58,,,2016-10-14,db5sch103101611.wns.windows.com
-,,,2016-10-14,db5sch101101022.wns.windows.com
-191.232.139.59,,,2016-10-31,db5sch101101024.wns.windows.com
-,,,2016-10-22,db5sch101101030.wns.windows.com
-,,,2016-04-28,db5sch103101705.wns.windows.com
-191.232.139.60,,,2016-10-31,db5sch103101711.wns.windows.com
-,,,2016-10-28,db5sch101101031.wns.windows.com
-,,,2016-10-26,db5sch103082310.wns.windows.com
-,,,2016-10-12,db5sch101101034.wns.windows.com
-191.232.139.61,,,2017-11-19,msnbot-191-232-139-61.search.msn.com
-,,,2016-10-15,db5sch101101042.wns.windows.com
-,,,2016-10-14,db5sch101101044.wns.windows.com
-,,,2016-08-23,db5sch103101806.wns.windows.com
-,,,2016-08-22,db6sch102091108.wns.windows.com
-,,,2016-06-15,db5sch103082406.wns.windows.com
-191.232.139.62,,,2016-10-26,db5sch101101123.wns.windows.com
-,,,2016-10-22,db5sch101101122.wns.windows.com
-,,,2016-07-08,db6sch102091109.wns.windows.com
-,,,2016-04-27,db5sch103082409.wns.windows.com
-191.232.139.63,,,2016-10-10,db6sch102091110.wns.windows.com
-,,,2015-11-09,db5sch101101128.wns.windows.com
-191.232.139.64,,,2016-10-29,db5sch103082510.wns.windows.com
-,,,2016-09-27,db6sch102091204.wns.windows.com
-,,,2016-09-25,db5sch101101133.wns.windows.com
-,,,2016-04-28,db5sch103101914.wns.windows.com
-,,,2015-12-23,db5sch101101129.wns.windows.com
-191.232.139.65,,,2016-10-10,db5sch101101204.wns.windows.com
-,,,2016-09-11,db5sch101101145.wns.windows.com
-191.232.139.66,,,2016-10-28,db5sch103102010.wns.windows.com
-,,,2016-10-22,db5sch101101220.wns.windows.com
-,,,2016-10-15,db5sch103082611.wns.windows.com
-,,,2016-05-23,db5sch101101209.wns.windows.com
-191.232.139.67,,,2016-10-31,db6sch102091210.wns.windows.com
-,,,2016-10-15,db5sch101101221.wns.windows.com
-,,,2016-04-28,db5sch103102105.wns.windows.com
-,,,2016-04-26,db5sch103082709.wns.windows.com
-,,,2016-03-29,db5sch101101228.wns.windows.com
-,,,2015-11-12,msnbot-191-232-139-67.search.msn.com
-191.232.139.68,,,2016-10-22,db5sch101101231.wns.windows.com
-,,,2016-10-18,db5sch103082712.wns.windows.com
-,,,2016-10-08,db5sch103102112.wns.windows.com
-,,,2016-09-01,db5sch101101234.wns.windows.com
-,,,2016-07-19,db6sch102091216.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-68.search.msn.com
-191.232.139.69,,,2018-02-24,msnbot-191-232-139-69.search.msn.com
-,,,2016-10-31,db5sch103102203.wns.windows.com
-,,,2016-10-25,db5sch101101310.wns.windows.com
-,,,2016-10-17,db6sch102091302.wns.windows.com
-,,,2016-06-01,db5sch101101237.wns.windows.com
-,,,2016-04-28,db5sch103082806.wns.windows.com
-191.232.139.70,,,2016-09-15,db5sch101101324.wns.windows.com
-,,,2016-08-22,db5sch103082809.wns.windows.com
-,,,2016-07-08,db6sch102091305.wns.windows.com
-,,,2016-06-30,db5sch101101317.wns.windows.com
-,,,2016-04-27,db5sch103102209.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-70.search.msn.com
-191.232.139.71,,,2016-10-25,db5sch101101332.wns.windows.com
-,,,2016-10-22,db5sch103102310.wns.windows.com
-,,,2016-08-22,db6sch102091306.wns.windows.com
-,,,2016-07-14,db5sch103090115.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-71.search.msn.com
-,,,2015-09-24,db5sch101101329.wns.windows.com
-191.232.139.72,,,2016-10-14,db5sch103102311.wns.windows.com
-,,,2016-10-14,db5sch103090120.wns.windows.com
-,,,2016-10-13,db5sch101101333.wns.windows.com
-,,,2016-09-22,db5sch101101334.wns.windows.com
-191.232.139.73,,,2016-10-31,db5sch103102404.wns.windows.com
-,,,2016-10-28,db5sch101101401.wns.windows.com
-,,,2016-10-14,db5sch103090210.wns.windows.com
-,,,2016-03-29,db5sch101101338.wns.windows.com
-191.232.139.74,,,2016-10-17,db5sch103102410.wns.windows.com
-,,,2016-09-10,db5sch101101424.wns.windows.com
-,,,2016-06-23,db5sch101101419.wns.windows.com
-191.232.139.75,,,2016-09-07,db6sch102091314.wns.windows.com
-,,,2016-08-10,db5sch103090414.wns.windows.com
-,,,2016-07-07,db5sch101101426.wns.windows.com
-,,,2016-06-23,db5sch103102508.wns.windows.com
-,,,2016-01-13,db5sch101101427.wns.windows.com
-191.232.139.76,,,2016-10-29,db5sch101101441.wns.windows.com
-,,,2016-10-28,db5sch101101430.wns.windows.com
-191.232.139.77,,,2016-10-29,db5sch101101445.wns.windows.com
-,,,2016-10-25,db5sch101101511.wns.windows.com
-,,,2016-10-14,db6sch102091412.wns.windows.com
-,,,2016-10-11,db5sch103090513.wns.windows.com
-191.232.139.78,,,2016-10-29,db5sch101101523.wns.windows.com
-,,,2016-10-17,db6sch102091502.wns.windows.com
-,,,2016-10-16,db5sch103102610.wns.windows.com
-,,,2016-07-13,db5sch101101519.wns.windows.com
-,,,2016-04-28,db5sch103090515.wns.windows.com
-191.232.139.79,,,2016-10-26,db5sch101101531.wns.windows.com
-,,,2016-10-14,db6sch102091503.wns.windows.com
-,,,2016-10-14,db5sch103102710.wns.windows.com
-,,,2015-07-12,msnbot-191-232-139-79.search.msn.com
-191.232.139.80,,,2016-10-25,db5sch101101541.wns.windows.com
-,,,2016-10-15,db5sch103102711.wns.windows.com
-,,,2016-09-07,db5sch103090616.wns.windows.com
-,,,2016-08-11,db5sch101101535.wns.windows.com
-,,,2015-12-24,msnbot-191-232-139-80.search.msn.com
-191.232.139.81,,,2016-10-27,db5sch101101608.wns.windows.com
-,,,2016-10-27,db5sch101101543.wns.windows.com
-,,,2016-07-08,db5sch103102805.wns.windows.com
-,,,2016-04-27,db5sch103090709.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-81.search.msn.com
-191.232.139.82,,,2016-10-29,db5sch101101620.wns.windows.com
-,,,2016-10-25,db5sch103090710.wns.windows.com
-,,,2016-10-15,db5sch103102811.wns.windows.com
-191.232.139.83,,,2016-10-29,db6sch102091511.wns.windows.com
-,,,2016-10-29,db5sch101101629.wns.windows.com
-,,,2016-10-28,db5sch101101631.wns.windows.com
-,,,2016-08-09,db6sch102090104.wns.windows.com
-,,,2016-04-28,db5sch103090806.wns.windows.com
-191.232.139.84,,,2017-05-22,msnbot-191-232-139-84.search.msn.com
-,,,2016-10-14,db6sch102091513.wns.windows.com
-,,,2016-09-23,db5sch101101633.wns.windows.com
-,,,2016-09-22,db5sch103090814.wns.windows.com
-,,,2016-07-08,db6sch102090109.wns.windows.com
-,,,2016-06-19,db5sch101101638.wns.windows.com
-191.232.139.85,,,2016-10-31,db6sch102091602.wns.windows.com
-,,,2016-10-26,db5sch101101711.wns.windows.com
-,,,2016-10-25,db5sch101101640.wns.windows.com
-,,,2016-10-16,db6sch102090112.wns.windows.com
-191.232.139.86,,,2017-11-11,msnbot-191-232-139-86.search.msn.com
-,,,2016-10-23,db5sch101101722.wns.windows.com
-,,,2016-10-19,db5sch101101724.wns.windows.com
-,,,2016-10-14,db6sch102091603.wns.windows.com
-,,,2016-10-10,db6sch102090113.wns.windows.com
-,,,2016-04-26,db5sch103090914.wns.windows.com
-191.232.139.87,,,2016-10-25,db5sch101101740.wns.windows.com
-,,,2016-10-17,db5sch103091011.wns.windows.com
-,,,2016-07-11,db6sch102090115.wns.windows.com
-,,,2016-07-11,db6sch102091604.wns.windows.com
-,,,2015-11-10,db5sch101101739.wns.windows.com
-191.232.139.88,,,2016-10-25,db5sch103091012.wns.windows.com
-,,,2016-10-18,db5sch101101810.wns.windows.com
-,,,2016-07-23,db5sch101101745.wns.windows.com
-191.232.139.89,,,2016-10-31,db5sch103091106.wns.windows.com
-,,,2016-10-28,db5sch101101813.wns.windows.com
-,,,2016-10-25,db5sch101101820.wns.windows.com
-,,,2016-07-08,db6sch102091607.wns.windows.com
-191.232.139.90,,,2016-11-01,db6sch102090203.wns.windows.com
-,,,2016-10-14,db5sch101101826.wns.windows.com
-,,,2016-04-28,db5sch103091108.wns.windows.com
-,,,2016-03-29,db5sch101101828.wns.windows.com
-191.232.139.91,,,2016-07-22,db5sch101101835.wns.windows.com
-,,,2016-01-28,db5sch101101837.wns.windows.com
-191.232.139.92,,,2016-10-29,db5sch103091212.wns.windows.com
-,,,2016-10-20,db5sch101101902.wns.windows.com
-,,,2016-08-16,db5sch101101844.wns.windows.com
-191.232.139.93,,,2016-10-27,db5sch101101910.wns.windows.com
-,,,2016-10-22,db5sch103091311.wns.windows.com
-,,,2016-07-18,db6sch102090209.wns.windows.com
-,,,2016-07-11,msnbot-191-232-139-93.search.msn.com
-,,,2016-02-26,db5sch101101907.wns.windows.com
-191.232.139.94,,,2016-10-31,db6sch102090210.wns.windows.com
-,,,2016-10-25,db5sch101101921.wns.windows.com
-,,,2016-10-19,db5sch103091313.wns.windows.com
-,,,2016-09-11,db5sch101101914.wns.windows.com
-191.232.139.95,,,2016-10-19,db5sch103091411.wns.windows.com
-,,,2016-07-11,db6sch102090211.wns.windows.com
-,,,2016-06-23,db5sch101101929.wns.windows.com
-,,,2015-09-11,msnbot-191-232-139-95.search.msn.com
-,,,2015-09-09,db5sch101101939.wns.windows.com
-191.232.139.96,,,2016-10-31,db6sch102090212.wns.windows.com
-,,,2016-10-22,db5sch101101941.wns.windows.com
-,,,2015-12-16,db5sch101102009.wns.windows.com
-191.232.139.97,,,2016-10-24,db5sch103091510.wns.windows.com
-,,,2016-10-20,db5sch101102017.wns.windows.com
-,,,2016-08-10,db5sch101102015.wns.windows.com
-191.232.139.98,,,2016-10-31,db5sch103091511.wns.windows.com
-,,,2016-10-29,db5sch101102023.wns.windows.com
-,,,2016-07-11,db6sch102090306.wns.windows.com
-191.232.139.99,,,2016-10-31,db5sch101102025.wns.windows.com
-,,,2016-10-28,db5sch101102032.wns.windows.com
-191.232.139.100,,,2016-09-25,db5sch101110105.wns.windows.com
-,,,2016-07-18,db6sch102090309.wns.windows.com
-,,,2016-04-28,db5sch103091617.wns.windows.com
-,,,2015-07-15,db5sch101102033.wns.windows.com
-191.232.139.101,,,2016-10-24,db5sch101110109.wns.windows.com
-,,,2016-10-17,db6sch102090311.wns.windows.com
-,,,2016-10-05,db5sch101110108.wns.windows.com
-,,,2016-06-07,db5sch103091709.wns.windows.com
-,,,2015-09-25,msnbot-191-232-139-101.search.msn.com
-191.232.139.102,,,2016-10-23,db5sch101110123.wns.windows.com
-,,,2016-09-27,db5sch101110114.wns.windows.com
-,,,2016-04-26,db5sch103091715.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-102.search.msn.com
-191.232.139.103,,,2016-10-27,db5sch101110125.wns.windows.com
-,,,2016-10-26,db5sch103091811.wns.windows.com
-,,,2016-10-23,db5sch101110130.wns.windows.com
-191.232.139.104,,,2016-10-26,db5sch101110142.wns.windows.com
-,,,2016-08-17,db5sch101110135.wns.windows.com
-191.232.139.105,,,2018-01-28,msnbot-191-232-139-105.search.msn.com
-,,,2016-10-28,db5sch101110204.wns.windows.com
-,,,2016-09-30,db5sch101110206.wns.windows.com
-,,,2016-07-10,db6sch102090409.wns.windows.com
-,,,2016-04-28,db5sch103091908.wns.windows.com
-191.232.139.106,,,2016-10-31,db6sch102090410.wns.windows.com
-,,,2016-10-15,db5sch103091911.wns.windows.com
-,,,2016-09-27,db5sch101110214.wns.windows.com
-,,,2016-09-16,db5sch101110224.wns.windows.com
-191.232.139.107,,,2016-11-01,db6sch102090412.wns.windows.com
-,,,2016-10-25,db5sch103092010.wns.windows.com
-,,,2016-10-23,db5sch101110230.wns.windows.com
-,,,2016-08-11,db5sch101110225.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-107.search.msn.com
-191.232.139.108,,,2016-10-26,db5sch103092013.wns.windows.com
-,,,2016-10-22,db5sch101110232.wns.windows.com
-,,,2016-08-23,db6sch102090413.wns.windows.com
-,,,2015-08-13,msnbot-191-232-139-108.search.msn.com
-,,,2015-08-06,db5sch101110239.wns.windows.com
-191.232.139.109,,,2016-07-21,db5sch101110245.wns.windows.com
-,,,2016-04-18,db5sch101110309.wns.windows.com
-191.232.139.110,,,2016-10-31,db5sch101110315.wns.windows.com
-,,,2016-10-25,db5sch101110323.wns.windows.com
-,,,2016-07-08,db6sch102090506.wns.windows.com
-,,,2016-06-29,db5sch103092109.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-110.search.msn.com
-191.232.139.111,,,2016-10-18,db6sch102090510.wns.windows.com
-,,,2016-06-26,db5sch101110328.wns.windows.com
-191.232.139.112,,,2016-11-01,db5sch103092210.wns.windows.com
-,,,2016-10-30,db5sch101110341.wns.windows.com
-,,,2016-10-19,db5sch101110331.wns.windows.com
-,,,2016-10-14,db6sch102090512.wns.windows.com
-191.232.139.113,,,2018-01-13,msnbot-191-232-139-113.search.msn.com
-,,,2016-10-31,db6sch102090513.wns.windows.com
-,,,2016-09-28,db5sch101110343.wns.windows.com
-,,,2016-08-03,db5sch101110345.wns.windows.com
-,,,2016-04-28,db5sch103092509.wns.windows.com
-191.232.139.114,,,2016-10-31,db5sch101110403.wns.windows.com
-,,,2016-07-09,db6sch102090514.wns.windows.com
-,,,2016-04-27,db5sch103092608.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-114.search.msn.com
-,,,2015-11-09,db5sch101110408.wns.windows.com
-191.232.139.115,,,2016-10-25,db5sch103092610.wns.windows.com
-,,,2016-10-19,db5sch101110422.wns.windows.com
-,,,2016-07-08,db6sch102090519.wns.windows.com
-,,,2016-06-26,db5sch101110419.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-115.search.msn.com
-191.232.139.116,,,2016-10-26,db5sch103092710.wns.windows.com
-,,,2016-10-25,db6sch102090603.wns.windows.com
-,,,2016-10-05,db5sch101110435.wns.windows.com
-191.232.139.117,,,2016-10-22,db5sch101110441.wns.windows.com
-,,,2016-08-25,db5sch101110438.wns.windows.com
-191.232.139.118,,,2016-10-28,db5sch101110442.wns.windows.com
-,,,2016-10-18,db5sch101110501.wns.windows.com
-191.232.139.119,,,2016-10-23,db5sch101110510.wns.windows.com
-,,,2016-07-12,db5sch101110518.wns.windows.com
-191.232.139.120,,,2016-10-31,db6sch102090613.wns.windows.com
-,,,2016-10-07,db5sch101110528.wns.windows.com
-191.232.139.121,,,2016-10-14,db5sch103100121.wns.windows.com
-,,,2016-10-06,db5sch101110533.wns.windows.com
-,,,2016-09-27,db5sch101110534.wns.windows.com
-,,,2016-07-15,db6sch102090619.wns.windows.com
-191.232.139.122,,,2016-11-01,db5sch103100212.wns.windows.com
-,,,2016-10-25,db5sch101110541.wns.windows.com
-,,,2016-10-14,db6sch102090621.wns.windows.com
-,,,2016-08-31,db5sch101110544.wns.windows.com
-191.232.139.123,,,2016-10-23,db5sch103100221.wns.windows.com
-,,,2016-10-15,db6sch102090703.wns.windows.com
-,,,2016-10-14,db5sch101110621.wns.windows.com
-,,,2016-02-26,msnbot-191-232-139-123.search.msn.com
-,,,2015-09-10,db5sch101110618.wns.windows.com
-191.232.139.124,,,2016-10-28,db5sch101110622.wns.windows.com
-,,,2016-10-18,db5sch101110624.wns.windows.com
-,,,2016-10-15,db5sch103100313.wns.windows.com
-191.232.139.125,,,2016-10-19,db5sch101110626.wns.windows.com
-,,,2016-07-08,db6sch102090708.wns.windows.com
-,,,2016-06-23,db5sch103100314.wns.windows.com
-,,,2015-11-14,db5sch101110627.wns.windows.com
-191.232.139.126,,,2016-10-18,db5sch103100412.wns.windows.com
-,,,2016-09-28,db5sch101110643.wns.windows.com
-,,,2016-09-27,db5sch101110634.wns.windows.com
-191.232.139.127,,,2016-10-31,db5sch101110705.wns.windows.com
-,,,2016-08-23,db6sch102090803.wns.windows.com
-,,,2016-04-28,db5sch103100415.wns.windows.com
-,,,2016-04-25,db5sch101110707.wns.windows.com
-191.232.139.128,,,2016-10-29,db5sch103100510.wns.windows.com
-,,,2016-10-28,db5sch101110713.wns.windows.com
-,,,2016-05-11,db5sch101110717.wns.windows.com
-191.232.139.129,,,2016-10-29,db5sch101110724.wns.windows.com
-,,,2016-10-15,db5sch103100511.wns.windows.com
-,,,2015-11-27,db5sch101110728.wns.windows.com
-191.232.139.130,,,2016-10-15,db5sch103100611.wns.windows.com
-,,,2016-09-16,db5sch101110729.wns.windows.com
-,,,2015-12-23,db5sch101110737.wns.windows.com
-191.232.139.131,,,2016-10-29,db5sch101110740.wns.windows.com
-,,,2016-10-16,db6sch102090810.wns.windows.com
-,,,2016-09-27,db5sch101110744.wns.windows.com
-191.232.139.132,,,2016-10-31,db5sch103100710.wns.windows.com
-,,,2016-10-22,db5sch101110810.wns.windows.com
-,,,2016-10-17,db6sch102090811.wns.windows.com
-,,,2016-08-10,db5sch101110816.wns.windows.com
-191.232.139.133,,,2016-10-28,db5sch101110822.wns.windows.com
-,,,2016-10-27,db5sch103100712.wns.windows.com
-,,,2016-10-19,db5sch101110821.wns.windows.com
-,,,2016-10-16,db6sch102090902.wns.windows.com
-191.232.139.134,,,2016-10-06,db5sch101110828.wns.windows.com
-,,,2016-09-14,db5sch101110825.wns.windows.com
-191.232.139.135,,,2016-10-27,db5sch101110831.wns.windows.com
-,,,2016-10-22,db5sch101110829.wns.windows.com
-,,,2016-04-28,db5sch103101009.wns.windows.com
-191.232.139.136,,,2016-10-29,db5sch101110841.wns.windows.com
-,,,2016-10-16,db5sch103101012.wns.windows.com
-,,,2016-09-12,db5sch101110835.wns.windows.com
-,,,2016-07-18,db6sch102090907.wns.windows.com
-,,,2015-11-17,msnbot-191-232-139-136.search.msn.com
-191.232.139.137,,,2016-10-28,db5sch101110921.wns.windows.com
-191.232.139.138,,,2016-10-22,db5sch101110923.wns.windows.com
-,,,2016-10-20,db5sch103101113.wns.windows.com
-,,,2016-10-09,db6sch102090910.wns.windows.com
-,,,2016-01-18,db5sch101110927.wns.windows.com
-191.232.139.139,,,2016-10-23,DB5SCH101110931.wns.windows.com
-,,,2016-10-15,db6sch102090911.wns.windows.com
-,,,2015-11-15,db5sch101110929.wns.windows.com
-191.232.139.140,,,,
-191.232.139.141,,,2017-11-11,msnbot-191-232-139-141.search.msn.com
-,,,2017-05-27,db5wns1b.wns.windows.com
-,,,2016-08-23,skydrive.wns.windows.com
-,,,2016-07-14,hk2.wns.windows.com
-,,,2016-06-07,emea2.notify.windows.com.akadns.net
-,,,2016-04-29,db5.wns.windows.com
-,,,2016-04-27,db5.wns.notify.windows.com.akadns.net
-,,,2015-12-01,bn2.wns.notify.windows.com.akadns.net
-191.232.139.142,,,,
-191.232.139.143,,,,
-191.232.139.144,,,,
-191.232.139.145,,,,
-191.232.139.146,,,,
-191.232.139.147,,,,
-191.232.139.148,,,,
-191.232.139.149,,,,
-191.232.139.150,,,,
-191.232.139.151,,,,
-191.232.139.152,,,,
-191.232.139.153,,,,
-191.232.139.154,,,,
-191.232.139.155,,,2016-10-26,displaycatalog-europe.md.mp.microsoft.com.akadns.net
-,,,2016-10-03,db5.displaycatalog.md.mp.microsoft.com.akadns.net
-,,,2016-09-13,displaycatalog-europe-golive.md.mp.microsoft.com.akadns.net
-191.232.139.156,,,,
-191.232.139.157,,,,
-191.232.139.158,,,,
-191.232.139.159,,,,
-191.232.139.160,,,,
-191.232.139.161,,,,
-191.232.139.162,,,,
-191.232.139.163,,,,
-191.232.139.164,,,,
-191.232.139.165,,,,
-191.232.139.166,,,,
-191.232.139.167,,,,
-191.232.139.168,,,,
-191.232.139.169,,,,
-191.232.139.170,,,2016-04-25,msnbot-191-232-139-170.search.msn.com
-,,,2015-10-27,tsfe.trafficshaping.dsp.mp.microsoft.com
-,,,2015-09-24,tsfe.tsws.mp.microsoft.com.nsatc.net
-191.232.139.171,,,,
-191.232.139.172,,,,
-191.232.139.173,,,,
-191.232.139.174,,,2016-10-26,db5sch101100122.wns.windows.com
-,,,2016-10-17,db5sch103101212.wns.windows.com
-,,,2016-10-14,db6sch102091003.wns.windows.com
-,,,2016-07-08,db5sch103081814.wns.windows.com
-,,,2015-10-05,db5sch101100127.wns.windows.com
-191.232.139.175,,,2016-10-25,db5sch103081910.wns.windows.com
-,,,2016-07-14,db6sch102091004.wns.windows.com
-,,,2016-05-22,db5sch101100437.wns.windows.com
-,,,2016-04-25,db5sch103101305.wns.windows.com
-,,,2016-02-01,DB5SCH101100128.wns.windows.com
-191.232.139.176,,,,
-191.232.139.177,,,,
-191.232.139.178,,,,
-191.232.139.179,,,,
-191.232.139.180,,,,
-191.232.139.181,,,2016-07-10,purchase-europe.md.mp.microsoft.com.akadns.net
-191.232.139.182,,,,
-191.232.139.183,,,,
-191.232.139.184,,,,
-191.232.139.185,,,,
-191.232.139.186,,,,
-191.232.139.187,,,,
-191.232.139.188,,,,
-191.232.139.189,,,,
-191.232.139.190,,,,
-191.232.139.191,,,,
-191.232.139.192,,,,
-191.232.139.193,,,,
-191.232.139.194,,,,
-191.232.139.195,,,,
-191.232.139.196,,,,
-191.232.139.197,,,,
-191.232.139.198,,,,
-191.232.139.199,,,,
-191.232.139.200,,,,
-191.232.139.201,,,,
-191.232.139.202,,,,
-191.232.139.203,,,,
-191.232.139.204,,,,
-191.232.139.205,,,,
-191.232.139.206,,,,
-191.232.139.207,,,,
-191.232.139.208,,,,
-191.232.139.209,,,,
-191.232.139.210,,,2016-09-18,array401-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-06-18,geo-prod.do.dsp.mp.microsoft.com
-,,,2016-04-17,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-03-16,array401-prod.do.dsp.mp.microsoft.com
-191.232.139.211,,,2016-09-12,geo-prod.do.dsp.mp.microsoft.com
-,,,2016-09-11,array402-prod.do.dsp.mp.microsoft.com
-,,,2016-08-24,array402-prod.dodsp.mp.microsoft.com.nsatc.net
-191.232.139.212,,,2016-09-15,array403-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-09-11,array403-prod.do.dsp.mp.microsoft.com
-,,,2016-06-03,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-04-22,geo-prod.do.dsp.mp.microsoft.com
-191.232.139.213,,,2016-09-19,array404-prod.do.dsp.mp.microsoft.com
-,,,2016-09-15,array404-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-09-04,geo-prod.do.dsp.mp.microsoft.com
-191.232.139.214,,,2016-09-11,array405-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-07-23,geo-prod.do.dsp.mp.microsoft.com
-,,,2016-03-16,array405-prod.do.dsp.mp.microsoft.com
-191.232.139.215,,,2016-09-16,array406-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-08-19,geo-prod.do.dsp.mp.microsoft.com
-,,,2016-03-16,array406-prod.do.dsp.mp.microsoft.com
-,,,2016-03-03,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-191.232.139.216,,,2016-09-16,array407-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-08-10,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-04-08,geo-prod.do.dsp.mp.microsoft.com
-,,,2016-03-25,array407-prod.do.dsp.mp.microsoft.com
-191.232.139.217,,,2016-09-11,array408-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-09-05,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2016-07-24,geo-prod.do.dsp.mp.microsoft.com
-191.232.139.218,,,,
-191.232.139.219,,,,
-191.232.139.220,,,,
-191.232.139.221,,,,
-191.232.139.222,,,,
-191.232.139.223,,,,
-191.232.139.224,,,,
-191.232.139.225,,,2017-09-19,ratingsedgefd.dsx.mp.microsoft.com
-191.232.139.226,,,,
-191.232.139.227,,,,
-191.232.139.228,,,,
-191.232.139.229,,,,
-191.232.139.230,,,,
-191.232.139.231,,,,
-191.232.139.232,,,,
-191.232.139.233,,,,
-191.232.139.234,,,,
-191.232.139.235,,,,
-191.232.139.236,,,,
-191.232.139.237,,,,
-191.232.139.238,,,,
-191.232.139.239,,,,
-191.232.139.240,,,,
-191.232.139.241,,,,
-191.232.139.242,,,,
-191.232.139.243,,,,
-191.232.139.244,,,,
-191.232.139.245,,,,
-191.232.139.246,,,,
-191.232.139.247,,,,
-191.232.139.248,,,,
-191.232.139.249,,,,
-191.232.139.250,,,,
-191.232.139.251,,,,
-191.232.139.252,,,,
-191.232.139.253,AS8075 Microsoft Corporation,IE,2016-08-11,db5.settings.data.microsoft.com.akadns.net
+191.232.139.182,Microsoft bingbot,Ireland,,
+191.232.139.253,Microsoft bingbot,Ireland,2016-08-11,db5.settings.data.microsoft.com.akadns.net
 ,,,2016-03-29,onesettings-db5.metron.live.com.nsatc.net
 ,,,2016-03-20,settings.data.glbdns2.microsoft.com
 ,,,2015-12-02,onesettings-bn2.metron.live.com.nsatc.net
 ,,,2015-06-19,settings-win.data.microsoft.com
-191.232.139.254,AS8075 Microsoft Corporation,IE,2017-04-12,191.232.139.254
+191.232.139.254,Microsoft bingbot,Ireland,2017-04-12,191.232.139.254
 ,,,2016-09-06,db5.vortex.data.microsoft.com.akadns.net
 ,,,2016-07-27,eu.vortex.data.microsoft.com
 ,,,2016-07-27,eu.vortex-win.data.microsoft.com
@@ -2014,27 +963,27 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-10,vortex.data.microsoft.com
 ,,,2015-10-21,web.vortex.data.microsoft.com
 ,,,2015-07-07,vortex-win.data.microsoft.com
-191.234.72.183,AS8075 Microsoft Corporation,US,2018-01-20,fe2.update.microsoft.com
+191.234.72.183,Microsoft Azure,United States,2018-01-20,fe2.update.microsoft.com
 ,,,2018-01-13,fe2.update.microsoft.com.nsatc.net
 ,,,2015-03-16,fe1.update.microsoft.com.akadns.net
 ,,,2014-09-15,fe2.update.microsoft.com.akadns.net
-191.234.72.186,AS8075 Microsoft Corporation,US,2018-01-29,fe2.update.microsoft.com.nsatc.net
+191.234.72.186,Microsoft Azure,United States,2018-03-26,fe2.update.microsoft.com
+,,,2018-03-26,fe2.update.microsoft.com.nsatc.net
 ,,,2018-01-22,fe2.update.microsoft.com.akadns.net
-,,,2017-10-01,fe2.update.microsoft.com
 ,,,2015-03-26,fe1.update.microsoft.com.akadns.net
-191.234.72.188,AS8075 Microsoft Corporation,US,2017-12-16,fe2.update.microsoft.com.nsatc.net
+191.234.72.188,Microsoft Azure,United States,2017-12-16,fe2.update.microsoft.com.nsatc.net
 ,,,2017-09-24,fe2.update.microsoft.com
 ,,,2015-03-16,fe1.update.microsoft.com.akadns.net
 ,,,2014-09-15,fe2.update.microsoft.com.akadns.net
-191.234.72.190,AS8075 Microsoft Corporation,US,2017-12-06,fe2.update.microsoft.com.nsatc.net
+191.234.72.190,Microsoft Azure,United States,2017-12-06,fe2.update.microsoft.com.nsatc.net
 ,,,2017-11-23,fe2.update.microsoft.com.akadns.net
 ,,,2017-11-02,fe2.update.microsoft.com
 ,,,2015-03-16,fe1.update.microsoft.com.akadns.net
-207.46.114.58,AS8075 Microsoft Corporation,US,2017-08-21,fe2.update.microsoft.com.akadns.net
+207.46.114.58,Microsoft Azure,United States,2017-08-21,fe2.update.microsoft.com.akadns.net
 ,,,2017-07-11,fe2.update.microsoft.com
 ,,,2017-06-21,fe1.update.microsoft.com.akadns.net
 ,,,2016-12-25,fe2.update.microsoft.com.nsatc.net
-207.46.114.61,,,2017-07-24,statsfe1.ws.microsoft.com.nsatc.net
+207.46.114.61,Microsoft Azure,United States,2017-07-24,statsfe1.ws.microsoft.com.nsatc.net
 ,,,2017-06-14,statsfe2-df.ws.microsoft.com.nsatc.net
 ,,,2017-03-06,statsfe2-df.ws.microsoft.com
 ,,,2015-06-28,statsfe2.ws.microsoft.com

@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win10 extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 04 Mar 2018 06:01:20 +0100 -->
+<!-- Last-Modified: Tue, 27 Mar 2018 02:01:40 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -21,7 +21,8 @@
 	<item name="win10_extra_40.77.224.145" rule="40.77.224.145" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.77.224.254" rule="40.77.224.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.77.225.248" rule="40.77.225.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_extra_40.77.226.0-40.77.226.255" rule="40.77.226.0-40.77.226.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_40.77.226.249" rule="40.77.226.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_40.77.226.250" rule="40.77.226.250" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.77.230.45" rule="40.77.230.45" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.83.127.51" rule="40.83.127.51" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_40.90.136.1" rule="40.90.136.1" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -49,12 +50,13 @@
 	<item name="win10_extra_52.232.19.76" rule="52.232.19.76" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_52.232.69.150" rule="52.232.69.150" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_64.4.23.0-64.4.23.255" rule="64.4.23.0-64.4.23.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_extra_64.4.54.0-64.4.54.255" rule="64.4.54.0-64.4.54.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_64.4.54.253" rule="64.4.54.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_64.4.54.254" rule="64.4.54.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_65.52.100.11" rule="65.52.100.11" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_65.52.100.93" rule="65.52.100.93" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_extra_65.52.108.0-65.52.108.255" rule="65.52.108.0-65.52.108.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_65.52.108.29" rule="65.52.108.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_65.52.108.59" rule="65.52.108.59" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_65.55.108.23" rule="65.55.108.23" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win10_extra_65.55.163.0-65.55.163.255" rule="65.55.163.0-65.55.163.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_65.55.223.0-65.55.223.255" rule="65.55.223.0-65.55.223.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_65.55.252.43" rule="65.55.252.43" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_104.40.210.32" rule="104.40.210.32" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -70,12 +72,18 @@
 	<item name="win10_extra_134.170.185.70" rule="134.170.185.70" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_134.170.188.248" rule="134.170.188.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_157.55.56.0-157.55.56.255" rule="157.55.56.0-157.55.56.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_157.55.109.7" rule="157.55.109.7" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_157.55.109.224" rule="157.55.109.224" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_157.55.109.226" rule="157.55.109.226" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_157.55.109.228" rule="157.55.109.228" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_157.55.109.230" rule="157.55.109.230" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_157.55.129.21" rule="157.55.129.21" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_157.55.134.136" rule="157.55.134.136" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_157.55.134.138" rule="157.55.134.138" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_157.55.134.140" rule="157.55.134.140" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_157.55.135.128" rule="157.55.135.128" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_168.63.18.79" rule="168.63.18.79" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win10_extra_191.237.208.126" rule="191.237.208.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_191.239.213.197" rule="191.239.213.197" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_204.79.197.0-204.79.197.255" rule="204.79.197.0-204.79.197.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win10_extra_204.152.141.244" rule="204.152.141.244" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

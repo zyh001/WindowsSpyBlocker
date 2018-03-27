@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win81 extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 04 Mar 2018 06:01:20 +0100 -->
+<!-- Last-Modified: Tue, 27 Mar 2018 02:01:40 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -18,18 +18,17 @@
 	<item name="win81_extra_52.178.163.85" rule="52.178.163.85" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_52.232.16.77" rule="52.232.16.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_64.4.23.0-64.4.23.255" rule="64.4.23.0-64.4.23.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win81_extra_64.4.54.22" rule="64.4.54.22" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_64.4.54.253" rule="64.4.54.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_64.4.54.254" rule="64.4.54.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_65.52.108.29" rule="65.52.108.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_65.52.108.59" rule="65.52.108.59" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win81_extra_65.52.108.153" rule="65.52.108.153" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="win81_extra_65.55.163.0-65.55.163.255" rule="65.55.163.0-65.55.163.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_104.45.18.177" rule="104.45.18.177" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_131.253.61.0-131.253.61.255" rule="131.253.61.0-131.253.61.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_137.117.235.16" rule="137.117.235.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_157.55.134.140" rule="157.55.134.140" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_157.55.135.128" rule="157.55.135.128" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_157.55.135.130" rule="157.55.135.130" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win81_extra_191.237.208.126" rule="191.237.208.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_204.79.197.0-204.79.197.255" rule="204.79.197.0-204.79.197.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win81_extra_207.46.194.14" rule="207.46.194.14" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 </root>
