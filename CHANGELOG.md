@@ -1,5 +1,17 @@
 # Changelog
 
+## 4.12.0 (2018/03/27)
+
+* Review Windows 10 lists (Issue #105)
+* Move 40.77.229 to update for Windows 7
+* Move 137.117.235.16, 191.237.208.126 to extra (Windows Defender)
+* Remove 65.55.163 from Windows 8 extra (belongs to update)
+* Refine IPs ranges
+* Add option `useEmbeddedData` in config file to allow to use external data (Issue #75)
+* Add menu to extract embedded data (Issue #75)
+* Firewall test logs are not written if the directory does not exist
+* Change the color of the menus for last items
+
 ## 4.11.0 (2018/03/03)
 
 * Update hosts for Windows 10 extra and spy
