@@ -10,18 +10,25 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-05-19,iceotf-prod-fe-northeurope.cloudapp.net
 51.140.65.84,Microsoft Azure,United Kingdom,2017-10-18,time.windows.com
 ,,,2017-10-18,time.microsoft.akadns.net
+51.140.127.197,Microsoft Azure,United Kingdom,2017-09-30,time.windows.com
+,,,2017-09-29,time.microsoft.akadns.net
 51.141.32.51,Microsoft Azure,United Kingdom,2017-09-06,time.windows.com
 ,,,2017-09-06,time.microsoft.akadns.net
 52.166.110.64,Microsoft Azure,Netherlands,2017-12-04,spynet2.microsoft.com
 ,,,2017-11-30,wdcp.microsoft.com
 52.166.120.77,Microsoft Azure,Netherlands,2017-09-28,time.windows.com
 ,,,2017-09-28,time.microsoft.akadns.net
+52.169.71.150,Microsoft Azure,Ireland,2017-11-25,wdcp.microsoft.com
+,,,2017-11-22,spynet2.microsoft.com
 52.178.161.41,Microsoft Azure,Ireland,2017-10-16,time.windows.com
 ,,,2017-10-16,time.microsoft.akadns.net
 52.178.163.85,Microsoft Azure,Ireland,2017-12-03,spynet2.microsoft.com
 ,,,2017-11-30,wdcp.microsoft.com
 52.232.16.77,Microsoft Azure,Netherlands,2017-11-25,spynet2.microsoft.com
 ,,,2017-11-22,wdcp.microsoft.com
+52.233.199.249,Microsoft Azure,Netherlands,2018-02-28,wdcpeurope.microsoft.akadns.net
+,,,2017-11-10,spynet2.microsoft.com
+,,,2017-11-09,wdcp.microsoft.com
 64.4.23.1,Microsoft Corporation,United States,,
 64.4.23.2,Microsoft Corporation,United States,,
 64.4.23.3,Microsoft Corporation,United States,,
@@ -43,7 +50,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 64.4.23.19,Microsoft Corporation,United States,,
 64.4.23.20,Microsoft Corporation,United States,,
 64.4.23.21,Microsoft Corporation,United States,,
-64.4.23.22,Microsoft Corporation,United States,,
+64.4.23.22,AS8075 Microsoft Corporation,US,,
 64.4.23.23,Microsoft Corporation,United States,,
 64.4.23.24,Microsoft Corporation,United States,,
 64.4.23.25,Microsoft Corporation,United States,,
@@ -182,34 +189,34 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-09-07,dsn11.d.skype.net
 ,,,2015-02-28,dsn15.skype-dsn.akadns.net
 64.4.23.146,Microsoft Corporation,United States,,
-64.4.23.147,Microsoft Corporation,United States,2017-09-20,dsn12.d.skype.net
+64.4.23.147,AS8075 Microsoft Corporation,US,2017-09-20,dsn12.d.skype.net
 ,,,2017-04-13,dsn11.d.skype.net
-64.4.23.148,Microsoft Corporation,United States,2017-11-18,dsn12.d.skype.net
+64.4.23.148,AS8075 Microsoft Corporation,US,2017-11-18,dsn12.d.skype.net
 ,,,2017-11-03,dsn11.d.skype.net
 ,,,2014-11-28,dsn8.skype-dsn.akadns.net
-64.4.23.149,Microsoft Corporation,United States,2017-10-01,dsn11.d.skype.net
+64.4.23.149,AS8075 Microsoft Corporation,US,2017-10-01,dsn11.d.skype.net
 ,,,2017-09-07,dsn12.d.skype.net
 ,,,2016-11-18,dsn15.skype-dsn.akadns.net
-64.4.23.150,Microsoft Corporation,United States,2017-10-18,dsn11.d.skype.net
+64.4.23.150,AS8075 Microsoft Corporation,US,2017-10-18,dsn11.d.skype.net
 ,,,2017-09-29,dsn12.d.skype.net
 ,,,2017-07-29,64.4.23.150
 ,,,2015-02-28,dsn15.skype-dsn.akadns.net
-64.4.23.151,Microsoft Corporation,United States,2017-09-19,dsn11.d.skype.net
+64.4.23.151,AS8075 Microsoft Corporation,US,2017-09-19,dsn11.d.skype.net
 ,,,2017-09-07,dsn15.skype-dsn.akadns.net
 ,,,2016-10-17,64.4.23.151
 ,,,2016-07-19,dsn12.d.skype.net
-64.4.23.152,Microsoft Corporation,United States,2017-09-27,dsn15.skype-dsn.akadns.net
+64.4.23.152,AS8075 Microsoft Corporation,US,2017-09-27,dsn15.skype-dsn.akadns.net
 ,,,2017-09-22,dsn12.d.skype.net
 ,,,2017-09-06,dsn11.d.skype.net
-64.4.23.153,Microsoft Corporation,United States,2018-02-14,dsn15.skype-dsn.akadns.net
+64.4.23.153,AS8075 Microsoft Corporation,US,2018-02-14,dsn15.skype-dsn.akadns.net
 ,,,2017-09-28,dsn12.d.skype.net
 ,,,2016-10-19,64.4.23.153
-64.4.23.154,Microsoft Corporation,United States,2017-11-06,dsn12.d.skype.net
+64.4.23.154,AS8075 Microsoft Corporation,US,2017-11-06,dsn12.d.skype.net
 ,,,2017-09-29,dsn11.d.skype.net
-64.4.23.155,Microsoft Corporation,United States,2017-10-11,dsn12.d.skype.net
+64.4.23.155,AS8075 Microsoft Corporation,US,2017-10-11,dsn12.d.skype.net
 ,,,2017-09-26,dsn11.d.skype.net
 ,,,2015-03-16,dsn0.skype-dsn.akadns.net
-64.4.23.156,Microsoft Corporation,United States,2017-10-20,dsn9.d.skype.net
+64.4.23.156,AS8075 Microsoft Corporation,US,2017-10-20,dsn9.d.skype.net
 ,,,2017-10-19,dsn8.d.skype.net
 ,,,2017-10-16,dsn5.d.skype.net
 ,,,2017-10-07,dsn11.d.skype.net
@@ -227,14 +234,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-06-24,64.4.23.156
 ,,,2017-05-08,dsn6.d.skype.net
 ,,,2016-11-04,dsn2.skype-dsn.akadns.net
-64.4.23.157,Microsoft Corporation,United States,2017-09-09,dsn12.d.skype.net
+64.4.23.157,AS8075 Microsoft Corporation,US,2017-09-09,dsn12.d.skype.net
 ,,,2017-05-23,dsn11.d.skype.net
-64.4.23.158,Microsoft Corporation,United States,2017-10-03,dsn12.d.skype.net
+64.4.23.158,AS8075 Microsoft Corporation,US,2017-10-03,dsn12.d.skype.net
 ,,,2017-09-07,dsn11.d.skype.net
 ,,,2016-11-18,64.4.23.158
 ,,,2015-12-06,dsn2.d.skype.net
 ,,,2015-02-28,dsn15.skype-dsn.akadns.net
-64.4.23.159,Microsoft Corporation,United States,2018-03-20,dsn15.skype-dsn.akadns.net
+64.4.23.159,AS8075 Microsoft Corporation,US,2018-03-20,dsn15.skype-dsn.akadns.net
 ,,,2018-03-15,dsn11.d.skype.net
 ,,,2017-09-21,dsn12.d.skype.net
 64.4.23.160,Microsoft Corporation,United States,2017-10-18,dsn11.d.skype.net
@@ -304,9 +311,24 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 64.4.23.174,Microsoft Corporation,United States,2017-10-10,dsn12.d.skype.net
 ,,,2017-10-09,dsn11.d.skype.net
 64.4.23.175,Microsoft Corporation,United States,2017-10-01,dsn11.d.skype.net
-64.4.23.176,Microsoft Corporation,United States,2017-10-02,dsn12.d.skype.net
+64.4.23.176,Microsoft Corporation,United States,2017-12-02,dsn1.skype-dsn.akadns.net
+,,,2017-11-25,dsn14.d.skype.net
+,,,2017-11-14,dsn8.d.skype.net
+,,,2017-10-18,dsn4.d.skype.net
+,,,2017-10-10,dsn5.d.skype.net
+,,,2017-10-05,dsn6.d.skype.net
+,,,2017-10-04,dsn7.d.skype.net
+,,,2017-10-02,dsn12.d.skype.net
+,,,2017-09-18,dsn3.d.skype.net
+,,,2017-09-09,dsn1.d.skype.net
+,,,2017-09-08,dsn0.d.skype.net
+,,,2017-09-07,dsn10.d.skype.net
+,,,2017-09-06,dsn13.d.skype.net
 ,,,2017-08-23,dsn11.d.skype.net
+,,,2017-05-30,dsn13.skype-dsn.akadns.net
+,,,2017-05-11,dsn15.d.skype.net
 ,,,2017-01-15,dsn15.skype-dsn.akadns.net
+,,,2015-04-21,dsn9.d.skype.net
 64.4.23.177,Microsoft Corporation,United States,,
 64.4.23.178,Microsoft Corporation,United States,,
 64.4.23.179,Microsoft Corporation,United States,,
@@ -385,28 +407,28 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 64.4.23.252,Microsoft Corporation,United States,,
 64.4.23.253,Microsoft Corporation,United States,,
 64.4.23.254,Microsoft Corporation,United States,,
-64.4.54.253,Microsoft bingbot,United States,2018-03-23,64.4.54.253
-,,,2018-03-23,asimov-win.settings.data.microsoft.com.akadns.net
-,,,2018-03-21,geo.settings.data.microsoft.com.akadns.net
+64.4.54.253,Microsoft Bingbot,United States,2018-03-31,settings.data.microsoft.com
+,,,2018-03-29,geo.settings.data.microsoft.com.akadns.net
+,,,2018-03-27,asimov-win.settings.data.microsoft.com.akadns.net
+,,,2018-03-23,64.4.54.253
 ,,,2018-03-14,settings-win.data.microsoft.com
-,,,2018-03-13,settings.data.microsoft.com
 ,,,2018-02-26,cy2.settings.data.microsoft.com.akadns.net
 ,,,2018-02-25,asimov.settings.data.microsoft.com.akadns.net
 ,,,2017-12-31,hk2.settings.data.microsoft.com.akadns.net
 ,,,2016-04-01,onesettings-cy2.metron.live.com.nsatc.net
 ,,,2015-06-21,settings.data.glbdns2.microsoft.com
-64.4.54.254,Microsoft bingbot,United States,2018-03-26,v10-win.vortex.data.microsoft.com.akadns.net
-,,,2018-03-25,asimov-win.vortex.data.microsoft.com.akadns.net
-,,,2018-03-24,v20.vortex-win.data.microsoft.com
-,,,2018-03-21,web.vortex.data.microsoft.com
-,,,2018-03-21,asimov.vortex.data.microsoft.com.akadns.net
+64.4.54.254,Microsoft Bingbot,United States,2018-04-07,cy2.vortex.data.microsoft.com.akadns.net
+,,,2018-04-06,asimov.vortex.data.microsoft.com.akadns.net
+,,,2018-04-05,geo.vortex.data.microsoft.com.akadns.net
+,,,2018-04-02,web.vortex.data.microsoft.com
+,,,2018-03-30,web.vortex.data.microsoft.com.akadns.net
+,,,2018-03-30,vortex.data.microsoft.com
+,,,2018-03-28,v20.vortex-win.data.microsoft.com
+,,,2018-03-28,asimov-win.vortex.data.microsoft.com.akadns.net
+,,,2018-03-27,vortex-win.data.microsoft.com
+,,,2018-03-26,v10-win.vortex.data.microsoft.com.akadns.net
 ,,,2018-03-20,v10.vortex-win.data.microsoft.com
-,,,2018-03-17,cy2.vortex.data.microsoft.com.akadns.net
-,,,2018-03-14,geo.vortex.data.microsoft.com.akadns.net
-,,,2018-03-14,vortex-win.data.microsoft.com
-,,,2018-03-14,vortex.data.microsoft.com
 ,,,2018-03-08,v20-asimov-win.vortex.data.microsoft.com.akadns.net
-,,,2018-02-26,web.vortex.data.microsoft.com.akadns.net
 ,,,2016-05-18,us.vortex-win.data.microsoft.com
 ,,,2016-04-06,vortex-win.data.metron.live.com.nsatc.net
 ,,,2016-04-01,vortex-cy2.metron.live.com.nsatc.net
@@ -414,11 +436,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-14,web.vortex.data.metron.live.com.nsatc.net
 ,,,2016-03-14,v10.vortex-win.data.metron.live.com.nsatc.net
 ,,,2016-03-10,vortex.data.metron.live.com.nsatc.net
-65.52.98.231,Microsoft Hosting,United States,2018-03-24,activation.sls.microsoft.com.nsatc.net
-,,,2018-03-22,sls.microsoft.com.nsatc.net
-,,,2018-03-14,validation.sls.microsoft.com.nsatc.net
+65.52.98.231,Microsoft Hosting,United States,2018-04-02,activation.sls.microsoft.com.nsatc.net
+,,,2018-04-02,sls.microsoft.com.nsatc.net
+,,,2018-03-27,validation.sls.microsoft.com.nsatc.net
 ,,,2017-01-01,activation.sls.microsoft.com
-65.52.108.154,Microsoft bingbot,United States,2018-03-25,msnbot-65-52-108-154.search.msn.com
+65.52.108.154,Microsoft Bingbot,United States,2018-03-25,msnbot-65-52-108-154.search.msn.com
 ,,,2018-02-01,legacy.watson.data.microsoft.com.akadns.net
 ,,,2017-10-24,watson.microsoft.com
 ,,,2016-09-03,watson.microsoft.com.nsatc.net
@@ -434,7 +456,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-12-12,spynetall.microsoft.akadns.net
 ,,,2014-10-15,spynet2.microsoft.com
 ,,,2014-06-03,spynetfrontend-neu-tip.cloudapp.net
-207.46.194.14,Microsoft bingbot,Ireland,2018-01-25,msnbot-207-46-194-14.search.msn.com
+207.46.194.14,Microsoft Bingbot,Ireland,2018-01-25,msnbot-207-46-194-14.search.msn.com
 ,,,2014-11-09,msn.co.uk
 ,,,2014-10-17,g.msn.co.kr
 ,,,2014-10-15,g.microsoftonline.com
