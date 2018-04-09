@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.12.1 (2018/04/09)
+
+* Update hosts for Windows 10 extra and spy
+* Update IPs for Windows 10 spy
+* Update hosts for Windows 8.1 update
+* Update IPs for Windows 8.1 extra, spy and update
+* Update hosts for Windows 7 update
+* Update IPs for Windows 7 extra, spy and update
+
 ## 4.12.0 (2018/03/27)
 
 * Review Windows 10 lists (Issue #105)
