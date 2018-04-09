@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker win7 extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 27 Mar 2018 02:01:40 +0200 -->
+<!-- Last-Modified: Mon, 09 Apr 2018 18:37:56 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -9,12 +9,15 @@
 	<item name="win7_extra_40.118.103.7" rule="40.118.103.7" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_40.127.142.76" rule="40.127.142.76" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_51.140.65.84" rule="51.140.65.84" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_extra_51.140.127.197" rule="51.140.127.197" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_51.141.32.51" rule="51.141.32.51" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_52.166.110.64" rule="52.166.110.64" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_52.166.120.77" rule="52.166.120.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_extra_52.169.71.150" rule="52.169.71.150" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_52.178.161.41" rule="52.178.161.41" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_52.178.163.85" rule="52.178.163.85" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_52.232.16.77" rule="52.232.16.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="win7_extra_52.233.199.249" rule="52.233.199.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_64.4.23.0-64.4.23.255" rule="64.4.23.0-64.4.23.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_64.4.54.253" rule="64.4.54.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="win7_extra_64.4.54.254" rule="64.4.54.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
