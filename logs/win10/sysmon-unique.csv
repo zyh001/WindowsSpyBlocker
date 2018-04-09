@@ -1,471 +1,209 @@
 DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
-2018-01-21 16:27:30,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,204.79.197.222,443,https,AS8068 Microsoft Corporation,US
-2018-01-21 16:27:32,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,13.107.6.254,443,https,AS8068 Microsoft Corporation,US
-2018-01-21 16:27:32,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,204.79.197.254,443,https,AS8068 Microsoft Corporation,US
-2018-01-21 16:27:32,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,a-0001.a-msedge.net,443,https,,
-2018-01-21 16:27:32,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,13.107.42.254,443,https,AS8068 Microsoft Corporation,US
-2018-01-21 16:27:40,C:\Windows\System32\svchost.exe,tcp,131.253.61.100,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 16:27:43,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,tcp,93.184.221.200,443,https,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-01-21 16:27:43,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,tcp,93.184.220.29,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-01-21 16:27:46,C:\Windows\System32\svchost.exe,tcp,40.77.226.250,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 16:30:08,C:\Windows\System32\MpSigStub.exe,tcp,65.55.252.202,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 16:30:10,C:\Windows\System32\svchost.exe,tcp,13.74.179.117,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 16:30:10,C:\Windows\System32\svchost.exe,tcp,40.77.226.223,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 16:30:10,C:\Windows\System32\svchost.exe,tcp,a104-94-7-74.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-21 16:30:11,C:\Windows\System32\svchost.exe,tcp,68.232.34.240,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-01-21 16:30:15,C:\Windows\System32\wermgr.exe,tcp,65.55.252.202,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 16:31:39,C:\Windows\System32\MRT-KB890830.exe,tcp,52.233.199.249,443,https,AS8075 Microsoft Corporation,NL
-2018-01-21 16:38:02,C:\Windows\System32\svchost.exe,tcp,213-248-116-179.customer.teliacarrier.com,80,http,,
-2018-01-21 16:38:03,C:\Windows\System32\svchost.exe,tcp,a104-93-248-103.deploy.static.akamaitechnologies.com,80,http,,
-2018-01-21 16:38:03,C:\Windows\System32\svchost.exe,tcp,52.138.148.159,80,http,AS8075 Microsoft Corporation,IE
-2018-01-21 16:38:12,C:\Windows\System32\svchost.exe,tcp,191.234.72.186,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 16:38:12,C:\Windows\System32\svchost.exe,tcp,msnbot-191-232-139-2.search.msn.com,443,https,,
-2018-01-21 16:38:14,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a104-93-248-103.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-21 16:38:14,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a23-56-184-31.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-21 16:42:18,C:\Windows\System32\svchost.exe,tcp,40.77.226.219,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 16:42:18,C:\Windows\System32\svchost.exe,tcp,a23-38-74-89.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-21 16:44:53,C:\Windows\System32\svchost.exe,tcp,40.77.226.246,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 16:44:53,C:\Windows\System32\svchost.exe,tcp,db5sch101110626.wns.windows.com,443,https,,
-2018-01-21 16:44:53,C:\Windows\System32\svchost.exe,tcp,131.253.61.98,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 16:44:54,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-90.search.msn.com,443,https,,
-2018-01-21 16:44:57,C:\Windows\System32\svchost.exe,tcp,134.170.165.253,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 16:51:54,C:\Windows\System32\svchost.exe,tcp,40.77.226.248,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 16:51:56,C:\Windows\System32\svchost.exe,tcp,131.253.61.68,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 16:51:56,C:\Windows\System32\svchost.exe,udp,51.141.32.51,123,ntp,AS8075 Microsoft Corporation,GB
-2018-01-21 16:51:57,C:\Windows\System32\svchost.exe,tcp,52.164.191.55,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 16:52:01,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,92.122.200.105,443,https,AS16625 Akamai Technologies. Inc.,DE
-2018-01-21 16:52:20,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,2.20.202.119,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-01-21 17:00:47,C:\Windows\System32\svchost.exe,tcp,a92-122-200-66.deploy.akamaitechnologies.com,80,http,,
-2018-01-21 17:00:48,C:\Windows\System32\svchost.exe,tcp,a92-122-202-48.deploy.akamaitechnologies.com,80,http,,
-2018-01-21 17:00:48,C:\Windows\System32\svchost.exe,tcp,a104-93-254-159.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-21 17:00:49,C:\Windows\System32\svchost.exe,tcp,a23-39-200-194.deploy.static.akamaitechnologies.com,80,http,,
-2018-01-21 17:00:49,C:\Windows\System32\svchost.exe,tcp,a23-39-200-194.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-21 17:00:49,C:\Windows\System32\svchost.exe,tcp,candycrushsoda.king.com,80,http,,
-2018-01-21 17:00:52,C:\Windows\System32\svchost.exe,tcp,52.164.240.59,80,http,AS8075 Microsoft Corporation,IE
-2018-01-21 17:00:53,C:\Windows\System32\backgroundTaskHost.exe,tcp,a-0001.a-msedge.net,443,https,,
-2018-01-21 17:00:55,C:\Windows\System32\backgroundTaskHost.exe,tcp,a92-122-202-88.deploy.akamaitechnologies.com,443,https,,
-2018-01-21 17:00:56,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,13.107.3.128,443,https,AS8068 Microsoft Corporation,US
-2018-01-21 17:00:56,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,13.107.5.88,443,https,AS8068 Microsoft Corporation,US
-2018-01-21 17:00:56,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,40.83.127.51,443,https,AS8075 Microsoft Corporation,HK
-2018-01-21 17:00:56,C:\Windows\System32\backgroundTaskHost.exe,tcp,msnbot-207-46-194-33.search.msn.com,443,https,,
-2018-01-21 17:00:57,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.88.35,443,https,AS8075 Microsoft Corporation,NL
-2018-01-21 17:00:57,C:\Windows\System32\BackgroundTransferHost.exe,tcp,a92-122-181-247.deploy.akamaitechnologies.com,443,https,,
-2018-01-21 17:00:57,C:\Windows\System32\svchost.exe,tcp,52.236.43.202,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 17:00:57,C:\Windows\System32\BackgroundTransferHost.exe,tcp,a23-55-155-27.deploy.static.akamaitechnologies.com,80,http,,
-2018-01-21 17:00:59,C:\Windows\System32\svchost.exe,tcp,52.236.42.239,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 17:01:28,C:\Windows\System32\backgroundTaskHost.exe,tcp,40.77.228.87,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 17:02:01,C:\Windows\System32\svchost.exe,tcp,40.77.229.199,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 17:02:53,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,93.184.221.200,443,https,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-01-21 17:02:53,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,93.184.220.29,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-01-21 17:02:58,C:\Windows\System32\svchost.exe,tcp,23.103.189.157,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 17:03:19,C:\Windows\System32\svchost.exe,tcp,40.77.229.133,443,https,AS8075 Microsoft Corporation,IE
-2018-01-21 17:03:34,C:\Windows\System32\svchost.exe,tcp,a88-221-197-35.deploy.akamaitechnologies.com,443,https,,
-2018-01-21 17:57:51,C:\Windows\System32\backgroundTaskHost.exe,tcp,40.77.232.101,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 19:59:48,C:\Windows\System32\svchost.exe,tcp,131.253.61.80,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 21:02:03,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-207-46-194-14.search.msn.com,443,https,,
-2018-01-21 21:02:03,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-201-12.deploy.akamaitechnologies.com,443,https,,
-2018-01-21 21:04:21,C:\Windows\System32\svchost.exe,tcp,db5sch101101826.wns.windows.com,443,https,,
-2018-01-21 21:04:22,C:\Windows\System32\svchost.exe,tcp,db5sch101101445.wns.windows.com,443,https,,
-2018-01-21 22:13:23,C:\Windows\System32\svchost.exe,tcp,93.184.220.29,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-01-21 23:01:56,C:\Windows\System32\backgroundTaskHost.exe,tcp,40.77.226.96,443,https,AS8075 Microsoft Corporation,HK
-2018-01-21 23:01:58,C:\Windows\System32\svchost.exe,tcp,131.253.61.82,443,https,AS8075 Microsoft Corporation,US
-2018-01-21 23:55:12,C:\Windows\System32\svchost.exe,tcp,db5wns1d.wns.windows.com,443,https,,
-2018-01-21 23:55:12,C:\Windows\System32\svchost.exe,tcp,db5sch101101633.wns.windows.com,443,https,,
-2018-01-22 00:00:43,C:\Windows\System32\w32tm.exe,udp,51.141.32.51,123,ntp,AS8075 Microsoft Corporation,GB
-2018-01-22 01:56:14,C:\Windows\System32\BackgroundTransferHost.exe,tcp,a92-122-200-170.deploy.akamaitechnologies.com,443,https,,
-2018-01-22 08:25:13,C:\Windows\System32\backgroundTaskHost.exe,tcp,204.79.197.229,443,https,AS8068 Microsoft Corporation,US
-2018-01-22 10:40:02,C:\Windows\System32\svchost.exe,tcp,db5sch101100928.wns.windows.com,443,https,,
-2018-01-22 11:01:52,C:\Windows\System32\svchost.exe,tcp,db5sch101102019.wns.windows.com,443,https,,
-2018-01-22 12:11:41,C:\Windows\System32\svchost.exe,tcp,db5sch101110428.wns.windows.com,443,https,,
-2018-01-22 12:44:02,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.229.171.202,443,https,AS8075 Microsoft Corporation,HK
-2018-01-22 12:49:31,C:\Windows\System32\svchost.exe,tcp,db5sch101101426.wns.windows.com,443,https,,
-2018-01-22 15:18:44,C:\Windows\System32\svchost.exe,tcp,131.253.61.70,443,https,AS8075 Microsoft Corporation,US
-2018-01-22 15:18:47,C:\Windows\System32\svchost.exe,tcp,i-bl6p-cor002.api.p001.1drv.com,443,https,,
-2018-01-22 15:18:49,C:\Windows\System32\svchost.exe,tcp,msnbot-64-4-54-18.search.msn.com,443,https,,
-2018-01-22 15:18:50,C:\Windows\System32\svchost.exe,tcp,134.170.58.189,443,https,AS8075 Microsoft Corporation,US
-2018-01-22 15:18:52,C:\Windows\System32\svchost.exe,tcp,40.77.229.141,443,https,AS8075 Microsoft Corporation,IE
-2018-01-22 15:18:52,C:\Windows\System32\svchost.exe,tcp,40.69.223.39,443,https,AS8075 Microsoft Corporation,IE
-2018-01-22 15:18:52,C:\Windows\System32\svchost.exe,tcp,a23-214-128-195.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-22 15:18:53,C:\Windows\System32\svchost.exe,tcp,13.107.4.50,80,http,AS8068 Microsoft Corporation,US
-2018-01-22 16:23:30,C:\Windows\System32\svchost.exe,tcp,msnbot-207-46-194-14.search.msn.com,443,https,,
-2018-01-22 16:23:30,C:\Windows\System32\svchost.exe,tcp,a92-122-201-12.deploy.akamaitechnologies.com,443,https,,
-2018-01-22 16:41:54,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,ocsp.comodoca.com,80,http,,
-2018-01-22 16:41:54,C:\Windows\System32\svchost.exe,tcp,131.253.61.66,443,https,AS8075 Microsoft Corporation,US
-2018-01-22 16:41:55,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.166.110.64,443,https,AS8075 Microsoft Corporation,NL
-2018-01-22 16:51:56,C:\Windows\System32\svchost.exe,tcp,52.229.171.202,443,https,AS8075 Microsoft Corporation,HK
-2018-01-22 16:51:57,C:\Windows\System32\svchost.exe,tcp,134.170.58.118,443,https,AS8075 Microsoft Corporation,US
-2018-01-22 16:51:59,C:\Windows\System32\svchost.exe,tcp,40.69.216.73,443,https,AS8075 Microsoft Corporation,IE
-2018-01-22 16:52:07,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a23-214-145-204.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-22 16:52:07,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a23-2-233-99.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-22 18:01:19,C:\Windows\System32\svchost.exe,tcp,db5sch101110713.wns.windows.com,443,https,,
-2018-01-22 18:41:56,C:\Windows\System32\svchost.exe,tcp,131.253.61.102,443,https,AS8075 Microsoft Corporation,US
-2018-01-22 19:08:11,C:\Windows\System32\svchost.exe,tcp,db5sch101101844.wns.windows.com,443,https,,
-2018-01-22 20:07:59,C:\Windows\System32\svchost.exe,tcp,db5sch101101640.wns.windows.com,443,https,,
-2018-01-22 21:53:36,<unknown process>,tcp,40.77.228.87,443,https,AS8075 Microsoft Corporation,US
-2018-01-23 00:00:24,C:\Windows\System32\svchost.exe,tcp,131.253.61.64,443,https,AS8075 Microsoft Corporation,US
-2018-01-23 00:00:25,<unknown process>,udp,51.141.32.51,123,ntp,AS8075 Microsoft Corporation,GB
-2018-01-23 00:32:00,<unknown process>,tcp,msnbot-207-46-194-33.search.msn.com,443,https,,
-2018-01-23 05:52:00,<unknown process>,tcp,40.77.229.148,443,https,AS8075 Microsoft Corporation,IE
-2018-01-23 08:25:00,C:\Windows\System32\svchost.exe,tcp,131.253.61.86,443,https,AS8075 Microsoft Corporation,US
-2018-01-23 08:57:27,C:\Windows\System32\svchost.exe,tcp,8.248.233.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-01-23 08:57:29,C:\Windows\System32\svchost.exe,tcp,13.68.87.47,443,https,AS8075 Microsoft Corporation,US
-2018-01-23 08:57:30,C:\Windows\System32\svchost.exe,tcp,67.26.27.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-01-23 08:57:30,C:\Windows\System32\svchost.exe,tcp,8.250.155.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-01-23 08:59:48,C:\Windows\System32\svchost.exe,tcp,db5sch101110825.wns.windows.com,443,https,,
-2018-01-23 08:59:49,C:\Windows\System32\svchost.exe,tcp,db5sch101100831.wns.windows.com,443,https,,
-2018-01-23 09:16:37,C:\Windows\System32\svchost.exe,tcp,db5sch101101535.wns.windows.com,443,https,,
-2018-01-23 12:23:04,C:\Windows\System32\svchost.exe,tcp,bn2wns1.wns.windows.com,443,https,,
-2018-01-23 12:23:04,C:\Windows\System32\svchost.exe,tcp,bn3sch020010560.wns.windows.com,443,https,,
-2018-01-23 12:42:57,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-223.search.msn.com,443,https,,
-2018-01-23 13:48:03,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-206.search.msn.com,443,https,,
-2018-01-23 16:52:02,C:\Windows\System32\svchost.exe,tcp,13.68.82.8,443,https,AS8075 Microsoft Corporation,US
-2018-01-23 16:52:11,<unknown process>,tcp,2.20.202.119,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-01-23 16:59:27,C:\Windows\System32\svchost.exe,tcp,hk2wns1.wns.windows.com,443,https,,
-2018-01-23 16:59:28,C:\Windows\System32\svchost.exe,tcp,hk2sch130021646.wns.windows.com,443,https,,
-2018-01-23 17:24:29,<unknown process>,tcp,13.107.5.88,443,https,AS8068 Microsoft Corporation,US
-2018-01-23 17:24:29,<unknown process>,tcp,13.107.3.128,443,https,AS8068 Microsoft Corporation,US
-2018-01-23 17:24:30,<unknown process>,tcp,40.83.127.51,443,https,AS8075 Microsoft Corporation,HK
-2018-01-23 17:24:30,<unknown process>,tcp,52.109.124.18,443,https,AS8075 Microsoft Corporation,SG
-2018-01-23 20:42:07,C:\Windows\System32\svchost.exe,tcp,a23-217-241-239.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-23 21:02:07,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-210-26-18.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-23 23:02:02,<unknown process>,tcp,40.77.226.96,443,https,AS8075 Microsoft Corporation,HK
-2018-01-24 07:57:56,C:\Windows\System32\svchost.exe,tcp,a2-16-153-58.deploy.akamaitechnologies.com,80,http,,
-2018-01-24 09:16:36,C:\Windows\System32\svchost.exe,tcp,8.248.235.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-01-24 09:16:38,C:\Windows\System32\svchost.exe,tcp,40.69.221.239,443,https,AS8075 Microsoft Corporation,IE
-2018-01-24 09:19:17,C:\Windows\System32\svchost.exe,tcp,db5sch101102025.wns.windows.com,443,https,,
-2018-01-24 09:19:18,C:\Windows\System32\svchost.exe,tcp,db5sch101101122.wns.windows.com,443,https,,
-2018-01-24 09:40:06,C:\Windows\System32\svchost.exe,tcp,db5sch101101941.wns.windows.com,443,https,,
-2018-01-24 10:24:33,C:\Windows\System32\svchost.exe,tcp,db5sch101110923.wns.windows.com,443,https,,
-2018-01-24 12:39:24,C:\Windows\System32\svchost.exe,tcp,db5sch101110919.wns.windows.com,443,https,,
-2018-01-24 14:24:15,C:\Windows\System32\svchost.exe,tcp,db5sch101101813.wns.windows.com,443,https,,
-2018-01-24 16:51:56,C:\Windows\System32\svchost.exe,tcp,131.253.61.84,443,https,AS8075 Microsoft Corporation,US
-2018-01-24 16:51:56,C:\Windows\System32\svchost.exe,tcp,65.55.163.222,443,https,AS8075 Microsoft Corporation,US
-2018-01-24 16:51:57,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.232.16.77,443,https,AS8075 Microsoft Corporation,NL
-2018-01-24 16:51:58,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-226.search.msn.com,443,https,,
-2018-01-24 16:52:01,C:\Windows\System32\svchost.exe,tcp,13.78.187.58,443,https,AS8075 Microsoft Corporation,US
-2018-01-24 16:52:02,C:\Windows\System32\svchost.exe,tcp,a104-94-170-242.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-24 16:52:02,C:\Windows\System32\svchost.exe,tcp,93.184.221.240,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-01-24 16:52:11,<unknown process>,tcp,a104-96-17-238.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-24 18:59:56,C:\Windows\System32\svchost.exe,tcp,40.77.229.18,443,https,AS8075 Microsoft Corporation,IE
-2018-01-24 20:53:42,C:\Windows\System32\svchost.exe,tcp,db5sch101101419.wns.windows.com,443,https,,
-2018-01-24 21:02:07,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,213-248-116-124.customer.teliacarrier.com,443,https,,
-2018-01-24 21:52:02,C:\Windows\System32\svchost.exe,tcp,db5sch101110135.wns.windows.com,443,https,,
-2018-01-24 22:42:03,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.96.52.53,443,https,AS8075 Microsoft Corporation,US
-2018-01-24 22:42:04,C:\Windows\System32\svchost.exe,udp,104.45.18.177,123,ntp,AS8075 Microsoft Corporation,NL
-2018-01-24 22:42:12,C:\Windows\System32\svchost.exe,tcp,a104-93-251-84.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-25 00:00:15,<unknown process>,udp,13.79.239.69,123,ntp,AS8075 Microsoft Corporation,IE
-2018-01-25 02:41:50,C:\Windows\System32\svchost.exe,tcp,db5sch101110618.wns.windows.com,443,https,,
-2018-01-25 05:52:38,C:\Windows\System32\svchost.exe,tcp,db5sch101110527.wns.windows.com,443,https,,
-2018-01-25 07:34:51,C:\Windows\System32\svchost.exe,tcp,66.119.144.157,443,https,AS8075 Microsoft Corporation,US
-2018-01-25 07:34:55,C:\Windows\System32\svchost.exe,tcp,13.78.186.254,443,https,AS8075 Microsoft Corporation,US
-2018-01-25 10:33:56,C:\Windows\System32\svchost.exe,tcp,db5sch101110634.wns.windows.com,443,https,,
-2018-01-25 14:14:14,C:\Windows\System32\svchost.exe,tcp,db5sch101101618.wns.windows.com,443,https,,
-2018-01-25 14:21:06,C:\Windows\System32\svchost.exe,tcp,db5sch101110829.wns.windows.com,443,https,,
-2018-01-25 15:06:00,C:\Windows\System32\svchost.exe,tcp,db5sch101101543.wns.windows.com,443,https,,
-2018-01-25 16:51:57,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.169.71.150,443,https,AS8075 Microsoft Corporation,IE
-2018-01-25 16:52:00,C:\Windows\System32\svchost.exe,tcp,40.69.219.197,443,https,AS8075 Microsoft Corporation,IE
-2018-01-25 16:52:09,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a104-96-17-238.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-25 16:52:09,<unknown process>,tcp,a104-73-152-80.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-25 17:08:45,C:\Windows\System32\svchost.exe,tcp,a92-122-203-131.deploy.akamaitechnologies.com,443,https,,
-2018-01-25 17:58:31,C:\Windows\System32\svchost.exe,tcp,hk2wns1b.wns.windows.com,443,https,,
-2018-01-25 17:58:32,C:\Windows\System32\svchost.exe,tcp,hk2sch130020924.wns.windows.com,443,https,,
-2018-01-25 20:40:19,C:\Windows\System32\svchost.exe,tcp,hk2sch130022035.wns.windows.com,443,https,,
-2018-01-25 20:45:22,C:\Windows\System32\svchost.exe,tcp,hk2sch130020726.wns.windows.com,443,https,,
-2018-01-25 21:02:15,C:\Windows\System32\svchost.exe,tcp,213-248-116-124.customer.teliacarrier.com,443,https,,
-2018-01-26 00:30:08,C:\Windows\System32\svchost.exe,tcp,hk2sch130020843.wns.windows.com,443,https,,
-2018-01-26 00:42:01,C:\Windows\System32\svchost.exe,udp,52.178.161.41,123,ntp,AS8075 Microsoft Corporation,IE
-2018-01-26 00:42:10,C:\Windows\System32\svchost.exe,tcp,a23-206-40-141.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-26 02:37:40,C:\Windows\System32\svchost.exe,tcp,hk2sch130021554.wns.windows.com,443,https,,
-2018-01-26 05:29:29,C:\Windows\System32\svchost.exe,tcp,hk2sch130021322.wns.windows.com,443,https,,
-2018-01-26 05:43:59,C:\Windows\System32\svchost.exe,tcp,65.55.163.221,443,https,AS8075 Microsoft Corporation,US
-2018-01-26 05:44:00,C:\Windows\System32\svchost.exe,tcp,8.248.245.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-01-26 05:44:02,C:\Windows\System32\svchost.exe,tcp,52.184.155.206,443,https,AS8075 Microsoft Corporation,US
-2018-01-26 05:44:03,C:\Windows\System32\svchost.exe,tcp,a23-62-202-68.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-26 07:27:57,C:\Windows\System32\svchost.exe,tcp,a173-223-106-19.deploy.static.akamaitechnologies.com,80,http,,
-2018-01-26 10:59:57,C:\Windows\System32\svchost.exe,tcp,hk2sch130020729.wns.windows.com,443,https,,
-2018-01-26 11:00:02,C:\Windows\System32\svchost.exe,tcp,hk2sch130021634.wns.windows.com,443,https,,
-2018-01-26 16:51:57,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.233.199.249,443,https,AS8075 Microsoft Corporation,NL
-2018-01-26 16:51:58,C:\Windows\System32\svchost.exe,tcp,134.170.165.248,443,https,AS8075 Microsoft Corporation,US
-2018-01-26 16:52:02,C:\Windows\System32\svchost.exe,tcp,a88-221-193-59.deploy.akamaitechnologies.com,443,https,,
-2018-01-26 16:52:11,<unknown process>,tcp,a95-101-123-231.deploy.akamaitechnologies.com,443,https,,
-2018-01-26 16:52:11,<unknown process>,tcp,a92-122-86-94.deploy.akamaitechnologies.com,443,https,,
-2018-01-26 17:25:30,<unknown process>,tcp,40.121.213.159,443,https,AS8075 Microsoft Corporation,US
-2018-01-26 17:25:31,<unknown process>,tcp,52.109.88.36,443,https,AS8075 Microsoft Corporation,NL
-2018-01-27 04:02:47,C:\Windows\System32\svchost.exe,tcp,52.229.173.178,443,https,AS8075 Microsoft Corporation,HK
-2018-01-27 11:32:59,C:\Windows\System32\svchost.exe,tcp,hk2sch130021526.wns.windows.com,443,https,,
-2018-01-27 11:33:01,C:\Windows\System32\svchost.exe,tcp,hk2sch130021137.wns.windows.com,443,https,,
-2018-01-27 12:44:59,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.74.179.117,443,https,AS8075 Microsoft Corporation,IE
-2018-01-27 13:37:37,C:\Windows\System32\svchost.exe,tcp,a88-221-144-50.deploy.akamaitechnologies.com,80,http,,
-2018-01-27 16:51:57,C:\Windows\System32\svchost.exe,tcp,134.170.165.251,443,https,AS8075 Microsoft Corporation,US
-2018-01-27 16:52:12,<unknown process>,tcp,a23-214-145-204.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-27 18:02:52,C:\Windows\System32\svchost.exe,tcp,hk2sch130021435.wns.windows.com,443,https,,
-2018-01-28 00:00:34,<unknown process>,udp,52.166.120.77,123,ntp,AS8075 Microsoft Corporation,NL
-2018-01-28 02:27:57,C:\Windows\System32\svchost.exe,tcp,a173-223-106-25.deploy.static.akamaitechnologies.com,80,http,,
-2018-01-28 02:42:01,C:\Windows\System32\svchost.exe,tcp,a23-62-197-99.deploy.static.akamaitechnologies.com,80,http,,
-2018-01-28 06:14:45,C:\Windows\System32\svchost.exe,tcp,hk2sch130020721.wns.windows.com,443,https,,
-2018-01-28 10:22:40,C:\Windows\System32\svchost.exe,tcp,hk2sch130021260.wns.windows.com,443,https,,
-2018-01-28 16:51:56,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a23-62-197-99.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-28 16:51:56,<unknown process>,tcp,a92-123-113-162.deploy.akamaitechnologies.com,443,https,,
-2018-01-28 20:41:20,C:\Windows\System32\svchost.exe,tcp,13.68.88.129,443,https,AS8075 Microsoft Corporation,US
-2018-01-29 06:28:58,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.78.168.230,443,https,AS8075 Microsoft Corporation,US
-2018-01-29 09:43:11,C:\Windows\System32\svchost.exe,tcp,hk2sch130021727.wns.windows.com,443,https,,
-2018-01-29 09:43:14,C:\Windows\System32\svchost.exe,tcp,hk2sch130021829.wns.windows.com,443,https,,
-2018-01-29 12:51:08,C:\Windows\System32\svchost.exe,tcp,hk2sch130021851.wns.windows.com,443,https,,
-2018-01-29 14:25:08,C:\Windows\System32\svchost.exe,tcp,131.253.61.96,443,https,AS8075 Microsoft Corporation,US
-2018-01-29 15:04:57,C:\Windows\System32\svchost.exe,tcp,hk2sch130021360.wns.windows.com,443,https,,
-2018-01-29 16:51:57,C:\Windows\System32\svchost.exe,tcp,134.170.51.247,443,https,AS8075 Microsoft Corporation,US
-2018-01-29 16:52:05,C:\Windows\System32\svchost.exe,tcp,13.78.180.50,443,https,AS8075 Microsoft Corporation,US
-2018-01-29 16:52:18,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,2.23.146.157,443,https,AS1299 Telia Company AB,EU
-2018-01-29 17:24:58,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,23.96.208.208,443,https,AS8075 Microsoft Corporation,US
-2018-01-29 17:24:59,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.120.18,443,https,AS8075 Microsoft Corporation,HK
-2018-01-29 21:28:58,C:\Windows\System32\backgroundTaskHost.exe,tcp,msnbot-207-46-194-40.search.msn.com,443,https,,
-2018-01-29 23:24:26,C:\Windows\System32\svchost.exe,tcp,hk2sch130021432.wns.windows.com,443,https,,
-2018-01-30 04:51:16,C:\Windows\System32\svchost.exe,tcp,2.18.238.32,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-01-30 06:42:42,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.138.148.87,443,https,AS8075 Microsoft Corporation,IE
-2018-01-30 10:07:23,C:\Windows\System32\svchost.exe,tcp,hk2sch130021840.wns.windows.com,443,https,,
-2018-01-30 10:07:25,C:\Windows\System32\svchost.exe,tcp,hk2sch130021035.wns.windows.com,443,https,,
-2018-01-30 12:49:54,C:\Windows\System32\svchost.exe,tcp,hk2sch130021833.wns.windows.com,443,https,,
-2018-01-30 13:22:48,C:\Windows\System32\svchost.exe,tcp,hk2sch130021029.wns.windows.com,443,https,,
-2018-01-30 13:26:34,<unknown process>,tcp,msnbot-207-46-194-40.search.msn.com,443,https,,
-2018-01-30 15:16:38,C:\Windows\System32\svchost.exe,tcp,hk2sch130021518.wns.windows.com,443,https,,
-2018-01-30 16:19:51,C:\Windows\System32\svchost.exe,tcp,134.170.58.123,443,https,AS8075 Microsoft Corporation,US
-2018-01-30 16:19:55,C:\Windows\System32\svchost.exe,tcp,a23-62-195-183.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-30 16:51:57,C:\Windows\System32\svchost.exe,tcp,23.103.189.158,443,https,AS8075 Microsoft Corporation,US
-2018-01-30 16:52:08,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a104-73-152-80.deploy.static.akamaitechnologies.com,443,https,,
-2018-01-30 18:53:17,C:\Windows\System32\svchost.exe,tcp,hk2sch130021929.wns.windows.com,443,https,,
-2018-01-30 19:17:13,C:\Windows\System32\svchost.exe,tcp,hk2sch130021754.wns.windows.com,443,https,,
-2018-01-30 21:02:18,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.238.32,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-01-31 10:42:10,C:\Windows\System32\svchost.exe,udp,51.140.65.84,123,ntp,AS8075 Microsoft Corporation,GB
-2018-01-31 10:42:17,C:\Windows\System32\svchost.exe,tcp,2.18.116.200,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-01-31 15:47:28,C:\Windows\System32\svchost.exe,tcp,40.69.220.46,443,https,AS8075 Microsoft Corporation,IE
-2018-01-31 20:01:42,C:\Windows\System32\backgroundTaskHost.exe,tcp,40.77.230.45,443,https,AS8075 Microsoft Corporation,US
-2018-02-01 03:01:33,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-228.search.msn.com,443,https,,
-2018-02-01 12:35:04,C:\Windows\System32\svchost.exe,tcp,8.253.93.228,80,http,AS3356 Level 3 Parent. LLC,US
-2018-02-01 12:35:08,C:\Windows\System32\svchost.exe,tcp,40.69.216.251,443,https,AS8075 Microsoft Corporation,IE
-2018-02-01 12:42:17,C:\Windows\System32\svchost.exe,tcp,a23-40-2-243.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-01 17:09:00,C:\Windows\System32\svchost.exe,tcp,2.18.232.120,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-01 17:25:09,<unknown process>,tcp,52.232.69.150,443,https,AS8075 Microsoft Corporation,NL
-2018-02-01 17:25:11,<unknown process>,tcp,52.109.88.35,443,https,AS8075 Microsoft Corporation,NL
-2018-02-01 18:09:34,C:\Windows\System32\svchost.exe,tcp,a23-212-226-62.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-01 19:58:41,<unknown process>,tcp,40.77.230.45,443,https,AS8075 Microsoft Corporation,US
-2018-02-02 13:14:20,C:\Windows\System32\svchost.exe,tcp,191.234.72.183,443,https,AS8075 Microsoft Corporation,US
-2018-02-02 13:14:24,C:\Windows\System32\svchost.exe,tcp,52.169.87.42,443,https,AS8075 Microsoft Corporation,IE
-2018-02-02 13:19:11,C:\Windows\System32\svchost.exe,tcp,hk2sch130021153.wns.windows.com,443,https,,
-2018-02-02 13:19:17,C:\Windows\System32\svchost.exe,tcp,hk2sch130021246.wns.windows.com,443,https,,
-2018-02-02 14:12:19,C:\Windows\System32\svchost.exe,tcp,hk2sch130021731.wns.windows.com,443,https,,
-2018-02-02 14:42:11,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.100.122.175,443,https,AS8075 Microsoft Corporation,US
-2018-02-02 14:42:19,C:\Windows\System32\svchost.exe,tcp,13.68.93.109,443,https,AS8075 Microsoft Corporation,US
-2018-02-02 16:52:01,C:\Windows\System32\svchost.exe,tcp,52.229.175.79,443,https,AS8075 Microsoft Corporation,HK
-2018-02-02 16:52:16,<unknown process>,tcp,a23-62-197-99.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-02 19:54:56,C:\Windows\System32\backgroundTaskHost.exe,tcp,111.221.29.46,443,https,AS8075 Microsoft Corporation,HK
-2018-02-03 09:58:15,C:\Windows\System32\svchost.exe,tcp,52.161.15.246,443,https,AS8075 Microsoft Corporation,US
-2018-02-03 09:58:15,C:\Windows\System32\svchost.exe,tcp,a23-37-60-186.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-03 13:04:14,C:\Windows\System32\svchost.exe,tcp,hk2sch130021544.wns.windows.com,443,https,,
-2018-02-03 14:31:08,C:\Windows\System32\svchost.exe,tcp,hk2sch130020940.wns.windows.com,443,https,,
-2018-02-03 14:31:11,C:\Windows\System32\svchost.exe,tcp,hk2sch130021329.wns.windows.com,443,https,,
-2018-02-03 16:42:11,C:\Windows\System32\svchost.exe,udp,52.166.120.77,123,ntp,AS8075 Microsoft Corporation,NL
-2018-02-03 16:51:59,C:\Windows\System32\svchost.exe,tcp,i-bn3p-cor001.api.p001.1drv.com,443,https,,
-2018-02-03 16:52:02,C:\Windows\System32\svchost.exe,tcp,52.229.170.224,443,https,AS8075 Microsoft Corporation,HK
-2018-02-03 22:12:41,C:\Windows\System32\svchost.exe,tcp,hk2sch130020854.wns.windows.com,443,https,,
-2018-02-03 23:50:26,C:\Windows\System32\svchost.exe,tcp,hk2sch130022135.wns.windows.com,443,https,,
-2018-02-04 00:00:36,<unknown process>,udp,52.178.161.41,123,ntp,AS8075 Microsoft Corporation,IE
-2018-02-04 09:40:35,C:\Windows\System32\svchost.exe,tcp,8.248.241.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-02-04 09:40:38,C:\Windows\System32\svchost.exe,tcp,52.169.82.131,443,https,AS8075 Microsoft Corporation,IE
-2018-02-04 12:13:52,C:\Windows\System32\svchost.exe,tcp,hk2sch130020824.wns.windows.com,443,https,,
-2018-02-04 16:52:00,C:\Windows\System32\svchost.exe,tcp,a173-223-11-166.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-04 16:52:21,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a95-101-199-200.deploy.akamaitechnologies.com,443,https,,
-2018-02-04 17:24:53,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.232.69.150,443,https,AS8075 Microsoft Corporation,NL
-2018-02-04 17:24:55,<unknown process>,tcp,52.109.124.20,443,https,AS8075 Microsoft Corporation,SG
-2018-02-04 21:02:30,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a92-122-181-140.deploy.akamaitechnologies.com,443,https,,
-2018-02-04 23:47:57,<unknown process>,tcp,111.221.29.46,443,https,AS8075 Microsoft Corporation,HK
-2018-02-05 04:23:22,C:\Windows\System32\svchost.exe,tcp,8.248.247.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-02-05 04:23:27,C:\Windows\System32\svchost.exe,tcp,a23-223-208-223.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-05 16:51:57,C:\Windows\System32\svchost.exe,tcp,191.232.80.60,443,https,AS8075 Microsoft Corporation,US
-2018-02-05 16:52:01,C:\Windows\System32\svchost.exe,tcp,a23-215-25-85.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-05 16:52:16,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a95-101-123-231.deploy.akamaitechnologies.com,443,https,,
-2018-02-06 00:00:53,<unknown process>,udp,51.140.127.197,123,ntp,AS8075 Microsoft Corporation,GB
-2018-02-06 04:51:00,C:\Windows\System32\svchost.exe,tcp,52.229.172.155,443,https,AS8075 Microsoft Corporation,HK
-2018-02-06 13:18:11,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-224.search.msn.com,443,https,,
-2018-02-06 15:40:48,C:\Windows\System32\svchost.exe,tcp,hk2sch130020961.wns.windows.com,443,https,,
-2018-02-06 15:40:51,C:\Windows\System32\svchost.exe,tcp,hk2sch130021927.wns.windows.com,443,https,,
-2018-02-06 16:42:53,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.178.163.85,443,https,AS8075 Microsoft Corporation,IE
-2018-02-06 16:52:20,<unknown process>,tcp,a23-53-17-94.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-06 17:29:41,C:\Windows\System32\svchost.exe,tcp,hk2sch130021654.wns.windows.com,443,https,,
-2018-02-06 22:42:27,C:\Windows\System32\svchost.exe,tcp,a23-202-142-156.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-07 00:30:07,C:\Windows\System32\svchost.exe,tcp,hk2sch130021723.wns.windows.com,443,https,,
-2018-02-07 02:43:09,C:\Windows\System32\svchost.exe,tcp,a23-223-224-178.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-07 02:56:42,C:\Windows\System32\svchost.exe,tcp,hk2sch130020956.wns.windows.com,443,https,,
-2018-02-07 04:48:00,C:\Windows\System32\svchost.exe,tcp,52.167.222.147,443,https,AS8075 Microsoft Corporation,US
-2018-02-07 08:40:35,C:\Windows\System32\svchost.exe,tcp,hk2sch130021440.wns.windows.com,443,https,,
-2018-02-07 16:51:57,C:\Windows\System32\svchost.exe,tcp,134.170.51.190,443,https,AS8075 Microsoft Corporation,US
-2018-02-07 16:51:59,C:\Windows\System32\svchost.exe,tcp,gap-prime-finance.msn-int.com,443,https,,
-2018-02-07 16:52:01,C:\Windows\System32\svchost.exe,tcp,a23-214-181-88.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-07 16:52:16,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a23-53-17-94.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-07 16:52:16,<unknown process>,tcp,a104-107-255-207.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-07 17:01:09,C:\Windows\System32\svchost.exe,tcp,a104-107-216-152.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-07 20:44:03,C:\Windows\System32\svchost.exe,tcp,hk2sch130021958.wns.windows.com,443,https,,
-2018-02-07 20:44:09,C:\Windows\System32\svchost.exe,tcp,hk2sch130022041.wns.windows.com,443,https,,
-2018-02-07 21:47:09,C:\Windows\System32\svchost.exe,tcp,2.18.237.129,80,http,AS16625 Akamai Technologies. Inc.,EU
-2018-02-07 21:47:09,C:\Windows\System32\svchost.exe,tcp,2.18.238.96,80,http,AS16625 Akamai Technologies. Inc.,EU
-2018-02-07 21:47:09,C:\Windows\System32\svchost.exe,tcp,a23-223-208-129.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-07 21:47:09,C:\Windows\System32\svchost.exe,tcp,a88-221-170-93.deploy.akamaitechnologies.com,80,http,,
-2018-02-07 21:47:09,C:\Windows\System32\svchost.exe,tcp,a88-221-170-93.deploy.akamaitechnologies.com,443,https,,
-2018-02-07 21:47:10,C:\Windows\System32\svchost.exe,tcp,52.178.147.240,80,http,AS8075 Microsoft Corporation,IE
-2018-02-07 21:47:11,C:\Windows\System32\backgroundTaskHost.exe,tcp,2.18.236.24,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-07 21:47:11,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-51-123-27.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-07 21:47:38,C:\Windows\System32\svchost.exe,tcp,40.69.223.198,443,https,AS8075 Microsoft Corporation,IE
-2018-02-08 07:28:02,C:\Windows\System32\svchost.exe,tcp,a104-107-216-160.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-08 16:51:57,C:\Windows\System32\svchost.exe,tcp,191.234.72.188,443,https,AS8075 Microsoft Corporation,US
-2018-02-08 16:52:01,C:\Windows\System32\svchost.exe,tcp,52.229.174.233,443,https,AS8075 Microsoft Corporation,HK
-2018-02-08 16:52:02,C:\Windows\System32\svchost.exe,tcp,69.16.164.32,80,http,AS20446 Highwinds Network Group. Inc.,US
-2018-02-08 17:10:11,C:\Windows\System32\svchost.exe,tcp,2.18.236.5,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-08 20:07:00,C:\Windows\System32\svchost.exe,tcp,157.56.96.123,443,https,AS8075 Microsoft Corporation,US
-2018-02-08 21:02:29,C:\Windows\System32\svchost.exe,tcp,13.107.4.52,80,http,AS8068 Microsoft Corporation,US
-2018-02-08 21:02:39,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-208.search.msn.com,443,https,,
-2018-02-08 21:02:40,C:\Windows\System32\svchost.exe,tcp,65.52.108.191,443,https,AS8075 Microsoft Corporation,US
-2018-02-08 21:06:13,C:\Windows\System32\svchost.exe,tcp,bn3sch020022361.wns.windows.com,443,https,,
-2018-02-08 23:32:04,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-193.search.msn.com,443,https,,
-2018-02-09 02:21:06,C:\Windows\System32\svchost.exe,tcp,a92-122-181-140.deploy.akamaitechnologies.com,443,https,,
-2018-02-09 04:22:41,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-212.search.msn.com,443,https,,
-2018-02-09 16:51:56,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a104-107-255-207.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-09 16:51:57,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,2.18.236.159,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-09 18:44:03,C:\Windows\System32\svchost.exe,tcp,134.170.51.246,443,https,AS8075 Microsoft Corporation,US
-2018-02-09 18:44:04,C:\Windows\System32\svchost.exe,tcp,a95-101-182-162.deploy.akamaitechnologies.com,80,http,,
-2018-02-09 20:28:30,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-197.search.msn.com,443,https,,
-2018-02-10 17:25:33,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,51.141.26.229,443,https,AS8075 Microsoft Corporation,GB
-2018-02-10 17:25:35,<unknown process>,tcp,52.109.76.31,443,https,AS8075 Microsoft Corporation,IE
-2018-02-10 19:31:31,C:\Windows\System32\svchost.exe,tcp,a23-38-6-121.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-10 19:31:36,C:\Windows\System32\svchost.exe,tcp,192.229.233.50,443,https,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-10 19:31:36,C:\Windows\System32\backgroundTaskHost.exe,tcp,93.184.220.29,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-10 19:32:18,C:\Windows\System32\svchost.exe,tcp,191.232.80.62,443,https,AS8075 Microsoft Corporation,US
-2018-02-10 19:32:30,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,91.225.248.129,443,https,AS197612 LinkedIn Corporation,US
-2018-02-11 06:42:23,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.40.211.35,443,https,AS8075 Microsoft Corporation,NL
-2018-02-11 16:51:57,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a23-211-168-101.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 13:43:40,C:\Windows\System32\svchost.exe,tcp,2.19.105.215,80,http,AS16625 Akamai Technologies. Inc.,EU
-2018-02-12 13:43:40,C:\Windows\System32\svchost.exe,tcp,a104-74-74-184.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-12 13:43:40,C:\Windows\System32\svchost.exe,tcp,a104-74-74-184.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 13:44:02,C:\Windows\System32\svchost.exe,tcp,40.69.216.129,443,https,AS8075 Microsoft Corporation,IE
-2018-02-12 13:44:03,C:\Windows\System32\svchost.exe,tcp,8.250.145.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-02-12 13:44:03,C:\Windows\System32\svchost.exe,tcp,67.26.25.254,80,http,AS3356 Level 3 Parent. LLC,US
-2018-02-12 14:06:55,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,13.107.9.254,443,https,AS8068 Microsoft Corporation,US
-2018-02-12 14:08:17,C:\Windows\System32\svchost.exe,tcp,104.47.148.199,443,https,AS8075 Microsoft Corporation,NL
-2018-02-12 14:08:37,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a23-223-224-178.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-12 14:08:37,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,40.117.190.72,443,https,AS8075 Microsoft Corporation,US
-2018-02-12 14:08:37,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,93.184.220.29,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-12 14:08:38,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,93.184.221.200,443,https,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-12 14:08:38,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a96-7-58-231.deploy.akamaitechnologies.com,443,https,,
-2018-02-12 14:08:38,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a23-223-208-232.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 14:08:38,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a104-124-186-236.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 14:08:38,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,blob.bl5prdstr12a.store.core.windows.net,443,https,,
-2018-02-12 14:08:38,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a23-51-123-27.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-12 14:08:39,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe,tcp,blob.bl5prdstr12a.store.core.windows.net,443,https,,
-2018-02-12 14:08:39,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe,tcp,93.184.220.29,80,http,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-12 14:08:40,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,131.253.61.100,443,https,AS8075 Microsoft Corporation,US
-2018-02-12 14:08:40,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,40.77.226.250,443,https,AS8075 Microsoft Corporation,IE
-2018-02-12 14:08:40,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a96-7-178-236.deploy.akamaitechnologies.com,443,https,,
-2018-02-12 14:08:48,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe,tcp,a96-7-178-236.deploy.akamaitechnologies.com,443,https,,
-2018-02-12 14:09:05,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe,tcp,52.164.227.208,443,https,AS8075 Microsoft Corporation,IE
-2018-02-12 14:09:06,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,93.184.221.200,443,https,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-12 14:09:15,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a-0001.a-msedge.net,443,https,,
-2018-02-12 14:09:15,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,i-bl6p-cor002.api.p001.1drv.com,443,https,,
-2018-02-12 14:09:23,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,188.121.36.239,80,http,AS26496 GoDaddy.com. LLC,NL
-2018-02-12 14:09:41,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe,tcp,a-0001.a-msedge.net,443,https,,
-2018-02-12 14:09:42,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdge.exe,tcp,a23-223-224-178.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 14:14:26,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,40.121.213.159,443,https,AS8075 Microsoft Corporation,US
-2018-02-12 14:14:27,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.76.32,443,https,AS8075 Microsoft Corporation,IE
-2018-02-12 14:14:28,C:\Windows\System32\BackgroundTransferHost.exe,tcp,2.18.238.184,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-12 14:14:28,C:\Windows\System32\BackgroundTransferHost.exe,tcp,23.51.123.27,80,http,AS16625 Akamai Technologies. Inc.,NL
-2018-02-12 14:14:52,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.23.79.227,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-12 14:14:52,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.236.159,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-12 14:14:58,C:\Windows\System32\backgroundTaskHost.exe,tcp,13.65.244.143,443,https,AS8075 Microsoft Corporation,US
-2018-02-12 14:15:18,C:\Windows\System32\lsass.exe,tcp,104.107.255.207,80,http,AS16625 Akamai Technologies. Inc.,NL
-2018-02-12 14:15:19,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,185.63.144.1,443,https,AS14413 LinkedIn Corporation,IE
-2018-02-12 14:15:45,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,tcp,a23-223-224-178.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 14:15:46,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,tcp,2.18.236.171,443,https,AS16625 Akamai Technologies. Inc.,EU
-2018-02-12 14:16:10,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-183.search.msn.com,443,https,,
-2018-02-12 14:22:23,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a23-62-197-99.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 14:22:24,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,52.171.136.200,443,https,AS8075 Microsoft Corporation,US
-2018-02-12 14:22:24,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a-0003.dc-msedge.net,443,https,,
-2018-02-12 14:22:24,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,a23-62-194-157.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-12 14:22:25,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,151.139.237.113,443,https,AS54104 netDNA,US
-2018-02-12 14:22:25,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,104.40.210.32,443,https,AS8075 Microsoft Corporation,NL
-2018-02-12 14:22:25,C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\MicrosoftEdgeCP.exe,tcp,68.232.34.41,443,https,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-12 14:22:27,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.232.19.76,443,https,AS8075 Microsoft Corporation,NL
-2018-02-12 14:22:27,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.79.239.82,443,https,AS8075 Microsoft Corporation,IE
-2018-02-12 14:58:53,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,40.77.228.92,443,https,AS8075 Microsoft Corporation,US
-2018-02-12 15:06:30,C:\Windows\System32\svchost.exe,tcp,a23-44-106-181.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-12 15:06:31,C:\Windows\System32\svchost.exe,tcp,a23-44-105-201.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-12 15:06:32,C:\Windows\System32\svchost.exe,tcp,52.138.148.89,80,http,AS8075 Microsoft Corporation,IE
-2018-02-12 15:06:45,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.124.18,443,https,AS8075 Microsoft Corporation,SG
-2018-02-12 15:06:51,C:\Windows\System32\backgroundTaskHost.exe,tcp,13.75.122.216,443,https,AS8075 Microsoft Corporation,HK
-2018-02-12 15:10:44,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-187.search.msn.com,443,https,,
-2018-02-12 20:41:46,C:\Windows\System32\backgroundTaskHost.exe,tcp,52.164.221.179,443,https,AS8075 Microsoft Corporation,IE
-2018-02-13 00:00:26,C:\Windows\System32\w32tm.exe,udp,51.140.127.197,123,ntp,AS8075 Microsoft Corporation,GB
-2018-02-13 03:20:25,C:\Windows\System32\backgroundTaskHost.exe,tcp,13.68.92.143,443,https,AS8075 Microsoft Corporation,US
-2018-02-13 05:51:49,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-230.search.msn.com,443,https,,
-2018-02-13 15:16:07,C:\Windows\System32\svchost.exe,tcp,52.167.222.82,443,https,AS8075 Microsoft Corporation,US
-2018-02-13 15:16:08,C:\Windows\System32\svchost.exe,tcp,https-178-79-232-41.dus.llnw.net,80,http,,
-2018-02-13 15:16:08,C:\Windows\System32\svchost.exe,tcp,https-95-140-228-56.arn1.llnw.net,80,http,,
-2018-02-13 15:16:08,C:\Windows\System32\svchost.exe,tcp,cds1289.lon.llnw.net,80,http,,
-2018-02-13 17:24:47,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.76.30,443,https,AS8075 Microsoft Corporation,IE
-2018-02-14 08:55:07,C:\Windows\System32\svchost.exe,tcp,8.253.93.248,80,http,AS3356 Level 3 Parent. LLC,US
-2018-02-14 13:37:22,<unknown process>,tcp,52.164.221.179,443,https,AS8075 Microsoft Corporation,IE
-2018-02-14 15:16:04,C:\Windows\System32\svchost.exe,tcp,191.234.72.190,443,https,AS8075 Microsoft Corporation,US
-2018-02-14 15:16:08,C:\Windows\System32\svchost.exe,tcp,https-178-79-251-159.lcy.llnw.net,80,http,,
-2018-02-14 15:16:08,C:\Windows\System32\svchost.exe,tcp,https-95-140-225-11.toj.llnw.net,80,http,,
-2018-02-14 15:16:08,C:\Windows\System32\svchost.exe,tcp,cds299.lcy.llnw.net,80,http,,
-2018-02-14 20:08:50,<unknown process>,tcp,13.75.122.216,443,https,AS8075 Microsoft Corporation,HK
-2018-02-15 01:46:24,<unknown process>,tcp,13.68.92.143,443,https,AS8075 Microsoft Corporation,US
-2018-02-15 17:11:52,C:\Windows\System32\svchost.exe,tcp,a23-40-4-152.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-15 21:02:21,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,a23-40-11-109.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-15 21:02:22,C:\Windows\System32\svchost.exe,tcp,a23-40-11-109.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-16 06:37:14,C:\Windows\System32\svchost.exe,tcp,52.229.174.29,443,https,AS8075 Microsoft Corporation,HK
-2018-02-16 15:07:03,C:\Windows\System32\svchost.exe,tcp,2.21.84.123,80,http,AS20940 Akamai International B.V.,EU
-2018-02-16 15:16:08,C:\Windows\System32\svchost.exe,tcp,2.22.112.42,80,http,AS20940 Akamai International B.V.,GB
-2018-02-16 15:16:10,C:\Windows\System32\svchost.exe,tcp,a23-65-202-147.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-16 15:16:10,C:\Windows\System32\svchost.exe,tcp,https-178-79-242-254.fra.llnw.net,80,http,,
-2018-02-16 15:16:10,C:\Windows\System32\svchost.exe,tcp,https-95-140-225-139.toj.llnw.net,80,http,,
-2018-02-16 15:16:10,C:\Windows\System32\svchost.exe,tcp,cds1327.lon.llnw.net,80,http,,
-2018-02-16 15:16:23,<unknown process>,tcp,a23-200-165-106.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-19 04:01:58,C:\Windows\System32\svchost.exe,tcp,a23-65-202-68.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-19 04:06:58,C:\Windows\System32\svchost.exe,tcp,bn3sch020010631.wns.windows.com,443,https,,
-2018-02-19 04:07:01,C:\Windows\System32\svchost.exe,tcp,191.232.80.58,443,https,AS8075 Microsoft Corporation,US
-2018-02-19 04:07:57,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-221.search.msn.com,443,https,,
-2018-02-19 04:09:33,C:\Windows\System32\SIHClient.exe,tcp,13.74.179.117,443,https,AS8075 Microsoft Corporation,IE
-2018-02-19 04:11:36,C:\Windows\System32\svchost.exe,tcp,52.138.205.190,443,https,AS8075 Microsoft Corporation,IE
-2018-02-19 04:11:53,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MpCmdRun.exe,tcp,a23-200-165-106.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-19 19:47:35,C:\Windows\System32\svchost.exe,tcp,a88-221-112-145.deploy.akamaitechnologies.com,80,http,,
-2018-02-20 21:21:05,C:\Windows\System32\svchost.exe,tcp,52.169.123.48,443,https,AS8075 Microsoft Corporation,IE
-2018-02-20 21:21:05,C:\Windows\System32\svchost.exe,tcp,a23-223-212-154.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-20 21:21:09,C:\Windows\System32\svchost.exe,tcp,a23-210-42-155.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-20 21:21:09,C:\Windows\System32\svchost.exe,tcp,a23-210-41-203.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-20 21:21:10,C:\Windows\System32\svchost.exe,tcp,a23-200-132-87.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-20 21:21:10,C:\Windows\System32\svchost.exe,tcp,a23-200-165-106.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-20 21:21:11,C:\Windows\Sysmon.exe,tcp,ocsp.comodoca.com,80,http,,
-2018-02-20 21:21:11,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-185.search.msn.com,443,https,,
-2018-02-20 21:21:16,C:\Windows\System32\backgroundTaskHost.exe,tcp,a23-210-40-140.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-20 21:26:10,C:\Windows\System32\svchost.exe,tcp,a173-223-11-143.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-20 21:26:14,C:\Windows\System32\svchost.exe,tcp,52.229.174.172,443,https,AS8075 Microsoft Corporation,HK
-2018-02-20 21:26:48,C:\Windows\System32\svchost.exe,tcp,a23-210-42-98.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-20 21:33:11,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.239.213.197,443,https,AS8075 Microsoft Corporation,IE
-2018-02-20 22:09:20,C:\Windows\System32\svchost.exe,tcp,68.232.35.139,443,https,AS15133 MCI Communications Services. Inc. d/b/a Verizon Business,US
-2018-02-21 01:19:09,C:\Windows\System32\svchost.exe,tcp,2.21.84.129,80,http,AS20940 Akamai International B.V.,EU
-2018-02-21 19:52:20,C:\Windows\System32\svchost.exe,tcp,a173-223-11-169.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-21 21:30:49,C:\Windows\System32\svchost.exe,tcp,40.69.218.62,443,https,AS8075 Microsoft Corporation,IE
-2018-02-21 21:30:49,C:\Windows\System32\svchost.exe,tcp,a92-122-218-137.deploy.akamaitechnologies.com,80,http,,
-2018-02-21 21:30:49,C:\Windows\System32\svchost.exe,tcp,a92-122-218-106.deploy.akamaitechnologies.com,80,http,,
-2018-02-21 21:56:18,C:\Windows\System32\BackgroundTransferHost.exe,tcp,a104-94-16-161.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-21 22:05:44,C:\Windows\System32\svchost.exe,tcp,51.141.13.164,443,https,AS8075 Microsoft Corporation,GB
-2018-02-22 12:51:05,C:\Windows\System32\svchost.exe,tcp,51.140.40.236,443,https,AS8075 Microsoft Corporation,GB
-2018-02-22 17:35:45,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.12.18,443,https,AS8075 Microsoft Corporation,US
-2018-02-22 18:18:09,C:\Windows\System32\svchost.exe,tcp,a173-223-11-151.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-22 18:18:11,C:\Windows\System32\svchost.exe,tcp,a23-215-26-23.deploy.static.akamaitechnologies.com,443,https,,
-2018-02-22 18:18:11,C:\Windows\System32\svchost.exe,tcp,cds405.lcy.llnw.net,80,http,,
-2018-02-22 18:34:02,C:\Windows\System32\svchost.exe,tcp,a92-122-218-18.deploy.akamaitechnologies.com,80,http,,
-2018-02-22 21:27:23,C:\Windows\System32\svchost.exe,tcp,bn2b-cor001.api.p001.1drv.com,443,https,,
-2018-02-22 21:30:48,C:\Windows\System32\svchost.exe,tcp,a173-223-11-177.deploy.static.akamaitechnologies.com,80,http,,
-2018-02-23 10:11:52,<unknown process>,tcp,13.65.244.143,443,https,AS8075 Microsoft Corporation,US
-2018-02-23 14:24:36,C:\Windows\System32\svchost.exe,tcp,https-87-248-217-13.lon.llnw.net,80,http,,
-2018-02-23 14:24:36,C:\Windows\System32\svchost.exe,tcp,87.248.218.94,80,http,AS22822 Limelight Networks. Inc.,IT
-2018-02-23 23:36:46,C:\Windows\System32\svchost.exe,tcp,2.21.84.131,80,http,AS20940 Akamai International B.V.,EU
-2018-02-24 00:00:52,<unknown process>,udp,104.45.18.177,123,ntp,AS8075 Microsoft Corporation,NL
+2018-02-25 03:20:12,C:\Windows\System32\svchost.exe,tcp,40.77.226.250,443,https,Microsoft Azure,Ireland
+2018-02-25 03:25:40,C:\Windows\System32\svchost.exe,tcp,131.253.61.98,443,https,Microsoft Corporation,United States
+2018-02-25 03:25:42,C:\Windows\System32\svchost.exe,tcp,13.74.179.117,443,https,Microsoft Azure,Ireland
+2018-02-25 03:25:44,C:\Windows\System32\svchost.exe,tcp,msnbot-191-232-139-2.search.msn.com,443,https,,
+2018-02-25 03:25:44,C:\Windows\System32\svchost.exe,tcp,191.232.80.58,443,https,Microsoft Azure,United States
+2018-02-25 03:25:54,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.78.235.126,443,https,Microsoft Azure,United States
+2018-02-25 04:52:11,C:\Windows\System32\svchost.exe,tcp,131.253.61.96,443,https,Microsoft Corporation,United States
+2018-02-25 04:52:12,C:\Windows\System32\svchost.exe,tcp,40.77.229.133,443,https,Microsoft Azure,Ireland
+2018-02-25 04:52:14,C:\Windows\System32\svchost.exe,udp,104.45.18.177,123,ntp,Microsoft Azure,Netherlands
+2018-02-25 05:05:42,C:\Windows\System32\backgroundTaskHost.exe,tcp,msnbot-207-46-194-33.search.msn.com,443,https,,
+2018-02-25 05:37:10,C:\Windows\System32\svchost.exe,tcp,131.253.61.64,443,https,Microsoft Corporation,United States
+2018-02-25 05:37:11,C:\Windows\System32\svchost.exe,tcp,51.141.13.164,443,https,Microsoft Azure,United Kingdom
+2018-02-25 05:37:11,C:\Windows\System32\backgroundTaskHost.exe,tcp,204.79.197.229,443,https,Microsoft Corporation,United States
+2018-02-25 08:29:10,C:\Windows\System32\backgroundTaskHost.exe,tcp,a-0001.a-msedge.net,443,https,,
+2018-02-25 15:32:29,C:\Windows\System32\svchost.exe,tcp,msnbot-207-46-194-14.search.msn.com,443,https,,
+2018-02-25 17:37:11,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,13.107.3.128,443,https,Microsoft Azure,United States
+2018-02-25 17:37:11,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,13.107.5.88,443,https,Microsoft Azure,United States
+2018-02-25 17:37:11,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,40.121.213.159,443,https,Microsoft Azure,United States
+2018-02-25 17:37:12,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.8.20,443,https,Microsoft Corporation,United States
+2018-02-25 19:38:58,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.74.179.117,443,https,Microsoft Azure,Ireland
+2018-02-25 21:18:47,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,msnbot-207-46-194-14.search.msn.com,443,https,,
+2018-02-26 00:00:57,C:\Windows\System32\w32tm.exe,udp,104.45.18.177,123,ntp,Microsoft Azure,Netherlands
+2018-02-26 02:59:44,C:\Windows\System32\svchost.exe,tcp,40.77.229.199,443,https,Microsoft Azure,Ireland
+2018-02-26 02:59:45,C:\Windows\System32\svchost.exe,tcp,131.253.61.68,443,https,Microsoft Corporation,United States
+2018-02-26 03:02:11,C:\Windows\System32\svchost.exe,tcp,40.77.226.248,443,https,Microsoft Azure,Ireland
+2018-02-26 03:02:13,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.138.148.87,443,https,Microsoft Azure,Ireland
+2018-02-26 03:33:04,C:\Windows\System32\svchost.exe,tcp,131.253.61.102,443,https,Microsoft Corporation,United States
+2018-02-26 05:37:11,C:\Windows\System32\svchost.exe,tcp,131.253.61.100,443,https,Microsoft Corporation,United States
+2018-02-26 06:37:39,C:\Windows\System32\svchost.exe,tcp,134.170.58.118,443,https,Microsoft Corporation,United States
+2018-02-26 06:52:16,C:\Windows\System32\svchost.exe,udp,51.141.32.51,123,ntp,Microsoft Azure,United Kingdom
+2018-02-26 10:26:04,<unknown process>,tcp,msnbot-207-46-194-33.search.msn.com,443,https,,
+2018-02-26 11:07:12,C:\Windows\System32\svchost.exe,tcp,51.140.40.236,443,https,Microsoft Azure,United Kingdom
+2018-02-27 00:00:21,<unknown process>,udp,51.141.32.51,123,ntp,Microsoft Azure,United Kingdom
+2018-02-27 03:02:13,C:\Windows\System32\svchost.exe,tcp,131.253.61.70,443,https,Microsoft Corporation,United States
+2018-02-27 03:02:14,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.178.163.85,443,https,Microsoft Azure,Ireland
+2018-02-27 04:52:14,C:\Windows\System32\svchost.exe,tcp,52.138.148.159,80,http,Microsoft Azure,Ireland
+2018-02-27 06:35:04,C:\Windows\System32\svchost.exe,tcp,gap-prime-finance.msn-int.com,443,https,,
+2018-02-27 06:35:05,C:\Windows\System32\svchost.exe,tcp,191.232.80.62,443,https,Microsoft Azure,United States
+2018-02-27 06:35:06,C:\Windows\System32\svchost.exe,tcp,8.253.186.114,80,http,Level 3 Communications,United States
+2018-02-27 06:35:09,C:\Windows\System32\svchost.exe,tcp,40.77.229.141,443,https,Microsoft Azure,Ireland
+2018-02-27 06:35:09,C:\Windows\System32\svchost.exe,tcp,52.229.171.86,443,https,Microsoft Azure,Hong Kong
+2018-02-27 06:35:10,C:\Windows\System32\svchost.exe,tcp,13.107.4.50,80,http,Microsoft Azure,United States
+2018-02-27 21:22:13,C:\Windows\System32\svchost.exe,tcp,131.253.61.82,443,https,Microsoft Corporation,United States
+2018-02-28 00:00:38,<unknown process>,udp,51.140.127.197,123,ntp,Microsoft Azure,United Kingdom
+2018-02-28 02:21:59,C:\Windows\System32\svchost.exe,tcp,i-bl6p-cor002.api.p001.1drv.com,443,https,,
+2018-02-28 02:22:00,C:\Windows\System32\svchost.exe,tcp,23.103.189.157,443,https,Microsoft Azure,United States
+2018-02-28 02:22:01,C:\Windows\System32\svchost.exe,tcp,52.236.43.202,443,https,Microsoft Azure,Ireland
+2018-02-28 02:22:03,C:\Windows\System32\svchost.exe,tcp,52.236.42.239,443,https,Microsoft Azure,Ireland
+2018-02-28 02:22:04,C:\Windows\System32\svchost.exe,tcp,52.169.87.42,443,https,Microsoft Azure,Ireland
+2018-02-28 03:02:13,C:\Windows\System32\svchost.exe,tcp,191.232.80.60,443,https,Microsoft Azure,United States
+2018-02-28 03:02:15,C:\Windows\System32\svchost.exe,tcp,52.161.15.246,443,https,Microsoft Azure,United States
+2018-02-28 17:37:15,<unknown process>,tcp,13.107.5.88,443,https,Microsoft Azure,United States
+2018-02-28 17:37:15,<unknown process>,tcp,13.107.3.128,443,https,Microsoft Azure,United States
+2018-02-28 17:37:15,<unknown process>,tcp,40.83.127.51,443,https,Microsoft Azure,Hong Kong
+2018-02-28 17:37:15,<unknown process>,tcp,52.109.76.31,443,https,Microsoft Corporation,Ireland
+2018-03-01 00:00:13,<unknown process>,udp,52.166.120.77,123,ntp,Microsoft Azure,Netherlands
+2018-03-01 03:02:14,C:\Windows\System32\svchost.exe,tcp,191.234.72.188,443,https,Microsoft Azure,United States
+2018-03-01 03:02:17,C:\Windows\System32\svchost.exe,tcp,52.229.175.79,443,https,Microsoft Azure,Hong Kong
+2018-03-01 03:36:02,C:\Windows\System32\svchost.exe,tcp,131.253.61.80,443,https,Microsoft Corporation,United States
+2018-03-01 03:36:06,C:\Windows\System32\svchost.exe,tcp,134.170.58.121,443,https,Microsoft Corporation,United States
+2018-03-01 03:36:09,C:\Windows\System32\svchost.exe,tcp,52.175.23.79,443,https,Microsoft Azure,Hong Kong
+2018-03-01 12:52:22,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.239.213.197,443,https,Microsoft Azure,Ireland
+2018-03-01 21:23:18,C:\Windows\System32\svchost.exe,tcp,131.253.61.66,443,https,Microsoft Corporation,United States
+2018-03-02 03:02:14,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18011-0\MsMpEng.exe,tcp,52.232.16.77,443,https,Microsoft Azure,Netherlands
+2018-03-02 03:02:14,C:\Windows\System32\svchost.exe,tcp,134.170.58.123,443,https,Microsoft Corporation,United States
+2018-03-02 03:02:15,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-226.search.msn.com,443,https,,
+2018-03-02 03:02:18,C:\Windows\System32\svchost.exe,tcp,52.229.168.53,443,https,Microsoft Azure,Hong Kong
+2018-03-02 03:02:34,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.183.114.173,443,https,Microsoft Azure,United States
+2018-03-02 21:13:25,C:\Windows\System32\svchost.exe,tcp,134.170.58.189,443,https,Microsoft Corporation,United States
+2018-03-02 21:13:29,C:\Windows\System32\svchost.exe,tcp,52.229.170.171,443,https,Microsoft Azure,Hong Kong
+2018-03-03 03:12:33,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18022-0\MsMpEng.exe,tcp,52.169.71.150,443,https,Microsoft Azure,Ireland
+2018-03-03 03:12:35,C:\Windows\System32\svchost.exe,tcp,52.229.170.224,443,https,Microsoft Azure,Hong Kong
+2018-03-03 16:52:19,C:\Windows\System32\svchost.exe,tcp,131.253.61.84,443,https,Microsoft Corporation,United States
+2018-03-03 17:37:23,<unknown process>,tcp,52.109.120.17,443,https,Microsoft Corporation,Hong Kong
+2018-03-03 18:58:16,C:\Windows\System32\svchost.exe,tcp,candycrushsoda.king.com,80,http,,
+2018-03-03 18:58:27,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.79.239.82,443,https,Microsoft Azure,Ireland
+2018-03-03 19:00:22,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,a-0001.a-msedge.net,443,https,,
+2018-03-03 19:00:38,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,204.79.197.222,443,https,Microsoft Corporation,United States
+2018-03-03 19:00:50,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,131.253.33.254,443,https,Microsoft Corporation,United States
+2018-03-03 19:00:50,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,204.79.197.254,443,https,Microsoft Corporation,United States
+2018-03-03 21:22:15,C:\Windows\System32\svchost.exe,tcp,52.138.148.89,80,http,Microsoft Azure,Ireland
+2018-03-04 00:00:43,<unknown process>,udp,13.79.239.69,123,ntp,Microsoft Azure,Ireland
+2018-03-04 03:12:33,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18022-0\MsMpEng.exe,tcp,52.166.110.64,443,https,Microsoft Azure,Netherlands
+2018-03-04 03:12:33,C:\Windows\System32\svchost.exe,tcp,i-bn3p-cor001.api.p001.1drv.com,443,https,,
+2018-03-04 16:31:21,C:\Windows\System32\svchost.exe,tcp,134.170.165.248,443,https,Microsoft Corporation,United States
+2018-03-04 16:31:26,C:\Windows\System32\svchost.exe,tcp,40.79.65.237,443,https,Microsoft Azure,United States
+2018-03-05 03:12:33,C:\Windows\System32\svchost.exe,tcp,191.234.72.190,443,https,Microsoft Azure,United States
+2018-03-05 03:12:33,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18022-0\MsMpEng.exe,tcp,52.138.148.87,443,https,Microsoft Azure,Ireland
+2018-03-05 03:12:37,C:\Windows\System32\svchost.exe,tcp,52.169.123.48,443,https,Microsoft Azure,Ireland
+2018-03-05 17:16:52,C:\Windows\System32\svchost.exe,tcp,134.170.58.125,443,https,Microsoft Corporation,United States
+2018-03-05 17:16:56,C:\Windows\System32\svchost.exe,tcp,40.69.216.129,443,https,Microsoft Azure,Ireland
+2018-03-05 20:52:25,C:\Windows\System32\svchost.exe,udp,13.79.239.69,123,ntp,Microsoft Azure,Ireland
+2018-03-06 03:12:38,C:\Windows\System32\svchost.exe,tcp,52.229.172.155,443,https,Microsoft Azure,Hong Kong
+2018-03-06 16:04:30,C:\Windows\System32\svchost.exe,tcp,134.170.165.249,443,https,Microsoft Corporation,United States
+2018-03-06 16:04:36,C:\Windows\System32\svchost.exe,tcp,40.69.223.39,443,https,Microsoft Azure,Ireland
+2018-03-06 17:37:24,<unknown process>,tcp,52.109.88.35,443,https,Microsoft Corporation,Netherlands
+2018-03-07 01:09:00,C:\Windows\System32\svchost.exe,tcp,52.178.147.240,80,http,Microsoft Azure,Ireland
+2018-03-07 02:50:46,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-228.search.msn.com,443,https,,
+2018-03-07 13:44:19,C:\Windows\System32\svchost.exe,tcp,52.229.174.172,443,https,Microsoft Azure,Hong Kong
+2018-03-08 03:12:33,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18022-0\MsMpEng.exe,tcp,52.233.199.249,443,https,Microsoft Azure,Netherlands
+2018-03-08 03:12:37,C:\Windows\System32\svchost.exe,tcp,40.69.219.197,443,https,Microsoft Azure,Ireland
+2018-03-08 05:54:05,C:\Windows\System32\svchost.exe,tcp,bn2wns1.wns.windows.com,443,https,,
+2018-03-08 05:54:05,C:\Windows\System32\svchost.exe,tcp,bn3sch020010558.wns.windows.com,443,https,,
+2018-03-08 05:54:07,C:\Windows\System32\svchost.exe,tcp,13.92.209.232,443,https,Microsoft Azure,United States
+2018-03-08 06:12:01,C:\Windows\System32\svchost.exe,tcp,13.92.210.230,443,https,Microsoft Azure,United States
+2018-03-08 08:45:13,C:\Windows\System32\svchost.exe,tcp,13.92.211.120,443,https,Microsoft Azure,United States
+2018-03-08 09:38:23,C:\Windows\System32\svchost.exe,tcp,8.253.186.113,80,http,Level 3 Communications,United States
+2018-03-08 09:38:25,C:\Windows\System32\svchost.exe,tcp,52.169.82.131,443,https,Microsoft Azure,Ireland
+2018-03-09 03:12:32,C:\Windows\System32\svchost.exe,tcp,131.253.61.86,443,https,Microsoft Corporation,United States
+2018-03-09 03:12:33,C:\Windows\System32\svchost.exe,tcp,134.170.165.251,443,https,Microsoft Corporation,United States
+2018-03-09 03:12:34,C:\Windows\System32\svchost.exe,tcp,bn2b-cor003.api.p001.1drv.com,443,https,,
+2018-03-09 03:12:39,C:\Windows\System32\svchost.exe,tcp,13.78.177.144,443,https,Microsoft Azure,United States
+2018-03-09 06:52:26,C:\Windows\System32\svchost.exe,tcp,52.164.240.59,80,http,Microsoft Azure,Ireland
+2018-03-09 17:25:17,<unknown process>,tcp,51.141.26.229,443,https,Microsoft Azure,United Kingdom
+2018-03-09 17:25:18,<unknown process>,tcp,52.109.88.34,443,https,Microsoft Corporation,Netherlands
+2018-03-10 03:12:33,C:\Windows\System32\svchost.exe,tcp,191.234.72.186,443,https,Microsoft Azure,United States
+2018-03-10 03:12:37,C:\Windows\System32\svchost.exe,tcp,40.79.65.235,443,https,Microsoft Azure,United States
+2018-03-10 04:52:30,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,104.40.211.35,443,https,Microsoft Azure,Netherlands
+2018-03-10 09:40:58,C:\Windows\System32\svchost.exe,tcp,134.170.51.190,443,https,Microsoft Corporation,United States
+2018-03-10 12:53:18,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18022-0\MsMpEng.exe,tcp,52.232.16.77,443,https,Microsoft Azure,Netherlands
+2018-03-11 00:01:18,<unknown process>,udp,52.178.161.41,123,ntp,Microsoft Azure,Ireland
+2018-03-11 03:12:36,C:\Windows\System32\svchost.exe,tcp,13.78.184.186,443,https,Microsoft Azure,United States
+2018-03-11 04:16:17,C:\Windows\System32\svchost.exe,tcp,65.55.163.222,443,https,Microsoft Hosting,United States
+2018-03-11 04:16:20,C:\Windows\System32\svchost.exe,tcp,40.79.66.209,443,https,Microsoft Azure,United States
+2018-03-12 02:53:38,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-232.search.msn.com,443,https,,
+2018-03-12 03:55:51,C:\Windows\System32\svchost.exe,tcp,52.169.83.3,443,https,Microsoft Azure,Ireland
+2018-03-12 08:39:57,C:\Windows\System32\svchost.exe,tcp,52.170.194.77,443,https,Microsoft Azure,United States
+2018-03-12 08:52:33,C:\Windows\System32\svchost.exe,udp,52.166.120.77,123,ntp,Microsoft Azure,Netherlands
+2018-03-12 13:37:56,C:\Windows\System32\svchost.exe,tcp,13.92.211.253,443,https,Microsoft Azure,United States
+2018-03-12 14:54:11,C:\Windows\System32\svchost.exe,tcp,db5wns1d.wns.windows.com,443,https,,
+2018-03-12 14:54:11,C:\Windows\System32\svchost.exe,tcp,db5sch101101529.wns.windows.com,443,https,,
+2018-03-12 17:37:30,<unknown process>,tcp,40.121.213.159,443,https,Microsoft Azure,United States
+2018-03-12 17:37:32,<unknown process>,tcp,52.109.12.20,443,https,Microsoft Corporation,United States
+2018-03-13 03:12:34,C:\Windows\System32\svchost.exe,tcp,67.26.135.254,80,http,Level 3 Communications,United States
+2018-03-13 03:12:37,C:\Windows\System32\svchost.exe,tcp,40.79.70.158,443,https,Microsoft Azure,United States
+2018-03-13 10:52:34,C:\Windows\System32\svchost.exe,udp,52.178.161.41,123,ntp,Microsoft Azure,Ireland
+2018-03-13 17:35:47,C:\Windows\System32\svchost.exe,tcp,db5sch101101914.wns.windows.com,443,https,,
+2018-03-13 17:35:49,C:\Windows\System32\svchost.exe,tcp,db5sch101110403.wns.windows.com,443,https,,
+2018-03-13 19:07:17,C:\Windows\System32\svchost.exe,tcp,db5sch101101122.wns.windows.com,443,https,,
+2018-03-13 19:25:46,C:\Windows\System32\svchost.exe,tcp,db5sch101110729.wns.windows.com,443,https,,
+2018-03-13 19:38:15,C:\Windows\System32\svchost.exe,tcp,db5sch101110626.wns.windows.com,443,https,,
+2018-03-13 20:08:43,C:\Windows\System32\svchost.exe,tcp,db5sch101110724.wns.windows.com,443,https,,
+2018-03-13 20:58:43,C:\Windows\System32\svchost.exe,tcp,23.103.189.158,443,https,Microsoft Azure,United States
+2018-03-13 20:58:50,C:\Windows\System32\svchost.exe,tcp,13.78.186.254,443,https,Microsoft Azure,United States
+2018-03-14 03:12:34,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-224.search.msn.com,443,https,,
+2018-03-14 03:12:38,C:\Windows\System32\svchost.exe,tcp,40.69.220.46,443,https,Microsoft Azure,Ireland
+2018-03-14 08:13:44,C:\Windows\System32\backgroundTaskHost.exe,tcp,msnbot-207-46-194-40.search.msn.com,443,https,,
+2018-03-14 21:46:45,C:\Windows\System32\svchost.exe,tcp,52.178.192.146,443,https,Microsoft Azure,Ireland
+2018-03-15 00:14:47,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.232.16.77,443,https,Microsoft Azure,Netherlands
+2018-03-15 00:18:24,C:\Windows\System32\svchost.exe,tcp,40.69.216.73,443,https,Microsoft Azure,Ireland
+2018-03-15 00:34:34,C:\Windows\System32\svchost.exe,tcp,40.79.67.176,443,https,Microsoft Azure,United States
+2018-03-15 00:34:42,C:\Windows\System32\svchost.exe,tcp,db5sch101101042.wns.windows.com,443,https,,
+2018-03-15 00:35:04,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.124.20,443,https,Microsoft Corporation,Singapore
+2018-03-15 00:35:23,C:\Windows\System32\backgroundTaskHost.exe,tcp,52.164.221.179,443,https,Microsoft Azure,Ireland
+2018-03-15 00:35:41,C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe,tcp,13.107.42.254,443,https,Microsoft Azure,United States
+2018-03-15 00:35:59,C:\Windows\System32\svchost.exe,tcp,msnbot-65-52-108-90.search.msn.com,443,https,,
+2018-03-15 00:36:03,C:\Windows\System32\svchost.exe,tcp,134.170.115.62,443,https,Microsoft Corporation,United States
+2018-03-15 00:44:17,C:\Windows\System32\w32tm.exe,udp,51.141.32.51,123,ntp,Microsoft Azure,United Kingdom
+2018-03-15 00:44:18,C:\Windows\System32\svchost.exe,tcp,52.138.201.220,443,https,Microsoft Azure,Ireland
+2018-03-15 03:06:52,C:\Windows\System32\svchost.exe,tcp,msnbot-64-4-54-18.search.msn.com,443,https,,
+2018-03-15 15:05:01,C:\Windows\System32\svchost.exe,tcp,40.77.226.246,443,https,Microsoft Azure,Ireland
+2018-03-15 15:05:01,C:\Windows\System32\svchost.exe,tcp,db5sch101110740.wns.windows.com,443,https,,
+2018-03-15 17:25:03,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,52.109.8.19,443,https,Microsoft Corporation,United States
+2018-03-16 00:44:27,C:\Windows\System32\svchost.exe,tcp,40.69.223.198,443,https,Microsoft Azure,Ireland
+2018-03-16 00:44:38,C:\ProgramData\Microsoft\Windows Defender\Platform\4.12.17007.18022-0\MsMpEng.exe,tcp,52.178.163.85,443,https,Microsoft Azure,Ireland
+2018-03-16 14:25:28,C:\Windows\System32\svchost.exe,tcp,db5sch101101907.wns.windows.com,443,https,,
+2018-03-16 17:17:56,C:\Windows\System32\svchost.exe,tcp,157.56.96.123,443,https,Microsoft Azure,United States
+2018-03-16 17:18:14,C:\Windows\System32\svchost.exe,tcp,13.78.179.199,443,https,Microsoft Azure,United States
+2018-03-17 00:36:00,C:\Windows\System32\svchost.exe,tcp,157.55.109.232,443,https,Microsoft Bingbot,United States
+2018-03-17 12:42:11,C:\Windows\System32\svchost.exe,tcp,db5sch101110428.wns.windows.com,443,https,,
+2018-03-17 13:08:10,C:\Windows\System32\svchost.exe,tcp,db5sch101102025.wns.windows.com,443,https,,
+2018-03-17 14:25:34,C:\Windows\System32\svchost.exe,tcp,db5sch101101001.wns.windows.com,443,https,,
+2018-03-18 00:44:26,C:\Windows\System32\svchost.exe,tcp,40.69.222.109,443,https,Microsoft Azure,Ireland
+2018-03-18 17:24:38,<unknown process>,tcp,40.70.0.108,443,https,Microsoft Azure,United States
+2018-03-18 17:24:39,<unknown process>,tcp,52.109.88.36,443,https,Microsoft Corporation,Netherlands
+2018-03-19 21:59:56,C:\Windows\System32\svchost.exe,tcp,40.79.66.194,443,https,Microsoft Azure,United States
+2018-03-20 00:44:23,C:\Windows\System32\svchost.exe,tcp,65.55.163.221,443,https,Microsoft Hosting,United States
+2018-03-21 00:44:26,C:\Windows\System32\svchost.exe,tcp,40.69.216.251,443,https,Microsoft Azure,Ireland
+2018-03-21 17:25:45,C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.8414.5925.0_x64__8wekyb3d8bbwe\Office16\OfficeHubTaskHost.exe,tcp,51.140.98.69,443,https,Microsoft Azure,United Kingdom
+2018-03-21 20:37:09,C:\Windows\System32\svchost.exe,tcp,db5sch101110510.wns.windows.com,443,https,,
+2018-03-21 23:24:36,C:\Windows\System32\svchost.exe,tcp,i-bl6p-cor001.api.p001.1drv.com,443,https,,
+2018-03-22 00:44:22,C:\Windows\System32\svchost.exe,tcp,191.234.72.183,443,https,Microsoft Azure,United States
+2018-03-22 00:44:26,C:\Windows\System32\svchost.exe,tcp,40.69.221.239,443,https,Microsoft Azure,Ireland
+2018-03-22 01:06:55,C:\Windows\System32\svchost.exe,tcp,13.92.210.83,443,https,Microsoft Azure,United States
+2018-03-22 03:52:44,C:\Windows\System32\svchost.exe,tcp,66.119.144.157,443,https,Microsoft Corporation,United States
+2018-03-23 00:37:30,C:\Windows\System32\svchost.exe,tcp,db5sch101110527.wns.windows.com,443,https,,
+2018-03-23 00:44:23,C:\Windows\System32\svchost.exe,tcp,134.170.51.247,443,https,Microsoft Corporation,United States
+2018-03-23 22:20:53,C:\Windows\System32\svchost.exe,tcp,13.78.187.58,443,https,Microsoft Azure,United States
+2018-03-24 03:22:24,C:\Windows\System32\svchost.exe,tcp,db5sch101101426.wns.windows.com,443,https,,
+2018-03-24 03:22:25,C:\Windows\System32\svchost.exe,tcp,db5sch101101338.wns.windows.com,443,https,,
+2018-03-24 17:26:24,<unknown process>,tcp,52.232.69.150,443,https,Microsoft Azure,Netherlands
+2018-03-26 11:34:11,C:\Windows\System32\svchost.exe,tcp,i-ch1-cor001.api.p001.1drv.com,443,https,,
+2018-03-28 21:11:51,C:\Windows\System32\svchost.exe,tcp,db5sch101110442.wns.windows.com,443,https,,
+2018-03-29 00:44:24,C:\Windows\System32\svchost.exe,tcp,msnbot-157-55-109-230.search.msn.com,443,https,,
+2018-03-29 12:46:26,C:\Windows\System32\svchost.exe,tcp,db5sch101101739.wns.windows.com,443,https,,
+2018-03-29 12:46:27,C:\Windows\System32\svchost.exe,tcp,db5sch101101145.wns.windows.com,443,https,,
+2018-03-30 00:44:22,C:\Windows\System32\svchost.exe,tcp,13.78.168.230,443,https,Microsoft Azure,United States
+2018-03-30 04:05:30,C:\Windows\System32\svchost.exe,tcp,db5sch101101329.wns.windows.com,443,https,,
+2018-03-30 17:26:26,<unknown process>,tcp,52.109.12.18,443,https,Microsoft Corporation,United States
+2018-04-02 00:44:27,C:\Windows\System32\svchost.exe,tcp,40.69.218.62,443,https,Microsoft Azure,Ireland
+2018-04-02 17:26:33,<unknown process>,tcp,52.109.8.20,443,https,Microsoft Corporation,United States
+2018-04-03 00:34:51,C:\Windows\System32\svchost.exe,tcp,13.68.93.109,443,https,Microsoft Azure,United States
+2018-04-03 23:44:47,C:\Windows\System32\svchost.exe,tcp,52.138.204.217,443,https,Microsoft Azure,Ireland
+2018-04-04 19:18:48,C:\Windows\System32\svchost.exe,tcp,40.79.65.123,443,https,Microsoft Azure,United States
+2018-04-05 00:44:32,C:\Windows\System32\svchost.exe,tcp,13.78.180.90,443,https,Microsoft Azure,United States
+2018-04-05 02:54:42,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.68.93.109,443,https,Microsoft Azure,United States
+2018-04-05 04:34:44,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.96.52.53,443,https,Microsoft Azure,United States
+2018-04-05 19:48:38,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,40.79.85.125,443,https,Microsoft Azure,United States
