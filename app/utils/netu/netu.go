@@ -1,6 +1,7 @@
 package netu
 
 import (
+	"bytes"
 	"fmt"
 	"net"
 	"regexp"
@@ -132,5 +133,41 @@ func IsValidIpv4Range(ipRange string) bool {
 		}
 		return true
 	}
+	return false
+}
+
+// IsPrivateIp validates an IP in a private network
+func IsPrivateIp(ipStr string) bool {
+	privateIps := []string{
+		"127.0.0.1",
+		"10.0.0.0-10.255.255.255",
+		"172.16.0.0–172.31.255.255",
+		"192.168.0.0–192.168.255.255",
+	}
+
+	ip := net.ParseIP(ipStr)
+	if ip.To4() == nil {
+		return false
+	}
+
+	for _, privateIp := range privateIps {
+		if strings.Contains(privateIp, "-") {
+			ipRange := strings.SplitN(privateIp, "-", 2)
+			if len(ipRange) != 2 {
+				return false
+			}
+			ipRange0 := net.ParseIP(ipRange[0])
+			ipRange1 := net.ParseIP(ipRange[1])
+			if ipRange0.To4() == nil || ipRange1.To4() == nil {
+				return false
+			}
+			if bytes.Compare(ip, ipRange0) >= 0 && bytes.Compare(ip, ipRange1) <= 0 {
+				return true
+			}
+		} else if privateIp == ipStr {
+			return true
+		}
+	}
+
 	return false
 }

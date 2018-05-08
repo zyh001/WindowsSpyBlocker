@@ -219,7 +219,8 @@ func extractLog(args ...string) (err error) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	var events Events
+	var eventsAll Events
+	var eventsHostsCount Events
 
 	if err := app.DownloadLib(config.Settings.Libs.Wireshark); err != nil {
 		return nil
@@ -274,11 +275,20 @@ func extractLog(args ...string) (err error) {
 
 		lineCount++
 
-		// Exclude IPv6
-		if !netu.IsValidIPv4(values[0]) {
+		// Exclude IPv6 and private network
+		if !netu.IsValidIPv4(values[0]) || netu.IsPrivateIp(values[0]) {
 			excluded = append(excluded, values)
 			continue
 		}
+
+		fmt.Println("Found", values[0])
+		countAll, _ := strconv.Atoi(values[1])
+		eventsAll = append(eventsAll, Event{
+			IP:     values[0],
+			Count:  countAll,
+			DnsRes: dnsres.GetDnsRes(values[0]),
+			Whois:  whois.GetWhois(values[0]),
+		})
 
 		host := app.GetFilteredIpOrDomain(values[0])
 		if host == "" {
@@ -288,9 +298,8 @@ func extractLog(args ...string) (err error) {
 
 		count, _ := strconv.Atoi(values[1])
 
-		fmt.Println("Found", host)
 		//color.New(color.FgCyan).Println(host)
-		events = append(events, Event{
+		eventsHostsCount = append(eventsHostsCount, Event{
 			IP:     host,
 			Count:  count,
 			DnsRes: dnsres.GetDnsRes(host),
@@ -301,19 +310,22 @@ func extractLog(args ...string) (err error) {
 	fmt.Println()
 	fmt.Print("Total lines: ")
 	color.New(color.FgYellow).Printf("%d\n", lineCount)
+	fmt.Print("All processed: ")
+	color.New(color.FgGreen).Printf("%d\n", len(eventsAll))
 	fmt.Print("Processed: ")
-	color.New(color.FgGreen).Printf("%d", len(events))
+	color.New(color.FgGreen).Printf("%d", len(eventsHostsCount))
 	fmt.Print(" (")
 	color.New(color.FgRed).Printf("%d", len(excluded))
 	fmt.Print(" excluded)\n")
 
-	if len(events) == 0 {
+	if len(eventsHostsCount) == 0 {
 		fmt.Println("No event to process...")
 		return nil
 	}
 
 	// Generate and write file
-	_writeCsvEventsHostFile("wireshark-hosts-count.csv", events)
+	_writeCsvEventsHostFile("wireshark-all.csv", eventsAll)
+	_writeCsvEventsHostFile("wireshark-hosts-count.csv", eventsHostsCount)
 
 	return nil
 }

@@ -72,6 +72,10 @@ func DownloadLib(lib config.Lib) error {
 func GetFilteredIpOrDomain(ipOrDomain string) string {
 	ipOrDomain = strings.ToLower(ipOrDomain)
 
+	if netu.IsPrivateIp(ipOrDomain) {
+		return ""
+	}
+
 	if netu.IsValidIPv4(ipOrDomain) {
 		for _, exp := range config.App.Exclude.Ips {
 			if isIpExcluded(ipOrDomain, exp) {
