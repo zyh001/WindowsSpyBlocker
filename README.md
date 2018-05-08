@@ -6,6 +6,7 @@
   <a href="https://ci.appveyor.com/project/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/appveyor/ci/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="AppVeyor"></a>
   <a href="https://goreportcard.com/report/github.com/crazy-max/WindowsSpyBlocker"><img src="https://goreportcard.com/badge/github.com/crazy-max/WindowsSpyBlocker?style=flat-square" alt="Go Report"></a>
   <a href="https://www.codacy.com/app/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/codacy/grade/1e2eae1a40754d88b7956cf9bd30241b.svg?style=flat-square" alt="Code Quality"></a>
+  <a href="https://libraries.io/github/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/librariesio/github/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="Dependency Status"></a>
   <a href="https://beerpay.io/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/beerpay/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="Beerpay"></a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
@@ -69,7 +70,8 @@ And about data collection, you can read the [Telemetry collection](../../wiki/mi
 * [simplewall](https://github.com/henrypp/simplewall) : Simple tool to configure Windows Filtering Platform (WFP).
 * [LEDE Project](https://lede-project.org/) : A Linux operating system based on OpenWrt.
 * [Mikrotik hosts parser](https://github.com/tarampampam/mikrotik-hosts-parser) : An application that blocks "advertising" for routers based on RouterOS.
-* [void-zones-tools](https://github.com/cyclaero/void-zones-tools) : A list of void zones that can be readily feed into Unbound on FreeBSD .
+* [void-zones-tools](https://github.com/cyclaero/void-zones-tools) : A list of void zones that can be readily feed into Unbound on FreeBSD.
+* [DNSCrypt Proxy](https://dnscrypt.info/) : A flexible DNS proxy, with support for encrypted DNS protocols.
 
 ## How can i help ?
 
