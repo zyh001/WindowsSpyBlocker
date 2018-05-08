@@ -1,459 +1,209 @@
 IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
-13.68.82.8,AS8075 Microsoft Corporation,US,2017-11-22,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-08-15,geo-prod.do.dsp.mp.microsoft.com
-,,,2017-06-09,array501-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-03-30,array501-prod.do.dsp.mp.microsoft.com
-13.68.88.129,AS8075 Microsoft Corporation,US,2017-12-20,geo-prod.do.dsp.mp.microsoft.com
-13.76.218.117,AS8075 Microsoft Corporation,SG,2017-10-10,nexusrules.officeapps.live.com
-,,,2017-06-23,prod.nexusrules.live.com.akadns.net
-13.76.219.191,AS8075 Microsoft Corporation,SG,2018-03-08,13.76.219.191.ip.netboxblue.com
-,,,2017-09-07,prod.nexusrules.live.com.akadns.net
-,,,2017-06-25,nexusrules.officeapps.live.com
-13.76.219.210,AS8075 Microsoft Corporation,SG,2018-01-29,13.76.219.210
-,,,2017-08-18,nexusrules.officeapps.live.com
-,,,2017-08-13,prod.nexusrules.live.com.akadns.net
-13.78.177.144,Microsoft Azure,United States,2018-04-02,array807-prod.do.dsp.mp.microsoft.com
+13.68.82.8,,,,
+13.68.88.129,,,,
+13.76.218.117,,,,
+13.76.219.191,,,,
+13.76.219.210,,,,
+13.78.177.144,AS8075 Microsoft Corporation,US,2018-04-02,array807-prod.do.dsp.mp.microsoft.com
 ,,,2018-01-26,geo-prod.do.dsp.mp.microsoft.com
 ,,,2017-11-10,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-13.78.179.199,Microsoft Azure,United States,2018-03-28,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+13.78.179.199,AS8075 Microsoft Corporation,US,2018-03-28,geo-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-12-03,geo-prod.do.dsp.mp.microsoft.com
 13.78.180.50,AS8075 Microsoft Corporation,US,2018-03-31,geo-prod.do.dsp.mp.microsoft.com
 ,,,2018-03-20,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-13.78.180.90,Microsoft Azure,United States,2018-03-01,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-10-10,geo-prod.do.dsp.mp.microsoft.com
-,,,2017-09-19,array805-prod.do.dsp.mp.microsoft.com
-13.78.184.186,Microsoft Azure,United States,2017-12-02,geo-prod.do.dsp.mp.microsoft.com
-13.78.186.254,Microsoft Azure,United States,2018-02-01,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+13.78.180.90,,,,
+13.78.184.186,AS8075 Microsoft Corporation,US,2017-12-02,geo-prod.do.dsp.mp.microsoft.com
+13.78.186.254,AS8075 Microsoft Corporation,US,2018-05-06,array803-prod.do.dsp.mp.microsoft.com
+,,,2018-02-01,geo-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-11-18,geo-prod.do.dsp.mp.microsoft.com
-,,,2017-09-28,array803-prod.do.dsp.mp.microsoft.com
-13.78.187.58,Microsoft Azure,United States,2018-01-08,geo-prod.do.dsp.mp.microsoft.com
+13.78.187.58,AS8075 Microsoft Corporation,US,2018-05-06,geo-prod.do.dsp.mp.microsoft.com
 ,,,2017-12-10,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-13.78.235.126,Microsoft Azure,United States,2018-04-02,modern.watson.data.microsoft.com.akadns.net
+13.78.235.126,AS8075 Microsoft Corporation,US,2018-04-16,13.78.235.126
+,,,2018-04-02,modern.watson.data.microsoft.com.akadns.net
 ,,,2018-03-04,watson.telemetry.microsoft.com
-,,,2018-02-23,13.78.235.126
-13.78.235.247,AS8075 Microsoft Corporation,US,2017-12-27,client-office365-tas.msedge.net
-13.81.5.53,Microsoft Azure,Netherlands,2017-10-23,wdcpeurope.microsoft.akadns.net
+13.78.235.247,,,,
+13.81.5.53,AS8075 Microsoft Corporation,NL,2017-10-23,wdcpeurope.microsoft.akadns.net
 ,,,2017-09-06,wdcp.microsoft.com
 ,,,2017-09-06,spynet2.microsoft.com
-13.81.59.242,Microsoft Azure,Netherlands,,
-13.107.6.254,AS8068 Microsoft Corporation,US,2017-10-24,1804de9b43deeb48e58798a4e2f3e031.nrb.footprintdns.com
-,,,2017-10-24,0de86f94c1e3647563e217a30a179df0.nrb.footprintdns.com
-,,,2017-10-22,1538b56163a3587913184262f6972c61.nrb.footprintdns.com
-,,,2017-10-18,0037b1d2fef3cc5fe177013fd54fe9a1.nrb.footprintdns.com
-,,,2017-10-17,1f0fa43608aad0138d15459fecb62d00.nrb.footprintdns.com
-,,,2017-10-14,d2546aa061fb9d264866ac6b350bcc10.nrb.footprintdns.com
-,,,2017-10-12,3ca33fe6f8653db881a1fd6142b9b5b0.nrb.footprintdns.com
-,,,2017-10-09,0f596374d3da881a7de170d7c17a4b90.nrb.footprintdns.com
-,,,2017-10-06,21a76bd6b5457205994c2ddf64dd2fc1.nrb.footprintdns.com
-,,,2017-09-01,e1d657161e21155fe863e9d5c8a4e8f0.nrb.footprintdns.com
-,,,2017-09-01,05321f2f29a5a05c8cd3e2b096079d40.nrb.footprintdns.com
-,,,2017-09-01,066c40fc515059a516d0ab5294f7f701.nrb.footprintdns.com
-,,,2017-09-01,0871ba92a7ab896412332fd4f1492ee0.nrb.footprintdns.com
-,,,2017-09-01,0008a25e2b427def5d4b0238a968f300.nrb.footprintdns.com
-,,,2017-09-01,c2b60aa0f78ae5794910d356ad6aee71.nrb.footprintdns.com
-,,,2017-09-01,2c10540c7e6f7a2e83050c57eda3e0d1.nrb.footprintdns.com
-,,,2017-08-31,f39ec97452845599b950690974bc4d01.nrb.footprintdns.com
-,,,2017-08-31,26d08b8a9140a9ee04b0525ee5b30601.nrb.footprintdns.com
-,,,2017-08-31,0d6cc5c051dddf5b9c97a6a36ae59611.nrb.footprintdns.com
-,,,2017-08-31,15a6510101eb67c9bcbba7763a308ec0.nrb.footprintdns.com
-,,,2017-08-31,4e663a0c9a270102d9d0caf421d5a8c0.nrb.footprintdns.com
-,,,2017-08-31,7ffa2d7dacf4e53b8a1799048cda5d81.nrb.footprintdns.com
-,,,2017-08-30,1437a07b7aad614e1708b94e4c25e931.nrb.footprintdns.com
-,,,2017-08-30,27d26d29658d63238c56a4148057f7f0.nrb.footprintdns.com
-,,,2017-08-30,1c95db55907744d3eb8d504e26652001.nrb.footprintdns.com
-,,,2017-08-30,22c4f13fe7e8842c16eed7e4d8dcb6d1.nrb.footprintdns.com
-,,,2017-08-29,01f71004a924f04b983a994c3dc521a0.nrb.footprintdns.com
-,,,2017-08-29,22f3afe50b057a54038d78a87d1f8490.nrb.footprintdns.com
-,,,2017-08-29,1966ed3ad6c4c1933ceb2f185ec58bc1.nrb.footprintdns.com
-,,,2017-08-29,a853d149b35c5ea865f36e5cca8a3e70.nrb.footprintdns.com
-,,,2017-08-29,286381aa62bb76f4498418ef306fb020.nrb.footprintdns.com
-,,,2017-08-29,384b31cfde2d54630918cc89421061b1.nrb.footprintdns.com
-,,,2017-08-28,22a65615d86c8ed3f11feea0df672760.nrb.footprintdns.com
-,,,2017-08-28,37cfd84ce79ef6104c98e018ae6abd10.nrb.footprintdns.com
-,,,2017-08-28,03bd6f0759e3d789fb3b7635e27ecd50.nrb.footprintdns.com
-,,,2017-08-27,0928d68ef20dca05d2e1da86abdb2210.nrb.footprintdns.com
-,,,2017-08-27,1bb1915fe548f436b47ed5095a6f4910.nrb.footprintdns.com
-,,,2017-08-27,0ed1c3ef1b2c60a1d4a6a39762004390.nrb.footprintdns.com
-,,,2017-08-27,119bdcbf069a9f83afa5fd804bec79b0.nrb.footprintdns.com
-,,,2017-08-27,09a40add7221a16ca85122fbc3213aa0.nrb.footprintdns.com
-,,,2017-08-26,1445bc6a45eea1200aeb6c9bd230ae50.nrb.footprintdns.com
-,,,2017-08-26,11ceb21cff52c9424d136fc3e85f9441.nrb.footprintdns.com
-,,,2017-08-25,1cdab4eee553a6b68b22cbf307e83e40.nrb.footprintdns.com
-,,,2017-08-24,3c9845b46717a2f554c34afe4b335f21.nrb.footprintdns.com
-,,,2017-08-23,1bcd98aabc0c9947970ff486069e8a40.nrb.footprintdns.com
-,,,2017-08-22,1b4ba329f4827cb20c91759f74efb091.nrb.footprintdns.com
-,,,2017-08-19,d4d77be4374a4100bc3a628f189ae5a1.nrb.footprintdns.com
-,,,2017-08-16,c0614dbf0db9ce18cf9aa4bbad2acc50.nrb.footprintdns.com
-,,,2017-08-13,1e26841a958c6a03c8123a1e049a1b11.nrb.footprintdns.com
-,,,2017-08-11,4307f759e1785db58a71330e436cb7b1.nrb.footprintdns.com
-13.107.42.254,Microsoft Azure,United States,2017-10-21,062fe5f9d44d46522877fde2ee899710.nrb.footprintdns.com
-,,,2017-10-20,b4cdba7f20cf567ad74faa5e997e1c90.nrb.footprintdns.com
-,,,2017-10-18,b3f72bf5500ec9f7ba566c2f9aec1120.nrb.footprintdns.com
-,,,2017-10-14,0e5aa94789352f677584997e6eef86a1.nrb.footprintdns.com
-,,,2017-09-29,18c488649eb2c9d919a31968f1f62a20.nrb.footprintdns.com
-,,,2017-09-01,0abfc7b0b01b0f0795bd19fbf37ca930.nrb.footprintdns.com
-,,,2017-09-01,04bbf2f744cce5f8387e7a75f9acbee0.nrb.footprintdns.com
-,,,2017-09-01,2bddcd43dd067d8982ae60d2129cfbd0.nrb.footprintdns.com
-,,,2017-09-01,2c3e9f928b8224a03aa5c31bdaef0b51.nrb.footprintdns.com
-,,,2017-09-01,070d79db47b2418cb2deacf27bb60191.nrb.footprintdns.com
-,,,2017-09-01,e9c225dda67cbe611811ce6fb63f7131.nrb.footprintdns.com
-,,,2017-09-01,4e98532df83076c60da662b2733dc8a1.nrb.footprintdns.com
-,,,2017-09-01,1f878132ff7b09ea2edfc5c0d79be230.nrb.footprintdns.com
-,,,2017-09-01,40f227a28f836af52caa7a4c58f70740.nrb.footprintdns.com
-,,,2017-08-31,02f06eae2c44794f003a412237ad3141.nrb.footprintdns.com
-,,,2017-08-31,9ccef599c4e822fc550b90729d682100.nrb.footprintdns.com
-,,,2017-08-31,79ec890ac995b7fdf1bd4e4950933860.nrb.footprintdns.com
-,,,2017-08-31,f33787725e71659ce4ed8945efef3a50.nrb.footprintdns.com
-,,,2017-08-31,0d8d6ea323548f36597cb810ee5e47e0.nrb.footprintdns.com
-,,,2017-08-31,27ba60adfac09633260f09a68d6d42a0.nrb.footprintdns.com
-,,,2017-08-31,21a76bd6b5457205994c2ddf64dd2fc1.nrb.footprintdns.com
-,,,2017-08-31,f81a3e602274f034c832944ae82aacc1.nrb.footprintdns.com
-,,,2017-08-31,039c2ebb1c932f654e8862a21147c221.nrb.footprintdns.com
-,,,2017-08-30,0ba0db3f76a1c331db7b6ccf5483b6b1.nrb.footprintdns.com
-,,,2017-08-30,39fd2275c9cf6bc60a1effd187aed5f0.nrb.footprintdns.com
-,,,2017-08-30,61731b1e05038d0d8058d01423f47151.nrb.footprintdns.com
-,,,2017-08-30,3a59b94b9b5bc59a763fb537f79419b1.nrb.footprintdns.com
-,,,2017-08-30,183a66b38f4873aa8eef623b24f2f651.nrb.footprintdns.com
-,,,2017-08-30,2bbe566cd9ec28ce5e7ac08034a76781.nrb.footprintdns.com
-,,,2017-08-30,09c68cb42e97f1bd36aee8b4c6cc44a1.nrb.footprintdns.com
-,,,2017-08-30,3caeba7f425b7ea595285c2428f00771.nrb.footprintdns.com
-,,,2017-08-29,0d0990456d437bc6e876b053619e96d1.nrb.footprintdns.com
-,,,2017-08-29,1538b56163a3587913184262f6972c61.nrb.footprintdns.com
-,,,2017-08-29,2a1c080caf940c1e81611bd50e678de0.nrb.footprintdns.com
-,,,2017-08-29,108c0db079b1f42187d701169170c7b1.nrb.footprintdns.com
-,,,2017-08-29,33cab8551f760485c86c8458488b5cd1.nrb.footprintdns.com
-,,,2017-08-29,206fba53d1e06a7b3ebb23eb3b955eb0.nrb.footprintdns.com
-,,,2017-08-29,202d856a18a946f01d587ed35395ee70.nrb.footprintdns.com
-,,,2017-08-29,1f5e48521852d57ecc3c49b17524f970.nrb.footprintdns.com
-,,,2017-08-28,30ebad5642908f5622c3f11922e024a1.nrb.footprintdns.com
-,,,2017-08-28,1aeca6cd511b301ce74724e060c039a1.nrb.footprintdns.com
-,,,2017-08-28,20162c9a6ee156659963e42294d90300.nrb.footprintdns.com
-,,,2017-08-28,3cf91e7585673475ddc7122efac30f31.nrb.footprintdns.com
-,,,2017-08-28,07bb2fbad69960694008993bc058fd40.nrb.footprintdns.com
-,,,2017-08-27,05f8cc27dc70f55c48ce68b2d5d73380.nrb.footprintdns.com
-,,,2017-08-26,bdd6d9e7102c8dfc509d787f38fab030.nrb.footprintdns.com
-,,,2017-08-24,1c156358870e012862104c65476108b1.nrb.footprintdns.com
-,,,2017-08-23,3aa9ac9577bfebc626c7c8ec064e1d70.nrb.footprintdns.com
-,,,2017-08-21,15efe38f7bbf4d27b5361f5b46bedd50.nrb.footprintdns.com
-,,,2017-08-18,fa95ccd8fe013b4265949b3ff9ead5b1.nrb.footprintdns.com
-23.97.61.137,AS8075 Microsoft Corporation,SG,2017-08-30,nexus.officeapps.live.com
-,,,2017-04-18,prod-w.nexus.live.com.akadns.net
-23.97.209.97,AS8075 Microsoft Corporation,NL,2017-11-23,nexusrules.officeapps.live.com
-,,,2017-11-16,prod.nexusrules.live.com.akadns.net
-23.99.10.11,AS8075 Microsoft Corporation,US,,
-23.99.109.44,AS8075 Microsoft Corporation,HK,2017-11-13,prod.nexusrules.live.com.akadns.net
-,,,2017-10-20,nexusrules.officeapps.live.com
-23.99.109.64,AS8075 Microsoft Corporation,HK,2017-11-01,prod.nexusrules.live.com.akadns.net
-,,,2017-10-23,nexusrules.officeapps.live.com
-23.99.116.116,AS8075 Microsoft Corporation,HK,2017-09-28,prod-w.nexus.live.com.akadns.net
-,,,2017-08-05,nexus.officeapps.live.com
-23.99.121.207,AS8075 Microsoft Corporation,HK,2017-10-07,nexus.officeapps.live.com
-,,,2017-09-21,prod-w.nexus.live.com.akadns.net
-23.102.4.253,AS8075 Microsoft Corporation,IE,2017-11-04,nexus.officeapps.live.com
-,,,2017-10-16,prod-w.nexus.live.com.akadns.net
-23.102.21.4,AS8075 Microsoft Corporation,IE,,
-23.102.155.140,AS8075 Microsoft Corporation,US,2015-04-29,nexus.officeapps.live.com
-23.103.182.126,AS8075 Microsoft Corporation,IE,,
-40.68.222.212,Microsoft Azure,Netherlands,2017-10-08,x.urs.microsoft.com
+13.81.59.242,AS8075 Microsoft Corporation,NL,,
+13.107.6.254,,,,
+13.107.42.254,,,,
+23.97.61.137,,,,
+23.97.209.97,,,,
+23.99.10.11,,,,
+23.99.109.44,,,,
+23.99.109.64,,,,
+23.99.116.116,,,,
+23.99.121.207,,,,
+23.102.4.253,,,,
+23.102.21.4,,,,
+23.102.155.140,,,,
+23.103.182.126,,,,
+40.68.222.212,AS8075 Microsoft Corporation,NL,2017-10-08,x.urs.microsoft.com
 ,,,2017-09-06,c.urs.microsoft.com
 ,,,2016-07-25,urs.microsoft.com
-40.69.216.73,Microsoft Azure,Ireland,2018-01-14,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-09-19,geo-prod.do.dsp.mp.microsoft.com
-40.69.216.129,Microsoft Azure,Ireland,2018-02-12,geo-prod.do.dsp.mp.microsoft.com
-40.69.216.251,Microsoft Azure,Ireland,2018-02-21,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+40.69.153.67,AS8075 Microsoft Corporation,US,2018-05-05,modern.watson.data.microsoft.com.akadns.net
+40.69.216.73,AS8075 Microsoft Corporation,IE,2018-04-26,geo-prod.do.dsp.mp.microsoft.com
+,,,2018-01-14,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+40.69.216.129,,,,
+40.69.216.251,AS8075 Microsoft Corporation,IE,2018-02-21,geo-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-09-12,geo-prod.do.dsp.mp.microsoft.com
-40.69.218.62,Microsoft Azure,Ireland,2017-11-22,geo-prod.do.dsp.mp.microsoft.com
-40.69.219.197,Microsoft Azure,Ireland,2017-12-13,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-09-24,geo-prod.do.dsp.mp.microsoft.com
-,,,2017-09-07,array615-prod.do.dsp.mp.microsoft.com
-40.69.220.46,Microsoft Azure,Ireland,2018-04-06,geo-prod.do.dsp.mp.microsoft.com
+40.69.218.62,AS8075 Microsoft Corporation,IE,2018-04-12,geo-prod.do.dsp.mp.microsoft.com
+40.69.219.197,,,,
+40.69.220.46,AS8075 Microsoft Corporation,IE,2018-04-06,geo-prod.do.dsp.mp.microsoft.com
 ,,,2018-03-25,geo-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-09-18,array606-prod.do.dsp.mp.microsoft.com
-40.69.221.239,Microsoft Azure,Ireland,2018-03-29,array608-prod.do.dsp.mp.microsoft.com
-,,,2018-03-13,geo-prod.do.dsp.mp.microsoft.com
+40.69.221.239,AS8075 Microsoft Corporation,IE,2018-05-03,geo-prod.do.dsp.mp.microsoft.com
+,,,2018-03-29,array608-prod.do.dsp.mp.microsoft.com
 ,,,2018-03-04,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-40.69.222.109,Microsoft Azure,Ireland,2017-12-29,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-11-08,geo-prod.do.dsp.mp.microsoft.com
-40.69.223.39,Microsoft Azure,Ireland,2017-12-03,geo-prod.do.dsp.mp.microsoft.com
+40.69.222.109,AS8075 Microsoft Corporation,IE,2018-04-19,geo-prod.do.dsp.mp.microsoft.com
+,,,2017-12-29,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+40.69.223.39,AS8075 Microsoft Corporation,IE,2017-12-03,geo-prod.do.dsp.mp.microsoft.com
 ,,,2017-09-07,array612-prod.do.dsp.mp.microsoft.com
-40.69.223.198,Microsoft Azure,Ireland,2018-03-03,geo-prod.do.dsp.mp.microsoft.com
-40.70.220.248,Microsoft Azure,United States,2018-01-29,t.urs.microsoft.com.nsatc.net
+40.69.223.198,AS8075 Microsoft Corporation,IE,2018-03-03,geo-prod.do.dsp.mp.microsoft.com
+40.70.220.248,AS8075 Microsoft Corporation,US,2018-01-29,t.urs.microsoft.com.nsatc.net
 ,,,2017-12-18,t.urs.microsoft.com
-40.76.1.176,AS8075 Microsoft Corporation,US,2017-10-25,nexus.officeapps.live.com
-,,,2016-12-10,prod-w.nexus.live.com.akadns.net
-40.76.12.4,AS8075 Microsoft Corporation,US,2017-09-25,prod-w.nexus.live.com.akadns.net
-,,,2017-05-29,nexus.officeapps.live.com
-40.76.12.162,AS8075 Microsoft Corporation,US,2017-11-13,prod-w.nexus.live.com.akadns.net
-,,,2017-09-17,nexus.officeapps.live.com
-40.77.228.47,AS8075 Microsoft Corporation,US,2018-03-31,bn2.activity.windows.com.akadns.net
-,,,2017-12-02,afs1apbn2.activity.windows.com.akadns.net
-,,,2017-12-02,americas1.activity.windows.com.akadns.net
-,,,2017-12-02,global.activity.windows.com.akadns.net
-,,,2017-10-26,activity.windows.com
-,,,2017-10-24,americas2.activity.windows.com.akadns.net
-40.77.228.87,AS8075 Microsoft Corporation,US,2017-11-06,beacon.api.microsoft.com
+40.76.1.176,,,,
+40.76.12.4,,,,
+40.76.12.162,,,,
+40.77.228.47,,,,
+40.77.228.87,,,,
 40.77.228.92,AS8075 Microsoft Corporation,US,2018-01-26,modern.watson.data.microsoft.com.akadns.net
 ,,,2017-12-15,watson.telemetry.microsoft.com
-40.77.232.101,AS8075 Microsoft Corporation,US,,
-40.79.85.125,Microsoft Azure,United States,2018-04-05,modern.watson.data.microsoft.com.akadns.net
-,,,2018-03-11,watson.telemetry.microsoft.com
-40.83.189.49,AS8075 Microsoft Corporation,US,2017-01-26,nexus.officeapps.live.com
-,,,2016-03-23,prod-w.nexus.live.com.akadns.net
-40.113.8.255,AS8075 Microsoft Corporation,IE,2017-10-28,nexusrules.officeapps.live.com
-,,,2017-04-04,prod.nexusrules.live.com.akadns.net
-40.113.10.78,AS8075 Microsoft Corporation,IE,2017-11-16,prod-w.nexus.live.com.akadns.net
-,,,2017-06-04,nexus.officeapps.live.com
-40.113.11.93,AS8075 Microsoft Corporation,IE,2017-09-11,nexusrules.officeapps.live.com
-,,,2017-06-08,prod.nexusrules.live.com.akadns.net
-40.113.14.159,AS8075 Microsoft Corporation,IE,2017-11-12,nexusrules.officeapps.live.com
-,,,2017-10-26,prod.nexusrules.live.com.akadns.net
-40.113.22.47,AS8075 Microsoft Corporation,IE,2017-11-16,osiprod-neu-snow-000.cloudapp.net
-,,,2017-10-09,prod.configsvc1.live.com.akadns.net
-,,,2017-10-03,config.office.microsoft.com
-,,,2017-10-02,config.officeapps.live.com
-,,,2017-09-27,europe.configsvc1.live.com.akadns.net
-,,,2017-09-08,office14client.microsoft.com
-,,,2017-09-06,officeclient.microsoft.com
-,,,2017-09-06,office15client.microsoft.com
-,,,2016-03-31,neu-config.officeapps.live.com
-40.113.84.53,AS8075 Microsoft Corporation,IE,,
-40.114.149.220,AS8075 Microsoft Corporation,NL,2017-11-21,pipe.cloudapp.aria.akadns.net
-,,,2017-11-18,prd.col.aria.mobile.skypedata.akadns.net
-,,,2017-09-06,browser.pipe.aria.microsoft.com
-,,,2017-09-06,mobile.pipe.aria.microsoft.com
-40.115.1.44,AS8075 Microsoft Corporation,NL,2017-09-07,pipe.cloudapp.aria.akadns.net
-,,,2017-05-25,prd.col.aria.mobile.skypedata.akadns.net
-,,,2016-11-12,prd.col.aria.browser.skypedata.akadns.net
-,,,2016-11-12,pipe.skype.com
-,,,2016-11-11,mobile.pipe.aria.microsoft.com
-,,,2016-06-29,browser.pipe.aria.microsoft.com
-40.117.144.240,AS8075 Microsoft Corporation,US,2017-11-03,nexusrules.officeapps.live.com
-,,,2016-12-02,prod.nexusrules.live.com.akadns.net
-40.117.151.29,AS8075 Microsoft Corporation,US,2017-08-28,prod.nexusrules.live.com.akadns.net
-,,,2017-04-24,nexusrules.officeapps.live.com
-40.121.144.182,AS8075 Microsoft Corporation,US,2017-10-29,prod.nexusrules.live.com.akadns.net
-,,,2017-09-15,nexusrules.officeapps.live.com
-51.141.13.164,Microsoft Azure,United Kingdom,2018-03-23,web.vortex.data.microsoft.com
-52.109.8.19,Microsoft Corporation,United States,2018-04-04,nexusrules.officeapps.live.com
-52.109.8.20,Microsoft Corporation,United States,2018-03-24,nexusrules.officeapps.live.com
+40.77.232.101,,,,
+40.79.65.78,AS8075 Microsoft Corporation,US,2018-03-20,geo-prod.do.dsp.mp.microsoft.com
+,,,2018-03-10,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+40.79.65.123,AS8075 Microsoft Corporation,US,,
+40.79.65.235,AS8075 Microsoft Corporation,US,2018-03-07,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+40.79.65.237,AS8075 Microsoft Corporation,US,,
+40.79.66.194,AS8075 Microsoft Corporation,US,2018-04-19,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+,,,2018-03-23,geo-prod.do.dsp.mp.microsoft.com
+40.79.66.209,AS8075 Microsoft Corporation,US,2018-05-06,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+,,,2018-03-12,geo-prod.do.dsp.mp.microsoft.com
+40.79.67.176,AS8075 Microsoft Corporation,US,,
+40.79.70.158,AS8075 Microsoft Corporation,US,2018-03-16,geo-prod.do.dsp.mp.microsoft.com
+40.79.85.125,AS8075 Microsoft Corporation,US,2018-05-07,watson.telemetry.microsoft.com
+,,,2018-04-26,modern.watson.data.microsoft.com.akadns.net
+40.83.189.49,,,,
+40.113.8.255,,,,
+40.113.10.78,,,,
+40.113.11.93,,,,
+40.113.14.159,,,,
+40.113.22.47,,,,
+40.113.84.53,,,,
+40.114.149.220,,,,
+40.115.1.44,,,,
+40.117.144.240,,,,
+40.117.151.29,,,,
+40.121.144.182,,,,
+51.136.15.177,AS8075 Microsoft Corporation,NL,,
+51.136.37.147,AS8075 Microsoft Corporation,NL,,
+51.140.40.236,AS8075 Microsoft Corporation,GB,,
+51.141.13.164,AS8075 Microsoft Corporation,GB,2018-05-01,eu.vortex.data.microsoft.com
+,,,2018-04-20,eu.vortex-win.data.microsoft.com
+,,,2018-03-23,web.vortex.data.microsoft.com
+51.144.108.120,AS8075 Microsoft Corporation,NL,,
+52.109.8.19,,,,
+52.109.8.20,AS8075 Microsoft Corporation,US,2018-03-24,nexusrules.officeapps.live.com
 ,,,2018-03-20,prod.nexusrules.live.com.akadns.net
 52.109.8.21,AS8075 Microsoft Corporation,US,2018-02-04,prod.nexusrules.live.com.akadns.net
 ,,,2017-11-29,nexusrules.officeapps.live.com
-52.109.12.18,Microsoft Corporation,United States,2018-03-08,nexusrules.officeapps.live.com
+52.109.12.18,AS8075 Microsoft Corporation,US,2018-03-08,nexusrules.officeapps.live.com
 ,,,2018-02-28,prod.nexusrules.live.com.akadns.net
-52.109.12.20,Microsoft Corporation,United States,2018-02-21,prod.nexusrules.live.com.akadns.net
+52.109.12.19,AS8075 Microsoft Corporation,US,2018-04-16,nexusrules.officeapps.live.com
+,,,2018-03-17,prod.nexusrules.live.com.akadns.net
+52.109.12.20,AS8075 Microsoft Corporation,US,2018-02-21,prod.nexusrules.live.com.akadns.net
 ,,,2018-02-13,nexusrules.officeapps.live.com
 52.109.76.30,AS8075 Microsoft Corporation,IE,2018-01-30,prod.nexusrules.live.com.akadns.net
 ,,,2017-11-28,nexusrules.officeapps.live.com
-52.109.76.31,Microsoft Corporation,Ireland,2018-01-07,prod.nexusrules.live.com.akadns.net
-,,,2018-01-05,nexusrules.officeapps.live.com
-52.109.76.32,AS8075 Microsoft Corporation,IE,2017-12-11,prod.nexusrules.live.com.akadns.net
-,,,2017-11-28,nexusrules.officeapps.live.com
-52.109.88.34,Microsoft Corporation,Netherlands,2018-03-31,nexusrules.officeapps.live.com
-,,,2018-01-26,prod.nexusrules.live.com.akadns.net
-52.109.88.35,Microsoft Corporation,Netherlands,2018-03-12,nexusrules.officeapps.live.com
-52.109.88.36,Microsoft Corporation,Netherlands,2018-04-03,prod.nexusrules.live.com.akadns.net
+52.109.76.31,AS8075 Microsoft Corporation,IE,2018-04-26,nexusrules.officeapps.live.com
+,,,2018-01-07,prod.nexusrules.live.com.akadns.net
+52.109.76.32,,,,
+52.109.88.34,,,,
+52.109.88.35,,,,
+52.109.88.36,AS8075 Microsoft Corporation,NL,2018-04-03,prod.nexusrules.live.com.akadns.net
 ,,,2018-02-21,nexusrules.officeapps.live.com
-52.109.120.17,Microsoft Corporation,Hong Kong,2018-02-01,nexusrules.officeapps.live.com
-52.109.120.18,AS8075 Microsoft Corporation,HK,2018-02-17,nexusrules.officeapps.live.com
-,,,2018-01-23,prod.nexusrules.live.com.akadns.net
-52.109.120.19,Microsoft Corporation,Hong Kong,2017-12-08,prod.nexusrules.live.com.akadns.net
-,,,2017-11-28,nexusrules.officeapps.live.com
-52.109.124.18,AS8075 Microsoft Corporation,SG,2018-03-25,prod.nexusrules.live.com.akadns.net
-,,,2018-01-27,nexusrules.officeapps.live.com
-52.109.124.19,AS8075 Microsoft Corporation,SG,2018-03-31,prod.nexusrules.live.com.akadns.net
-,,,2018-02-07,nexusrules.officeapps.live.com
-52.109.124.20,Microsoft Corporation,Singapore,2018-03-05,nexusrules.officeapps.live.com
+52.109.120.17,,,,
+52.109.120.18,,,,
+52.109.120.19,,,,
+52.109.124.18,,,,
+52.109.124.19,,,,
+52.109.124.20,AS8075 Microsoft Corporation,SG,2018-03-05,nexusrules.officeapps.live.com
 ,,,2018-03-03,prod.nexusrules.live.com.akadns.net
-52.138.148.87,Microsoft Azure,Ireland,2018-03-25,spyneteurope.microsoft.akadns.net
+52.138.148.87,AS8075 Microsoft Corporation,IE,2018-03-25,spyneteurope.microsoft.akadns.net
 ,,,2017-11-12,wdcp.microsoft.com
 ,,,2017-11-09,spynet2.microsoft.com
-52.138.148.89,Microsoft Azure,Ireland,,
-52.138.148.159,Microsoft Azure,Ireland,2018-02-22,52.138.148.159
-52.161.15.246,Microsoft Azure,United States,2017-12-25,geo-prod.do.dsp.mp.microsoft.com
+52.138.148.89,AS8075 Microsoft Corporation,IE,,
+52.138.148.159,AS8075 Microsoft Corporation,IE,2018-02-22,52.138.148.159
+52.138.204.217,AS8075 Microsoft Corporation,IE,,
+52.161.15.246,AS8075 Microsoft Corporation,US,2018-04-22,geo-prod.do.dsp.mp.microsoft.com
 ,,,2017-11-13,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-52.164.240.33,AS8075 Microsoft Corporation,IE,2018-04-04,eu.vortex.data.microsoft.com
-,,,2018-04-02,eu.vortex-win.data.microsoft.com
-52.164.240.59,Microsoft Azure,Ireland,,
-52.164.241.205,Microsoft Azure,Ireland,,
-52.164.251.44,Microsoft Azure,Ireland,2017-11-09,wdcpeurope.microsoft.akadns.net
+52.164.240.33,,,,
+52.164.240.59,AS8075 Microsoft Corporation,IE,2017-10-14,dmd.metaservices.microsoft.com.akadns.net
+52.164.241.205,AS8075 Microsoft Corporation,IE,,
+52.164.251.44,AS8075 Microsoft Corporation,IE,2017-11-09,wdcpeurope.microsoft.akadns.net
 ,,,2017-10-16,wdcpalt.microsoft.akadns.net
 ,,,2017-09-07,wdcp.microsoft.com
 ,,,2017-09-06,spynet2.microsoft.com
-52.167.222.82,AS8075 Microsoft Corporation,US,2017-10-07,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-07-26,geo-prod.do.dsp.mp.microsoft.com
-52.167.222.147,AS8075 Microsoft Corporation,US,2017-05-07,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-05-06,geo-prod.do.dsp.mp.microsoft.com
-52.167.223.135,AS8075 Microsoft Corporation,US,2017-10-29,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-05-27,array505-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-05-23,geo-prod.do.dsp.mp.microsoft.com
-,,,2017-05-11,array505-prod.do.dsp.mp.microsoft.com
-52.168.24.174,AS8075 Microsoft Corporation,US,2017-07-17,insiderppe.cloudapp.net
-52.169.82.131,Microsoft Azure,Ireland,2017-12-12,geo-prod.do.dsp.mp.microsoft.com
-52.169.83.3,Microsoft Azure,Ireland,2018-04-03,geo-prod.dodsp.mp.microsoft.com.nsatc.net
+52.167.222.82,,,,
+52.167.222.147,,,,
+52.167.223.135,,,,
+52.168.24.174,,,,
+52.169.82.131,,,,
+52.169.83.3,AS8075 Microsoft Corporation,IE,2018-04-16,geo-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-12-03,geo-prod.do.dsp.mp.microsoft.com
-52.169.87.42,Microsoft Azure,Ireland,2018-03-27,array605-prod.do.dsp.mp.microsoft.com
+52.169.87.42,AS8075 Microsoft Corporation,IE,2018-03-27,array605-prod.do.dsp.mp.microsoft.com
 ,,,2017-12-16,geo-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-08-31,geo-prod.do.dsp.mp.microsoft.com
-52.169.123.48,Microsoft Azure,Ireland,2018-03-19,geo-prod.do.dsp.mp.microsoft.com
-,,,2018-03-07,array603-prod.do.dsp.mp.microsoft.com
+52.169.123.48,AS8075 Microsoft Corporation,IE,2018-04-23,array603-prod.do.dsp.mp.microsoft.com
+,,,2018-03-19,geo-prod.do.dsp.mp.microsoft.com
 ,,,2017-10-04,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-52.169.189.83,AS8075 Microsoft Corporation,IE,,
-52.170.83.19,AS8075 Microsoft Corporation,US,,
-52.174.22.246,AS8075 Microsoft Corporation,NL,2017-09-22,ars.smartscreen.microsoft.com
-52.175.23.79,Microsoft Azure,Hong Kong,2018-02-25,geo-prod.do.dsp.mp.microsoft.com
-,,,2018-02-05,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-52.178.147.240,Microsoft Azure,Ireland,,
-52.178.151.212,Microsoft Azure,Ireland,,
-52.178.178.16,Microsoft Azure,Ireland,2018-01-30,db5-eap.settings.data.microsoft.com.akadns.net
+52.169.189.83,,,,
+52.170.83.19,,,,
+52.174.22.246,,,,
+52.175.23.79,,,,
+52.178.147.240,AS8075 Microsoft Corporation,IE,2017-11-12,dmd.metaservices.microsoft.com.akadns.net
+52.178.151.212,AS8075 Microsoft Corporation,IE,2017-10-20,dmd.metaservices.microsoft.com.akadns.net
+52.178.178.16,AS8075 Microsoft Corporation,IE,2018-01-30,db5-eap.settings.data.microsoft.com.akadns.net
 ,,,2017-11-29,geo.settings.data.microsoft.com.akadns.net
 ,,,2017-10-18,asimov-win.settings.data.microsoft.com.akadns.net
 ,,,2017-09-21,db5.settings.data.microsoft.com.akadns.net
 ,,,2017-09-06,settings.data.microsoft.com
 ,,,2017-09-06,settings-win.data.microsoft.com
-52.178.192.146,Microsoft Azure,Ireland,2018-04-02,array601-prod.do.dsp.mp.microsoft.com
+52.178.192.146,AS8075 Microsoft Corporation,IE,2018-04-02,array601-prod.do.dsp.mp.microsoft.com
 ,,,2017-11-27,geo-prod.do.dsp.mp.microsoft.com
-52.178.193.116,Microsoft Azure,Ireland,2017-04-10,spyneteurope.microsoft.akadns.net
-52.178.223.23,Microsoft Azure,Ireland,,
-52.183.114.173,Microsoft Azure,United States,2018-03-29,modern.watson.data.microsoft.com.akadns.net
+52.178.193.116,AS8075 Microsoft Corporation,IE,2017-04-10,spyneteurope.microsoft.akadns.net
+52.178.223.23,AS8075 Microsoft Corporation,IE,,
+52.183.114.173,AS8075 Microsoft Corporation,US,2018-04-29,modern.watson.data.microsoft.com.akadns.net
 ,,,2018-01-23,watson.telemetry.microsoft.com
-52.184.152.136,AS8075 Microsoft Corporation,US,2017-08-01,geo-prod.do.dsp.mp.microsoft.com
-,,,2017-07-27,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-52.184.155.206,AS8075 Microsoft Corporation,US,2017-10-17,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-10-01,geo-prod.do.dsp.mp.microsoft.com
-52.187.60.107,Microsoft Azure,Singapore,,
-52.229.170.171,Microsoft Azure,Hong Kong,,
-52.229.170.224,Microsoft Azure,Hong Kong,2018-02-16,geo-prod.do.dsp.mp.microsoft.com
-52.229.172.155,Microsoft Azure,Hong Kong,2018-02-20,geo-prod.do.dsp.mp.microsoft.com
-52.229.174.29,AS8075 Microsoft Corporation,HK,2018-02-08,geo-prod.do.dsp.mp.microsoft.com
-52.229.174.172,Microsoft Azure,Hong Kong,2018-01-31,geo-prod.do.dsp.mp.microsoft.com
-52.229.174.233,AS8075 Microsoft Corporation,HK,,
-52.229.175.79,Microsoft Azure,Hong Kong,2018-02-04,geo-prod.do.dsp.mp.microsoft.com
-,,,2018-01-26,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-52.236.42.239,Microsoft Azure,Ireland,2017-10-24,continuum.dds.microsoft.com.akadns.net
-52.236.43.202,Microsoft Azure,Ireland,,
-64.4.6.100,AS8075 Microsoft Corporation,US,2015-01-23,dotnetlangs.org
-,,,2015-01-23,ashesofnewmombasa.org
-,,,2015-01-05,countdownie9.kr
-,,,2015-01-05,countdownie6.kr
-,,,2014-12-22,00001001.org
-,,,2014-12-20,countdownie.hk
-,,,2014-12-20,countdownie6.hk
-,,,2014-12-20,countdownie9.hk
-,,,2014-12-20,countdownie8.hk
-,,,2014-12-20,countdowninternetexplorer.hk
-,,,2014-12-16,appday.org
-,,,2014-11-29,degisimiyakala.com
-,,,2014-11-14,cinemania.com
-,,,2014-11-13,coding4fun.net
-,,,2014-11-04,cyberspace2025.com
-,,,2014-10-23,beautyoftheweb.fr
-,,,2014-10-19,denieuwehotmail.be
-,,,2014-10-17,akali.microsoftupdate.ws
-,,,2014-10-15,countdowninternetexplorer.kr
-,,,2014-10-15,countdownie.kr
-,,,2014-10-15,countdownie8.kr
-,,,2014-10-15,dev4nscreen.co.kr
-,,,2014-10-14,buildmypinnedsite.co.kr
-,,,2014-10-11,dotnetclubs.com
-,,,2014-09-23,deployoffice365.com
-,,,2014-09-19,blog.officeformac.com
-,,,2014-09-18,buildwinjs.com
-,,,2014-09-17,customersource.com
-,,,2014-08-30,blogs.gotdotnet.ru
-,,,2014-08-28,docs.io
-,,,2014-08-01,curah.org
-,,,2014-07-24,dev.office.com
-,,,2014-07-11,click-url.com
-,,,2014-06-24,dev.windows.com
-,,,2014-06-05,azyxxi.org
-,,,2014-05-15,appstudio.windowsphone.com
-,,,2014-04-17,australia.msteched.com
-,,,2014-04-07,azure.com
-,,,2014-04-05,1drive.com.sg
-,,,2014-03-11,downloadskypefree.com
-,,,2014-03-11,contest2005.gotdotnet.ru
-,,,2014-02-18,consolidatedmessenger.com
-,,,2014-02-11,atlasdmt.com
-,,,2013-11-08,digitalwpc.com
-,,,2013-08-26,beautyoftheweb.com.sg
-,,,2013-08-17,adcentermsn.com.sg
-,,,2013-08-17,adcentre.com.sg
-,,,2013-07-22,axapta.com.sg
-,,,2013-04-01,amalga.sg
-,,,2013-04-01,beautyoftheweb.com
-65.52.26.28,AS8075 Microsoft Corporation,US,2015-12-24,prod-w.nexus.live.com.akadns.net
-,,,2015-11-12,nexusrules.officeapps.live.com
-,,,2015-05-19,nexus.officeapps.live.com
-65.52.100.7,AS8075 Microsoft Corporation,US,2018-03-20,df.telemetry.microsoft.com
-65.52.100.9,AS8075 Microsoft Corporation,US,2018-03-11,telemetry.microsoft.com
-65.52.100.11,Microsoft Hosting,United States,2018-03-11,watson.ppe.telemetry.microsoft.com
-65.52.100.91,AS8075 Microsoft Corporation,US,2018-03-11,reports.wes.df.telemetry.microsoft.com
-65.52.100.92,AS8075 Microsoft Corporation,US,2018-03-11,services.wes.df.telemetry.microsoft.com
-65.52.100.93,Microsoft Hosting,United States,2018-03-11,wes.df.telemetry.microsoft.com
-65.52.100.94,AS8075 Microsoft Corporation,US,2018-03-11,sqm.df.telemetry.microsoft.com
-65.52.161.64,AS8075 Microsoft Corporation,HK,2018-01-15,telemetry.appex.search.prod.ms.akadns.net
-65.52.219.207,AS8075 Microsoft Corporation,US,2016-12-28,prod-w.nexus.live.com.akadns.net
-,,,2015-06-05,nexus.officeapps.live.com
-65.55.29.238,AS8075 Microsoft Corporation,US,2016-05-03,corpext.msitadfs.glbdns2.microsoft.com
-,,,2016-03-17,corp.sts.microsoft.com
-65.55.39.10,AS8075 Microsoft Corporation,US,2015-01-31,docs.hk
-,,,2015-01-30,cheapazure.net
-,,,2014-12-14,microsoftupdate.ws
-,,,2014-12-09,crl.microsoft.co
-,,,2014-10-17,bingyahoonetwork.co.kr
-,,,2014-10-17,bingads.co.kr
-,,,2014-10-12,digitalwpc.com
-,,,2014-09-09,3-skypephone.at
-,,,2014-09-03,collegepuzzlechallenge.com
-,,,2014-08-26,blogs.gotdotnet.ru
-,,,2014-08-11,discoversharepoint.com
-,,,2014-08-08,friday.azure.com
-,,,2014-08-01,csharplang.net
-,,,2014-07-12,cohowinery.com
-,,,2014-07-04,businessintelligencedemoportal.com
-,,,2014-06-23,dev.windows.com
-,,,2014-06-10,educationlabs.com
-,,,2014-05-17,appstudio.windowsphone.com
-,,,2014-04-16,australia.msteched.com
-,,,2014-04-07,feriadeemoticones.com
-,,,2014-04-01,developermovement.ca
-,,,2014-03-11,codeplex.org
-,,,2014-03-11,beta.gotdotnet.ru
-,,,2014-03-07,forefront.ru
-,,,2014-02-18,erdcommander.com
-,,,2014-02-18,consumergoodsseminar.com
-,,,2014-01-13,caligari.com
-,,,2013-11-16,bingads.sg
-,,,2013-11-08,facedocument.sg
-,,,2013-10-21,appyoursites.sg
-,,,2013-10-20,axapta.com.sg
-,,,2013-10-18,bingyahoonetwork.com.sg
-,,,2013-09-13,azurewebsite.net
-,,,2013-08-11,docs.com.sg
-,,,2013-08-10,facedocument.com.sg
-,,,2013-08-10,facedocuments.sg
-,,,2013-08-10,facedocuments.com.sg
-,,,2013-07-18,gallery.live.com
-,,,2013-04-01,facedocs.sg
-,,,2013-04-01,genapp.sg
-,,,2013-04-01,facedocs.com.sg
-,,,2013-04-01,facedoc.sg
-,,,2013-04-01,facedoc.com.sg
-,,,2013-04-01,adcenter.com.sg
-,,,2013-04-01,exploretouch.ie
-,,,2013-04-01,beautyoftheweb.com.vn
-,,,2013-04-01,amalga.com.sg
-,,,2013-04-01,gamesforwindows.com.sg
-,,,2013-04-01,genapp.com.sg
-,,,2013-04-01,beautyoftheweb.com.eg
-65.55.44.51,AS8075 Microsoft Corporation,US,2016-10-24,tsfe.trafficshaping.dsp.mp.microsoft.com
-,,,2016-10-10,tsfe.tsws.mp.microsoft.com.nsatc.net
-65.55.44.54,AS8075 Microsoft Corporation,US,2018-03-30,array104-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2018-02-12,array104-prod.do.dsp.mp.microsoft.com
-,,,2017-08-29,geo-prod.dodsp.mp.microsoft.com.nsatc.net
-,,,2017-07-18,geo-prod.do.dsp.mp.microsoft.com
-65.55.44.108,Microsoft Hosting,United States,2018-04-06,bn2.settings.data.microsoft.com.akadns.net
+52.184.152.136,,,,
+52.184.155.206,,,,
+52.187.60.107,AS8075 Microsoft Corporation,SG,,
+52.229.170.171,,,,
+52.229.170.224,,,,
+52.229.172.155,,,,
+52.229.174.29,,,,
+52.229.174.172,,,,
+52.229.174.233,,,,
+52.229.175.79,,,,
+52.236.42.239,AS8075 Microsoft Corporation,IE,2017-10-24,continuum.dds.microsoft.com.akadns.net
+52.236.43.202,AS8075 Microsoft Corporation,IE,,
+64.4.6.100,,,,
+65.52.26.28,,,,
+65.52.100.7,,,,
+65.52.100.9,,,,
+65.52.100.11,AS8075 Microsoft Corporation,US,2018-03-11,watson.ppe.telemetry.microsoft.com
+65.52.100.91,,,,
+65.52.100.92,,,,
+65.52.100.93,AS8075 Microsoft Corporation,US,2018-03-11,wes.df.telemetry.microsoft.com
+65.52.100.94,,,,
+65.52.161.64,,,,
+65.52.219.207,,,,
+65.55.29.238,,,,
+65.55.39.10,,,,
+65.55.44.51,,,,
+65.55.44.54,,,,
+65.55.44.108,AS8075 Microsoft Corporation,US,2018-05-02,bn2.settings.data.microsoft.com.akadns.net
 ,,,2017-10-07,db5.settings.data.microsoft.com.akadns.net
 ,,,2017-09-25,geo.settings.data.microsoft.com.akadns.net
 ,,,2017-09-25,asimov-win.settings.data.microsoft.com.akadns.net
@@ -461,8 +211,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-04-02,onesettings-bn2.metron.live.com.nsatc.net
 ,,,2015-10-19,settings-win.data.microsoft.com
 ,,,2015-06-28,settings.data.microsoft.com
-65.55.44.109,Microsoft Hosting,United States,2018-04-01,65.55.44.109
-,,,2018-03-28,bn2.vortex.data.microsoft.com.akadns.net
+65.55.44.109,AS8075 Microsoft Corporation,US,2018-04-25,bn2.vortex.data.microsoft.com.akadns.net
+,,,2018-04-20,65.55.44.109
 ,,,2016-11-22,hk2.vortex.data.microsoft.com.akadns.net
 ,,,2016-04-08,web.vortex.data.metron.live.com.nsatc.net
 ,,,2016-04-07,vortex-bn2.metron.live.com.nsatc.net
@@ -474,101 +224,73 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-21,vortex.data.glbdns2.microsoft.com
 ,,,2016-03-20,vortex.data.microsoft.com
 ,,,2015-08-07,vortex-win.data.microsoft.com
-65.55.83.120,AS8075 Microsoft Corporation,US,2015-11-07,t.urs.microsoft.com.nsatc.net
-,,,2014-09-24,t.urs.microsoft.com
-,,,2014-09-20,beta.t.urs.microsoft.com
-,,,2014-09-05,telemetry.urs.microsoft.com
+65.55.83.120,,,,
 65.55.113.11,AS8075 Microsoft Corporation,US,2016-06-23,dmd.metaservices.microsoft.com
 ,,,2016-06-20,dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-05-09,gamesudf.metaservices.microsoft.com
-65.55.113.12,Microsoft Hosting,United States,2016-06-13,dmd.metaservices.microsoft.com
+65.55.113.12,AS8075 Microsoft Corporation,US,2016-06-13,dmd.metaservices.microsoft.com
 ,,,2016-02-12,dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-10-30,origin-download.dmd.metaservices.microsoft.com
 ,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-05-26,gamesudf.metaservices.microsoft.com
-65.55.113.13,Microsoft Hosting,United States,2016-05-19,dmd.metaservices.microsoft.com
+65.55.113.13,AS8075 Microsoft Corporation,US,2016-05-19,dmd.metaservices.microsoft.com
 ,,,2015-03-03,origin-download.dmd.metaservices.microsoft.com
 ,,,2014-09-21,dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-09-16,origin.dmd.metaservices.microsoft.com.akadns.net
 ,,,2014-03-08,gamesudf.metaservices.microsoft.com
-65.55.130.50,AS8075 Microsoft Corporation,US,2018-03-22,choice.microsoft.com.nsatc.net
-,,,2017-08-30,choice.bing.com
-,,,2017-07-28,choice.atdmt.com
-,,,2014-07-02,choice.microsoft.com
-,,,2014-06-26,choice.live.com
-65.55.176.90,AS8075 Microsoft Corporation,US,2014-03-24,t.urs.microsoft.com.nsatc.net
-,,,2014-01-16,beta.t.urs.microsoft.com
-,,,2013-12-21,telemetry.urs.microsoft.com
-,,,2013-12-11,t.urs.microsoft.com
+65.55.130.50,,,,
+65.55.176.90,,,,
 65.55.252.43,AS8075 Microsoft Corporation,US,2018-02-19,msnbot-65-55-252-43.search.msn.com
 ,,,2017-11-07,65.55.252.43
 ,,,2016-12-31,watson.telemetry.microsoft.com
 ,,,2016-08-11,modern.watson.data.microsoft.com.akadns.net
 ,,,2016-04-18,watson.telemetry.microsoft.com.nsatc.net
-65.55.252.63,AS8075 Microsoft Corporation,US,2018-02-21,oca.watson.data.microsoft.com.akadns.net
-,,,2018-02-03,oca.telemetry.microsoft.com
-,,,2016-09-05,oca.telemetry.microsoft.com.nsatc.net
-65.55.252.70,AS8075 Microsoft Corporation,US,2014-10-20,sqm.telemetry.microsoft.com.nsatc.net
-,,,2014-10-18,sqm.telemetry.microsoft.com
-65.55.252.71,Microsoft Hosting,United States,2018-02-05,watson.microsoft.com
+65.55.252.63,,,,
+65.55.252.70,,,,
+65.55.252.71,AS8075 Microsoft Corporation,US,2018-02-05,watson.microsoft.com
 ,,,2018-01-29,legacy.watson.data.microsoft.com.akadns.net
 ,,,2016-09-08,watson.microsoft.com.nsatc.net
-65.55.252.72,AS8075 Microsoft Corporation,US,2014-10-15,watson2.microsoft.com
-,,,2014-10-11,watson2.microsoft.com.nsatc.net
-65.55.252.93,Microsoft Hosting,United States,2018-03-19,sqm.telemetry.microsoft.com.nsatc.net
-,,,2018-03-11,65.55.252.93
+65.55.252.72,,,,
+65.55.252.93,AS8075 Microsoft Corporation,US,2018-04-11,sqm.telemetry.microsoft.com.nsatc.net
+,,,2018-04-07,65.55.252.93
 ,,,2018-03-11,sqmfe.glbdns2.microsoft.com
 ,,,2018-03-11,sqm.telemetry.microsoft.com
 ,,,2018-03-05,ceip.microsoft.com
 ,,,2015-08-11,sqm.msn.com
 ,,,2015-08-07,sqm.microsoft.com
 ,,,2015-08-07,www.sqm.microsoft.com
-65.55.252.190,Microsoft Hosting,United States,2018-04-03,co4.telecommand.telemetry.microsoft.com.akadns.net
+65.55.252.190,AS8075 Microsoft Corporation,US,2018-04-20,co4.telecommand.telemetry.microsoft.com.akadns.net
 ,,,2018-03-11,telecommand.telemetry.microsoft.com
 ,,,2016-09-16,telecommand.telemetry.microsoft.com.nsatc.net
-65.55.252.202,Microsoft Hosting,United States,2018-03-26,modern.watson.data.microsoft.com.akadns.net
+65.55.252.202,AS8075 Microsoft Corporation,US,2018-03-26,modern.watson.data.microsoft.com.akadns.net
 ,,,2018-02-21,watson.telemetry.microsoft.com
-66.119.147.131,AS8075 Microsoft Corporation,SG,,
-104.41.207.73,AS8075 Microsoft Corporation,IE,2017-08-04,prod-w.nexus.live.com.akadns.net
-,,,2017-05-05,nexus.officeapps.live.com
-104.43.137.66,Microsoft Azure,United States,2018-04-05,compatexchange1.trafficmanager.net
-,,,2018-03-27,compatexchange12.cloudapp.net
+66.119.147.131,,,,
+104.41.207.73,,,,
+104.43.137.66,AS8075 Microsoft Corporation,US,2018-05-03,compatexchange12.cloudapp.net
+,,,2018-05-02,compatexchange1.trafficmanager.net
 ,,,2015-04-20,compatexchange.trafficmanager.net
 ,,,2015-04-16,aeos.microsoft.com
-104.43.139.21,Microsoft Azure,United States,2018-04-03,compatexchange11.cloudapp.net
-,,,2018-04-01,compatexchange1.trafficmanager.net
-104.43.140.223,AS8075 Microsoft Corporation,US,2017-11-18,nexus.officeapps.live.com
-,,,2017-10-29,prod-w.nexus.live.com.akadns.net
-104.43.228.53,Microsoft Azure,United States,2017-04-23,compatexchange1.trafficmanager.net
+104.43.139.21,AS8075 Microsoft Corporation,US,2018-05-06,compatexchange1.trafficmanager.net
+,,,2018-05-04,compatexchange11.cloudapp.net
+104.43.140.223,,,,
+104.43.228.53,AS8075 Microsoft Corporation,US,2017-04-23,compatexchange1.trafficmanager.net
 ,,,2015-12-26,compatexchange14.cloudapp.net
-104.43.228.202,Microsoft Azure,United States,2017-03-03,compatexchange1.trafficmanager.net
-104.43.237.169,Microsoft Azure,United States,2017-04-15,compatexchange13.cloudapp.net
+104.43.228.202,AS8075 Microsoft Corporation,US,2017-03-03,compatexchange1.trafficmanager.net
+104.43.237.169,AS8075 Microsoft Corporation,US,2017-04-15,compatexchange13.cloudapp.net
 ,,,2017-04-10,compatexchange1.trafficmanager.net
 ,,,2015-05-27,aeos.microsoft.com
-104.45.11.195,AS8075 Microsoft Corporation,NL,2017-11-07,nexus.officeapps.live.com
-,,,2017-07-19,prod-w.nexus.live.com.akadns.net
-104.45.214.112,AS8075 Microsoft Corporation,US,2016-11-28,prod-w.nexus.live.com.akadns.net
-,,,2015-06-22,nexus.officeapps.live.com
-104.46.1.211,AS8075 Microsoft Corporation,US,2016-08-02,prod-w.nexus.live.com.akadns.net
-,,,2015-12-01,nexus.officeapps.live.com
-104.46.38.64,AS8075 Microsoft Corporation,NL,2017-11-15,nexusrules.officeapps.live.com
-,,,2017-09-10,prod.nexusrules.live.com.akadns.net
-,,,2017-09-07,104.46.38.64
-104.46.50.125,AS8075 Microsoft Corporation,NL,2018-02-17,104.46.50.125
-,,,2017-10-25,prod-w.nexus.live.com.akadns.net
-,,,2017-07-08,nexus.officeapps.live.com
-104.210.4.77,AS8075 Microsoft Corporation,US,2016-09-06,prod-w.nexus.live.com.akadns.net
-,,,2015-06-29,nexus.officeapps.live.com
-104.210.40.87,AS8075 Microsoft Corporation,US,2016-05-26,prod-w.nexus.live.com.akadns.net
-,,,2015-10-09,nexusrules.officeapps.live.com
-,,,2015-09-07,nexus.officeapps.live.com
-104.210.212.243,AS8075 Microsoft Corporation,US,2016-08-08,prod-w.nexus.live.com.akadns.net
-,,,2015-06-08,nexus.officeapps.live.com
-104.214.35.244,AS8075 Microsoft Corporation,US,2015-11-28,nexus.officeapps.live.com
-,,,2015-10-09,prod-w.nexus.live.com.akadns.net
-111.221.29.11,AS8075 Microsoft Corporation,HK,2015-04-20,vortex-win.data.microsoft.com
-111.221.29.13,Microsoft Corporation,Hong Kong,2016-09-29,g.msn.com
+104.45.11.195,,,,
+104.45.214.112,,,,
+104.46.1.211,,,,
+104.46.38.64,,,,
+104.46.50.125,,,,
+104.210.4.77,,,,
+104.210.40.87,,,,
+104.210.212.243,,,,
+104.214.35.244,,,,
+111.221.29.11,,,,
+111.221.29.13,AS8075 Microsoft Corporation,HK,2016-09-29,g.msn.com
 ,,,2015-05-04,g.msn.co.uk.nsatc.net
 ,,,2014-10-12,g.msn.com.nsatc.net
 ,,,2014-03-16,g.msn.com.hk
@@ -580,134 +302,185 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-01-11,g.uk.msn.com
 ,,,2014-01-10,g.msn.co.uk
 ,,,2014-01-10,g.nl.msn.com
-111.221.29.134,Microsoft Corporation,Hong Kong,2018-04-06,hk2sch130021544.wns.windows.com
+111.221.29.40,AS8075 Microsoft Corporation,HK,,
+111.221.29.134,AS8075 Microsoft Corporation,HK,2018-05-06,hk2sch130021544.wns.windows.com
 ,,,2017-04-01,hk2sch130021545.wns.windows.com
-111.221.29.253,Microsoft Corporation,Hong Kong,2018-04-05,hk2.settings.data.microsoft.com.akadns.net
+111.221.29.253,AS8075 Microsoft Corporation,HK,2018-05-07,hk2.settings.data.microsoft.com.akadns.net
 ,,,2018-03-24,hk2-ap.settings.data.microsoft.com.akadns.net
 ,,,2017-11-21,settings.data.microsoft.com
 ,,,2016-10-03,bn2.settings.data.microsoft.com.akadns.net
 ,,,2016-08-01,asimov-win.settings.data.microsoft.com.akadns.net
 ,,,2016-04-02,onesettings-hk2.metron.live.com.nsatc.net
 ,,,2015-11-03,settings-win.data.microsoft.com
-131.253.6.87,AS8075 Microsoft Corporation,US,,
-131.253.6.103,AS8075 Microsoft Corporation,US,,
+131.253.6.87,,,,
+131.253.6.103,,,,
 131.253.14.153,AS8075 Microsoft Corporation,US,2017-08-31,statsupdate.microsoft.com.nsatc.net
 ,,,2017-08-01,statsfe2.ws.microsoft.com.nsatc.net
 ,,,2017-06-16,statsfe2.update.microsoft.com.akadns.net
 ,,,2017-06-15,statsfe2.update.microsoft.com
 ,,,2017-06-14,statsfe2.ws.microsoft.com
-131.253.14.231,AS8075 Microsoft Corporation,US,2017-06-17,civpaa.bay.livefilestore.com
-,,,2017-06-17,ngmcda.bay.livefilestore.com
-,,,2017-06-16,ggyhaa.bay.livefilestore.com
-,,,2017-06-16,opdaba.bay.livefilestore.com
-,,,2017-06-16,trlpea.bay.livefilestore.com
-,,,2017-06-16,sblpea.bay.livefilestore.com
-,,,2017-06-16,wulnaw.bn1.livefilestore.com
-,,,2017-06-16,cid-6ecf7f317c03598a.users.storage.live.com
-,,,2017-06-16,qh1d6g.bay.livefilestore.com
-,,,2017-06-15,o3hdbq.bay.livefilestore.com
-,,,2017-06-14,bnycsw.blu.livefilestore.com
-,,,2017-06-12,atupaw.bay.livefilestore.com
-,,,2017-06-07,cid-61dacae50dfec627.users.storage.live.com
-,,,2017-06-07,cid-701dd5d77052b333.users.storage.live.com
-,,,2017-06-07,cid-98d8ad2ff09e83.users.storage.live.com
-,,,2017-06-07,7y0rtw.blu.livefilestore.com
-,,,2017-06-07,cid-d96da0aa4f8ff27f.users.storage.live.com
-,,,2017-06-07,cid-9359adfa0af4a579.users.storage.live.com
-,,,2017-06-07,cid-5cfc34e201d0537.users.storage.live.com
-,,,2017-06-07,cid-fa0eb2776586ff9d.users.storage.live.com
-,,,2017-06-07,cid-21f06bb5f27117f3.users.storage.live.com
-,,,2017-06-07,cid-203a76e1cc265b9d.users.storage.live.com
-,,,2017-05-28,cid-90107fbb76df8a30.users.storage.live.com
-,,,2017-05-23,skyapi.skyprod.akadns.net
-,,,2017-05-22,9t4ngq.bay.livefilestore.com
-,,,2017-05-22,storage.msn.com
-,,,2017-05-20,gmkyga.bay.livefilestore.com
-,,,2017-05-12,byfiles.storage.msn.com
-,,,2017-05-04,d.docs.live.net
-,,,2017-05-04,krfmmw.blu.livefilestore.com
-,,,2017-05-02,dybjxw.bay.livefilestore.com
-,,,2017-04-28,kmwdva.blu.livefilestore.com
-,,,2017-04-18,kaxvfw.bay.livefilestore.com
-,,,2017-04-10,d.sn3302.docs.live.net
-,,,2017-04-09,cid-bb11a9bd370e4010.users.storage.live.com
-,,,2017-04-09,cid-37b39df704c868c5.users.storage.live.com
-,,,2017-04-05,0m4how.blu.livefilestore.com
-,,,2017-03-31,cid-9bf5125f2e4c4520.users.storage.live.com
-,,,2017-02-18,gfelbg.blu.livefilestore.com
-,,,2017-02-07,cid-368c0b6b2c2b9630.users.storage.live.com
-,,,2017-02-02,vhbung.bay.livefilestore.com
-,,,2017-02-01,kwhqwq.blu.livefilestore.com
-,,,2017-02-01,pwnaxq.bay.livefilestore.com
-,,,2017-02-01,paktya.blu.livefilestore.com
-,,,2017-02-01,qckkpa.bay.livefilestore.com
-,,,2017-01-26,qrediw.bay.livefilestore.com
-,,,2017-01-24,jtzucg.bay.livefilestore.com
-,,,2017-01-23,exlepq.blu.livefilestore.com
-,,,2017-01-22,ybagpa.blu.livefilestore.com
-,,,2016-12-26,netd.docs.live.net
-131.253.34.230,Microsoft Corporation,United States,2018-04-05,bn2wns1.wns.windows.com
-,,,2018-04-04,bn2.wns.windows.com
-,,,2018-04-04,wns.windows.com
-,,,2018-04-03,skydrive.wns.windows.com
-,,,2018-03-28,bn2.wns.notify.windows.com.akadns.net
-,,,2018-03-27,bn1.wns.windows.com
-,,,2018-03-24,wns.notify.windows.com.akadns.net
-,,,2018-03-05,db5.wns.windows.com
-,,,2018-02-27,db5.wns.notify.windows.com.akadns.net
-,,,2018-02-24,131.253.34.230
-,,,2018-01-21,americas2.notify.windows.com.akadns.net
-,,,2017-12-07,client.wns.windows.com
-,,,2017-12-02,wns-df.notify.windows.com.akadns.net
-,,,2017-12-02,americas1.notify.windows.com.akadns.net
-,,,2017-10-16,bn1-2cd.wns.windows.com
-,,,2017-10-01,winphone.wns.windows.com
-131.253.34.234,AS8075 Microsoft Corporation,US,2018-03-29,bn4sch101122310.wns.windows.com
-,,,2018-01-12,bn4sch101120814.wns.windows.com
-,,,2017-05-15,BN3SCH020010536.wns.windows.com
-131.253.34.237,AS8075 Microsoft Corporation,US,2018-04-08,bn3sch020010540.wns.windows.com
-,,,2018-04-04,bn4sch101122312.wns.windows.com
-,,,2018-03-31,bn3sch020010542.wns.windows.com
-,,,2018-01-13,bn4sch101120818.wns.windows.com
-,,,2017-06-11,bn4sch101121607.wns.windows.com
-131.253.34.243,AS8075 Microsoft Corporation,US,2018-04-06,bn3sch020010550.wns.windows.com
-,,,2018-04-05,bn3sch020010549.wns.windows.com
-,,,2018-03-30,bn4sch101121611.wns.windows.com
-,,,2018-03-28,bn4sch101120822.wns.windows.com
-,,,2018-03-25,bn4sch101122403.wns.windows.com
-,,,2014-09-22,samsung.br.msn.com
-,,,2014-09-20,br.co1.cb3.glbdns2.microsoft.com
-,,,2013-12-10,dell.br.msn.com
-,,,2013-09-17,br.msn.com
-,,,2013-04-01,ca.msn.com
-131.253.34.246,Microsoft Corporation,United States,2018-04-03,bn3sch020010559.wns.windows.com
-,,,2018-04-03,bn3sch020010558.wns.windows.com
-,,,2018-04-01,bn4sch101121615.wns.windows.com
-,,,2018-03-30,bn4sch101120911.wns.windows.com
-,,,2018-03-24,bn4sch101122408.wns.windows.com
-131.253.34.247,AS8075 Microsoft Corporation,US,2018-04-06,bn3sch020010560.wns.windows.com
-,,,2018-03-28,bn4sch101120913.wns.windows.com
-,,,2016-02-09,bn3sch020010618.wns.windows.com
-131.253.34.249,AS8075 Microsoft Corporation,US,2018-04-07,bn4sch101122412.wns.windows.com
-,,,2018-04-07,bn4sch101121704.wns.windows.com
-,,,2018-02-14,bn3sch020010630.wns.windows.com
-,,,2017-01-19,bn3sch020010629.wns.windows.com
-,,,2016-04-17,bn4sch101120919.wns.windows.com
-131.253.34.252,AS8075 Microsoft Corporation,US,2018-04-07,bn3sch020010636.wns.windows.com
-,,,2018-04-06,bn4sch101120922.wns.windows.com
-,,,2018-04-02,bn4sch101122421.wns.windows.com
-,,,2018-01-21,bn3sch020010635.wns.windows.com
-,,,2016-04-22,bn4sch101121709.wns.windows.com
-131.253.34.255,AS8075 Microsoft Corporation,US,2018-04-08,bn4sch101121714.wns.windows.com
-,,,2018-04-07,bn3sch020010643.wns.windows.com
-,,,2018-04-02,bn3sch020010644.wns.windows.com
-,,,2018-03-26,bn4sch101121004.wns.windows.com
-,,,2017-05-13,bn4sch101122507.wns.windows.com
-131.253.40.37,AS8075 Microsoft Corporation,US,2015-03-24,t.urs.microsoft.com
-,,,2015-03-23,t.urs.microsoft.com.nsatc.net
-,,,2015-03-14,beta.t.urs.microsoft.com
-,,,2015-03-13,telemetry.urs.microsoft.com
-134.170.30.202,Microsoft Corporation,United States,2018-03-21,lic.apps.microsoft.com
+131.253.14.227,AS8075 Microsoft Corporation,US,2017-07-03,cid-15be3ecd9529ba15.users.storage.live.com
+,,,2017-07-03,cid-1779d9cfc903a9f7.users.storage.live.com
+,,,2017-06-27,settings.live.net
+,,,2017-06-24,cid-c98031e4d4c9c617.users.storage.live.com
+,,,2017-06-24,cid-d2c5b01fb8ab4b41.users.storage.live.com
+,,,2017-06-24,cid-10bbc30faf183c9.users.storage.live.com
+,,,2017-06-24,cid-0111391b9b5518ad.users.storage.live.com
+,,,2017-06-18,dlqhoa.blu.livefilestore.com
+,,,2017-06-17,cid-90107fbb76df8a30.users.storage.live.com
+,,,2017-06-16,nnu59a.bay.livefilestore.com
+,,,2017-06-16,xpekda.bay.livefilestore.com
+,,,2017-06-16,urhfea.bay.livefilestore.com
+,,,2017-06-16,ecstda.bay.livefilestore.com
+,,,2017-06-15,agqlaa.bay.livefilestore.com
+,,,2017-06-15,kgeqag.bay.livefilestore.com
+,,,2017-06-15,www.tzsqma.bay.livefilestore.com
+,,,2017-06-15,dhpmeq.bay.livefilestore.com
+,,,2017-06-15,uzelwg.blu.livefilestore.com
+,,,2017-06-15,nfeetg.bay.livefilestore.com
+,,,2017-06-15,ehxtpw.blu.livefilestore.com
+,,,2017-06-15,cid-4b12884117a05a14.users.storage.live.com
+,,,2017-06-15,xouqwa.bay.livefilestore.com
+,,,2017-06-15,jpefca.blu.livefilestore.com
+,,,2017-06-14,edtrjw.bay.livefilestore.com
+,,,2017-06-12,kaxvfw.bay.livefilestore.com
+,,,2017-06-09,cid-de94bd3e51203000.users.storage.live.com
+,,,2017-06-09,hofpsq.bay.livefilestore.com
+,,,2017-06-09,dceqcq.bay.livefilestore.com
+,,,2017-06-09,cid-5c861f9b9f49ac00.users.storage.live.com
+,,,2017-06-09,cid-a6f58221b3569920.users.storage.live.com
+,,,2017-06-09,cid-87e6e738ae9bab10.users.storage.live.com
+,,,2017-06-09,fqptog.bay.livefilestore.com
+,,,2017-06-04,zckmqq.bay.livefilestore.com
+,,,2017-05-26,9t4ngq.bay.livefilestore.com
+,,,2017-05-23,by2.storage.msn.com
+,,,2017-05-06,netd.docs.live.net
+,,,2017-05-05,cid-6172fce6b2f51230.users.storage.live.com
+,,,2017-05-01,uwnbna.blu.livefilestore.com
+,,,2017-04-28,tshaua.bay.livefilestore.com
+,,,2017-04-28,ynwjjg.blu.livefilestore.com
+,,,2017-04-25,ltabeq.blu.livefilestore.com
+,,,2017-04-23,cid-cd781e8d7b8d3900.users.storage.live.com
+,,,2017-04-11,aaf1dfe6aede5200.users.storage.live.com
+,,,2017-04-03,igqtg6.docs.live.net
+,,,2017-03-12,enqtmq.bay.livefilestore.com
+,,,2017-03-06,d.docs.live.net
+,,,2017-02-01,ijntjq.blu.livefilestore.com
+,,,2017-01-27,bhvofw.blu.livefilestore.com
+,,,2017-01-27,aduepq.blu.livefilestore.com
+,,,2017-01-27,cblozg.bay.livefilestore.com
+131.253.14.229,AS8075 Microsoft Corporation,US,2017-06-18,cid-965f952963612a10.users.storage.live.com
+,,,2017-06-17,kcqorw.blu.livefilestore.com
+,,,2017-06-16,jvgada.bay.livefilestore.com
+,,,2017-06-16,fou2kw.blu.livefilestore.com
+,,,2017-06-16,bs6yng.blu.livefilestore.com
+,,,2017-06-16,cid-5186d11e492b2182.users.storage.live.com
+,,,2017-06-15,v7zhta.bay.livefilestore.com
+,,,2017-06-15,cid-53708694377a1107.users.storage.live.com
+,,,2017-06-15,cid-b93f4d1cc2c22b5.users.storage.live.com
+,,,2017-06-15,tigoqa.bay.livefilestore.com
+,,,2017-06-15,itezug.blu.livefilestore.com
+,,,2017-06-15,kwaqxq.bay.livefilestore.com
+,,,2017-06-15,ltbkba.blu.livefilestore.com
+,,,2017-06-14,drrsiq.blu.livefilestore.com
+,,,2017-06-14,fpeiqw.bay.livefilestore.com
+,,,2017-06-14,cid-ed85c017cb60a250.users.storage.live.com
+,,,2017-06-14,zmbaew.bay.livefilestore.com
+,,,2017-06-14,cid-24eb9ce4314fbe5f.users.storage.live.com
+,,,2017-06-14,cid-707e2b3cd06de30.users.storage.live.com
+,,,2017-06-13,crquoa.blu.livefilestore.com
+,,,2017-06-09,cid-b48509e22980f920.users.storage.live.com
+,,,2017-06-09,cid-1927f72ca85d5910.users.storage.live.com
+,,,2017-06-08,ebrqiq.blu.livefilestore.com
+,,,2017-06-07,cid-8eda0daa1ec1ec5c.users.storage.live.com
+,,,2017-06-07,cid-ae525913092baaef.users.storage.live.com
+,,,2017-06-07,xggf0q.dm1.livefilestore.com
+,,,2017-06-07,eneegw.blu.livefilestore.com
+,,,2017-06-06,cid-36cdb4fe4c351450.users.storage.live.com
+,,,2017-06-05,bn1301.storage.skyprod.akadns.net
+,,,2017-06-03,nljntq.bay.livefilestore.com
+,,,2017-05-29,storage.skyprod.akadns.net
+,,,2017-05-28,enqtmq.bay.livefilestore.com
+,,,2017-05-19,dlqhoa.blu.livefilestore.com
+,,,2017-05-05,vhdaww.blu.livefilestore.com
+,,,2017-05-02,idabeq.blu.livefilestore.com
+,,,2017-05-02,lzraza.bay.livefilestore.com
+,,,2017-05-01,cid-602a842fad7dd41f.users.storage.live.com
+,,,2017-04-25,cid-14d6a53be9f13cbf.users.storage.live.com
+,,,2017-04-01,d.docs.live.net
+,,,2017-04-01,ldopja.bay.livefilestore.com
+,,,2017-03-31,cid-72382afbc2057250.users.storage.live.com
+,,,2017-03-31,qfawgg.bay.livefilestore.com
+,,,2017-02-03,pkkdvq.bay.livefilestore.com
+,,,2017-01-29,acjivg.blu.livefilestore.com
+,,,2017-01-28,gd1jxv.docs.live.net
+,,,2017-01-28,whfpxa.blu.livefilestore.com
+,,,2017-01-27,sgzyww.blu.livefilestore.com
+,,,2017-01-24,lpf08w.bay.livefilestore.com
+,,,2017-01-22,fuayna.blu.livefilestore.com
+,,,2016-12-31,ipipia.blu.livefilestore.com
+131.253.14.230,AS8075 Microsoft Corporation,US,2017-06-16,cid-ec55762c7eec655e.users.storage.live.com
+,,,2017-06-16,cid-580f3d0343025a99.users.storage.live.com
+,,,2017-06-15,k7cmpg.blu.livefilestore.com
+,,,2017-06-15,rhhvxg.bay.livefilestore.com
+,,,2017-06-15,ebrqiq.blu.livefilestore.com
+,,,2017-06-15,pjeyva.bay.livefilestore.com
+,,,2017-06-15,xkckyq.blu.livefilestore.com
+,,,2017-06-15,cjpjpa.bay.livefilestore.com
+,,,2017-06-15,cid-a6274040-028b-4845-900f-e0a7bc213e4b.users.storage.live.com
+,,,2017-06-14,cid-9056adac8fac4130.users.storage.live.com
+,,,2017-06-14,cid-1a83cca9c7ca2524.users.storage.live.com
+,,,2017-06-14,qvjexq.bay.livefilestore.com
+,,,2017-06-14,qhmeoa.blu.livefilestore.com
+,,,2017-06-14,cid-4a6f30317c6b24e0.users.storage.live.com
+,,,2017-06-13,cid-36cdb4fe4c351450.users.storage.live.com
+,,,2017-06-11,zckmqq.bay.livefilestore.com
+,,,2017-06-07,cid-7f019ae4e1073715.users.storage.live.com
+,,,2017-06-07,cid-77595cedd710c16e.users.storage.live.com
+,,,2017-06-07,cid-6a3d0f2bcd03b372.users.storage.live.com
+,,,2017-06-07,cid-57b917660c964f5d.users.storage.live.com
+,,,2017-06-07,cid-c40e5cb055e7250b.users.storage.live.com
+,,,2017-06-07,drb9ha.blu.livefilestore.com
+,,,2017-06-07,fjk1mw.sn2.livefilestore.com
+,,,2017-06-07,ikjipg.bn1.livefilestore.com
+,,,2017-06-07,cid-a2fea0032c1792e7.users.storage.live.com
+,,,2017-06-07,cid-851e0a62370bb223.users.storage.live.com
+,,,2017-06-07,cid-91445298cd2b516a.users.storage.live.com
+,,,2017-06-07,cid-79a0a00a0fdb827d.users.storage.live.com
+,,,2017-06-07,sl0yaq.blu.livefilestore.com
+,,,2017-06-07,cid-f7cd60f21c86b10c.users.storage.live.com
+,,,2017-06-07,2qp3cg.blu.livefilestore.com
+,,,2017-06-06,cid-6e9e82b7a0c61caf.users.storage.live.com
+,,,2017-06-05,crquoa.blu.livefilestore.com
+,,,2017-06-02,cid-90107fbb76df8a30.users.storage.live.com
+,,,2017-05-29,skyapi.skyprod.akadns.net
+,,,2017-05-24,kaxvfw.bay.livefilestore.com
+,,,2017-05-13,ltabeq.blu.livefilestore.com
+,,,2017-05-10,7y0rtw.blu.livefilestore.com
+,,,2017-04-30,nljntq.bay.livefilestore.com
+,,,2017-04-30,dxcimw.bay.livefilestore.com
+,,,2017-04-28,prbtpg.bay.livefilestore.com
+,,,2017-04-27,netd.docs.live.net
+,,,2017-04-19,d.sn3302.docs.live.net
+,,,2017-04-04,d.docs.live.net
+,,,2017-02-04,afc70g.bay.livefilestore.com
+,,,2017-02-01,nh4jqz.docs.live.net
+,,,2017-02-01,ctxxja.blu.livefilestore.com
+,,,2017-01-24,giwyqg.bay.livefilestore.com
+,,,2017-01-23,cblozg.bay.livefilestore.com
+,,,2016-12-28,jtzucg.bay.livefilestore.com
+131.253.14.231,,,,
+131.253.34.230,,,,
+131.253.34.234,,,,
+131.253.34.237,,,,
+131.253.34.243,,,,
+131.253.34.246,,,,
+131.253.34.247,,,,
+131.253.34.249,,,,
+131.253.34.252,,,,
+131.253.34.255,,,,
+131.253.40.37,,,,
+134.170.30.202,AS8075 Microsoft Corporation,US,2018-04-25,lic.apps.microsoft.com
 ,,,2018-03-04,services.apps.microsoft.com.nsatc.net
 ,,,2017-08-23,services.windows.akadns.net
 ,,,2016-12-02,services-perf.windows.akadns.net
@@ -716,629 +489,44 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-17,next-services.apps.microsoft.com
 ,,,2013-10-17,apps.microsoft.com
 ,,,2013-10-12,services.apps.microsoft.com
-134.170.30.221,Microsoft Corporation,United States,2016-07-23,dmd.metaservices.microsoft.com.akadns.net
+134.170.30.221,AS8075 Microsoft Corporation,US,2016-07-23,dmd.metaservices.microsoft.com.akadns.net
 ,,,2015-03-20,dmd.metaservices.microsoft.com
-134.170.52.151,AS8075 Microsoft Corporation,US,,
-134.170.107.24,AS8075 Microsoft Corporation,US,2015-11-01,a5f61caef9ffbe1c.users.storage.live.com
-,,,2015-11-01,a662f632d8d4ea51.users.storage.live.com
-,,,2015-10-29,5429084f4ff307f9.users.storage.live.com
-,,,2015-10-12,cid-2a256ea283171e1a.users.storage.live.com
-,,,2015-09-25,cid-607cd73f956767b4.users.storage.live.com
-,,,2015-08-30,52ae2be5163ca454.users.storage.live.com
-,,,2015-08-06,5aavqg.bl3301.livefilestore.com
-,,,2015-07-20,1lpwjw.bl3301.livefilestore.com
-,,,2015-07-07,ctzbwa.bl3301.livefilestore.com
-,,,2015-05-31,5ki6tw.bn1.livefilestore.com
-,,,2015-05-19,6pqz2q.bl3301.livefilestore.com
-,,,2015-04-20,0tl5tw.bl3301.livefilestore.com
-,,,2015-03-26,3kz6iq.bn1.livefilestore.com
-,,,2015-03-20,cid-726a76f189cbce3.users.storage.live.com
-,,,2015-03-20,cid-7a6a125b95d8be.users.storage.live.com
-,,,2015-03-18,0xex2g.dm1.livefilestore.com
-,,,2015-03-18,33bf4eb12e24718a.users.storage.live.com
-,,,2015-03-18,cid-60e9554235c25b2.users.storage.live.com
-,,,2015-03-17,4o4ppg.docs.live.net
-,,,2015-03-17,6crjjq.bl3301.livefilestore.com
-,,,2015-03-17,6cppxq.bl3301.livefilestore.com
-,,,2015-03-17,19e78aaef89dccf0.users.storage.live.com
-,,,2015-03-16,052c104b0ef3078b.users.storage.live.com
-,,,2015-03-16,2q1aeq.bay.livefilestore.com
-,,,2015-03-11,1916pg.blu.livefilestore.com
-,,,2015-03-11,dwybtg.bay.livefilestore.com
-,,,2015-03-10,3qwwsg.bl3301.livefilestore.com
-,,,2015-03-02,1lpwjw.blu.livefilestore.com
-,,,2015-03-02,0mmmog.blu.livefilestore.com
-,,,2015-03-01,byfiles.storage.msn.com
-,,,2015-02-28,71f413a94f3d500c.users.storage.live.com
-,,,2015-02-28,5gdgvw.bay.livefilestore.com
-,,,2015-02-23,1fa8ka.docs.live.net
-,,,2015-02-21,ge3avq.bl3301.livefilestore.com
-,,,2014-12-31,d.docs.live.net
-,,,2014-12-28,2lb1mq.bl3301.livefilestore.com
-,,,2014-12-03,6dc8hq.bl3301.livefilestore.com
-,,,2014-11-19,3tkuj1.docs.live.net
-,,,2014-08-05,5k36jw.blu.livefilestore.com
-,,,2014-07-30,10bcfa473e32267c.users.storage.live.com
-,,,2014-07-30,90bb6f5f02188137.users.storage.live.com
-,,,2014-07-30,32ebc5f0027a8fe4.users.storage.live.com
-,,,2014-07-23,5t0q7a.blu.livefilestore.com
-,,,2014-07-06,4crplq.blu.livefilestore.com
-,,,2014-06-03,3heoqq.bl3301.livefilestore.com
-,,,2014-05-27,4teduw.blu.livefilestore.com
-,,,2014-05-27,3fiega.blu.livefilestore.com
-,,,2014-05-18,cid-299190aca42102da.users.storage.live.com
-,,,2014-05-18,cid-1d14649992e57054.users.storage.live.com
-,,,2014-04-25,6crjjq.blu.livefilestore.com
-134.170.107.48,AS8075 Microsoft Corporation,US,2015-09-14,2xa85a.dm1.livefilestore.com
-,,,2015-06-03,9lbgwa.bay.livefilestore.com
-,,,2015-04-21,6aioja.bl3301.livefilestore.com
-,,,2015-04-21,3sdwsw.bl3301.livefilestore.com
-,,,2015-03-31,78bef344accc35c7.users.storage.live.com
-,,,2015-03-31,96f8294c590ce1b4.users.storage.live.com
-,,,2015-03-31,16f41393ad0aa1ad.users.storage.live.com
-,,,2015-03-31,729973897f37b8e4.users.storage.live.com
-,,,2015-03-31,868547a3246d74ac.docs.live.net
-,,,2015-03-30,0doaya.bl3301.livefilestore.com
-,,,2015-03-28,66dfc1278dedc929.users.storage.live.com
-,,,2015-03-26,90ue9a.bl3301.livefilestore.com
-,,,2015-03-26,3kqzv0.docs.live.net
-,,,2015-03-26,a5f61caef9ffbe1c.users.storage.live.com
-,,,2015-03-26,33bf4eb12e24718a.users.storage.live.com
-,,,2015-03-26,259v4a.blu.livefilestore.com
-,,,2015-03-24,9trjpq.bay.livefilestore.com
-,,,2015-03-21,0nmgfq.bay.livefilestore.com
-,,,2015-03-18,90bb6f5f02188137.users.storage.live.com
-,,,2015-03-18,828dck.docs.live.net
-,,,2015-03-18,32ebc5f0027a8fe4.users.storage.live.com
-,,,2015-03-18,3heoqq.bl3301.livefilestore.com
-,,,2015-03-18,0mmmog.blu.livefilestore.com
-,,,2015-03-18,a662f632d8d4ea51.users.storage.live.com
-,,,2015-03-18,4qggzf.docs.live.net
-,,,2015-03-18,ac998376232f18cc.users.storage.live.com
-,,,2015-03-17,4o4ppg.docs.live.net
-,,,2015-03-17,67c7c4e2f1843688.users.storage.live.com
-,,,2015-03-10,5429084f4ff307f9.users.storage.live.com
-,,,2015-03-10,38cnup.docs.live.net
-,,,2015-02-28,aavjoq.bay.livefilestore.com
-,,,2015-02-21,34epy3.docs.live.net
-,,,2015-01-23,1lpwjw.bl3301.livefilestore.com
-,,,2014-12-27,2lb1mq.bl3301.livefilestore.com
-,,,2014-12-24,3j8jnq.bl3301.livefilestore.com
-,,,2014-10-29,d.docs.live.net
-,,,2014-09-21,6dc8hq.bl3301.livefilestore.com
-,,,2014-08-29,6dbqsw.bl3301.livefilestore.com
-,,,2014-08-25,3dfmia.bl3301.livefilestore.com
-,,,2014-08-01,4733871fc829ba4a.users.storage.live.com
-,,,2014-08-01,a7cf2fc4c9d53ae7.users.storage.live.com
-,,,2014-08-01,619541744d440ab1.users.storage.live.com
-,,,2014-07-30,14e45911691b455b.users.storage.live.com
-,,,2014-07-22,0xynza.blu.livefilestore.com
-,,,2014-07-02,livefilestore.com
-,,,2014-06-11,3gjfdw.blu.livefilestore.com
-,,,2014-06-09,6kcfpg.blu.livefilestore.com
-,,,2014-05-27,7bviuq.blu.livefilestore.com
-,,,2014-04-23,6crjjq.blu.livefilestore.com
-,,,2014-04-18,0it0dw.blu.livefilestore.com
-134.170.107.96,AS8075 Microsoft Corporation,US,2015-11-17,cid-3438c3d10ca8c020.users.storage.live.com
-,,,2015-11-17,cid-2efc8e33407fa73a.users.storage.live.com
-,,,2015-11-17,cid-2905c7bdbabf157c.users.storage.live.com
-,,,2015-11-17,cid-28dc027e23b89935.users.storage.live.com
-,,,2015-11-17,cid-2f2c0851626e40d5.users.storage.live.com
-,,,2015-11-16,cid-381f475a9127a5e6.users.storage.live.com
-,,,2015-11-09,cid-3794ca9f41d49a6b.users.storage.live.com
-,,,2015-11-08,84f4417f4f573813.users.storage.live.com
-,,,2015-11-08,10bcfa473e32267c.users.storage.live.com
-,,,2015-11-02,99fe4b75d6b8f459.users.storage.live.com
-,,,2015-11-02,cid-0e32187c0dc9ede6.users.storage.live.com
-,,,2015-11-02,cid-0fc823571d35266c.users.storage.live.com
-,,,2015-11-02,cid-1966cbede00e24c6.users.storage.live.com
-,,,2015-11-02,cid-14516b6a00b7a12a.users.storage.live.com
-,,,2015-11-02,cid-13d7ac476f223157.users.storage.live.com
-,,,2015-11-02,cid-1a02cfc37e63d4e8.users.storage.live.com
-,,,2015-11-02,cid-1b41a6aafd720cd.users.storage.live.com
-,,,2015-11-02,71f413a94f3d500c.users.storage.live.com
-,,,2015-11-02,cid-1a3b8e379ce3ebb3.users.storage.live.com
-,,,2015-11-01,78bef344accc35c7.users.storage.live.com
-,,,2015-11-01,4733871fc829ba4a.users.storage.live.com
-,,,2015-11-01,96f8294c590ce1b4.users.storage.live.com
-,,,2015-11-01,a7cf2fc4c9d53ae7.users.storage.live.com
-,,,2015-11-01,66dfc1278dedc929.users.storage.live.com
-,,,2015-11-01,14e45911691b455b.users.storage.live.com
-,,,2015-10-30,cid-7999d41e3b86fb48.users.storage.live.com
-,,,2015-10-27,cid-06646e68e5f7b538.users.storage.live.com
-,,,2015-10-01,cid-864d3ad4474a84c1.users.storage.live.com
-,,,2015-09-30,cid-1d14649992e57054.users.storage.live.com
-,,,2015-09-26,cid-884fdede70871b1b.users.storage.live.com
-,,,2015-09-26,cid-4b9ea2feda92b51c.users.storage.live.com
-,,,2015-09-22,cid-3dda961bf2d7f183.users.storage.live.com
-,,,2015-09-18,cid-447a297a9837e87f.users.storage.live.com
-,,,2015-08-27,byfiles.storage.msn.com
-,,,2015-07-08,ctzbwa.bl3301.livefilestore.com
-,,,2015-04-09,cid-1adfb03bf7f9529f.users.storage.live.com
-,,,2015-03-31,cid-296ca18fc57e40dc.users.storage.live.com
-,,,2015-03-31,fgruqw.blu.livefilestore.com
-,,,2015-03-30,cid-28af87b3641df824.users.storage.live.com
-,,,2015-03-26,ge3avq.bl3301.livefilestore.com
-,,,2015-03-26,cid-242461ff3257fed2.users.storage.live.com
-,,,2015-03-20,cid-2a02a2af5ef5e777.users.storage.live.com
-,,,2015-03-18,a5f61caef9ffbe1c.users.storage.live.com
-,,,2015-03-17,cid-0500e20e39d3a877.users.storage.live.com
-,,,2014-09-25,livefilestore.com
-,,,2014-09-20,cid-186745a54b1b19a5.users.storage.live.com
-,,,2014-07-27,d.docs.live.net
-,,,2014-05-19,cid-60e9554235c25b2.users.storage.live.com
-,,,2014-05-19,cid-1dcfa52a6bb6d2e.users.storage.live.com
-,,,2014-04-14,blufiles.storage.msn.com
-134.170.108.24,AS8075 Microsoft Corporation,US,2015-11-17,cid-2dfae193fda50fc9.users.storage.live.com
-,,,2015-11-17,cid-3ada09cc07ffa32e.users.storage.live.com
-,,,2015-11-17,cid-350cdf6262e5419f.users.storage.live.com
-,,,2015-11-16,cid-3616286838ecb673.users.storage.live.com
-,,,2015-11-16,cid-322f9e6ea7bcf511.users.storage.live.com
-,,,2015-11-09,cid-29094c4168b41344.users.storage.live.com
-,,,2015-11-05,cid-40522432dab157e5.users.storage.live.com
-,,,2015-11-02,cid-0d3d61740bf2da7a.users.storage.live.com
-,,,2015-11-02,cid-0b7e2df65c594a0f.users.storage.live.com
-,,,2015-11-02,cid-10a3b00b7012519e.users.storage.live.com
-,,,2015-11-02,86e4b1446e1af35f.users.storage.live.com
-,,,2015-11-02,cbd85824cdbbd837.users.storage.live.com
-,,,2015-11-02,cid-15e8c350b6a34bdc.users.storage.live.com
-,,,2015-11-02,cid-1f2dbfa09bad94d3.users.storage.live.com
-,,,2015-11-02,cid-1121992354521259.users.storage.live.com
-,,,2015-11-02,cid-182d57b95c73f69f.users.storage.live.com
-,,,2015-11-01,74a3f9ac532314bd.users.storage.live.com
-,,,2015-11-01,089c0d981db6c267.users.storage.live.com
-,,,2015-09-26,cid-299190aca42102da.users.storage.live.com
-,,,2015-09-19,cid-2ae36f1115f9dfa6.users.storage.live.com
-,,,2015-09-13,cid-1ead8a7f3beea48d.users.storage.live.com
-,,,2015-03-31,46a7a1c4b6ccc8c7.users.storage.live.com
-,,,2015-03-31,cid-1c89b2c60445b513.users.storage.live.com
-,,,2015-03-31,a772e75b1d2a3ed5.users.storage.live.com
-,,,2015-03-31,cid-3b29d9e75070a244.users.storage.live.com
-,,,2015-03-31,cid-34704a09d55348d5.users.storage.live.com
-,,,2015-03-26,qwefzg.by3301.livefilestore.com
-,,,2015-03-21,uhjqfq.bay.livefilestore.com
-,,,2015-03-17,o19ajw.bay.livefilestore.com
-,,,2015-03-11,guqrtw.bay.livefilestore.com
-,,,2015-03-11,ciijfg.bay.livefilestore.com
-,,,2015-03-10,dspftw.blu.livefilestore.com
-,,,2015-03-06,07rgug.bn1.livefilestore.com
-,,,2015-02-28,73a5cb46c8240d1d.users.storage.live.com
-,,,2015-02-23,blufiles.storage.msn.com
-,,,2014-10-31,livefilestore.com
-,,,2014-09-01,ckzovg.bay.livefilestore.com
-,,,2014-07-30,89cd4d4cfc88042b.users.storage.live.com
-,,,2014-06-29,docs.live.net
-,,,2014-05-19,cid-25081b516e9fbfad.users.storage.live.com
-,,,2014-05-19,cid-3219540cbd474cca.users.storage.live.com
-,,,2014-05-19,cid-2c3eb51c40e6a8f2.users.storage.live.com
-,,,2014-05-19,cid-38488f52e03c4700.users.storage.live.com
-,,,2014-05-19,cid-293066d75c2cfcd1.users.storage.live.com
-,,,2014-05-18,cid-23be963457ece3c4.users.storage.live.com
-,,,2014-05-18,cid-3ba6cc622c3aa611.users.storage.live.com
-,,,2014-05-18,cid-25b98554778a3ca1.users.storage.live.com
-,,,2014-05-10,by1.storage.msn.com
-,,,2014-03-05,d.docs.live.net
-,,,2014-01-29,byfiles.storage.live.com
-134.170.108.48,AS8075 Microsoft Corporation,US,2015-06-12,1xhcuw.by3301.livefilestore.com
-,,,2015-05-12,50j1yw.by3301.livefilestore.com
-,,,2015-04-21,93m3ra.by3301.livefilestore.com
-,,,2015-03-28,0gk3ke.docs.live.net
-,,,2015-03-26,46720678f617edd6.users.storage.live.com
-,,,2015-03-26,74a3f9ac532314bd.users.storage.live.com
-,,,2015-03-26,70b71473d8b665db.users.storage.live.com
-,,,2015-03-26,86e4b1446e1af35f.users.storage.live.com
-,,,2015-03-20,7bviuq.blu.livefilestore.com
-,,,2015-03-18,3fiega.blu.livefilestore.com
-,,,2015-03-18,3j2tfh.docs.live.net
-,,,2015-03-11,868547a3246d74ac.docs.live.net
-,,,2015-03-11,66wqfw.bay.livefilestore.com
-,,,2015-03-10,6crjjq.blu.livefilestore.com
-,,,2015-03-02,6c7ip3.docs.live.net
-,,,2015-02-28,66b771f47c5e5998.users.storage.live.com
-,,,2015-02-28,46a7a1c4b6ccc8c7.users.storage.live.com
-,,,2015-02-28,0gr6na.by3301.livefilestore.com
-,,,2015-02-28,0xevwq.by3301.livefilestore.com
-,,,2014-10-17,d.docs.live.net
-,,,2014-08-02,2h3rha.bay.livefilestore.com
-,,,2014-08-01,009173464691ba1b.users.storage.live.com
-,,,2014-08-01,274407619dd6b749.users.storage.live.com
-,,,2014-08-01,9289303d83206365.users.storage.live.com
-,,,2014-08-01,85328715a70abd00.users.storage.live.com
-,,,2014-07-30,82b4326fd1ed3c3c.users.storage.live.com
-,,,2014-07-30,59eb7fe9ab58d6b5.users.storage.live.com
-,,,2014-07-30,63qkoq.bay.livefilestore.com
-,,,2014-07-30,32eee24efc0cd341.users.storage.live.com
-,,,2014-07-30,98ba00a06a6e58d7.users.storage.live.com
-,,,2014-07-30,23d4919aa1ac8c33.users.storage.live.com
-,,,2014-07-30,171bf31f09e0c1d3.users.storage.live.com
-,,,2014-07-30,16f41393ad0aa1ad.users.storage.live.com
-,,,2014-07-30,98f96dbee8e4013e.users.storage.live.com
-,,,2014-07-30,75a6873b5670971a.users.storage.live.com
-,,,2014-07-30,78a1e58f447af14b.users.storage.live.com
-,,,2014-07-30,0084b6d0d3525b89.users.storage.live.com
-,,,2014-07-30,85de8d3e5d8ebec3.users.storage.live.com
-,,,2014-07-30,35d36a11306794d1.users.storage.live.com
-,,,2014-07-30,52ae2be5163ca454.users.storage.live.com
-,,,2014-07-14,3rz7sg.by3301.livefilestore.com
-,,,2014-06-15,4sru0g.bay.livefilestore.com
-,,,2014-06-11,82osaa.bay.livefilestore.com
-,,,2014-06-10,846nma.bay.livefilestore.com
-,,,2014-05-26,7k6dra.bay.livefilestore.com
-,,,2014-05-26,9bqgaa.bay.livefilestore.com
-,,,2014-05-26,0bgdia.bay.livefilestore.com
-,,,2014-04-19,4o3ckw.bay.livefilestore.com
-,,,2014-03-12,3vcmya.bay.livefilestore.com
-,,,2014-02-08,livefilestore.com
-134.170.108.72,AS8075 Microsoft Corporation,US,2016-01-19,cid-ff4becc1ec8cd030.users.storage.live.com
-,,,2015-11-25,cid-25769220f97c3678.users.storage.live.com
-,,,2015-11-25,cid-2773c62fd3d62ab8.users.storage.live.com
-,,,2015-11-20,cid-0420c8a23bd47ede.users.storage.live.com
-,,,2015-11-17,cid-34704a09d55348d5.users.storage.live.com
-,,,2015-11-17,cid-1fe712f5728c6c9a.users.storage.live.com
-,,,2015-11-16,cid-2253b13320d8d0f2.users.storage.live.com
-,,,2015-11-02,85de8d3e5d8ebec3.users.storage.live.com
-,,,2015-11-02,46a7a1c4b6ccc8c7.users.storage.live.com
-,,,2015-11-02,cid-1d4374e15a0c3e6.users.storage.live.com
-,,,2015-11-02,cid-19c06af1532b528a.users.storage.live.com
-,,,2015-11-02,cid-115298306eac4952.users.storage.live.com
-,,,2015-11-01,bea3ba77e3713339.users.storage.live.com
-,,,2015-11-01,a56e10df23937911.users.storage.live.com
-,,,2015-10-07,46720678f617edd6.users.storage.live.com
-,,,2015-09-28,cid-431c637930b1eb.users.storage.live.com
-,,,2015-09-28,cid-79fd9a8979f4c7a7.users.storage.live.com
-,,,2015-09-25,cid-08a318275a7cb62d.users.storage.live.com
-,,,2015-09-20,35d36a11306794d1.users.storage.live.com
-,,,2015-09-19,cid-2c443a46a082eae1.users.storage.live.com
-,,,2015-09-02,blufiles.storage.msn.com
-,,,2015-08-22,cid-9fcc519b7a9a3212.users.storage.live.com
-,,,2015-08-18,cid-33d08fe96ee7113d.users.storage.live.com
-,,,2015-03-31,cid-21061df8361808c7.users.storage.live.com
-,,,2015-03-31,cid-4d0deeaf7582079.users.storage.live.com
-,,,2015-03-31,cid-2a28eeffa6d14498.users.storage.live.com
-,,,2015-03-31,cid-76c6e7395a6f1df6.users.storage.live.com
-,,,2015-03-21,ufhwoa.docs.live.net
-,,,2015-02-26,cid-40522432dab157e5.users.storage.live.com
-,,,2015-02-18,nvensq.by3301.livefilestore.com
-,,,2014-11-07,livefilestore.com
-,,,2014-09-25,d.docs.live.net
-,,,2014-09-01,guqrtw.bay.livefilestore.com
-,,,2014-08-26,ckzovg.bay.livefilestore.com
-,,,2014-07-30,70b71473d8b665db.users.storage.live.com
-,,,2014-07-30,46c11a17e58e35d0.users.storage.live.com
-,,,2014-07-30,119c2bacd9bbc404.users.storage.live.com
-,,,2014-07-30,079ef399b6acb68a.users.storage.live.com
-,,,2014-07-30,74a3f9ac532314bd.users.storage.live.com
-,,,2014-07-07,docs.live.net
-,,,2014-05-19,cid-3a25077c3b86b99e.users.storage.live.com
-,,,2014-05-19,cid-1e1419820b351ad7.users.storage.live.com
-,,,2014-05-18,cid-2784b8ad175d226f.users.storage.live.com
-,,,2014-05-18,cid-35619d3f8ef1c9d3.users.storage.live.com
-,,,2014-05-18,cid-2266b2e4bb566cc8.users.storage.live.com
-,,,2014-05-08,by3301.storage.live.com
-,,,2014-04-07,qwefzg.by3301.livefilestore.com
-,,,2014-03-25,snmpsa.by3301.livefilestore.com
-,,,2014-02-04,byfiles.storage.msn.com
-,,,2014-01-25,byfiles.storage.live.com
-134.170.108.224,AS8075 Microsoft Corporation,US,2016-12-05,by3302.storage.skyprod.akadns.net
-,,,2016-11-15,fbcppa.bay.livefilestore.com
-,,,2016-10-18,cid-9b83e6946e0562ad.users.storage.live.com
-,,,2016-10-18,skydocs.skyprod.akadns.net
-,,,2016-10-10,d.sn3302.docs.live.net
-,,,2016-09-11,cid-d33d4efd6f2f7210.users.storage.live.com
-,,,2016-07-23,bn1.storage.live.com
-,,,2016-06-27,si6u5h.docs.live.net
-,,,2016-06-12,dupxsg.bay.livefilestore.com
-,,,2016-05-16,cid-1c3a6a0f6e9595f9.users.storage.live.com
-,,,2016-04-30,cid-0d864ff00ce5d076.users.storage.live.com
-,,,2015-11-25,cid-20f7358328de9228.users.storage.live.com
-,,,2015-11-17,cid-29488dbe30f66e77.users.storage.live.com
-,,,2015-11-17,cid-2d35fa8ff29ebd7d.users.storage.live.com
-,,,2015-11-09,cid-2708952b37b8f88c.users.storage.live.com
-,,,2015-11-02,cid-1308747360446978675.users.storage.live.com
-,,,2015-11-02,cid-1b5c5a1113595eb8.users.storage.live.com
-,,,2015-11-02,cid-151eeda0da86f7ae.users.storage.live.com
-,,,2015-09-25,cid-6b0d1d69000c345d.users.storage.live.com
-,,,2015-09-17,cid-26f046b490b70966.users.storage.live.com
-,,,2015-06-22,apis.live.net
-,,,2015-03-18,cid-51333634031444c.users.storage.live.com
-,,,2015-02-28,afhpaw.bay.livefilestore.com
-,,,2015-02-28,fvqguq.by3302.livefilestore.com
-,,,2015-02-15,zmbaew.bay.livefilestore.com
-,,,2015-01-19,docs.live.net
-,,,2014-12-19,albkfa.bay.livefilestore.com
-,,,2014-12-16,cwutea.bay.livefilestore.com
-,,,2014-10-16,bdrvva.bay.livefilestore.com
-,,,2014-08-04,settings.live.net
-,,,2014-08-02,skyapi.live.net
-,,,2014-08-01,3692504ed7303e51.users.storage.live.com
-,,,2014-08-01,bb9e91c76b9ae0f4.users.storage.live.com
-,,,2014-08-01,a35c570e889dcb36.users.storage.live.com
-,,,2014-07-30,53f67f67b524d76e.users.storage.live.com
-,,,2014-07-30,24ce65e02a53cbb7.users.storage.live.com
-,,,2014-07-21,storage.live.com
-,,,2014-07-05,cid-27e7a01a036e69f3.users.storage.live.com
-,,,2014-07-01,guqrtw.bay.livefilestore.com
-,,,2014-06-22,ckzovg.bay.livefilestore.com
-,,,2014-06-03,livefilestore.com
-,,,2014-05-19,cid-269a3fc1e7df54e3.users.storage.live.com
-,,,2014-05-19,cid-3a7391779b7559f3.users.storage.live.com
-,,,2014-05-18,cid-2dd116d2b18e0de.users.storage.live.com
-,,,2014-05-07,d.docs.live.net
-,,,2014-05-05,skydrivesync.policies.live.net
-,,,2014-03-13,0lbbpq.bay.livefilestore.com
-,,,2014-03-12,dwybtg.bay.livefilestore.com
-,,,2014-01-23,byfiles.storage.live.com
-,,,2014-01-23,byfiles.storage.msn.com
-134.170.120.24,AS8075 Microsoft Corporation,US,2015-11-02,cid-0a42c10c51ce0d08.users.storage.live.com
-,,,2015-11-02,cid-0327d897aeca9c14.users.storage.live.com
-,,,2015-11-02,cid-1b814d56fa2c08a8.users.storage.live.com
-,,,2015-11-02,59eb7fe9ab58d6b5.users.storage.live.com
-,,,2015-10-27,0phe8q.dm1.livefilestore.com
-,,,2015-10-26,9xsjxg.blu.livefilestore.com
-,,,2015-10-23,4pbzvw.bay.livefilestore.com
-,,,2015-09-03,aesxpa.bay.livefilestore.com
-,,,2015-09-01,5kdlla.bay.livefilestore.com
-,,,2015-08-21,aazofw.bay.livefilestore.com
-,,,2015-08-05,cid-dbe4c4f7357b87ce.users.storage.live.com
-,,,2015-07-30,aenzvq.bay.livefilestore.com
-,,,2015-06-12,4zqqxa.sn2.livefilestore.com
-,,,2015-06-02,88amew-sn3301.files.1drv.com
-,,,2015-05-20,byfiles.storage.msn.com
-,,,2015-04-21,6e39pw-sn3301.files.1drv.com
-,,,2015-04-21,1dq2ug-sn3301.files.1drv.com
-,,,2015-04-21,a5uuhg-sn3301.files.1drv.com
-,,,2015-04-21,9xlpnq-sn3301.files.1drv.com
-,,,2015-04-21,9thjqq-sn3301.files.1drv.com
-,,,2015-04-21,8lcibg-sn3301.files.1drv.com
-,,,2015-04-21,8gvtzg-sn3301.files.1drv.com
-,,,2015-04-21,5apw9a-sn3301.files.1drv.com
-,,,2015-04-20,1k5fzw-sn3301.files.1drv.com
-,,,2015-04-19,9apjja-sn3301.files.1drv.com
-,,,2015-04-05,2xa85a.dm1.livefilestore.com
-,,,2015-03-31,aadf7d310e3f6814.users.storage.live.com
-,,,2015-03-28,a10e87259a5aaa17.users.storage.live.com
-,,,2015-03-27,aadgag.blu.livefilestore.com
-,,,2015-03-26,78bc91c831ba8c9b.users.storage.live.com
-,,,2015-03-26,1cy16w-sn3301.files.1drv.com
-,,,2015-03-26,a1af6e8af1a3e8e1.users.storage.live.com
-,,,2015-03-20,a2r3ig.docs.live.net
-,,,2015-03-16,36d6c3c2797aff4e.users.storage.live.com
-,,,2015-03-11,adlxjw.bay.livefilestore.com
-,,,2015-03-11,1lpwjw.blu.livefilestore.com
-,,,2015-03-09,17bc9ea16979fcee.users.storage.live.com
-,,,2015-03-09,ad10f33728e8bffc.users.storage.live.com
-,,,2015-02-28,11ffe47609535350.users.storage.live.com
-,,,2015-02-28,0apihg.bay.livefilestore.com
-,,,2015-02-28,o19ajw.bay.livefilestore.com
-,,,2015-02-25,augdqw.blu.livefilestore.com
-,,,2015-02-18,5zazv9.docs.live.net
-,,,2015-01-06,docs.live.net
-,,,2014-12-24,4hvdhq-sn3301.files.1drv.com
-,,,2014-12-16,3qv6ra-sn3301.files.1drv.com
-,,,2014-09-29,1drv.com
-,,,2014-08-01,a4c0fe341ef8acb7.users.storage.live.com
-,,,2014-07-30,62b3a5dd792e2e90.users.storage.live.com
-,,,2014-06-13,d.docs.live.net
-134.170.120.48,AS8075 Microsoft Corporation,US,2015-11-17,4hgpuw.blu.livefilestore.com
-,,,2015-11-17,cid-13f11f0343cc75f9.users.storage.live.com
-,,,2015-11-17,cid-15862b8ffa97ffd0.users.storage.live.com
-,,,2015-11-16,cid-15b9270dcce90e5c.users.storage.live.com
-,,,2015-11-09,cid-22767e7f1361cc89.users.storage.live.com
-,,,2015-11-08,11ffe47609535350.users.storage.live.com
-,,,2015-11-08,ad10f33728e8bffc.users.storage.live.com
-,,,2015-11-03,48e9078acbc624a9.users.storage.live.com
-,,,2015-11-03,a1af6e8af1a3e8e1.users.storage.live.com
-,,,2015-11-03,78bc91c831ba8c9b.users.storage.live.com
-,,,2015-11-03,cid-05637b49d2e652f3.users.storage.live.com
-,,,2015-11-03,17bc9ea16979fcee.users.storage.live.com
-,,,2015-11-03,36d6c3c2797aff4e.users.storage.live.com
-,,,2015-11-02,cid-1c709a628841536f.users.storage.live.com
-,,,2015-11-02,cid-049efc3d49b07cd2.users.storage.live.com
-,,,2015-11-02,cid-11c072cfd546e52e.users.storage.live.com
-,,,2015-11-01,98175e72d8257b1a.users.storage.live.com
-,,,2015-10-11,cid-23387b50c5bc3352.users.storage.live.com
-,,,2015-10-02,85328715a70abd00.users.storage.live.com
-,,,2015-09-30,cid-09add8815f139938.users.storage.live.com
-,,,2015-09-23,cid-01d5666d7301526d.users.storage.live.com
-,,,2015-09-02,cid-228af99d512e4c35.users.storage.live.com
-,,,2015-07-07,1s8ciq-sn3301.files.1drv.com
-,,,2015-05-19,0jx4eg-sn3301.files.1drv.com
-,,,2015-05-06,0vtzhq-sn3301.files.1drv.com
-,,,2015-04-21,3j3dgq-sn3301.files.1drv.com
-,,,2015-04-21,5gf5fw-sn3301.files.1drv.com
-,,,2015-04-21,755spg-sn3301.files.1drv.com
-,,,2015-04-21,4563sa-sn3301.files.1drv.com
-,,,2015-04-21,3vsbqw-sn3301.files.1drv.com
-,,,2015-04-20,2itsya-sn3301.files.1drv.com
-,,,2015-04-20,5qwqbg-sn3301.files.1drv.com
-,,,2015-03-28,38d703428d47c181.users.storage.live.com
-,,,2015-03-26,7puhyb.docs.live.net
-,,,2015-03-26,4fhezq-sn3301.files.1drv.com
-,,,2015-03-26,4hvdhq-sn3301.files.1drv.com
-,,,2015-03-26,119c2bacd9bbc404.users.storage.live.com
-,,,2015-03-24,3tkuj1.docs.live.net
-,,,2015-03-20,38cnup.docs.live.net
-,,,2015-03-19,cid-328db16b63bf4215.users.storage.live.com
-,,,2015-03-17,1cy16w-sn3301.files.1drv.com
-,,,2015-03-17,3qv6ra-sn3301.files.1drv.com
-,,,2015-03-12,cid-39bcc129d38e8198.users.storage.live.com
-,,,2015-03-01,byfiles.storage.msn.com
-,,,2015-02-28,cid-1e8a717adc5bca0d.users.storage.live.com
-,,,2015-02-26,3e19lw-sn3301.files.1drv.com
-,,,2014-09-30,1drv.com
-,,,2014-07-30,80f41a322f31a6c3.users.storage.live.com
-,,,2014-07-30,37d2fc42425670ec.users.storage.live.com
-,,,2014-06-04,d.docs.live.net
-134.170.120.72,AS8075 Microsoft Corporation,US,2015-11-27,byfiles.storage.msn.com
-,,,2015-11-25,cid-281bc7b509f6a840.users.storage.live.com
-,,,2015-11-25,cid-2d2cebeba4da1bd0.users.storage.live.com
-,,,2015-11-25,cid-1b71dfc64e03de92.users.storage.live.com
-,,,2015-11-25,cid-256813423a854d2b.users.storage.live.com
-,,,2015-11-25,cid-116ab4c8ac747e15.users.storage.live.com
-,,,2015-11-25,cid-321486f0f32f8b96.users.storage.live.com
-,,,2015-11-25,cid-2f1e2d456d6e16d.users.storage.live.com
-,,,2015-11-25,38d703428d47c181.users.storage.live.com
-,,,2015-11-18,cid-125ce214456c65d7.users.storage.live.com
-,,,2015-11-17,cid-318017116d299390.users.storage.live.com
-,,,2015-11-17,cid-2266b2e4bb566cc8.users.storage.live.com
-,,,2015-11-17,cid-32e658f28ddfca3c.users.storage.live.com
-,,,2015-11-17,cid-1a4ccc59cf725872.users.storage.live.com
-,,,2015-11-17,cid-328db16b63bf4215.users.storage.live.com
-,,,2015-11-17,cid-18b4d5e02ea11dbd.users.storage.live.com
-,,,2015-11-17,cid-2b8e28009946661b.users.storage.live.com
-,,,2015-11-17,cid-39bcc129d38e8198.users.storage.live.com
-,,,2015-11-16,cid-28d748b65c899d0f.users.storage.live.com
-,,,2015-11-16,cid-13f2f9322e3c831e.users.storage.live.com
-,,,2015-11-16,cid-1d6fd188c2b01caa.users.storage.live.com
-,,,2015-11-09,cid-3d822aaa85f246c8.users.storage.live.com
-,,,2015-11-09,cid-2ebf85c857eb4ed2.users.storage.live.com
-,,,2015-11-09,cid-2ea770dc42aa8223.users.storage.live.com
-,,,2015-11-08,cid-2dd116d2b18e0de.users.storage.live.com
-,,,2015-11-03,a10e87259a5aaa17.users.storage.live.com
-,,,2015-11-03,cid-02a33ba9da8bc08a.users.storage.live.com
-,,,2015-11-03,ad10f33728e8bffc.users.storage.live.com
-,,,2015-11-03,a4c0fe341ef8acb7.users.storage.live.com
-,,,2015-11-03,cid-0bc9190f03c0277a.users.storage.live.com
-,,,2015-11-02,cid-17d3448841af07e4.users.storage.live.com
-,,,2015-11-02,cid-16f107d9adb9b1b5.users.storage.live.com
-,,,2015-11-01,a3774ae6ebfc4198.users.storage.live.com
-,,,2015-10-30,cid-4549aa2a1cf1eba5.users.storage.live.com
-,,,2015-10-30,cid-210f72fc2c1faf3e.users.storage.live.com
-,,,2015-09-30,cid-23af78d057110ba7.users.storage.live.com
-,,,2015-09-23,cid-3015f2c47c885563.users.storage.live.com
-,,,2015-09-11,9289303d83206365.users.storage.live.com
-,,,2015-03-31,cid-40763a7ea272d0b6.users.storage.live.com
-,,,2015-03-31,cid-37511125e65818f0.users.storage.live.com
-,,,2015-03-31,cid-3bb382a1c831de80.users.storage.live.com
-,,,2015-03-26,cid-1903e8e0c53b19ac.users.storage.live.com
-,,,2015-03-17,a01b504e2177066e.users.storage.live.com
-,,,2015-03-10,cid-21bd14b2424be3f6.users.storage.live.com
-,,,2015-03-09,cid-1e8a717adc5bca0d.users.storage.live.com
-,,,2015-02-14,cid-12140bd9463a3077.users.storage.live.com
-,,,2015-01-26,docs.live.net
-,,,2014-09-30,1drv.com
-,,,2014-07-30,25ae24a1bbf436fe.users.storage.live.com
-,,,2014-06-18,d.docs.live.net
-134.170.120.96,AS8075 Microsoft Corporation,US,2016-01-11,cid-54689d10c463d9a0.users.storage.live.com
-,,,2015-12-11,cid-d2f5f083495f1200.users.storage.live.com
-,,,2015-11-25,cid-17ffba8c8cce8302.users.storage.live.com
-,,,2015-11-25,cid-23391e2f195c14a3.users.storage.live.com
-,,,2015-11-25,cid-2b2886fb9f922c95.users.storage.live.com
-,,,2015-11-25,cid-159e08ecae06f720.users.storage.live.com
-,,,2015-11-25,cid-1c824bf5381fbc09.users.storage.live.com
-,,,2015-11-25,82c5a15e78a653de.users.storage.live.com
-,,,2015-11-17,cid-33292509dfe213a5.users.storage.live.com
-,,,2015-11-17,cid-37511125e65818f0.users.storage.live.com
-,,,2015-11-17,cid-38488f52e03c4700.users.storage.live.com
-,,,2015-11-17,cid-3bb382a1c831de80.users.storage.live.com
-,,,2015-11-17,cid-2bf75ea073929bfa.users.storage.live.com
-,,,2015-11-17,cid-1e8a717adc5bca0d.users.storage.live.com
-,,,2015-11-17,cid-287f8bb6318c864f.users.storage.live.com
-,,,2015-11-17,cid-39fd99e5975f0110.users.storage.live.com
-,,,2015-11-16,cid-377bcdf8482c663e.users.storage.live.com
-,,,2015-11-16,cid-2ead72bfa13f60d6.users.storage.live.com
-,,,2015-11-09,cid-3056fc66e487f094.users.storage.live.com
-,,,2015-11-09,cid-32b4833ec46d342e.users.storage.live.com
-,,,2015-11-08,a4c0fe341ef8acb7.users.storage.live.com
-,,,2015-11-08,17bc9ea16979fcee.users.storage.live.com
-,,,2015-11-06,cid-2a4593d487fb4f38.users.storage.live.com
-,,,2015-11-03,cid-12140bd9463a3077.users.storage.live.com
-,,,2015-11-03,cid-122a37b7e839ee7b.users.storage.live.com
-,,,2015-11-03,cid-11a23cb9c9d613ff.users.storage.live.com
-,,,2015-11-03,11ffe47609535350.users.storage.live.com
-,,,2015-11-02,cid-1b3506c11dc885ef.users.storage.live.com
-,,,2015-11-01,78a1e58f447af14b.users.storage.live.com
-,,,2015-09-12,cid-40763a7ea272d0b6.users.storage.live.com
-,,,2015-09-11,aadf7d310e3f6814.users.storage.live.com
-,,,2015-09-07,cid-3015f2c47c885563.users.storage.live.com
-,,,2015-08-11,cid-23387b50c5bc3352.users.storage.live.com
-,,,2015-05-14,byfiles.storage.msn.com
-,,,2015-04-20,cid-2ea770dc42aa8223.users.storage.live.com
-,,,2015-03-26,cid-17a5f0be573e0bad.users.storage.live.com
-,,,2015-03-26,cid-21bd14b2424be3f6.users.storage.live.com
-,,,2015-03-26,cid-39bcc129d38e8198.users.storage.live.com
-,,,2015-03-19,cid-02a33ba9da8bc08a.users.storage.live.com
-,,,2015-03-18,cid-2b8e28009946661b.users.storage.live.com
-,,,2015-03-17,cid-28d748b65c899d0f.users.storage.live.com
-,,,2015-03-17,cid-12c7e8833d7ee75.users.storage.live.com
-,,,2015-03-17,cid-18b4d5e02ea11dbd.users.storage.live.com
-,,,2015-03-09,cid-1b0431f8e70fcd75.users.storage.live.com
-,,,2015-02-28,a01b504e2177066e.users.storage.live.com
-,,,2015-02-24,byfiles.storage.live.com
-,,,2014-11-09,1drv.com
-,,,2014-08-01,ac19b0f53e7642bf.users.storage.live.com
-,,,2014-08-01,a171f807b319477e.users.storage.live.com
-,,,2014-06-27,d.docs.live.net
-134.170.178.97,AS8075 Microsoft Corporation,US,2016-10-11,device.auth.xboxlive.com.akadns.net
-,,,2016-09-16,device.auth.xboxlive.com
-,,,2016-04-26,device.auth.gtm.xboxlive.com
-134.170.235.16,AS8075 Microsoft Corporation,US,,
-137.116.81.24,AS8075 Microsoft Corporation,US,2018-04-05,ampudc.udc0.glbdns2.microsoft.com
-,,,2014-11-17,msn.com
-,,,2014-10-04,otf.msn.com
-157.56.57.5,AS8075 Microsoft Corporation,US,2018-03-11,diagnostics.support.microsoft.com
-,,,2016-12-10,diagnostics.support.microsoft.akadns.net
-157.56.74.250,AS8075 Microsoft Corporation,US,2014-02-24,beta.t.urs.microsoft.com
-,,,2013-10-08,t.urs.microsoft.com
-,,,2013-04-01,t.urs.microsoft.com.nsatc.net
-,,,2013-04-01,telemetry.urs.microsoft.com
-157.56.91.77,AS8075 Microsoft Corporation,US,2014-11-08,atdmt.com
-,,,2014-07-14,choice.microsoft.com.nsatc.net
-,,,2014-02-25,choice.bing.com
-,,,2014-02-25,choice.msn.com
-,,,2014-01-28,choice.atdmt.com
-,,,2014-01-28,choice.live.com
-,,,2013-10-21,choice.microsoft.com
-157.56.106.184,AS8075 Microsoft Corporation,US,2018-03-09,win10.ipv6.microsoft.com.nsatc.net
-,,,2018-02-05,win1711.ipv6.microsoft.com
-,,,2017-09-14,157.56.106.184
-,,,2017-09-02,win8.ipv6.microsoft.com.nsatc.net
-,,,2017-08-29,win1710.ipv6.microsoft.com
-,,,2017-05-17,onpremwindows.ipv6.microsoft.com.akadns.net
-,,,2017-03-10,onprembn11.ipv6.microsoft.com.akadns.net
-,,,2016-12-01,bnonprem.ipv6.microsoft.com.akadns.net
-,,,2016-11-25,win8.ipv6.microsoft.com
-,,,2016-11-06,win10.ipv6.microsoft.com
-,,,2014-12-01,teredo.ipv6.microsoft.com.nsatc.net
-,,,2013-09-15,teredo.ipv6.microsoft.com
-157.56.106.185,AS8075 Microsoft Corporation,US,,
-157.56.106.189,AS8075 Microsoft Corporation,US,2018-04-01,win10.ipv6.microsoft.com.nsatc.net
-,,,2018-03-26,win8.ipv6.microsoft.com.nsatc.net
-,,,2017-09-18,win1710.ipv6.microsoft.com
-,,,2017-03-10,onpremwindows.ipv6.microsoft.com.akadns.net
-,,,2016-12-02,win10.ipv6.microsoft.com
-,,,2016-09-03,win8.ipv6.microsoft.com
-,,,2013-12-04,teredo.ipv6.microsoft.com
-,,,2013-09-25,teredo.ipv6.microsoft.com.nsatc.net
-157.56.113.217,AS8075 Microsoft Corporation,US,2014-09-23,w.apprep.smartscreen.microsoft.com.nsatc.net
-,,,2014-09-16,apprep.smartscreen.microsoft.com.nsatc.net
-157.56.121.89,AS8075 Microsoft Corporation,IE,2014-09-15,diagnostics.support.microsoft.akadns.net
-,,,2014-06-23,microsoft.com
-,,,2014-06-12,diagnostics.support.microsoft.com
-157.56.124.87,AS8075 Microsoft Corporation,IE,2017-04-11,db3wns2011111.wns.windows.com
-157.56.149.250,AS8075 Microsoft Corporation,US,2015-10-30,t.urs.microsoft.com.nsatc.net
-,,,2014-03-03,beta.t.urs.microsoft.com
-,,,2013-10-25,telemetry.urs.microsoft.com
-,,,2013-10-15,t.urs.microsoft.com
-168.61.24.141,AS8075 Microsoft Corporation,US,2018-04-03,telemetry.appex.search.prod.ms.akadns.net
-,,,2018-03-11,telemetry.appex.bing.net
-168.61.146.25,AS8075 Microsoft Corporation,US,2017-11-24,prod.nexusrules.live.com.akadns.net
-,,,2017-10-16,nexusrules.officeapps.live.com
-168.61.149.17,AS8075 Microsoft Corporation,US,2017-11-26,nexusrules.officeapps.live.com
-,,,2017-11-07,prod.nexusrules.live.com.akadns.net
-168.61.172.71,AS8075 Microsoft Corporation,US,2017-10-03,nexusrules.officeapps.live.com
-,,,2017-05-27,prod.nexusrules.live.com.akadns.net
-168.62.187.13,AS8075 Microsoft Corporation,US,2018-01-09,telemetry.appex.search.prod.ms.akadns.net
-168.63.100.61,AS8075 Microsoft Corporation,NL,2017-11-22,nexus.officeapps.live.com
-,,,2017-05-18,prod-w.nexus.live.com.akadns.net
-168.63.108.233,AS8075 Microsoft Corporation,NL,2016-06-18,telemetry.appex.search.prod.ms.akadns.net
-191.236.155.80,AS8075 Microsoft Corporation,US,2017-01-30,prod-w.nexus.live.com.akadns.net
-,,,2015-06-22,nexus.officeapps.live.com
-191.237.218.239,AS8075 Microsoft Corporation,IE,2017-09-28,nexus.officeapps.live.com
-,,,2017-06-27,prod-w.nexus.live.com.akadns.net
-191.239.54.52,AS8075 Microsoft Corporation,US,2018-03-25,telecommand4.cloudapp.net
-,,,2018-03-02,tele.trafficmanager.net
-207.46.41.202,AS8075 Microsoft Corporation,US,,
-207.46.134.255,AS8075 Microsoft Corporation,HK,2017-11-20,prod.nexusrules.live.com.akadns.net
-,,,2017-08-30,nexusrules.officeapps.live.com
-207.68.166.254,AS8075 Microsoft Corporation,US,2015-12-09,survey.watson.microsoft.com
+134.170.52.151,,,,
+134.170.107.24,,,,
+134.170.107.48,,,,
+134.170.107.96,,,,
+134.170.108.24,,,,
+134.170.108.48,,,,
+134.170.108.72,,,,
+134.170.108.224,,,,
+134.170.120.24,,,,
+134.170.120.48,,,,
+134.170.120.72,,,,
+134.170.120.96,,,,
+134.170.178.97,,,,
+134.170.235.16,,,,
+137.116.81.24,,,,
+157.56.57.5,,,,
+157.56.74.250,,,,
+157.56.91.77,,,,
+157.56.106.184,,,,
+157.56.106.185,,,,
+157.56.106.189,,,,
+157.56.113.217,,,,
+157.56.121.89,,,,
+157.56.124.87,,,,
+157.56.149.250,,,,
+168.61.24.141,,,,
+168.61.146.25,,,,
+168.61.149.17,,,,
+168.61.172.71,,,,
+168.62.187.13,,,,
+168.63.100.61,,,,
+168.63.108.233,,,,
+191.236.155.80,,,,
+191.237.218.239,,,,
+191.239.54.52,AS8075 Microsoft Corporation,US,2018-05-04,telecommand4.cloudapp.net
+,,,2018-05-01,tele.trafficmanager.net
+207.46.41.202,,,,
+207.46.134.255,,,,
+207.68.166.254,,,,
