@@ -17,6 +17,8 @@ iptables -I FORWARD -j DROP -d 23.103.189.125
 iptables -I FORWARD -j DROP -d 23.103.189.126
 iptables -I FORWARD -j DROP -d 23.103.189.157
 iptables -I FORWARD -j DROP -d 23.103.189.158
+iptables -I FORWARD -j DROP -d 40.77.226.249
+iptables -I FORWARD -j DROP -d 40.77.226.250
 iptables -I FORWARD -j DROP -d 40.77.229.35
 iptables -I FORWARD -j DROP -d 40.77.229.38
 iptables -I FORWARD -j DROP -d 40.77.229.53
