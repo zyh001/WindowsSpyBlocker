@@ -1,85 +1,89 @@
-DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY
-2018-02-24 02:51:38,C:\Windows\System32\svchost.exe,tcp,40.77.226.249,443,https,Microsoft Azure,Ireland
-2018-02-24 02:56:55,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,40.77.226.249,443,https,Microsoft Azure,Ireland
-2018-02-24 02:57:02,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.138.148.89,80,http,Microsoft Azure,Ireland
-2018-02-24 02:57:04,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.107.4.50,80,http,Microsoft Azure,United States
-2018-02-24 02:57:04,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.115.62,443,https,Microsoft Corporation,United States
-2018-02-24 02:57:20,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,40.77.226.250,443,https,Microsoft Azure,Ireland
-2018-02-24 03:55:25,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.178.178.16,443,https,Microsoft Azure,Ireland
-2018-02-24 22:48:41,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.58,443,https,Microsoft Azure,United States
-2018-02-25 00:00:03,C:\Windows\System32\svchost.exe,udp,51.141.32.51,123,ntp,Microsoft Azure,United Kingdom
-2018-02-25 00:27:18,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.252.190,443,https,Microsoft Hosting,United States
-2018-02-25 01:46:57,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.125,443,https,Microsoft Corporation,United States
-2018-02-25 02:02:54,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,co2.sls.microsoft.com,443,https,,
-2018-02-25 03:27:48,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.248,443,https,Microsoft Corporation,United States
-2018-02-25 20:01:39,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.163.221,443,https,Microsoft Hosting,United States
-2018-02-26 03:18:12,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.103.189.157,443,https,Microsoft Azure,United States
-2018-02-26 03:18:14,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,8.253.186.113,80,http,Level 3 Communications,United States
-2018-02-26 17:04:54,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.96.123,443,https,Microsoft Azure,United States
-2018-02-27 01:47:20,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.123,443,https,Microsoft Corporation,United States
-2018-02-27 01:47:41,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,8.253.186.114,80,http,Level 3 Communications,United States
-2018-02-27 04:00:06,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.118,443,https,Microsoft Corporation,United States
-2018-02-27 11:06:56,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.190,443,https,Microsoft Azure,United States
-2018-02-28 01:47:13,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.51.247,443,https,Microsoft Corporation,United States
-2018-02-28 08:52:59,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.163.222,443,https,Microsoft Hosting,United States
-2018-03-01 01:46:27,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,66.119.144.157,443,https,Microsoft Corporation,United States
-2018-03-02 01:47:55,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.186,443,https,Microsoft Azure,United States
-2018-03-02 03:49:14,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.138.148.159,80,http,Microsoft Azure,Ireland
-2018-03-02 18:10:27,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.188,443,https,Microsoft Azure,United States
-2018-03-03 01:46:29,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.103.189.158,443,https,Microsoft Azure,United States
-2018-03-03 12:45:19,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.51.190,443,https,Microsoft Corporation,United States
-2018-03-03 19:12:33,C:\Program Files\Windows Defender\MpCmdRun.exe,tcp,52.169.71.150,443,https,Microsoft Azure,Ireland
-2018-03-04 00:00:12,C:\Windows\System32\svchost.exe,udp,51.140.127.197,123,ntp,Microsoft Azure,United Kingdom
-2018-03-04 02:32:38,C:\Windows\System32\svchost.exe,udp,169.254.202.44,57773,,,
-2018-03-04 02:32:40,System,udp,169.254.202.44,137,netbios-ns,,
-2018-03-04 02:41:38,C:\Windows\System32\svchost.exe,udp,192.168.137.1,54609,,,
-2018-03-05 04:46:51,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.189,443,https,Microsoft Corporation,United States
-2018-03-07 00:30:33,C:\Windows\System32\svchost.exe,udp,169.254.127.28,50823,,,
-2018-03-07 00:30:34,System,udp,169.254.127.28,137,netbios-ns,,
-2018-03-07 00:56:11,C:\Windows\System32\svchost.exe,udp,169.254.164.175,58853,,,
-2018-03-07 00:56:12,System,udp,169.254.164.175,137,netbios-ns,,
-2018-03-07 01:16:24,C:\Windows\System32\svchost.exe,udp,52.178.161.41,123,ntp,Microsoft Azure,Ireland
-2018-03-07 03:17:38,C:\Windows\System32\svchost.exe,tcp,13.107.4.50,80,http,Microsoft Azure,United States
-2018-03-07 03:17:38,C:\Windows\System32\svchost.exe,tcp,191.234.72.186,443,https,Microsoft Azure,United States
-2018-03-07 03:23:46,C:\Windows\System32\CompatTelRunner.exe,tcp,40.77.226.249,443,https,Microsoft Azure,Ireland
-2018-03-07 03:24:07,C:\Windows\System32\svchost.exe,tcp,40.77.226.250,443,https,Microsoft Azure,Ireland
-2018-03-07 18:32:45,C:\Windows\System32\svchost.exe,tcp,65.55.163.222,443,https,Microsoft Hosting,United States
-2018-03-08 00:24:56,<unknown process>,tcp,65.55.252.190,443,https,Microsoft Hosting,United States
-2018-03-08 03:17:55,C:\Windows\System32\svchost.exe,tcp,191.234.72.183,443,https,Microsoft Azure,United States
-2018-03-08 03:55:02,C:\Windows\System32\DeviceDisplayObjectProvider.exe,tcp,52.138.148.159,80,http,Microsoft Azure,Ireland
-2018-03-08 03:55:04,C:\Windows\System32\svchost.exe,tcp,157.56.96.123,443,https,Microsoft Azure,United States
-2018-03-08 03:55:19,<unknown process>,tcp,40.77.226.249,443,https,Microsoft Azure,Ireland
-2018-03-08 15:16:16,C:\Windows\System32\svchost.exe,tcp,65.55.163.221,443,https,Microsoft Hosting,United States
-2018-03-09 03:18:02,C:\Windows\System32\svchost.exe,tcp,8.253.186.113,80,http,Level 3 Communications,United States
-2018-03-09 09:02:48,C:\Windows\System32\svchost.exe,tcp,134.170.58.118,443,https,Microsoft Corporation,United States
-2018-03-09 23:09:56,C:\Windows\System32\CompatTelRunner.exe,tcp,65.55.252.190,443,https,Microsoft Hosting,United States
-2018-03-10 03:17:41,C:\Windows\System32\svchost.exe,tcp,191.234.72.188,443,https,Microsoft Azure,United States
-2018-03-10 03:26:38,C:\Windows\System32\svchost.exe,tcp,134.170.51.247,443,https,Microsoft Corporation,United States
-2018-03-10 04:27:51,C:\Windows\System32\svchost.exe,tcp,134.170.165.249,443,https,Microsoft Corporation,United States
-2018-03-11 03:32:12,C:\Windows\System32\svchost.exe,tcp,51.140.40.236,443,https,Microsoft Azure,United Kingdom
-2018-03-11 18:26:36,C:\Windows\System32\svchost.exe,tcp,134.170.58.189,443,https,Microsoft Corporation,United States
-2018-03-12 03:18:29,C:\Windows\System32\svchost.exe,tcp,134.170.115.62,443,https,Microsoft Corporation,United States
-2018-03-14 02:49:42,C:\Windows\System32\DeviceDisplayObjectProvider.exe,tcp,52.178.147.240,80,http,Microsoft Azure,Ireland
-2018-03-14 03:17:47,C:\Windows\System32\svchost.exe,tcp,23.103.189.158,443,https,Microsoft Azure,United States
-2018-03-14 07:04:29,C:\Windows\System32\svchost.exe,tcp,23.103.189.157,443,https,Microsoft Azure,United States
-2018-03-14 21:35:47,C:\Windows\System32\svchost.exe,tcp,52.138.216.83,443,https,Microsoft Azure,Ireland
-2018-03-15 00:15:57,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.233.199.249,443,https,Microsoft Azure,Netherlands
-2018-03-15 02:37:30,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,51.140.40.236,443,https,Microsoft Azure,United Kingdom
-2018-03-15 05:20:44,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.138.216.83,443,https,Microsoft Azure,Ireland
-2018-03-15 21:11:04,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.249,443,https,Microsoft Corporation,United States
-2018-03-17 12:37:53,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.251,443,https,Microsoft Corporation,United States
-2018-03-18 03:17:52,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.183,443,https,Microsoft Azure,United States
-2018-03-19 00:03:29,C:\Windows\System32\svchost.exe,udp,169.254.177.157,54983,,,
-2018-03-19 00:03:31,System,udp,169.254.177.157,137,netbios-ns,,
-2018-03-19 01:31:05,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.62,443,https,Microsoft Azure,United States
-2018-03-19 03:45:21,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.164.240.59,80,http,Microsoft Azure,Ireland
-2018-03-19 21:57:47,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.60,443,https,Microsoft Azure,United States
-2018-03-22 12:15:11,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.121,443,https,Microsoft Corporation,United States
-2018-03-23 03:20:17,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,8.248.233.254,80,http,Level 3 Communications,United States
-2018-03-25 00:00:24,C:\Windows\System32\svchost.exe,udp,52.166.120.77,123,ntp,Microsoft Azure,Netherlands
-2018-03-27 02:18:05,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,8.248.247.254,80,http,Level 3 Communications,United States
-2018-03-28 11:00:24,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.78.233.133,443,https,Microsoft Azure,United States
-2018-04-01 23:00:34,C:\Windows\System32\svchost.exe,udp,13.79.239.69,123,ntp,Microsoft Azure,Ireland
-2018-04-02 14:08:30,C:\Windows\System32\svchost.exe,udp,169.254.2.64,56707,,,
-2018-04-02 14:08:32,System,udp,169.254.2.64,137,netbios-ns,,
-2018-04-03 02:18:47,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,8.250.159.254,80,http,Level 3 Communications,United States
+DATE,EXE,PROTOCOL,HOST,PORT,PORT_NAME,ORGANIZATION,COUNTRY
+2018-04-07 21:46:18,C:\Windows\System32\svchost.exe,tcp,52.138.216.83,443,https,AS8075 Microsoft Corporation,IE
+2018-04-07 21:50:35,C:\Windows\System32\svchost.exe,tcp,2.18.245.97,80,http,AS20940 Akamai International B.V.,EU
+2018-04-07 21:52:39,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,vip1.ue-anycast1.cachefly.net,80,http,,
+2018-04-07 22:09:21,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.252.190,443,https,AS8075 Microsoft Corporation,US
+2018-04-07 23:00:03,C:\Windows\System32\svchost.exe,udp,51.141.32.51,123,ntp,AS8075 Microsoft Corporation,GB
+2018-04-07 23:22:49,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,40.77.226.249,443,https,AS8075 Microsoft Corporation,IE
+2018-04-08 00:16:18,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.138.216.83,443,https,AS8075 Microsoft Corporation,IE
+2018-04-08 01:19:29,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.245.121,80,http,AS20940 Akamai International B.V.,EU
+2018-04-08 01:19:40,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,13.107.4.50,80,http,AS8068 Microsoft Corporation,US
+2018-04-08 01:19:40,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.51.247,443,https,AS8075 Microsoft Corporation,US
+2018-04-08 01:22:58,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,40.77.226.250,443,https,AS8075 Microsoft Corporation,IE
+2018-04-08 02:20:29,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.123,443,https,AS8075 Microsoft Corporation,US
+2018-04-08 13:06:57,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.249,443,https,AS8075 Microsoft Corporation,US
+2018-04-09 02:07:51,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.103.189.157,443,https,AS8075 Microsoft Corporation,US
+2018-04-09 08:53:28,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-178-79-232-41.dus.llnw.net,80,http,,
+2018-04-09 08:53:28,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds469.lcy.llnw.net,80,http,,
+2018-04-09 08:53:29,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.62,443,https,AS8075 Microsoft Corporation,US
+2018-04-10 02:06:28,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.115.62,443,https,AS8075 Microsoft Corporation,US
+2018-04-10 02:17:46,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.138.148.159,80,http,AS8075 Microsoft Corporation,IE
+2018-04-10 06:11:06,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.188,443,https,AS8075 Microsoft Corporation,US
+2018-04-10 10:51:32,C:\Windows\System32\svchost.exe,udp,169.254.127.28,52460,,,
+2018-04-10 10:51:34,System,udp,169.254.127.28,137,netbios-ns,,
+2018-04-11 01:28:17,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.245.66,80,http,AS20940 Akamai International B.V.,EU
+2018-04-11 01:28:47,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-95-140-225-139.toj.llnw.net,80,http,,
+2018-04-11 01:28:47,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds20469.lcy.llnw.net,80,http,,
+2018-04-11 01:28:47,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds416.lcy.llnw.net,80,http,,
+2018-04-11 01:31:59,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds489.lcy.llnw.net,80,http,,
+2018-04-11 01:31:59,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,87.248.218.36,80,http,AS22822 Limelight Networks. Inc.,EU
+2018-04-11 02:05:41,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.169.71.150,443,https,AS8075 Microsoft Corporation,IE
+2018-04-11 02:23:51,C:\Windows\System32\svchost.exe,tcp,2.18.245.121,80,http,AS20940 Akamai International B.V.,EU
+2018-04-11 02:30:22,C:\Windows\System32\CompatTelRunner.exe,tcp,52.138.216.83,443,https,AS8075 Microsoft Corporation,IE
+2018-04-11 02:30:49,C:\Windows\System32\svchost.exe,tcp,51.140.40.236,443,https,AS8075 Microsoft Corporation,GB
+2018-04-11 02:51:49,C:\Windows\System32\svchost.exe,tcp,40.77.226.250,443,https,AS8075 Microsoft Corporation,IE
+2018-04-11 03:30:59,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,66.119.144.157,443,https,AS8075 Microsoft Corporation,US
+2018-04-11 22:54:33,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.244.145,80,http,AS20940 Akamai International B.V.,EU
+2018-04-12 03:30:10,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,157.56.96.123,443,https,AS8075 Microsoft Corporation,US
+2018-04-12 17:40:49,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.244.90,80,http,AS20940 Akamai International B.V.,EU
+2018-04-12 17:40:49,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.163.221,443,https,AS8075 Microsoft Corporation,US
+2018-04-12 23:27:03,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.22.119.33,80,http,AS20940 Akamai International B.V.,GB
+2018-04-12 23:27:03,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.20.193.233,80,http,AS16625 Akamai Technologies. Inc.,EU
+2018-04-13 01:16:27,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.58,443,https,AS8075 Microsoft Corporation,US
+2018-04-13 14:16:27,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.189,443,https,AS8075 Microsoft Corporation,US
+2018-04-14 01:52:45,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,51.140.40.236,443,https,AS8075 Microsoft Corporation,GB
+2018-04-14 03:31:20,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.248,443,https,AS8075 Microsoft Corporation,US
+2018-04-14 10:20:19,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.245.19,80,http,AS20940 Akamai International B.V.,EU
+2018-04-14 10:28:02,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-95-140-225-11.toj.llnw.net,80,http,,
+2018-04-14 10:28:02,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds333.lcy.llnw.net,80,http,,
+2018-04-14 23:00:05,C:\Windows\System32\svchost.exe,udp,52.166.120.77,123,ntp,AS8075 Microsoft Corporation,NL
+2018-04-15 02:18:20,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.164.240.59,80,http,AS8075 Microsoft Corporation,IE
+2018-04-15 03:30:14,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,65.55.163.222,443,https,AS8075 Microsoft Corporation,US
+2018-04-17 03:30:16,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,23.103.189.158,443,https,AS8075 Microsoft Corporation,US
+2018-04-18 03:30:18,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.118,443,https,AS8075 Microsoft Corporation,US
+2018-04-20 05:35:55,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.121,443,https,AS8075 Microsoft Corporation,US
+2018-04-22 23:00:17,C:\Windows\System32\svchost.exe,udp,51.140.127.197,123,ntp,AS8075 Microsoft Corporation,GB
+2018-04-23 13:20:11,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.245.42,80,http,AS20940 Akamai International B.V.,EU
+2018-04-24 02:14:28,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,2.18.245.114,80,http,AS20940 Akamai International B.V.,EU
+2018-04-24 09:00:43,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.58.125,443,https,AS8075 Microsoft Corporation,US
+2018-04-25 21:55:33,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-178-79-208-129.ams.llnw.net,80,http,,
+2018-04-25 21:55:33,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds335.lcy.llnw.net,80,http,,
+2018-04-25 21:55:33,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.232.80.60,443,https,AS8075 Microsoft Corporation,US
+2018-04-25 21:55:34,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds21257.lon.llnw.net,80,http,,
+2018-04-25 21:55:35,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds843.lon.llnw.net,80,http,,
+2018-04-26 02:32:25,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.178.147.240,80,http,AS8075 Microsoft Corporation,IE
+2018-04-26 03:30:34,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.190,443,https,AS8075 Microsoft Corporation,US
+2018-04-26 15:45:39,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-95-140-228-56.arn1.llnw.net,80,http,,
+2018-04-26 15:45:39,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds468.lcy.llnw.net,80,http,,
+2018-04-26 15:45:41,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds406.lcy.llnw.net,80,http,,
+2018-04-26 15:45:43,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,87.248.218.76,80,http,AS22822 Limelight Networks. Inc.,EU
+2018-04-27 03:30:28,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-87-248-222-187.cdg.llnw.net,80,http,,
+2018-04-27 03:30:29,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds20440.lcy.llnw.net,80,http,,
+2018-04-27 13:31:35,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds334.lcy.llnw.net,80,http,,
+2018-04-27 13:31:37,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds21258.lon.llnw.net,80,http,,
+2018-04-28 09:37:56,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds459.lcy.llnw.net,80,http,,
+2018-04-28 09:37:57,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds1325.lon.llnw.net,80,http,,
+2018-04-28 09:37:58,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds426.lcy.llnw.net,80,http,,
+2018-04-28 09:38:28,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds21313.lon.llnw.net,80,http,,
+2018-04-29 05:26:00,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.186,443,https,AS8075 Microsoft Corporation,US
+2018-04-30 22:50:43,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-87-248-217-139.lon.llnw.net,80,http,,
+2018-04-30 22:50:43,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds320.lcy.llnw.net,80,http,,
+2018-04-30 22:50:44,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,134.170.165.251,443,https,AS8075 Microsoft Corporation,US
+2018-04-30 22:50:44,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds869.lon.llnw.net,80,http,,
+2018-05-02 01:14:08,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,52.138.148.89,80,http,AS8075 Microsoft Corporation,IE
+2018-05-02 03:30:35,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds20415.lcy.llnw.net,80,http,,
+2018-05-04 09:42:32,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,https-178-79-232-189.dus.llnw.net,80,http,,
+2018-05-04 09:42:32,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds21238.lon.llnw.net,80,http,,
+2018-05-04 09:42:33,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,191.234.72.183,443,https,AS8075 Microsoft Corporation,US
+2018-05-04 09:42:33,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,cds484.lcy.llnw.net,80,http,,
+2018-05-05 15:14:34,C:\Program Files (x86)\Proxifier\Proxifier.exe,tcp,ocsp.comodoca.com,80,http,,
