@@ -310,7 +310,7 @@ func extractEventLog(args ...string) (err error) {
 func _writeCsvEventsDateFile(filename string, events EventsSortDate) {
 	csvFile, _ := os.Create(path.Join(pathu.Logs, filename))
 	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvFile.Name(), pathu.Current))
-	csvFile.WriteString("DATE,EXE,PID,ACCOUNT,HOST,ORGANIZATION,COUNTRY")
+	csvFile.WriteString("DATE,EXE,PROTOCOL,HOST,PORT,PORT_NAME,ORGANIZATION,COUNTRY")
 	sort.Sort(events)
 	for _, event := range events {
 		csvFile.WriteString(fmt.Sprintf("\n%s,%s,%s,%s,%v,%s", event.Date.Format("2006-01-02 15:04:05"), event.Process, event.Protocol, event.Host, event.Port, event.PortName))
