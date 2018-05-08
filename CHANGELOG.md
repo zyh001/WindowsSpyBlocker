@@ -1,5 +1,22 @@
 # Changelog
 
+## 4.13.0 (2018/05/08)
+
+* Update hosts for Windows 10 spy and update
+* Move db*.wns.windows.com to update for Windows 10
+* Update IPs for Windows 10 extra, spy and update
+* Move 111.221.29.40 to spy for Windows 10
+* Move 40.77.226 to update for Windows 10
+* Update hosts for Windows 8.1 spy and update
+* Update IPs for Windows 8.1 spy and update
+* Move 40.77.226 to update for Windows 8.1
+* Update hosts for Windows 7 spy and update
+* Update IPs for Windows 7 spy and update
+* Move 40.77.226 to update for Windows 7
+* Write all Wireshark events
+* More accurate tcpdump filter
+* Sysmon CSV header malformed
+
 ## 4.12.1 (2018/04/09)
 
 * Update hosts for Windows 10 extra and spy
