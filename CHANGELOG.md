@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.14.0 (2018/06/02)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Merge Windows 7/8.1/10 rules (Issues #30 #79 #112)
+
 ## 4.13.0 (2018/05/08)
 
 * Update hosts for Windows 10 spy and update
