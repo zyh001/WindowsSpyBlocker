@@ -4,10 +4,9 @@
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="GitHub release"></a>
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/downloads/crazy-max/WindowsSpyBlocker/total.svg?style=flat-square" alt="Total downloads"></a>
   <a href="https://ci.appveyor.com/project/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/appveyor/ci/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="AppVeyor"></a>
-  <br /><a href="https://goreportcard.com/report/github.com/crazy-max/WindowsSpyBlocker"><img src="https://goreportcard.com/badge/github.com/crazy-max/WindowsSpyBlocker?style=flat-square" alt="Go Report"></a>
+  <a href="https://goreportcard.com/report/github.com/crazy-max/WindowsSpyBlocker"><img src="https://goreportcard.com/badge/github.com/crazy-max/WindowsSpyBlocker?style=flat-square" alt="Go Report"></a>
   <a href="https://www.codacy.com/app/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/codacy/grade/1e2eae1a40754d88b7956cf9bd30241b.svg?style=flat-square" alt="Code Quality"></a>
   <a href="https://libraries.io/github/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/librariesio/github/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="Dependency Status"></a>
-  <br /><a href="https://beerpay.io/crazy-max/WindowsSpyBlocker"><img src="https://img.shields.io/beerpay/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="Beerpay"></a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
@@ -48,9 +47,9 @@ All traffic events are available in the `logs` folder :
 
 The `data` folder contains the blocking rules based on domains or IPs detected during the capture process :
 
-* `data/<type>/winX/spy.txt` : Block Windows Spy / Telemetry
-* `data/<type>/winX/update.txt` : Block Windows Update
-* `data/<type>/winX/extra.txt` : Block third party applications
+* `data/<type>/extra.txt` : Block third party applications
+* `data/<type>/spy.txt` : Block Windows Spy / Telemetry
+* `data/<type>/update.txt` : Block Windows Update
 
 [Firewall](../../wiki/dataFirewall) and [Hosts](../../wiki/dataHosts) data are the main types. The others are generated from these as :
 
@@ -79,8 +78,7 @@ All kinds of contributions are welcomed :raised_hands:!<br />
 The most basic way to show your support is to star :star2: the project, or to raise issues :speech_balloon:<br />
 But we're not gonna lie to each other, I'd rather you buy me a beer or two :beers:!
 
-[![Beerpay](https://beerpay.io/crazy-max/WindowsSpyBlocker/badge.svg?style=beer-square)](https://beerpay.io/crazy-max/WindowsSpyBlocker)
- or [![Paypal](.res/paypal.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL)
+[![Paypal](.res/paypal-donate.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CXF2HBWCMSZVL)
 
 ## License
 

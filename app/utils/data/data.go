@@ -19,10 +19,6 @@ import (
 
 // Systems, rules, types and exts constants
 const (
-	OS_WIN7  = "win7"
-	OS_WIN81 = "win81"
-	OS_WIN10 = "win10"
-
 	RULES_EXTRA  = "extra"
 	RULES_SPY    = "spy"
 	RULES_UPDATE = "update"
@@ -87,23 +83,23 @@ func getIp(ip string) string {
 	return ip
 }
 
-// GetFirewallIps returns ips filtered by system
-func GetFirewallIps(system string) (ips, error) {
+// GetFirewallIps returns ips
+func GetFirewallIps() (ips, error) {
 	var result ips
 
-	extra, err := GetFirewallIpsByRule(system, RULES_EXTRA)
+	extra, err := GetFirewallIpsByRule(RULES_EXTRA)
 	if err != nil {
 		return result, err
 	}
 	result = append(result, extra...)
 
-	spy, err := GetFirewallIpsByRule(system, RULES_SPY)
+	spy, err := GetFirewallIpsByRule(RULES_SPY)
 	if err != nil {
 		return result, err
 	}
 	result = append(result, spy...)
 
-	update, err := GetFirewallIpsByRule(system, RULES_UPDATE)
+	update, err := GetFirewallIpsByRule(RULES_UPDATE)
 	if err != nil {
 		return result, err
 	}
@@ -113,11 +109,11 @@ func GetFirewallIps(system string) (ips, error) {
 	return result, nil
 }
 
-// GetFirewallIpsByRule returns ips filtered by system and rule
-func GetFirewallIpsByRule(system string, rule string) (ips, error) {
+// GetFirewallIpsByRule returns ips filtered by rule
+func GetFirewallIpsByRule(rule string) (ips, error) {
 	var result ips
 
-	rulesPath := path.Join("data", TYPE_FIREWALL, system, rule+".txt")
+	rulesPath := path.Join("data", TYPE_FIREWALL, rule+".txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -141,23 +137,23 @@ func GetFirewallIpsByRule(system string, rule string) (ips, error) {
 	return result, nil
 }
 
-// GetHosts returns hosts filtered by system
-func GetHosts(system string) (hosts, error) {
+// GetHosts returns hosts
+func GetHosts() (hosts, error) {
 	var result hosts
 
-	extra, err := GetHostsByRule(system, RULES_EXTRA)
+	extra, err := GetHostsByRule(RULES_EXTRA)
 	if err != nil {
 		return result, err
 	}
 	result = append(result, extra...)
 
-	spy, err := GetHostsByRule(system, RULES_SPY)
+	spy, err := GetHostsByRule(RULES_SPY)
 	if err != nil {
 		return result, err
 	}
 	result = append(result, spy...)
 
-	update, err := GetHostsByRule(system, RULES_UPDATE)
+	update, err := GetHostsByRule(RULES_UPDATE)
 	if err != nil {
 		return result, err
 	}
@@ -167,11 +163,11 @@ func GetHosts(system string) (hosts, error) {
 	return result, nil
 }
 
-// GetHostsByRule returns hosts filtered by system and rule
-func GetHostsByRule(system string, rule string) (hosts, error) {
+// GetHostsByRule returns hosts filtered by rule
+func GetHostsByRule(rule string) (hosts, error) {
 	var result hosts
 
-	rulesPath := path.Join("data", TYPE_HOSTS, system, rule+".txt")
+	rulesPath := path.Join("data", TYPE_HOSTS, rule+".txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -193,28 +189,28 @@ func GetHostsByRule(system string, rule string) (hosts, error) {
 	return result, nil
 }
 
-// GetExtIPs returns IPs for an external data filtered by system and rule
-func GetExtIPs(ext string, system string, rule string) (ips, error) {
+// GetExtIPs returns IPs for an external data filtered by rule
+func GetExtIPs(ext string, rule string) (ips, error) {
 	var err error
 	var result ips
 
 	if ext == EXT_OPENWRT {
-		result, err = getOpenwrtIPs(system, rule)
+		result, err = getOpenwrtIPs(rule)
 		if err != nil {
 			return nil, err
 		}
 	} else if ext == EXT_P2P {
-		result, err = getP2pIPs(system, rule)
+		result, err = getP2pIPs(rule)
 		if err != nil {
 			return nil, err
 		}
 	} else if ext == EXT_PROXIFIER {
-		result, err = getProxifierIPs(system, rule)
+		result, err = getProxifierIPs(rule)
 		if err != nil {
 			return nil, err
 		}
 	} else if ext == EXT_SIMPLEWALL {
-		result, err = getSimplewallIPs(system, rule)
+		result, err = getSimplewallIPs(rule)
 		if err != nil {
 			return nil, err
 		}
@@ -223,23 +219,23 @@ func GetExtIPs(ext string, system string, rule string) (ips, error) {
 	return result, nil
 }
 
-// GetExtHosts returns hosts for an external data filtered by system and rule
-func GetExtHosts(ext string, system string, rule string) (hosts, error) {
+// GetExtHosts returns hosts for an external data filtered by rule
+func GetExtHosts(ext string, rule string) (hosts, error) {
 	var err error
 	var result hosts
 
 	if ext == EXT_DNSCRYPT {
-		result, err = getDnscryptHosts(system, rule)
+		result, err = getDnscryptHosts(rule)
 		if err != nil {
 			return nil, err
 		}
 	} else if ext == EXT_OPENWRT {
-		result, err = getOpenwrtHosts(system, rule)
+		result, err = getOpenwrtHosts(rule)
 		if err != nil {
 			return nil, err
 		}
 	} else if ext == EXT_PROXIFIER {
-		result, err = getProxifierHosts(system, rule)
+		result, err = getProxifierHosts(rule)
 		if err != nil {
 			return nil, err
 		}
@@ -248,10 +244,10 @@ func GetExtHosts(ext string, system string, rule string) (hosts, error) {
 	return result, nil
 }
 
-func getDnscryptHosts(system string, rule string) (hosts, error) {
+func getDnscryptHosts(rule string) (hosts, error) {
 	var result hosts
 
-	rulesPath := path.Join("data", EXT_DNSCRYPT, system, rule+".txt")
+	rulesPath := path.Join("data", EXT_DNSCRYPT, rule+".txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -273,10 +269,10 @@ func getDnscryptHosts(system string, rule string) (hosts, error) {
 	return result, nil
 }
 
-func getOpenwrtIPs(system string, rule string) (ips, error) {
+func getOpenwrtIPs(rule string) (ips, error) {
 	var result ips
 
-	rulesPath := path.Join("data", EXT_OPENWRT, system, rule, "firewall.user")
+	rulesPath := path.Join("data", EXT_OPENWRT, rule, "firewall.user")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -307,10 +303,10 @@ func getOpenwrtIPs(system string, rule string) (ips, error) {
 	return result, nil
 }
 
-func getOpenwrtHosts(system string, rule string) (hosts, error) {
+func getOpenwrtHosts(rule string) (hosts, error) {
 	var result hosts
 
-	rulesPath := path.Join("data", EXT_OPENWRT, system, rule, "dnsmasq.conf")
+	rulesPath := path.Join("data", EXT_OPENWRT, rule, "dnsmasq.conf")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -333,10 +329,10 @@ func getOpenwrtHosts(system string, rule string) (hosts, error) {
 	return result, nil
 }
 
-func getProxifierIPs(system string, rule string) (ips, error) {
+func getProxifierIPs(rule string) (ips, error) {
 	var result ips
 
-	rulesPath := path.Join("data", EXT_PROXIFIER, system, rule, "ips.txt")
+	rulesPath := path.Join("data", EXT_PROXIFIER, rule, "ips.txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -355,10 +351,10 @@ func getProxifierIPs(system string, rule string) (ips, error) {
 	return result, nil
 }
 
-func getProxifierHosts(system string, rule string) (hosts, error) {
+func getProxifierHosts(rule string) (hosts, error) {
 	var result hosts
 
-	rulesPath := path.Join("data", EXT_PROXIFIER, system, rule, "domains.txt")
+	rulesPath := path.Join("data", EXT_PROXIFIER, rule, "domains.txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -377,10 +373,10 @@ func getProxifierHosts(system string, rule string) (hosts, error) {
 	return result, nil
 }
 
-func getSimplewallIPs(system string, rule string) (ips, error) {
+func getSimplewallIPs(rule string) (ips, error) {
 	var result ips
 
-	rulesPath := path.Join("data", EXT_SIMPLEWALL, system, rule, "blocklist.xml")
+	rulesPath := path.Join("data", EXT_SIMPLEWALL, rule, "blocklist.xml")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -402,10 +398,10 @@ func getSimplewallIPs(system string, rule string) (ips, error) {
 	return result, nil
 }
 
-func getP2pIPs(system string, rule string) (ips, error) {
+func getP2pIPs(rule string) (ips, error) {
 	var result ips
 
-	rulesPath := path.Join("data", EXT_P2P, system, rule+".txt")
+	rulesPath := path.Join("data", EXT_P2P, rule+".txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err

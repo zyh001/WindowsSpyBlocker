@@ -25,19 +25,19 @@ const PREFIX = "windowsSpyBlocker"
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
-			Description: "> Windows 7 firewall rules",
-			Color:       color.FgYellow,
-			Function:    menuWin7,
+			Description: "Add extra rules",
+			Color:       color.FgHiYellow,
+			Function:    addExtra,
 		},
 		{
-			Description: "> Windows 8.1 firewall rules",
-			Color:       color.FgYellow,
-			Function:    menuWin81,
+			Description: "Add spy rules",
+			Color:       color.FgHiYellow,
+			Function:    addSpy,
 		},
 		{
-			Description: "> Windows 10 firewall rules",
-			Color:       color.FgYellow,
-			Function:    menuWin10,
+			Description: "Add update rules",
+			Color:       color.FgHiYellow,
+			Function:    addUpdate,
 		},
 		{
 			Description: "Remove WindowsSpyBlocker rules",
@@ -58,13 +58,28 @@ func Menu(args ...string) (err error) {
 	return
 }
 
-func addRules(system string, rule string) {
+func addExtra(args ...string) error {
+	addRules(data.RULES_EXTRA)
+	return nil
+}
+
+func addSpy(args ...string) error {
+	addRules(data.RULES_SPY)
+	return nil
+}
+
+func addUpdate(args ...string) error {
+	addRules(data.RULES_UPDATE)
+	return nil
+}
+
+func addRules(rule string) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	prefix := getPrefix(system, rule)
-	fmt.Printf("Get IPs for %s %s... ", system, rule)
-	ips, err := data.GetFirewallIpsByRule(system, rule)
+	prefix := getPrefix(rule)
+	fmt.Printf("Get IPs for %s... ", rule)
+	ips, err := data.GetFirewallIpsByRule(rule)
 	if err != nil {
 		print.Error(err)
 		return
@@ -80,13 +95,12 @@ func removeRules(args ...string) error {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	system, rule := "", ""
+	rule := ""
 	if len(args) > 0 {
-		system = args[0]
-		rule = args[1]
+		rule = args[0]
 	}
 
-	prefix := getPrefix(system, rule)
+	prefix := getPrefix(rule)
 	fmt.Print("Remove rules starting with")
 	color.New(color.FgYellow).Printf(" %s", prefix)
 	fmt.Print("...\n")
@@ -142,7 +156,7 @@ func currentRules(args ...string) error {
 		rule := v.ToIDispatch()
 		name := oleutil.MustGetProperty(rule, "Name").ToString()
 		//remoteaddr := oleutil.MustGetProperty(rule, "RemoteAddresses").ToString()
-		if strings.HasPrefix(name, getPrefix("", "")) {
+		if strings.HasPrefix(name, getPrefix("")) {
 			fmt.Println(name)
 		}
 		return nil
@@ -151,11 +165,10 @@ func currentRules(args ...string) error {
 	return nil
 }
 
-func getPrefix(system string, rule string) string {
+func getPrefix(rule string) string {
 	var prefix bytes.Buffer
 	prefix.WriteString(PREFIX)
-	if len(system) > 0 && len(rule) > 0 {
-		prefix.WriteString(stringsu.UcFirst(system))
+	if len(rule) > 0 {
 		prefix.WriteString(stringsu.UcFirst(rule))
 	}
 	return prefix.String()

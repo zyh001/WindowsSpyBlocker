@@ -61,19 +61,24 @@ func (slice diffs) Swap(i, j int) {
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
-			Description: "Windows 7",
+			Description: "All",
 			Color:       color.FgHiYellow,
-			Function:    menuWin7,
+			Function:    diffAll,
 		},
 		{
-			Description: "Windows 8.1",
+			Description: "Proxifier",
 			Color:       color.FgHiYellow,
-			Function:    menuWin81,
+			Function:    diffProxifier,
 		},
 		{
-			Description: "Windows 10",
+			Description: "Sysmon",
 			Color:       color.FgHiYellow,
-			Function:    menuWin10,
+			Function:    diffSysmon,
+		},
+		{
+			Description: "Wireshark",
+			Color:       color.FgHiYellow,
+			Function:    diffWireshark,
 		},
 	}
 
@@ -84,14 +89,14 @@ func Menu(args ...string) (err error) {
 	return
 }
 
-func all(system string) {
+func diffAll(args ...string) error {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
 	var resultsTmp diffs
-	resultsTmp = append(resultsTmp, _diff(system, "proxifier", true)...)
-	resultsTmp = append(resultsTmp, _diff(system, "sysmon", true)...)
-	resultsTmp = append(resultsTmp, _diff(system, "wireshark", true)...)
+	resultsTmp = append(resultsTmp, _diff("proxifier", true)...)
+	resultsTmp = append(resultsTmp, _diff("sysmon", true)...)
+	resultsTmp = append(resultsTmp, _diff("wireshark", true)...)
 
 	var results diffs
 	duplicates := make(map[string]string)
@@ -105,26 +110,42 @@ func all(system string) {
 
 	if len(results) == 0 {
 		fmt.Println("No diffs found...")
-		return
+		return nil
 	}
 
 	fmt.Println()
 	color.New(color.FgGreen).Printf("%d", len(results))
 	fmt.Print(" diff(s) found\n")
 
-	_writeResultFile(system, "diff-all", results)
+	_writeResultFile("diff-all", results)
+	return nil
 }
 
-func prog(system string, prog string) {
+func diffProxifier(args ...string) error {
+	prog("proxifier")
+	return nil
+}
+
+func diffSysmon(args ...string) error {
+	prog("sysmon")
+	return nil
+}
+
+func diffWireshark(args ...string) error {
+	prog("wireshark")
+	return nil
+}
+
+func prog(prog string) {
 	fmt.Println()
 	defer timeu.Track(time.Now())
 
-	_diff(system, prog, false)
+	_diff(prog, false)
 }
 
-func _diff(system string, prog string, all bool) diffs {
+func _diff(prog string, all bool) diffs {
 	var result diffs
-	hostsCountPath := path.Join(pathu.Logs, system, prog+"-hosts-count.csv")
+	hostsCountPath := path.Join(pathu.Logs, prog+"-hosts-count.csv")
 
 	fmt.Printf("Seeking %s... ", strings.TrimLeft(hostsCountPath, pathu.Current))
 	if _, err := os.Stat(hostsCountPath); err != nil {
@@ -143,7 +164,7 @@ func _diff(system string, prog string, all bool) diffs {
 	defer logFile.Close()
 
 	fmt.Print("Getting current data... ")
-	dataList, err := _getCurrentData(system)
+	dataList, err := _getCurrentData()
 	if err != nil {
 		print.Error(err)
 		return result
@@ -189,12 +210,12 @@ func _diff(system string, prog string, all bool) diffs {
 	fmt.Print(" diff(s) found in ")
 	color.New(color.FgYellow).Printf("%s\n", strings.TrimLeft(hostsCountPath, pathu.Current))
 
-	_writeResultFile(system, "diff-"+prog, result)
+	_writeResultFile("diff-"+prog, result)
 	return nil
 }
 
-func _writeResultFile(system string, filename string, results diffs) {
-	csvResultFile, _ := os.Create(path.Join(pathu.Logs, system, filename+".csv"))
+func _writeResultFile(filename string, results diffs) {
+	csvResultFile, _ := os.Create(path.Join(pathu.Logs, filename+".csv"))
 	fmt.Printf("\nGenerating %s... ", strings.TrimLeft(csvResultFile.Name(), pathu.Current))
 	csvResultFile.WriteString("HOST,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
 	sort.Sort(results)
@@ -234,10 +255,10 @@ func _writeResultFile(system string, filename string, results diffs) {
 	csvResultFile.Close()
 }
 
-func _getCurrentData(system string) ([]string, error) {
+func _getCurrentData() ([]string, error) {
 	var result []string
 
-	firewallIPs, err := data.GetFirewallIps(system)
+	firewallIPs, err := data.GetFirewallIps()
 	if err != nil {
 		return result, err
 	}
@@ -253,7 +274,7 @@ func _getCurrentData(system string) ([]string, error) {
 		}
 	}
 
-	hosts, err := data.GetHosts(system)
+	hosts, err := data.GetHosts()
 	if err != nil {
 		return result, err
 	}

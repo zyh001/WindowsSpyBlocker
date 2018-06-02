@@ -24,19 +24,9 @@ import (
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
-			Description: "Test Windows 7 IPs",
+			Description: "Test IPs",
 			Color:       color.FgHiYellow,
-			Function:    testIpsWin7,
-		},
-		{
-			Description: "Test Windows 8.1 IPs",
-			Color:       color.FgHiYellow,
-			Function:    testIpsWin81,
-		},
-		{
-			Description: "Test Windows 10 IPs",
-			Color:       color.FgHiYellow,
-			Function:    testIpsWin10,
+			Function:    testIps,
 		},
 	}
 
@@ -47,63 +37,31 @@ func Menu(args ...string) (err error) {
 	return
 }
 
-func testIpsWin7(args ...string) error {
-	logsPath := path.Join(pathu.Logs, data.OS_WIN7)
+func testIps(args ...string) error {
+	logsPath := path.Join(pathu.Logs)
 	if err := file.CreateSubfolder(logsPath); err != nil {
 		print.Error(err)
 		return nil
 	}
 
-	testIps(data.OS_WIN7)
-	fmt.Printf("\nLogs available in ")
-	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
-
-	return nil
-}
-
-func testIpsWin81(args ...string) error {
-	logsPath := path.Join(pathu.Logs, data.OS_WIN81)
-	if err := file.CreateSubfolder(logsPath); err != nil {
-		print.Error(err)
-		return nil
-	}
-
-	testIps(data.OS_WIN81)
-	fmt.Printf("\nLogs available in ")
-	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
-
-	return nil
-}
-
-func testIpsWin10(args ...string) error {
-	logsPath := path.Join(pathu.Logs, data.OS_WIN10)
-	if err := file.CreateSubfolder(logsPath); err != nil {
-		print.Error(err)
-		return nil
-	}
-
-	testIps(data.OS_WIN10)
-	fmt.Printf("\nLogs available in ")
-	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
-
-	return nil
-}
-
-func testIps(system string) {
 	defer timeu.Track(time.Now())
+	testIpsByRule(data.RULES_EXTRA)
+	testIpsByRule(data.RULES_SPY)
+	testIpsByRule(data.RULES_UPDATE)
 
-	testIpsByRule(system, data.RULES_EXTRA)
-	testIpsByRule(system, data.RULES_SPY)
-	testIpsByRule(system, data.RULES_UPDATE)
+	fmt.Printf("\nLogs available in ")
+	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
+
+	return nil
 }
 
-func testIpsByRule(system string, rule string) {
+func testIpsByRule(rule string) {
 	fmt.Println()
 
-	testCsv := path.Join(pathu.Logs, system, fmt.Sprintf("firewall-test-%s.csv", rule))
+	testCsv := path.Join(pathu.Logs, fmt.Sprintf("firewall-test-%s.csv", rule))
 
-	fmt.Printf("Get IPs for %s %s... ", system, rule)
-	fwIps, err := data.GetFirewallIpsByRule(system, rule)
+	fmt.Printf("Get IPs for %s %s... ", rule)
+	fwIps, err := data.GetFirewallIpsByRule(rule)
 	if err != nil {
 		print.Error(err)
 		return
