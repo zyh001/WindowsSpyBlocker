@@ -40,11 +40,6 @@ Tools used to capture traffic :
 * [Sysmon](../../wiki/appDevSysmon) : capture + logs
 * [Proxifier](../../wiki/devProxifier) : logs
 
-All traffic events are available in the `logs` folder :
-
-* `*-hosts-count.csv` : number of events per host
-* `*-unique.csv` : first trigger of an event per host / process / destination port
-
 The `data` folder contains the blocking rules based on domains or IPs detected during the capture process :
 
 * `data/<type>/extra.txt` : Block third party applications

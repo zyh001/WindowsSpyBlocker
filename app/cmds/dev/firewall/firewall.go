@@ -60,7 +60,7 @@ func testIpsByRule(rule string) {
 
 	testCsv := path.Join(pathu.Logs, fmt.Sprintf("firewall-test-%s.csv", rule))
 
-	fmt.Printf("Get IPs for %s %s... ", rule)
+	fmt.Printf("Get IPs for %s... ", rule)
 	fwIps, err := data.GetFirewallIpsByRule(rule)
 	if err != nil {
 		print.Error(err)
