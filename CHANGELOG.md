@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.15.0 (2018/06/03)
+
+* Remove dead hosts
+* Add ability to perform DNS lookup test on hosts
+* Fix hosts file parsing
+
 ## 4.14.0 (2018/06/02)
 
 * Update hosts for extra, spy and update rules
