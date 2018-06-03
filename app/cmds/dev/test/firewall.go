@@ -1,4 +1,4 @@
-package firewall
+package test
 
 import (
 	"fmt"
@@ -9,7 +9,6 @@ import (
 	"time"
 
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
-	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/netu"
@@ -20,24 +19,7 @@ import (
 	"github.com/fatih/color"
 )
 
-// Menu of Firewall
-func Menu(args ...string) (err error) {
-	menuCommands := []menu.CommandOption{
-		{
-			Description: "Test IPs",
-			Color:       color.FgHiYellow,
-			Function:    testIps,
-		},
-	}
-
-	menuOptions := menu.NewOptions("Firewall", "'menu' for help [dev-firewall]> ", 0, "")
-
-	menuN := menu.NewMenu(menuCommands, menuOptions)
-	menuN.Start()
-	return
-}
-
-func testIps(args ...string) error {
+func testFirewallIps(args ...string) error {
 	logsPath := path.Join(pathu.Logs)
 	if err := file.CreateSubfolder(logsPath); err != nil {
 		print.Error(err)
@@ -45,9 +27,9 @@ func testIps(args ...string) error {
 	}
 
 	defer timeu.Track(time.Now())
-	testIpsByRule(data.RULES_EXTRA)
-	testIpsByRule(data.RULES_SPY)
-	testIpsByRule(data.RULES_UPDATE)
+	testFirewallIpsByRule(data.RULES_EXTRA)
+	testFirewallIpsByRule(data.RULES_SPY)
+	testFirewallIpsByRule(data.RULES_UPDATE)
 
 	fmt.Printf("\nLogs available in ")
 	color.New(color.FgCyan).Printf("%s\n", strings.TrimLeft(logsPath, pathu.Current))
@@ -55,7 +37,7 @@ func testIps(args ...string) error {
 	return nil
 }
 
-func testIpsByRule(rule string) {
+func testFirewallIpsByRule(rule string) {
 	fmt.Println()
 
 	testCsv := path.Join(pathu.Logs, fmt.Sprintf("firewall-test-%s.csv", rule))
@@ -72,9 +54,9 @@ func testIpsByRule(rule string) {
 	testCsvFile.WriteString("IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN")
 	for _, fwIp := range fwIps {
 		if strings.Contains(fwIp.IP, "-") {
-			testIpRange(fwIp.IP, testCsvFile)
+			testFirewallIpRange(fwIp.IP, testCsvFile)
 		} else if netu.IsValidIPv4(fwIp.IP) {
-			testIp(fwIp.IP, testCsvFile)
+			testFirewallIp(fwIp.IP, testCsvFile)
 		}
 	}
 
@@ -83,7 +65,7 @@ func testIpsByRule(rule string) {
 	fmt.Println()
 }
 
-func testIpRange(ipRange string, testCsvFile *os.File) {
+func testFirewallIpRange(ipRange string, testCsvFile *os.File) {
 	ips, err := netu.GetIpsFromIPRange(ipRange)
 	if err != nil {
 		return
@@ -96,12 +78,12 @@ func testIpRange(ipRange string, testCsvFile *os.File) {
 		}
 		//if ipNet[3] % 10 == 0 && ipNet[3] > 0 && ipNet[3] < 255 {
 		if ipNet[3] > 0 && ipNet[3] < 255 {
-			testIp(ip, testCsvFile)
+			testFirewallIp(ip, testCsvFile)
 		}
 	}
 }
 
-func testIp(ip string, testCsvFile *os.File) {
+func testFirewallIp(ip string, testCsvFile *os.File) {
 	fmt.Print("\nTesting ")
 	color.New(color.FgMagenta).Printf("%s", ip)
 	fmt.Print("...\n")

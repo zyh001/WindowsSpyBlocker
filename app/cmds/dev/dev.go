@@ -2,9 +2,9 @@ package dev
 
 import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/diff"
-	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/firewall"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/proxifier"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/sysmon"
+	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/test"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/wireshark"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/fatih/color"
@@ -29,9 +29,9 @@ func Menu(args ...string) (err error) {
 			Function:    wireshark.Menu,
 		},
 		{
-			Description: "> Firewall   : Test Firewall IPs rules with multiple Whois and DNS Resolutions",
+			Description: "> Test       : Test firewall IPs and hosts lookup",
 			Color:       color.FgYellow,
-			Function:    firewall.Menu,
+			Function:    test.Menu,
 		},
 		{
 			Description: "> Diff       : Generates a diff log based on CSV data",
@@ -39,7 +39,7 @@ func Menu(args ...string) (err error) {
 			Function:    diff.Menu,
 		},
 		{
-			Description: "Merge        : Merge firewall and hosts data to multi format (DNSCrypt, OpenWrt, etc...)",
+			Description: "Merge        : Merge firewall and hosts data to multi format",
 			Color:       color.FgHiYellow,
 			Function:    merge,
 		},

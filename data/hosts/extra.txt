@@ -1,4 +1,4 @@
-### hosts extra (02/06/2018 22:32)
+### hosts extra (03/06/2018 17:35)
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 0.0.0.0 activation.sls.microsoft.com
@@ -21,7 +21,6 @@
 0.0.0.0 clientconfig.passport.net
 0.0.0.0 co2.sls.microsoft.com
 0.0.0.0 crl.microsoft.com
-0.0.0.0 deploy.static.akamaitechnologies.com
 0.0.0.0 device.auth.xboxlive.com
 0.0.0.0 dmd.metaservices.microsoft.com
 0.0.0.0 dns.msftncsi.com
@@ -37,7 +36,6 @@
 0.0.0.0 iecvlist.microsoft.com
 0.0.0.0 img.stb.s-msn.com
 0.0.0.0 img-s-msn-com.akamaized.net
-0.0.0.0 insiderppe.cloudapp.net
 0.0.0.0 insiderservice.microsoft.com
 0.0.0.0 licensing.mp.microsoft.com
 0.0.0.0 login.live.com
@@ -48,14 +46,12 @@
 0.0.0.0 officeclient.microsoft.com
 0.0.0.0 oneclient.sfx.ms
 0.0.0.0 otf.msn.com
-0.0.0.0 pricelist.skype.com
 0.0.0.0 pti.store.microsoft.com
 0.0.0.0 query.prod.cms.rt.microsoft.com
 0.0.0.0 r20swj13mr.microsoft.com
 0.0.0.0 register.cdpcs.microsoft.com
 0.0.0.0 s.gateway.messenger.live.com
 0.0.0.0 s0.2mdn.net
-0.0.0.0 sO.2mdn.net
 0.0.0.0 search.msn.com
 0.0.0.0 service.weather.microsoft.com
 0.0.0.0 settings-ssl.xboxlive.com

@@ -396,7 +396,7 @@ func getMergeDiffsHosts(extHosts []string, hostsBuf []byte, asWildcard bool) (ho
 				return result, nil, nil, err
 			}
 		}
-		domain = strings.TrimRight(strings.TrimLeft(strings.TrimSpace(domain), "0.0.0.0 "), ":443")
+		domain = strings.TrimRight(strings.Replace(strings.TrimSpace(domain), "0.0.0.0 ", "", 1), ":443")
 		if strings.HasPrefix(domain, "#") || domain == "" {
 			continue
 		}

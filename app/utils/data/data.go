@@ -178,7 +178,7 @@ func GetHostsByRule(rule string) (hosts, error) {
 	}
 
 	for _, line := range lines {
-		line = strings.TrimRight(strings.TrimLeft(strings.TrimSpace(line), "0.0.0.0 "), ":443")
+		line = strings.TrimRight(strings.Replace(strings.TrimSpace(line), "0.0.0.0 ", "", 1), ":443")
 		if strings.HasPrefix(line, "#") || line == "" {
 			continue
 		}
