@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sat, 02 Jun 2018 23:28:18 +0200 -->
+<!-- Last-Modified: Mon, 09 Jul 2018 01:16:11 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -167,6 +167,7 @@
 	<item name="spy_65.55.252.202" rule="65.55.252.202" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_66.119.147.131" rule="66.119.147.131" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_104.41.207.73" rule="104.41.207.73" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_104.41.219.140" rule="104.41.219.140" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_104.43.137.66" rule="104.43.137.66" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_104.43.139.21" rule="104.43.139.21" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_104.43.140.223" rule="104.43.140.223" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

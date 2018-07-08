@@ -1,4 +1,4 @@
-### hosts extra (03/06/2018 17:35)
+### hosts extra (09/07/2018 01:10)
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 0.0.0.0 activation.sls.microsoft.com
@@ -39,6 +39,7 @@
 0.0.0.0 insiderservice.microsoft.com
 0.0.0.0 licensing.mp.microsoft.com
 0.0.0.0 login.live.com
+0.0.0.0 maps.windows.com
 0.0.0.0 m.hotmail.com
 0.0.0.0 mediaredirect.microsoft.com
 0.0.0.0 msftncsi.com
@@ -55,6 +56,7 @@
 0.0.0.0 search.msn.com
 0.0.0.0 service.weather.microsoft.com
 0.0.0.0 settings-ssl.xboxlive.com
+0.0.0.0 share.microsoft.com
 0.0.0.0 static.2mdn.net
 0.0.0.0 storage.live.com
 0.0.0.0 store-images.s-microsoft.com
