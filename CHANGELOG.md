@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.16.0 (2018/07/09)
+
+* Update hosts for extra and spy rules
+* Update IPs for spy rules
+* Fix iP.NF API
+
 ## 4.15.0 (2018/06/03)
 
 * Remove dead hosts
