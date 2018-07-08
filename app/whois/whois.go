@@ -35,21 +35,20 @@ type Whois struct {
 	Org     string
 }
 
-type ipApiWhois struct {
-	As          string  `json:"as"`
-	City        string  `json:"city"`
-	Country     string  `json:"country"`
-	CountryCode string  `json:"countryCode"`
-	Isp         string  `json:"isp"`
-	Lat         float32 `json:"lat"`
-	Lon         float32 `json:"lon"`
-	Org         string  `json:"org"`
-	Query       string  `json:"query"`
-	Region      string  `json:"region"`
-	RegionName  string  `json:"regionName"`
-	Status      string  `json:"status"`
-	Timezone    string  `json:"timezone"`
-	Zip         string  `json:"zip"`
+// ip.nf response structure
+type ipNfWhois struct {
+	IP struct {
+		IP          string  `json:"ip"`
+		Asn         string  `json:"asn"`
+		Netmask     int     `json:"netmask"`
+		Hostname    string  `json:"hostname"`
+		City        string  `json:"city"`
+		PostCode    string  `json:"post_code"`
+		Country     string  `json:"country"`
+		CountryCode string  `json:"country_code"`
+		Latitude    float32 `json:"latitude"`
+		Longitude   float32 `json:"longitude"`
+	} `json:"ip"`
 }
 
 // ipinfo response structure
@@ -68,18 +67,21 @@ type ipInfoWhois struct {
 	Postal   string `json:"postal"`
 }
 
-// ip.nf response structure
-type ipNfWhois struct {
-	IP          string  `json:"ip"`
-	Asn         string  `json:"asn"`
-	Netmask     int     `json:"netmask"`
-	Hostname    string  `json:"hostname"`
+type ipApiWhois struct {
+	As          string  `json:"as"`
 	City        string  `json:"city"`
-	PostCode    string  `json:"post_code"`
 	Country     string  `json:"country"`
-	CountryCode string  `json:"country_code"`
-	Latitude    float32 `json:"latitude"`
-	Longitude   float32 `json:"longitude"`
+	CountryCode string  `json:"countryCode"`
+	Isp         string  `json:"isp"`
+	Lat         float32 `json:"lat"`
+	Lon         float32 `json:"lon"`
+	Org         string  `json:"org"`
+	Query       string  `json:"query"`
+	Region      string  `json:"region"`
+	RegionName  string  `json:"regionName"`
+	Status      string  `json:"status"`
+	Timezone    string  `json:"timezone"`
+	Zip         string  `json:"zip"`
 }
 
 // GetWhois info of ip address or domain
@@ -188,7 +190,7 @@ func getOnline(ip string) (Whois, error) {
 	}
 
 	result.IP = ip
-	result, err = getIpapiWhois(httpClient, ip)
+	result, err = getIpNfWhois(httpClient, ip)
 	if err == nil {
 		return result, nil
 	}
@@ -198,7 +200,7 @@ func getOnline(ip string) (Whois, error) {
 		return result, nil
 	}
 
-	result, err = getIpNfWhois(httpClient, ip)
+	result, err = getIpapiWhois(httpClient, ip)
 	if err == nil {
 		return result, nil
 	}
@@ -378,8 +380,8 @@ func getIpNfWhois(httpClient http.Client, ip string) (Whois, error) {
 		return result, errors.New(strings.TrimSpace(buf.String()))
 	}
 
-	result.Country = ipNf.Country
-	result.Org = strings.Replace(ipNf.Asn, ",", ".", -1)
+	result.Country = ipNf.IP.Country
+	result.Org = strings.Replace(ipNf.IP.Asn, ",", ".", -1)
 
 	return result, nil
 }
