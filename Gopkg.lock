@@ -14,7 +14,7 @@
     "encoding",
     "log"
   ]
-  revision = "a91940f71d0c3e218876287793766ce0ed294450"
+  revision = "6fd13441e4a064d0bead661fdb8e7f7dc79bc821"
 
 [[projects]]
   name = "github.com/PuerkitoBio/goquery"
@@ -23,10 +23,10 @@
   version = "v1.1.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/andybalholm/cascadia"
   packages = ["."]
-  revision = "349dd0209470eabd9514242c688c403c0926d266"
+  revision = "901648c87902174f774fac311d7f176f8647bdaa"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/cavaliercoder/grab"
@@ -93,7 +93,7 @@
     "html",
     "html/atom"
   ]
-  revision = "1087133bc4af3073e18add999345c6ae75918503"
+  revision = "c39426892332e1bb5ec0a434a079bf82f5d30c54"
 
 [[projects]]
   branch = "master"
@@ -103,7 +103,7 @@
     "windows",
     "windows/registry"
   ]
-  revision = "8dbc5d05d6edcc104950cc299a1ce6641235bc86"
+  revision = "98c5dad5d1a0e8a73845ecc8897d0bd56586511d"
 
 [solve-meta]
   analyzer-name = "dep"
