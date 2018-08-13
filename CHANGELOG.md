@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.16.1 (2018/08/14)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Update [wilcard domains](https://github.com/crazy-max/WindowsSpyBlocker/blob/master/app/settings.json#L120) settings (Issues #114 #115)
+* Update some rules based on Microsoft endpoints docs (Issues #114 #115)
+* Move `i1.services.social.microsoft.com` to extra (Issue #116)
+
 ## 4.16.0 (2018/07/09)
 
 * Update hosts for extra and spy rules
