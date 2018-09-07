@@ -46,7 +46,7 @@
   <condition property="app.release" value="${env.APPVEYOR_BUILD_NUMBER}"><isset property="env.APPVEYOR_BUILD_NUMBER"/></condition>
   <condition property="app.release" value="${app.default.release}"><not><isset property="env.APPVEYOR_BUILD_NUMBER"/></not></condition>
 
-  <target name="release" depends="init, load.lib, infos, dep, generate, build" description="Release">
+  <target name="release" depends="init, load.lib, infos, downmod, generate, build" description="Release">
     <echo message="Creating release..."/>
     <copy file="${tmp.path}\${app.id}.exe" todir="${release.path}" overwrite="true"/>
 
@@ -54,7 +54,7 @@
     <echo file="${tmp.path}\version.dat" append="false">${app.version}</echo>
   </target>
 
-  <target name="setup" depends="init, load.lib, dep, generate" description="Setup workspace"/>
+  <target name="setup" depends="init, load.lib, downmod, generate" description="Setup workspace"/>
 
   <target name="init" unless="is.lib.loaded">
     <mkdir dir="${bin.path}"/>
@@ -66,7 +66,7 @@
     <mkdir dir="${release.path}"/>
   </target>
 
-  <target name="load.lib" unless="is.lib.loaded" depends="load.lib.antcontrib, load.lib.dep, load.lib.upx">
+  <target name="load.lib" unless="is.lib.loaded" depends="load.lib.antcontrib, load.lib.upx">
     <var name="is.lib.loaded" value="true"/>
   </target>
 
@@ -81,14 +81,6 @@
         </fileset>
       </classpath>
     </taskdef>
-  </target>
-
-  <target name="load.lib.dep" unless="is.lib.loaded">
-    <exec executable="go" failonerror="true" dir="${project.basedir}">
-      <arg value="get"/>
-      <arg value="-v"/>
-      <arg value="${dep.package}"/>
-    </exec>
   </target>
 
   <target name="load.lib.upx" unless="is.lib.loaded">
@@ -125,10 +117,10 @@
     <echo message="APP_COPYRIGHT : ${app.url}"/>
   </target>
 
-  <target name="dep" description="Install vendor">
-    <exec executable="dep" failonerror="true" dir="${project.basedir}">
-      <arg value="ensure"/>
-      <arg value="-v"/>
+  <target name="downmod" description="Download modules">
+    <exec executable="go" failonerror="true" dir="${project.basedir}">
+      <arg value="mod"/>
+      <arg value="download"/>
     </exec>
   </target>
 

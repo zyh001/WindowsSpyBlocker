@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.17.0 (2018/09/07)
+
+* Upgrade to Go 1.11
+* Use [go mod](https://golang.org/cmd/go/#hdr-Module_maintenance) instead of `dep`
+
 ## 4.16.1 (2018/08/14)
 
 * Update hosts for extra, spy and update rules

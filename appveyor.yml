@@ -1,12 +1,10 @@
 version: '{build}'
 
-clone_folder: C:\gopath\src\github.com\crazy-max\WindowsSpyBlocker
-
 environment:
   JAVA_HOME: C:\Program Files (x86)\Java\jdk1.8.0
   GOPATH: C:\gopath
   GOROOT: C:\go\
-  GOVERSION: 1.9.3
+  GOVERSION: 1.11
 
 install:
   - ps: choco install ant
@@ -25,7 +23,7 @@ build_script:
 
 after_build:
   - ps: |
-      $env:APP_VERSION = Get-Content C:\gopath\src\github.com\crazy-max\WindowsSpyBlocker\bin\tmp\version.dat -Raw
+      $env:APP_VERSION = Get-Content "$env:APPVEYOR_BUILD_FOLDER\bin\tmp\version.dat" -Raw
       Write-Host "App version: $env:APP_VERSION"
 
 artifacts:
