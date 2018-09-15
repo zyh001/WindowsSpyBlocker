@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 14 Aug 2018 00:14:44 +0200 -->
+<!-- Last-Modified: Sat, 15 Sep 2018 14:57:15 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -17,6 +17,7 @@
 	<item name="extra_13.107.6.158" rule="13.107.6.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.13.88" rule="13.107.13.88" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.21.200" rule="13.107.21.200" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_13.107.21.229" rule="13.107.21.229" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.42.254" rule="13.107.42.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.46.88" rule="13.107.46.88" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.47.88" rule="13.107.47.88" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -102,6 +103,7 @@
 	<item name="extra_104.215.146.200" rule="104.215.146.200" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_131.253.14.227" rule="131.253.14.227" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_131.253.14.229" rule="131.253.14.229" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_131.253.14.230" rule="131.253.14.230" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_131.253.14.231" rule="131.253.14.231" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_131.253.61.0-131.253.61.255" rule="131.253.61.0-131.253.61.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_134.170.178.97" rule="134.170.178.97" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
