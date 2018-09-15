@@ -10,20 +10,20 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 13.81.5.53,AS8075 Microsoft Corporation,NL,2017-10-23,wdcpeurope.microsoft.akadns.net
 ,,,2017-09-06,wdcp.microsoft.com
 ,,,2017-09-06,spynet2.microsoft.com
-13.107.3.128,AS8068 Microsoft Corporation,US,2018-08-10,config.edge.skype.com
-,,,2018-08-10,b.config.skype.com
-,,,2018-08-07,s-0001.s-msedge.net
+13.107.3.128,AS8068 Microsoft Corporation,US,2018-09-14,s-0001.s-msedge.net
+,,,2018-09-14,api.teams.skype.com
+,,,2018-09-14,config.edge.skype.com
+,,,2018-09-12,skypeecs-prod-edge-b.trafficmanager.net
+,,,2018-09-12,b.config.skype.com
+,,,2018-09-12,edge-skype-com.s-0001.s-msedge.net
+,,,2018-08-21,edge.skype.com
 ,,,2018-08-07,teams.microsoft.com
-,,,2018-08-06,skypeecs-prod-edge-b.trafficmanager.net
 ,,,2018-07-29,13.107.3.128
-,,,2018-07-14,edge-skype-com.s-0001.s-msedge.net
 ,,,2018-06-30,teams.skype.com
 ,,,2018-05-11,settings.teams.microsoft.com
-,,,2018-04-26,edge.skype.com
 ,,,2018-04-16,b.config.skype.com.
 ,,,2018-04-02,bots.teams.microsoft.com
 ,,,2018-03-29,config.teams.trafficmanager.net
-,,,2018-03-25,api.teams.skype.com
 ,,,2017-12-12,edge.skype.net
 ,,,2017-12-06,emails.teams.skype.com
 ,,,2017-12-06,settings.teams.skype.com
@@ -90,40 +90,41 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-08-13,134fafa91469bd040d5c51870f61de00.nrb.footprintdns.com
 ,,,2017-08-13,04e9ccfae93690902b937118fc73ed10.nrb.footprintdns.com
 ,,,2017-08-11,331533752c7241937769ae2eab6d7350.nrb.footprintdns.com
-13.107.5.80,AS8068 Microsoft Corporation,US,2018-08-13,appex.binginternal.com
-,,,2018-08-11,hk2-api-bing-com.e-0001.e-msedge.net
-,,,2018-08-08,api.bing.com
-,,,2018-08-07,api-bing-com.e-0001.e-msedge.net
-,,,2018-08-06,api.search.live.net
-,,,2018-08-06,api.search.live.com
-,,,2018-08-06,api.bing.net
-,,,2018-08-05,www-bingapis-com.e-0001.e-msedge.net
-,,,2018-07-28,e-0001.e-msedge.net
-,,,2018-07-28,db4-api-bing-com.e-0001.e-msedge.net
+13.107.5.80,AS8068 Microsoft Corporation,US,2018-09-14,www-bingapis-com.e-0001.e-msedge.net
+,,,2018-09-14,hk2-api-bing-com.e-0001.e-msedge.net
+,,,2018-09-14,api.bing.com
+,,,2018-09-14,ssl-api.bing.com
+,,,2018-09-13,api.search.live.com
+,,,2018-09-13,e-0001.e-msedge.net
+,,,2018-09-12,ssl-api-bing-com.e-0001.e-msedge.net
+,,,2018-09-11,api.bing.net
+,,,2018-09-10,db4.api.bing.com
+,,,2018-09-10,api.search.live.net
+,,,2018-09-06,api-bing-com.e-0001.e-msedge.net
+,,,2018-08-13,appex.binginternal.com
 ,,,2018-07-28,www.bingapis.com
+,,,2018-07-28,db4-api-bing-com.e-0001.e-msedge.net
 ,,,2018-07-14,api-search-live-com.e-0001.e-msedge.net
 ,,,2018-07-14,hk2.api.bing.com
 ,,,2018-07-10,sg1.api.bing.com
-,,,2018-07-07,ssl-api-bing-com.e-0001.e-msedge.net
-,,,2018-06-12,db4.api.bing.com
-,,,2018-04-28,ssl-api.bing.com
 ,,,2018-04-16,db4.api.bing.com.
 ,,,2018-04-16,api.bing.com.
 ,,,2018-02-01,funapi.bing.com
-13.107.5.88,AS8068 Microsoft Corporation,US,2018-08-13,client-office365-tas-msedge-net.e-0009.e-msedge.net
-,,,2018-08-12,evoke-windowsservices-tas.msedge.net
-,,,2018-08-10,visualstudio-devdiv-c2s.msedge.net
-,,,2018-08-10,e-0009.e-msedge.net
-,,,2018-08-08,ocos-office365-s2s-msedge-net.e-0009.e-msedge.net
-,,,2018-07-31,outlookmobile-office365-tas.msedge.net
-,,,2018-07-29,visualstudio-devdiv-c2s-msedge-net.e-0009.e-msedge.net
-,,,2018-07-25,onenote-office365-s2s.msedge.net
-,,,2018-07-16,ocos-office365-s2s.msedge.net
-,,,2018-07-05,onenote-office365-s2s-msedge-net.e-0009.e-msedge.net
-,,,2018-07-04,evoke-windowsservices-tas-msedge-net.e-0009.e-msedge.net
-,,,2018-06-09,13.107.5.88
+13.107.5.88,AS8068 Microsoft Corporation,US,2018-09-14,outlookmobile-office365-tas.msedge.net
+,,,2018-09-14,ocos-office365-s2s-msedge-net.e-0009.e-msedge.net
+,,,2018-09-14,13.107.5.88
+,,,2018-09-13,visualstudio-devdiv-c2s.msedge.net
+,,,2018-09-13,client-office365-tas-msedge-net.e-0009.e-msedge.net
+,,,2018-09-13,ocos-office365-s2s.msedge.net
+,,,2018-09-13,evoke-windowsservices-tas.msedge.net
+,,,2018-09-13,visualstudio-devdiv-c2s-msedge-net.e-0009.e-msedge.net
+,,,2018-09-10,evoke-windowsservices-tas-msedge-net.e-0009.e-msedge.net
+,,,2018-09-10,e-0009.e-msedge.net
+,,,2018-09-08,onenote-office365-s2s.msedge.net
+,,,2018-09-04,everydaymagic-windowsservices-tas.msedge.net
+,,,2018-08-25,onenote-office365-s2s-msedge-net.e-0009.e-msedge.net
+,,,2018-07-17,test-exp-s2s.msedge.net
 ,,,2018-06-06,officeonlineextension-office365.msedge.net
-,,,2018-03-28,everydaymagic-windowsservices-tas.msedge.net
 ,,,2018-03-02,onesettings-windowsservices-tas.msedge.net
 ,,,2018-02-06,iceprime-renderingframework-s2s.msedge.net
 ,,,2017-12-29,experimentationcoa-bing-tas.msedge.net
@@ -136,7 +137,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2018-07-21,business.bing.com
 ,,,2018-07-21,bingforbusiness.com
 ,,,2015-12-12,yammer.com
-13.107.13.88,AS8068 Microsoft Corporation,US,2018-06-14,evoke-windowsservices-tas-msedge-net.e-0009.e-msedge.net
+13.107.13.88,AS8068 Microsoft Corporation,US,2018-09-11,ocos-office365-s2s-msedge-net.e-0009.e-msedge.net
+,,,2018-06-14,evoke-windowsservices-tas-msedge-net.e-0009.e-msedge.net
 ,,,2018-06-08,ocos-office365-s2s.msedge.net
 ,,,2018-05-21,outlookmobile-office365-tas.msedge.net
 ,,,2018-01-13,visualstudio-devdiv-c2s.msedge.net
@@ -145,12 +147,62 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-08-29,iceprime_msnapp-iceprime-c2s-msedge-net.e-0009.e-msedge.net
 ,,,2017-07-26,outlookmobile-office365-tas-msedge-net.e-0009.e-msedge.net
 ,,,2017-07-24,visualstudio-devdiv-c2s-msedge-net.e-0009.e-msedge.net
-,,,2017-07-13,ocos-office365-s2s-msedge-net.e-0009.e-msedge.net
 ,,,2017-06-26,iceprime_msnapp-iceprime-c2s.msedge.net
 ,,,2017-05-30,e-0009.dc-msedge.net
 ,,,2017-05-03,client-office365-tas.msedge.net
 ,,,2017-05-01,evoke-windowsservices-tas.msedge.net
-13.107.21.200,AS8068 Microsoft Corporation,US,,
+13.107.21.200,AS8068 Microsoft Corporation,US,2017-07-05,tps30.doubleverify.comts3.mm.bing.net
+,,,2017-07-04,comwww.bing.com
+,,,2017-07-03,search.msn.no
+,,,2017-06-21,06504f2b1bc31ff2f16c562a464daa66.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-20,transform-accenture.comwww.bing.com
+,,,2017-06-19,01b0723cdddd95cb510c3bf492a341a1.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-17,bea814ad77d2eb18fb915766d7e3df63.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-09,e7924b16cf55b0e6bf9f1ced2e450271.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,00135016b0db733bde45e90b996247a5.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,75834669e36e7513338eb27fd7582f91.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,01c3b7ae1bb1c0632fc8cb67fada9de0.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,45e60956e4d24b3000d502ed1104a630.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,f09fc5919d7185ad6b78a69a2fafb946.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,03f940baaaf00a31aa79762d6fd31205.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,017d4d126ddc983648a35668b5655f35.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,88be6c12bdce775b316687aecb0360e4.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,0934e91b4f1abd19b7a20ec96634f972.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,00883a520050af0853d18b69422fade4.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,0258e8cae3b22c69a4e569cdd2430106.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,01fdb4782e172c382cd5007b61920b12.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,96d605e215b1ca6b3c36f36f0d890503.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,01bdc39fa7520ed8d042ed01f10f5ff1.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,049aa0b6b47962fc85f3d215de3ec291.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,43ca79e185a214eeeeb3d04a73cad583.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,015fa67e84d71c3a9b4f283a58ed1ad2.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,01994e3cee24535028b6eff7341501d0.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,02aa5f96be5a14d3ee3e6977254857a5.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,004d9bba017634fcc44cb2426da70304.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,02bec034f83a79868d36c9e2dea76eb1.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,02bdcba5f58b5d8b3c41ea7eda001da4.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,06523110b82e4d7604ed839e54e16706.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0103bf7dbfa3ee27db2847bb01b31583.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0145d26011f2e18d8e3a70df1f9593a0.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0248071923ecdf32aa764ad0d61e2c06.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,014c45afb6e2d511778db21a49267001.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,01f454b261781fde9c2c6d4c2364f864.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,c3263c48779fb25efe6e95720dd5cdf4.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,00ed2dfadef940d4c8d854f430afeab2.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,e2f518bd473f1e86f195b65369343701.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,61d5b3ac7d642e5a11f50b504f8eaee5.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,3cb3378ec06044e6a04d5bab1549a592.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0012e48c18730618b3eb42e847f7a2b0.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,5a671f131bef0328f93240f0c532d936.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,1f6b3e099a3eb3c25f69dc1133ac8e05.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,c8118e4bd0febca092e60398644e5e05.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,0024fe293647c53b41ea959b4a5f94d2.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,02a42dbf43a0695e2c8ac67d910e7e71.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,006bf0f0feadecfb6302350439efdc74.azr.msnetworkanalytics.testanalytics.net
+,,,2017-05-03,www.travel.bing.com
+,,,2016-10-27,www.iwindows.win
+13.107.21.229,AS8068 Microsoft Corporation,US,2018-06-26,tse1.mm.bing.net
+,,,2017-10-09,www.bing.com
 13.107.42.254,AS8068 Microsoft Corporation,US,2017-10-21,062fe5f9d44d46522877fde2ee899710.nrb.footprintdns.com
 ,,,2017-10-20,b4cdba7f20cf567ad74faa5e997e1c90.nrb.footprintdns.com
 ,,,2017-10-18,b3f72bf5500ec9f7ba566c2f9aec1120.nrb.footprintdns.com
@@ -209,12 +261,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 13.107.47.88,AS8068 Microsoft Corporation,US,2018-06-06,outlookmobile-office365-tas.msedge.net
 ,,,2018-05-23,visualstudio-devdiv-c2s-msedge-net.e-0009.e-msedge.net
 ,,,2018-05-23,evoke-windowsservices-tas.msedge.net
-23.96.52.53,AS8075 Microsoft Corporation,US,2017-12-17,drumbeat.office.com
+23.96.52.53,AS8075 Microsoft Corporation,US,2018-02-12,it.windows.com
+,,,2017-12-31,garage.microsoft.com
+,,,2017-12-17,drumbeat.office.com
 ,,,2017-11-21,microsoft.it
 ,,,2017-11-21,www.surface.com
 ,,,2017-11-21,www.microsoft.cz
-,,,2017-11-06,bogus.patagonic.se
 ,,,2017-11-06,explorer.msn.co.kr
+,,,2017-11-06,bogus.patagonic.se
 ,,,2017-11-01,www.msdn.com
 ,,,2017-09-26,microsoft.lt
 ,,,2017-09-08,asia.microsoft.com
@@ -230,7 +284,6 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-10-13,issues.microsoftedge.com
 ,,,2016-09-23,www.microsoft.pl
 ,,,2016-09-20,microsoft.ca
-,,,2016-09-10,www.microsoft.it
 ,,,2016-09-02,microsoft.es
 ,,,2016-08-04,sklep.microsoft.pl
 ,,,2016-07-27,hup.microsoft.com
@@ -238,15 +291,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-06-25,www.windowsmarketplace.com
 ,,,2016-06-20,winhec.com
 ,,,2016-05-22,oenntp.msnews.microsoft.com
-,,,2016-05-03,www.microsoft.net
 ,,,2016-05-03,microsoft.md
+,,,2016-05-03,www.microsoft.net
 ,,,2016-04-27,terraserver.homeadvisor.msn.com
 ,,,2016-04-08,www.microsoft.de
 ,,,2016-03-16,learning.microsoft.com
 ,,,2016-03-13,microsoft.se
 ,,,2016-03-12,rss.microsoft.com
 ,,,2016-03-07,microsoft.ua
-,,,2016-03-01,snackbox.microsoft.com
 ,,,2016-03-01,udns.lol
 ,,,2016-02-28,godns.lol
 ,,,2016-02-25,msdnisv.microsoft.com
@@ -268,8 +320,57 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-09-06,office15client.microsoft.com
 ,,,2017-09-05,europe.configsvc1.live.com.akadns.net
 ,,,2017-06-04,weu-config.officeapps.live.com
-23.100.122.175,AS8075 Microsoft Corporation,US,,
-40.70.0.108,AS8075 Microsoft Corporation,US,2018-03-28,client-office365-tas.msedge.net
+23.100.122.175,AS8075 Microsoft Corporation,US,2017-10-04,cloud-ios.net
+,,,2017-09-11,microsoft.jp
+,,,2017-09-09,microsoft.org
+,,,2017-08-06,microsoft.md
+,,,2017-07-13,garage.microsoft.com
+,,,2017-07-03,www.msdn.com
+,,,2017-06-30,backoffice.microsoft.com
+,,,2017-04-30,myservice.xbox.com
+,,,2017-02-06,it.windows.com
+,,,2017-01-02,microsoft.lu
+,,,2016-11-29,www.microsoft.net
+,,,2016-11-19,www.microsoft.it
+,,,2016-11-12,www.microsoft.de
+,,,2016-11-12,microsoft.ge
+,,,2016-11-04,myservice.surface.com
+,,,2016-10-11,microsoft-ds.com
+,,,2016-10-11,status.microsoftedge.com
+,,,2016-10-01,s.microsoft.com
+,,,2016-09-26,www.microsoft.ca
+,,,2016-09-17,www.windowsmarketplace.com
+,,,2016-08-31,microsoft.pt
+,,,2016-08-17,imagine.microsoft.com
+,,,2016-08-04,microsoft.fi
+,,,2016-07-26,www.microsoft.pl
+,,,2016-07-20,muhprivacy.com
+,,,2016-07-07,wetoo.win
+,,,2016-07-06,issues.microsoftedge.com
+,,,2016-07-04,asia.microsoft.com
+,,,2016-06-22,changelog.microsoftedge.com
+,,,2016-06-06,reroute.microsoft.com
+,,,2016-05-30,www.microsoft.cz
+,,,2016-05-24,microsoft.az
+,,,2016-04-26,windowsmarketplace.com
+,,,2016-04-22,earthica.net
+,,,2016-03-31,usadns.info
+,,,2016-03-23,snackbox.microsoft.com
+,,,2016-03-23,www.microsoft.eu
+,,,2016-03-23,microsoft.eu
+,,,2016-03-21,microsoft.rs
+,,,2016-03-10,oenntp.msnews.microsoft.com
+,,,2016-03-04,online.microsoft.com
+,,,2016-03-02,www.microsoft.ru
+,,,2016-02-25,msdnisv.microsoft.com
+,,,2016-02-11,register.microsoft.com
+,,,2016-02-07,mytestpage.us
+,,,2016-01-25,privacy.microsoft.com
+,,,2016-01-18,rss.microsoft.com
+,,,2016-01-05,microsoft.cz
+,,,2015-12-28,ieak.microsoft.com
+,,,2015-12-25,microsoft.ru
+40.70.0.108,AS8075 Microsoft Corporation,US,2018-09-09,client-office365-tas.msedge.net
 40.77.224.8,AS8075 Microsoft Corporation,US,2017-04-21,5kilzq.bn1.livefilestore.com
 ,,,2017-04-14,621a7a5418de230c.users.storage.live.com
 ,,,2017-04-13,byfiles.storage.live.com
@@ -370,13 +471,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-18,jxjzig.bay.livefilestore.com
 ,,,2017-02-17,cid-92a5af7d403fa58b.users.storage.live.com
 ,,,2017-02-17,cid-4f1f6acc0b1f390c.users.storage.live.com
-40.77.224.145,AS8075 Microsoft Corporation,US,2018-08-12,bn4sch102110121.wns.windows.com
-,,,2018-08-08,bn4sch102110218.wns.windows.com
+40.77.224.145,AS8075 Microsoft Corporation,US,2018-09-12,bn4sch102110121.wns.windows.com
+,,,2018-09-09,bn4sch102110218.wns.windows.com
+,,,2018-08-20,bn4sch102110124.wns.windows.com
 ,,,2018-08-08,bn4sch102110219.wns.windows.com
-,,,2018-07-27,bn4sch102110124.wns.windows.com
 ,,,2018-06-18,bn4sch102110215.wns.windows.com
-40.77.224.254,AS8075 Microsoft Corporation,US,2018-08-13,bn4sch101123203.wns.windows.com
-,,,2018-08-10,bn4sch101123202.wns.windows.com
+40.77.224.254,AS8075 Microsoft Corporation,US,2018-09-13,bn4sch101123202.wns.windows.com
+,,,2018-09-11,bn4sch101123203.wns.windows.com
 40.77.225.248,AS8075 Microsoft Corporation,US,2017-04-17,apis.live.net
 ,,,2017-04-13,6s5nkg.blu.livefilestore.com
 ,,,2017-04-12,4hhe7q.bay.livefilestore.com
@@ -427,7 +528,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-20,cid-46ed067ad82a1b0e.users.storage.live.com
 ,,,2017-02-15,bs6yng.blu.livefilestore.com
 ,,,2017-02-13,cid-5664a7b19ea92d46.users.storage.live.com
-40.77.230.45,AS8075 Microsoft Corporation,US,2018-07-01,mobileads.msn.com.nsatc.net
+40.77.230.45,AS8075 Microsoft Corporation,US,2018-09-14,mobileads.msn.com.nsatc.net
 ,,,2018-05-12,arc.msn.com.nsatc.net
 ,,,2018-05-07,arc.msn.com
 ,,,2018-05-06,mobileads.msn.com
@@ -496,13 +597,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-09-22,docs.live.net
 ,,,2017-09-19,cid-a4dfff05634d7c40.users.storage.live.com
 ,,,2017-09-17,cid-6a3d0f2bcd03b372.users.storage.live.com
-40.90.136.20,AS8075 Microsoft Corporation,US,2018-08-01,bludav2.storage.msn.com
+40.90.136.20,AS8075 Microsoft Corporation,US,2018-08-20,settings.live.net
+,,,2018-08-17,skyapi.onedrive.live.com
+,,,2018-08-01,bludav2.storage.msn.com
 ,,,2018-07-24,bl3301.storage.skyprod.akadns.net
 ,,,2018-07-19,6xhkeg-sn3302.files.1drv.com
 ,,,2018-07-09,apis.live.net
 ,,,2018-05-26,skydocs.skyprod.akadns.net
 ,,,2018-05-12,windows.policies.live.net
-,,,2018-03-25,settings.live.net
 ,,,2017-12-18,0liaxa.bl3301.livefilestore.com
 ,,,2017-12-09,storage.live.com
 ,,,2017-10-13,cid-600292dd4e56f250.users.storage.live.com
@@ -516,19 +618,22 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-10-05,m.outlook.com
 ,,,2017-09-18,outlook.live.com
 ,,,2017-09-07,attachment.outlook.office.net
+,,,2017-09-07,www.outlook.com
 40.112.72.44,AS8075 Microsoft Corporation,IE,2018-06-10,wdcp.microsoft.com
-40.114.241.141,AS8075 Microsoft Corporation,NL,2018-07-31,weu-breeziest-in.cloudapp.net
-40.117.190.72,AS8075 Microsoft Corporation,US,2018-08-08,midnightprogrammer.net
-,,,2018-08-08,insider.windows.com
+40.114.241.141,AS8075 Microsoft Corporation,NL,2018-09-13,weu-breeziest-in.cloudapp.net
+40.117.190.72,AS8075 Microsoft Corporation,US,2018-09-14,coinrush.org
+,,,2018-09-14,insider.windows.com
+,,,2018-09-11,collector.exceptionless.io
+,,,2018-08-25,smokershelpline.ca
+,,,2018-08-08,midnightprogrammer.net
 ,,,2018-07-29,cincinnati.upullandpay.com
-,,,2018-07-28,blog.nicholasrogoff.com
 ,,,2018-07-28,be.exceptionless.io
+,,,2018-07-28,blog.nicholasrogoff.com
 ,,,2018-07-26,connectusystems.com
 ,,,2018-07-25,alumniclubny.com
 ,,,2018-07-24,djj.com
 ,,,2018-07-24,plays.io
 ,,,2018-07-23,rmrecycling.com
-,,,2018-07-20,collector.exceptionless.io
 ,,,2018-07-17,focuseduvation.com
 ,,,2018-07-16,ajsnet.org
 ,,,2018-07-15,seadae.org
@@ -537,8 +642,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2018-07-06,upullandpay.com
 ,,,2018-07-05,webbonthefly.com
 ,,,2018-07-04,gamednastudio.com
-,,,2018-07-03,n1health.com
 ,,,2018-07-03,gadgetopia.com
+,,,2018-07-03,n1health.com
 ,,,2018-06-27,exceptionless.io
 ,,,2018-03-30,renosoftcorp.com
 ,,,2018-02-28,www.djj.com
@@ -549,8 +654,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-05-21,time.windows.com
 ,,,2016-04-26,time.microsoft.akadns.net
 40.118.106.130,AS8075 Microsoft Corporation,NL,,
-40.121.213.159,AS8075 Microsoft Corporation,US,2018-06-25,client-office365-tas.msedge.net
-,,,2018-03-21,vip5.afdorigin-prod-bl02.afdogw.com
+40.121.213.159,AS8075 Microsoft Corporation,US,2018-09-12,client-office365-tas.msedge.net
+,,,2018-08-27,vip5.afdorigin-prod-bl02.afdogw.com
 40.127.142.76,AS8075 Microsoft Corporation,IE,2017-10-04,iceotf-prod-fe-tm.trafficmanager.net
 ,,,2017-09-06,otf.msn.com
 ,,,2017-05-19,iceotf-prod-fe-northeurope.cloudapp.net
@@ -563,10 +668,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-12-29,client-office365-tas.msedge.net
 51.140.127.197,AS8075 Microsoft Corporation,GB,2017-09-30,time.windows.com
 ,,,2017-09-29,time.microsoft.akadns.net
-51.141.26.229,AS8075 Microsoft Corporation,GB,2018-07-25,client-office365-tas.msedge.net
+51.141.26.229,AS8075 Microsoft Corporation,GB,2018-09-02,client-office365-tas.msedge.net
 51.141.32.51,AS8075 Microsoft Corporation,GB,2017-09-06,time.windows.com
 ,,,2017-09-06,time.microsoft.akadns.net
-51.141.166.104,AS8075 Microsoft Corporation,US,2017-12-18,client-office365-tas.msedge.net
+51.141.166.104,AS8075 Microsoft Corporation,US,2018-08-18,client-office365-tas.msedge.net
 51.144.108.120,AS8075 Microsoft Corporation,NL,2018-06-07,wdcp.microsoft.com
 52.138.148.87,AS8075 Microsoft Corporation,IE,2018-03-25,spyneteurope.microsoft.akadns.net
 ,,,2017-11-12,wdcp.microsoft.com
@@ -593,9 +698,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-11-22,spynet2.microsoft.com
 52.170.194.77,AS8075 Microsoft Corporation,US,2018-06-05,skydrive.wns.windows.com
 ,,,2018-03-24,bl2p.wns.notify.windows.com.akadns.net
-52.171.136.200,AS8075 Microsoft Corporation,US,2018-08-08,microsoftedgewelcome.microsoft.com
+52.171.136.200,AS8075 Microsoft Corporation,US,2018-08-22,greenstarzz.com
+,,,2018-08-08,microsoftedgewelcome.microsoft.com
 ,,,2018-08-06,dunnhq.com
-,,,2018-08-05,greenstarzz.com
 ,,,2018-08-01,pragmasys.com
 ,,,2018-07-31,ezdixane.ru
 ,,,2018-07-29,www.greenstarzz.com
@@ -616,7 +721,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 52.232.16.77,AS8075 Microsoft Corporation,NL,2017-11-25,spynet2.microsoft.com
 ,,,2017-11-22,wdcp.microsoft.com
 52.232.19.76,AS8075 Microsoft Corporation,NL,2017-12-01,ars.smartscreen.microsoft.com
-52.232.69.150,AS8075 Microsoft Corporation,NL,2018-07-28,client-office365-tas.msedge.net
+52.232.69.150,AS8075 Microsoft Corporation,NL,2018-08-30,client-office365-tas.msedge.net
 52.233.199.249,AS8075 Microsoft Corporation,NL,2018-02-28,wdcpeurope.microsoft.akadns.net
 ,,,2017-11-10,spynet2.microsoft.com
 ,,,2017-11-09,wdcp.microsoft.com
@@ -792,8 +897,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-24,dsn11.d.skype.net
 ,,,2016-05-06,dsn12.skype-dsn.akadns.net
 ,,,2015-02-28,dsn15.d.skype.net
-64.4.23.142,AS8075 Microsoft Corporation,US,2018-06-11,dsn15.skype-dsn.akadns.net
-,,,2017-09-28,dsn11.d.skype.net
+64.4.23.142,AS8075 Microsoft Corporation,US,2018-08-30,dsn11.d.skype.net
+,,,2018-06-11,dsn15.skype-dsn.akadns.net
 ,,,2017-09-21,dsn12.d.skype.net
 ,,,2016-12-23,dsn15.d.skype.net
 ,,,2015-10-13,dsn2.d.skype.net
@@ -805,7 +910,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-09-07,dsn11.d.skype.net
 ,,,2015-02-28,dsn15.skype-dsn.akadns.net
 64.4.23.146,AS8075 Microsoft Corporation,US,,
-64.4.23.147,AS8075 Microsoft Corporation,US,2017-09-20,dsn12.d.skype.net
+64.4.23.147,AS8075 Microsoft Corporation,US,2018-09-12,dsn15.skype-dsn.akadns.net
+,,,2017-09-20,dsn12.d.skype.net
 ,,,2017-04-13,dsn11.d.skype.net
 64.4.23.148,AS8075 Microsoft Corporation,US,2018-07-11,dsn9.skype-dsn.akadns.net
 ,,,2018-07-10,dsn9.d.skype.net
@@ -883,8 +989,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-10-19,64.4.23.153
 64.4.23.154,AS8075 Microsoft Corporation,US,2017-11-06,dsn12.d.skype.net
 ,,,2017-09-29,dsn11.d.skype.net
-64.4.23.155,AS8075 Microsoft Corporation,US,2017-10-11,dsn12.d.skype.net
-,,,2017-09-26,dsn11.d.skype.net
+64.4.23.155,AS8075 Microsoft Corporation,US,2018-09-12,dsn11.d.skype.net
+,,,2017-10-11,dsn12.d.skype.net
 ,,,2015-03-16,dsn0.skype-dsn.akadns.net
 64.4.23.156,AS8075 Microsoft Corporation,US,2018-07-12,64.4.23.156
 ,,,2017-10-20,dsn9.d.skype.net
@@ -904,9 +1010,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-07-08,dsn13.d.skype.net
 ,,,2017-05-08,dsn6.d.skype.net
 ,,,2016-11-04,dsn2.skype-dsn.akadns.net
-64.4.23.157,AS8075 Microsoft Corporation,US,2017-09-09,dsn12.d.skype.net
-,,,2017-05-23,dsn11.d.skype.net
-64.4.23.158,AS8075 Microsoft Corporation,US,2018-08-11,64.4.23.158
+64.4.23.157,AS8075 Microsoft Corporation,US,2018-09-09,dsn11.d.skype.net
+,,,2017-09-09,dsn12.d.skype.net
+64.4.23.158,AS8075 Microsoft Corporation,US,2018-09-15,64.4.23.158
 ,,,2017-10-03,dsn12.d.skype.net
 ,,,2017-09-07,dsn11.d.skype.net
 ,,,2015-12-06,dsn2.d.skype.net
@@ -1013,7 +1119,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-07-22,dsn11.d.skype.net
 64.4.23.172,AS8075 Microsoft Corporation,US,2017-10-21,dsn15.skype-dsn.akadns.net
 ,,,2017-10-17,dsn12.d.skype.net
-64.4.23.173,AS8075 Microsoft Corporation,US,2017-11-03,dsn12.d.skype.net
+64.4.23.173,AS8075 Microsoft Corporation,US,2018-09-08,dsn15.skype-dsn.akadns.net
+,,,2017-11-03,dsn12.d.skype.net
 ,,,2017-09-19,dsn11.d.skype.net
 64.4.23.174,AS8075 Microsoft Corporation,US,2017-10-10,dsn12.d.skype.net
 ,,,2017-10-09,dsn11.d.skype.net
@@ -1143,32 +1250,32 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 64.4.23.252,AS8075 Microsoft Corporation,US,,
 64.4.23.253,AS8075 Microsoft Corporation,US,,
 64.4.23.254,AS8075 Microsoft Corporation,US,,
-64.4.54.253,AS8075 Microsoft Corporation,US,2018-08-10,cy2.settings.data.microsoft.com.akadns.net
-,,,2018-08-10,geo.settings.data.microsoft.com.akadns.net
-,,,2018-08-08,asimov-win.settings.data.microsoft.com.akadns.net
-,,,2018-08-05,settings-win.data.microsoft.com
-,,,2018-08-04,64.4.54.253
+64.4.54.253,AS8075 Microsoft Corporation,US,2018-09-15,asimov-win.settings.data.microsoft.com.akadns.net
+,,,2018-09-14,cy2.settings.data.microsoft.com.akadns.net
+,,,2018-09-13,geo.settings.data.microsoft.com.akadns.net
+,,,2018-09-09,settings-win.data.microsoft.com
+,,,2018-09-08,64.4.54.253
+,,,2018-08-31,asimov.settings.data.microsoft.com.akadns.net
 ,,,2018-08-03,settings.data.microsoft.com
-,,,2018-08-03,asimov.settings.data.microsoft.com.akadns.net
 ,,,2017-12-31,hk2.settings.data.microsoft.com.akadns.net
 ,,,2016-04-01,onesettings-cy2.metron.live.com.nsatc.net
 ,,,2015-06-21,settings.data.glbdns2.microsoft.com
-64.4.54.254,AS8075 Microsoft Corporation,US,2018-08-13,asimov.vortex.data.microsoft.com.akadns.net
-,,,2018-08-12,vortex-win.data.microsoft.com
-,,,2018-08-11,web.vortex.data.microsoft.com
-,,,2018-08-11,v20.vortex-win.data.microsoft.com
-,,,2018-08-09,asimov-win.vortex.data.microsoft.com.akadns.net
-,,,2018-08-08,vortex.data.microsoft.com
-,,,2018-08-07,geo.vortex.data.microsoft.com.akadns.net
-,,,2018-08-05,cy2.vortex.data.microsoft.com.akadns.net
-,,,2018-08-01,v10-win.vortex.data.microsoft.com.akadns.net
+64.4.54.254,AS8075 Microsoft Corporation,US,2018-09-15,web.vortex.data.microsoft.com
+,,,2018-09-14,v10-win.vortex.data.microsoft.com.akadns.net
+,,,2018-09-14,64.4.54.254
+,,,2018-09-14,vortex-win.data.microsoft.com
+,,,2018-09-14,asimov-win.vortex.data.microsoft.com.akadns.net
+,,,2018-09-13,geo.vortex.data.microsoft.com.akadns.net
+,,,2018-09-13,v20.vortex-win.data.microsoft.com
+,,,2018-09-13,cy2.vortex.data.microsoft.com.akadns.net
+,,,2018-09-06,asimov.vortex.data.microsoft.com.akadns.net
+,,,2018-09-04,web.vortex.data.microsoft.com.akadns.net
+,,,2018-08-19,vortex.data.microsoft.com
 ,,,2018-07-28,v10.vortex-win.data.microsoft.com
 ,,,2018-07-13,db5.vortex.data.microsoft.com.akadns.net
 ,,,2018-07-11,v20-asimov-win.vortex.data.microsoft.com.akadns.net
-,,,2018-06-20,64.4.54.254
 ,,,2018-05-07,hk2.vortex.data.microsoft.com.akadns.net
 ,,,2018-04-16,vortex.data.microsoft.com.
-,,,2018-03-30,web.vortex.data.microsoft.com.akadns.net
 ,,,2016-05-18,us.vortex-win.data.microsoft.com
 ,,,2016-04-06,vortex-win.data.metron.live.com.nsatc.net
 ,,,2016-04-01,vortex-cy2.metron.live.com.nsatc.net
@@ -1176,8 +1283,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-03-14,web.vortex.data.metron.live.com.nsatc.net
 ,,,2016-03-14,v10.vortex-win.data.metron.live.com.nsatc.net
 ,,,2016-03-10,vortex.data.metron.live.com.nsatc.net
-65.52.98.231,AS8075 Microsoft Corporation,US,2018-08-13,sls.microsoft.com.nsatc.net
-,,,2018-08-10,activation.sls.microsoft.com.nsatc.net
+65.52.98.231,AS8075 Microsoft Corporation,US,2018-09-13,activation.sls.microsoft.com.nsatc.net
+,,,2018-09-11,sls.microsoft.com.nsatc.net
+,,,2018-08-14,validation.sls.microsoft.com
 ,,,2018-08-08,co2.sls.microsoft.com
 ,,,2018-07-18,validation.sls.microsoft.com.nsatc.net
 ,,,2018-07-05,activation.sls.microsoft.com
@@ -1187,8 +1295,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-09-23,watson.telemetry.microsoft.com
 ,,,2016-09-11,msnbot-65-52-108-29.search.msn.com
 ,,,2016-06-04,watson.telemetry.microsoft.com.nsatc.net
-65.52.108.33,AS8075 Microsoft Corporation,US,2018-08-13,bn2.licensing.md.mp.microsoft.com.akadns.net
-,,,2018-08-09,licensing-useast.md.mp.microsoft.com.akadns.net
+65.52.108.33,AS8075 Microsoft Corporation,US,2018-09-10,bn2.licensing.md.mp.microsoft.com.akadns.net
+,,,2018-08-16,licensing-useast.md.mp.microsoft.com.akadns.net
 ,,,2016-08-25,licensing.mp.microsoft.com
 ,,,2016-06-14,msnbot-65-52-108-33.search.msn.com
 ,,,2016-04-18,licensing-europe-golive.md.mp.microsoft.com.akadns.net
@@ -1197,8 +1305,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-02-09,licensing.md.mp.microsoft.com
 65.52.108.59,AS8075 Microsoft Corporation,US,2018-03-16,platform.maps.glbdns2.microsoft.com
 ,,,2017-02-10,dev.virtualearth.net
-65.52.108.90,AS8075 Microsoft Corporation,US,2018-08-10,fe3.delivery.dsp.mp.microsoft.com.nsatc.net
-,,,2018-08-09,fe3.delivery.mp.microsoft.com
+65.52.108.90,AS8075 Microsoft Corporation,US,2018-09-11,fe3.delivery.mp.microsoft.com
+,,,2018-08-27,fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 ,,,2018-03-06,msnbot-65-52-108-90.search.msn.com
 65.52.108.153,AS8075 Microsoft Corporation,US,2017-08-21,statsfe2.ws.microsoft.com.nsatc.net
 ,,,2017-08-15,stats.update.microsoft.com.nsatc.net
@@ -1207,11 +1315,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-04-25,statsfe2.update.microsoft.com.akadns.net
 ,,,2015-01-28,msnbot-65-52-108-153.search.msn.com
 ,,,2015-01-27,statsfe2.update.microsoft.com
-65.52.108.154,AS8075 Microsoft Corporation,US,2018-07-21,msnbot-65-52-108-154.search.msn.com
+65.52.108.154,AS8075 Microsoft Corporation,US,2018-09-12,msnbot-65-52-108-154.search.msn.com
 ,,,2018-02-01,legacy.watson.data.microsoft.com.akadns.net
 ,,,2017-10-24,watson.microsoft.com
 ,,,2016-09-03,watson.microsoft.com.nsatc.net
-65.52.108.185,AS8075 Microsoft Corporation,US,2018-08-08,bn4sch101122511.wns.windows.com
+65.52.108.185,AS8075 Microsoft Corporation,US,2018-09-13,bn4sch101122511.wns.windows.com
 ,,,2018-06-13,bn3sch020010654.wns.windows.com
 ,,,2018-06-01,bn4sch101121805.wns.windows.com
 ,,,2018-05-11,bn3sch020010655.wns.windows.com
@@ -1220,7 +1328,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 65.55.108.23,AS8075 Microsoft Corporation,US,2017-09-22,msnbot-65-55-108-23.search.msn.com
 ,,,2014-11-20,vortex-win.data.microsoft.com
 ,,,2014-09-17,vortex.data.microsoft.com
-65.55.130.50,AS8075 Microsoft Corporation,US,2018-07-07,choice.microsoft.com.nsatc.net
+65.55.130.50,AS8075 Microsoft Corporation,US,2018-08-24,choice.microsoft.com.nsatc.net
 ,,,2017-08-30,choice.bing.com
 ,,,2017-07-28,choice.atdmt.com
 ,,,2014-07-02,choice.microsoft.com
@@ -1236,7 +1344,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 65.55.223.9,AS8075 Microsoft Corporation,US,,
 65.55.223.10,AS8075 Microsoft Corporation,US,,
 65.55.223.11,AS8075 Microsoft Corporation,US,,
-65.55.223.12,AS8075 Microsoft Corporation,US,2017-09-26,dsn11.d.skype.net
+65.55.223.12,AS8075 Microsoft Corporation,US,2018-09-05,dsn15.skype-dsn.akadns.net
+,,,2017-09-26,dsn11.d.skype.net
 ,,,2017-09-26,dsn12.d.skype.net
 65.55.223.13,AS8075 Microsoft Corporation,US,2018-04-07,dsn12.d.skype.net
 ,,,2017-10-29,dsn11.d.skype.net
@@ -1258,9 +1367,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 65.55.223.20,AS8075 Microsoft Corporation,US,2018-06-21,dsn9.d.skype.net
 ,,,2017-09-21,dsn12.d.skype.net
 ,,,2017-09-08,dsn11.d.skype.net
-65.55.223.21,AS8075 Microsoft Corporation,US,2017-10-13,dsn11.d.skype.net
+65.55.223.21,AS8075 Microsoft Corporation,US,2018-08-19,dsn15.skype-dsn.akadns.net
+,,,2017-10-13,dsn11.d.skype.net
 ,,,2017-10-04,dsn12.d.skype.net
-,,,2016-05-06,dsn15.skype-dsn.akadns.net
 65.55.223.22,AS8075 Microsoft Corporation,US,2018-08-01,dsn6.d.skype.net
 ,,,2017-12-08,dsn11.d.skype.net
 ,,,2017-09-29,dsn12.d.skype.net
@@ -1313,7 +1422,37 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 65.55.223.38,AS8075 Microsoft Corporation,US,2018-04-07,dsn15.skype-dsn.akadns.net
 ,,,2017-10-07,dsn12.d.skype.net
 ,,,2017-09-27,dsn11.d.skype.net
-65.55.223.39,AS8075 Microsoft Corporation,US,2017-09-29,dsn12.d.skype.net
+65.55.223.39,AS8075 Microsoft Corporation,US,2018-09-04,dsn9.d.skype.net
+,,,2018-08-31,dsn7.skype-dsn.akadns.net
+,,,2018-08-29,dsn4.skype-dsn.akadns.net
+,,,2018-08-28,dsn5.skype-dsn.akadns.net
+,,,2018-08-27,dsn13.skype-dsn.akadns.net
+,,,2018-08-27,dsn0.d.skype.net
+,,,2018-08-25,dsn9.skype-dsn.akadns.net
+,,,2018-08-24,dsn1.d.skype.net
+,,,2018-08-24,dsn3.d.skype.net
+,,,2018-08-20,dsn14.skype-dsn.akadns.net
+,,,2018-08-17,dsn8.d.skype.net
+,,,2018-08-17,dsn4.d.skype.net
+,,,2018-08-16,dsn5.d.skype.net
+,,,2018-08-14,dsn13.d.skype.net
+,,,2018-08-14,dsn10.skype-dsn.akadns.net
+,,,2018-08-12,dsn6.d.skype.net
+,,,2018-08-05,dsn14.d.skype.net
+,,,2018-08-03,dsn3.skype-dsn.akadns.net
+,,,2018-08-01,dsn10.d.skype.net
+,,,2018-07-24,dsn11.skype-dsn.akadns.net
+,,,2018-07-18,dsn2.skype-dsn.akadns.net
+,,,2018-07-16,dsn8.skype-dsn.akadns.net
+,,,2018-07-11,dsn7.d.skype.net
+,,,2018-07-10,dsn15.d.skype.net
+,,,2018-07-08,dsn12.skype-dsn.akadns.net
+,,,2018-07-07,dsn1.skype-dsn.akadns.net
+,,,2018-07-03,dsn0.skype-dsn.akadns.net
+,,,2018-06-22,dsn2.d.skype.net
+,,,2018-06-05,dsn15.skype-dsn.akadns.net
+,,,2018-05-02,dsn6.skype-dsn.akadns.net
+,,,2017-09-29,dsn12.d.skype.net
 ,,,2017-09-27,dsn11.d.skype.net
 65.55.223.40,AS8075 Microsoft Corporation,US,2018-06-07,dsn11.d.skype.net
 ,,,2017-10-10,dsn12.d.skype.net
@@ -1327,10 +1466,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-09-07,dsn11.d.skype.net
 65.55.223.43,AS8075 Microsoft Corporation,US,2017-10-05,dsn12.d.skype.net
 ,,,2017-07-12,dsn11.d.skype.net
-65.55.223.44,AS8075 Microsoft Corporation,US,2018-08-01,dsn10.d.skype.net
+65.55.223.44,AS8075 Microsoft Corporation,US,2018-09-12,dsn12.d.skype.net
+,,,2018-08-01,dsn10.d.skype.net
 ,,,2018-06-26,dsn11.d.skype.net
 ,,,2017-12-16,dsn15.skype-dsn.akadns.net
-,,,2017-10-26,dsn12.d.skype.net
 ,,,2017-10-25,dsn1.d.skype.net
 ,,,2017-10-20,dsn13.d.skype.net
 ,,,2017-09-30,dsn0.d.skype.net
@@ -1345,24 +1484,25 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 65.55.223.45,AS8075 Microsoft Corporation,US,2018-03-24,dsn0.skype-dsn.akadns.net
 ,,,2017-11-27,dsn12.d.skype.net
 ,,,2017-09-10,dsn11.d.skype.net
-65.55.223.46,AS8075 Microsoft Corporation,US,2018-04-08,dsn15.skype-dsn.akadns.net
+65.55.223.46,AS8075 Microsoft Corporation,US,2018-08-24,dsn12.d.skype.net
+,,,2018-04-08,dsn15.skype-dsn.akadns.net
 ,,,2017-01-16,dsn6.skype-dsn.akadns.net
 ,,,2016-04-20,dsn15.d.skype.net
-65.55.223.47,AS8075 Microsoft Corporation,US,2017-12-15,dsn12.d.skype.net
+65.55.223.47,AS8075 Microsoft Corporation,US,2018-08-16,dsn15.skype-dsn.akadns.net
+,,,2017-12-15,dsn12.d.skype.net
 ,,,2017-11-10,dsn10.d.skype.net
 ,,,2017-10-30,dsn9.d.skype.net
 ,,,2017-10-02,dsn1.d.skype.net
 ,,,2017-09-29,dsn11.d.skype.net
-,,,2017-09-27,dsn0.d.skype.net
 ,,,2017-09-27,dsn14.d.skype.net
-,,,2017-09-24,dsn15.skype-dsn.akadns.net
-,,,2017-09-21,dsn6.d.skype.net
-,,,2017-09-21,dsn4.d.skype.net
+,,,2017-09-27,dsn0.d.skype.net
 ,,,2017-09-21,dsn8.d.skype.net
+,,,2017-09-21,dsn6.d.skype.net
 ,,,2017-09-21,dsn15.d.skype.net
+,,,2017-09-21,dsn4.d.skype.net
 ,,,2017-09-10,dsn2.d.skype.net
-,,,2017-09-07,dsn5.d.skype.net
 ,,,2017-09-07,dsn2.skype-dsn.akadns.net
+,,,2017-09-07,dsn5.d.skype.net
 ,,,2017-09-06,dsn3.d.skype.net
 ,,,2017-05-08,dsn13.d.skype.net
 ,,,2014-11-28,dsn8.skype-dsn.akadns.net
@@ -1935,6 +2075,56 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-01-24,lpf08w.bay.livefilestore.com
 ,,,2017-01-22,fuayna.blu.livefilestore.com
 ,,,2016-12-31,ipipia.blu.livefilestore.com
+131.253.14.230,AS8075 Microsoft Corporation,US,2017-06-16,cid-ec55762c7eec655e.users.storage.live.com
+,,,2017-06-16,cid-580f3d0343025a99.users.storage.live.com
+,,,2017-06-15,k7cmpg.blu.livefilestore.com
+,,,2017-06-15,rhhvxg.bay.livefilestore.com
+,,,2017-06-15,ebrqiq.blu.livefilestore.com
+,,,2017-06-15,pjeyva.bay.livefilestore.com
+,,,2017-06-15,xkckyq.blu.livefilestore.com
+,,,2017-06-15,cjpjpa.bay.livefilestore.com
+,,,2017-06-15,cid-a6274040-028b-4845-900f-e0a7bc213e4b.users.storage.live.com
+,,,2017-06-14,cid-9056adac8fac4130.users.storage.live.com
+,,,2017-06-14,cid-1a83cca9c7ca2524.users.storage.live.com
+,,,2017-06-14,qvjexq.bay.livefilestore.com
+,,,2017-06-14,qhmeoa.blu.livefilestore.com
+,,,2017-06-14,cid-4a6f30317c6b24e0.users.storage.live.com
+,,,2017-06-13,cid-36cdb4fe4c351450.users.storage.live.com
+,,,2017-06-11,zckmqq.bay.livefilestore.com
+,,,2017-06-07,cid-7f019ae4e1073715.users.storage.live.com
+,,,2017-06-07,cid-77595cedd710c16e.users.storage.live.com
+,,,2017-06-07,cid-6a3d0f2bcd03b372.users.storage.live.com
+,,,2017-06-07,cid-57b917660c964f5d.users.storage.live.com
+,,,2017-06-07,cid-c40e5cb055e7250b.users.storage.live.com
+,,,2017-06-07,drb9ha.blu.livefilestore.com
+,,,2017-06-07,fjk1mw.sn2.livefilestore.com
+,,,2017-06-07,ikjipg.bn1.livefilestore.com
+,,,2017-06-07,cid-a2fea0032c1792e7.users.storage.live.com
+,,,2017-06-07,cid-851e0a62370bb223.users.storage.live.com
+,,,2017-06-07,cid-91445298cd2b516a.users.storage.live.com
+,,,2017-06-07,cid-79a0a00a0fdb827d.users.storage.live.com
+,,,2017-06-07,sl0yaq.blu.livefilestore.com
+,,,2017-06-07,cid-f7cd60f21c86b10c.users.storage.live.com
+,,,2017-06-07,2qp3cg.blu.livefilestore.com
+,,,2017-06-06,cid-6e9e82b7a0c61caf.users.storage.live.com
+,,,2017-06-05,crquoa.blu.livefilestore.com
+,,,2017-06-02,cid-90107fbb76df8a30.users.storage.live.com
+,,,2017-05-29,skyapi.skyprod.akadns.net
+,,,2017-05-24,kaxvfw.bay.livefilestore.com
+,,,2017-05-13,ltabeq.blu.livefilestore.com
+,,,2017-05-10,7y0rtw.blu.livefilestore.com
+,,,2017-04-30,nljntq.bay.livefilestore.com
+,,,2017-04-30,dxcimw.bay.livefilestore.com
+,,,2017-04-28,prbtpg.bay.livefilestore.com
+,,,2017-04-27,netd.docs.live.net
+,,,2017-04-19,d.sn3302.docs.live.net
+,,,2017-04-04,d.docs.live.net
+,,,2017-02-04,afc70g.bay.livefilestore.com
+,,,2017-02-01,nh4jqz.docs.live.net
+,,,2017-02-01,ctxxja.blu.livefilestore.com
+,,,2017-01-24,giwyqg.bay.livefilestore.com
+,,,2017-01-23,cblozg.bay.livefilestore.com
+,,,2016-12-28,jtzucg.bay.livefilestore.com
 131.253.14.231,AS8075 Microsoft Corporation,US,2017-06-18,zckmqq.bay.livefilestore.com
 ,,,2017-06-17,civpaa.bay.livefilestore.com
 ,,,2017-06-17,ngmcda.bay.livefilestore.com
@@ -2048,10 +2238,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 131.253.61.61,AS8075 Microsoft Corporation,US,,
 131.253.61.62,AS8075 Microsoft Corporation,US,,
 131.253.61.63,AS8075 Microsoft Corporation,US,,
-131.253.61.64,AS8075 Microsoft Corporation,US,2018-07-16,login.msa.akadns6.net
+131.253.61.64,AS8075 Microsoft Corporation,US,2018-09-10,login.live.com
+,,,2018-07-16,login.msa.akadns6.net
 ,,,2018-06-07,login.live.com.nsatc.net
 ,,,2018-05-18,ipv4.login.live.com
-,,,2018-05-08,login.live.com
 ,,,2018-02-11,mail.baydogan.com
 ,,,2017-12-08,machulovi.cz
 ,,,2017-11-28,mail.jiaoban.cc
@@ -2075,11 +2265,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-02-22,mail.publichot.net
 ,,,2015-12-29,mail.painaipaigun.com
 131.253.61.67,AS8075 Microsoft Corporation,US,,
-131.253.61.68,AS8075 Microsoft Corporation,US,2018-07-21,login.live.com.nsatc.net
-,,,2018-05-28,login.msa.akadns6.net
+131.253.61.68,AS8075 Microsoft Corporation,US,2018-09-03,email.aasd.k12.wi.us
+,,,2018-08-31,login.msa.akadns6.net
+,,,2018-07-21,login.live.com.nsatc.net
 ,,,2018-05-21,login.live.com
 ,,,2018-03-17,correo.ocerollar.com
-,,,2018-03-14,email.aasd.k12.wi.us
 ,,,2018-03-01,ipv4.login.msa.akadns6.net
 ,,,2018-02-08,mail.baydogan.com
 ,,,2017-08-23,mail.jiaoban.cc
@@ -2088,13 +2278,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-05-25,entrar.animalog.com.br
 ,,,2013-05-24,jiaoban.cc
 131.253.61.69,AS8075 Microsoft Corporation,US,,
-131.253.61.70,AS8075 Microsoft Corporation,US,2018-05-31,login.msa.akadns6.net
+131.253.61.70,AS8075 Microsoft Corporation,US,2018-09-04,login.msa.akadns6.net
+,,,2018-08-24,mail.jiaoban.cc
 ,,,2018-05-18,login.live.com
 ,,,2018-01-22,mail.baydogan.com
 ,,,2017-10-26,ipv4.login.msa.akadns6.net
 ,,,2017-10-20,mail.amnauichok.com
 ,,,2013-06-25,login.live.com.nsatc.net
-,,,2013-05-25,mail.jiaoban.cc
 131.253.61.71,AS8075 Microsoft Corporation,US,,
 131.253.61.72,AS8075 Microsoft Corporation,US,,
 131.253.61.73,AS8075 Microsoft Corporation,US,,
@@ -2104,8 +2294,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 131.253.61.77,AS8075 Microsoft Corporation,US,,
 131.253.61.78,AS8075 Microsoft Corporation,US,,
 131.253.61.79,AS8075 Microsoft Corporation,US,,
-131.253.61.80,AS8075 Microsoft Corporation,US,2018-07-31,login.live.com.nsatc.net
-,,,2018-07-22,login.live.com
+131.253.61.80,AS8075 Microsoft Corporation,US,2018-09-05,login.live.com.nsatc.net
+,,,2018-09-02,login.live.com
 ,,,2018-05-20,login.msa.akadns6.net
 ,,,2018-02-01,mail.baydogan.com
 ,,,2017-08-03,mail.walnuttreecottage.me
@@ -2118,9 +2308,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-02,live.com
 ,,,2013-07-02,studentmail.ed-coll.ac.uk
 131.253.61.81,AS8075 Microsoft Corporation,US,,
-131.253.61.82,AS8075 Microsoft Corporation,US,2018-07-01,login.live.com.nsatc.net
+131.253.61.82,AS8075 Microsoft Corporation,US,2018-08-31,login.live.com.nsatc.net
+,,,2018-08-15,login.live.com
 ,,,2018-06-17,email.aasd.k12.wi.us
-,,,2018-06-17,login.live.com
 ,,,2018-05-13,login.msa.akadns6.net
 ,,,2018-03-15,mail.baydogan.com
 ,,,2017-12-25,ipv4.login.live.com
@@ -2134,10 +2324,19 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-04-17,divyalabdhi.com
 ,,,2013-10-02,live.com
 131.253.61.83,AS8075 Microsoft Corporation,US,,
-131.253.61.84,AS8075 Microsoft Corporation,US,2018-08-07,login.live.com.nsatc.net
-,,,2018-08-01,login.live.com
+131.253.61.84,AS8075 Microsoft Corporation,US,2018-09-06,login.live.com
+,,,2018-08-16,vs.login.msa.akadns6.net
+,,,2018-08-16,gouveia.me
+,,,2018-08-16,www.gouveia.me
+,,,2018-08-14,mail.euroaccess.asia
+,,,2018-08-14,mail.hausvik.no
+,,,2018-08-14,mail.optimizzo.com
+,,,2018-08-09,mail.iwebguard.com
+,,,2018-08-07,login.live.com.nsatc.net
 ,,,2018-07-23,login.msa.akadns6.net
 ,,,2018-07-04,mail.jiaoban.cc
+,,,2018-06-14,mail.bgcswc.org
+,,,2018-04-16,login.live.com.
 ,,,2018-02-22,131.253.61.84
 ,,,2018-01-14,ipv4.login.msa.akadns6.net
 ,,,2017-12-25,ipv4.login.live.com
@@ -2157,10 +2356,19 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-02,live.com
 ,,,2013-07-02,mail.ttscvn.com
 131.253.61.85,AS8075 Microsoft Corporation,US,,
-131.253.61.86,AS8075 Microsoft Corporation,US,2018-05-01,login.msa.akadns6.net
+131.253.61.86,AS8075 Microsoft Corporation,US,2018-09-09,vs.login.msa.akadns6.net
+,,,2018-08-14,mail.optimizzo.com
+,,,2018-08-14,mail.hausvik.no
+,,,2018-08-14,login.msa.akadns6.net
+,,,2018-08-04,ipv4.login.msa.akadns6.net
+,,,2018-04-16,login.live.com.
 ,,,2018-03-12,mail.jiaoban.cc
 ,,,2018-03-10,mail.student.hcmuns.edu.vn
+,,,2018-02-16,ipv4.login.live.com
+,,,2018-02-13,mail.publichot.net
 ,,,2018-02-13,login.live.com
+,,,2018-01-31,studentemail.enmu.edu
+,,,2014-10-14,mail.kstechnology.co.kr
 131.253.61.87,AS8075 Microsoft Corporation,US,,
 131.253.61.88,AS8075 Microsoft Corporation,US,,
 131.253.61.89,AS8075 Microsoft Corporation,US,,
@@ -2170,11 +2378,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 131.253.61.93,AS8075 Microsoft Corporation,US,,
 131.253.61.94,AS8075 Microsoft Corporation,US,,
 131.253.61.95,AS8075 Microsoft Corporation,US,,
-131.253.61.96,AS8075 Microsoft Corporation,US,2018-07-25,login.live.com.nsatc.net
+131.253.61.96,AS8075 Microsoft Corporation,US,2018-09-13,login.msa.akadns6.net
+,,,2018-09-13,131.253.61.96
+,,,2018-09-11,login.live.com.nsatc.net
+,,,2018-08-18,login.live.com
 ,,,2018-07-18,mail.jiaoban.cc
-,,,2018-07-03,login.live.com
-,,,2018-06-15,131.253.61.96
-,,,2018-06-05,login.msa.akadns6.net
 ,,,2017-12-26,mail.baydogan.com
 ,,,2017-12-25,ipv4.login.live.com
 ,,,2017-11-25,studentemail.enmu.edu
@@ -2187,10 +2395,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-03-18,mail.sergecom.net
 ,,,2014-02-20,mail.aocor.com
 131.253.61.97,AS8075 Microsoft Corporation,US,,
-131.253.61.98,AS8075 Microsoft Corporation,US,2018-08-08,login.msa.akadns6.net
+131.253.61.98,AS8075 Microsoft Corporation,US,2018-09-13,login.live.com
+,,,2018-08-08,login.msa.akadns6.net
 ,,,2018-08-04,ipv4.login.msa.akadns6.net
 ,,,2018-06-21,xml.login.live.com
-,,,2018-05-14,login.live.com
 ,,,2018-05-07,login.live.com.nsatc.net
 ,,,2018-04-10,mail.jiaoban.cc
 ,,,2018-04-03,mail.baydogan.com
@@ -2208,14 +2416,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-03-02,studentmail.ed-coll.ac.uk
 ,,,2014-01-24,live.com
 131.253.61.99,AS8075 Microsoft Corporation,US,,
-131.253.61.100,AS8075 Microsoft Corporation,US,2018-08-13,mail.jiaoban.cc
+131.253.61.100,AS8075 Microsoft Corporation,US,2018-09-11,131.253.61.100
+,,,2018-08-28,login.live.com
+,,,2018-08-13,mail.jiaoban.cc
 ,,,2018-08-12,login.live.com.nsatc.net
 ,,,2018-08-07,ipv4.login.msa.akadns6.net
-,,,2018-08-04,login.live.com
 ,,,2018-08-01,vs.login.msa.akadns6.net
 ,,,2018-07-10,webmail.summitbrokerage.net
 ,,,2018-07-02,login.msa.akadns6.net
-,,,2018-06-28,131.253.61.100
 ,,,2018-06-21,xml.login.live.com
 ,,,2018-06-10,mail.bgcswc.org
 ,,,2018-03-23,webmail.grupocaminhodosaber.com.br
@@ -2390,8 +2598,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 134.170.178.97,AS8075 Microsoft Corporation,US,2016-10-11,device.auth.xboxlive.com.akadns.net
 ,,,2016-09-16,device.auth.xboxlive.com
 ,,,2016-04-26,device.auth.gtm.xboxlive.com
-134.170.185.70,AS8075 Microsoft Corporation,US,2018-08-04,preview.microsoft.com
-,,,2018-07-28,feedback.windows.com
+134.170.185.70,AS8075 Microsoft Corporation,US,2018-08-29,feedback.windows.com
+,,,2018-08-04,preview.microsoft.com
+,,,2018-07-09,www.ultimatepc.com
 ,,,2018-04-04,mediaroomsds.microsoft.com
 ,,,2014-09-15,siweb.microsoft.akadns.net
 ,,,2014-08-08,hotfixv4.microsoft.com
@@ -2626,11 +2835,41 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-09-15,dsn8.skype-dsn.akadns.net
 ,,,2015-12-07,dsn15.skype-dsn.akadns.net
 157.55.56.147,AS8075 Microsoft Corporation,US,2018-08-01,dsn4.d.skype.net
+,,,2018-05-02,dsn12.d.skype.net
 ,,,2017-10-24,dsn11.d.skype.net
 ,,,2015-06-21,dsn6.skype-dsn.akadns.net
 ,,,2014-11-29,dsn1.skype-dsn.akadns.net
-157.55.56.148,AS8075 Microsoft Corporation,US,2017-09-21,dsn11.d.skype.net
+157.55.56.148,AS8075 Microsoft Corporation,US,2018-08-24,dsn9.d.skype.net
+,,,2018-08-24,dsn1.d.skype.net
+,,,2018-08-21,dsn4.d.skype.net
+,,,2018-08-20,dsn8.d.skype.net
+,,,2018-08-20,dsn3.d.skype.net
+,,,2018-08-18,dsn7.d.skype.net
+,,,2018-08-16,dsn2.d.skype.net
+,,,2018-08-14,dsn15.d.skype.net
+,,,2018-08-10,dsn6.d.skype.net
+,,,2018-08-09,dsn0.d.skype.net
+,,,2018-08-06,dsn13.d.skype.net
+,,,2018-08-05,dsn9.skype-dsn.akadns.net
+,,,2018-08-03,dsn14.skype-dsn.akadns.net
+,,,2018-07-31,dsn10.d.skype.net
+,,,2018-07-26,dsn0.skype-dsn.akadns.net
+,,,2018-07-08,dsn12.skype-dsn.akadns.net
+,,,2018-07-07,dsn10.skype-dsn.akadns.net
+,,,2018-07-04,dsn2.skype-dsn.akadns.net
+,,,2018-06-30,dsn13.skype-dsn.akadns.net
+,,,2018-06-22,dsn1.skype-dsn.akadns.net
+,,,2018-06-20,dsn14.d.skype.net
+,,,2018-06-12,dsn5.d.skype.net
+,,,2018-06-10,dsn5.skype-dsn.akadns.net
+,,,2018-06-09,dsn11.skype-dsn.akadns.net
+,,,2018-06-05,dsn8.skype-dsn.akadns.net
+,,,2018-06-02,dsn15.skype-dsn.akadns.net
+,,,2018-05-31,dsn7.skype-dsn.akadns.net
+,,,2018-05-22,dsn4.skype-dsn.akadns.net
+,,,2018-05-07,dsn6.skype-dsn.akadns.net
 ,,,2017-09-21,dsn12.d.skype.net
+,,,2017-09-21,dsn11.d.skype.net
 ,,,2016-06-14,dsn3.skype-dsn.akadns.net
 157.55.56.149,AS8075 Microsoft Corporation,US,2017-09-30,dsn12.d.skype.net
 ,,,2017-09-07,dsn11.d.skype.net
@@ -2674,7 +2913,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-10-10,dsn12.d.skype.net
 157.55.56.154,AS8075 Microsoft Corporation,US,2017-09-29,dsn11.d.skype.net
 ,,,2017-09-21,dsn12.d.skype.net
-157.55.56.155,AS8075 Microsoft Corporation,US,2017-10-06,dsn11.d.skype.net
+157.55.56.155,AS8075 Microsoft Corporation,US,2018-05-21,dsn12.d.skype.net
+,,,2017-10-06,dsn11.d.skype.net
 157.55.56.156,AS8075 Microsoft Corporation,US,2017-09-28,dsn11.d.skype.net
 ,,,2017-09-28,dsn12.d.skype.net
 ,,,2016-12-15,dsn15.skype-dsn.akadns.net
@@ -2708,24 +2948,24 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 157.55.56.163,AS8075 Microsoft Corporation,US,2018-07-02,dsn15.skype-dsn.akadns.net
 ,,,2017-10-11,dsn11.d.skype.net
 ,,,2017-09-19,dsn12.d.skype.net
-157.55.56.164,AS8075 Microsoft Corporation,US,2018-08-01,dsn13.d.skype.net
+157.55.56.164,AS8075 Microsoft Corporation,US,2018-08-12,dsn12.d.skype.net
+,,,2018-08-01,dsn13.d.skype.net
 ,,,2017-10-22,dsn11.d.skype.net
 157.55.56.165,AS8075 Microsoft Corporation,US,2017-10-11,dsn11.d.skype.net
 ,,,2017-09-26,dsn12.d.skype.net
 ,,,2017-05-11,dsn15.skype-dsn.akadns.net
 ,,,2016-10-19,157.55.56.165
-157.55.56.166,AS8075 Microsoft Corporation,US,2017-10-19,dsn11.d.skype.net
+157.55.56.166,AS8075 Microsoft Corporation,US,2018-08-24,dsn15.skype-dsn.akadns.net
+,,,2017-10-19,dsn11.d.skype.net
 ,,,2017-09-08,dsn12.d.skype.net
 157.55.56.167,AS8075 Microsoft Corporation,US,2017-09-28,dsn11.d.skype.net
 ,,,2016-02-29,dsn12.d.skype.net
 157.55.56.168,AS8075 Microsoft Corporation,US,2018-05-12,dsn11.d.skype.net
 ,,,2018-03-07,dsn12.d.skype.net
 ,,,2014-11-28,dsn8.skype-dsn.akadns.net
-157.55.56.169,AS8075 Microsoft Corporation,US,2018-07-22,dsn11.d.skype.net
-,,,2017-10-30,dsn12.d.skype.net
-157.55.56.170,AS8075 Microsoft Corporation,US,2018-08-08,dsn1.d.skype.net
-,,,2018-05-24,dsn12.d.skype.net
-,,,2018-04-22,dsn11.d.skype.net
+157.55.56.169,AS8075 Microsoft Corporation,US,2018-09-15,dsn12.d.skype.net
+,,,2018-07-22,dsn11.d.skype.net
+157.55.56.170,AS8075 Microsoft Corporation,US,,
 157.55.56.171,AS8075 Microsoft Corporation,US,2017-10-19,dsn12.d.skype.net
 ,,,2015-03-07,dsn11.d.skype.net
 157.55.56.172,AS8075 Microsoft Corporation,US,2018-04-17,dsn15.skype-dsn.akadns.net
@@ -2736,8 +2976,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2018-06-21,dsn2.d.skype.net
 ,,,2017-10-07,dsn12.d.skype.net
 ,,,2017-09-21,dsn11.d.skype.net
-157.55.56.174,AS8075 Microsoft Corporation,US,2018-06-24,dsn9.d.skype.net
-,,,2017-09-27,dsn11.d.skype.net
+157.55.56.174,AS8075 Microsoft Corporation,US,2018-08-26,dsn11.d.skype.net
+,,,2018-06-24,dsn9.d.skype.net
 ,,,2017-09-07,dsn12.d.skype.net
 157.55.56.175,AS8075 Microsoft Corporation,US,2017-10-06,dsn11.d.skype.net
 ,,,2017-10-01,dsn12.d.skype.net
@@ -2771,37 +3011,37 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 157.55.56.177,AS8075 Microsoft Corporation,US,,
 157.55.56.178,AS8075 Microsoft Corporation,US,,
 157.55.56.179,AS8075 Microsoft Corporation,US,,
-157.55.56.180,AS8075 Microsoft Corporation,US,,
+157.55.56.180,,,,
 157.55.56.181,AS8075 Microsoft Corporation,US,,
-157.55.56.182,AS8075 Microsoft Corporation,US,,
+157.55.56.182,,,,
 157.55.56.183,AS8075 Microsoft Corporation,US,,
-157.55.56.184,AS8075 Microsoft Corporation,US,,
+157.55.56.184,,,,
 157.55.56.185,AS8075 Microsoft Corporation,US,,
 157.55.56.186,AS8075 Microsoft Corporation,US,,
-157.55.56.187,AS8075 Microsoft Corporation,US,,
+157.55.56.187,,,,
 157.55.56.188,AS8075 Microsoft Corporation,US,,
-157.55.56.189,AS8075 Microsoft Corporation,US,,
-157.55.56.190,AS8075 Microsoft Corporation,US,,
-157.55.56.191,AS8075 Microsoft Corporation,US,,
+157.55.56.189,,,,
+157.55.56.190,,,,
+157.55.56.191,,,,
 157.55.56.192,AS8075 Microsoft Corporation,US,,
-157.55.56.193,AS8075 Microsoft Corporation,US,,
-157.55.56.194,AS8075 Microsoft Corporation,US,,
-157.55.56.195,AS8075 Microsoft Corporation,US,,
+157.55.56.193,,,,
+157.55.56.194,,,,
+157.55.56.195,,,,
 157.55.56.196,AS8075 Microsoft Corporation,US,,
 157.55.56.197,AS8075 Microsoft Corporation,US,,
-157.55.56.198,AS8075 Microsoft Corporation,US,,
+157.55.56.198,,,,
 157.55.56.199,AS8075 Microsoft Corporation,US,,
 157.55.56.200,AS8075 Microsoft Corporation,US,,
-157.55.56.201,AS8075 Microsoft Corporation,US,,
+157.55.56.201,,,,
 157.55.56.202,AS8075 Microsoft Corporation,US,,
-157.55.56.203,AS8075 Microsoft Corporation,US,,
-157.55.56.204,AS8075 Microsoft Corporation,US,,
-157.55.56.205,AS8075 Microsoft Corporation,US,,
+157.55.56.203,,,,
+157.55.56.204,,,,
+157.55.56.205,,,,
 157.55.56.206,AS8075 Microsoft Corporation,US,,
-157.55.56.207,AS8075 Microsoft Corporation,US,,
-157.55.56.208,AS8075 Microsoft Corporation,US,,
-157.55.56.209,AS8075 Microsoft Corporation,US,,
-157.55.56.210,AS8075 Microsoft Corporation,US,,
+157.55.56.207,,,,
+157.55.56.208,,,,
+157.55.56.209,,,,
+157.55.56.210,,,,
 157.55.56.211,AS8075 Microsoft Corporation,US,,
 157.55.56.212,AS8075 Microsoft Corporation,US,,
 157.55.56.213,AS8075 Microsoft Corporation,US,,
@@ -2810,43 +3050,43 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 157.55.56.216,AS8075 Microsoft Corporation,US,,
 157.55.56.217,AS8075 Microsoft Corporation,US,,
 157.55.56.218,AS8075 Microsoft Corporation,US,,
-157.55.56.219,AS8075 Microsoft Corporation,US,,
+157.55.56.219,,,,
 157.55.56.220,AS8075 Microsoft Corporation,US,,
-157.55.56.221,AS8075 Microsoft Corporation,US,,
+157.55.56.221,,,,
 157.55.56.222,AS8075 Microsoft Corporation,US,,
 157.55.56.223,AS8075 Microsoft Corporation,US,,
 157.55.56.224,AS8075 Microsoft Corporation,US,,
-157.55.56.225,AS8075 Microsoft Corporation,US,,
-157.55.56.226,AS8075 Microsoft Corporation,US,,
-157.55.56.227,AS8075 Microsoft Corporation,US,,
-157.55.56.228,AS8075 Microsoft Corporation,US,,
-157.55.56.229,AS8075 Microsoft Corporation,US,,
-157.55.56.230,AS8075 Microsoft Corporation,US,,
-157.55.56.231,AS8075 Microsoft Corporation,US,,
-157.55.56.232,AS8075 Microsoft Corporation,US,,
-157.55.56.233,AS8075 Microsoft Corporation,US,,
+157.55.56.225,,,,
+157.55.56.226,,,,
+157.55.56.227,,,,
+157.55.56.228,,,,
+157.55.56.229,,,,
+157.55.56.230,,,,
+157.55.56.231,,,,
+157.55.56.232,,,,
+157.55.56.233,,,,
 157.55.56.234,AS8075 Microsoft Corporation,US,,
 157.55.56.235,AS8075 Microsoft Corporation,US,,
-157.55.56.236,AS8075 Microsoft Corporation,US,,
-157.55.56.237,AS8075 Microsoft Corporation,US,,
-157.55.56.238,AS8075 Microsoft Corporation,US,,
-157.55.56.239,AS8075 Microsoft Corporation,US,,
-157.55.56.240,AS8075 Microsoft Corporation,US,,
-157.55.56.241,AS8075 Microsoft Corporation,US,,
-157.55.56.242,AS8075 Microsoft Corporation,US,,
-157.55.56.243,AS8075 Microsoft Corporation,US,,
-157.55.56.244,AS8075 Microsoft Corporation,US,,
-157.55.56.245,AS8075 Microsoft Corporation,US,,
-157.55.56.246,AS8075 Microsoft Corporation,US,,
+157.55.56.236,,,,
+157.55.56.237,,,,
+157.55.56.238,,,,
+157.55.56.239,,,,
+157.55.56.240,,,,
+157.55.56.241,,,,
+157.55.56.242,,,,
+157.55.56.243,,,,
+157.55.56.244,,,,
+157.55.56.245,,,,
+157.55.56.246,,,,
 157.55.56.247,AS8075 Microsoft Corporation,US,,
-157.55.56.248,AS8075 Microsoft Corporation,US,,
-157.55.56.249,AS8075 Microsoft Corporation,US,,
-157.55.56.250,AS8075 Microsoft Corporation,US,,
-157.55.56.251,AS8075 Microsoft Corporation,US,,
-157.55.56.252,AS8075 Microsoft Corporation,US,,
+157.55.56.248,,,,
+157.55.56.249,,,,
+157.55.56.250,,,,
+157.55.56.251,,,,
+157.55.56.252,,,,
 157.55.56.253,AS8075 Microsoft Corporation,US,,
 157.55.56.254,AS8075 Microsoft Corporation,US,,
-157.55.109.7,AS8075 Microsoft Corporation,US,2016-07-14,dm3-cor001.api.p001.1drv.com
+157.55.109.7,,,2016-07-14,dm3-cor001.api.p001.1drv.com
 ,,,2016-07-10,cid-d6e6023c368f1d00.users.storage.live.com
 ,,,2016-07-09,cid-9c234b9edc2cd46e.users.storage.live.com
 ,,,2016-07-04,bn1.storage.live.com
@@ -2953,7 +3193,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-08-18,byfiles.storage.msn.com
 ,,,2016-08-17,cid-8fddb4505d2a7510.users.storage.live.com
 ,,,2016-08-11,bn1files.storage.msn.com
-157.55.109.228,AS8075 Microsoft Corporation,US,2017-06-14,vbh3zq.sn2.livefilestore.com
+157.55.109.228,,,2017-06-14,vbh3zq.sn2.livefilestore.com
 ,,,2017-06-14,1yfxbq.bay.livefilestore.com
 ,,,2017-06-14,vryjrq.blu.livefilestore.com
 ,,,2017-06-14,cid-34b925c2cba8a510.users.storage.live.com
@@ -3003,7 +3243,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-09-24,mdmqxq.bay.livefilestore.com
 ,,,2016-08-22,54d94af0756026d5.users.storage.live.com
 ,,,2016-08-09,cid-3fee80c1b36c82d1.users.storage.live.com
-157.55.109.230,AS8075 Microsoft Corporation,US,2016-12-14,bn1files.storage.msn.com
+157.55.109.230,,,2016-12-14,bn1files.storage.msn.com
 ,,,2016-12-13,cid-079fc2895cc197a6.users.storage.live.com
 ,,,2016-12-09,cid-4b72778bafe62d69.users.storage.live.com
 ,,,2016-12-08,cid-9823fe3fec3bd48c.users.storage.live.com
@@ -3053,7 +3293,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-08-09,cid-2c305e992166ad1a.users.storage.live.com
 ,,,2016-08-03,brrbja.bay.livefilestore.com
 ,,,2016-08-03,bwhzqq.bay.livefilestore.com
-157.55.109.232,AS8075 Microsoft Corporation,US,2017-06-14,ynwjjg.blu.livefilestore.com
+157.55.109.232,,,2017-06-14,ynwjjg.blu.livefilestore.com
 ,,,2017-06-14,6hq88q.blu.livefilestore.com
 ,,,2017-06-14,hoaepq.bay.livefilestore.com
 ,,,2017-06-14,jlbvrq.bay.livefilestore.com
@@ -3103,10 +3343,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-12-28,ojlyua.blu.livefilestore.com
 ,,,2016-12-26,ipipia.blu.livefilestore.com
 ,,,2016-10-20,aoekwa.blu.livefilestore.com
-157.55.129.21,AS8075 Microsoft Corporation,US,2018-08-05,feedback.msn.com
+157.55.129.21,,,2018-09-11,support.msn.microsoft.akadns.net
+,,,2018-09-11,service.xbox.com
+,,,2018-08-05,feedback.msn.com
 ,,,2018-07-28,feedback.office.microsoft.com
-,,,2018-07-27,support.msn.microsoft.akadns.net
-,,,2018-07-22,service.xbox.com
 ,,,2018-07-05,feedback.windowsvista.microsoft.com
 ,,,2018-07-05,feedback.search.microsoft.com
 ,,,2016-12-20,help.xbox.com
@@ -3116,30 +3356,29 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-09-15,support.live.microsoft.akadns.net
 ,,,2014-09-15,feedback.live.microsoft.akadns.net
 ,,,2014-06-24,microsoft.com
-157.55.134.136,AS8075 Microsoft Corporation,US,2017-03-10,login.live.com
+157.55.134.136,,,2017-03-10,login.live.com
 ,,,2017-03-08,login.msa.akadns6.net
-157.55.134.138,AS8075 Microsoft Corporation,US,2017-03-14,login.live.com
+157.55.134.138,,,2017-03-14,login.live.com
 ,,,2017-03-08,mel.cnamintec.fr
-157.55.134.140,AS8075 Microsoft Corporation,US,2017-03-14,login.live.com
-157.55.135.128,AS8075 Microsoft Corporation,US,2017-03-07,login.live.com
-157.55.135.130,AS8075 Microsoft Corporation,US,2017-03-14,login.live.com
-157.56.57.5,AS8075 Microsoft Corporation,US,2018-03-11,diagnostics.support.microsoft.com
+157.55.134.140,,,2017-03-14,login.live.com
+157.55.135.128,,,2017-03-07,login.live.com
+157.55.135.130,,,2017-03-14,login.live.com
+157.56.57.5,,,2018-03-11,diagnostics.support.microsoft.com
 ,,,2016-12-10,diagnostics.support.microsoft.akadns.net
-168.63.18.79,AS8075 Microsoft Corporation,NL,2017-11-04,prod.nexusrules.live.com.akadns.net
+168.63.18.79,,,2017-11-04,prod.nexusrules.live.com.akadns.net
 ,,,2017-09-18,nexusrules.officeapps.live.com
-191.232.139.2,AS8075 Microsoft Corporation,IE,2018-08-06,msnbot-191-232-139-2.search.msn.com
-,,,2017-10-30,fe3.delivery.dsp.mp.microsoft.com.nsatc.net
-,,,2017-09-06,fe3.delivery.mp.microsoft.com
-191.237.208.126,AS8075 Microsoft Corporation,IE,2017-01-13,spyneteurope.microsoft.akadns.net
+191.232.139.2,AS8075 Microsoft Corporation,IE,2018-08-31,fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+,,,2018-08-30,fe3.delivery.mp.microsoft.com
+,,,2018-08-06,msnbot-191-232-139-2.search.msn.com
+191.237.208.126,,,2017-01-13,spyneteurope.microsoft.akadns.net
 ,,,2016-11-10,wdcpeurope.microsoft.akadns.net
 ,,,2016-04-07,spynetalt.microsoft.com
 ,,,2015-12-12,spynetall.microsoft.akadns.net
 ,,,2014-10-15,spynet2.microsoft.com
 ,,,2014-06-03,spynetfrontend-neu-tip.cloudapp.net
-191.239.213.197,AS8075 Microsoft Corporation,IE,2017-10-04,cloud-ios.net
+191.239.213.197,,,2017-10-04,cloud-ios.net
 ,,,2017-09-21,microsoft.it
 ,,,2017-09-15,microsoft.az
-,,,2017-09-08,asia.microsoft.com
 ,,,2017-09-03,microsoft.dk
 ,,,2017-09-01,api.microsoft.com
 ,,,2017-08-28,futuredecoded.microsoft.com
@@ -3147,10 +3386,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-06-05,microsoft.ch
 ,,,2017-06-02,microsoftcloudpartnersolutions.com
 ,,,2017-05-22,microsoft.pl
-,,,2017-05-19,gigjam.com
 ,,,2017-05-19,muhprivacy.com
+,,,2017-05-19,gigjam.com
 ,,,2017-05-13,microsoft.ee
 ,,,2017-05-13,microsoftstore.ca
+,,,2017-04-13,myservice.xbox.com
 ,,,2017-02-23,issues.microsoftedge.com
 ,,,2017-02-03,microsoft.ro
 ,,,2017-01-20,microsoft.cz
@@ -3186,205 +3426,205 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-12-29,microsoft.be
 ,,,2015-12-09,www.terraserver.microsoft.com
 ,,,2015-11-23,www.hup.microsoft.com
-204.79.197.1,AS8068 Microsoft Corporation,US,2018-07-29,ns1.a-msedge.net
-,,,2018-07-05,ns1.msedge.net
-204.79.197.2,AS8068 Microsoft Corporation,US,2018-08-13,NS2.MSEDGE.NET
-,,,2018-08-06,NS2.A-MSEDGE.NET
-204.79.197.3,AS8068 Microsoft Corporation,US,,
-204.79.197.4,AS8068 Microsoft Corporation,US,,
-204.79.197.5,AS8068 Microsoft Corporation,US,,
-204.79.197.6,AS8068 Microsoft Corporation,US,,
-204.79.197.7,AS8068 Microsoft Corporation,US,,
-204.79.197.8,AS8068 Microsoft Corporation,US,,
-204.79.197.9,AS8068 Microsoft Corporation,US,,
-204.79.197.10,AS8068 Microsoft Corporation,US,,
-204.79.197.11,AS8068 Microsoft Corporation,US,,
-204.79.197.12,AS8068 Microsoft Corporation,US,,
-204.79.197.13,AS8068 Microsoft Corporation,US,,
+204.79.197.1,,,2018-09-14,ns1.msedge.net
+,,,2018-09-12,ns1.a-msedge.net
+204.79.197.2,,,2018-09-13,NS2.MSEDGE.NET
+,,,2018-09-07,NS2.A-MSEDGE.NET
+204.79.197.3,,,,
+204.79.197.4,,,,
+204.79.197.5,,,,
+204.79.197.6,,,,
+204.79.197.7,,,,
+204.79.197.8,,,,
+204.79.197.9,,,,
+204.79.197.10,,,,
+204.79.197.11,,,,
+204.79.197.12,,,,
+204.79.197.13,,,,
 204.79.197.14,AS8068 Microsoft Corporation,US,,
-204.79.197.15,AS8068 Microsoft Corporation,US,,
-204.79.197.16,AS8068 Microsoft Corporation,US,,
-204.79.197.17,AS8068 Microsoft Corporation,US,,
-204.79.197.18,AS8068 Microsoft Corporation,US,,
-204.79.197.19,AS8068 Microsoft Corporation,US,,
-204.79.197.20,AS8068 Microsoft Corporation,US,,
-204.79.197.21,AS8068 Microsoft Corporation,US,2018-08-09,live.de
-204.79.197.22,AS8068 Microsoft Corporation,US,,
-204.79.197.23,AS8068 Microsoft Corporation,US,,
-204.79.197.24,AS8068 Microsoft Corporation,US,,
-204.79.197.25,AS8068 Microsoft Corporation,US,,
-204.79.197.26,AS8068 Microsoft Corporation,US,,
-204.79.197.27,AS8068 Microsoft Corporation,US,,
-204.79.197.28,AS8068 Microsoft Corporation,US,,
-204.79.197.29,AS8068 Microsoft Corporation,US,,
-204.79.197.30,AS8068 Microsoft Corporation,US,,
-204.79.197.31,AS8068 Microsoft Corporation,US,,
-204.79.197.32,AS8068 Microsoft Corporation,US,,
-204.79.197.33,AS8068 Microsoft Corporation,US,,
-204.79.197.34,AS8068 Microsoft Corporation,US,,
-204.79.197.35,AS8068 Microsoft Corporation,US,,
-204.79.197.36,AS8068 Microsoft Corporation,US,,
-204.79.197.37,AS8068 Microsoft Corporation,US,,
-204.79.197.38,AS8068 Microsoft Corporation,US,,
-204.79.197.39,AS8068 Microsoft Corporation,US,,
-204.79.197.40,AS8068 Microsoft Corporation,US,,
-204.79.197.41,AS8068 Microsoft Corporation,US,,
-204.79.197.42,AS8068 Microsoft Corporation,US,,
+204.79.197.15,,,,
+204.79.197.16,,,,
+204.79.197.17,,,,
+204.79.197.18,,,,
+204.79.197.19,,,,
+204.79.197.20,,,,
+204.79.197.21,,,2018-08-09,live.de
+204.79.197.22,,,,
+204.79.197.23,,,,
+204.79.197.24,,,,
+204.79.197.25,,,,
+204.79.197.26,,,,
+204.79.197.27,,,,
+204.79.197.28,,,,
+204.79.197.29,,,,
+204.79.197.30,,,,
+204.79.197.31,,,,
+204.79.197.32,,,,
+204.79.197.33,,,,
+204.79.197.34,,,,
+204.79.197.35,,,,
+204.79.197.36,,,,
+204.79.197.37,,,,
+204.79.197.38,,,,
+204.79.197.39,,,,
+204.79.197.40,,,,
+204.79.197.41,,,,
+204.79.197.42,,,,
 204.79.197.43,AS8068 Microsoft Corporation,US,,
-204.79.197.44,AS8068 Microsoft Corporation,US,,
-204.79.197.45,AS8068 Microsoft Corporation,US,,
-204.79.197.46,AS8068 Microsoft Corporation,US,,
+204.79.197.44,,,,
+204.79.197.45,,,,
+204.79.197.46,,,,
 204.79.197.47,AS8068 Microsoft Corporation,US,,
 204.79.197.48,AS8068 Microsoft Corporation,US,,
-204.79.197.49,AS8068 Microsoft Corporation,US,,
-204.79.197.50,AS8068 Microsoft Corporation,US,,
-204.79.197.51,AS8068 Microsoft Corporation,US,,
-204.79.197.52,AS8068 Microsoft Corporation,US,,
-204.79.197.53,AS8068 Microsoft Corporation,US,,
-204.79.197.54,AS8068 Microsoft Corporation,US,,
-204.79.197.55,AS8068 Microsoft Corporation,US,,
-204.79.197.56,AS8068 Microsoft Corporation,US,,
-204.79.197.57,AS8068 Microsoft Corporation,US,,
-204.79.197.58,AS8068 Microsoft Corporation,US,,
-204.79.197.59,AS8068 Microsoft Corporation,US,,
-204.79.197.60,AS8068 Microsoft Corporation,US,,
-204.79.197.61,AS8068 Microsoft Corporation,US,,
-204.79.197.62,AS8068 Microsoft Corporation,US,,
-204.79.197.63,AS8068 Microsoft Corporation,US,,
-204.79.197.64,AS8068 Microsoft Corporation,US,,
-204.79.197.65,AS8068 Microsoft Corporation,US,,
-204.79.197.66,AS8068 Microsoft Corporation,US,,
-204.79.197.67,AS8068 Microsoft Corporation,US,,
-204.79.197.68,AS8068 Microsoft Corporation,US,,
-204.79.197.69,AS8068 Microsoft Corporation,US,,
-204.79.197.70,AS8068 Microsoft Corporation,US,,
-204.79.197.71,AS8068 Microsoft Corporation,US,,
-204.79.197.72,AS8068 Microsoft Corporation,US,,
+204.79.197.49,,,,
+204.79.197.50,,,,
+204.79.197.51,,,,
+204.79.197.52,,,,
+204.79.197.53,,,,
+204.79.197.54,,,,
+204.79.197.55,,,,
+204.79.197.56,,,,
+204.79.197.57,,,,
+204.79.197.58,,,,
+204.79.197.59,,,,
+204.79.197.60,,,,
+204.79.197.61,,,,
+204.79.197.62,,,,
+204.79.197.63,,,,
+204.79.197.64,,,,
+204.79.197.65,,,,
+204.79.197.66,,,,
+204.79.197.67,,,,
+204.79.197.68,,,,
+204.79.197.69,,,,
+204.79.197.70,,,,
+204.79.197.71,,,,
+204.79.197.72,,,,
 204.79.197.73,AS8068 Microsoft Corporation,US,,
-204.79.197.74,AS8068 Microsoft Corporation,US,,
-204.79.197.75,AS8068 Microsoft Corporation,US,,
-204.79.197.76,AS8068 Microsoft Corporation,US,,
-204.79.197.77,AS8068 Microsoft Corporation,US,,
-204.79.197.78,AS8068 Microsoft Corporation,US,,
-204.79.197.79,AS8068 Microsoft Corporation,US,,
-204.79.197.80,AS8068 Microsoft Corporation,US,,
-204.79.197.81,AS8068 Microsoft Corporation,US,,
-204.79.197.82,AS8068 Microsoft Corporation,US,,
-204.79.197.83,AS8068 Microsoft Corporation,US,,
-204.79.197.84,AS8068 Microsoft Corporation,US,,
-204.79.197.85,AS8068 Microsoft Corporation,US,,
-204.79.197.86,AS8068 Microsoft Corporation,US,,
-204.79.197.87,AS8068 Microsoft Corporation,US,,
-204.79.197.88,AS8068 Microsoft Corporation,US,,
-204.79.197.89,AS8068 Microsoft Corporation,US,,
+204.79.197.74,,,,
+204.79.197.75,,,,
+204.79.197.76,,,,
+204.79.197.77,,,,
+204.79.197.78,,,,
+204.79.197.79,,,,
+204.79.197.80,,,,
+204.79.197.81,,,,
+204.79.197.82,,,,
+204.79.197.83,,,,
+204.79.197.84,,,,
+204.79.197.85,,,,
+204.79.197.86,,,,
+204.79.197.87,,,,
+204.79.197.88,,,,
+204.79.197.89,,,,
 204.79.197.90,AS8068 Microsoft Corporation,US,,
-204.79.197.91,AS8068 Microsoft Corporation,US,,
-204.79.197.92,AS8068 Microsoft Corporation,US,,
-204.79.197.93,AS8068 Microsoft Corporation,US,,
-204.79.197.94,AS8068 Microsoft Corporation,US,,
-204.79.197.95,AS8068 Microsoft Corporation,US,,
+204.79.197.91,,,,
+204.79.197.92,,,,
+204.79.197.93,,,,
+204.79.197.94,,,,
+204.79.197.95,,,,
 204.79.197.96,AS8068 Microsoft Corporation,US,,
-204.79.197.97,AS8068 Microsoft Corporation,US,,
-204.79.197.98,AS8068 Microsoft Corporation,US,,
-204.79.197.99,AS8068 Microsoft Corporation,US,,
-204.79.197.100,AS8068 Microsoft Corporation,US,,
-204.79.197.101,AS8068 Microsoft Corporation,US,,
-204.79.197.102,AS8068 Microsoft Corporation,US,,
-204.79.197.103,AS8068 Microsoft Corporation,US,,
-204.79.197.104,AS8068 Microsoft Corporation,US,,
-204.79.197.105,AS8068 Microsoft Corporation,US,,
-204.79.197.106,AS8068 Microsoft Corporation,US,,
-204.79.197.107,AS8068 Microsoft Corporation,US,,
+204.79.197.97,,,,
+204.79.197.98,,,,
+204.79.197.99,,,,
+204.79.197.100,,,,
+204.79.197.101,,,,
+204.79.197.102,,,,
+204.79.197.103,,,,
+204.79.197.104,,,,
+204.79.197.105,,,,
+204.79.197.106,,,,
+204.79.197.107,,,,
 204.79.197.108,AS8068 Microsoft Corporation,US,,
-204.79.197.109,AS8068 Microsoft Corporation,US,,
-204.79.197.110,AS8068 Microsoft Corporation,US,,
-204.79.197.111,AS8068 Microsoft Corporation,US,,
-204.79.197.112,AS8068 Microsoft Corporation,US,,
-204.79.197.113,AS8068 Microsoft Corporation,US,,
-204.79.197.114,AS8068 Microsoft Corporation,US,,
-204.79.197.115,AS8068 Microsoft Corporation,US,,
-204.79.197.116,AS8068 Microsoft Corporation,US,,
-204.79.197.117,AS8068 Microsoft Corporation,US,,
-204.79.197.118,AS8068 Microsoft Corporation,US,,
-204.79.197.119,AS8068 Microsoft Corporation,US,,
-204.79.197.120,AS8068 Microsoft Corporation,US,,
-204.79.197.121,AS8068 Microsoft Corporation,US,,
-204.79.197.122,AS8068 Microsoft Corporation,US,,
-204.79.197.123,AS8068 Microsoft Corporation,US,,
-204.79.197.124,AS8068 Microsoft Corporation,US,,
-204.79.197.125,AS8068 Microsoft Corporation,US,,
-204.79.197.126,AS8068 Microsoft Corporation,US,,
-204.79.197.127,AS8068 Microsoft Corporation,US,,
-204.79.197.128,AS8068 Microsoft Corporation,US,,
-204.79.197.129,AS8068 Microsoft Corporation,US,,
-204.79.197.130,AS8068 Microsoft Corporation,US,,
-204.79.197.131,AS8068 Microsoft Corporation,US,,
-204.79.197.132,AS8068 Microsoft Corporation,US,,
-204.79.197.133,AS8068 Microsoft Corporation,US,,
+204.79.197.109,,,,
+204.79.197.110,,,,
+204.79.197.111,,,,
+204.79.197.112,,,,
+204.79.197.113,,,,
+204.79.197.114,,,,
+204.79.197.115,,,,
+204.79.197.116,,,,
+204.79.197.117,,,,
+204.79.197.118,,,,
+204.79.197.119,,,,
+204.79.197.120,,,,
+204.79.197.121,,,,
+204.79.197.122,,,,
+204.79.197.123,,,,
+204.79.197.124,,,,
+204.79.197.125,,,,
+204.79.197.126,,,,
+204.79.197.127,,,,
+204.79.197.128,,,,
+204.79.197.129,,,,
+204.79.197.130,,,,
+204.79.197.131,,,,
+204.79.197.132,,,,
+204.79.197.133,,,,
 204.79.197.134,AS8068 Microsoft Corporation,US,,
-204.79.197.135,AS8068 Microsoft Corporation,US,,
-204.79.197.136,AS8068 Microsoft Corporation,US,,
-204.79.197.137,AS8068 Microsoft Corporation,US,,
-204.79.197.138,AS8068 Microsoft Corporation,US,,
-204.79.197.139,AS8068 Microsoft Corporation,US,,
-204.79.197.140,AS8068 Microsoft Corporation,US,,
-204.79.197.141,AS8068 Microsoft Corporation,US,,
-204.79.197.142,AS8068 Microsoft Corporation,US,,
-204.79.197.143,AS8068 Microsoft Corporation,US,,
-204.79.197.144,AS8068 Microsoft Corporation,US,,
-204.79.197.145,AS8068 Microsoft Corporation,US,,
-204.79.197.146,AS8068 Microsoft Corporation,US,,
-204.79.197.147,AS8068 Microsoft Corporation,US,,
-204.79.197.148,AS8068 Microsoft Corporation,US,,
-204.79.197.149,AS8068 Microsoft Corporation,US,,
+204.79.197.135,,,,
+204.79.197.136,,,,
+204.79.197.137,,,,
+204.79.197.138,,,,
+204.79.197.139,,,,
+204.79.197.140,,,,
+204.79.197.141,,,,
+204.79.197.142,,,,
+204.79.197.143,,,,
+204.79.197.144,,,,
+204.79.197.145,,,,
+204.79.197.146,,,,
+204.79.197.147,,,,
+204.79.197.148,,,,
+204.79.197.149,,,,
 204.79.197.150,AS8068 Microsoft Corporation,US,,
-204.79.197.151,AS8068 Microsoft Corporation,US,,
-204.79.197.152,AS8068 Microsoft Corporation,US,,
-204.79.197.153,AS8068 Microsoft Corporation,US,,
-204.79.197.154,AS8068 Microsoft Corporation,US,,
-204.79.197.155,AS8068 Microsoft Corporation,US,,
-204.79.197.156,AS8068 Microsoft Corporation,US,,
-204.79.197.157,AS8068 Microsoft Corporation,US,,
-204.79.197.158,AS8068 Microsoft Corporation,US,,
-204.79.197.159,AS8068 Microsoft Corporation,US,,
-204.79.197.160,AS8068 Microsoft Corporation,US,,
-204.79.197.161,AS8068 Microsoft Corporation,US,,
-204.79.197.162,AS8068 Microsoft Corporation,US,,
+204.79.197.151,,,,
+204.79.197.152,,,,
+204.79.197.153,,,,
+204.79.197.154,,,,
+204.79.197.155,,,,
+204.79.197.156,,,,
+204.79.197.157,,,,
+204.79.197.158,,,,
+204.79.197.159,,,,
+204.79.197.160,,,,
+204.79.197.161,,,,
+204.79.197.162,,,,
 204.79.197.163,AS8068 Microsoft Corporation,US,,
-204.79.197.164,AS8068 Microsoft Corporation,US,,
-204.79.197.165,AS8068 Microsoft Corporation,US,,
-204.79.197.166,AS8068 Microsoft Corporation,US,,
-204.79.197.167,AS8068 Microsoft Corporation,US,,
-204.79.197.168,AS8068 Microsoft Corporation,US,,
-204.79.197.169,AS8068 Microsoft Corporation,US,,
-204.79.197.170,AS8068 Microsoft Corporation,US,,
-204.79.197.171,AS8068 Microsoft Corporation,US,,
-204.79.197.172,AS8068 Microsoft Corporation,US,,
-204.79.197.173,AS8068 Microsoft Corporation,US,,
-204.79.197.174,AS8068 Microsoft Corporation,US,,
-204.79.197.175,AS8068 Microsoft Corporation,US,,
-204.79.197.176,AS8068 Microsoft Corporation,US,,
-204.79.197.177,AS8068 Microsoft Corporation,US,,
+204.79.197.164,,,,
+204.79.197.165,,,,
+204.79.197.166,,,,
+204.79.197.167,,,,
+204.79.197.168,,,,
+204.79.197.169,,,,
+204.79.197.170,,,,
+204.79.197.171,,,,
+204.79.197.172,,,,
+204.79.197.173,,,,
+204.79.197.174,,,,
+204.79.197.175,,,,
+204.79.197.176,,,,
+204.79.197.177,,,,
 204.79.197.178,AS8068 Microsoft Corporation,US,,
-204.79.197.179,AS8068 Microsoft Corporation,US,,
-204.79.197.180,AS8068 Microsoft Corporation,US,,
-204.79.197.181,AS8068 Microsoft Corporation,US,,
-204.79.197.182,AS8068 Microsoft Corporation,US,,
-204.79.197.183,AS8068 Microsoft Corporation,US,,
-204.79.197.184,AS8068 Microsoft Corporation,US,,
-204.79.197.185,AS8068 Microsoft Corporation,US,,
-204.79.197.186,AS8068 Microsoft Corporation,US,,
-204.79.197.187,AS8068 Microsoft Corporation,US,,
-204.79.197.188,AS8068 Microsoft Corporation,US,,
-204.79.197.189,AS8068 Microsoft Corporation,US,,
-204.79.197.190,AS8068 Microsoft Corporation,US,,
-204.79.197.191,AS8068 Microsoft Corporation,US,,
-204.79.197.192,AS8068 Microsoft Corporation,US,,
-204.79.197.193,AS8068 Microsoft Corporation,US,,
-204.79.197.194,AS8068 Microsoft Corporation,US,,
-204.79.197.195,AS8068 Microsoft Corporation,US,,
-204.79.197.196,AS8068 Microsoft Corporation,US,,
-204.79.197.197,AS8068 Microsoft Corporation,US,2014-05-19,1c30846cfe884cc798d78886d3e4e364.msedge.net
+204.79.197.179,,,,
+204.79.197.180,,,,
+204.79.197.181,,,,
+204.79.197.182,,,,
+204.79.197.183,,,,
+204.79.197.184,,,,
+204.79.197.185,,,,
+204.79.197.186,,,,
+204.79.197.187,,,,
+204.79.197.188,,,,
+204.79.197.189,,,,
+204.79.197.190,,,,
+204.79.197.191,,,,
+204.79.197.192,,,,
+204.79.197.193,,,,
+204.79.197.194,,,,
+204.79.197.195,,,,
+204.79.197.196,,,,
+204.79.197.197,,,2014-05-19,1c30846cfe884cc798d78886d3e4e364.msedge.net
 ,,,2014-05-19,2160a12b269f489a81589e613147fac7.msedge.net
 ,,,2014-05-19,0002d2dc24bb46bcb0413acfdbe98c9f.msedge.net
 ,,,2014-05-19,2125cf9aadeb4cb596094af60527a62d.msedge.net
@@ -3434,9 +3674,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-09-10,1.perf.msedge.net
 ,,,2013-08-05,1c5684e5dc1e4da9902d12b245c2c660.msedge.net
 ,,,2013-04-29,1127edf8ec3e4dce954b41f76c373120.msedge.net
-204.79.197.198,AS8068 Microsoft Corporation,US,2014-03-09,test.msedge.net
+204.79.197.198,,,2014-03-09,test.msedge.net
 ,,,2014-03-09,unicast.msedge.net
-204.79.197.199,AS8068 Microsoft Corporation,US,2014-03-11,unicast.msedge.net
+204.79.197.199,,,2014-03-11,unicast.msedge.net
 ,,,2014-03-10,perf.msedge.net
 ,,,2013-11-19,anycast.perf.glbdns.microsoft.com
 204.79.197.200,AS8068 Microsoft Corporation,US,2015-02-11,9d8ed238ad3d42eaab2b48076b2a9412.clo.footprintdns.com
@@ -3489,7 +3729,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-10-20,bing.com.sg
 ,,,2013-10-14,bing.co.uk
 ,,,2013-10-13,bing.ch
-204.79.197.201,AS8068 Microsoft Corporation,US,2017-01-11,atmx.explicit.bing.net
+204.79.197.201,,,2017-01-11,atmx.explicit.bing.net
 ,,,2017-01-11,cytdws.explicit.bing.net
 ,,,2017-01-07,fn.explicit.bing.net
 ,,,2017-01-07,fft.explicit.bing.net
@@ -3539,23 +3779,23 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-09-17,www.explicit.bing.net
 ,,,2014-12-31, ts1.explicit.bing.net
 ,,,2014-10-24,%20ts1.explicit.bing.net
-204.79.197.202,AS8068 Microsoft Corporation,US,2013-04-18,any.edge.bing.com
-204.79.197.203,AS8068 Microsoft Corporation,US,2018-08-02,u.msn.com
-,,,2018-08-02,int1.msn.com
-,,,2018-07-22,dnste-net-9rtu4jn6.a-0003.a-msedge.net
-,,,2018-07-22,dnste-net-kg75p3bd.a-0003.a-msedge.net
+204.79.197.202,,,2013-04-18,any.edge.bing.com
+204.79.197.203,,,2018-09-02,dnste-net-9rtu4jn6.a-0003.a-msedge.net
+,,,2018-09-02,dnste-net-kg75p3bd.a-0003.a-msedge.net
+,,,2018-09-01,dnste-net-mxrktrtm.a-0003.a-msedge.net
+,,,2018-08-29,prodigy-msn-com.a-0003.a-msedge.net
+,,,2018-08-23,dnste-net-pn18ols4.a-0003.a-msedge.net
+,,,2018-08-21,xin-msn-com.a-0003.a-msedge.net
+,,,2018-08-18,newsletters-msn-com.a-0003.a-msedge.net
+,,,2018-08-14,dnste-net-p92e9d9a.a-0003.a-msedge.net
+,,,2018-08-05,prodigy.msn.com
+,,,2018-08-04,preview.msn.com
+,,,2018-08-02,u.msn.com
 ,,,2018-07-20,homepage.msn.com
-,,,2018-07-19,prodigy-msn-com.a-0003.a-msedge.net
 ,,,2018-07-17,dnste-net-uevklsv3.a-0003.a-msedge.net
-,,,2018-07-16,dnste-net-p92e9d9a.a-0003.a-msedge.net
-,,,2018-07-16,dnste-net-pn18ols4.a-0003.a-msedge.net
 ,,,2018-07-16,preview-msn-com.a-0003.a-msedge.net
-,,,2018-07-16,dnste-net-kbvli2bq.a-0003.a-msedge.net
-,,,2018-07-06,dnste-net-14uy5cej.a-0003.a-msedge.net
-,,,2018-07-04,dnste-net-mxrktrtm.a-0003.a-msedge.net
 ,,,2018-07-04,xin.msn.com
 ,,,2018-07-03,a.msn.com
-,,,2018-07-01,xin-msn-com.a-0003.a-msedge.net
 ,,,2018-06-20,finance-services-int.msn.com
 ,,,2018-06-19,financequotes-services.msn.com
 ,,,2018-06-19,finance-services-neur.msn.com
@@ -3590,14 +3830,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-10-10,us.co1.cb3.glbdns2.microsoft.com
 ,,,2014-10-10,us.co1.cb3.glbdns.microsoft.com
 ,,,2014-07-28,www.betaplace.com
-204.79.197.204,AS8068 Microsoft Corporation,US,2018-06-27,a-0005.a-msedge.net
-204.79.197.205,AS8068 Microsoft Corporation,US,,
-204.79.197.206,AS8068 Microsoft Corporation,US,2018-08-08,fd.rad.msn.com.nsatc.net
-,,,2018-07-27,a-0004.a-msedge.net
+204.79.197.204,,,2018-09-03,a-0005.a-msedge.net
+204.79.197.205,,,,
+204.79.197.206,,,2018-09-13,fd.rad.msn.com.nsatc.net
+,,,2018-09-07,a-0004.a-msedge.net
 ,,,2018-04-17,fd-rad-msn-com.a-0004.a-msedge.net
 ,,,2017-05-19,fd.rad.msn.com
-204.79.197.207,AS8068 Microsoft Corporation,US,,
-204.79.197.208,AS8068 Microsoft Corporation,US,2017-02-06,blu177.mail.live.com.akadns.net
+204.79.197.207,,,,
+204.79.197.208,,,2017-02-06,blu177.mail.live.com.akadns.net
 ,,,2017-02-05,blu184.mail.live.com
 ,,,2017-02-05,blu176.mail.live.com
 ,,,2017-02-03,blu175.mail.live.com
@@ -3647,7 +3887,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-02-28,blu181.afx.ms
 ,,,2015-02-20,blu175.afx.ms
 ,,,2014-12-19,blu168.afx.ms
-204.79.197.209,AS8068 Microsoft Corporation,US,2017-02-16,bay179.mail.live.com
+204.79.197.209,,,2017-02-16,bay179.mail.live.com
 ,,,2017-02-13,bay176.mail.live.com
 ,,,2017-02-11,bay175.mail.live.com.akadns.net
 ,,,2017-02-05,bay180.mail.live.com
@@ -3697,7 +3937,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-01-01,bay177.afx.ms
 ,,,2014-12-28,afx.ms
 ,,,2014-11-20,live.com
-204.79.197.210,AS8068 Microsoft Corporation,US,2017-02-04,snt150.mail.live.com
+204.79.197.210,,,2017-02-04,snt150.mail.live.com
 ,,,2017-01-29,col125.mail.live.com
 ,,,2017-01-28,snt149.afx.ms
 ,,,2017-01-26,col131.mail.live.com
@@ -3747,7 +3987,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-02-01,col129.afx.ms
 ,,,2015-01-29,col125.afx.ms
 ,,,2014-12-02,snt149.mail.live.com
-204.79.197.211,AS8068 Microsoft Corporation,US,2016-12-19,dub113.mail.live.com.akadns.net
+204.79.197.211,,,2016-12-19,dub113.mail.live.com.akadns.net
 ,,,2016-12-08,dub118.afx.ms
 ,,,2016-12-06,dub128.mail.live.com
 ,,,2016-12-05,dub117.mail.live.com.akadns.net
@@ -3797,7 +4037,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-12-27,dub111.afx.ms
 ,,,2014-12-05,dub110.mail.live.com
 ,,,2014-11-27,live.com
-204.79.197.212,AS8068 Microsoft Corporation,US,2016-12-04,maqil.live.com
+204.79.197.212,,,2016-12-04,maqil.live.com
 ,,,2016-12-02,bongonedrive.live.com
 ,,,2016-11-18,www.mailo.live.com
 ,,,2016-11-15,account.live.comaccount.live.com
@@ -3847,7 +4087,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-07-19,autoconfig.live.com
 ,,,2016-06-30,edge-live.outlook.office365.com
 ,,,2016-06-28,www.live.ru
-204.79.197.213,AS8068 Microsoft Corporation,US,2016-02-29,01choq-dm2306.files.1drv.com
+204.79.197.213,,,2016-02-29,01choq-dm2306.files.1drv.com
 ,,,2016-02-29,0qcbmq.by3302.livefilestore.com
 ,,,2016-02-27,0zsmxa.by3302.livefilestore.com
 ,,,2016-02-19,1k9awg-ch3302.files.1drv.com
@@ -3897,22 +4137,22 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-08-23,0zcaaw.bl3302.livefilestore.com
 ,,,2015-04-18,msn.com
 ,,,2015-02-04,livefilestore.com
-204.79.197.214,AS8068 Microsoft Corporation,US,2018-08-09,a-0012.a-msedge.net
+204.79.197.214,,,2018-09-05,a-0012.a-msedge.net
 ,,,2018-07-14,global.bing.com
-204.79.197.215,AS8068 Microsoft Corporation,US,2018-08-10,a-0013.a-msedge.net
+204.79.197.215,,,2018-08-21,a-0013.a-msedge.net
 ,,,2015-05-01,motors-imail.us
 ,,,2015-03-12,edge.outlook.office365.com
 ,,,2015-02-11,outlook.office.com
-204.79.197.216,AS8068 Microsoft Corporation,US,,
-204.79.197.217,AS8068 Microsoft Corporation,US,2018-08-07,onedrive-live-com.a-0014.a-msedge.net
-,,,2018-07-06,onedrive.live.com
+204.79.197.216,,,,
+204.79.197.217,,,2018-09-12,onedrive-live-com.a-0014.a-msedge.net
+,,,2018-09-06,onedrive.live.com
+,,,2018-08-23,a-0014.a-msedge.net
 ,,,2018-06-21,webedgegeo.skyprod.akadns.net
-,,,2018-05-17,tracker.onedrive-live.co.uk
 ,,,2018-05-17,files.onedrive-live.co.uk
+,,,2018-05-17,tracker.onedrive-live.co.uk
 ,,,2018-05-10,webedgeafd.storage.skyprod.akadns.net
 ,,,2018-04-16,onedrive.live.com.
 ,,,2018-03-17,docs.thepeteks.com
-,,,2017-11-02,a-0014.a-msedge.net
 ,,,2017-07-24,cplay.tk
 ,,,2017-04-18,one.onedrive-live.co.uk
 ,,,2017-03-10,34873.one.onedrive-live.co.uk
@@ -3951,12 +4191,13 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-10-20,post.3bd312a6d6d12ffb2cc0cdf1110fac8a41a48398489fd66db05e43dfa.a917f43f7514c4155
 ,,,2016-10-20,post.3aed5cc17fed74ae90e1ccc52e01697eb143d13d82b6dfe33bf09c818.93ee3ec2be101d751
 ,,,2016-07-08,onedrive.office.com
-204.79.197.218,AS8068 Microsoft Corporation,US,2018-06-22,a-0015.a-msedge.net
+204.79.197.218,,,2018-09-06,a-0015.a-msedge.net
 ,,,2016-01-17,azp.footprintdns.com
-204.79.197.219,AS8068 Microsoft Corporation,US,2016-12-30,translate.bing.ch
+204.79.197.219,,,2017-02-08,maps.bing.ru
+,,,2017-01-09,bing.cl
+,,,2016-12-31,news.bing.ch
+,,,2016-12-30,translate.bing.ch
 ,,,2016-12-29,ww.bing.ch
-,,,2016-11-11,api.bing.co.uk
-,,,2016-10-17,www.bing.lv
 ,,,2016-09-02,wwww.bing.ch
 ,,,2016-09-02,map.bing.ch
 ,,,2016-08-23,maps.bing.co.uk
@@ -3972,10 +4213,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-02-29,www.bing.com.ar
 ,,,2016-01-05,www.bing.lt
 ,,,2015-11-29,www.bing.com.sa
-,,,2015-11-11,*.maps.bing.com.au
 ,,,2015-11-11,www.bing.co.nz
-,,,2015-11-06,ww.bing.at
+,,,2015-11-11,*.maps.bing.com.au
 ,,,2015-11-06,xn--www-qt5e.bing.de
+,,,2015-11-06,ww.bing.at
 ,,,2015-11-05,bing.co.jp
 ,,,2015-10-28,www.bing.www.bing.it
 ,,,2015-10-19,wwww.bing.at
@@ -3991,21 +4232,20 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-09-07,maps.bing.at
 ,,,2015-09-01,maps.bing.be
 ,,,2015-08-27,www.bing.com.pl
-,,,2015-08-21,bing.co.in
-,,,2015-08-21,www.bing.ru
 ,,,2015-08-21,www.bing.com.br
+,,,2015-08-21,bing.co.in
 ,,,2015-08-20,www.bing.com.mx
+,,,2015-08-19,www.bing.no
 ,,,2015-08-19,www.bing.be
 ,,,2015-08-19,www.bing.co.in
-,,,2015-08-19,www.bing.no
 ,,,2015-08-14,www.bing.at
 ,,,2015-08-14,www.bing.se
 ,,,2015-08-05,www.bing.es
-,,,2015-08-04,bing.com.ua
 ,,,2015-08-04,www.bing.com.tr
-204.79.197.220,AS8068 Microsoft Corporation,US,2018-05-25,www.bing.com
-204.79.197.221,AS8068 Microsoft Corporation,US,2018-08-10,a-0018.a-msedge.net
-,,,2018-07-05,graystore.a-0018.a-msedge.net
+,,,2015-08-04,bing.com.ua
+204.79.197.220,,,2018-05-25,www.bing.com
+204.79.197.221,,,2018-09-07,a-0018.a-msedge.net
+,,,2018-09-01,graystore.a-0018.a-msedge.net
 ,,,2016-03-17,tlu.dl.delivery.mp.microsoft.com
 ,,,2016-03-16,dl.delivery.mp.microsoft.com
 ,,,2016-03-15,tlu.graystore.msedge.net
@@ -4059,37 +4299,40 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-11-02,01e6406832431e046f5b48fb66a2d79e.any.footprintdns.com
 ,,,2015-10-30,0c3a6dbe03e2aba6663d578baefec122.any.footprintdns.com
 ,,,2015-10-30,www.bing.com
-204.79.197.223,AS8068 Microsoft Corporation,US,2018-08-11,a-0020.a-msedge.net
-,,,2018-08-08,c2r.a-0020.a-msedge.net
+204.79.197.223,,,2018-09-15,c2r.a-0020.a-msedge.net
+,,,2018-09-13,a-0020.a-msedge.net
 ,,,2018-07-10,office.c2r.akadns.net
 ,,,2018-07-03,officecdn15.c2r.microsoft.com.akadns.net
 ,,,2018-06-24,officecdn.microsoft.com
 ,,,2018-04-19,officecdn15-worldwide.c2r.microsoft.com.akadns.net
 ,,,2018-03-30,2-01-3f20-0003.cdx.cedexis.net
-204.79.197.224,AS8068 Microsoft Corporation,US,,
-204.79.197.225,AS8068 Microsoft Corporation,US,,
-204.79.197.226,AS8068 Microsoft Corporation,US,,
-204.79.197.227,AS8068 Microsoft Corporation,US,,
-204.79.197.228,AS8068 Microsoft Corporation,US,,
-204.79.197.229,AS8068 Microsoft Corporation,US,2018-07-23,www.bing.com
-,,,2018-07-18,00b73a1887f1c2d04bf90d83c950be26.azr.msnetworkanalytics.testanalytics.net
+204.79.197.224,,,,
+204.79.197.225,,,,
+204.79.197.226,,,,
+204.79.197.227,,,,
+204.79.197.228,,,,
+204.79.197.229,AS8068 Microsoft Corporation,US,2018-08-26,www.bing.com
+,,,2018-08-24,0095072acc0a5d01f40d90ccb6e9da21.azr.msnetworkanalytics.testanalytics.net
+,,,2018-08-19,a-0026.a-msedge.net
+,,,2018-08-18,insertmedia.bing.office.net
+,,,2018-08-17,020409fb2fb26f6b0bc01b98d6402506.azr.msnetworkanalytics.testanalytics.net
+,,,2018-08-08,40873911818be494fadd5aa2afa0a0a0.azr.msnetworkanalytics.testanalytics.net
+,,,2018-08-06,204.79.197.229
+,,,2018-08-05,00bb54687af1e7e0d73ccfbc22c0bdf3.azr.msnetworkanalytics.testanalytics.net
+,,,2018-08-03,3b479a5a458e7e2623266b895933d143.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-07-13,afddnsperftest-a.trafficmanager.net
-,,,2018-07-10,insertmedia.bing.office.net
 ,,,2018-06-23,0068a1bd2d5211bbccd2731c5661c359.azr.msnetworkanalytics.testanalytics.net
-,,,2018-06-22,5fda25fbca0f9241620d551e6e746b20.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-06-21,018c93b23d569f7f21a4189054d8acfa.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-06-17,00c540e8495972bb3d20e0bf9ba58e22.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-06-12,0062fce8f7165c50cd17ff9760a89da0.azr.msnetworkanalytics.testanalytics.net
-,,,2018-06-11,a-0026.a-msedge.net
-,,,2018-06-09,01e6447384e9592f1d2e159fef0fff84.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-06-07,ssl.bing.com
 ,,,2018-06-07,01d125992cbc6fbb8210998896755e70.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-05-25,tse1.mm.bing.net
 ,,,2018-05-06,multiprocess.net
 ,,,2018-05-01,024de74617b50d747ecc5ad5b81ad071.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-05-01,4ba2c463d5e84c835772b4860c969266.azr.msnetworkanalytics.testanalytics.net
-,,,2018-04-17,001e7f5a529460c8373cd06a193d2d89.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-04-17,003021356667e539c66cc405fcad0872.azr.msnetworkanalytics.testanalytics.net
+,,,2018-04-17,001e7f5a529460c8373cd06a193d2d89.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-04-12,00b75895a0011431af55e31ffefb0384.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-04-01,01f9248b2d28c92fa781d4019dea73fd.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-03-27,01d83b8969b6186192532f0d7a258fb0.azr.msnetworkanalytics.testanalytics.net
@@ -4100,51 +4343,48 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2018-02-10,b3df5b99ab236a37effb2a8d04e41781.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-02-03,a361b9fd3a7991defd11c1d82262d9e1.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-02-02,01844ab5fe4508a42d07a7b83e708f61.azr.msnetworkanalytics.testanalytics.net
-,,,2018-02-02,8a8680c4ee2c93bd067b9144fd4bba21.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-01-25,469dda0f6fc553d3d7c096a62fd21ab3.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-01-24,86cd37fb433410f1ffe62b4a65439e34.azr.msnetworkanalytics.testanalytics.net
 ,,,2018-01-03,003215c02f70b6e811d04b13a5f3cd84.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-12-16,00d14fe163ee9cdb99590c459cafe071.azr.msnetworkanalytics.testanalytics.net
-,,,2017-11-25,0095072acc0a5d01f40d90ccb6e9da21.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-08-18,0149b81ceca7532aa29c8900b5ec0846.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-09,db0e466a96582c7fdd8a949e93d555a0.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,013f3f19423a11871446e1efb32578a4.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-06,01110f44f89c8e3ac3440778c6d37093.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,02c7108ee69cc6d2eaac0762c5749f91.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,01066ba2c090f1080f14f761dda3b4a1.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-06,0018adfa2a7e9b00a58e88d08fb11f10.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-06,02c7108ee69cc6d2eaac0762c5749f91.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-06,01110f44f89c8e3ac3440778c6d37093.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,d0ed219838e6f30d57b7e8b52ddc54b4.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,38db91d6bdad2249ae837bd20da1b352.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,05c4af09b78d4f5ccfb81215274d49f2.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,0235628be3605e476ad1d0f71ffa5785.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,02c09e26e38724db9d582527ee475595.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,020409fb2fb26f6b0bc01b98d6402506.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-05,ebfa9f936eacbfcc8229e20afa44edd4.azr.msnetworkanalytics.testanalytics.net
-,,,2017-06-05,05c4af09b78d4f5ccfb81215274d49f2.azr.msnetworkanalytics.testanalytics.net
+,,,2017-06-05,38db91d6bdad2249ae837bd20da1b352.azr.msnetworkanalytics.testanalytics.net
 ,,,2017-06-01,www-bing-com.a-0026.a-msedge.net
-204.79.197.230,AS8068 Microsoft Corporation,US,,
-204.79.197.231,AS8068 Microsoft Corporation,US,,
-204.79.197.232,AS8068 Microsoft Corporation,US,,
-204.79.197.233,AS8068 Microsoft Corporation,US,,
-204.79.197.234,AS8068 Microsoft Corporation,US,,
-204.79.197.235,AS8068 Microsoft Corporation,US,,
-204.79.197.236,AS8068 Microsoft Corporation,US,,
-204.79.197.237,AS8068 Microsoft Corporation,US,,
-204.79.197.238,AS8068 Microsoft Corporation,US,,
-204.79.197.239,AS8068 Microsoft Corporation,US,,
-204.79.197.240,AS8068 Microsoft Corporation,US,,
-204.79.197.241,AS8068 Microsoft Corporation,US,,
-204.79.197.242,AS8068 Microsoft Corporation,US,,
-204.79.197.243,AS8068 Microsoft Corporation,US,,
-204.79.197.244,AS8068 Microsoft Corporation,US,,
-204.79.197.245,AS8068 Microsoft Corporation,US,,
-204.79.197.246,AS8068 Microsoft Corporation,US,,
-204.79.197.247,AS8068 Microsoft Corporation,US,,
-204.79.197.248,AS8068 Microsoft Corporation,US,,
-204.79.197.249,AS8068 Microsoft Corporation,US,,
-204.79.197.250,AS8068 Microsoft Corporation,US,,
-204.79.197.251,AS8068 Microsoft Corporation,US,,
-204.79.197.252,AS8068 Microsoft Corporation,US,,
-204.79.197.253,AS8068 Microsoft Corporation,US,,
+204.79.197.230,,,,
+204.79.197.231,,,,
+204.79.197.232,,,,
+204.79.197.233,,,,
+204.79.197.234,,,,
+204.79.197.235,,,,
+204.79.197.236,,,,
+204.79.197.237,,,,
+204.79.197.238,,,,
+204.79.197.239,,,,
+204.79.197.240,,,,
+204.79.197.241,,,,
+204.79.197.242,,,,
+204.79.197.243,,,,
+204.79.197.244,,,,
+204.79.197.245,,,,
+204.79.197.246,,,,
+204.79.197.247,,,,
+204.79.197.248,,,,
+204.79.197.249,,,,
+204.79.197.250,,,,
+204.79.197.251,,,,
+204.79.197.252,,,,
+204.79.197.253,,,,
 204.79.197.254,AS8068 Microsoft Corporation,US,2017-09-01,35135092c5e6cda0c0bbbd5e5d3a7441.nrb.footprintdns.com
 ,,,2017-09-01,4d2193e7e3b8c3de90d5070cbb8e6920.nrb.footprintdns.com
 ,,,2017-09-01,13a696dd4bfac0e7f7fc4f76330f2100.nrb.footprintdns.com
@@ -4195,18 +4435,18 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-08-19,1dd3978f627dea6814363fc3c02c3e81.nrb.footprintdns.com
 ,,,2017-08-17,11310997793149071aa2f3dd72d74df0.nrb.footprintdns.com
 ,,,2017-08-13,137a8890ba7192689277921dc1fd23a0.nrb.footprintdns.com
-204.152.141.244,AS8075 Microsoft Corporation,US,,
-207.46.7.252,AS8075 Microsoft Corporation,US,2017-10-31,ds.ssw.live.com
+204.152.141.244,,,,
+207.46.7.252,,,2017-10-31,ds.ssw.live.com
 ,,,2017-10-27,gateway.skyprod.akadns.net
 ,,,2017-08-15,ssw.live.com
 ,,,2016-06-09,ssw.live.com.nsatc.net
 ,,,2014-05-18,ssw.msn.com
-207.46.101.29,AS8075 Microsoft Corporation,US,2017-10-19,gateway.skyprod.akadns.net
+207.46.101.29,,,2017-10-19,gateway.skyprod.akadns.net
 ,,,2017-08-25,ssw.live.com
 ,,,2017-08-18,ds.ssw.live.com
 ,,,2016-06-04,ssw.live.com.nsatc.net
 ,,,2015-03-03,ssw.msn.com
-207.46.153.155,AS8075 Microsoft Corporation,HK,2017-11-03,prod-w.nexus.live.com.akadns.net
+207.46.153.155,,,2017-11-03,prod-w.nexus.live.com.akadns.net
 ,,,2015-10-06,nexus.officeapps.live.com
 207.46.194.14,AS8075 Microsoft Corporation,IE,2018-08-06,msnbot-207-46-194-14.search.msn.com
 ,,,2014-11-09,msn.co.uk
@@ -4232,7 +4472,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-01-20,g.msn.com.hk
 ,,,2014-01-13,g.msn.com.tw
 ,,,2014-01-10,g.jp.msn.com
-207.46.194.25,AS8075 Microsoft Corporation,IE,2017-10-15,rad.live.com
+207.46.194.25,,,2017-10-15,rad.live.com
 ,,,2017-09-07,rad.msn.com
 ,,,2017-07-03,rad-emea.msn.com
 ,,,2015-08-27,msnbot-207-46-194-25.search.msn.com
@@ -4249,11 +4489,11 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-05-19,t.music.uk.msn.com
 ,,,2014-05-01,t.movies.uk.msn.com
 ,,,2014-04-30,t.unterhaltung.de.msn.com
-207.46.194.33,AS8075 Microsoft Corporation,IE,2018-08-06,msnbot-207-46-194-33.search.msn.com
+207.46.194.33,,,2018-08-06,msnbot-207-46-194-33.search.msn.com
 ,,,2015-02-02,arc.msn.com.nsatc.net
 ,,,2014-10-15,mobileads.msn.com
 ,,,2014-09-16,mobileads.msn.com.nsatc.net
-207.46.194.40,AS8075 Microsoft Corporation,IE,2014-12-12,mobileads.msn.com.nsatc.net
+207.46.194.40,,,2014-12-12,mobileads.msn.com.nsatc.net
 ,,,2014-10-14,mobileads.msn.com
-207.46.223.94,AS8075 Microsoft Corporation,US,2018-07-07,watson.live.com
-207.68.166.254,AS8075 Microsoft Corporation,US,2015-12-09,survey.watson.microsoft.com
+207.46.223.94,,,2018-07-07,watson.live.com
+207.68.166.254,,,2015-12-09,survey.watson.microsoft.com
