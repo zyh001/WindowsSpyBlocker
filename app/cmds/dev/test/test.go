@@ -18,6 +18,11 @@ func Menu(args ...string) (err error) {
 			Color:       color.FgHiYellow,
 			Function:    testHostsLookup,
 		},
+		{
+			Description: "Find incompatible rules",
+			Color:       color.FgHiYellow,
+			Function:    findIncompatibleRules,
+		},
 	}
 
 	menuOptions := menu.NewOptions("Test", "'menu' for help [dev-test]> ", 0, "")
