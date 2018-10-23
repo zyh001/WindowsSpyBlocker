@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 23 Oct 2018 01:58:22 +0200 -->
+<!-- Last-Modified: Tue, 23 Oct 2018 02:18:29 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -73,6 +73,8 @@
 	<item name="extra_52.232.69.150" rule="52.232.69.150" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.233.199.249" rule="52.233.199.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_64.4.23.0-64.4.23.255" rule="64.4.23.0-64.4.23.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_64.4.54.18" rule="64.4.54.18" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_64.4.54.22" rule="64.4.54.22" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_64.4.54.253" rule="64.4.54.253" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_64.4.54.254" rule="64.4.54.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_65.52.98.231" rule="65.52.98.231" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

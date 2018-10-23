@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 23 Oct 2018 01:58:22 +0200 -->
+<!-- Last-Modified: Tue, 23 Oct 2018 02:18:29 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -120,8 +120,6 @@
 	<item name="update_52.229.174.233" rule="52.229.174.233" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.229.175.79" rule="52.229.175.79" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_64.4.27.50" rule="64.4.27.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="update_64.4.54.18" rule="64.4.54.18" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="update_64.4.54.22" rule="64.4.54.22" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.29" rule="65.52.108.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.33" rule="65.52.108.33" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.59" rule="65.52.108.59" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
