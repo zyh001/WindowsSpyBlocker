@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.18.0 (2018/10/23)
+
+* Fix incompatible rules
+* Add menu to check for incompatible rules
+
 ## 4.17.1 (2018/10/23)
 
 * Update hosts for extra, spy and update rules
