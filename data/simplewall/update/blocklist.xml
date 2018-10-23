@@ -1,9 +1,10 @@
 <!-- WindowsSpyBlocker update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 23 Oct 2018 02:18:29 +0200 -->
+<!-- Last-Modified: Tue, 23 Oct 2018 10:59:11 +0200 -->
 
 <?xml version="1.0"?>
 <root>
+	<item name="update_13.68.87.47" rule="13.68.87.47" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.68.87.175" rule="13.68.87.175" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.68.88.129" rule="13.68.88.129" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.68.93.109" rule="13.68.93.109" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -127,8 +128,11 @@
 	<item name="update_65.52.108.153" rule="65.52.108.153" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.154" rule="65.52.108.154" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.185" rule="65.52.108.185" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="update_65.55.44.54" rule="65.55.44.54" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.55.138.0-65.55.138.255" rule="65.55.138.0-65.55.138.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_65.55.163.76" rule="65.55.163.76" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_65.55.163.78" rule="65.55.163.78" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_65.55.163.80" rule="65.55.163.80" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_65.55.163.82" rule="65.55.163.82" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.55.163.219" rule="65.55.163.219" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.55.163.220" rule="65.55.163.220" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.55.163.221" rule="65.55.163.221" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

@@ -1,12 +1,11 @@
 <!-- WindowsSpyBlocker spy -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 23 Oct 2018 01:58:22 +0200 -->
+<!-- Last-Modified: Tue, 23 Oct 2018 10:59:11 +0200 -->
 
 <?xml version="1.0"?>
 <root>
 	<item name="spy_13.66.56.243" rule="13.66.56.243" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_13.68.82.8" rule="13.68.82.8" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="spy_13.68.87.47" rule="13.68.87.47" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_13.76.218.117" rule="13.76.218.117" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_13.76.219.191" rule="13.76.219.191" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_13.76.219.210" rule="13.76.219.210" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -105,6 +104,7 @@
 	<item name="spy_65.52.219.207" rule="65.52.219.207" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_65.55.29.238" rule="65.55.29.238" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_65.55.44.51" rule="65.55.44.51" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_65.55.44.54" rule="65.55.44.54" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_65.55.44.108" rule="65.55.44.108" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_65.55.44.109" rule="65.55.44.109" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_65.55.83.120" rule="65.55.83.120" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
