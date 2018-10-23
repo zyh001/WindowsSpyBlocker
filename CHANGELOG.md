@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.17.1 (2018/10/23)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Move `version.hybrid.api.here.com` to extra (Issue #120)
+* Move 40.77.224, 65.52.108, 191.232.139.2 to update (Issue #119)
+* Move 64.4.54 to extra
+
 ## 4.17.0 (2018/09/16)
 
 * Update hosts for update rules
