@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 23 Oct 2018 10:59:11 +0200 -->
+<!-- Last-Modified: Wed, 28 Nov 2018 20:24:25 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -15,7 +15,9 @@
 	<item name="extra_13.107.5.80" rule="13.107.5.80" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.5.88" rule="13.107.5.88" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.6.158" rule="13.107.6.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_13.107.6.254" rule="13.107.6.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.13.88" rule="13.107.13.88" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_13.107.18.254" rule="13.107.18.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.21.200" rule="13.107.21.200" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.21.229" rule="13.107.21.229" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.107.42.254" rule="13.107.42.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -28,10 +30,13 @@
 	<item name="extra_40.70.0.108" rule="40.70.0.108" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.77.225.248" rule="40.77.225.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.77.230.45" rule="40.77.230.45" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_40.83.74.46" rule="40.83.74.46" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.83.127.51" rule="40.83.127.51" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.136.1" rule="40.90.136.1" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.136.19" rule="40.90.136.19" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.136.20" rule="40.90.136.20" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_40.90.136.163" rule="40.90.136.163" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_40.91.76.238" rule="40.91.76.238" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.101.46.178" rule="40.101.46.178" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.112.72.44" rule="40.112.72.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.113.97.222" rule="40.113.97.222" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -53,6 +58,7 @@
 	<item name="extra_51.144.108.120" rule="51.144.108.120" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.138.148.87" rule="52.138.148.87" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.138.148.89" rule="52.138.148.89" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_52.138.148.159" rule="52.138.148.159" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.164.191.55" rule="52.164.191.55" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.164.227.208" rule="52.164.227.208" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.164.251.44" rule="52.164.251.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -85,6 +91,7 @@
 	<item name="extra_104.40.210.32" rule="104.40.210.32" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_104.40.211.35" rule="104.40.211.35" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_104.41.219.140" rule="104.41.219.140" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_104.42.41.237" rule="104.42.41.237" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_104.44.80.172" rule="104.44.80.172" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_104.44.88.24" rule="104.44.88.24" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_104.44.88.28" rule="104.44.88.28" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 23 Oct 2018 10:59:11 +0200 -->
+<!-- Last-Modified: Wed, 28 Nov 2018 20:24:25 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -24,13 +24,16 @@
 	<item name="update_13.107.4.50" rule="13.107.4.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.107.4.52" rule="13.107.4.52" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.107.246.10" rule="13.107.246.10" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_13.107.246.254" rule="13.107.246.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_23.103.189.125" rule="23.103.189.125" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_23.103.189.126" rule="23.103.189.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_23.103.189.157" rule="23.103.189.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_23.103.189.158" rule="23.103.189.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_40.67.248.104" rule="40.67.248.104" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.67.251.132" rule="40.67.251.132" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.67.251.134" rule="40.67.251.134" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.67.252.206" rule="40.67.252.206" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_40.67.253.249" rule="40.67.253.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.67.254.36" rule="40.67.254.36" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.67.254.97" rule="40.67.254.97" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.67.255.199" rule="40.67.255.199" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
