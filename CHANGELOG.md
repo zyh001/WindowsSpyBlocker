@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.18.2 (2018/11/28)
+
+* Fix typo
+
 ## 4.18.1 (2018/11/28)
 
 * Update hosts for spy rules
