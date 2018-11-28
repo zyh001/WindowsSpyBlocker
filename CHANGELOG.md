@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.18.1 (2018/11/28)
+
+* Update hosts for spy rules
+* Update IPs for extra, spy and update rules
+* SiSyPHuS BSI Windows 10 Telemetry data (Issue #123)
+* Upgrade to Go 1.11.2
+
 ## 4.18.0 (2018/10/23)
 
 * Fix incompatible rules
