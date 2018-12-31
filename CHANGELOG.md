@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.18.3 (2018/12/31)
+
+* Update hosts for extra and update rules
+* Update IPs for extra, spy and update rules
+
 ## 4.18.2 (2018/11/28)
 
 * Fix typo
