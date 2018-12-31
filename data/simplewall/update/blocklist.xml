@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Wed, 28 Nov 2018 20:24:25 +0100 -->
+<!-- Last-Modified: Mon, 31 Dec 2018 03:34:03 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -52,6 +52,7 @@
 	<item name="update_40.77.224.145" rule="40.77.224.145" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.224.254" rule="40.77.224.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.226.13" rule="40.77.226.13" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_40.77.226.181" rule="40.77.226.181" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.226.246" rule="40.77.226.246" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.226.247" rule="40.77.226.247" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.226.248" rule="40.77.226.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -152,6 +153,7 @@
 	<item name="update_111.221.29.254" rule="111.221.29.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_131.253.33.50" rule="131.253.33.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_131.253.33.200" rule="131.253.33.200" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_131.253.33.203" rule="131.253.33.203" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_131.253.33.254" rule="131.253.33.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_131.253.34.230" rule="131.253.34.230" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_131.253.34.234" rule="131.253.34.234" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
