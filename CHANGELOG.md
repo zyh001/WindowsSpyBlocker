@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.18.4 (2019/01/28)
+
+* Update hosts for extra and update rules
+* Update IPs for extra and update rules
+* Fix NCSI Microsoft probes
+
 ## 4.18.3 (2018/12/31)
 
 * Update hosts for extra and update rules
