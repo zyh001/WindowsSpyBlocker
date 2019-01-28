@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker update -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Mon, 31 Dec 2018 03:34:03 +0100 -->
+<!-- Last-Modified: Mon, 28 Jan 2019 19:49:11 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -20,11 +20,14 @@
 	<item name="update_13.78.187.58" rule="13.78.187.58" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.78.230.134" rule="13.78.230.134" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.85.88.16" rule="13.85.88.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_13.86.124.184" rule="13.86.124.184" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_13.86.124.191" rule="13.86.124.191" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.92.211.120" rule="13.92.211.120" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.107.4.50" rule="13.107.4.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.107.4.52" rule="13.107.4.52" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.107.246.10" rule="13.107.246.10" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.107.246.254" rule="13.107.246.254" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_20.36.222.39" rule="20.36.222.39" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_23.103.189.125" rule="23.103.189.125" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_23.103.189.126" rule="23.103.189.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_23.103.189.157" rule="23.103.189.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

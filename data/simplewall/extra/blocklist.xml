@@ -1,6 +1,6 @@
 <!-- WindowsSpyBlocker extra -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Mon, 31 Dec 2018 03:34:03 +0100 -->
+<!-- Last-Modified: Mon, 28 Jan 2019 19:49:11 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -27,6 +27,7 @@
 	<item name="extra_23.96.208.208" rule="23.96.208.208" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_23.97.178.173" rule="23.97.178.173" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_23.100.122.175" rule="23.100.122.175" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_23.101.158.111" rule="23.101.158.111" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.70.0.108" rule="40.70.0.108" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.77.225.248" rule="40.77.225.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.77.230.45" rule="40.77.230.45" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -36,6 +37,7 @@
 	<item name="extra_40.90.136.19" rule="40.90.136.19" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.136.20" rule="40.90.136.20" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.136.163" rule="40.90.136.163" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_40.90.136.166" rule="40.90.136.166" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.91.76.238" rule="40.91.76.238" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.101.46.178" rule="40.101.46.178" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.112.72.44" rule="40.112.72.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

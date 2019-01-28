@@ -22,11 +22,14 @@ iptables -I FORWARD -j DROP -d 13.78.186.254
 iptables -I FORWARD -j DROP -d 13.78.187.58
 iptables -I FORWARD -j DROP -d 13.78.230.134
 iptables -I FORWARD -j DROP -d 13.85.88.16
+iptables -I FORWARD -j DROP -d 13.86.124.184
+iptables -I FORWARD -j DROP -d 13.86.124.191
 iptables -I FORWARD -j DROP -d 13.92.211.120
 iptables -I FORWARD -j DROP -d 13.107.4.50
 iptables -I FORWARD -j DROP -d 13.107.4.52
 iptables -I FORWARD -j DROP -d 13.107.246.10
 iptables -I FORWARD -j DROP -d 13.107.246.254
+iptables -I FORWARD -j DROP -d 20.36.222.39
 iptables -I FORWARD -j DROP -d 23.103.189.125
 iptables -I FORWARD -j DROP -d 23.103.189.126
 iptables -I FORWARD -j DROP -d 23.103.189.157
