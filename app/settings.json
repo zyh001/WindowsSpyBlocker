@@ -92,12 +92,12 @@
     },
     "probes": {
       "microsoft": {
-        "webHostV4": "www.msftncsi.com",
-        "webPathV4": "ncsi.txt",
-        "webContentV4": "Microsoft NCSI",
-        "webHostV6": "ipv6.msftncsi.com",
-        "webPathV6": "ncsi.txt",
-        "webContentV6": "Microsoft NCSI",
+        "webHostV4": "www.msftconnecttest.com",
+        "webPathV4": "connecttest.txt",
+        "webContentV4": "Microsoft Connect Test",
+        "webHostV6": "ipv6.msftconnecttest.com",
+        "webPathV6": "connecttest.txt",
+        "webContentV6": "Microsoft Connect Test",
         "dnsHostV4": "dns.msftncsi.com",
         "dnsContentV4": "131.107.255.255",
         "dnsHostV6": "dns.msftncsi.com",
@@ -110,10 +110,10 @@
         "webHostV6": "raw.githubusercontent.com",
         "webPathV6": "crazy-max/WindowsSpyBlocker/master/data/ncsi/ncsi.txt",
         "webContentV6": "WindowsSpyBlocker",
-        "dnsHostV4": "ns1.p16.dynect.net",
-        "dnsContentV4": "208.78.70.16",
-        "dnsHostV6": "ns1.p16.dynect.net",
-        "dnsContentV6": "2001:500:90:1::16"
+        "dnsHostV4": "resolver1.opendns.com",
+        "dnsContentV4": "208.67.222.222",
+        "dnsHostV6": "resolver1.opendns.com",
+        "dnsContentV6": "2620:119:35::35"
       }
     }
   },
@@ -138,6 +138,7 @@
     "*.messenger.live.com",
     "*.microsoftwindowsupdate.net",
     "*.msedge.net",
+    "*.msftconnecttest.com",
     "*.msftncsi.com",
     "*.prod.do.dsp.mp.microsoft.com",
     "*.rad.live.com",
