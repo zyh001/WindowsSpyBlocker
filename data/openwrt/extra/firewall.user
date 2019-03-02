@@ -1,4 +1,5 @@
-### openwrt extra (/etc/firewall.user)
+### WindowsSpyBlocker - OpenWRT ips extra rules (/etc/firewall.user)
+### License: MIT
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 # enforce router DNS
@@ -22,6 +23,7 @@ iptables -I FORWARD -j DROP -d 13.107.13.88
 iptables -I FORWARD -j DROP -d 13.107.18.254
 iptables -I FORWARD -j DROP -d 13.107.21.200
 iptables -I FORWARD -j DROP -d 13.107.21.229
+iptables -I FORWARD -j DROP -d 13.107.42.11
 iptables -I FORWARD -j DROP -d 13.107.42.254
 iptables -I FORWARD -j DROP -d 13.107.46.88
 iptables -I FORWARD -j DROP -d 13.107.47.88
@@ -29,6 +31,7 @@ iptables -I FORWARD -j DROP -d 23.96.52.53
 iptables -I FORWARD -j DROP -d 23.96.208.208
 iptables -I FORWARD -j DROP -d 23.97.178.173
 iptables -I FORWARD -j DROP -d 23.100.122.175
+iptables -I FORWARD -j DROP -d 23.101.156.198
 iptables -I FORWARD -j DROP -d 23.101.158.111
 iptables -I FORWARD -j DROP -d 40.70.0.108
 iptables -I FORWARD -j DROP -d 40.77.225.248
@@ -51,6 +54,7 @@ iptables -I FORWARD -j DROP -d 40.117.190.72
 iptables -I FORWARD -j DROP -d 40.118.103.7
 iptables -I FORWARD -j DROP -d 40.118.106.130
 iptables -I FORWARD -j DROP -d 40.121.213.159
+iptables -I FORWARD -j DROP -d 40.126.9.5
 iptables -I FORWARD -j DROP -d 40.127.142.76
 iptables -I FORWARD -j DROP -d 40.127.195.156
 iptables -I FORWARD -j DROP -d 51.136.15.177
@@ -62,10 +66,12 @@ iptables -I FORWARD -j DROP -d 51.141.26.229
 iptables -I FORWARD -j DROP -d 51.141.32.51
 iptables -I FORWARD -j DROP -d 51.141.166.104
 iptables -I FORWARD -j DROP -d 51.144.108.120
+iptables -I FORWARD -j DROP -d 52.97.146.34
 iptables -I FORWARD -j DROP -d 52.98.66.98
 iptables -I FORWARD -j DROP -d 52.138.148.87
 iptables -I FORWARD -j DROP -d 52.138.148.89
 iptables -I FORWARD -j DROP -d 52.138.148.159
+iptables -I FORWARD -j DROP -d 52.142.114.2
 iptables -I FORWARD -j DROP -d 52.142.114.176
 iptables -I FORWARD -j DROP -d 52.164.191.55
 iptables -I FORWARD -j DROP -d 52.164.227.208
@@ -81,6 +87,7 @@ iptables -I FORWARD -j DROP -d 52.178.161.41
 iptables -I FORWARD -j DROP -d 52.178.163.85
 iptables -I FORWARD -j DROP -d 52.178.193.116
 iptables -I FORWARD -j DROP -d 52.179.13.204
+iptables -I FORWARD -j DROP -d 52.183.104.36
 iptables -I FORWARD -j DROP -d 52.230.10.183
 iptables -I FORWARD -j DROP -d 52.232.16.77
 iptables -I FORWARD -j DROP -d 52.232.19.76
@@ -106,6 +113,7 @@ iptables -I FORWARD -j DROP -d 104.44.88.28
 iptables -I FORWARD -j DROP -d 104.44.88.103
 iptables -I FORWARD -j DROP -d 104.45.18.177
 iptables -I FORWARD -j DROP -d 104.214.77.221
+iptables -I FORWARD -j DROP -d 104.214.220.181
 iptables -I FORWARD -j DROP -d 104.215.146.200
 iptables -I FORWARD -j DROP -d 131.253.14.227
 iptables -I FORWARD -j DROP -d 131.253.14.229
@@ -116,6 +124,7 @@ iptables -I FORWARD -j DROP -d 134.170.178.97
 iptables -I FORWARD -j DROP -d 134.170.185.70
 iptables -I FORWARD -j DROP -d 134.170.188.248
 iptables -I FORWARD -j DROP -d 137.117.235.16
+iptables -I FORWARD -j DROP -d 138.91.122.49
 iptables -I FORWARD -j DROP -d 157.55.56.0/24
 iptables -I FORWARD -j DROP -d 157.55.109.7
 iptables -I FORWARD -j DROP -d 157.55.109.224

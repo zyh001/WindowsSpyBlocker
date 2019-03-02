@@ -1,4 +1,6 @@
-### hosts spy (28/01/2019 19:41)
+### WindowsSpyBlocker - Hosts spy rules
+### License: MIT
+### Updated: 2019-03-02T02:05:00Z01:00
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 0.0.0.0 a.ads1.msn.com
@@ -68,6 +70,7 @@
 0.0.0.0 bn4sch101123110.wns.windows.com
 0.0.0.0 bn4sch101123202.wns.windows.com
 0.0.0.0 bn4sch102110124.wns.windows.com
+0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 bs.serving-sys.com
 0.0.0.0 by3301-a.1drv.com
 0.0.0.0 by3301-c.1drv.com
@@ -185,7 +188,6 @@
 0.0.0.0 corp.sts.microsoft.com
 0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
 0.0.0.0 cs1.wpc.v0cdn.net
-0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
 0.0.0.0 cy2.vortex.data.microsoft.com.akadns.net
 0.0.0.0 db5.settings.data.microsoft.com.akadns.net
 0.0.0.0 db5.settings-win.data.microsoft.com.akadns.net
@@ -198,6 +200,9 @@
 0.0.0.0 ecn.dev.virtualearth.net
 0.0.0.0 eu.vortex.data.microsoft.com
 0.0.0.0 eu.vortex-win.data.microsoft.com
+0.0.0.0 eu-v10.events.data.microsoft.com
+0.0.0.0 eu-v20.events.data.microsoft.com
+0.0.0.0 events.data.microsoft.com
 0.0.0.0 flex.msn.com
 0.0.0.0 g.msn.com
 0.0.0.0 geo.settings.data.microsoft.com.akadns.net
@@ -290,11 +295,10 @@
 0.0.0.0 i-sn2-cor001.api.p001.1drv.com
 0.0.0.0 i-sn2-cor002.api.p001.1drv.com
 0.0.0.0 i-sn3p-cor001.api.p001.1drv.com
-0.0.0.0 inference.location.live.net
 0.0.0.0 lb1.www.ms.akadns.net
 0.0.0.0 live.rads.msn.com
-0.0.0.0 location-inference-westus.cloudapp.net
 0.0.0.0 m.adnxs.com
+0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 modern.watson.data.microsoft.com.akadns.net
 0.0.0.0 msedge.net
@@ -312,12 +316,11 @@
 0.0.0.0 schemas.microsoft.akadns.net
 0.0.0.0 secure.adnxs.com
 0.0.0.0 secure.flashtalking.com
+0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 services.wes.df.telemetry.microsoft.com
 0.0.0.0 settings-sandbox.data.microsoft.com
 0.0.0.0 settings-win-ppe.data.microsoft.com
-0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 settings.data.glbdns2.microsoft.com
-0.0.0.0 settings.data.microsoft.com
 0.0.0.0 sg2p.wns.windows.com
 0.0.0.0 sn3301-c.1drv.com
 0.0.0.0 sn3301-e.1drv.com
@@ -336,11 +339,16 @@
 0.0.0.0 telecommand.telemetry.microsoft.com
 0.0.0.0 telemetry.appex.bing.net
 0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.remoteapp.windowsazure.com
 0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 teredo.ipv6.microsoft.com
 0.0.0.0 test.activity.windows.com
+0.0.0.0 umwatsonc.events.data.microsoft.com
+0.0.0.0 us-v10.events.data.microsoft.com
+0.0.0.0 us-v20.events.data.microsoft.com
 0.0.0.0 us.vortex-win.data.microsoft.com
 0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
 0.0.0.0 v20.events.data.microsoft.com
 0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net

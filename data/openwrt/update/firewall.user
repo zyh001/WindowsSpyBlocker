@@ -1,4 +1,5 @@
-### openwrt update (/etc/firewall.user)
+### WindowsSpyBlocker - OpenWRT ips update rules (/etc/firewall.user)
+### License: MIT
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 # enforce router DNS
@@ -21,7 +22,9 @@ iptables -I FORWARD -j DROP -d 13.78.184.186
 iptables -I FORWARD -j DROP -d 13.78.186.254
 iptables -I FORWARD -j DROP -d 13.78.187.58
 iptables -I FORWARD -j DROP -d 13.78.230.134
+iptables -I FORWARD -j DROP -d 13.83.148.235
 iptables -I FORWARD -j DROP -d 13.85.88.16
+iptables -I FORWARD -j DROP -d 13.86.124.174
 iptables -I FORWARD -j DROP -d 13.86.124.184
 iptables -I FORWARD -j DROP -d 13.86.124.191
 iptables -I FORWARD -j DROP -d 13.92.211.120
@@ -29,7 +32,9 @@ iptables -I FORWARD -j DROP -d 13.107.4.50
 iptables -I FORWARD -j DROP -d 13.107.4.52
 iptables -I FORWARD -j DROP -d 13.107.246.10
 iptables -I FORWARD -j DROP -d 13.107.246.254
+iptables -I FORWARD -j DROP -d 20.36.218.70
 iptables -I FORWARD -j DROP -d 20.36.222.39
+iptables -I FORWARD -j DROP -d 20.42.24.29
 iptables -I FORWARD -j DROP -d 23.103.189.125
 iptables -I FORWARD -j DROP -d 23.103.189.126
 iptables -I FORWARD -j DROP -d 23.103.189.157
@@ -105,6 +110,8 @@ iptables -I FORWARD -j DROP -d 40.79.66.194
 iptables -I FORWARD -j DROP -d 40.79.66.209
 iptables -I FORWARD -j DROP -d 40.79.67.176
 iptables -I FORWARD -j DROP -d 40.79.70.158
+iptables -I FORWARD -j DROP -d 40.91.73.219
+iptables -I FORWARD -j DROP -d 40.91.75.5
 iptables -I FORWARD -j DROP -d 52.161.15.246
 iptables -I FORWARD -j DROP -d 52.167.222.82
 iptables -I FORWARD -j DROP -d 52.167.222.147
@@ -142,6 +149,7 @@ iptables -I FORWARD -j DROP -d 65.55.163.76
 iptables -I FORWARD -j DROP -d 65.55.163.78
 iptables -I FORWARD -j DROP -d 65.55.163.80
 iptables -I FORWARD -j DROP -d 65.55.163.82
+iptables -I FORWARD -j DROP -d 65.55.163.90
 iptables -I FORWARD -j DROP -d 65.55.163.219
 iptables -I FORWARD -j DROP -d 65.55.163.220
 iptables -I FORWARD -j DROP -d 65.55.163.221
