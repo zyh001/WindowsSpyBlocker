@@ -29,16 +29,16 @@
     },
     "openwrt": {
       "ip": {
-        "head": "### openwrt %s (/etc/firewall.user)\n### More info: %s\n\n# enforce router DNS\niptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53\niptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53\n\n# rules\n",
+        "head": "### WindowsSpyBlocker - OpenWRT ips %s rules (/etc/firewall.user)\n### License: MIT\n### More info: %s\n\n# enforce router DNS\niptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53\niptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53\n\n# rules\n",
         "value": "iptables -I FORWARD -j DROP -d %s"
       },
       "domains": {
-        "head": "### openwrt %s (/etc/dnsmasq.conf)\n### More info: %s\n\n",
+        "head": "### WindowsSpyBlocker - OpenWRT hosts %s rules (/etc/dnsmasq.conf)\n### License: MIT\n### More info: %s\n\n",
         "value": "server=/%s/"
       }
     },
     "p2p": {
-      "head": "### WindowsSpyBlocker p2p %s\n### More info: %s\n\n",
+      "head": "### WindowsSpyBlocker - P2P %s rules\n### License: MIT\n### More info: %s\n\n",
       "value": "WindowsSpyBlocker:%s"
     },
     "proxifier": {
@@ -52,7 +52,7 @@
       }
     },
     "simplewall": {
-      "head": "<!-- WindowsSpyBlocker %s -->\n<!-- Source: %s -->\n<!-- Last-Modified: %s -->\n\n<?xml version=\"1.0\"?>\n<root>\n",
+      "head": "<!-- WindowsSpyBlocker - simplewall %s -->\n<!-- License: MIT -->\n<!-- Source: %s -->\n<!-- Last-Modified: %s -->\n\n<?xml version=\"1.0\"?>\n<root>\n",
       "value": "\t<item name=\"%s_%s\" rule=\"%s\" dir=\"0\" protocol=\"0\" version=\"0\" is_block=\"1\" is_enabled=\"1\" />"
     }
   },
