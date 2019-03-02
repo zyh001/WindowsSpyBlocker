@@ -52,7 +52,7 @@
       }
     },
     "simplewall": {
-      "head": "<!-- WindowsSpyBlocker - simplewall %s -->\n<!-- License: MIT -->\n<!-- Source: %s -->\n<!-- Last-Modified: %s -->\n\n<?xml version=\"1.0\"?>\n<root>\n",
+      "head": "<!-- WindowsSpyBlocker - simplewall %s rules -->\n<!-- License: MIT -->\n<!-- Source: %s -->\n<!-- Last-Modified: %s -->\n\n<?xml version=\"1.0\"?>\n<root>\n",
       "value": "\t<item name=\"%s_%s\" rule=\"%s\" dir=\"0\" protocol=\"0\" version=\"0\" is_block=\"1\" is_enabled=\"1\" />"
     }
   },
