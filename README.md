@@ -26,9 +26,9 @@ For more info, take a look at [Wiki](../../wiki).
 
 ## Telemetry and data collection
 
-To capture and interpret network traffic for the telemetry option, QEMU virtual machines are used on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
+To capture and interpret network traffic for (telemetry option), QEMU virtual machines are used on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
 
-* Windows 10 Pro 64bits with automatic updates enabled.
+* Windows 10 Pro 64bits (+ Microsoft Office 2019) with automatic updates enabled.
 * Windows 8.1 Pro 64bits with automatic updates enabled.
 * Windows 7 SP1 Pro 64bits with automatic updates enabled.
 
@@ -43,7 +43,7 @@ Tools used to capture traffic :
 
 The `data` folder contains the blocking rules based on domains or IPs detected during the capture process :
 
-* `data/<type>/extra.txt` : Block third party applications
+* `data/<type>/extra.txt` : Block third party applications (Skype, Bing, Live, Outlook, NCSI, etc.)
 * `data/<type>/spy.txt` : Block Windows Spy / Telemetry
 * `data/<type>/update.txt` : Block Windows Update
 
@@ -59,15 +59,20 @@ And about data collection, you can read the [Telemetry collection](../../wiki/mi
 
 ## Projects using WindowsSpyBlocker
 
-* [pi-hole](https://pi-hole.net/) : A black hole for Internet advertisements (designed for Raspberry Pi).
-* [OpenWrt adblock package](https://github.com/openwrt/packages/tree/master/net/adblock/files) : DNS based ad/abuse domain blocking
-* [WPD](https://getwpd.com/) : Customize Group Policy, Services and Tasks, responsible for data collection and sending, as you like.
-* [simplewall](https://github.com/henrypp/simplewall) : Simple tool to configure Windows Filtering Platform (WFP).
+* [BlackArch Linux](https://www.blackarch.org/) : an Arch Linux-based penetration testing distribution for penetration testers and security researchers.
+* [Blackweb](https://github.com/maravento/blackweb) : URLs Blacklist for Squid
+* [BlahDNS](https://blahdns.com/) : A small hobby ads block dns project with doh, dot, dnscrypt support.
+* [DNSCrypt Proxy](https://dnscrypt.info/) : A flexible DNS proxy, with support for encrypted DNS protocols.
+* [Energized Protection](https://energized.pro/) : Let's make an annoyance free, better open internet, altogether!
+* [FilterLists](https://filterlists.com/) : An independent, comprehensive directory of filter and host lists for advertisements, trackers, malware, and annoyances.
 * [LEDE Project](https://lede-project.org/) : A Linux operating system based on OpenWrt.
 * [Mikrotik hosts parser](https://github.com/tarampampam/mikrotik-hosts-parser) : An application that blocks "advertising" for routers based on RouterOS.
+* [OpenWrt adblock package](https://github.com/openwrt/packages/tree/master/net/adblock/files) : DNS based ad/abuse domain blocking
+* [OPNsense](https://opnsense.org) : An open source, easy-to-use and easy-to-build HardenedBSD based firewall and routing platform.
+* [pi-hole](https://pi-hole.net/) : A black hole for Internet advertisements (designed for Raspberry Pi).
+* [simplewall](https://github.com/henrypp/simplewall) : Simple tool to configure Windows Filtering Platform (WFP).
 * [void-zones-tools](https://github.com/cyclaero/void-zones-tools) : A list of void zones that can be readily feed into Unbound on FreeBSD.
-* [DNSCrypt Proxy](https://dnscrypt.info/) : A flexible DNS proxy, with support for encrypted DNS protocols.
-* [FilterLists](https://filterlists.com/) : An independent, comprehensive directory of filter and host lists for advertisements, trackers, malware, and annoyances.
+* [WPD](https://getwpd.com/) : Customize Group Policy, Services and Tasks, responsible for data collection and sending, as you like.
 
 ## How can I help ?
 
