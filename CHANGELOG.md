@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.19.1 (2019/04/02)
+
+* Update hosts for extra rule
+* Update IPs for extra, spy and update rules
+
 ## 4.19.0 (2019/03/02)
 
 * Update hosts for extra and spy rules
