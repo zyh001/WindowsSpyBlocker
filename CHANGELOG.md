@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.20.0 (2019/05/02)
+
+* Update IPs for extra, spy and update rules
+* Go 1.12
+
 ## 4.19.1 (2019/04/02)
 
 * Update hosts for extra rule
@@ -31,7 +36,7 @@
 * Update hosts for spy rules
 * Update IPs for extra, spy and update rules
 * SiSyPHuS BSI Windows 10 Telemetry data (Issue #123)
-* Upgrade to Go 1.11.2
+* Go 1.11.2
 
 ## 4.18.0 (2018/10/23)
 
@@ -50,7 +55,7 @@
 
 * Update hosts for update rules
 * Update IPs for extra and update rules
-* Upgrade to Go 1.11
+* Go 1.11
 * Use [go mod](https://golang.org/cmd/go/#hdr-Module_maintenance) instead of `dep`
 
 ## 4.16.1 (2018/08/14)
@@ -145,7 +150,7 @@
 * Update hosts for Windows 8.1 spy and update
 * Update IPs for Windows 8.1 extra and spy
 * Update IPs for Windows 7 extra
-* Upgrade to Go 1.9.3
+* Go 1.9.3
 
 ## 4.10.2 (2017/12/24)
 
@@ -174,7 +179,7 @@
 * Use SetConsoleTitle instead of exec cmd
 * Error while removing sysmon evtx file
 * Remove unused code
-* Upgrade to Go 1.9.1
+* Go 1.9.1
 
 ## 4.9.0 (2017/10/17)
 
@@ -194,7 +199,7 @@
 * New IPs for Windows 8.1 spy and update
 * New hosts for Windows 7 spy
 * Update libs
-* Upgrade to Go 1.9
+* Go 1.9
 
 ## 4.8.2 (2017/08/07)
 
