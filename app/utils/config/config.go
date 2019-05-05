@@ -88,6 +88,7 @@ type settings struct {
 		Ipapi         string `json:"ipapi"`
 		Ipinfo        string `json:"ipinfo"`
 		Ipnf          string `json:"ipnf"`
+		Ip6           string `json:"ip6"`
 	} `json:"uris"`
 	Libs struct {
 		Wireshark Lib `json:"wireshark"`
