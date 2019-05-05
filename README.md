@@ -46,6 +46,7 @@ The `data` folder contains the blocking rules based on domains or IPs detected d
 * `data/<type>/extra.txt` : Block third party applications (Skype, Bing, Live, Outlook, NCSI, etc.)
 * `data/<type>/spy.txt` : Block Windows Spy / Telemetry **recommended**
 * `data/<type>/update.txt` : Block Windows Update
+* `data/hosts/[extra|spy|update]_v6.txt` : Handle IPv6 blocking for hosts
 
 [Firewall](../../wiki/dataFirewall) and [Hosts](../../wiki/dataHosts) data are the main types. The others are generated from these as :
 
