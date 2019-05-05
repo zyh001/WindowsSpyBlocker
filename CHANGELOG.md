@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.21.0 (2019/05/05)
+
+* Handle IPv6 blocking for hosts (Issue #146)
+* Add ability to perform DNS AAAA lookup test on hosts
+
 ## 4.20.0 (2019/05/02)
 
 * Update IPs for extra, spy and update rules
