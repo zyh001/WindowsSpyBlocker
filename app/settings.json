@@ -6,7 +6,8 @@
     "dnsquery": "https://dnsquery.org/whois/",
     "ipapi": "http://ip-api.com/json/",
     "ipinfo": "http://ipinfo.io/%s/json",
-    "ipnf": "https://ip.nf/%s.json"
+    "ipnf": "https://ip.nf/%s.json",
+    "ip6": "https://ip6.nl/resolve.plp?domain=%s"
   },
   "libs": {
     "wireshark": {

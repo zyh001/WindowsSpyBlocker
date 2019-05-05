@@ -19,6 +19,11 @@ func Menu(args ...string) (err error) {
 			Function:    testHostsLookup,
 		},
 		{
+			Description: "Test domains AAAA lookup",
+			Color:       color.FgHiYellow,
+			Function:    testHostsAAAALookup,
+		},
+		{
 			Description: "Find incompatible rules",
 			Color:       color.FgHiYellow,
 			Function:    findIncompatibleRules,
