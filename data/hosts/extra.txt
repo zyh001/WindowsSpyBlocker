@@ -1,6 +1,6 @@
 ### WindowsSpyBlocker - Hosts extra rules
 ### License: MIT
-### Updated: 2019-04-02T22:04:00Z02:00
+### Updated: 2019-05-17T20:14:00Z02:00
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 0.0.0.0 a-0001.a-msedge.net
@@ -45,10 +45,12 @@
 0.0.0.0 config.edge.skype.com
 0.0.0.0 crl.microsoft.com
 0.0.0.0 cy2.settings.data.microsoft.com.akadns.net
+0.0.0.0 dev.virtualearth.net
 0.0.0.0 device.auth.xboxlive.com
 0.0.0.0 dmd.metaservices.microsoft.com
 0.0.0.0 dmd.metaservices.microsoft.com.akadns.net
 0.0.0.0 dns.msftncsi.com
+0.0.0.0 ecn.dev.virtualearth.net
 0.0.0.0 europe.smartscreen-prod.microsoft.com
 0.0.0.0 evoke-windowsservices-tas.msedge.net
 0.0.0.0 feedback.microsoft-hohm.com
@@ -112,6 +114,8 @@
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com
 0.0.0.0 storeedgefd.dsx.mp.microsoft.com
 0.0.0.0 support.microsoft.com
+0.0.0.0 t0.ssl.ak.dynamic.tiles.virtualearth.net
+0.0.0.0 t0.ssl.ak.tiles.virtualearth.net
 0.0.0.0 t.urs.microsoft.com
 0.0.0.0 tile-service.weather.microsoft.com
 0.0.0.0 time.windows.com
