@@ -91,9 +91,10 @@ type settings struct {
 		Ip6           string `json:"ip6"`
 	} `json:"uris"`
 	Libs struct {
-		Wireshark Lib `json:"wireshark"`
-		Npcap     Lib `json:"npcap"`
-		Sysmon    Lib `json:"sysmon"`
+		Wireshark32 Lib `json:"wireshark_32"`
+		Wireshark64 Lib `json:"wireshark_64"`
+		Npcap       Lib `json:"npcap"`
+		Sysmon      Lib `json:"sysmon"`
 	} `json:"libs"`
 	DataTpl struct {
 		Dnscrypt dataTpl `json:"dnscrypt"`

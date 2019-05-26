@@ -10,12 +10,16 @@
     "ip6": "https://ip6.nl/resolve.plp?domain=%s"
   },
   "libs": {
-    "wireshark": {
-      "url": "https://dl.bintray.com/crazy/tools/WiresharkLite-2.2.6.zip",
+    "wireshark_32": {
+      "url": "https://dl.bintray.com/crazy/tools/Wireshark-win32-3.0.2.zip",
+      "checkfile": "wireshark\\tshark.exe"
+    },
+    "wireshark_64": {
+      "url": "https://dl.bintray.com/crazy/tools/Wireshark-win64-3.0.2.zip",
       "checkfile": "wireshark\\tshark.exe"
     },
     "npcap": {
-      "url": "https://dl.bintray.com/crazy/tools/npcap-0.86.exe",
+      "url": "https://nmap.org/npcap/dist/npcap-0.995.exe",
       "checkfile": "C:\\Windows\\System32\\Npcap\\wpcap.dll"
     },
     "sysmon": {

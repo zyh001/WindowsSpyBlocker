@@ -2,6 +2,8 @@ package windows
 
 import (
 	"fmt"
+	"os"
+	"strings"
 	"syscall"
 	"unsafe"
 
@@ -82,4 +84,9 @@ func SetConsoleTitle(title string) (int, error) {
 
 	r, _, err := syscall.Syscall(proc, 1, uintptr(unsafe.Pointer(rTitle)), 0, 0)
 	return int(r), err
+}
+
+// Is64Arch detects if program running on 64bits architecture
+func Is64Arch() bool {
+	return strings.ContainsAny("64", os.Getenv("PROCESSOR_ARCHITECTURE"))
 }

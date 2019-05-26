@@ -24,6 +24,7 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/stringsu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/windows"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
 	"github.com/fatih/color"
 )
@@ -60,10 +61,19 @@ func Menu(args ...string) (err error) {
 	return
 }
 
+var (
+	wiresharkLib config.Lib
+)
+
 func init() {
-	config.Settings.Libs.Wireshark.Dest = path.Join(pathu.Libs, "wireshark.zip")
-	config.Settings.Libs.Wireshark.OutputPath = path.Join(pathu.Libs, "wireshark")
-	config.Settings.Libs.Wireshark.Checkfile = path.Join(pathu.Libs, config.Settings.Libs.Wireshark.Checkfile)
+	if windows.Is64Arch() {
+		wiresharkLib = config.Settings.Libs.Wireshark64
+	} else {
+		wiresharkLib = config.Settings.Libs.Wireshark32
+	}
+	wiresharkLib.Dest = path.Join(pathu.Libs, "wireshark.zip")
+	wiresharkLib.OutputPath = path.Join(pathu.Libs, "wireshark")
+	wiresharkLib.Checkfile = path.Join(pathu.Libs, wiresharkLib.Checkfile)
 
 	config.Settings.Libs.Npcap.Dest = path.Join(pathu.Libs, "npcap-setup.exe")
 }
@@ -114,7 +124,7 @@ func installNpcap(args ...string) (err error) {
 func printInterfaces(args ...string) (err error) {
 	fmt.Println()
 
-	if err := app.DownloadLib(config.Settings.Libs.Wireshark); err != nil {
+	if err := app.DownloadLib(wiresharkLib); err != nil {
 		return nil
 	}
 
@@ -141,7 +151,7 @@ func capture(args ...string) (err error) {
 	fmt.Println()
 	outputPcapng := path.Join(pathu.Tmp, fmt.Sprintf("cap-%s.pcapng", time.Now().Format("20060102-150405")))
 
-	if err := app.DownloadLib(config.Settings.Libs.Wireshark); err != nil {
+	if err := app.DownloadLib(wiresharkLib); err != nil {
 		return nil
 	}
 
@@ -173,7 +183,7 @@ func capture(args ...string) (err error) {
 	/*fmt.Print("Starting capture on ")
 	color.New(color.FgYellow).Printf("%s", networkItfSel.Name)
 	fmt.Printf(" in %s...", strings.TrimLeft(outputPcapng, pathu.Current))*/
-	command := exec.Command(path.Join(config.Settings.Libs.Wireshark.OutputPath, "dumpcap.exe"),
+	command := exec.Command(path.Join(wiresharkLib.OutputPath, "dumpcap.exe"),
 		"-i", strconv.Itoa(config.App.Wireshark.Capture.Interface),
 		"-f", config.App.Wireshark.Capture.Filter,
 		"-w", outputPcapng,
@@ -222,7 +232,7 @@ func extractLog(args ...string) (err error) {
 	var eventsAll Events
 	var eventsHostsCount Events
 
-	if err := app.DownloadLib(config.Settings.Libs.Wireshark); err != nil {
+	if err := app.DownloadLib(wiresharkLib); err != nil {
 		return nil
 	}
 
@@ -237,9 +247,9 @@ func extractLog(args ...string) (err error) {
 
 	fmt.Print("Extracting events... ")
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    path.Join(config.Settings.Libs.Wireshark.OutputPath, "tshark.exe"),
+		Command:    path.Join(wiresharkLib.OutputPath, "tshark.exe"),
 		Args:       []string{"-r", config.App.Wireshark.PcapngPath, "-q", "-z", "ip_hosts,tree"},
-		WorkingDir: config.Settings.Libs.Wireshark.OutputPath,
+		WorkingDir: wiresharkLib.OutputPath,
 	})
 	if err != nil {
 		print.Error(err)
@@ -374,9 +384,9 @@ func _getNetworkInterfaces() (Interfaces, error) {
 	var interfaces Interfaces
 
 	cmdResult, err := cmd.Exec(cmd.Options{
-		Command:    path.Join(config.Settings.Libs.Wireshark.OutputPath, "dumpcap.exe"),
+		Command:    path.Join(wiresharkLib.OutputPath, "dumpcap.exe"),
 		Args:       []string{"-D"},
-		WorkingDir: config.Settings.Libs.Wireshark.OutputPath,
+		WorkingDir: wiresharkLib.OutputPath,
 	})
 	if err != nil {
 		return nil, err
