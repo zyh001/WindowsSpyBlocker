@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.22.0 (2019/05/26)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Wireshark 3.0.2
+* Npcap 0.995
+* Fix WindowsSpyBlocker NCSI HTTP Probe (Issue #128)
+* Move virtualearth.net to extra (Issue #149)
+* Switch to TravisCI
+
 ## 4.21.0 (2019/05/05)
 
 * Handle IPv6 blocking for hosts (Issue #146)
