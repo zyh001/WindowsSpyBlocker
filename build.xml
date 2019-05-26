@@ -42,16 +42,17 @@
     </sequential>
   </macrodef>
 
+  <!-- Version -->
+  <condition property="app.version" value="${env.TRAVIS_TAG}"><isset property="env.TRAVIS_TAG"/></condition>
+  <condition property="app.version" value="1.0.0"><not><isset property="app.version"/></not></condition>
+
   <!-- Build number -->
-  <condition property="app.release" value="${env.APPVEYOR_BUILD_NUMBER}"><isset property="env.APPVEYOR_BUILD_NUMBER"/></condition>
-  <condition property="app.release" value="${app.default.release}"><not><isset property="env.APPVEYOR_BUILD_NUMBER"/></not></condition>
+  <condition property="app.release" value="${env.TRAVIS_BUILD_NUMBER}"><isset property="env.TRAVIS_BUILD_NUMBER"/></condition>
+  <condition property="app.release" value="0"><not><isset property="app.release"/></not></condition>
 
   <target name="release" depends="init, load.lib, infos, downmod, generate, build" description="Release">
     <echo message="Creating release..."/>
     <copy file="${tmp.path}\${app.id}.exe" todir="${release.path}" overwrite="true"/>
-
-    <echo message="Writing version.dat..."/>
-    <echo file="${tmp.path}\version.dat" append="false">${app.version}</echo>
   </target>
 
   <target name="setup" depends="init, load.lib, downmod, generate" description="Setup workspace"/>
