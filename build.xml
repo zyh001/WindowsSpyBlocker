@@ -43,7 +43,12 @@
   </macrodef>
 
   <!-- Version -->
-  <condition property="app.version" value="${env.TRAVIS_TAG}"><isset property="env.TRAVIS_TAG"/></condition>
+  <condition property="app.version" value="${env.TRAVIS_TAG}">
+    <and>
+      <isset property="env.TRAVIS_TAG"/>
+      <not><equals arg1="${env.TRAVIS_TAG}" arg2=""/></not>
+    </and>
+  </condition>
   <condition property="app.version" value="1.0.0"><not><isset property="app.version"/></not></condition>
 
   <!-- Build number -->
