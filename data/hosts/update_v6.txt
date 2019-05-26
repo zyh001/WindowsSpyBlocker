@@ -1,6 +1,6 @@
 ### WindowsSpyBlocker - Hosts IPv6 update rules
 ### License: MIT
-### Updated: 2019-05-05T19:42:00Z02:00
+### Updated: 2019-05-26T21:35:00Z02:00
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 :: 00001b-1.l.windowsupdate.com
@@ -480,13 +480,18 @@
 :: fe2.update.microsoft.com
 :: fe2.update.microsoft.com.akadns.net
 :: fe2.ws.microsoft.com
+:: fe2cr.update.microsoft.com
 :: fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 :: fe3.delivery.mp.microsoft.com
+:: fe3cr.delivery.mp.microsoft.com
 :: fg.ds.b1.download.windowsupdate.com
 :: fg.v4.download.windowsupdate.com
 :: geo-prod.do.dsp.mp.microsoft.com
 :: geover-prod.do.dsp.mp.microsoft.com
+:: skydrive.wns.windows.com
+:: skydrivesync.policies.live.net
 :: sls.update.microsoft.com
+:: slscr.update.microsoft.com
 :: spo-ring.msedge.net
 :: statsfe2.update.microsoft.com
 :: statsfe2.update.microsoft.com.akadns.net

@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall spy rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Thu, 02 May 2019 22:04:31 +0200 -->
+<!-- Last-Modified: Sun, 26 May 2019 21:49:40 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -15,6 +15,7 @@
 	<item name="spy_13.78.232.226" rule="13.78.232.226" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_13.78.233.133" rule="13.78.233.133" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_13.92.194.212" rule="13.92.194.212" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_20.44.86.43" rule="20.44.86.43" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_23.97.61.137" rule="23.97.61.137" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_23.97.209.97" rule="23.97.209.97" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_23.99.10.11" rule="23.99.10.11" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -40,6 +41,7 @@
 	<item name="spy_40.77.232.101" rule="40.77.232.101" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.79.85.125" rule="40.79.85.125" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.83.189.49" rule="40.83.189.49" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_40.90.221.9" rule="40.90.221.9" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.113.8.255" rule="40.113.8.255" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.113.10.78" rule="40.113.10.78" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.113.11.93" rule="40.113.11.93" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -49,11 +51,14 @@
 	<item name="spy_40.114.149.220" rule="40.114.149.220" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.115.1.44" rule="40.115.1.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.115.3.210" rule="40.115.3.210" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_40.115.119.185" rule="40.115.119.185" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.117.144.240" rule="40.117.144.240" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.117.151.29" rule="40.117.151.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.121.144.182" rule="40.121.144.182" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_51.140.40.236" rule="51.140.40.236" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_51.141.13.164" rule="51.141.13.164" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_51.143.111.7" rule="51.143.111.7" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_51.143.111.81" rule="51.143.111.81" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.109.8.19" rule="52.109.8.19" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.109.8.20" rule="52.109.8.20" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.109.8.21" rule="52.109.8.21" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -135,6 +140,8 @@
 	<item name="spy_52.114.158.102" rule="52.114.158.102" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.138.204.217" rule="52.138.204.217" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.138.216.83" rule="52.138.216.83" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_52.155.172.105" rule="52.155.172.105" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_52.158.208.111" rule="52.158.208.111" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.158.238.42" rule="52.158.238.42" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.164.240.33" rule="52.164.240.33" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_52.164.240.59" rule="52.164.240.59" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

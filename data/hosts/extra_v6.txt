@@ -1,6 +1,6 @@
 ### WindowsSpyBlocker - Hosts IPv6 extra rules
 ### License: MIT
-### Updated: 2019-05-17T20:14:00Z02:00
+### Updated: 2019-05-26T21:35:00Z02:00
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 :: a-0001.a-msedge.net
@@ -20,8 +20,10 @@
 :: a-msedge.net
 :: activation.sls.microsoft.com
 :: activation-v2.sls.microsoft.com
+:: am3pap002.storage.live.com
 :: answers.microsoft.com
 :: api.bing.com
+:: api.onedrive.com
 :: appex-rf.msn.com
 :: apps.skype.com
 :: arc.msn.com.nsatc.net
@@ -32,6 +34,7 @@
 :: bingforbusiness.com
 :: blob.weather.microsoft.com
 :: c-0001.dc-msedge.net
+:: c1.microsoft.com
 :: candycrushsoda.king.com
 :: cdn.content.prod.cms.msn.com
 :: cdn.onenote.net
@@ -43,6 +46,7 @@
 :: clientconfig.passport.net
 :: co2.sls.microsoft.com
 :: config.edge.skype.com
+:: config.teams.microsoft.com
 :: crl.microsoft.com
 :: cy2.settings.data.microsoft.com.akadns.net
 :: dev.virtualearth.net
@@ -76,6 +80,7 @@
 :: login.live.com
 :: login.microsoftonline.com
 :: login.msa.akadns6.net
+:: logincdn.msauth.net
 :: manage.devcenter.microsoft.com
 :: mrodevicemgr.officeapps.live.com
 :: maps.windows.com
@@ -93,6 +98,7 @@
 :: otf.msn.com
 :: outlook.office365.com
 :: pti.store.microsoft.com
+:: purchase.mp.microsoft.com
 :: query.prod.cms.rt.microsoft.com
 :: r20swj13mr.microsoft.com
 :: register.cdpcs.microsoft.com
