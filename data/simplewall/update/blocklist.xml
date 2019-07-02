@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall update rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 26 May 2019 21:49:40 +0200 -->
+<!-- Last-Modified: Tue, 02 Jul 2019 19:06:21 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -122,6 +122,7 @@
 	<item name="update_40.91.73.219" rule="40.91.73.219" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.91.75.5" rule="40.91.75.5" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.91.91.94" rule="40.91.91.94" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_40.91.122.44" rule="40.91.122.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.161.15.246" rule="52.161.15.246" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.167.222.82" rule="52.167.222.82" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.167.222.147" rule="52.167.222.147" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -148,14 +149,18 @@
 	<item name="update_52.229.174.172" rule="52.229.174.172" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.229.174.233" rule="52.229.174.233" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.229.175.79" rule="52.229.175.79" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_52.230.216.17" rule="52.230.216.17" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_52.230.216.157" rule="52.230.216.157" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.230.223.92" rule="52.230.223.92" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.230.223.167" rule="52.230.223.167" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_52.248.96.36" rule="52.248.96.36" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.249.24.101" rule="52.249.24.101" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_64.4.27.50" rule="64.4.27.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.29" rule="65.52.108.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.33" rule="65.52.108.33" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.59" rule="65.52.108.59" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.90" rule="65.52.108.90" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_65.52.108.92" rule="65.52.108.92" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.153" rule="65.52.108.153" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.154" rule="65.52.108.154" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_65.52.108.185" rule="65.52.108.185" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
