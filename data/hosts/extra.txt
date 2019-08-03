@@ -1,6 +1,7 @@
 ### WindowsSpyBlocker - Hosts extra rules
 ### License: MIT
-### Updated: 2019-07-02T19:02:00Z02:00
+### Updated: 2019-08-03T15:48:00Z02:00
+### Donate: https://www.patreon.com/crazymax ; https://www.paypal.me/crazyws
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
 0.0.0.0 a-0001.a-msedge.net
@@ -96,6 +97,7 @@
 0.0.0.0 officecdn.microsoft.com.edgesuite.net
 0.0.0.0 officeclient.microsoft.com
 0.0.0.0 oneclient.sfx.ms
+0.0.0.0 optanon.blob.core.windows.net
 0.0.0.0 otf.msn.com
 0.0.0.0 outlook.office365.com
 0.0.0.0 pti.store.microsoft.com

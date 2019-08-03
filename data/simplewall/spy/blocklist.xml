@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall spy rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Mon, 08 Jul 2019 17:00:58 +0200 -->
+<!-- Last-Modified: Sat, 03 Aug 2019 15:59:31 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -19,6 +19,7 @@
 	<item name="spy_23.103.182.126" rule="23.103.182.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.68.222.212" rule="40.68.222.212" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.69.153.67" rule="40.69.153.67" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="spy_40.70.184.83" rule="40.70.184.83" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.70.220.248" rule="40.70.220.248" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.70.221.249" rule="40.70.221.249" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.77.228.47" rule="40.77.228.47" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />

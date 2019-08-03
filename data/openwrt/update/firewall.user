@@ -158,6 +158,7 @@ iptables -I FORWARD -j DROP -d 52.230.216.17
 iptables -I FORWARD -j DROP -d 52.230.216.157
 iptables -I FORWARD -j DROP -d 52.230.223.92
 iptables -I FORWARD -j DROP -d 52.230.223.167
+iptables -I FORWARD -j DROP -d 52.232.225.93
 iptables -I FORWARD -j DROP -d 52.248.96.36
 iptables -I FORWARD -j DROP -d 52.249.24.101
 iptables -I FORWARD -j DROP -d 64.4.27.50
