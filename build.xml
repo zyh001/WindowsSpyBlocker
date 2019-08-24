@@ -11,10 +11,18 @@
   <property name="app.path" value="${project.basedir}\app"/>
   <property name="build.path" value="${bin.path}\build"/>
   <property name="release.path" value="${bin.path}\release"/>
+  <property name="choco.path" value="${bin.path}\choco"/>
   <property name="lib.path" value="${bin.path}\lib"/>
   <property name="tmp.path" value="${bin.path}\tmp"/>
   <property name="upx" value="${lib.path}\upx\upx.exe"/>
   <property name="ldflags" value="-s -w"/>
+
+  <!-- Combined path -->
+  <path id="combined-path">
+    <pathelement path="${env.PATH}"/>
+    <pathelement path="${env.Path}"/>
+  </path>
+  <property name="PATH" refid="combined-path"/>
 
   <!-- Macros -->
   <macrodef name="assertdir">
@@ -58,6 +66,32 @@
   <target name="release" depends="init, load.lib, infos, downmod, generate, build" description="Release">
     <echo message="Creating release..."/>
     <copy file="${tmp.path}\${app.id}.exe" todir="${release.path}" overwrite="true"/>
+
+    <echo message="Creating Chocolatey package..."/>
+    <fail message="Choco not found in PATH">
+      <condition><not><available file="choco.exe" filepath="${PATH}"/></not></condition>
+    </fail>
+    <delete dir="${choco.path}"/>
+    <mkdir dir="${choco.path}\legal"/>
+    <copy todir="${choco.path}">
+      <fileset dir="${project.basedir}\chocolatey" defaultexcludes="no"/>
+    </copy>
+    <copy file="${release.path}\${app.id}.exe" todir="${choco.path}\tools" overwrite="true"/>
+    <copy file="${project.basedir}\LICENSE" tofile="${choco.path}\legal\LICENSE.txt" overwrite="true"/>
+    <copy file="${project.basedir}\chocolatey\windowsspyblocker.nuspec" todir="${choco.path}" overwrite="true">
+      <filterset refid="filterset.app"/>
+    </copy>
+    <exec executable="choco" failonerror="true" dir="${choco.path}">
+      <arg value="pack"/>
+      <arg value="--out"/>
+      <arg value="${release.path}"/>
+      <arg value="--version"/>
+      <arg value="${app.version}"/>
+      <arg value="--acceptlicense"/>
+      <arg value="--yes"/>
+    </exec>
+    <delete dir="${release.path}\\windowsspyblocker.${app.version}"/>
+    <assertfile file="${release.path}\windowsspyblocker.${app.version}.nupkg"/>
   </target>
 
   <target name="setup" depends="init, load.lib, downmod, generate" description="Setup workspace"/>

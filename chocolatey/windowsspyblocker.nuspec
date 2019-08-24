@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>windowsspyblocker</id>
+    <title>WindowsSpyBlocker</title>
+    <version>@APP_VERSION@</version>
+    <authors>CrazyMax</authors>
+    <owners>CrazyMax</owners>
+    <summary>Block spying and tracking on Windows</summary>
+    <description><![CDATA[WindowsSpyBlocker 🛡 is an application written in Go and delivered as a single executable to block spying and tracking on Windows systems ⛔.
+
+The approach of this project is to capture and interpret network traffic 🚦 based on a set of tools. Depending on the interactions ⛓ between services and source or destination of traffic, rules are created and sorted by assignment.
+
+![](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/wsb-main-window.png)
+
+All kinds of contributions are welcome 🙌! The most basic way to show your support is to star :star2: the project, or to raise issues 💬. But we're not gonna lie to each other, I'd rather you buy me a beer or two 🍻!
+
+[![Support me on Patreon](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/patreon.png)](https://www.patreon.com/crazymax)
+[![Paypal](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/paypal-donate.png)](https://www.paypal.me/crazyws)
+
+]]></description>
+    <projectUrl>https://github.com/crazy-max/WindowsSpyBlocker</projectUrl>
+    <tags>windows security antispy foss</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/crazy-max/WindowsSpyBlocker/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png</iconUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.2" />
+    </dependencies>
+    <releaseNotes>https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/CHANGELOG.md</releaseNotes>
+    <docsUrl>https://github.com/crazy-max/WindowsSpyBlocker/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/crazy-max/WindowsSpyBlocker/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/crazy-max/WindowsSpyBlocker</projectSourceUrl>
+    <packageSourceUrl>https://github.com/crazy-max/WindowsSpyBlocker/blob/master/chocolatey</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
