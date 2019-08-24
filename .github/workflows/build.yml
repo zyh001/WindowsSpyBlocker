@@ -1,0 +1,46 @@
+name: build
+
+on:
+  push:
+    branches:
+      - "*"
+    tags:
+      - "!*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      -
+        name: Set up Go
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.12.4
+      -
+        name: Set GOPATH
+        # temporary fix
+        # see https://github.com/actions/setup-go/issues/14
+        run: |
+          echo "##[set-env name=GOPATH;]$(dirname $GITHUB_WORKSPACE)"
+          echo "##[add-path]$(dirname $GITHUB_WORKSPACE)/bin"
+        shell: bash
+      -
+        name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      -
+        name: Checkout
+        uses: actions/checkout@v1
+      -
+        name: Build
+        run: |
+          go get -u github.com/kevinburke/go-bindata/go-bindata
+          go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
+          ant -noinput release
+          ls -al bin/release/
+        shell: bash

@@ -43,16 +43,16 @@
   </macrodef>
 
   <!-- Version -->
-  <condition property="app.version" value="${env.TRAVIS_TAG}">
+  <condition property="app.version" value="${env.TAG_NAME}">
     <and>
-      <isset property="env.TRAVIS_TAG"/>
-      <not><equals arg1="${env.TRAVIS_TAG}" arg2=""/></not>
+      <isset property="env.TAG_NAME"/>
+      <not><equals arg1="${env.TAG_NAME}" arg2=""/></not>
     </and>
   </condition>
   <condition property="app.version" value="1.0.0"><not><isset property="app.version"/></not></condition>
 
   <!-- Build number -->
-  <condition property="app.release" value="${env.TRAVIS_BUILD_NUMBER}"><isset property="env.TRAVIS_BUILD_NUMBER"/></condition>
+  <condition property="app.release" value="${env.BUILD_NUMBER}"><isset property="env.BUILD_NUMBER"/></condition>
   <condition property="app.release" value="0"><not><isset property="app.release"/></not></condition>
 
   <target name="release" depends="init, load.lib, infos, downmod, generate, build" description="Release">

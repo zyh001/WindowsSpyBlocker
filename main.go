@@ -1,6 +1,6 @@
-//go:generate go install -v github.com/kevinburke/go-bindata/go-bindata
+//go:generate go get -u github.com/kevinburke/go-bindata/go-bindata
 //go:generate go-bindata -pkg bindata -o app/bindata/bindata.go app/settings.json data/... app.conf
-//go:generate go install -v github.com/josephspurrier/goversioninfo/cmd/goversioninfo
+//go:generate go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
 //go:generate goversioninfo -icon=app.ico -manifest=app.manifest
 
 package main
