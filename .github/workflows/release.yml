@@ -50,7 +50,7 @@ jobs:
           ls -al bin/release/
         shell: bash
       -
-        name: Deploy
+        name: GitHub Release
         if: success()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -58,4 +58,15 @@ jobs:
           go get -u github.com/tcnksm/ghr
           ghr --version
           ghr -n ${TAG_NAME} -draft ${TAG_NAME} bin/release/
+        shell: bash
+      -
+        name: Chocolatey Release
+        if: success()
+        env:
+          CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
+        run: |
+          choco push bin/release/windowsspyblocker.${TAG_NAME}.nupkg \
+            --source https://push.chocolatey.org/ \
+            --apikey ${CHOCO_API_KEY} \
+            --acceptlicense --yes
         shell: bash
