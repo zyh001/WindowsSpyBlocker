@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.23.0 (2019/08/27)
+
+* Add and publish [Chocolatey package](https://chocolatey.org/packages/windowsspyblocker) (Issue #143)
+* Switch to GitHub Actions
+
 ## 4.22.3 (2019/08/03)
 
 * Update hosts for extra and spy rules
