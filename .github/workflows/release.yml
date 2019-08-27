@@ -66,7 +66,7 @@ jobs:
           CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
         run: |
           choco push bin/release/windowsspyblocker.${TAG_NAME}.nupkg \
-            --source https://push.chocolatey.org/ \
+            --source https://package.chocolatey.org \
             --apikey ${CHOCO_API_KEY} \
             --acceptlicense --yes
         shell: bash
