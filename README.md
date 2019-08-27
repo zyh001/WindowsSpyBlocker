@@ -25,6 +25,10 @@ Configuration file `app.conf` is generated at first launch :
 
 For more info, take a look at [Wiki](../../wiki).
 
+## Download
+
+WindowsSpyBlocker executable can be downloaded directly from [GitHub releases](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) or as a [Chocolate package](https://chocolatey.org/packages/windowsspyblocker) that will allow you to benefit from automatic updates.
+
 ## Telemetry and data collection
 
 To capture and interpret network traffic, QEMU virtual machines are used on the server virtualization management platform [Proxmox VE](https://www.proxmox.com/en/) based on :
