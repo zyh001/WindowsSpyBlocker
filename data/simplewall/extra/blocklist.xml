@@ -1,10 +1,11 @@
 <!-- WindowsSpyBlocker - simplewall extra rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sat, 03 Aug 2019 15:59:31 +0200 -->
+<!-- Last-Modified: Sun, 01 Sep 2019 19:12:55 +0200 -->
 
 <?xml version="1.0"?>
 <root>
+	<item name="extra_13.64.186.225" rule="13.64.186.225" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.76.218.117" rule="13.76.218.117" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.76.219.191" rule="13.76.219.191" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_13.76.219.210" rule="13.76.219.210" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -71,7 +72,10 @@
 	<item name="extra_40.90.136.163" rule="40.90.136.163" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.136.166" rule="40.90.136.166" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.136.180" rule="40.90.136.180" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_40.90.137.120" rule="40.90.137.120" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_40.90.137.126" rule="40.90.137.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.90.190.179" rule="40.90.190.179" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_40.90.218.0" rule="40.90.218.0" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.91.76.238" rule="40.91.76.238" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.91.78.9" rule="40.91.78.9" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.97.161.50" rule="40.97.161.50" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
