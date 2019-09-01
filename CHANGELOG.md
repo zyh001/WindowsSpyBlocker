@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.23.1 (2019/09/01)
+
+* Update hosts for update rules
+* Update IPs for extra, spy and update rules
+
 ## 4.23.0 (2019/08/27)
 
 * Add and publish [Chocolatey package](https://chocolatey.org/packages/windowsspyblocker) (Issue #143)
