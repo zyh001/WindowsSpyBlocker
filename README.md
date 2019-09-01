@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="GitHub release"></a>
+  <a href="https://chocolatey.org/packages/windowsspyblocker"><img src="https://img.shields.io/chocolatey/v/windowsspyblocker?style=flat-square" alt="Chocolatey Package"></a>
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/downloads/crazy-max/WindowsSpyBlocker/total.svg?style=flat-square" alt="Total downloads"></a>
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/actions"><img src="https://github.com/crazy-max/WindowsSpyBlocker/workflows/build/badge.svg" alt="Build Status"></a>
   <a href="https://goreportcard.com/report/github.com/crazy-max/WindowsSpyBlocker"><img src="https://goreportcard.com/badge/github.com/crazy-max/WindowsSpyBlocker?style=flat-square" alt="Go Report"></a>
@@ -87,7 +88,7 @@ The most basic way to show your support is to star :star2: the project, or to ra
 But we're not gonna lie to each other, I'd rather you buy me a beer or two :beers:!
 
 [![Support me on Patreon](.res/patreon.png)](https://www.patreon.com/crazymax) 
-[![Paypal](.res/paypal-donate.png)](https://www.paypal.me/crazyws)
+[![Paypal](.res/paypal.png)](https://www.paypal.me/crazyws)
 
 ## License
 
