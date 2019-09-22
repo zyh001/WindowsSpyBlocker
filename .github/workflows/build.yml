@@ -51,6 +51,9 @@ jobs:
           GOARCH=386 go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
           ant -noinput -Dapp.version=${{ steps.prepare.outputs.version }} release
           file bin/release/WindowsSpyBlocker.exe
+        env:
+          GO111MODULE: on
+          GOPROXY: https://goproxy.io
         shell: bash
       -
         # https://github.com/softprops/action-gh-release
