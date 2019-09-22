@@ -69,7 +69,7 @@ jobs:
       -
         # https://github.com/crazy-max/ghaction-chocolatey
         name: Chocolatey Release
-        uses: crazy-max/ghaction-chocolatey@master
+        uses: docker://crazymax/ghaction-chocolatey
         if: success() && startsWith(github.ref, 'refs/tags/')
-        with:
-          args: push bin/release/windowsspyblocker.${{ steps.prepare.outputs.version }}.nupkg --source https://package.chocolatey.org --apikey ${{ secrets.CHOCO_API_KEY }} --acceptlicense --yes
+        env:
+          INPUT_ARGS: push bin/release/windowsspyblocker.${{ steps.prepare.outputs.version }}.nupkg --source https://package.chocolatey.org --apikey ${{ secrets.CHOCO_API_KEY }} --acceptlicense --yes
