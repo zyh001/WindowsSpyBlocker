@@ -1,33 +1,39 @@
 name: build
 
 on:
+  pull_request:
+    branches: 'master'
   push:
-    branches:
-      - "*"
-    tags:
-      - "!*"
+    branches: 'master'
+    tags: '*.*.*'
 
 jobs:
-  build:
+  release:
     runs-on: windows-latest
     steps:
       -
-        name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
+        name: Prepare
+        id: prepare
+        run: |
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
+            echo ::set-output name=version::${GITHUB_REF#refs/tags/}
+          else
+            echo ::set-output name=version::snapshot
+          fi
+        shell: bash
       -
+        # https://github.com/actions/setup-go
         name: Set up Go
-        uses: actions/setup-go@v1
+        uses: actions/setup-go@master
         with:
           go-version: 1.12.4
       -
         name: Set GOPATH
-        # temporary fix
-        # see https://github.com/actions/setup-go/issues/14
+        # temporary fix (see https://github.com/actions/setup-go/issues/14)
         run: |
           echo "##[set-env name=GOPATH;]$(dirname $GITHUB_WORKSPACE)"
           echo "##[add-path]$(dirname $GITHUB_WORKSPACE)/bin"
+          echo "##[add-path]$(dirname $GITHUB_WORKSPACE)/bin/windows_386"
         shell: bash
       -
         name: Set up JDK
@@ -35,13 +41,32 @@ jobs:
         with:
           java-version: 11
       -
+        # https://github.com/actions/checkout
         name: Checkout
         uses: actions/checkout@v1
       -
         name: Build
         run: |
-          go get -u github.com/kevinburke/go-bindata/go-bindata
-          go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
-          ant -noinput release
-          ls -al bin/release/
+          GOARCH=386 go get -u github.com/kevinburke/go-bindata/go-bindata
+          GOARCH=386 go get -u github.com/josephspurrier/goversioninfo/cmd/goversioninfo
+          ant -noinput -Dapp.version=${{ steps.prepare.outputs.version }} release
+          file bin/release/WindowsSpyBlocker.exe
         shell: bash
+      -
+        # https://github.com/softprops/action-gh-release
+        name: GitHub Release
+        uses: softprops/action-gh-release@v1
+        if: success() && startsWith(github.ref, 'refs/tags/')
+        with:
+          draft: true
+          files: bin/release/WindowsSpyBlocker.exe
+          name: ${{ steps.prepare.outputs.version }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      -
+        # https://github.com/crazy-max/ghaction-chocolatey
+        name: Chocolatey Release
+        uses: crazy-max/ghaction-chocolatey@master
+        if: success() && startsWith(github.ref, 'refs/tags/')
+        with:
+          args: push bin/release/windowsspyblocker.${{ steps.prepare.outputs.version }}.nupkg --source https://package.chocolatey.org --apikey ${{ secrets.CHOCO_API_KEY }} --acceptlicense --yes

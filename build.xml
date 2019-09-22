@@ -51,12 +51,6 @@
   </macrodef>
 
   <!-- Version -->
-  <condition property="app.version" value="${env.TAG_NAME}">
-    <and>
-      <isset property="env.TAG_NAME"/>
-      <not><equals arg1="${env.TAG_NAME}" arg2=""/></not>
-    </and>
-  </condition>
   <condition property="app.version" value="1.0.0"><not><isset property="app.version"/></not></condition>
 
   <!-- Build number -->
