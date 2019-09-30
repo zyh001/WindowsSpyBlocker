@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.24.0 (2019/09/30)
+
+* Switch to [magefile](https://magefile.org) to build app
+* Move [doc](doc)
+* Go 1.12.10
+
 ## 4.23.1 (2019/09/01)
 
 * Update hosts for update rules
