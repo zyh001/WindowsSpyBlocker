@@ -80,8 +80,4 @@ jobs:
         uses: docker://crazymax/ghaction-chocolatey
         if: success() && startsWith(github.ref, 'refs/tags/')
         env:
-          INPUT_ARGS: |
-            push bin/windowsspyblocker.${{ steps.prepare.outputs.version }}.nupkg \
-              --source https://package.chocolatey.org \
-              --apikey ${{ secrets.CHOCO_API_KEY }} \
-              --acceptlicense --yes
+          INPUT_ARGS: push bin/windowsspyblocker.${{ steps.prepare.outputs.version }}.nupkg --source https://package.chocolatey.org --apikey ${{ secrets.CHOCO_API_KEY }} --acceptlicense --yes
