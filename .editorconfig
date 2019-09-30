@@ -17,5 +17,5 @@ trim_trailing_whitespace = false
 [*.go]
 indent_style = tab
 
-[{data/**,.latest}]
+[data/**]
 insert_final_newline = false
