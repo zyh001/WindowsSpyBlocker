@@ -115,6 +115,29 @@ func ChocoPack() error {
 	return nil
 }
 
+// ChocoPush Run choco push
+func ChocoPush() error {
+	fmt.Println("⚙️ Chocolatey push...")
+	choco, err := exec.LookPath("choco")
+	if err != nil {
+		return err
+	}
+
+	nupkg := fmt.Sprintf("windowsspyblocker.%s.nupkg", tag())
+
+	var args []string
+	args = append(args, "push", path.Join(binPath, nupkg))
+	args = append(args, "--source", "https://package.chocolatey.org")
+	args = append(args, "--apikey", os.Getenv("CHOCO_API_KEY"))
+	args = append(args, "--acceptlicense", "--yes")
+
+	if err := sh.RunV(choco, args...); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 // ChocoPrepare Generate chocolatey files
 func ChocoPrepare() error {
 	fmt.Println("🔨 Generating Chocolatey files...")

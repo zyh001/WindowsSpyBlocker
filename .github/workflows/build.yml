@@ -50,6 +50,7 @@ jobs:
         # https://github.com/svenstaro/upx-action
         name: UPX compress
         uses: svenstaro/upx-action@v1-release
+        if: success()
         with:
           file: bin/WindowsSpyBlocker.exe
           args: -fq
@@ -58,6 +59,7 @@ jobs:
         # https://github.com/crazy-max/ghaction-mage
         name: Mage chocoPack
         uses: crazy-max/ghaction-mage@master
+        if: success()
         with:
           version: latest
           args: chocoPack
@@ -75,9 +77,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       -
-        # https://github.com/crazy-max/ghaction-chocolatey
-        name: Chocolatey Push
-        uses: crazy-max/ghaction-chocolatey@master
+        # https://github.com/crazy-max/ghaction-mage
+        name: Mage chocoPush
+        uses: crazy-max/ghaction-mage@master
         if: success() && startsWith(github.ref, 'refs/tags/')
         with:
-          args: push bin/windowsspyblocker.${{ steps.prepare.outputs.version }}.nupkg --source https://package.chocolatey.org --apikey ${{ secrets.CHOCO_API_KEY }} --acceptlicense --yes
+          version: latest
+          args: chocoPush
