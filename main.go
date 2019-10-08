@@ -6,9 +6,6 @@
 package main
 
 import (
-	_ "github.com/josephspurrier/goversioninfo"
-	_ "github.com/kevinburke/go-bindata"
-
 	"fmt"
 
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev"
