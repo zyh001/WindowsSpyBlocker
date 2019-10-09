@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.24.1 (2019/10/09)
+
+* Update hosts for extra rules
+* Update IPs for extra, spy and update rules
+
 ## 4.24.0 (2019/09/30)
 
 * Switch to [magefile](https://magefile.org) to build app
