@@ -19,7 +19,7 @@ require (
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-isatty v0.0.9 // indirect
 	github.com/mcuadros/go-version v0.0.0-20190308113854-92cdf37c5b75
-	github.com/miekg/dns v1.1.9
+	github.com/miekg/dns v1.1.22
 	github.com/pkg/errors v0.8.1
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
 	golang.org/x/sys v0.0.0-20190927073244-c990c680b611
