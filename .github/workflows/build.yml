@@ -22,6 +22,10 @@ jobs:
           fi
         shell: bash
       -
+        # https://github.com/actions/checkout
+        name: Checkout
+        uses: actions/checkout@v1
+      -
         # https://github.com/actions/setup-go
         name: Set up Go
         uses: actions/setup-go@master
@@ -35,10 +39,6 @@ jobs:
           echo "##[add-path]$(dirname $GITHUB_WORKSPACE)/bin"
           echo "##[add-path]$(dirname $GITHUB_WORKSPACE)/bin/windows_386"
         shell: bash
-      -
-        # https://github.com/actions/checkout
-        name: Checkout
-        uses: actions/checkout@v1
       -
         # https://github.com/crazy-max/ghaction-mage
         name: Mage build
