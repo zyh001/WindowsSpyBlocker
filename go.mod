@@ -7,7 +7,6 @@ require (
 	github.com/PuerkitoBio/goquery v1.5.0
 	github.com/akavel/rsrc v0.8.0 // indirect
 	github.com/akyoto/color v1.8.9
-	github.com/andybalholm/cascadia v1.0.0 // indirect
 	github.com/cavaliercoder/grab v1.0.0
 	github.com/cevaris/ordered_map v0.0.0-20170213161328-531fd444821a
 	github.com/djherbis/times v1.2.0 // indirect
