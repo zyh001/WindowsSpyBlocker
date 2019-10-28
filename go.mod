@@ -19,5 +19,5 @@ require (
 	github.com/miekg/dns v1.1.22
 	github.com/pkg/errors v0.8.1
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
-	golang.org/x/sys v0.0.0-20191007154456-ef33b2fb2c41
+	golang.org/x/sys v0.0.0-20191025090151-53bf42e6b339
 )
