@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/akyoto/color"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 )
 
 // CommandOption main struct to handle options for Description, and the function that should be called

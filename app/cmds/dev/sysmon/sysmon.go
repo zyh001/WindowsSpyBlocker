@@ -13,6 +13,7 @@ import (
 	"time"
 
 	"github.com/0xrawsec/golang-evtx/evtx"
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/app"
@@ -24,7 +25,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
-	"github.com/akyoto/color"
 )
 
 // Menu of Sysmon

@@ -14,6 +14,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/app"
@@ -26,7 +27,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/windows"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
-	"github.com/akyoto/color"
 )
 
 // Menu of Wireshark

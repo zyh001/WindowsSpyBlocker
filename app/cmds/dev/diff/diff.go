@@ -12,6 +12,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
@@ -21,7 +22,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/stringsu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
-	"github.com/akyoto/color"
 )
 
 type diff struct {

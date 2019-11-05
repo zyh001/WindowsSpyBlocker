@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/akyoto/color"
+	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"golang.org/x/sys/windows/registry"
 )
 

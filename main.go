@@ -8,13 +8,13 @@ package main
 import (
 	"fmt"
 
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/telemetry"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/app"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/windows"
-"github.com/akyoto/color"
 	"github.com/mcuadros/go-version"
 )
 

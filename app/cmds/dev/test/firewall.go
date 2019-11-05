@@ -8,6 +8,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
@@ -16,7 +17,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
-	"github.com/akyoto/color"
 )
 
 func testFirewallIps(args ...string) error {

@@ -1,13 +1,13 @@
 package dev
 
 import (
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/diff"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/proxifier"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/sysmon"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/test"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/dev/wireshark"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
-	"github.com/akyoto/color"
 )
 
 // Menu of Dev

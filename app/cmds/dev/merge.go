@@ -13,6 +13,7 @@ import (
 
 	"time"
 
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
@@ -21,7 +22,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/stringsu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
-	"github.com/akyoto/color"
 )
 
 func merge(args ...string) (err error) {

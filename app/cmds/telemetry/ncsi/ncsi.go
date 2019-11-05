@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/windows"
-	"github.com/akyoto/color"
 	"github.com/miekg/dns"
 	"golang.org/x/sys/windows/registry"
 )

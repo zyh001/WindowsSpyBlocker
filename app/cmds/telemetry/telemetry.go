@@ -1,10 +1,10 @@
 package telemetry
 
 import (
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/telemetry/firewall"
 	"github.com/crazy-max/WindowsSpyBlocker/app/cmds/telemetry/ncsi"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
-	"github.com/akyoto/color"
 )
 
 // Menu of Telemetry

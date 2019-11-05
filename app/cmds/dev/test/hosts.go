@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/akyoto/color"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/data"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/file"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/pathu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
-	"github.com/akyoto/color"
 )
 
 func testHostsLookup(args ...string) error {

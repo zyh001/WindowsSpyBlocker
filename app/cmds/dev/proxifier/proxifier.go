@@ -15,6 +15,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/akyoto/color"
 	"github.com/cevaris/ordered_map"
 	"github.com/crazy-max/WindowsSpyBlocker/app/dnsres"
 	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
@@ -25,7 +26,6 @@ import (
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/print"
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/timeu"
 	"github.com/crazy-max/WindowsSpyBlocker/app/whois"
-	"github.com/akyoto/color"
 )
 
 // Menu of Proxifier

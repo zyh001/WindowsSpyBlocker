@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 	"github.com/akyoto/color"
+	"github.com/crazy-max/WindowsSpyBlocker/app/menu"
 )
 
 // Menu of Firewall
