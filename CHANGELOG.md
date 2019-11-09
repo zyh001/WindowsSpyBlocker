@@ -4,6 +4,7 @@
 
 * Update hosts for extra and spy rules
 * Update IPs for extra, spy and update rules
+* Add OS compatibility in manifest
 * Update libs
 
 ## 4.24.1 (2019/10/09)
