@@ -3,9 +3,25 @@ name: build
 on:
   pull_request:
     branches: 'master'
+    paths:
+      - '.github/workflows/build.yml'
+      - 'app/**'
+      - 'chocolatey/**'
+      - 'data/**'
+      - '*.go'
+      - 'go.mod'
+      - 'go.sum'
   push:
     branches: 'master'
     tags: '*.*.*'
+    paths:
+      - '.github/workflows/build.yml'
+      - 'app/**'
+      - 'chocolatey/**'
+      - 'data/**'
+      - '*.go'
+      - 'go.mod'
+      - 'go.sum'
 
 jobs:
   release:
