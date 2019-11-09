@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.25.0 (2019/11/09)
+
+* Update hosts for extra and spy rules
+* Update IPs for extra, spy and update rules
+* Update libs
+
 ## 4.24.1 (2019/10/09)
 
 * Update hosts for extra rules
