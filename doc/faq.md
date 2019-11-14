@@ -8,9 +8,9 @@
 
 ## Who is behind WindowsSpyBlocker?
 
-Hi, I'm [CrazyMax](https://crazymax.dev/). This project is self-funded and developed using my decade of experience building open source software.
+Hi, I'm [CrazyMax](https://crazymax.dev). This project is self-funded and developed using my decade of experience building open source software.
 
-By [supporting me](https://www.patreon.com/crazymax), you're not only sustaining this project, but rather all of [my open source projects](https://github.com/crazy-max).
+By [supporting me](https://github.com/sponsors/crazy-max}, you're not only sustaining this project, but rather all of [my open source projects](https://github.com/crazy-max).
 
 ## No Internet access on my network card
 
