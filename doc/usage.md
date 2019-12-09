@@ -55,10 +55,23 @@ Dev menu mainly concerns developers or curious people who would like to contribu
 
 [`data`](../data) folder contains blocking rules based on domains or IPs detected during the [capture process](how-it-works.md):
 
-* `data/<type>/extra.txt` : Block third party applications (Skype, Bing, Live, Outlook, NCSI, etc.) (**:warning: ONLY use if you know what you do**)
-* `data/<type>/spy.txt` : Block Windows Spy / Telemetry (**✅ recommended**)
-* `data/<type>/update.txt` : Block Windows Update
-* `data/hosts/[extra|spy|update]_v6.txt` : Handle IPv6 blocking for hosts
+### `data/<type>/spy.txt`
+
+> ✅ Recommended
+
+Block Windows Spy / Telemetry
+
+### `data/<type>/update.txt`
+
+Block Windows Update
+
+### `data/<type>/extra.txt`
+
+> :warning: ONLY use if you know what you do
+
+Block third party applications like Skype, Bing, Live, Outlook, NCSI, Microsoft Office. Be aware that these rules can also block Windows Update and other services. Therefore, no support will be provided on them.
+
+`data/hosts/[extra|spy|update]_v6.txt` handle IPv6 blocking for hosts.
 
 [`data/firewall`](data/firewall.md) and [`data/hosts`](data/hosts.md) data are the main types. Others are generated from these as:
 
