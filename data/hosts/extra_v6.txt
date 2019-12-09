@@ -1,6 +1,6 @@
 ### WindowsSpyBlocker - Hosts IPv6 extra rules
 ### License: MIT
-### Updated: 2019-11-09T09:28:00Z01:00
+### Updated: 2019-12-09T21:54:00Z01:00
 ### Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
@@ -22,6 +22,7 @@
 :: activation.sls.microsoft.com
 :: activation-v2.sls.microsoft.com
 :: am3pap002.storage.live.com
+:: am3pap004.storage.live.com
 :: answers.microsoft.com
 :: api.bing.com
 :: api.onedrive.com
@@ -33,6 +34,7 @@
 :: auth.gfx.ms
 :: az361816.vo.msecnd.net
 :: az512334.vo.msecnd.net
+:: az725175.vo.msecnd.net
 :: bingforbusiness.com
 :: blob.weather.microsoft.com
 :: c-0001.dc-msedge.net
@@ -58,6 +60,7 @@
 :: dmd.metaservices.microsoft.com.akadns.net
 :: dns.msftncsi.com
 :: ecn.dev.virtualearth.net
+:: edgetipscdn.microsoft.com
 :: europe.smartscreen-prod.microsoft.com
 :: evoke-windowsservices-tas.msedge.net
 :: feedback.microsoft-hohm.com
@@ -159,6 +162,7 @@
 :: optanon.blob.core.windows.net
 :: otf.msn.com
 :: outlook.office365.com
+:: packages.dmd.metaservices.microsoft.com
 :: pti.store.microsoft.com
 :: purchase.mp.microsoft.com
 :: query.prod.cms.rt.microsoft.com
