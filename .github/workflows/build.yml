@@ -65,7 +65,7 @@ jobs:
       -
         # https://github.com/svenstaro/upx-action
         name: UPX compress
-        uses: svenstaro/upx-action@v1-release
+        uses: svenstaro/upx-action@1.1.3
         if: success()
         with:
           file: bin/WindowsSpyBlocker.exe
