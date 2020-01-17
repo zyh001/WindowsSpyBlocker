@@ -63,14 +63,14 @@ jobs:
           version: latest
           args: build
       -
-        # https://github.com/svenstaro/upx-action
+        # https://github.com/crazy-max/ghaction-upx
         name: UPX compress
-        uses: svenstaro/upx-action@1.1.3
+        uses: crazy-max/ghaction-upx@v1
         if: success()
         with:
+          version: latest
           file: bin/WindowsSpyBlocker.exe
           args: -fq
-          strip: false
       -
         # https://github.com/crazy-max/ghaction-mage
         name: Mage chocoPack
