@@ -278,7 +278,7 @@ func getDnscryptHosts(rule string) (hosts, error) {
 func getEsetIPs(rule string) (ips, error) {
 	var result ips
 
-	rulesPath := path.Join("data", EXT_P2P, rule+".txt")
+	rulesPath := path.Join("data", EXT_ESET, rule+".txt")
 	lines, err := getAsset(rulesPath)
 	if err != nil {
 		return result, err
@@ -289,7 +289,11 @@ func getEsetIPs(rule string) (ips, error) {
 	}
 
 	for _, line := range lines {
-		line = strings.TrimRight(strings.TrimSpace(line), ",")
+		line = strings.TrimSpace(line)
+		if strings.HasPrefix(line, "#") {
+			continue
+		}
+		line = strings.TrimRight(line, ",")
 		result = append(result, ip{IP: line})
 	}
 

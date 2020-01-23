@@ -218,9 +218,7 @@ func mergeExtIPs(rule string, ext string, firewallDataBuf []byte) error {
 		if count > 0 {
 			outputFile.WriteString("\n")
 		}
-		if ext == data.EXT_ESET && !strings.Contains(ip.IP, "-") {
-			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP+"-"+ip.IP))
-		} else if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
+		if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP+"-"+ip.IP))
 		} else if ext == data.EXT_SIMPLEWALL {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, rule, ip.IP, ip.IP))
