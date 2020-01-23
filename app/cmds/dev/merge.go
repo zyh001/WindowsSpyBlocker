@@ -65,6 +65,11 @@ func mergeFirewall(rule string) {
 	print.Ok()
 	//print.Pretty(strings.Split(string(firewallDataBuf), "\n"))
 
+	err = mergeExtIPs(rule, data.EXT_ESET, firewallDataBuf)
+	if err != nil {
+		return
+	}
+
 	err = mergeExtIPs(rule, data.EXT_OPENWRT, firewallDataBuf)
 	if err != nil {
 		return
@@ -139,26 +144,31 @@ func mergeExtIPs(rule string, ext string, firewallDataBuf []byte) error {
 	fileHead := ""
 	fileIpValue := ""
 
-	if ext == data.EXT_OPENWRT {
+	if ext == data.EXT_ESET {
+		asCidr = false
+		outputPath = path.Join(pathu.Data, ext, rule+".txt")
+		fileHead = fmt.Sprintf(config.Settings.DataTpl.Eset.Head, rule, config.AppURL)
+		fileIpValue = config.Settings.DataTpl.Eset.Value
+	} else if ext == data.EXT_OPENWRT {
 		asCidr = true
 		outputPath = path.Join(pathu.Data, ext, rule, "firewall.user")
-		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Openwrt.Ip.Head), rule, config.AppURL)
-		fileIpValue = string(config.Settings.DataTpl.Openwrt.Ip.Value)
+		fileHead = fmt.Sprintf(config.Settings.DataTpl.Openwrt.Ip.Head, rule, config.AppURL)
+		fileIpValue = config.Settings.DataTpl.Openwrt.Ip.Value
 	} else if ext == data.EXT_P2P {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, rule+".txt")
-		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.P2p.Head), rule, config.AppURL)
-		fileIpValue = string(config.Settings.DataTpl.P2p.Value)
+		fileHead = fmt.Sprintf(config.Settings.DataTpl.P2p.Head, rule, config.AppURL)
+		fileIpValue = config.Settings.DataTpl.P2p.Value
 	} else if ext == data.EXT_PROXIFIER {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, rule, "ips.txt")
-		fileHead = string(config.Settings.DataTpl.Proxifier.Ip.Head)
-		fileIpValue = string(config.Settings.DataTpl.Proxifier.Ip.Value)
+		fileHead = config.Settings.DataTpl.Proxifier.Ip.Head
+		fileIpValue = config.Settings.DataTpl.Proxifier.Ip.Value
 	} else if ext == data.EXT_SIMPLEWALL {
 		asCidr = false
 		outputPath = path.Join(pathu.Data, ext, rule, "blocklist.xml")
-		fileHead = fmt.Sprintf(string(config.Settings.DataTpl.Simplewall.Head), rule, config.AppURL, timeu.CurrentTime.Format(time.RFC1123Z))
-		fileIpValue = string(config.Settings.DataTpl.Simplewall.Value)
+		fileHead = fmt.Sprintf(config.Settings.DataTpl.Simplewall.Head, rule, config.AppURL, timeu.CurrentTime.Format(time.RFC1123Z))
+		fileIpValue = config.Settings.DataTpl.Simplewall.Value
 	}
 
 	color.New(color.FgMagenta).Printf("\nProcessing %s\n", ext)
@@ -208,7 +218,9 @@ func mergeExtIPs(rule string, ext string, firewallDataBuf []byte) error {
 		if count > 0 {
 			outputFile.WriteString("\n")
 		}
-		if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
+		if ext == data.EXT_ESET && !strings.Contains(ip.IP, "-") {
+			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP+"-"+ip.IP))
+		} else if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP+"-"+ip.IP))
 		} else if ext == data.EXT_SIMPLEWALL {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, rule, ip.IP, ip.IP))

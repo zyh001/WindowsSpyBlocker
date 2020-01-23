@@ -97,6 +97,7 @@ type settings struct {
 	} `json:"libs"`
 	DataTpl struct {
 		Dnscrypt dataTpl `json:"dnscrypt"`
+		Eset     dataTpl `json:"eset"`
 		Openwrt  struct {
 			Ip      dataTpl `json:"ip"`
 			Domains dataTpl `json:"domains"`

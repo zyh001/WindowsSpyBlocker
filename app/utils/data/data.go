@@ -27,6 +27,7 @@ const (
 	TYPE_HOSTS    = "hosts"
 
 	EXT_DNSCRYPT   = "dnscrypt"
+	EXT_ESET       = "eset"
 	EXT_OPENWRT    = "openwrt"
 	EXT_P2P        = "p2p"
 	EXT_PROXIFIER  = "proxifier"
@@ -194,7 +195,12 @@ func GetExtIPs(ext string, rule string) (ips, error) {
 	var err error
 	var result ips
 
-	if ext == EXT_OPENWRT {
+	if ext == EXT_ESET {
+		result, err = getEsetIPs(rule)
+		if err != nil {
+			return nil, err
+		}
+	} else if ext == EXT_OPENWRT {
 		result, err = getOpenwrtIPs(rule)
 		if err != nil {
 			return nil, err
@@ -263,6 +269,28 @@ func getDnscryptHosts(rule string) (hosts, error) {
 			continue
 		}
 		result = append(result, host{Domain: line})
+	}
+
+	sort.Sort(result)
+	return result, nil
+}
+
+func getEsetIPs(rule string) (ips, error) {
+	var result ips
+
+	rulesPath := path.Join("data", EXT_P2P, rule+".txt")
+	lines, err := getAsset(rulesPath)
+	if err != nil {
+		return result, err
+	}
+
+	if len(lines) == 0 {
+		return result, fmt.Errorf("No IPs found in %s", rulesPath)
+	}
+
+	for _, line := range lines {
+		line = strings.TrimRight(strings.TrimSpace(line), ",")
+		result = append(result, ip{IP: line})
 	}
 
 	sort.Sort(result)

@@ -75,6 +75,7 @@ Block third party applications like Skype, Bing, Live, Outlook, NCSI, Microsoft 
 
 [`data/firewall`](data/firewall.md) and [`data/hosts`](data/hosts.md) data are the main types. Others are generated from these as:
 
+* [ESET Firewall](data/eset.md) : a proprietary firewall solution.
 * [DNSCrypt](data/dnscrypt.md) : a protocol for securing communications between a client and a DNS resolver.
 * [OpenWrt](data/openwrt.md) : an open source project used on embedded devices to route network traffic.
 * [P2P](data/p2p.md) : a plaintext IP data format from PeerGuardian.
