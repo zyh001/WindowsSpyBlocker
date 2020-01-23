@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.27.0 (2020/01/23)
+
+* Update hosts for spy and update rules
+* Update IPs for extra, spy and update rules
+* Move `*.vortex-win.data.microsoft.com` to extra (#189)
+* Add ESET Firewall data format (#187)
+* Move `adl.windows.com` to extra (#191)
+* Remove `13.107.246` range (#195)
+* Update libs
+
 ## 4.26.0 (2019/12/09)
 
 * Update hosts for extra and spy rules
@@ -31,7 +41,7 @@
 
 ## 4.23.0 (2019/08/27)
 
-* Add and publish [Chocolatey package](https://chocolatey.org/packages/windowsspyblocker) (Issue #143)
+* Add and publish [Chocolatey package](https://chocolatey.org/packages/windowsspyblocker) (#143)
 * Switch to GitHub Actions
 
 ## 4.22.3 (2019/08/03)
@@ -41,7 +51,7 @@
 
 ## 4.22.2 (2019/07/08)
 
-* Update IPs for extra, spy and update rules (Issue #153 #154)
+* Update IPs for extra, spy and update rules (#153 #154)
 
 ## 4.22.1 (2019/07/02)
 
@@ -54,13 +64,13 @@
 * Update IPs for extra, spy and update rules
 * Wireshark 3.0.2
 * Npcap 0.995
-* Fix WindowsSpyBlocker NCSI HTTP Probe (Issue #128)
-* Move virtualearth.net to extra (Issue #149)
+* Fix WindowsSpyBlocker NCSI HTTP Probe (#128)
+* Move virtualearth.net to extra (#149)
 * Switch to TravisCI
 
 ## 4.21.0 (2019/05/05)
 
-* Handle IPv6 blocking for hosts (Issue #146)
+* Handle IPv6 blocking for hosts (#146)
 * Add ability to perform DNS AAAA lookup test on hosts
 
 ## 4.20.0 (2019/05/02)
@@ -98,7 +108,7 @@
 
 * Update hosts for spy rules
 * Update IPs for extra, spy and update rules
-* SiSyPHuS BSI Windows 10 Telemetry data (Issue #123)
+* SiSyPHuS BSI Windows 10 Telemetry data (#123)
 * Go 1.11.2
 
 ## 4.18.0 (2018/10/23)
@@ -110,8 +120,8 @@
 
 * Update hosts for extra, spy and update rules
 * Update IPs for extra, spy and update rules
-* Move `version.hybrid.api.here.com` to extra (Issue #120)
-* Move 40.77.224, 65.52.108, 191.232.139.2 to update (Issue #119)
+* Move `version.hybrid.api.here.com` to extra (#120)
+* Move 40.77.224, 65.52.108, 191.232.139.2 to update (#119)
 * Move 64.4.54 to extra
 
 ## 4.17.0 (2018/09/16)
@@ -125,9 +135,9 @@
 
 * Update hosts for extra, spy and update rules
 * Update IPs for extra, spy and update rules
-* Update [wilcard domains](https://github.com/crazy-max/WindowsSpyBlocker/blob/master/app/settings.json#L120) settings (Issues #114 #115)
-* Update some rules based on Microsoft endpoints docs (Issues #114 #115)
-* Move `i1.services.social.microsoft.com` to extra (Issue #116)
+* Update [wilcard domains](https://github.com/crazy-max/WindowsSpyBlocker/blob/master/app/settings.json#L120) settings (#114 #115)
+* Update some rules based on Microsoft endpoints docs (#114 #115)
+* Move `i1.services.social.microsoft.com` to extra (#116)
 
 ## 4.16.0 (2018/07/09)
 
@@ -145,7 +155,7 @@
 
 * Update hosts for extra, spy and update rules
 * Update IPs for extra, spy and update rules
-* Merge Windows 7/8.1/10 rules (Issues #30 #79 #112)
+* Merge Windows 7/8.1/10 rules (#30 #79 #112)
 
 ## 4.13.0 (2018/05/08)
 
@@ -175,13 +185,13 @@
 
 ## 4.12.0 (2018/03/27)
 
-* Review Windows 10 lists (Issue #105)
+* Review Windows 10 lists (#105)
 * Move 40.77.229 to update for Windows 7
 * Move 137.117.235.16, 191.237.208.126 to extra (Windows Defender)
 * Remove 65.55.163 from Windows 8 extra (belongs to update)
 * Refine IPs ranges
-* Add option `useEmbeddedData` in config file to allow to use external data (Issue #75)
-* Add menu to extract embedded data (Issue #75)
+* Add option `useEmbeddedData` in config file to allow to use external data (#75)
+* Add menu to extract embedded data (#75)
 * Firewall test logs are not written if the directory does not exist
 * Change the color of the menus for last items
 
@@ -202,9 +212,9 @@
 
 ## 4.10.4 (2018/02/10)
 
-* Move 13.78.230.134 to update for Windows 10 (Issue #94)
-* Move 13.79.239.69 to extra for Windows 10 (Issue #94)
-* Typo in Windows 10 spy list (Issue #98)
+* Move 13.78.230.134 to update for Windows 10 (#94)
+* Move 13.79.239.69 to extra for Windows 10 (#94)
+* Typo in Windows 10 spy list (#98)
 
 ## 4.10.3 (2018/01/24)
 
@@ -226,9 +236,9 @@
 
 ## 4.10.1 (2017/11/24)
 
-* Move 13.68.87, 13.74.179 and 52.229.171 to update for Windows 10 (Issue #92)
-* Move 13.68.87, 13.78.184, 52.229.171, 66.119.144 and 157.55.133 to update for Windows 8.1 (Issue #92)
-* Move 66.119.144, 134.170.51 and 134.170.53 to update for Windows 7 (Issue #92)
+* Move 13.68.87, 13.74.179 and 52.229.171 to update for Windows 10 (#92)
+* Move 13.68.87, 13.78.184, 52.229.171, 66.119.144 and 157.55.133 to update for Windows 8.1 (#92)
+* Move 66.119.144, 134.170.51 and 134.170.53 to update for Windows 7 (#92)
 
 ## 4.10.0 (2017/11/22)
 
@@ -238,7 +248,7 @@
 * New IPs for Windows 8.1 spy and update
 * New IPs for Windows 7 spy
 * Switch to [Golang Dep](https://github.com/golang/dep) as dependency manager
-* Reduce dependencies and system calls to avoid heuristic detection (Issue #82)
+* Reduce dependencies and system calls to avoid heuristic detection (#82)
 * Use SetConsoleTitle instead of exec cmd
 * Error while removing sysmon evtx file
 * Remove unused code
@@ -282,14 +292,14 @@
 * New IPs for Windows 8.1 spy and update
 * New hosts for Windows 7 extra and spy
 * New IPs for Windows 7 spy
-* Use go-evtx instead of LogParser (Issue #73)
+* Use go-evtx instead of LogParser (#73)
 * Merge version on upgrade
 
 ## 4.7.1 (2017/06/30)
 
-* Add p2p data format (Issue #69)
-* Add simplewall data format (Issue #68)
-* Move 23.97.178.173 to extra for Windows 10 (Issue #67)
+* Add p2p data format (#69)
+* Add simplewall data format (#68)
+* Move 23.97.178.173 to extra for Windows 10 (#67)
 * Update go libs
 
 ## 4.6.1 (2017/06/17)
@@ -308,28 +318,28 @@
 
 ## 4.5.1 (2017/06/03)
 
-* Move Test IPs in the Firewall menu to dev (Issue #65)
-* Add offline Windows Update info in the wiki (Issue #64)
-* Move 191.232.139 to update for Windows 7, 8.1 and 10 (Issue #15)
+* Move Test IPs in the Firewall menu to dev (#65)
+* Add offline Windows Update info in the wiki (#64)
+* Move 191.232.139 to update for Windows 7, 8.1 and 10 (#15)
 
 ## 4.4.1 (2017/06/01)
 
 * Typo on IP for Windows 10 spy
-* Error parsing OpenWRT data (Issue #63)
-* Move 66.119.144 to update for Windows 10 (Issue #62)
-* Move 207.46 to extra for Windows 10 (Issue #15)
+* Error parsing OpenWRT data (#63)
+* Move 66.119.144 to update for Windows 10 (#62)
+* Move 207.46 to extra for Windows 10 (#15)
 
 ## 4.3.1 (2017/05/31)
 
-* Again Windows Store cannot download apps (Issue #15)
+* Again Windows Store cannot download apps (#15)
 
 ## 4.3.0 (2017/05/28)
 
-* Make compatible on 32bit platforms (Issue #61)
+* Make compatible on 32bit platforms (#61)
 
 ## 4.2.1 (2017/05/27)
 
-* Windows Store cannot download apps (Issue #15)
+* Windows Store cannot download apps (#15)
 
 ## 4.2.0 (2017/05/23)
 
@@ -350,15 +360,15 @@
 * New sub IPs and IP for Windows 8.1 spy (13.79.239, 13.81.59)
 * New hosts for Windows 7 spy and update
 * New sub IPs and IP for Windows 7 spy (13.79.239, 51.141.32)
-* Handle panic (Issue #58)
-* Add menu to merge data (Issue #57)
-* Missing print for firewall tests (Issue #56)
-* Perform upgrade operations on new release (Issue #55)
-* Add new release notification on startup (Issue #54)
-* Update app.conf if keys are missing on update (Issue #53)
-* Provide libs infos in the code (Issue #52)
-* Null pointer on NCSI test (Issue #50)
-* Add a menu on Wireshark to capture traffic (Issue #48)
+* Handle panic (#58)
+* Add menu to merge data (#57)
+* Missing print for firewall tests (#56)
+* Perform upgrade operations on new release (#55)
+* Add new release notification on startup (#54)
+* Update app.conf if keys are missing on update (#53)
+* Provide libs infos in the code (#52)
+* Null pointer on NCSI test (#50)
+* Add a menu on Wireshark to capture traffic (#48)
 * Separate IPs and domains for Proxifier rules
 * Remove NCSI reg files
 * Enhanced menu
@@ -368,14 +378,14 @@
 
 ## 4.0.0 (2017/05/15)
 
-* Unified console app made with Go (Issue #38)
+* Unified console app made with Go (#38)
 * Add Glide dependency manager for Go
 * Add Codacy review
 * Add AppVeyor CI integration
 * Add Go Report badge
 * Standard code organization
-* Move 131.253.61.0-131.253.61.255 to extra for Windows 8.1 (Issue #39)
-* Move *.vo.msecnd.net to extra rules (Issue #37)
+* Move 131.253.61.0-131.253.61.255 to extra for Windows 8.1 (#39)
+* Move *.vo.msecnd.net to extra rules (#37)
 
 ## 3.7.5 (2017/04/15)
 
@@ -390,7 +400,7 @@
 * New sub IPs for Windows 8.1 spy (51.141.32, 52.178.178, 52.178.193, 52.178.223, 52.187.60, 64.233.164, 64.233.166)
 * New hosts for Windows 7 spy and update
 * New sub IPs for Windows 7 spy (40.118.106, 52.178.178, 52.178.193, 52.178.223, 52.187.60)
-* Move crl.microsoft.com to extra rules for Windows 7 (Issue #19)
+* Move crl.microsoft.com to extra rules for Windows 7 (#19)
 
 ## 3.7.4 (2017/03/07)
 
@@ -401,9 +411,9 @@
 * New sub IP for Windows 8.1 extra (40.118.106)
 * New IP for Windows 8.1 update
 * New host for Windows 7 update
-* Misplaced IPs blocking Windows update bug (Issue #33)
-* Skype problem (Issue #32)
-* Move 134.170.185.* to extra rules (Issue #31)
+* Misplaced IPs blocking Windows update bug (#33)
+* Skype problem (#32)
+* Move 134.170.185.* to extra rules (#31)
 * Move 48.118.103 and 65.52.108 to extra rules for Windows 10
 * Missing IP in OpenWRT extra rules (Windows 8.1 and 10)
 
@@ -419,8 +429,8 @@
 * New sub IP for Windows 10 spy (52.164.240)
 * New IPs for Windows 10 spy
 * New hosts for Windows 8.1 update
-* Move officeclient.microsoft.com to extra rules (Issue #29)
-* Move m.hotmail.com to extra rules (Issue #28)
+* Move officeclient.microsoft.com to extra rules (#29)
+* Move m.hotmail.com to extra rules (#28)
 
 ## 3.7.1 (2016/12/19)
 
@@ -438,8 +448,8 @@
 * New sub IPs for Windows 7 spy (52.164.241, 52.178.147)
 * Fix undefined index
 * Fix tmp file creation
-* Downloads from Xbox Store broken (Issue #24)
-* OpenWRT dnsmasq.conf alternative method (Issue #20)
+* Downloads from Xbox Store broken (#24)
+* OpenWRT dnsmasq.conf alternative method (#20)
 
 ## 3.6.0 (2016/11/06)
 
@@ -453,12 +463,12 @@
 * New sub IPs for Windows 8.1 spy (40.77.226, 52.164.240, 52.164.241, 52.178.147, 52.178.151)
 * New sub IPs for Windows 7 spy (40.77.226, 52.164.240, 52.178.151)
 * Update Proxifier script exceptions
-* Windows 10 Store Blocked (Issue #22)
+* Windows 10 Store Blocked (#22)
 
 ## 3.5.0 (2016/09/18)
 
 * New hosts and firewall rules
-* 2 Spy entries are maybe incorrect (Issue #19)
+* 2 Spy entries are maybe incorrect (#19)
 
 ## 3.4.4 (2016/08/02)
 
@@ -485,7 +495,7 @@
 ## 3.3.1 (2016/06/18)
 
 * New hosts and firewall rules
-* Fix login problem on Windows Store (Issue #15)
+* Fix login problem on Windows Store (#15)
 
 ## 3.3.0 (2016/06/12)
 
@@ -504,16 +514,16 @@
 
 ## 3.1 (2016/06/07)
 
-* Add Windows 7 and Windows 8.1 hosts and firewall rules (Issue #1)
-* Add Wireshark script to extract log and generate CSV (Issue #6)
-* Bug spy rule blocking Windows update (Issue #14)
+* Add Windows 7 and Windows 8.1 hosts and firewall rules (#1)
+* Add Wireshark script to extract log and generate CSV (#6)
+* Bug spy rule blocking Windows update (#14)
 * Add diff script to compare current firewall rules / hosts with generated CSVs
 * New hosts and firewall rules
 
 ## 3.0 (2016/06/03)
 
-* Add Sysmon, Proxifier, Wireshark capture method in the [Wiki](../../wiki) (Issue #11)
-* Enhancement for firewall script (Issue #2)
+* Add Sysmon, Proxifier, Wireshark capture method in the [Wiki](../../wiki) (#11)
+* Enhancement for firewall script (#2)
 * Separate rules and scripts in distinct folders
 * New hosts and firewall rules
 * Add capture logs in CSV files
@@ -522,9 +532,9 @@
 
 ## 2.7 (2016/05/27)
 
-* Add NCSI alternative probe (Issue #9)
-* Allow Network Connectivity Status Indicator (Issue #8)
-* Windows Update was blocked unintentional. (Issue #7)
+* Add NCSI alternative probe (#9)
+* Allow Network Connectivity Status Indicator (#8)
+* Windows Update was blocked unintentional. (#7)
 * New firewall rules
 * Add Windows Update firewall rules
 * New hosts
@@ -541,7 +551,7 @@
 
 ## 2.5 (2016/05/16)
 
-* Add instructions to use blacklist domains with DNSCrypt (Issue #5)
+* Add instructions to use blacklist domains with DNSCrypt (#5)
 * Add DNSCrypt blacklisted domains files
 * Rename firewall and proxifier files according to operating system
 * New firewall rules
