@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall update rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Thu, 23 Jan 2020 23:45:59 +0100 -->
+<!-- Last-Modified: Fri, 24 Jan 2020 09:47:18 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -35,6 +35,7 @@
 	<item name="update_20.36.218.63" rule="20.36.218.63" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_20.36.218.70" rule="20.36.218.70" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_20.36.222.39" rule="20.36.222.39" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_20.36.252.129" rule="20.36.252.129" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_20.36.252.130" rule="20.36.252.130" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_20.41.41.23" rule="20.41.41.23" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_20.42.24.29" rule="20.42.24.29" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
