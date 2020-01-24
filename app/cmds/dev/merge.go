@@ -214,11 +214,13 @@ func mergeExtIPs(rule string, ext string, firewallDataBuf []byte) error {
 	outputFile, _ := os.Create(outputPath)
 	outputFile.WriteString(fileHead)
 	count := 0
-	for _, ip := range result {
+	for key, ip := range result {
 		if count > 0 {
 			outputFile.WriteString("\n")
 		}
-		if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
+		if ext == data.EXT_ESET && key == (len(result)-1) {
+			outputFile.WriteString(ip.IP)
+		} else if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP+"-"+ip.IP))
 		} else if ext == data.EXT_SIMPLEWALL {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, rule, ip.IP, ip.IP))
