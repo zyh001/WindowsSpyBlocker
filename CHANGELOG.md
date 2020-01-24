@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.27.1 (2020/01/24)
+
+* Fix incompatible rule
+* Fix ESET Firewall data syntax
+
 ## 4.27.0 (2020/01/23)
 
 * Update hosts for spy and update rules
