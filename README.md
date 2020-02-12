@@ -13,9 +13,9 @@
 
 ## About
 
-**WindowsSpyBlocker** :shield: is an application written in [Go](https://golang.org/) and delivered as a [single executable](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to block spying and tracking on Windows systems :no_entry:.
+**WindowsSpyBlocker** :shield: is an application written in [Go](https://golang.org/) and delivered as a [single executable](https://github.com/crazy-max/WindowsSpyBlocker/releases/latest) to block spying and tracking on Windows systems.
 
-The approach of this project is to capture and interpret network traffic :vertical_traffic_light: based on a set of tools. Depending on the interactions :chains: between services and source or destination of traffic, rules are created and sorted by assignment.
+The approach of this project is to capture and interpret network traffic based on a set of tools. Depending on the interactions between services and source or destination of traffic, rules are created and sorted by assignment.
 
 ## Documentation
 
