@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.28.0 (2020/02/25)
+
+* Update hosts for update rules
+* Update IPs for extra and update rules
+* Update libs
+
 ## 4.27.1 (2020/01/24)
 
 * Fix incompatible rule
