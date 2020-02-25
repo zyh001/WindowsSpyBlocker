@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall update rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Fri, 24 Jan 2020 09:47:18 +0100 -->
+<!-- Last-Modified: Tue, 25 Feb 2020 19:49:23 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -133,6 +133,9 @@
 	<item name="update_40.91.91.94" rule="40.91.91.94" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.91.120.196" rule="40.91.120.196" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.91.122.44" rule="40.91.122.44" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_51.105.249.223" rule="51.105.249.223" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_51.105.249.228" rule="51.105.249.228" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_51.105.249.239" rule="51.105.249.239" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.142.21.136" rule="52.142.21.136" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.147.176.8" rule="52.147.176.8" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_52.155.95.90" rule="52.155.95.90" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
