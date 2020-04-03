@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.28.1 (2020/04/04)
+
+* Update IPs for extra rules
+
 ## 4.28.0 (2020/02/25)
 
 * Update hosts for update rules
