@@ -1,6 +1,6 @@
 module github.com/crazy-max/WindowsSpyBlocker
 
-go 1.12
+go 1.13
 
 require (
 	github.com/0xrawsec/golang-evtx v1.2.3
