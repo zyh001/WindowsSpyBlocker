@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.29.0 (2020/05/08)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Move Microsoft Defender ATP endpoints to extras rules (#180)
+* Go 1.13
+* Cache Go modules
+* Upload exe to VirusTotal through [ghaction-virustotal](https://github.com/crazy-max/ghaction-virustotal)
+
 ## 4.28.1 (2020/04/04)
 
 * Update IPs for extra rules
@@ -8,7 +17,7 @@
 
 * Update hosts for update rules
 * Update IPs for extra and update rules
-* Update libs
+* Update deps
 
 ## 4.27.1 (2020/01/24)
 
@@ -23,20 +32,20 @@
 * Add ESET Firewall data format (#187)
 * Move `adl.windows.com` to extra (#191)
 * Remove `13.107.246` range (#195)
-* Update libs
+* Update deps
 
 ## 4.26.0 (2019/12/09)
 
 * Update hosts for extra and spy rules
 * Update IPs for extra and update rules
-* Update libs
+* Update deps
 
 ## 4.25.0 (2019/11/09)
 
 * Update hosts for extra and spy rules
 * Update IPs for extra, spy and update rules
 * Add OS compatibility in manifest
-* Update libs
+* Update deps
 
 ## 4.24.1 (2019/10/09)
 
@@ -277,7 +286,7 @@
 * New IPs for Windows 8.1 extra, spy and update
 * New IPs for Windows 7 spy and update
 * Fix bug while extracting sysmon events
-* Update libs
+* Update deps
 
 ## 4.8.3 (2017/09/17)
 
@@ -286,7 +295,7 @@
 * New hosts for Windows 8.1 update
 * New IPs for Windows 8.1 spy and update
 * New hosts for Windows 7 spy
-* Update libs
+* Update deps
 * Go 1.9
 
 ## 4.8.2 (2017/08/07)

@@ -25,7 +25,7 @@ The approach of this project is to capture and interpret network traffic based o
 * [Useful threads about telemetry collection](doc/telemetry-info.md)
 * [Projects using WindowsSpyBlocker](doc/projects-using-wsb.md)
 
-## How can I help ?
+## How can I help?
 
 All kinds of contributions are welcome :raised_hands:! The most basic way to show your support is to star :star2: the project, or to raise issues :speech_balloon: You can also support this project by [**becoming a sponsor on GitHub**](https://github.com/sponsors/crazy-max) :clap: or by making a [Paypal donation](https://www.paypal.me/crazyws) to ensure this journey continues indefinitely! :rocket:
 
