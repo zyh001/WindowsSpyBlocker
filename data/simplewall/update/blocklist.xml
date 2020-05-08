@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall update rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 25 Feb 2020 19:49:23 +0100 -->
+<!-- Last-Modified: Fri, 08 May 2020 02:14:02 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -24,6 +24,7 @@
 	<item name="update_13.83.148.235" rule="13.83.148.235" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.83.149.5" rule="13.83.149.5" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.83.149.67" rule="13.83.149.67" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_13.83.151.160" rule="13.83.151.160" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.85.88.16" rule="13.85.88.16" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.86.124.174" rule="13.86.124.174" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_13.86.124.184" rule="13.86.124.184" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -72,6 +73,8 @@
 	<item name="update_40.69.222.109" rule="40.69.222.109" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.69.223.39" rule="40.69.223.39" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.69.223.198" rule="40.69.223.198" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_40.70.224.144" rule="40.70.224.144" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="update_40.77.18.167" rule="40.77.18.167" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.224.8" rule="40.77.224.8" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.224.11" rule="40.77.224.11" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="update_40.77.224.145" rule="40.77.224.145" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
