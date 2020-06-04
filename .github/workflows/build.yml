@@ -100,7 +100,6 @@ jobs:
         uses: crazy-max/ghaction-virustotal@v2.0.1
         if: success() && startsWith(github.ref, 'refs/tags/')
         with:
+          vt_api_key: ${{ secrets.VT_API_KEY }}
           files: |
             bin/WindowsSpyBlocker.exe
-        env:
-          VT_API_KEY: ${{ secrets.VT_API_KEY }}
