@@ -36,6 +36,10 @@
       "head": "### WindowsSpyBlocker - ESET Firewall %s rules\n### License: MIT\n### More info: %s\n\n",
       "value": "%s,"
     },
+    "kaspersky": {
+      "head": "### WindowsSpyBlocker - Kaspersky ips %s rules\n### License: MIT\n### More info: %s\n\n",
+      "value": "%s,"
+    },
     "openwrt": {
       "ip": {
         "head": "### WindowsSpyBlocker - OpenWRT ips %s rules (/etc/firewall.user)\n### License: MIT\n### More info: %s\n\n# enforce router DNS\niptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53\niptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53\n\n# rules\n",

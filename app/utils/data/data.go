@@ -28,6 +28,7 @@ const (
 
 	EXT_DNSCRYPT   = "dnscrypt"
 	EXT_ESET       = "eset"
+	EXT_KASPERSKY  = "kaspersky"
 	EXT_OPENWRT    = "openwrt"
 	EXT_P2P        = "p2p"
 	EXT_PROXIFIER  = "proxifier"
@@ -200,6 +201,11 @@ func GetExtIPs(ext string, rule string) (ips, error) {
 		if err != nil {
 			return nil, err
 		}
+	} else if ext == EXT_KASPERSKY {
+		result, err = getKasperskyIPs(rule)
+		if err != nil {
+			return nil, err
+		}
 	} else if ext == EXT_OPENWRT {
 		result, err = getOpenwrtIPs(rule)
 		if err != nil {
@@ -294,6 +300,38 @@ func getEsetIPs(rule string) (ips, error) {
 			continue
 		}
 		line = strings.TrimRight(line, ",")
+		result = append(result, ip{IP: line})
+	}
+
+	sort.Sort(result)
+	return result, nil
+}
+
+func getKasperskyIPs(rule string) (ips, error) {
+	var result ips
+
+	rulesPath := path.Join("data", EXT_KASPERSKY, rule+".txt")
+	lines, err := getAsset(rulesPath)
+	if err != nil {
+		return result, err
+	}
+
+	if len(lines) == 0 {
+		return result, fmt.Errorf("No IPs found in %s", rulesPath)
+	}
+
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if strings.HasPrefix(line, "#") {
+			continue
+		}
+		line = strings.TrimRight(line, ",")
+		if strings.Contains(line, "/") {
+			_, _, err := net.ParseCIDR(line)
+			if err != nil {
+				continue
+			}
+		}
 		result = append(result, ip{IP: line})
 	}
 

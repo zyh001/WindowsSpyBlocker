@@ -70,6 +70,11 @@ func mergeFirewall(rule string) {
 		return
 	}
 
+	err = mergeExtIPs(rule, data.EXT_KASPERSKY, firewallDataBuf)
+	if err != nil {
+		return
+	}
+
 	err = mergeExtIPs(rule, data.EXT_OPENWRT, firewallDataBuf)
 	if err != nil {
 		return
@@ -149,6 +154,11 @@ func mergeExtIPs(rule string, ext string, firewallDataBuf []byte) error {
 		outputPath = path.Join(pathu.Data, ext, rule+".txt")
 		fileHead = fmt.Sprintf(config.Settings.DataTpl.Eset.Head, rule, config.AppURL)
 		fileIpValue = config.Settings.DataTpl.Eset.Value
+	} else if ext == data.EXT_KASPERSKY {
+		asCidr = true
+		outputPath = path.Join(pathu.Data, ext, rule+".txt")
+		fileHead = fmt.Sprintf(config.Settings.DataTpl.Kaspersky.Head, rule, config.AppURL)
+		fileIpValue = config.Settings.DataTpl.Kaspersky.Value
 	} else if ext == data.EXT_OPENWRT {
 		asCidr = true
 		outputPath = path.Join(pathu.Data, ext, rule, "firewall.user")
@@ -218,7 +228,7 @@ func mergeExtIPs(rule string, ext string, firewallDataBuf []byte) error {
 		if count > 0 {
 			outputFile.WriteString("\n")
 		}
-		if ext == data.EXT_ESET && key == (len(result)-1) {
+		if (ext == data.EXT_ESET || ext == data.EXT_KASPERSKY) && key == (len(result)-1) {
 			outputFile.WriteString(ip.IP)
 		} else if ext == data.EXT_P2P && !strings.Contains(ip.IP, "-") {
 			outputFile.WriteString(fmt.Sprintf(fileIpValue, ip.IP+"-"+ip.IP))

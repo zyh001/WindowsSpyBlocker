@@ -4,6 +4,6 @@
 
 You can integrate data specifically generated for ESET Firewall from [`data/eset`](../../data/eset) folder.
 
-Here is e quick example:
+Here is a quick example:
 
 ![](../.res/data/eset/eset-firewall-20200123.png)

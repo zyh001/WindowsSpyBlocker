@@ -96,9 +96,10 @@ type settings struct {
 		Sysmon      Lib `json:"sysmon"`
 	} `json:"libs"`
 	DataTpl struct {
-		Dnscrypt dataTpl `json:"dnscrypt"`
-		Eset     dataTpl `json:"eset"`
-		Openwrt  struct {
+		Dnscrypt  dataTpl `json:"dnscrypt"`
+		Eset      dataTpl `json:"eset"`
+		Kaspersky dataTpl `json:"kaspersky"`
+		Openwrt   struct {
 			Ip      dataTpl `json:"ip"`
 			Domains dataTpl `json:"domains"`
 		} `json:"openwrt"`

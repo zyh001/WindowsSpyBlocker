@@ -76,9 +76,10 @@ Block third party applications like Skype, Bing, Live, Outlook, NCSI, Microsoft 
 
 [`data/firewall`](data/firewall.md) and [`data/hosts`](data/hosts.md) data are the main types. Others are generated from these as:
 
-* [ESET Firewall](data/eset.md) : a proprietary firewall solution.
-* [DNSCrypt](data/dnscrypt.md) : a protocol for securing communications between a client and a DNS resolver.
-* [OpenWrt](data/openwrt.md) : an open source project used on embedded devices to route network traffic.
-* [P2P](data/p2p.md) : a plaintext IP data format from PeerGuardian.
-* [Proxifier](data/proxifier.md) : an advanced proxy client on Windows with a flexible rule system.
-* [simplewall](data/simplewall.md) : a simple tool to configure Windows Filtering Platform (WFP).
+* [DNSCrypt](data/dnscrypt.md): a protocol for securing communications between a client and a DNS resolver.
+* [ESET Firewall](data/eset.md): a proprietary firewall solution.
+* [Kaspersky Firewall](data/kaspersky.md): a proprietary firewall solution.
+* [OpenWrt](data/openwrt.md): an open source project used on embedded devices to route network traffic.
+* [P2P](data/p2p.md): a plaintext IP data format from PeerGuardian.
+* [Proxifier](data/proxifier.md): an advanced proxy client on Windows with a flexible rule system.
+* [simplewall](data/simplewall.md): a simple tool to configure Windows Filtering Platform (WFP).
