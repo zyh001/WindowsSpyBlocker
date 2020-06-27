@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.30.0 (2020/06/27)
+
+* Update hosts for extra and spy rules
+* Update IPs for extra, spy and update rules
+* Add Kaspersky Firewall data format (#229)
+
 ## 4.29.0 (2020/05/08)
 
 * Update hosts for extra, spy and update rules
