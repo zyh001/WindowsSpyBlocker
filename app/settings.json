@@ -116,13 +116,13 @@
         "dnsHostV6": "dns.msftncsi.com",
         "dnsContentV6": "fd3e:4f5a:5b81::1"
       },
-      "wsb": {
-        "webHostV4": "pastebin.com",
-        "webPathV4": "raw/84qBci10",
-        "webContentV4": "WindowsSpyBlocker",
-        "webHostV6": "pastebin.com",
-        "webPathV6": "raw/84qBci10",
-        "webContentV6": "WindowsSpyBlocker",
+      "debian": {
+        "webHostV4": "network-test.debian.org",
+        "webPathV4": "nm",
+        "webContentV4": "NetworkManager is online\n",
+        "webHostV6": "network-test.debian.org",
+        "webPathV6": "nm",
+        "webContentV6": "NetworkManager is online\n",
         "dnsHostV4": "resolver1.opendns.com",
         "dnsContentV4": "208.67.222.222",
         "dnsHostV6": "resolver1.opendns.com",

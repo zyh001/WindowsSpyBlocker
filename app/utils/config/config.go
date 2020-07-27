@@ -132,7 +132,7 @@ type settings struct {
 		} `json:"reg"`
 		Probes struct {
 			Microsoft NcsiProbe `json:"microsoft"`
-			Wsb       NcsiProbe `json:"wsb"`
+			Debian    NcsiProbe `json:"debian"`
 		} `json:"probes"`
 	} `json:"ncsi"`
 	WilcardSubdomains []string `json:"wilcardSubdomains"`
