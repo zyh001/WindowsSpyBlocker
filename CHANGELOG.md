@@ -4,6 +4,7 @@
 
 * Use Debian NCSI (#251)
 * Check NCSI web request redirect
+* Update deps
 
 ## 4.30.0 (2020/06/27)
 
