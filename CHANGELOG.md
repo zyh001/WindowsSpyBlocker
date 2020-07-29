@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.31.0 (2020/07/29)
+
+* Use Debian NCSI (#251)
+* Check NCSI web request redirect
+
 ## 4.30.0 (2020/06/27)
 
 * Update hosts for extra and spy rules
