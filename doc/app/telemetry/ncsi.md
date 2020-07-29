@@ -6,7 +6,7 @@ You can block this probe by adding the content of the `data/<type>/extra.txt` ho
 
 But you will have a ["No Internet access" warning in your system tray](../../wiki/FAQ#no-internet-access-on-my-network-card).
 
-To solve this problem you can use the alternative WindowsSpyBlocker NCSI by executing `WindowsSpyBlocker.exe` and select `NCSI > Apply WindowsSpyBlocker NCSI`:
+To solve this issue you can use the Debian NCSI through `NCSI > Apply Debian NCSI`:
 
 ![](../../.res/telemetry/ncsi/apply-20170515.png)
 
