@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.31.1 (2020/08/02)
+
+* Update hosts for extra rules
+* Update IPs for extra, spy and update rules
+
 ## 4.31.0 (2020/07/29)
 
 * Use Debian NCSI (#251)
