@@ -1,6 +1,6 @@
 ### WindowsSpyBlocker - Hosts IPv6 extra rules
 ### License: MIT
-### Updated: 2020-05-07T23:44:00Z02:00
+### Updated: 2020-08-02T16:29:00Z02:00
 ### Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
@@ -176,6 +176,7 @@
 :: r20swj13mr.microsoft.com
 :: register.cdpcs.microsoft.com
 :: ris.api.iris.microsoft.com
+:: roaming.officeapps.live.com
 :: s.gateway.messenger.live.com
 :: s0.2mdn.net
 :: s2s.config.skype.com
@@ -201,6 +202,7 @@
 :: tile-service.weather.microsoft.com
 :: time.windows.com
 :: tk2.plt.msn.com
+:: troubleshooting.microsoft.com
 :: uhf.microsoft.com
 :: ui.skype.com
 :: urs.microsoft.com
