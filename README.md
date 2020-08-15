@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/crazy-max/WindowsSpyBlocker" target="_blank"><img width="100"src="https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png"></a></p>
+<p align="center"><a href="https://crazy-max.github.io/WindowsSpyBlocker/" target="_blank"><img width="100"src="https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png"></a></p>
 
 <p align="center">
   <a href="https://crazy-max.github.io/WindowsSpyBlocker/"><img src="https://img.shields.io/badge/doc-mkdocs-02a6f2?style=flat-square&logo=read-the-docs" alt="Documentation"></a>
