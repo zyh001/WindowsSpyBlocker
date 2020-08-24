@@ -242,6 +242,7 @@ func mergeExtIPs(rule string, ext string, firewallDataBuf []byte) error {
 	if ext == data.EXT_SIMPLEWALL {
 		outputFile.WriteString("\n</root>")
 	}
+	outputFile.WriteString("\n")
 	print.Ok()
 
 	fmt.Printf("Writing %s... ", strings.TrimLeft(outputPath, pathu.Current))
@@ -327,6 +328,7 @@ func mergeExtHosts(rule string, ext string, hostsDataBuf []byte) error {
 		outputFile.WriteString(fmt.Sprintf(fileValue, domain.Domain))
 		count++
 	}
+	outputFile.WriteString("\n")
 	print.Ok()
 
 	fmt.Printf("Writing %s... ", strings.TrimLeft(outputPath, pathu.Current))
