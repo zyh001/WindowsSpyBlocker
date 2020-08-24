@@ -31,6 +31,11 @@ func Menu(args ...string) (err error) {
 			Function:    debian,
 		},
 		{
+			Description: "Apply Firefox NCSI",
+			Color:       color.FgHiYellow,
+			Function:    firefox,
+		},
+		{
 			Description: "Apply Microsoft NCSI",
 			Color:       color.FgHiYellow,
 			Function:    microsoft,
@@ -87,6 +92,11 @@ func current(args ...string) error {
 func debian(args ...string) (err error) {
 	defer timeu.Track(time.Now())
 	return setNcsi(config.Settings.Ncsi.Probes.Debian)
+}
+
+func firefox(args ...string) (err error) {
+	defer timeu.Track(time.Now())
+	return setNcsi(config.Settings.Ncsi.Probes.Firefox)
 }
 
 func microsoft(args ...string) error {
