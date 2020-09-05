@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall extra rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Mon, 24 Aug 2020 04:29:30 +0200 -->
+<!-- Last-Modified: Sat, 05 Sep 2020 20:18:13 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -349,6 +349,7 @@
 	<item name="extra_52.166.120.77" rule="52.166.120.77" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.167.18.95" rule="52.167.18.95" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.167.88.112" rule="52.167.88.112" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_52.167.249.196" rule="52.167.249.196" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.168.24.174" rule="52.168.24.174" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.169.71.150" rule="52.169.71.150" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_52.170.57.27" rule="52.170.57.27" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
@@ -469,6 +470,7 @@
 	<item name="extra_168.62.58.130" rule="168.62.58.130" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_168.62.200.169" rule="168.62.200.169" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_168.63.18.79" rule="168.63.18.79" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_168.63.67.155" rule="168.63.67.155" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_168.63.102.42" rule="168.63.102.42" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_191.237.208.126" rule="191.237.208.126" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_191.239.213.197" rule="191.239.213.197" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
