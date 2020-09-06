@@ -4,6 +4,7 @@
 
 * Update IPs for extra, spy and update rules
 * Go 1.15
+* Update deps
 
 ## 4.32.0 (2020/08/24)
 
