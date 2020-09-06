@@ -60,14 +60,6 @@ jobs:
           version: latest
           args: build
       -
-        name: UPX compress
-        uses: crazy-max/ghaction-upx@v1
-        if: success()
-        with:
-          version: latest
-          file: bin/WindowsSpyBlocker.exe
-          args: -fq
-      -
         name: Mage chocoPack
         uses: crazy-max/ghaction-mage@v1
         if: success()
