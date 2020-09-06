@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.33.0 (2020/09/06)
+
+* Update IPs for extra, spy and update rules
+* Go 1.15
+
 ## 4.32.0 (2020/08/24)
 
 * [Docs website](https://crazy-max.github.io/WindowsSpyBlocker/) with mkdocs (#256)
