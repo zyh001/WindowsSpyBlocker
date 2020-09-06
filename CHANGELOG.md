@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.33.1 (2020/09/07)
+
+* Disable UPX
+
 ## 4.33.0 (2020/09/06)
 
 * Update IPs for extra, spy and update rules
