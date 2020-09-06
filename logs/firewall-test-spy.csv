@@ -8,7 +8,7 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2017-08-15,geo-prod.do.dsp.mp.microsoft.com
 ,,,2017-06-09,array501-prod.dodsp.mp.microsoft.com.nsatc.net
 ,,,2017-03-30,array501-prod.do.dsp.mp.microsoft.com
-13.68.92.143,AS8075 Microsoft Corporation,US,2020-06-11,bn2-ris-ap-prod-atm.trafficmanager.net
+13.68.92.143,Microsoft Azure Cloud (eastus2),United States,2020-06-11,bn2-ris-ap-prod-atm.trafficmanager.net
 ,,,2020-06-11,bn2-ris-prod-atm.trafficmanager.net
 13.73.26.107,AS8075 Microsoft Corporation,JP,2020-06-15,even.pipe.cloudapp.aria.akadns.net
 ,,,2020-04-08,prd.col.aria.mobile.skypedata.akadns.net
@@ -55,14 +55,14 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 40.69.153.67,Microsoft Azure Cloud (centralus),United States,2019-03-25,modern.watson.data.microsoft.com.akadns.net
 ,,,2019-03-10,umwatsonc.events.data.microsoft.com
 ,,,2019-01-21,watson.telemetry.microsoft.com
-40.70.184.83,AS8075 Microsoft Corporation,US,2020-07-26,ieonlinews.microsoft.com
+40.70.184.83,Microsoft Azure Cloud (eastus2),United States,2020-08-29,ieonlinews.microsoft.com
 ,,,2020-06-11,ieonlinews.trafficmanager.net
 40.70.220.248,Microsoft Azure Cloud (eastus2),United States,2018-01-29,t.urs.microsoft.com.nsatc.net
 ,,,2017-12-18,t.urs.microsoft.com
 ,,,2017-12-18,beta.t.urs.microsoft.com
 40.70.221.249,Microsoft Azure Cloud (eastus2),United States,2017-11-09,bn2.settings.data.microsoft.com.akadns.net
 ,,,2017-09-06,settings-win.data.microsoft.com
-40.77.228.47,Microsoft Azure Cloud (eastus2),United States,2020-07-29,bn2.activity.windows.com.akadns.net
+40.77.228.47,Microsoft Azure Cloud (eastus2),United States,2020-08-24,bn2.activity.windows.com.akadns.net
 ,,,2020-05-24,afs1apbn2.activity.windows.com.akadns.net
 ,,,2020-05-09,df.activity.windows.com
 ,,,2019-05-26,activity.windows.com
@@ -74,7 +74,10 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 40.77.228.92,Microsoft Azure Cloud (eastus2),United States,2018-01-26,modern.watson.data.microsoft.com.akadns.net
 ,,,2017-12-15,watson.telemetry.microsoft.com
 40.77.232.101,Microsoft Azure Cloud (westcentralus),United States,2020-03-13,beacon.api.microsoft.com
-40.78.128.150,AS8075 Microsoft Corporation,US,2020-05-17,mobile.pipe.aria.microsoft.com
+40.78.128.150,AS8075 Microsoft Corporation,US,2020-09-02,onecollector.cloudapp.aria.akadns.net
+,,,2020-08-16,events.data.microsoft.com.aria.akadns.net
+,,,2020-08-07,mobile.pipe.aria.microsoft.com
+,,,2020-08-06,global.asimov.events.data.trafficmanager.net
 ,,,2020-05-08,events.data.microsoft.com
 ,,,2020-05-01,v10.events.data.microsoft.com
 ,,,2020-04-19,browser.pipe.aria.microsoft.com
@@ -104,9 +107,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2019-09-04,spynet2.microsoft.com
 ,,,2019-08-24,wdcpalt.microsoft.com
 ,,,2019-08-02,wdcp.microsoft.com
-40.119.211.203,Microsoft Azure Cloud (southeastasia),Singapore,2020-07-26,sg2p.wns.windows.com
+40.119.211.203,Microsoft Azure Cloud (southeastasia),Singapore,2020-08-29,sg2p.wns.windows.com
+,,,2020-08-16,hk2.wns.windows.com
 ,,,2020-07-09,apac2.notify.windows.com.akadns.net
-,,,2020-07-01,hk2.wns.windows.com
 ,,,2020-06-30,sg2p.wns.notify.windows.com.akadns.net
 ,,,2020-06-10,40.119.211.203
 ,,,2020-06-01,hk2.wns.notify.windows.com.akadns.net
@@ -118,9 +121,12 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2019-12-12,telecommandsvc.com
 40.127.240.158,AS8075 Microsoft Corporation,IE,2020-06-11,settingsfd-prod-neu1-endpoint.trafficmanager.net
 ,,,2020-03-11,settingsfd-geo.trafficmanager.net
+51.11.168.160,AS8075 Microsoft Corporation,GB,,
+51.11.168.232,AS8075 Microsoft Corporation,GB,2020-06-11,settingsfd-prod-uks1-endpoint.trafficmanager.net
+,,,2020-03-09,settingsfd-geo.trafficmanager.net
 51.104.136.2,AS8075 Microsoft Corporation,IE,2020-06-11,settingsfd-prod-neu2-endpoint.trafficmanager.net
 ,,,2020-03-18,settingsfd-geo.trafficmanager.net
-51.124.78.146,AS8075 Microsoft Corporation,NL,2020-06-23,settingsfd-prod-weu1-endpoint.trafficmanager.net
+51.124.78.146,Microsoft Azure Cloud (westeurope),Netherlands,2020-06-23,settingsfd-prod-weu1-endpoint.trafficmanager.net
 ,,,2020-03-08,settingsfd-geo.trafficmanager.net
 51.140.40.236,Microsoft Azure Cloud (uksouth),United Kingdom,2019-08-23,web.vortex.data.msn.com
 ,,,2019-07-07,web.vortex.data.microsoft.com.akadns.net
@@ -131,35 +137,37 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2018-06-05,vortex.data.microsoft.com
 ,,,2018-05-05,web.vortex.data.microsoft.com
 ,,,2018-05-05,db5.vortex.data.microsoft.com.akadns.net
-51.140.157.153,AS8075 Microsoft Corporation,GB,2020-07-29,onecollector.cloudapp.aria.akadns.net
+51.140.157.153,AS8075 Microsoft Corporation,GB,2020-08-29,browser.events.data.microsoft.com
+,,,2020-08-21,pipe.cloudapp.aria.akadns.net
+,,,2020-07-29,onecollector.cloudapp.aria.akadns.net
 ,,,2020-07-05,skypedataprdcoluks00.cloudapp.net
 ,,,2020-06-04,odd.pipe.cloudapp.aria.akadns.net
 ,,,2020-06-01,prd.col.aria.server6.skypedata.akadns.net
 ,,,2020-05-29,browser.pipe.aria.microsoft.com
-,,,2020-05-29,browser.events.data.microsoft.com
 ,,,2020-05-05,pipe.skype.com
 ,,,2020-04-07,uk-v20.events.data.microsoft.com
 ,,,2020-03-26,uk.onecollector.cloudapp.aria.akadns.net
 ,,,2020-03-25,uk-v20.events.data.microsoft.com.aria.akadns.net
 ,,,2020-01-11,eu-v20-onecollector.cloudapp.aria.akadns.net
 ,,,2020-01-08,eu-v20.events.data.microsoft.com.aria.akadns.net
-,,,2019-12-13,pipe.cloudapp.aria.akadns.net
 ,,,2019-11-17,mobile.pipe.aria.microsoft.com
 ,,,2019-10-25,v10.events.data.microsoft.com
-51.143.53.152,AS8075 Microsoft Corporation,US,2020-08-02,continuum.dds.microsoft.com.akadns.net
-,,,2020-08-01,cs.dds.microsoft.com
-,,,2020-07-30,cs.dds.microsoft.com.akadns.net
-,,,2020-07-26,aad.cs.dds.microsoft.com
-,,,2020-07-26,continuum.dds.microsoft.com
-51.143.111.7,AS8075 Microsoft Corporation,US,2020-07-30,umwatson.trafficmanager.net
-,,,2020-07-29,modern.watson.data.microsoft.com.akadns.net
-,,,2020-07-26,watson.telemetry.microsoft.com
-,,,2020-07-14,umwatsonc.events.data.microsoft.com
+51.143.53.152,AS8075 Microsoft Corporation,US,2020-09-03,cs.dds.microsoft.com.akadns.net
+,,,2020-09-01,continuum.dds.microsoft.com.akadns.net
+,,,2020-08-29,aad.cs.dds.microsoft.com
+,,,2020-08-29,continuum.dds.microsoft.com
+,,,2020-08-29,cs.dds.microsoft.com
+51.143.111.7,AS8075 Microsoft Corporation,US,2020-09-04,umwatsonc.events.data.microsoft.com
+,,,2020-08-27,umwatson.trafficmanager.net
+,,,2020-08-26,watson.telemetry.microsoft.com
+,,,2020-08-15,umwatsonrouting.trafficmanager.net
+,,,2020-08-10,modern.watson.data.microsoft.com.akadns.net
 ,,,2020-07-12,nw-kmwatson.events.data.microsoft.com
 ,,,2020-07-10,umwatsonc.telemetry.microsoft.com
 ,,,2020-05-19,51.143.111.7
 ,,,2020-02-20,nw-umwatson.events.data.microsoft.com
 ,,,2019-05-19,watson.microsoft.com
+,,,2019-05-19,legacy.umwatson.trafficmanager.net
 51.143.111.81,Microsoft Azure Cloud (westus2),United States,2020-05-29,watson.microsoft.com
 ,,,2020-04-30,legacy.watson.data.microsoft.com.akadns.net
 ,,,2019-10-15,legacy.umwatson.trafficmanager.net
@@ -183,16 +191,16 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2019-05-25,settingsfd-geo.trafficmanager.net
 ,,,2019-04-29,db5-eap.settings.data.microsoft.com.akadns.net
 ,,,2019-04-27,settings.data.microsoft.com
-52.157.234.37,AS8075 Microsoft Corporation,NL,2020-06-26,ccs-emeu.activity.windows.com.akadns.net
+52.157.234.37,Microsoft Azure Cloud (westeurope),Netherlands,2020-06-26,ccs-emeu.activity.windows.com.akadns.net
 ,,,2020-04-07,pf2am3.activity.windows.com.akadns.net
 ,,,2019-08-26,edge.activity.windows.com
 ,,,2019-07-26,activity.windows.com
-52.158.208.111,AS8075 Microsoft Corporation,US,2020-07-21,nw-kmwatson.events.data.microsoft.com
+52.158.208.111,Microsoft Azure Cloud (centralus),United States,2020-08-30,modern.watson.data.microsoft.com.akadns.net
+,,,2020-08-16,watson.telemetry.microsoft.com
+,,,2020-08-13,umwatson.trafficmanager.net
+,,,2020-07-21,nw-kmwatson.events.data.microsoft.com
 ,,,2020-07-15,52.158.208.111
-,,,2020-07-11,umwatson.trafficmanager.net
-,,,2020-07-09,watson.telemetry.microsoft.com
 ,,,2020-07-06,umwatsonc.trafficmanager.net
-,,,2020-06-30,modern.watson.data.microsoft.com.akadns.net
 ,,,2020-05-19,umwatsonc.telemetry.microsoft.com
 ,,,2020-04-24,umwatsonc.events.data.microsoft.com
 ,,,2020-02-24,nw-umwatson.events.data.microsoft.com
@@ -216,9 +224,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 52.183.114.173,Microsoft Azure Cloud (westus2),United States,2019-04-07,watson.telemetry.microsoft.com
 ,,,2019-03-30,modern.watson.data.microsoft.com.akadns.net
 ,,,2019-03-08,umwatsonc.events.data.microsoft.com
-52.184.221.185,AS8075 Microsoft Corporation,US,2020-07-25,umwatson.trafficmanager.net
-,,,2020-07-19,watson.telemetry.microsoft.com
-,,,2020-06-20,modern.watson.data.microsoft.com.akadns.net
+52.184.221.185,Microsoft Azure Cloud (eastus2),United States,2020-08-30,umwatson.trafficmanager.net
+,,,2020-08-17,modern.watson.data.microsoft.com.akadns.net
+,,,2020-08-06,watson.telemetry.microsoft.com
 52.229.39.152,Microsoft Azure Cloud (westus2),United States,2018-03-11,vortex-sandbox.data.microsoft.com
 52.230.85.180,Microsoft Azure Cloud (southeastasia),Singapore,2019-02-28,sg2p.wns.windows.com
 ,,,2018-11-17,hk2.wns.windows.com
@@ -255,9 +263,15 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-04-02,onesettings-bn2.metron.live.com.nsatc.net
 ,,,2015-10-19,settings-win.data.microsoft.com
 ,,,2015-06-28,settings.data.microsoft.com
-65.55.44.109,Microsoft Azure Cloud (eastus2),United States,2020-08-01,bn2.vortex.data.microsoft.com.akadns.net
-,,,2020-06-02,65.55.44.109
+65.55.44.109,Microsoft Azure Cloud (eastus2),United States,2020-08-24,bn2.vortex.data.microsoft.com.akadns.net
+,,,2020-08-21,65.55.44.109
+,,,2020-06-13,web.vortex.data.trafficmanager.net
+,,,2020-05-28,asimov-win.vortex.data.trafficmanager.net
+,,,2020-05-23,asimov.vortex.data.trafficmanager.net
 ,,,2020-05-18,vortex.data.microsoft.com
+,,,2020-05-17,web.vortex.data.msn.cn
+,,,2020-05-14,asimov-win.vortex.data.microsoft.com.akadns.net
+,,,2020-02-22,db5.vortex.data.microsoft.com.akadns.net
 ,,,2019-11-21,hk2.vortex.data.microsoft.com.akadns.net
 ,,,2019-08-07,asimov.vortex.data.microsoft.com.akadns.net
 ,,,2019-07-23,web.vortex.data.msn.com
@@ -309,9 +323,9 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2016-09-08,watson.microsoft.com.nsatc.net
 65.55.252.72,Microsoft Azure Cloud (westus2),United States,2014-10-15,watson2.microsoft.com
 ,,,2014-10-11,watson2.microsoft.com.nsatc.net
-65.55.252.93,Microsoft Azure Cloud (westus2),United States,2020-07-18,sqm.telemetry.microsoft.com
+65.55.252.93,Microsoft Azure Cloud (westus2),United States,2020-08-17,sqm.telemetry.microsoft.com.nsatc.net
+,,,2020-07-18,sqm.telemetry.microsoft.com
 ,,,2020-07-16,65.55.252.93
-,,,2020-07-15,sqm.telemetry.microsoft.com.nsatc.net
 ,,,2018-04-16,sqm.telemetry.microsoft.com.nsatc.net.
 ,,,2018-04-16,sqm.telemetry.microsoft.com.
 ,,,2018-03-11,sqmfe.glbdns2.microsoft.com
@@ -362,14 +376,15 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2015-06-08,nexus.officeapps.live.com
 104.214.35.244,Microsoft Azure Cloud (southcentralus),United States,2015-11-28,nexus.officeapps.live.com
 ,,,2015-10-09,prod-w.nexus.live.com.akadns.net
-104.214.78.152,AS8075 Microsoft Corporation,US,2020-07-26,telecommand.telemetry.microsoft.com
+104.214.78.152,AS8075 Microsoft Corporation,US,2020-08-29,telecommand.telemetry.microsoft.com
+,,,2020-08-07,104.214.78.152
 ,,,2020-06-11,telecommandsvc-v1.trafficmanager.net
 131.253.6.87,Microsoft Corp,United States,,
 131.253.6.103,Microsoft Corp,United States,,
-131.253.34.230,Microsoft Azure Cloud (eastus2),United States,2020-08-01,db5.wns.notify.windows.com.akadns.net
-,,,2020-07-20,131.253.34.230
-,,,2020-06-30,bn2wns1.wns.windows.com
-,,,2020-05-18,db5.wns.windows.com
+131.253.34.230,Microsoft Azure Cloud (eastus2),United States,2020-09-03,db5.wns.notify.windows.com.akadns.net
+,,,2020-09-01,bn2wns1.wns.windows.com
+,,,2020-09-01,db5.wns.windows.com
+,,,2020-08-08,131.253.34.230
 ,,,2018-07-01,bn2.wns.windows.com
 ,,,2018-06-28,wns-df.notify.windows.com.akadns.net
 ,,,2018-06-21,bn1-2cd.wns.windows.com
@@ -382,19 +397,19 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2018-01-21,americas2.notify.windows.com.akadns.net
 ,,,2017-12-02,americas1.notify.windows.com.akadns.net
 ,,,2017-10-01,winphone.wns.windows.com
-131.253.34.234,Microsoft Azure Cloud (eastus2),United States,2020-03-08,bn4sch101122310.wns.windows.com
+131.253.34.234,Microsoft Azure Cloud (eastus2),United States,2020-08-12,bn4sch101122310.wns.windows.com
 ,,,2020-02-14,bn3sch020010537.wns.windows.com
 ,,,2020-02-14,bn3sch020010536.wns.windows.com
 ,,,2020-02-14,bn4sch101120814.wns.windows.com
 ,,,2020-02-14,bn4sch101121518.wns.windows.com
-131.253.34.237,Microsoft Azure Cloud (eastus2),United States,2020-06-17,bn4sch101122312.wns.windows.com
-,,,2020-05-18,bn3sch020010540.wns.windows.com
+131.253.34.237,Microsoft Azure Cloud (eastus2),United States,2020-08-20,bn4sch101122312.wns.windows.com
+,,,2020-08-08,bn3sch020010540.wns.windows.com
 ,,,2020-02-14,bn3sch020010542.wns.windows.com
 ,,,2020-02-14,bn4sch101120818.wns.windows.com
 ,,,2020-02-14,bn4sch101121607.wns.windows.com
-131.253.34.243,Microsoft Azure Cloud (eastus2),United States,2020-06-22,bn3sch020010549.wns.windows.com
-,,,2020-06-21,bn4sch101122403.wns.windows.com
-,,,2020-02-14,bn4sch101120822.wns.windows.com
+131.253.34.243,Microsoft Azure Cloud (eastus2),United States,2020-08-26,bn4sch101120822.wns.windows.com
+,,,2020-08-13,bn3sch020010549.wns.windows.com
+,,,2020-08-09,bn4sch101122403.wns.windows.com
 ,,,2020-02-14,bn4sch101121611.wns.windows.com
 ,,,2020-02-14,bn3sch020010550.wns.windows.com
 ,,,2014-09-22,samsung.br.msn.com
@@ -402,30 +417,30 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2013-12-10,dell.br.msn.com
 ,,,2013-09-17,br.msn.com
 ,,,2013-04-01,ca.msn.com
-131.253.34.246,Microsoft Azure Cloud (eastus2),United States,2020-06-28,bn4sch101120911.wns.windows.com
+131.253.34.246,Microsoft Azure Cloud (eastus2),United States,2020-08-31,bn4sch101120911.wns.windows.com
+,,,2020-08-27,bn3sch020010558.wns.windows.com
+,,,2020-08-04,bn4sch101122408.wns.windows.com
 ,,,2020-05-12,bn3sch020010559.wns.windows.com
-,,,2020-05-11,bn4sch101122408.wns.windows.com
-,,,2020-02-14,bn3sch020010558.wns.windows.com
 ,,,2020-02-14,bn4sch101121615.wns.windows.com
-131.253.34.247,Microsoft Azure Cloud (eastus2),United States,2020-02-17,bn3sch020010560.wns.windows.com
+131.253.34.247,Microsoft Azure Cloud (eastus2),United States,2020-08-25,bn4sch101120913.wns.windows.com
+,,,2020-08-06,bn3sch020010560.wns.windows.com
 ,,,2020-02-14,bn3sch020010618.wns.windows.com
-,,,2020-02-14,bn4sch101120913.wns.windows.com
 ,,,2020-02-14,bn4sch101121618.wns.windows.com
-131.253.34.249,Microsoft Azure Cloud (eastus2),United States,2020-07-21,bn4sch101122412.wns.windows.com
+131.253.34.249,Microsoft Azure Cloud (eastus2),United States,2020-08-25,bn3sch020010630.wns.windows.com
+,,,2020-08-24,bn4sch101122412.wns.windows.com
+,,,2020-08-16,bn3sch020010629.wns.windows.com
 ,,,2020-07-14,bn4sch101121704.wns.windows.com
 ,,,2020-07-04,BN4SCH101120919.wns.windows.com
-,,,2020-04-08,bn3sch020010630.wns.windows.com
-,,,2020-02-14,bn3sch020010629.wns.windows.com
-131.253.34.252,Microsoft Azure Cloud (eastus2),United States,2020-07-08,bn3sch020010636.wns.windows.com
-,,,2020-06-25,bn3sch020010635.wns.windows.com
+131.253.34.252,Microsoft Azure Cloud (eastus2),United States,2020-08-23,bn4sch101122421.wns.windows.com
+,,,2020-08-21,bn4sch101121709.wns.windows.com
+,,,2020-08-14,bn3sch020010635.wns.windows.com
+,,,2020-07-08,bn3sch020010636.wns.windows.com
 ,,,2020-02-14,bn4sch101120922.wns.windows.com
-,,,2020-02-14,bn4sch101121709.wns.windows.com
-,,,2020-02-14,bn4sch101122421.wns.windows.com
-131.253.34.255,Microsoft Azure Cloud (eastus2),United States,2020-07-08,bn3sch020010643.wns.windows.com
+131.253.34.255,Microsoft Azure Cloud (eastus2),United States,2020-08-20,bn4sch101121714.wns.windows.com
+,,,2020-08-19,bn3sch020010644.wns.windows.com
+,,,2020-08-12,bn4sch101122507.wns.windows.com
+,,,2020-07-08,bn3sch020010643.wns.windows.com
 ,,,2020-03-12,bn4sch101121004.wns.windows.com
-,,,2020-03-05,bn4sch101121714.wns.windows.com
-,,,2020-03-01,bn3sch020010644.wns.windows.com
-,,,2020-02-24,bn4sch101122507.wns.windows.com
 131.253.40.37,Microsoft Azure Cloud (northcentralus),United States,2015-03-24,t.urs.microsoft.com
 ,,,2015-03-23,t.urs.microsoft.com.nsatc.net
 ,,,2015-03-14,beta.t.urs.microsoft.com
@@ -470,8 +485,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-01-28,choice.atdmt.com
 ,,,2014-01-28,choice.live.com
 ,,,2013-10-21,choice.microsoft.com
-157.56.106.184,Microsoft Corporation,United States,2020-07-07,157.56.106.184
-,,,2019-09-22,win10.ipv6.microsoft.com.nsatc.net
+157.56.106.184,Microsoft Corporation,United States,2020-08-30,157.56.106.184
+,,,2020-08-13,win10.ipv6.microsoft.com.nsatc.net
 ,,,2019-07-27,win8.ipv6.microsoft.com.nsatc.net
 ,,,2019-07-11,onprembn11.ipv6.microsoft.com.akadns.net
 ,,,2018-10-16,win1807.ipv6.microsoft.com
@@ -513,8 +528,8 @@ IP,ORGANIZATION,COUNTRY,RESOLVED DATE,RESOLVED DOMAIN
 ,,,2014-09-16,services-perf.windows.akadns.net
 ,,,2014-07-22,apps.microsoft.com
 ,,,2013-10-10,services.apps.microsoft.com
-157.56.194.74,Microsoft Corporation,Ireland,,
-168.61.24.141,Microsoft Azure Cloud (westus),United States,2020-05-23,telemetry.appex.search.prod.ms.akadns.net
+157.56.194.74,AS8075 Microsoft Corporation,IE,,
+168.61.24.141,Microsoft Azure Cloud (westus),United States,2020-08-04,telemetry.appex.search.prod.ms.akadns.net
 ,,,2020-01-03,telemetry.appex.bing.net
 168.61.146.25,Microsoft Azure Cloud (centralus),United States,2017-11-24,prod.nexusrules.live.com.akadns.net
 ,,,2017-10-16,nexusrules.officeapps.live.com
