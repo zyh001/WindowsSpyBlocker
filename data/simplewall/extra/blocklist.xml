@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall extra rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Tue, 03 Nov 2020 21:02:44 +0100 -->
+<!-- Last-Modified: Tue, 03 Nov 2020 21:22:39 +0100 -->
 
 <?xml version="1.0"?>
 <root>
@@ -195,6 +195,8 @@
 	<item name="extra_40.127.142.76" rule="40.127.142.76" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.127.195.156" rule="40.127.195.156" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_40.127.243.65" rule="40.127.243.65" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_51.11.168.160" rule="51.11.168.160" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
+	<item name="extra_51.11.168.232" rule="51.11.168.232" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_51.104.139.180" rule="51.104.139.180" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_51.104.144.132" rule="51.104.144.132" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="extra_51.105.208.173" rule="51.105.208.173" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
