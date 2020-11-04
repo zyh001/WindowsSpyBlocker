@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.34.0 (2020/11/03)
+
+* Update hosts for extra and update rules
+* Update IPs for extra, spy and update rules
+* Move 51.11.168 to extra rules (#278)
+* Update deps
+
 ## 4.33.1 (2020/09/07)
 
 * Disable UPX
