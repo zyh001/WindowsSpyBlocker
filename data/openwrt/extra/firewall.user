@@ -7,7 +7,9 @@ iptables -t nat -I PREROUTING -p tcp --dport 53 -j REDIRECT --to-ports 53
 iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53
 
 # rules
+iptables -I FORWARD -j DROP -d 13.105.74.491
 iptables -I FORWARD -j DROP -d 13.64.186.225
+iptables -I FORWARD -j DROP -d 13.69.146.58
 iptables -I FORWARD -j DROP -d 13.70.180.171
 iptables -I FORWARD -j DROP -d 13.76.218.117
 iptables -I FORWARD -j DROP -d 13.76.219.191
@@ -21,6 +23,7 @@ iptables -I FORWARD -j DROP -d 13.79.239.82
 iptables -I FORWARD -j DROP -d 13.80.7.77
 iptables -I FORWARD -j DROP -d 13.80.12.54
 iptables -I FORWARD -j DROP -d 13.81.5.53
+iptables -I FORWARD -j DROP -d 13.83.65.212
 iptables -I FORWARD -j DROP -d 13.83.98.37
 iptables -I FORWARD -j DROP -d 13.86.252.235
 iptables -I FORWARD -j DROP -d 13.88.28.53
@@ -29,7 +32,6 @@ iptables -I FORWARD -j DROP -d 13.88.145.128
 iptables -I FORWARD -j DROP -d 13.89.51.159
 iptables -I FORWARD -j DROP -d 13.89.202.241
 iptables -I FORWARD -j DROP -d 13.95.147.73
-iptables -I FORWARD -j DROP -d 13.105.74.49
 iptables -I FORWARD -j DROP -d 13.107.3.128
 iptables -I FORWARD -j DROP -d 13.107.3.254
 iptables -I FORWARD -j DROP -d 13.107.5.80
@@ -40,11 +42,13 @@ iptables -I FORWARD -j DROP -d 13.107.6.158
 iptables -I FORWARD -j DROP -d 13.107.6.163
 iptables -I FORWARD -j DROP -d 13.107.6.254
 iptables -I FORWARD -j DROP -d 13.107.13.88
+iptables -I FORWARD -j DROP -d 13.107.13.91
 iptables -I FORWARD -j DROP -d 13.107.18.11
 iptables -I FORWARD -j DROP -d 13.107.18.254
 iptables -I FORWARD -j DROP -d 13.107.19.254
 iptables -I FORWARD -j DROP -d 13.107.21.200
 iptables -I FORWARD -j DROP -d 13.107.21.229
+iptables -I FORWARD -j DROP -d 13.107.22.200
 iptables -I FORWARD -j DROP -d 13.107.42.11
 iptables -I FORWARD -j DROP -d 13.107.42.12
 iptables -I FORWARD -j DROP -d 13.107.42.13
@@ -61,6 +65,7 @@ iptables -I FORWARD -j DROP -d 13.107.128.254
 iptables -I FORWARD -j DROP -d 13.107.136.254
 iptables -I FORWARD -j DROP -d 13.107.140.254
 iptables -I FORWARD -j DROP -d 13.107.246.10
+iptables -I FORWARD -j DROP -d 13.107.246.13
 iptables -I FORWARD -j DROP -d 13.107.246.254
 iptables -I FORWARD -j DROP -d 13.107.255.72
 iptables -I FORWARD -j DROP -d 13.107.255.73
@@ -81,6 +86,21 @@ iptables -I FORWARD -j DROP -d 20.150.50.4
 iptables -I FORWARD -j DROP -d 20.188.76.57
 iptables -I FORWARD -j DROP -d 20.189.79.72
 iptables -I FORWARD -j DROP -d 20.189.118.208
+iptables -I FORWARD -j DROP -d 20.190.129.2
+iptables -I FORWARD -j DROP -d 20.190.129.17
+iptables -I FORWARD -j DROP -d 20.190.129.19
+iptables -I FORWARD -j DROP -d 20.190.129.24
+iptables -I FORWARD -j DROP -d 20.190.129.128
+iptables -I FORWARD -j DROP -d 20.190.129.130
+iptables -I FORWARD -j DROP -d 20.190.129.133
+iptables -I FORWARD -j DROP -d 20.190.129.160
+iptables -I FORWARD -j DROP -d 20.190.137.6
+iptables -I FORWARD -j DROP -d 20.190.137.10
+iptables -I FORWARD -j DROP -d 20.190.137.14
+iptables -I FORWARD -j DROP -d 20.190.137.69
+iptables -I FORWARD -j DROP -d 20.190.137.73
+iptables -I FORWARD -j DROP -d 20.190.137.75
+iptables -I FORWARD -j DROP -d 20.190.137.96
 iptables -I FORWARD -j DROP -d 20.190.137.98
 iptables -I FORWARD -j DROP -d 23.96.52.53
 iptables -I FORWARD -j DROP -d 23.96.208.208
@@ -107,6 +127,7 @@ iptables -I FORWARD -j DROP -d 40.77.230.45
 iptables -I FORWARD -j DROP -d 40.79.48.16
 iptables -I FORWARD -j DROP -d 40.79.138.41
 iptables -I FORWARD -j DROP -d 40.80.145.78
+iptables -I FORWARD -j DROP -d 40.81.30.53
 iptables -I FORWARD -j DROP -d 40.81.94.65
 iptables -I FORWARD -j DROP -d 40.81.188.85
 iptables -I FORWARD -j DROP -d 40.83.74.46
@@ -136,7 +157,9 @@ iptables -I FORWARD -j DROP -d 40.90.136.19
 iptables -I FORWARD -j DROP -d 40.90.136.20
 iptables -I FORWARD -j DROP -d 40.90.136.163
 iptables -I FORWARD -j DROP -d 40.90.136.166
+iptables -I FORWARD -j DROP -d 40.90.136.179
 iptables -I FORWARD -j DROP -d 40.90.136.180
+iptables -I FORWARD -j DROP -d 40.90.136.182
 iptables -I FORWARD -j DROP -d 40.90.137.120
 iptables -I FORWARD -j DROP -d 40.90.137.122
 iptables -I FORWARD -j DROP -d 40.90.137.124
@@ -149,15 +172,22 @@ iptables -I FORWARD -j DROP -d 40.91.76.238
 iptables -I FORWARD -j DROP -d 40.91.78.9
 iptables -I FORWARD -j DROP -d 40.97.161.50
 iptables -I FORWARD -j DROP -d 40.101.4.2
+iptables -I FORWARD -j DROP -d 40.101.12.2
+iptables -I FORWARD -j DROP -d 40.101.12.98
+iptables -I FORWARD -j DROP -d 40.101.12.114
 iptables -I FORWARD -j DROP -d 40.101.12.130
 iptables -I FORWARD -j DROP -d 40.101.18.18
 iptables -I FORWARD -j DROP -d 40.101.18.226
 iptables -I FORWARD -j DROP -d 40.101.18.242
 iptables -I FORWARD -j DROP -d 40.101.19.146
 iptables -I FORWARD -j DROP -d 40.101.46.178
+iptables -I FORWARD -j DROP -d 40.101.80.18
 iptables -I FORWARD -j DROP -d 40.101.80.178
+iptables -I FORWARD -j DROP -d 40.101.80.194
+iptables -I FORWARD -j DROP -d 40.101.81.146
 iptables -I FORWARD -j DROP -d 40.101.83.18
 iptables -I FORWARD -j DROP -d 40.101.83.194
+iptables -I FORWARD -j DROP -d 40.101.121.2
 iptables -I FORWARD -j DROP -d 40.101.121.18
 iptables -I FORWARD -j DROP -d 40.101.121.34
 iptables -I FORWARD -j DROP -d 40.101.124.34
@@ -191,8 +221,17 @@ iptables -I FORWARD -j DROP -d 40.118.106.130
 iptables -I FORWARD -j DROP -d 40.119.6.179
 iptables -I FORWARD -j DROP -d 40.121.213.159
 iptables -I FORWARD -j DROP -d 40.122.160.14
+iptables -I FORWARD -j DROP -d 40.126.1.128
+iptables -I FORWARD -j DROP -d 40.126.1.130
+iptables -I FORWARD -j DROP -d 40.126.1.142
+iptables -I FORWARD -j DROP -d 40.126.1.145
 iptables -I FORWARD -j DROP -d 40.126.1.166
 iptables -I FORWARD -j DROP -d 40.126.9.5
+iptables -I FORWARD -j DROP -d 40.126.9.6
+iptables -I FORWARD -j DROP -d 40.126.9.8
+iptables -I FORWARD -j DROP -d 40.126.9.66
+iptables -I FORWARD -j DROP -d 40.126.9.73
+iptables -I FORWARD -j DROP -d 40.126.9.77
 iptables -I FORWARD -j DROP -d 40.127.128.174
 iptables -I FORWARD -j DROP -d 40.127.142.76
 iptables -I FORWARD -j DROP -d 40.127.195.156
@@ -201,6 +240,7 @@ iptables -I FORWARD -j DROP -d 51.11.168.160
 iptables -I FORWARD -j DROP -d 51.11.168.232
 iptables -I FORWARD -j DROP -d 51.104.139.180
 iptables -I FORWARD -j DROP -d 51.104.144.132
+iptables -I FORWARD -j DROP -d 51.104.146.109
 iptables -I FORWARD -j DROP -d 51.105.208.173
 iptables -I FORWARD -j DROP -d 51.132.208.181
 iptables -I FORWARD -j DROP -d 51.136.15.177
@@ -215,18 +255,26 @@ iptables -I FORWARD -j DROP -d 51.141.32.51
 iptables -I FORWARD -j DROP -d 51.141.166.104
 iptables -I FORWARD -j DROP -d 51.143.49.132
 iptables -I FORWARD -j DROP -d 51.144.108.120
+iptables -I FORWARD -j DROP -d 51.144.113.175
 iptables -I FORWARD -j DROP -d 51.145.123.29
 iptables -I FORWARD -j DROP -d 52.97.135.114
+iptables -I FORWARD -j DROP -d 52.97.144.2
 iptables -I FORWARD -j DROP -d 52.97.146.34
 iptables -I FORWARD -j DROP -d 52.97.150.2
 iptables -I FORWARD -j DROP -d 52.97.151.50
 iptables -I FORWARD -j DROP -d 52.97.151.82
 iptables -I FORWARD -j DROP -d 52.97.152.114
 iptables -I FORWARD -j DROP -d 52.97.155.114
+iptables -I FORWARD -j DROP -d 52.97.158.162
 iptables -I FORWARD -j DROP -d 52.97.163.2
 iptables -I FORWARD -j DROP -d 52.97.171.194
 iptables -I FORWARD -j DROP -d 52.97.186.114
+iptables -I FORWARD -j DROP -d 52.97.188.66
 iptables -I FORWARD -j DROP -d 52.97.189.98
+iptables -I FORWARD -j DROP -d 52.97.200.146
+iptables -I FORWARD -j DROP -d 52.97.200.178
+iptables -I FORWARD -j DROP -d 52.97.201.66
+iptables -I FORWARD -j DROP -d 52.97.201.98
 iptables -I FORWARD -j DROP -d 52.97.232.194
 iptables -I FORWARD -j DROP -d 52.98.5.194
 iptables -I FORWARD -j DROP -d 52.98.66.98
@@ -240,6 +288,7 @@ iptables -I FORWARD -j DROP -d 52.109.12.21
 iptables -I FORWARD -j DROP -d 52.109.12.22
 iptables -I FORWARD -j DROP -d 52.109.12.23
 iptables -I FORWARD -j DROP -d 52.109.12.24
+iptables -I FORWARD -j DROP -d 52.109.32.23
 iptables -I FORWARD -j DROP -d 52.109.68.21
 iptables -I FORWARD -j DROP -d 52.109.76.8
 iptables -I FORWARD -j DROP -d 52.109.76.30
@@ -282,6 +331,8 @@ iptables -I FORWARD -j DROP -d 52.114.7.36
 iptables -I FORWARD -j DROP -d 52.114.7.37
 iptables -I FORWARD -j DROP -d 52.114.7.38
 iptables -I FORWARD -j DROP -d 52.114.7.39
+iptables -I FORWARD -j DROP -d 52.114.20.14
+iptables -I FORWARD -j DROP -d 52.114.20.18
 iptables -I FORWARD -j DROP -d 52.114.32.5
 iptables -I FORWARD -j DROP -d 52.114.32.6
 iptables -I FORWARD -j DROP -d 52.114.32.7
@@ -363,6 +414,9 @@ iptables -I FORWARD -j DROP -d 52.142.84.61
 iptables -I FORWARD -j DROP -d 52.142.114.2
 iptables -I FORWARD -j DROP -d 52.142.114.176
 iptables -I FORWARD -j DROP -d 52.142.119.134
+iptables -I FORWARD -j DROP -d 52.154.66.52
+iptables -I FORWARD -j DROP -d 52.154.67.2
+iptables -I FORWARD -j DROP -d 52.154.67.56
 iptables -I FORWARD -j DROP -d 52.156.41.171
 iptables -I FORWARD -j DROP -d 52.156.48.67
 iptables -I FORWARD -j DROP -d 52.156.146.245
@@ -372,6 +426,7 @@ iptables -I FORWARD -j DROP -d 52.158.24.209
 iptables -I FORWARD -j DROP -d 52.158.24.229
 iptables -I FORWARD -j DROP -d 52.158.25.39
 iptables -I FORWARD -j DROP -d 52.158.238.42
+iptables -I FORWARD -j DROP -d 52.159.49.192
 iptables -I FORWARD -j DROP -d 52.163.118.68
 iptables -I FORWARD -j DROP -d 52.164.191.55
 iptables -I FORWARD -j DROP -d 52.164.227.208
@@ -400,6 +455,7 @@ iptables -I FORWARD -j DROP -d 52.184.92.48
 iptables -I FORWARD -j DROP -d 52.184.168.116
 iptables -I FORWARD -j DROP -d 52.186.25.68
 iptables -I FORWARD -j DROP -d 52.188.77.27
+iptables -I FORWARD -j DROP -d 52.224.75.92
 iptables -I FORWARD -j DROP -d 52.225.136.36
 iptables -I FORWARD -j DROP -d 52.230.10.183
 iptables -I FORWARD -j DROP -d 52.230.240.94
@@ -468,6 +524,7 @@ iptables -I FORWARD -j DROP -d 131.253.14.227
 iptables -I FORWARD -j DROP -d 131.253.14.229
 iptables -I FORWARD -j DROP -d 131.253.14.230
 iptables -I FORWARD -j DROP -d 131.253.14.231
+iptables -I FORWARD -j DROP -d 131.253.33.200
 iptables -I FORWARD -j DROP -d 131.253.33.203
 iptables -I FORWARD -j DROP -d 131.253.33.254
 iptables -I FORWARD -j DROP -d 131.253.61.0/24
