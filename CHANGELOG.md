@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.34.1 (2020/12/31)
+
+* Update hosts for spy and update rules
+* Update IPs for extra, spy and update rules
+
 ## 4.34.0 (2020/11/03)
 
 * Update hosts for extra and update rules
