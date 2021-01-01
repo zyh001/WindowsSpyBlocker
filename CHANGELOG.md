@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.34.2 (2021/01/01)
+
+* Fix invalid IP (#299)
+
 ## 4.34.1 (2020/12/31)
 
 * Update hosts for spy and update rules
