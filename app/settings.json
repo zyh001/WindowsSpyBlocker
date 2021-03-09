@@ -11,11 +11,11 @@
   },
   "libs": {
     "wireshark_32": {
-      "url": "https://dl.bintray.com/crazy/tools/Wireshark-win32-3.0.2.zip",
+      "url": "https://dl.crazymax.dev/Wireshark-win32-3.0.2.zip",
       "checkfile": "wireshark\\tshark.exe"
     },
     "wireshark_64": {
-      "url": "https://dl.bintray.com/crazy/tools/Wireshark-win64-3.0.2.zip",
+      "url": "https://dl.crazymax.dev/Wireshark-win64-3.0.2.zip",
       "checkfile": "wireshark\\tshark.exe"
     },
     "npcap": {
@@ -23,7 +23,7 @@
       "checkfile": "C:\\Windows\\System32\\Npcap\\wpcap.dll"
     },
     "sysmon": {
-      "url": "https://dl.bintray.com/crazy/tools/Sysmon-3.10.zip",
+      "url": "https://dl.crazymax.dev/Sysmon-3.10.zip",
       "checkfile": "sysmon\\Sysmon.exe"
     }
   },
