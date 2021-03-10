@@ -1,5 +1,16 @@
 # Changelog
 
+## 4.35.0 (2021/03/10)
+
+* Update hosts for extra and spy rules
+* Update IPs for extra, spy and update rules
+* Update settings links
+* Go 1.16
+* Use default GOPROXY
+* Bump github.com/miekg/dns from 1.1.35 to 1.1.40 (#311 #323)
+* Bump github.com/PuerkitoBio/goquery from 1.6.0 to 1.6.1 (#303)
+* Bump github.com/0xrawsec/golang-evtx from 1.2.4 to 1.2.7 (#305 #315)
+
 ## 4.34.2 (2021/01/01)
 
 * Fix invalid IP (#299)
