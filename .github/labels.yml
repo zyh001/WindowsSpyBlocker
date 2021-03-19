@@ -3,6 +3,10 @@
   name: ":bell: automerge"
   color: "8f4fbc"
   description: ""
+- # block
+  name: ":no_entry_sign: block"
+  color: "d93f0b"
+  description: ""
 - # bot
   name: ":robot: bot"
   color: "69cde9"
@@ -66,6 +70,10 @@
 - # question
   name: ":question: question"
   color: "3f51b5"
+  description: ""
+- # rules
+  name: ":vertical_traffic_light: rules"
+  color: "220901"
   description: ""
 - # sponsor
   name: ":sparkling_heart: sponsor"
