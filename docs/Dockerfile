@@ -1,7 +1,6 @@
-FROM squidfunk/mkdocs-material:6.2.7
+FROM squidfunk/mkdocs-material:7.1.3
 
-RUN \
-  apk add --no-cache \
+RUN apk add --no-cache \
     git \
     git-fast-import \
     openssh \
