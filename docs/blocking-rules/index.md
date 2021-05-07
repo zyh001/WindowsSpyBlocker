@@ -20,7 +20,7 @@ Update rules block Windows Update and can be found in `data/<type>/update.txt`.
 ### Extra rules
 
 Block third party applications like Skype, Bing, Live, Outlook, NCSI, Microsoft Office, ... and can be found
-in `data/<type>/update.txt`.
+in `data/<type>/extra.txt`.
 
 !!! danger "ONLY use if you know what you do"
     Be aware that these rules can also block Windows Update and other services.
