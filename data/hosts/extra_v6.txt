@@ -1,6 +1,6 @@
 ### WindowsSpyBlocker - Hosts IPv6 extra rules
 ### License: MIT
-### Updated: 2021-03-10T12:34:00Z02:12
+### Updated: 2021-05-15T21:41:00Z02:12
 ### Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
 ### More info: https://github.com/crazy-max/WindowsSpyBlocker
 
@@ -190,6 +190,7 @@
 :: purchase.mp.microsoft.com
 :: query.prod.cms.rt.microsoft.com
 :: r20swj13mr.microsoft.com
+:: rcr.blob.core.windows.net
 :: register.cdpcs.microsoft.com
 :: ris.api.iris.microsoft.com
 :: roaming.officeapps.live.com
@@ -205,6 +206,7 @@
 :: settings-win.data.microsoft.com
 :: sfdataservice.microsoft.com
 :: share.microsoft.com
+:: skyapi.live.net
 :: static.2mdn.net
 :: storage.live.com
 :: store-images.microsoft.com
@@ -234,6 +236,7 @@
 :: validation.sls.microsoft.com
 :: validation-v2.sls.microsoft.com
 :: version.hybrid.api.here.com
+:: videomd.blob.core.windows.net
 :: vortex-win.data.microsoft.com
 :: vortex-win-sandbox.data.microsoft.com
 :: w.apprep.smartscreen.microsoft.com
@@ -241,6 +244,7 @@
 :: wdcp.microsoft.com
 :: wdcpalt.microsoft.com
 :: win10-trt.msedge.net
+:: wpcdn.blob.core.windows.net
 :: wscont.apps.microsoft.com
 :: wscont.apps.microsoft.com.edgesuite.net
 :: wscont2.apps.microsoft.com
