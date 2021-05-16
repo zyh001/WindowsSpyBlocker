@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.36.0 (2021/05/16)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Bump github.com/go-ole/go-ole to 1.2.5
+* Bump github.com/miekg/dns from 1.1.40 to 1.1.42 (#331 #340)
+* Deploy docs on workflow dispatch or tag
+* Fix typo in doc
+
 ## 4.35.0 (2021/03/10)
 
 * Update hosts for extra and spy rules
