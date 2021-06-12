@@ -1,7 +1,7 @@
 site_name: WindowsSpyBlocker
 site_description: Block spying and tracking on Windows
 site_author: CrazyMax
-site_url: https://crazy-max.github.io/WindowsSpyBlocker/
+site_url: https://crazymax.dev/WindowsSpyBlocker/
 edit_uri: edit/master/docs/
 docs_dir: docs
 
@@ -19,6 +19,9 @@ extra:
       link: https://github.com/crazy-max/WindowsSpyBlocker
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/crazyws
+  plausible:
+    server: plausible.re4per.com
+    domain: crazymax.dev/WindowsSpyBlocker
 
 theme:
   name: material
@@ -80,10 +83,6 @@ plugins:
       prebuild_index: python
       lang:
         - en
-
-google_analytics:
-  - UA-12516800-13
-  - auto
 
 nav:
   - Home: index.md

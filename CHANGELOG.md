@@ -48,7 +48,7 @@
 
 ## 4.32.0 (2020/08/24)
 
-* [Docs website](https://crazy-max.github.io/WindowsSpyBlocker/) with mkdocs (#256)
+* [Docs website](https://crazymax.dev/WindowsSpyBlocker/) with mkdocs (#256)
 * Add EOL to blocking lists (#238)
 * Add Firefox (detect captive portals) NCSI (#251)
 * Remove deprectated `ncsi.txt`

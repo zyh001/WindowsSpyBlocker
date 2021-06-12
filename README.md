@@ -1,7 +1,7 @@
-<p align="center"><a href="https://crazy-max.github.io/WindowsSpyBlocker/" target="_blank"><img width="100"src="https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png"></a></p>
+<p align="center"><a href="https://crazymax.dev/WindowsSpyBlocker/" target="_blank"><img width="100"src="https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png"></a></p>
 
 <p align="center">
-  <a href="https://crazy-max.github.io/WindowsSpyBlocker/"><img src="https://img.shields.io/badge/doc-mkdocs-02a6f2?style=flat-square&logo=read-the-docs" alt="Documentation"></a>
+  <a href="https://crazymax.dev/WindowsSpyBlocker/"><img src="https://img.shields.io/badge/doc-mkdocs-02a6f2?style=flat-square&logo=read-the-docs" alt="Documentation"></a>
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/release/crazy-max/WindowsSpyBlocker.svg?style=flat-square" alt="GitHub release"></a>
   <a href="https://chocolatey.org/packages/windowsspyblocker"><img src="https://img.shields.io/chocolatey/v/windowsspyblocker?style=flat-square" alt="Chocolatey Package"></a>
   <a href="https://github.com/crazy-max/WindowsSpyBlocker/releases/latest"><img src="https://img.shields.io/github/downloads/crazy-max/WindowsSpyBlocker/total.svg?style=flat-square" alt="Total downloads"></a>
@@ -23,7 +23,7 @@ interactions between services and source or destination of traffic, rules are cr
 
 ## Documentation and download
 
-Documentation and download can be found on https://crazy-max.github.io/WindowsSpyBlocker/
+Documentation and download can be found on https://crazymax.dev/WindowsSpyBlocker/
 
 ## How can I help?
 
