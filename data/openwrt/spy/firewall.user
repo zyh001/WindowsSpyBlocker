@@ -55,11 +55,9 @@ iptables -I FORWARD -j DROP -d 40.112.209.200
 iptables -I FORWARD -j DROP -d 40.115.3.210
 iptables -I FORWARD -j DROP -d 40.115.119.185
 iptables -I FORWARD -j DROP -d 40.119.211.203
-iptables -I FORWARD -j DROP -d 40.119.249.228
 iptables -I FORWARD -j DROP -d 40.124.34.70
 iptables -I FORWARD -j DROP -d 40.126.41.96
 iptables -I FORWARD -j DROP -d 40.126.41.160
-iptables -I FORWARD -j DROP -d 40.127.240.158
 iptables -I FORWARD -j DROP -d 51.104.136.2
 iptables -I FORWARD -j DROP -d 51.105.218.222
 iptables -I FORWARD -j DROP -d 51.124.78.146

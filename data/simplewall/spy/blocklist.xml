@@ -1,7 +1,7 @@
 <!-- WindowsSpyBlocker - simplewall spy rules -->
 <!-- License: MIT -->
 <!-- Source: https://github.com/crazy-max/WindowsSpyBlocker -->
-<!-- Last-Modified: Sun, 26 Sep 2021 20:48:36 +0200 -->
+<!-- Last-Modified: Sun, 26 Sep 2021 21:38:02 +0200 -->
 
 <?xml version="1.0"?>
 <root>
@@ -53,11 +53,9 @@
 	<item name="spy_40.115.3.210" rule="40.115.3.210" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.115.119.185" rule="40.115.119.185" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.119.211.203" rule="40.119.211.203" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="spy_40.119.249.228" rule="40.119.249.228" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.124.34.70" rule="40.124.34.70" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.126.41.96" rule="40.126.41.96" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_40.126.41.160" rule="40.126.41.160" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
-	<item name="spy_40.127.240.158" rule="40.127.240.158" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_51.104.136.2" rule="51.104.136.2" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_51.105.218.222" rule="51.105.218.222" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
 	<item name="spy_51.124.78.146" rule="51.124.78.146" dir="0" protocol="0" version="0" is_block="1" is_enabled="1" />
