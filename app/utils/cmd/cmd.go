@@ -19,36 +19,44 @@ type Options struct {
 // Result of command
 type Result struct {
 	Options  Options
-	ExitCode uint32
+	ExitCode int32
 	Stdout   string
 	Stderr   string
 }
 
 // Exec command wrapper
 func Exec(options Options) (Result, error) {
-	result := Result{Options: options}
-
-	command := exec.Command(options.Command, options.Args...)
-	commandStdout := &bytes.Buffer{}
-	command.Stdout = commandStdout
-	commandStderr := &bytes.Buffer{}
-	command.Stderr = commandStderr
-	command.SysProcAttr = &windows.SysProcAttr{HideWindow: options.HideWindow}
-
-	if options.WorkingDir != "" {
-		command.Dir = options.WorkingDir
+	result := Result{
+		Options:  options,
+		ExitCode: -1,
 	}
 
-	if err := command.Start(); err != nil {
+	cmd := exec.Command(options.Command, options.Args...)
+	cmdStdout := &bytes.Buffer{}
+	cmdStderr := &bytes.Buffer{}
+	cmd.Stdout = cmdStdout
+	cmd.Stderr = cmdStderr
+	cmd.SysProcAttr = &windows.SysProcAttr{HideWindow: options.HideWindow}
+
+	if options.WorkingDir != "" {
+		cmd.Dir = options.WorkingDir
+	}
+
+	if err := cmd.Start(); err != nil {
 		return result, err
 	}
 
-	command.Wait()
-	waitStatus := command.ProcessState.Sys().(windows.WaitStatus)
+	if err := cmd.Wait(); err != nil {
+		if exitErr, ok := err.(*exec.ExitError); ok {
+			if status, ok := exitErr.Sys().(windows.WaitStatus); ok {
+				result.ExitCode = int32(status.ExitStatus())
+			}
+		}
+	} else {
+		result.ExitCode = 0
+	}
 
-	result.ExitCode = waitStatus.ExitCode
-	result.Stdout = strings.TrimSpace(commandStdout.String())
-	result.Stderr = strings.TrimSpace(commandStderr.String())
-
+	result.Stdout = strings.TrimSpace(cmdStdout.String())
+	result.Stderr = strings.TrimSpace(cmdStderr.String())
 	return result, nil
 }
