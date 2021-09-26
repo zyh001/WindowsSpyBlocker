@@ -25,12 +25,7 @@ const PREFIX = "windowsSpyBlocker"
 func Menu(args ...string) (err error) {
 	menuCommands := []menu.CommandOption{
 		{
-			Description: "Add extra rules",
-			Color:       color.FgHiYellow,
-			Function:    addExtra,
-		},
-		{
-			Description: "Add spy rules",
+			Description: "Add spy rules (recommended)",
 			Color:       color.FgHiYellow,
 			Function:    addSpy,
 		},
@@ -38,6 +33,11 @@ func Menu(args ...string) (err error) {
 			Description: "Add update rules",
 			Color:       color.FgHiYellow,
 			Function:    addUpdate,
+		},
+		{
+			Description: "Add extra rules (ONLY use if you know what you do)",
+			Color:       color.FgHiYellow,
+			Function:    addExtra,
 		},
 		{
 			Description: "Remove WindowsSpyBlocker rules",
