@@ -2,9 +2,8 @@
 
 Useful links about telemetry data collection:
 
-* SiSyPHuS BSI Windows 10 Telemetry data ; [English](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage4_Telemetry.pdf) (partially)
-and [German](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4.html)
-* [MSWin10 GDPR Compliance](assets/MSWin10_GDPR_Compliance.pdf)
+* [Windows 10, version 20H2, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-20h2-endpoints)
+* [Windows 10, version 20H2, connection endpoints for non-Enterprise editions](https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-20h2-non-enterprise-editions)
 * [Windows 10, version 2004, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-2004-endpoints)
 * [Windows 10, version 2004, connection endpoints for non-Enterprise editions](https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-2004-non-enterprise-editions)
 * [Windows 10, version 1903, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-1903-endpoints)
@@ -21,3 +20,6 @@ and [German](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiS
 * [UseTerms Retail Windows 10 English](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm)
 * [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)
 * [Cortana and privacy](https://privacy.microsoft.com/en-US/windows-10-cortana-and-privacy)
+* [MSWin10 GDPR Compliance](assets/MSWin10_GDPR_Compliance.pdf)
+* SiSyPHuS BSI Windows 10 Telemetry data ; [English](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage4_Telemetry.pdf) (partially)
+  and [German](https://www.bsi.bund.de/DE/Themen/Cyber-Sicherheit/Empfehlungen/SiSyPHuS_Win10/AP4/SiSyPHuS_AP4.html)
