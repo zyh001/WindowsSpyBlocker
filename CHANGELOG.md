@@ -1,5 +1,24 @@
 # Changelog
 
+## 4.37.0 (2021/09/26)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Fix Windows 11 widgets and insider preview options (#372)
+* Change firewall menu based on recommendations (#352)
+* Update settings
+* Fix docs Dockerfile
+* Windows 11 support and drops Windows 7/8.1
+* Update telemetry info docs (#374)
+* Go 1.17 (#378)
+* Bump golang.org/x/sys to v0.0.0-20210925032602-92d5a993a665
+* Bump github.com/hako/durafmt to v0.0.0-20210608085754-5c1018a4e16b
+* Bump squidfunk/mkdocs-material from 7.1.4 to 7.2.6 in /docs (#368 #371)
+* Bump github.com/josephspurrier/goversioninfo from 1.2.0 to 1.3.0 (#366)
+* Bump github.com/PuerkitoBio/goquery from 1.6.1 to 1.7.1 (#359)
+* Bump github.com/miekg/dns from 1.1.42 to 1.1.43 (#357)
+* Bump github.com/0xrawsec/golang-evtx from 1.2.7 to 1.2.8 (#356)
+
 ## 4.36.0 (2021/05/16)
 
 * Update hosts for extra, spy and update rules
