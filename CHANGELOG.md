@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.37.1 (2021/09/27)
+
+* Fix windows.WaitStatus handling (#379)
+
 ## 4.37.0 (2021/09/26)
 
 * Update hosts for extra, spy and update rules
