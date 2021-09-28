@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.38.0 (2021/09/28)
+
+* Update IPs for extra, spy and update rules
+* Bump github.com/0xrawsec/golang-evtx from 1.2.8 to 1.2.9 (#380)
+
 ## 4.37.1 (2021/09/27)
 
 * Fix windows.WaitStatus handling (#379)
