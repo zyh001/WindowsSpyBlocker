@@ -2,7 +2,8 @@ name: build
 
 on:
   pull_request:
-    branches: 'master'
+    branches:
+      - 'master'
     paths:
       - '.github/workflows/build.yml'
       - 'app/**'
@@ -13,7 +14,8 @@ on:
       - 'go.sum'
   push:
     branches: 'master'
-    tags: '*.*.*'
+    tags:
+      - '*.*.*'
     paths:
       - '.github/workflows/build.yml'
       - 'app/**'
