@@ -1,6 +1,6 @@
 module github.com/crazy-max/WindowsSpyBlocker
 
-go 1.16
+go 1.17
 
 require (
 	github.com/0xrawsec/golang-evtx v1.2.9
@@ -17,4 +17,16 @@ require (
 	github.com/miekg/dns v1.1.49
 	github.com/pkg/errors v0.9.1
 	golang.org/x/sys v0.0.0-20211117180635-dee7805ff2e1
+)
+
+require (
+	github.com/0xrawsec/golang-utils v1.3.0 // indirect
+	github.com/akavel/rsrc v0.10.2 // indirect
+	github.com/akyoto/colorable v0.1.7 // indirect
+	github.com/akyoto/tty v0.1.4 // indirect
+	github.com/andybalholm/cascadia v1.3.1 // indirect
+	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/net v0.0.0-20210916014120-12bc252f5db8 // indirect
+	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 )
