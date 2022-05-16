@@ -2,6 +2,11 @@
 
 Useful links about telemetry data collection:
 
+* [Windows 11, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints)
+* [Windows 11, connection endpoints for non-Enterprise editions](https://docs.microsoft.com/en-us/windows/privacy/windows-11-endpoints-non-enterprise-editions)
+* [Windows 10, version 21H2, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-21h2-endpoints)
+* [Windows 10, version 21H1, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-21h1-endpoints)
+* [Windows 10, version 21H1, connection endpoints for non-Enterprise editions](https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-21h1-non-enterprise-editions)
 * [Windows 10, version 20H2, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-20h2-endpoints)
 * [Windows 10, version 20H2, connection endpoints for non-Enterprise editions](https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-20h2-non-enterprise-editions)
 * [Windows 10, version 2004, manage connection endpoints](https://docs.microsoft.com/en-us/windows/privacy/manage-windows-2004-endpoints)
