@@ -9,6 +9,7 @@ import (
 	"os"
 	"path"
 	"sort"
+	"strings"
 	"time"
 
 	"github.com/crazy-max/WindowsSpyBlocker/app/utils/config"
@@ -170,7 +171,7 @@ func getOnline(reportType string, ipOrDomain string) (Resolutions, error) {
 			result = append(result, Resolution{
 				Source:       uri,
 				LastResolved: lastResolved,
-				IpOrDomain:   resolve.Domain,
+				IpOrDomain:   strings.TrimSpace(strings.ReplaceAll(resolve.Domain, `"`, ``)),
 			})
 		}
 
