@@ -1,5 +1,22 @@
 # Changelog
 
+## 4.39.0 (2022/05/16)
+
+* Update hosts for extra, spy and update rules
+* Update IPs for extra, spy and update rules
+* Update telemetry info docs
+* Sanitize resolved domains
+* Bump go mod
+* Bump golang.org/x/sys to v0.0.0-20220513210249-45d2b4557a2a (#463)
+* Bump github.com/cavaliergopher/grab from 1.0.0 to 3.0.1 (#462)
+* Bump github.com/josephspurrier/goversioninfo from 1.3.0 to 1.4.0 (#420)
+* Bump github.com/kevinburke/go-bindata (#429)
+* Bump github.com/miekg/dns from 1.1.43 to 1.1.49 (#417 #442 #461)
+* Bump github.com/magefile/mage from 1.11.0 to 1.13.0 (#414 #443)
+* Bump github.com/akyoto/color from 1.8.11 to 1.8.12 (#401)
+* Bump github.com/go-ole/go-ole from 1.2.5 to 1.2.6 (#388)
+* Bump github.com/PuerkitoBio/goquery from 1.7.1 to 1.8.0 (#390)
+
 ## 4.38.0 (2021/09/28)
 
 * Update IPs for extra, spy and update rules
