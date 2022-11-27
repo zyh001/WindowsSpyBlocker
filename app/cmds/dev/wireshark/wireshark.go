@@ -275,7 +275,6 @@ func extractLog(args ...string) (err error) {
 	excluded := [][]string{}
 
 	fmt.Println("Analyzing events...")
-	//ioutil.WriteFile("wireshark.txt", []byte(cmdResult.Stdout), 0644)
 	lines := strings.Split(cmdResult.Stdout, "\n")
 	for _, line := range lines {
 		values := strings.Split(stringsu.RemoveExtraSpaces(line), " ")
@@ -307,8 +306,6 @@ func extractLog(args ...string) (err error) {
 		}
 
 		count, _ := strconv.Atoi(values[1])
-
-		//color.New(color.FgCyan).Println(host)
 		eventsHostsCount = append(eventsHostsCount, Event{
 			IP:     host,
 			Count:  count,

@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"path"
@@ -83,7 +82,7 @@ func GetIP6(domain string) IP6 {
 				return result
 			}
 		} else {
-			raw, err := ioutil.ReadFile(resultFile)
+			raw, err := os.ReadFile(resultFile)
 			if err != nil {
 				return result
 			}
@@ -101,7 +100,7 @@ func GetIP6(domain string) IP6 {
 
 	resultJson[domain] = result
 	resultJsonMarsh, _ := json.Marshal(resultJson)
-	ioutil.WriteFile(resultFile, resultJsonMarsh, 0644)
+	os.WriteFile(resultFile, resultJsonMarsh, 0644)
 
 	return result
 }

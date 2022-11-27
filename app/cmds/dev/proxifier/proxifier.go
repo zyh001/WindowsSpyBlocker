@@ -6,7 +6,6 @@ import (
 	"encoding/base64"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"os"
 	"path"
 	"regexp"
@@ -63,7 +62,7 @@ func extractLog(args ...string) (err error) {
 	defer logFile.Close()
 
 	fmt.Printf("Reading %s... ", config.App.Proxifier.LogPath)
-	fileBuf, err := ioutil.ReadFile(config.App.Proxifier.LogPath)
+	fileBuf, err := os.ReadFile(config.App.Proxifier.LogPath)
 	if err != nil {
 		print.Error(err)
 		return nil
@@ -103,7 +102,6 @@ func extractLog(args ...string) (err error) {
 			continue
 		}
 
-		//print.Pretty(sLine)
 		host := _getFilteredDomain(sLine)
 		if host == "" {
 			excluded = append(excluded, line)
@@ -120,7 +118,6 @@ func extractLog(args ...string) (err error) {
 		}
 
 		fmt.Println("Found", host)
-		//color.New(color.FgCyan).Println(host)
 		event := Event{
 			Date:    logDate,
 			Exe:     sLine[2],

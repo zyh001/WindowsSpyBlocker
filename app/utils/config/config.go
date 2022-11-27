@@ -3,7 +3,6 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"path"
 	"strings"
@@ -160,7 +159,7 @@ func init() {
 
 	// Create conf if not exists
 	if _, err := os.Stat(cfgPath); err != nil {
-		err = ioutil.WriteFile(cfgPath, defaultConf, 0644)
+		err = os.WriteFile(cfgPath, defaultConf, 0644)
 		if err != nil {
 			err = fmt.Errorf("Cannot write file %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 			print.QuitFatal(err)
@@ -168,7 +167,7 @@ func init() {
 	}
 
 	// Load current config
-	raw, err := ioutil.ReadFile(cfgPath)
+	raw, err := os.ReadFile(cfgPath)
 	if err != nil {
 		err = fmt.Errorf("Cannot read %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 		print.QuitFatal(err)
@@ -200,7 +199,7 @@ func init() {
 		err = fmt.Errorf("Cannot marshal config: %s", err.Error())
 		print.QuitFatal(err)
 	}
-	err = ioutil.WriteFile(cfgPath, cfgJson, 0644)
+	err = os.WriteFile(cfgPath, cfgJson, 0644)
 	if err != nil {
 		err = fmt.Errorf("Cannot write file %s: %s", strings.TrimLeft(cfgPath, pathu.Current), err.Error())
 		print.QuitFatal(err)

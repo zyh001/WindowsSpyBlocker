@@ -76,7 +76,6 @@ func testFirewallIpRange(ipRange string, testCsvFile *os.File) {
 		if ipNet == nil {
 			continue
 		}
-		//if ipNet[3] % 10 == 0 && ipNet[3] > 0 && ipNet[3] < 255 {
 		if ipNet[3] > 0 && ipNet[3] < 255 {
 			testFirewallIp(ip, testCsvFile)
 		}
