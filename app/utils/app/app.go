@@ -119,13 +119,11 @@ func isIpExcluded(ipStr string, exp string) bool {
 			return false
 		}
 		if bytes.Compare(ip, ipRange0) >= 0 && bytes.Compare(ip, ipRange1) <= 0 {
-			//fmt.Println(host + " in range of " + ipEx)
 			return true
 		}
 	} else if !netu.IsValidIPv4(exp) {
 		return false
 	} else if exp == ipStr {
-		//fmt.Println(host + " = " + ipEx)
 		return true
 	}
 

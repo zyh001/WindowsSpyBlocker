@@ -175,7 +175,6 @@ func ChocoPrepare() error {
 
 // flags returns ldflags
 func flags() string {
-	//hash := hash()
 	mod := mod()
 	tag := tag()
 	return fmt.Sprintf(`-s -w -X "%s/app/utils/config.AppVersion=%s"`, mod, tag)

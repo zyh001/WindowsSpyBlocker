@@ -118,7 +118,6 @@ func extractLog(args ...string) (err error) {
 		}
 
 		fmt.Println("Found", host)
-		//color.New(color.FgCyan).Println(host)
 		event := Event{
 			Date:    logDate,
 			Exe:     sLine[2],

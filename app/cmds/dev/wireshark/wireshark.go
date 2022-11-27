@@ -306,8 +306,6 @@ func extractLog(args ...string) (err error) {
 		}
 
 		count, _ := strconv.Atoi(values[1])
-
-		//color.New(color.FgCyan).Println(host)
 		eventsHostsCount = append(eventsHostsCount, Event{
 			IP:     host,
 			Count:  count,

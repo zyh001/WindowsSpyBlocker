@@ -155,7 +155,6 @@ func currentRules(args ...string) error {
 	oleutil.ForEach(rules, func(v *ole.VARIANT) error {
 		rule := v.ToIDispatch()
 		name := oleutil.MustGetProperty(rule, "Name").ToString()
-		//remoteaddr := oleutil.MustGetProperty(rule, "RemoteAddresses").ToString()
 		if strings.HasPrefix(name, getPrefix("")) {
 			fmt.Println(name)
 		}
@@ -198,7 +197,6 @@ func addFirewallRule(prefix string, ip string) {
 	err = oleutil.ForEach(rules, func(v *ole.VARIANT) error {
 		rule := v.ToIDispatch()
 		name := oleutil.MustGetProperty(rule, "Name").ToString()
-		//remoteaddr := oleutil.MustGetProperty(rule, "RemoteAddresses").ToString()
 		if name == fmt.Sprintf("%s-%s", prefix, ip) {
 			return errors.New("emit macho dwarf: elf header corrupted")
 		}

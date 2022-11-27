@@ -23,24 +23,20 @@ func (slice ips) Less(i, j int) bool {
 	if netu.IsValidIpv4Range(slice[i].IP) {
 		if ipsRange, err := netu.GetIpsFromIPRange(slice[i].IP); err == nil {
 			ipA = net.ParseIP(ipsRange[0])
-			//fmt.Println("ipA GetIpsFromIPRange", slice[i].IP, ipsRange[0])
 		}
 	} else if strings.Contains(slice[i].IP, "/") {
 		if ipsCidr, err := netu.GetIpsFromCIDR(slice[i].IP); err == nil {
 			ipA = net.ParseIP(ipsCidr[0])
-			//fmt.Println("ipA GetIpsFromCIDR", slice[i].IP, ipsCidr[0])
 		}
 	}
 	ipB := net.ParseIP(slice[j].IP)
 	if netu.IsValidIpv4Range(slice[j].IP) {
 		if ipsRange, err := netu.GetIpsFromIPRange(slice[j].IP); err == nil {
 			ipB = net.ParseIP(ipsRange[0])
-			//fmt.Println("ipB GetIpsFromIPRange", slice[j].IP, ipsRange[0])
 		}
 	} else if strings.Contains(slice[j].IP, "/") {
 		if ipsCidr, err := netu.GetIpsFromCIDR(slice[j].IP); err == nil {
 			ipB = net.ParseIP(ipsCidr[0])
-			//fmt.Println("ipB GetIpsFromCIDR", slice[j].IP, ipsCidr[0])
 		}
 	}
 

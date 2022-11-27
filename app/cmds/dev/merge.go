@@ -61,7 +61,6 @@ func mergeFirewall(rule string) {
 		return
 	}
 	print.Ok()
-	//print.Pretty(strings.Split(string(firewallDataBuf), "\n"))
 
 	err = mergeExtIPs(rule, data.EXT_ESET, firewallDataBuf)
 	if err != nil {
@@ -123,7 +122,6 @@ func mergeHosts(rule string) {
 		return
 	}
 	print.Ok()
-	//print.Pretty(strings.Split(string(firewallDataBuf), "\n"))
 
 	err = mergeExtHosts(rule, data.EXT_DNSCRYPT, hostsDataBuf)
 	if err != nil {

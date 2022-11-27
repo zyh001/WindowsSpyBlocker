@@ -252,7 +252,6 @@ func extractEventLog(args ...string) (err error) {
 		eventPort, _ := strconv.Atoi(eventxData.DestinationPort)
 
 		fmt.Println("Found", host)
-		//color.New(color.FgCyan).Println(host)
 		event := Event{
 			Date:     eventDate,
 			Process:  eventxData.Image,
