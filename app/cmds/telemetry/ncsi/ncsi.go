@@ -2,7 +2,7 @@ package ncsi
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net"
 	"net/http"
 	"time"
@@ -231,7 +231,7 @@ func testHttpProbe(url string, content string) error {
 		return fmt.Errorf("HTTP status code %d", response.StatusCode)
 	}
 
-	bodyBytes, err := ioutil.ReadAll(response.Body)
+	bodyBytes, err := io.ReadAll(response.Body)
 	if err != nil {
 		return err
 	}

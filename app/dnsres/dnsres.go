@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"path"
@@ -72,7 +71,7 @@ func GetDnsRes(ipAddressOrDomain string) Resolutions {
 				return result
 			}
 		} else {
-			raw, err := ioutil.ReadFile(resultFile)
+			raw, err := os.ReadFile(resultFile)
 			if err != nil {
 				/*if printed {
 					print.Error(err)
@@ -127,7 +126,7 @@ func GetDnsRes(ipAddressOrDomain string) Resolutions {
 		}*/
 	}
 
-	err = ioutil.WriteFile(resultFile, resultJsonMarsh, 0644)
+	err = os.WriteFile(resultFile, resultJsonMarsh, 0644)
 	if err != nil {
 		/*if printed {
 			print.Error(err)

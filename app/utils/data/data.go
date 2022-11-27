@@ -3,7 +3,6 @@ package data
 import (
 	"encoding/xml"
 	"fmt"
-	"io/ioutil"
 	"net"
 	"os"
 	"path"
@@ -63,7 +62,7 @@ func getAssetExternal(assetPath string) ([]string, error) {
 	}
 	defer extFile.Close()
 
-	extFileBuf, err := ioutil.ReadFile(extPath)
+	extFileBuf, err := os.ReadFile(extPath)
 	if err != nil {
 		return []string{}, errors.New(fmt.Sprintf("Cannot read file: %s", strings.TrimLeft(extPath, pathu.Current)))
 	}

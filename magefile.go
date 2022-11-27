@@ -7,7 +7,6 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"path"
@@ -161,12 +160,12 @@ func ChocoPrepare() error {
 		return err
 	}
 
-	nuspec, err := ioutil.ReadFile(chocoNuspec)
+	nuspec, err := os.ReadFile(chocoNuspec)
 	if err != nil {
 		return err
 	}
 	nuspecContent := strings.Replace(string(nuspec), "<version>0.0.0</version>", fmt.Sprintf("<version>%s</version>", tag()), -1)
-	err = ioutil.WriteFile(chocoNuspec, []byte(nuspecContent), 0)
+	err = os.WriteFile(chocoNuspec, []byte(nuspecContent), 0)
 	if err != nil {
 		return err
 	}
@@ -387,7 +386,6 @@ func cleanDir(dir string) error {
 
 func copyDir(src string, dst string) error {
 	var err error
-	var fds []os.FileInfo
 	var srcinfo os.FileInfo
 
 	if srcinfo, err = os.Stat(src); err != nil {
@@ -398,7 +396,8 @@ func copyDir(src string, dst string) error {
 		return err
 	}
 
-	if fds, err = ioutil.ReadDir(src); err != nil {
+	fds, err := os.ReadDir(src)
+	if err != nil {
 		return err
 	}
 

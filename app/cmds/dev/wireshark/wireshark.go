@@ -275,7 +275,6 @@ func extractLog(args ...string) (err error) {
 	excluded := [][]string{}
 
 	fmt.Println("Analyzing events...")
-	//ioutil.WriteFile("wireshark.txt", []byte(cmdResult.Stdout), 0644)
 	lines := strings.Split(cmdResult.Stdout, "\n")
 	for _, line := range lines {
 		values := strings.Split(stringsu.RemoveExtraSpaces(line), " ")

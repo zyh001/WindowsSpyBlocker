@@ -3,7 +3,7 @@ package app
 import (
 	"bytes"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net"
 	"net/http"
 	"os"
@@ -160,7 +160,7 @@ func GetLatestVersion() (string, error) {
 	defer response.Body.Close()
 
 	if response.StatusCode == 200 {
-		bodyBytes, err := ioutil.ReadAll(response.Body)
+		bodyBytes, err := io.ReadAll(response.Body)
 		if err != nil {
 			return "", err
 		}

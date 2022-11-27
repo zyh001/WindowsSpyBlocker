@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"net/http/cookiejar"
 	"os"
@@ -23,8 +22,8 @@ import (
 
 // Timeout and URI templates for Whois external services
 const (
-	HTTP_TIMEOUT  = 10
-	CACHE_TIMEOUT = 172800
+	HttpTimeout  = 10
+	CacheTimeout = 172800
 )
 
 // Whois structure
@@ -88,82 +87,34 @@ type ipApiWhois struct {
 func GetWhois(ipAddressOrDomain string) Whois {
 	var result Whois
 
-	/*if printed {
-		fmt.Print("Get whois of ")
-		color.New(color.FgYellow).Printf("%s", ipAddressOrDomain)
-		fmt.Print(" from ")
-	}*/
-
 	resultFile := path.Join(pathu.Tmp, "whois.json")
 	resultJson := make(map[string]Whois)
 
 	if resultTmpInfo, err := os.Stat(resultFile); err == nil {
 		resultTmpModified := time.Since(resultTmpInfo.ModTime()).Seconds()
-		if resultTmpModified > CACHE_TIMEOUT {
+		if resultTmpModified > CacheTimeout {
 			fmt.Printf("Creating file %s... ", resultFile)
 			if err := file.CreateFile(resultFile); err != nil {
-				/*if printed {
-					print.Error(err)
-				}*/
 				return result
 			}
 		} else {
-			raw, err := ioutil.ReadFile(resultFile)
+			raw, err := os.ReadFile(resultFile)
 			if err != nil {
-				/*if printed {
-					print.Error(err)
-				}*/
 				return result
 			}
-			err = json.Unmarshal(raw, &resultJson)
-			if err != nil {
-				/*if printed {
-					print.Error(err)
-				}*/
+			if err = json.Unmarshal(raw, &resultJson); err != nil {
 				return result
 			}
 			if result, found := resultJson[ipAddressOrDomain]; found {
-				/*if printed {
-					color.New(color.FgMagenta).Print("cache")
-					fmt.Print("... ")
-					print.Ok()
-				}*/
 				return result
 			}
 		}
 	}
 
-	/*if printed {
-		color.New(color.FgMagenta).Print("online api")
-		fmt.Print("... ")
-	}*/
-
-	result, err := getOnline(ipAddressOrDomain)
-	if err != nil {
-		/*if printed {
-			print.Error(err)
-		}*/
-	} /* else {
-		if printed {
-			print.Ok()
-		}
-	}*/
-
+	result, _ = getOnline(ipAddressOrDomain)
 	resultJson[ipAddressOrDomain] = result
-	resultJsonMarsh, err := json.Marshal(resultJson)
-	if err != nil {
-		/*if printed {
-			print.Error(err)
-		}*/
-	}
-
-	err = ioutil.WriteFile(resultFile, resultJsonMarsh, 0644)
-	if err != nil {
-		/*if printed {
-			print.Error(err)
-		}*/
-	}
-
+	resultJsonMarsh, _ := json.Marshal(resultJson)
+	os.WriteFile(resultFile, resultJsonMarsh, 0644)
 	return result
 }
 
@@ -171,7 +122,7 @@ func getOnline(ip string) (Whois, error) {
 	var result Whois
 	var err error
 
-	timeout := time.Duration(HTTP_TIMEOUT * time.Second)
+	timeout := HttpTimeout * time.Second
 	httpClient := http.Client{
 		Timeout: timeout,
 	}

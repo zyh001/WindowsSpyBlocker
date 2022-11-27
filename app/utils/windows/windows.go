@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"syscall"
 	"unsafe"
 
 	"github.com/akyoto/color"
@@ -83,7 +82,7 @@ func SetConsoleTitle(title string) (int, error) {
 		return 0, err
 	}
 
-	r, _, err := syscall.Syscall(proc, 1, uintptr(unsafe.Pointer(rTitle)), 0, 0)
+	r, _, err := windows.Syscall(proc, 1, uintptr(unsafe.Pointer(rTitle)), 0, 0)
 	return int(r), err
 }
 

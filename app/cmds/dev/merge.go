@@ -4,13 +4,11 @@ import (
 	"bytes"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"os"
 	"path"
 	"regexp"
 	"sort"
 	"strings"
-
 	"time"
 
 	"github.com/akyoto/color"
@@ -57,7 +55,7 @@ func mergeFirewall(rule string) {
 	defer logFile.Close()
 
 	fmt.Printf("Reading %s... ", strings.TrimLeft(firewallDataPath, pathu.Current))
-	firewallDataBuf, err := ioutil.ReadFile(firewallDataPath)
+	firewallDataBuf, err := os.ReadFile(firewallDataPath)
 	if err != nil {
 		print.Error(err)
 		return
@@ -119,7 +117,7 @@ func mergeHosts(rule string) {
 	defer logFile.Close()
 
 	fmt.Printf("Reading %s... ", strings.TrimLeft(hostsDataPath, pathu.Current))
-	hostsDataBuf, err := ioutil.ReadFile(hostsDataPath)
+	hostsDataBuf, err := os.ReadFile(hostsDataPath)
 	if err != nil {
 		print.Error(err)
 		return
