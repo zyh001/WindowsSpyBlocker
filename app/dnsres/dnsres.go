@@ -19,8 +19,8 @@ import (
 
 // Timeout and URI templates for DNS resolutions external services
 const (
-	HTTP_TIMEOUT  = 10
-	CACHE_TIMEOUT = 172800
+	HttpTimeout  = 10
+	CacheTimeout = 172800
 )
 
 type dataIp struct {
@@ -51,88 +51,41 @@ type dataDomain struct {
 func GetDnsRes(ipAddressOrDomain string) Resolutions {
 	var result Resolutions
 
-	/*if printed {
-		fmt.Print("Get resolutions of ")
-		color.New(color.FgYellow).Printf("%s", ipAddressOrDomain)
-		fmt.Print(" from ")
-	}*/
-
 	resultFile := path.Join(pathu.Tmp, "resolutions.json")
 	resultJson := make(map[string]Resolutions)
 
 	if resultTmpInfo, err := os.Stat(resultFile); err == nil {
 		resultTmpModified := time.Since(resultTmpInfo.ModTime()).Seconds()
-		if resultTmpModified > CACHE_TIMEOUT {
+		if resultTmpModified > CacheTimeout {
 			fmt.Printf("Creating file %s... ", resultFile)
 			if err := file.CreateFile(resultFile); err != nil {
-				/*if printed {
-					print.Error(err)
-				}*/
 				return result
 			}
 		} else {
 			raw, err := os.ReadFile(resultFile)
 			if err != nil {
-				/*if printed {
-					print.Error(err)
-				}*/
 				return result
 			}
 			err = json.Unmarshal(raw, &resultJson)
 			if err != nil {
-				/*if printed {
-					print.Error(err)
-				}*/
 				return result
 			}
 			if result, found := resultJson[ipAddressOrDomain]; found {
-				/*if printed {
-					color.New(color.FgMagenta).Print("cache")
-					fmt.Print("... ")
-					print.Ok()
-				}*/
 				sort.Sort(result)
 				return result
 			}
 		}
 	}
 
-	/*if printed {
-		color.New(color.FgMagenta).Print("online api")
-		fmt.Print("... ")
-	}*/
-
 	reportType := "domain"
 	if netu.IsValidIPv4(ipAddressOrDomain) {
 		reportType = "ip"
 	}
 
-	result, err := getOnline(reportType, ipAddressOrDomain)
-	if err != nil {
-		/*if printed {
-			print.Error(err)
-		}*/
-	} /* else {
-		if printed {
-			print.Ok()
-		}
-	}*/
-
+	result, _ = getOnline(reportType, ipAddressOrDomain)
 	resultJson[ipAddressOrDomain] = result
-	resultJsonMarsh, err := json.Marshal(resultJson)
-	if err != nil {
-		/*if printed {
-			print.Error(err)
-		}*/
-	}
-
-	err = os.WriteFile(resultFile, resultJsonMarsh, 0644)
-	if err != nil {
-		/*if printed {
-			print.Error(err)
-		}*/
-	}
-
+	resultJsonMarsh, _ := json.Marshal(resultJson)
+	_ = os.WriteFile(resultFile, resultJsonMarsh, 0644)
 	return result
 }
 
@@ -140,7 +93,7 @@ func getOnline(reportType string, ipOrDomain string) (Resolutions, error) {
 	var result Resolutions
 	uri := fmt.Sprintf(config.Settings.Uris.Threatcrowd, reportType, reportType, ipOrDomain)
 
-	timeout := time.Duration(HTTP_TIMEOUT * time.Second)
+	timeout := HttpTimeout * time.Second
 	httpClient := http.Client{
 		Timeout: timeout,
 	}

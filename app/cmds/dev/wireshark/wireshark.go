@@ -180,9 +180,6 @@ func capture(args ...string) (err error) {
 
 	fmt.Println("\nTo stop the capture, press CTRL+D")
 
-	/*fmt.Print("Starting capture on ")
-	color.New(color.FgYellow).Printf("%s", networkItfSel.Name)
-	fmt.Printf(" in %s...", strings.TrimLeft(outputPcapng, pathu.Current))*/
 	command := exec.Command(path.Join(wiresharkLib.OutputPath, "dumpcap.exe"),
 		"-i", strconv.Itoa(config.App.Wireshark.Capture.Interface),
 		"-f", config.App.Wireshark.Capture.Filter,
