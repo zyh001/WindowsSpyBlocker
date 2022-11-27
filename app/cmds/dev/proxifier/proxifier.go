@@ -230,6 +230,10 @@ func _getFilteredDomain(sLine []string) string {
 		sHost := strings.Split(domain, ":")
 		domain = sHost[0]
 	}
+	if strings.Contains(domain, "(") {
+		sHost := strings.Split(domain, "(")
+		domain = sHost[0]
+	}
 
 	if strings.Contains(domain, `\`) {
 		return ""
