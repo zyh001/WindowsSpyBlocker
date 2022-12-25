@@ -1,6 +1,6 @@
 {
   "uris": {
-    "latestVersion": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/latest",
+    "latestVersion": "https://raw.fastgit.org/crazy-max/WindowsSpyBlocker/master/.res/latest",
     "threatcrowd": "https://www.threatcrowd.org/searchApi/v2/%s/report/?%s=%s",
     "whatis": "https://whatismyipaddress.com/ip/",
     "dnsquery": "https://dnsquery.org/whois/",
@@ -123,10 +123,10 @@
         "webHostV6": "network-test.debian.org",
         "webPathV6": "nm",
         "webContentV6": "NetworkManager is online\n",
-        "dnsHostV4": "resolver1.opendns.com",
-        "dnsContentV4": "208.67.222.222",
-        "dnsHostV6": "resolver1.opendns.com",
-        "dnsContentV6": "2620:119:35::35"
+        "dnsHostV4": "www.jcut.edu.cn",
+        "dnsContentV4": "61.136.197.234",
+        "dnsHostV6": "www.jcut.edu.cn",
+        "dnsContentV6": "2001:250:4005:2::194"
       },
       "firefox": {
         "webHostV4": "detectportal.firefox.com",
@@ -135,10 +135,10 @@
         "webHostV6": "detectportal.firefox.com",
         "webPathV6": "success.txt",
         "webContentV6": "success\n",
-        "dnsHostV4": "resolver1.opendns.com",
-        "dnsContentV4": "208.67.222.222",
-        "dnsHostV6": "resolver1.opendns.com",
-        "dnsContentV6": "2620:119:35::35"
+        "dnsHostV4": "www.jcut.edu.cn",
+        "dnsContentV4": "61.136.197.234",
+        "dnsHostV6": "www.jcut.edu.cn",
+        "dnsContentV6": "2001:250:4005:2::194"
       }
     }
   },
