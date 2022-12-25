@@ -1,6 +1,6 @@
 {
   "uris": {
-    "latestVersion": "https://raw.fastgit.org/crazy-max/WindowsSpyBlocker/master/.res/latest",
+    "latestVersion": "https://raw.fastgit.org/zyh001/WindowsSpyBlocker/master/.res/latest",
     "threatcrowd": "https://www.threatcrowd.org/searchApi/v2/%s/report/?%s=%s",
     "whatis": "https://whatismyipaddress.com/ip/",
     "dnsquery": "https://dnsquery.org/whois/",
@@ -11,19 +11,19 @@
   },
   "libs": {
     "wireshark_32": {
-      "url": "https://dl.crazymax.dev/Wireshark-win32-3.0.2.zip",
+      "url": "https://1.na.dl.wireshark.org/win32/Wireshark-win32-3.6.10.exe",
       "checkfile": "wireshark\\tshark.exe"
     },
     "wireshark_64": {
-      "url": "https://dl.crazymax.dev/Wireshark-win64-3.0.2.zip",
+      "url": "https://2.na.dl.wireshark.org/win64/Wireshark-win64-4.0.2.exe",
       "checkfile": "wireshark\\tshark.exe"
     },
     "npcap": {
-      "url": "https://nmap.org/npcap/dist/npcap-0.995.exe",
+      "url": "https://npcap.com/dist/npcap-1.72.exe",
       "checkfile": "C:\\Windows\\System32\\Npcap\\wpcap.dll"
     },
     "sysmon": {
-      "url": "https://dl.crazymax.dev/Sysmon-3.10.zip",
+      "url": "https://download.sysinternals.com/files/Sysmon.zip",
       "checkfile": "sysmon\\Sysmon.exe"
     }
   },

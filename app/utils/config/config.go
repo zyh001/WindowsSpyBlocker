@@ -16,7 +16,7 @@ import (
 // App
 var (
 	AppName    = "WindowsSpyBlocker"
-	AppVersion = "4.39.0_jcut"
+	AppVersion = "0.0.0"
 	AppURL     = "https://github.com/crazy-max/WindowsSpyBlocker"
 )
 

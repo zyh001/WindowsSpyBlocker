@@ -164,7 +164,7 @@ func ChocoPrepare() error {
 	if err != nil {
 		return err
 	}
-	nuspecContent := strings.Replace(string(nuspec), "<version>4.39.0_jcut</version>", fmt.Sprintf("<version>%s</version>", tag()), -1)
+	nuspecContent := strings.Replace(string(nuspec), "<version>0.0.0</version>", fmt.Sprintf("<version>%s</version>", tag()), -1)
 	err = os.WriteFile(chocoNuspec, []byte(nuspecContent), 0)
 	if err != nil {
 		return err
