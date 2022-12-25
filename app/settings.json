@@ -123,10 +123,10 @@
         "webHostV6": "network-test.debian.org",
         "webPathV6": "nm",
         "webContentV6": "NetworkManager is online\n",
-        "dnsHostV4": "www.jcut.edu.cn",
-        "dnsContentV4": "61.136.197.234",
-        "dnsHostV6": "www.jcut.edu.cn",
-        "dnsContentV6": "2001:250:4005:2::194"
+        "dnsHostV4": "dns.jcut.edu.cn",
+        "dnsContentV4": "218.199.48.8",
+        "dnsHostV6": "dns.jcut.edu.cn",
+        "dnsContentV6": "2001:250:4005:2::8"
       },
       "firefox": {
         "webHostV4": "detectportal.firefox.com",
@@ -135,10 +135,10 @@
         "webHostV6": "detectportal.firefox.com",
         "webPathV6": "success.txt",
         "webContentV6": "success\n",
-        "dnsHostV4": "www.jcut.edu.cn",
-        "dnsContentV4": "61.136.197.234",
-        "dnsHostV6": "www.jcut.edu.cn",
-        "dnsContentV6": "2001:250:4005:2::194"
+        "dnsHostV4": "dns.jcut.edu.cn",
+        "dnsContentV4": "218.199.48.8",
+        "dnsHostV6": "dns.jcut.edu.cn",
+        "dnsContentV6": "2001:250:4005:2::8"
       }
     }
   },
